@@ -294,6 +294,10 @@ political_decisions = {
 		effect = {
 				set_country_flag = graet_igm23
 				badboy = 5
+
+				any_owned = {
+                                remove_core = AFG
+                }
 				SIN_1288 = { add_core = THIS }
 				ENG_1292 = { add_core = THIS }
 				ENG_1291 = { add_core = THIS }
@@ -301,9 +305,6 @@ political_decisions = {
 				PAN_1231 = { add_core = THIS }
 				PAN_1239 = { add_core = THIS }
 				ENG_1236 = { add_core = THIS }
-				1242 = { add_core = THIS }
-				1244 = { add_core = THIS }
-				1270 = { add_core = THIS }
 		}
 		ai_will_do = {
 			factor = 1
