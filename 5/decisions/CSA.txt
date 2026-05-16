@@ -1,0 +1,59 @@
+political_decisions = {
+	form_kellys_irish_brigade = {
+		picture = form_kellys_irish_brigade
+		potential = {
+			tag = CSA
+			war_with = USA
+			NOT = {
+				has_country_flag = kellys_irish_brigade
+			}
+		}
+		allow = {
+			war_exhaustion = 4
+		}
+		effect = {
+			random_pop = {
+				limit = {
+					pop_type = farmers
+					has_pop_culture = dixie
+				}
+				pop_type = soldiers
+			}
+			war_exhaustion = -1
+			set_country_flag = kellys_irish_brigade
+		}
+	}
+	raise_the_bonnie_blue_flag = {
+	picture = raise_the_bonnie_blue_flag
+		potential = {
+			tag = CSA
+			NOT = {
+				OR = {
+					has_country_flag = bonnie_blue_flag
+					has_country_flag = 1861CSAstart
+					}
+			}
+		}
+		allow = {
+			war_with = USA
+		}
+		effect = {
+			define_general = {
+				name = "Robert E.Lee"
+				personality = soft
+				background = coolminded
+			}
+			define_general = {
+				name = "Thomas Jackson"
+				personality = daring
+				background = school_of_defense
+			}
+			add_country_modifier = {
+				name = the_bonnie_blue_flag
+				duration = 365
+			}
+			set_country_flag = bonnie_blue_flag
+		}
+	}
+}
+

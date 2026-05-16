@@ -1,0 +1,192 @@
+country_event = {
+
+	id = 99912139
+	fire_only_once = yes
+	trigger = {
+		tag = PER
+	}
+	option = {
+		name = "EVTOPTA101139"
+		badboy = 25
+	}
+	title = "EVTNAME101139"
+	desc = "EVTDESC101187"
+	picture = "Administration"
+}
+
+country_event = {
+ id = 777004
+ title = "EVTNAME777004"
+ desc = "EVTDESC777004"
+ picture = "news"
+
+ trigger = {
+ tag = PER
+ year = 1905
+ OR = {
+ government = absolute_monarchy
+ government = prussian_constitutionalism
+ government = hms_government
+ }
+ }
+
+ fire_only_once = yes
+
+ mean_time_to_happen = {
+ months = 6
+ }
+
+ option = {
+ name = "EVT777004OPTA"
+ prestige = 15
+ any_pop = {
+ consciousness = 1
+ militancy = 2
+ }
+ }
+
+ }
+
+country_event = {
+ id = 777005
+ title = "EVTNAME777005"
+ desc = "EVTDESC777005"
+ picture = "news"
+
+ trigger = {
+ tag = PER
+ year = 1906
+ OR = {
+ government = absolute_monarchy
+ government = prussian_constitutionalism
+ government = hms_government
+ }
+ }
+
+ fire_only_once = yes
+
+ mean_time_to_happen = {
+ months = 6
+ }
+
+ option = {
+ name = "EVT777005OPTA"
+ prestige = 10
+		any_pop = {
+ consciousness = 3
+ militancy = 2
+ }
+ }
+
+ }
+
+country_event = {
+ id = 777001
+ title = "EVTNAME777001"
+ desc = "EVTDESC777001"
+ picture = "news"
+
+ trigger = {
+ tag = PER
+ year = 1848
+ OR = {
+ government = absolute_monarchy
+ government = prussian_constitutionalism
+ government = hms_government
+ }
+ }
+
+ fire_only_once = yes
+
+ mean_time_to_happen = {
+ months = 6
+ }
+
+ option = {
+ name = "EVT777001OPTA"
+ prestige = 18
+ any_pop = {
+ consciousness = -0.50
+ militancy = -0.50
+ }
+ add_country_modifier = {
+ name = "silver_age"
+ duration = -1
+ }
+ set_country_flag = silver_age
+ }
+
+ }
+
+country_event = {
+
+	id = 34500
+
+	trigger = {
+		tag = PER
+		year = 1853
+		NOT = {
+			year = 1856
+			}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1854
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1855
+		}
+	}
+
+	title = "EVTNAME34500"
+	desc = "EVTDESC34500"
+	picture = "oldenburg"
+
+	option = {
+		name = "EVTOPTA34500" 
+		prestige = 10
+	}
+
+}
+
+country_event = {
+ id = 777002
+ title = "EVTNAME777002"
+ desc = "EVTDESC777002"
+ picture = "news"
+
+ fire_only_once = yes
+
+ trigger = {
+ tag = PER
+ year = 1896
+ OR = {
+ militancy = 3
+ consciousness = 0
+ }
+ }
+
+ mean_time_to_happen = {
+ months = 5
+ }
+
+ option = {
+ name = "EVT777002PTA"
+ any_pop = {
+ militancy = 3
+ consciousness = -1
+ }
+ remove_country_modifier = silver_age
+ clr_country_flag = silver_age
+ }
+}
+

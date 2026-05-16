@@ -1,0 +1,126 @@
+spriteTypes = {
+	spriteType = { name = "ALASKA" texturefile = "gfx\\pictures\\events\\alaska.tga" loadType = "INGAME" }
+	# spriteType = { name = "ALBERDI" texturefile = "gfx\\pictures\\events\\Alberdi.tga" loadType = "INGAME" }
+	# spriteType = { name = "ANACONDA" texturefile = "gfx\\pictures\\events\\Anaconda.tga" loadType = "INGAME" }
+	spriteType = { name = "ANARCHOLIBERALS" texturefile = "gfx\\pictures\\events\\AnarchoLiberals.tga" loadType = "INGAME" }
+	spriteType = { name = "ANGRY_NATIVES" texturefile = "gfx\\pictures\\events\\angry_natives.tga" loadType = "INGAME" }
+	spriteType = { name = "ANTI-JACOBIN" texturefile = "gfx\\pictures\\events\\Anti-Jacobin.tga" loadType = "INGAME" }
+	spriteType = { name = "ARRESTED" texturefile = "gfx\\pictures\\events\\arrested.tga" loadType = "INGAME" }
+	spriteType = { name = "ARTILLERY" texturefile = "gfx\\pictures\\events\\Artillery.tga" loadType = "INGAME" }
+	spriteType = { name = "ARMAMENT_DEPOT" texturefile = "gfx\\pictures\\events\\Artillery.tga" loadType = "INGAME" }
+	# spriteType = { name = "ATHLETICCHAMP" texturefile = "gfx\\pictures\\events\\AthleticChamp.tga" loadType = "INGAME" }
+	spriteType = { name = "BANKRUPTCY" texturefile = "gfx\\pictures\\events\\Bankruptcy.tga" loadType = "INGAME" }
+	# spriteType = { name = "BENGALINOVEL" texturefile = "gfx\\pictures\\events\\BengaliNovel.tga" loadType = "INGAME" }
+	spriteType = { name = "BOTANIC_EXPEDITION" texturefile = "gfx\\pictures\\events\\Botanic_expedition.tga" loadType = "INGAME" }
+	# spriteType = { name = "BUDAPEST" texturefile = "gfx\\pictures\\events\\Budapest.tga" loadType = "INGAME" }
+	# spriteType = { name = "CENSUS" texturefile = "gfx\\pictures\\events\\census.tga" loadType = "INGAME" }
+	spriteType = { name = "CHOLERA" texturefile = "gfx\\pictures\\events\\Cholera.tga" loadType = "INGAME" }
+	spriteType = { name = "CHRISTIANSBORGS" texturefile = "gfx\\pictures\\events\\Christiansborgs.tga" loadType = "INGAME" }
+	spriteType = { name = "CITYFIRE" texturefile = "gfx\\pictures\\events\\cityfire.tga" loadType = "INGAME" }
+	# spriteType = { name = "CLERKS" texturefile = "gfx\\pictures\\events\\Clerks.tga" loadType = "INGAME" }
+	spriteType = { name = "COLONIAL_FACTORY" texturefile = "gfx\\pictures\\events\\colonial_factory.tga" loadType = "INGAME" }
+	spriteType = { name = "COLONIAL_UPRISING" texturefile = "gfx\\pictures\\events\\colonial_uprising.tga" loadType = "INGAME" }
+	spriteType = { name = "COUNTRYSIDE" texturefile = "gfx\\pictures\\events\\countryside.tga" loadType = "INGAME" }
+	spriteType = { name = "CRISIS" texturefile = "gfx\\pictures\\events\\crisis.tga" loadType = "INGAME" }
+	spriteType = { name = "CUBANREBELS" texturefile = "gfx\\pictures\\events\\Cubanrebels.tga" loadType = "INGAME" }
+	spriteType = { name = "DEMONSTRATION" texturefile = "gfx\\pictures\\events\\Demonstration.tga" loadType = "INGAME" }
+	spriteType = { name = "DESTROYED_FOREST" texturefile = "gfx\\pictures\\events\\destroyed_forest.tga" loadType = "INGAME" }
+	# spriteType = { name = "DEUTSCHLANDLIED" texturefile = "gfx\\pictures\\events\\Deutschlandlied.tga" loadType = "INGAME" }
+	spriteType = { name = "DISEASE" texturefile = "gfx\\pictures\\events\\disease.tga" loadType = "INGAME" }
+	spriteType = { name = "EARTHQUAKE" texturefile = "gfx\\pictures\\events\\earthquake.tga" loadType = "INGAME" }
+	spriteType = { name = "EGYPTIAN" texturefile = "gfx\\pictures\\events\\Egyptian.tga" loadType = "INGAME" }
+	spriteType = { name = "ELDERLY" texturefile = "gfx\\pictures\\events\\Elderly.tga" loadType = "INGAME" }
+	spriteType = { name = "ELEPHANT" texturefile = "gfx\\pictures\\events\\elephant.tga" loadType = "INGAME" }
+	# spriteType = { name = "FACTORYATTACK" texturefile = "gfx\\pictures\\events\\Factoryattack.tga" loadType = "INGAME" }
+	# spriteType = { name = "FACUNDO" texturefile = "gfx\\pictures\\events\\Facundo.tga" loadType = "INGAME" }
+	# spriteType = { name = "FC_SHEFFIELD" texturefile = "gfx\\pictures\\events\\FC_Sheffield.tga" loadType = "INGAME" }
+	spriteType = { name = "FINEPEOPLE" texturefile = "gfx\\pictures\\events\\Finepeople.tga" loadType = "INGAME" }
+	# spriteType = { name = "FLAGSTAFFWAR" texturefile = "gfx\\pictures\\events\\flagstaffwar.tga" loadType = "INGAME" }
+	# spriteType = { name = "GENEVACONVENTION" texturefile = "gfx\\pictures\\events\\genevaconvention.tga" loadType = "INGAME" }
+	spriteType = { name = "GERONIMO" texturefile = "gfx\\pictures\\events\\geronimo.tga" loadType = "INGAME" }
+	spriteType = { name = "GLYPTOTEKET" texturefile = "gfx\\pictures\\events\\Glyptoteket.tga" loadType = "INGAME" }
+	# spriteType = { name = "GOD" texturefile = "gfx\\pictures\\events\\god.tga" loadType = "INGAME" }
+	spriteType = { name = "GOLDRUSH" texturefile = "gfx\\pictures\\events\\goldrush.tga" loadType = "INGAME" }
+	spriteType = { name = "HARASSMENT" texturefile = "gfx\\pictures\\events\\Harassment.tga" loadType = "INGAME" }
+	spriteType = { name = "HOSPITAL" texturefile = "gfx\\pictures\\events\\Hospital.tga" loadType = "INGAME" }
+	spriteType = { name = "ILIJA" texturefile = "gfx\\pictures\\events\\Ilija.tga" loadType = "INGAME" }
+	spriteType = { name = "INVENTION" texturefile = "gfx\\pictures\\events\\Invention.tga" loadType = "INGAME" }
+	spriteType = { name = "JEWS" texturefile = "gfx\\pictures\\events\\jews.tga" loadType = "INGAME" }
+	spriteType = { name = "KRUPP" texturefile = "gfx\\pictures\\events\\krupp.tga" loadType = "INGAME" }
+	spriteType = { name = "LEOPOLDIV" texturefile = "gfx\\pictures\\events\\leopoldiv.tga" loadType = "INGAME" }
+	spriteType = { name = "LIQUOR" texturefile = "gfx\\pictures\\events\\liquor.tga" loadType = "INGAME" }
+	spriteType = { name = "LORDDALHOUSIE" texturefile = "gfx\\pictures\\events\\LordDalhousie.tga" loadType = "INGAME" }
+	spriteType = { name = "LOVER" texturefile = "gfx\\pictures\\events\\Lover.tga" loadType = "INGAME" }
+	spriteType = { name = "MARKET" texturefile = "gfx\\pictures\\events\\market.tga" loadType = "INGAME" }
+	spriteType = { name = "MEETING3" texturefile = "gfx\\pictures\\events\\meeting3.tga" loadType = "INGAME" }
+	# spriteType = { name = "MERCHANTS" texturefile = "gfx\\pictures\\events\\Merchants.tga" loadType = "INGAME" }
+	spriteType = { name = "METIS" texturefile = "gfx\\pictures\\events\\Metis.tga" loadType = "INGAME" }
+	spriteType = { name = "MINING" texturefile = "gfx\\pictures\\events\\Mining.tga" loadType = "INGAME" }
+	spriteType = { name = "MONARCHY" texturefile = "gfx\\pictures\\events\\Monarchy.tga" loadType = "INGAME" }
+	spriteType = { name = "NATIVE_FORCE" texturefile = "gfx\\pictures\\events\\native_force.tga" loadType = "INGAME" }
+	spriteType = { name = "NAVIONEGREIRO" texturefile = "gfx\\pictures\\events\\NavioNegreiro.tga" loadType = "INGAME" }
+	spriteType = { name = "NILE" texturefile = "gfx\\pictures\\events\\Nile.tga" loadType = "INGAME" }
+	spriteType = { name = "NOBEL_CHEMISTRY" texturefile = "gfx\\pictures\\events\\Nobel_Chemistry.tga" loadType = "INGAME" }
+	spriteType = { name = "NOBEL_LITERATURE" texturefile = "gfx\\pictures\\events\\Nobel_Literature.tga" loadType = "INGAME" }
+	spriteType = { name = "NOBEL_MEDICINE" texturefile = "gfx\\pictures\\events\\Nobel_Medicine.tga" loadType = "INGAME" }
+	spriteType = { name = "NOBEL_PEACE" texturefile = "gfx\\pictures\\events\\Nobel_Peace.tga" loadType = "INGAME" }
+	spriteType = { name = "NORTHPOLE1" texturefile = "gfx\\pictures\\events\\Northpole1.tga" loadType = "INGAME" }
+	spriteType = { name = "NORTHPOLE2" texturefile = "gfx\\pictures\\events\\Northpole2.tga" loadType = "INGAME" }
+	spriteType = { name = "NORTHPOLE3" texturefile = "gfx\\pictures\\events\\Northpole3.tga" loadType = "INGAME" }
+	spriteType = { name = "OLDSOLDIERS" texturefile = "gfx\\pictures\\events\\Oldsoldiers.tga" loadType = "INGAME" }
+	spriteType = { name = "OLIVERTWIST" texturefile = "gfx\\pictures\\events\\Olivertwist.tga" loadType = "INGAME" }
+	spriteType = { name = "OPIUM" texturefile = "gfx\\pictures\\events\\Opium.tga" loadType = "INGAME" }
+	spriteType = { name = "OPIUMWAR" texturefile = "gfx\\pictures\\events\\Opiumwar.tga" loadType = "INGAME" }
+	spriteType = { name = "OUTSIDE_INFLUENCES" texturefile = "gfx\\pictures\\events\\Outside_influences.tga" loadType = "INGAME" }
+	spriteType = { name = "PATROL" texturefile = "gfx\\pictures\\events\\patrol.tga" loadType = "INGAME" }
+	spriteType = { name = "PELEE" texturefile = "gfx\\pictures\\events\\pelee.tga" loadType = "INGAME" }
+	spriteType = { name = "PENAL_COLONY" texturefile = "gfx\\pictures\\events\\penal_colony.tga" loadType = "INGAME" }
+	spriteType = { name = "POLICE" texturefile = "gfx\\pictures\\events\\Police.tga" loadType = "INGAME" }
+	spriteType = { name = "POLICEACTION" texturefile = "gfx\\pictures\\events\\Policeaction.tga" loadType = "INGAME" }
+	spriteType = { name = "POOR" texturefile = "gfx\\pictures\\events\\Poor.tga" loadType = "INGAME" }
+	spriteType = { name = "PRISONERS" texturefile = "gfx\\pictures\\events\\prisoners.tga" loadType = "INGAME" }
+	spriteType = { name = "PRIVATE_BANKS" texturefile = "gfx\\pictures\\events\\private_banks.tga" loadType = "INGAME" }
+	# spriteType = { name = "PROHIBITION" texturefile = "gfx\\pictures\\events\\Prohibition.tga" loadType = "INGAME" }
+	spriteType = { name = "PROPAGANDA" texturefile = "gfx\\pictures\\events\\propaganda.tga" loadType = "INGAME" }
+	spriteType = { name = "PUBLISHERS" texturefile = "gfx\\pictures\\events\\publishers.tga" loadType = "INGAME" }
+	spriteType = { name = "PUNCH" texturefile = "gfx\\pictures\\events\\punch.tga" loadType = "INGAME" }
+	spriteType = { name = "RAILROAD" texturefile = "gfx\\pictures\\events\\railroad.tga" loadType = "INGAME" }
+	spriteType = { name = "RAILWAY_COMPANY" texturefile = "gfx\\pictures\\events\\railway_company.tga" loadType = "INGAME" }
+	spriteType = { name = "SELLING_BEARS_TO_JAN_MEYEN" texturefile = "gfx\\pictures\\events\\selling_bears_to_jan_meyen.tga" loadType = "INGAME" }
+	spriteType = { name = "SHIP_ATTACKED" texturefile = "gfx\\pictures\\events\\ship_attacked.tga" loadType = "INGAME" }
+	spriteType = { name = "SIGHT" texturefile = "gfx\\pictures\\events\\sight.tga" loadType = "INGAME" }
+	# spriteType = { name = "SIOUX" texturefile = "gfx\\pictures\\events\\Sioux.tga" loadType = "INGAME" }
+	spriteType = { name = "SISI" texturefile = "gfx\\pictures\\events\\Sisi.tga" loadType = "INGAME" }
+	spriteType = { name = "SISIASSASSINATION" texturefile = "gfx\\pictures\\events\\sisiassassination.tga" loadType = "INGAME" }
+	# spriteType = { name = "SITTINGBULL" texturefile = "gfx\\pictures\\events\\sittingbull.tga" loadType = "INGAME" }
+	spriteType = { name = "SLUMS" texturefile = "gfx\\pictures\\events\\slums.tga" loadType = "INGAME" }
+	spriteType = { name = "SMALLPOX" texturefile = "gfx\\pictures\\events\\smallpox.tga" loadType = "INGAME" }
+	spriteType = { name = "SMOKING" texturefile = "gfx\\pictures\\events\\smoking.tga" loadType = "INGAME" }
+	spriteType = { name = "SOCIALISM" texturefile = "gfx\\pictures\\events\\Socialism.tga" loadType = "INGAME" }
+	spriteType = { name = "SOUTHPOLE1" texturefile = "gfx\\pictures\\events\\Southpole1.tga" loadType = "INGAME" }
+	spriteType = { name = "SOUTHPOLE2" texturefile = "gfx\\pictures\\events\\Southpole2.tga" loadType = "INGAME" }
+	spriteType = { name = "SOUTHPOLE3" texturefile = "gfx\\pictures\\events\\Southpole3.tga" loadType = "INGAME" }
+	spriteType = { name = "STARVING" texturefile = "gfx\\pictures\\events\\starving.tga" loadType = "INGAME" }
+	spriteType = { name = "STOCKS" texturefile = "gfx\\pictures\\events\\stocks.tga" loadType = "INGAME" }
+	spriteType = { name = "STRIKE" texturefile = "gfx\\pictures\\events\\Strike.tga" loadType = "INGAME" }
+	spriteType = { name = "SUPPORTWAR" texturefile = "gfx\\pictures\\events\\supportwar.tga" loadType = "INGAME" }
+	spriteType = { name = "TELEGRAPH" texturefile = "gfx\\pictures\\events\\telegraph.tga" loadType = "INGAME" }
+	# spriteType = { name = "TEMPERANCELEAGUE" texturefile = "gfx\\pictures\\events\\TemperanceLeague.tga" loadType = "INGAME" }
+	spriteType = { name = "THREEHURRAHS" texturefile = "gfx\\pictures\\events\\threehurrahs.tga" loadType = "INGAME" }
+	spriteType = { name = "TOMB" texturefile = "gfx\\pictures\\events\\Tomb.tga" loadType = "INGAME" }
+	spriteType = { name = "TROYA" texturefile = "gfx\\pictures\\events\\Troya.tga" loadType = "INGAME" }
+	spriteType = { name = "UNITE" texturefile = "gfx\\pictures\\events\\Unite.tga" loadType = "INGAME" }
+	spriteType = { name = "VALLEYOFTHEKINGS" texturefile = "gfx\\pictures\\events\\ValleyoftheKings.tga" loadType = "INGAME" }
+	spriteType = { name = "VANITYFAIR" texturefile = "gfx\\pictures\\events\\vanityfair.tga" loadType = "INGAME" }
+	spriteType = { name = "WAITANGI" texturefile = "gfx\\pictures\\events\\Waitangi.tga" loadType = "INGAME" }
+	spriteType = { name = "WANTED" texturefile = "gfx\\pictures\\events\\wanted.tga" loadType = "INGAME" }
+	spriteType = { name = "WESTERN" texturefile = "gfx\\pictures\\events\\Western.tga" loadType = "INGAME" }
+	spriteType = { name = "WESTERN_EDUCATION" texturefile = "gfx\\pictures\\events\\Western_education.tga" loadType = "INGAME" }
+	spriteType = { name = "WILHELMIV" texturefile = "gfx\\pictures\\events\\WilhelmIV.tga" loadType = "INGAME" }
+	spriteType = { name = "WINDSOR" texturefile = "gfx\\pictures\\events\\windsor.tga" loadType = "INGAME" }
+	spriteType = { name = "WOMENSRIGHTS" texturefile = "gfx\\pictures\\events\\Womensrights.tga" loadType = "INGAME" }
+	spriteType = { name = "WORKERS" texturefile = "gfx\\pictures\\events\\Workers.tga" loadType = "INGAME" }
+	spriteType = { name = "YMCA" texturefile = "gfx\\pictures\\events\\ymca.tga" loadType = "INGAME" }
+	spriteType = { name = "ZULU" texturefile = "gfx\\pictures\\events\\zulu.tga" loadType = "INGAME" }
+}
+

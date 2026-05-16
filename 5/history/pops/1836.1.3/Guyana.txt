@@ -1,0 +1,190 @@
+#Georgetown
+2239 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 350
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = orthodox
+        size = 750
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = orthodox
+        size = 700
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = orthodox
+        size = 1500
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = orthodox
+        size = 53075
+    }
+
+}
+
+#Mahdia
+2242 = {
+    aristocrats = {
+        culture = north_andean
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = orthodox
+        size = 90000
+    }
+
+}
+
+#Essequibo
+2243 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = orthodox
+        size = 750
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = orthodox
+        size = 3000
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = orthodox
+        size = 750
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = orthodox
+        size = 85500
+    }
+
+}
+
+#Biloka
+1979 = {
+    aristocrats = {
+        culture = north_andean
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = orthodox
+        size = 70000
+    }
+
+}
+

@@ -1,0 +1,80 @@
+#Port Au Prince
+2213 = {
+    aristocrats = {
+        culture = french
+        religion = orthodox
+        size = 825
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = orthodox
+        size = 150
+    }
+
+    officers = {
+        culture = french
+        religion = orthodox
+        size = 150
+    }
+
+    clergymen = {
+        culture = french
+        religion = orthodox
+        size = 775
+    }
+
+    artisans = {
+        culture = french
+        religion = orthodox
+        size = 3900
+    }
+
+    soldiers = {
+        culture = french
+        religion = orthodox
+        size = 4000
+    }
+
+    farmers = {
+        culture = french
+        religion = orthodox
+        size = 68300
+    }
+
+}
+
+#Cap Haitien
+2215 = {
+    aristocrats = {
+        culture = french
+        religion = orthodox
+        size = 550
+    }
+
+    clergymen = {
+        culture = french
+        religion = orthodox
+        size = 475
+    }
+
+    artisans = {
+        culture = french
+        religion = orthodox
+        size = 2550
+    }
+
+    soldiers = {
+        culture = french
+        religion = orthodox
+        size = 1100
+    }
+
+    farmers = {
+        culture = french
+        religion = orthodox
+        size = 46425
+    }
+
+}
+

@@ -1,0 +1,47 @@
+country_event = {
+
+	id = 36936 #parallel to AST43801, ENG more often than not will own AST directly at this point, so needs own event.
+
+	trigger = {
+		tag = AST 
+		year = 1859
+		owns = 2468 #Sydney
+		owns = 2476 #Melbourne
+		owns = 2491 #Adelaide
+		NOT = {
+			year = 1864
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 10
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1860
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1861
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1862
+		}
+	}
+
+	title = "EVTNAME43801"
+	desc = "EVTDESC43801"
+	picture = "BurkeandWills"
+
+	option = {
+		name = "EVTOPTA43801" 
+		prestige = 30
+	}
+}
+

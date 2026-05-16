@@ -1,0 +1,790 @@
+political_decisions = {
+	foreign_investiments_ara = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = ARA
+			is_greater_power = no
+			NOT = {
+				has_country_modifier = investiments_yes
+			}
+		}
+		allow = {
+			money = 120000
+		}
+		effect = {
+			add_country_modifier = {
+				name = investiments_yes
+				duration = 1825
+			}
+			THIS = {
+				country_event = { id=18930 days=0 }
+			}
+		}
+	}
+	arabian_colonisation = {
+		picture = build_kiel_canal
+		potential = {
+			NOT = { 
+				has_country_flag = sasai_kudasai2 
+				year = 1870
+			}
+			tag = ARA
+		}
+		allow = {
+			owns = 1735
+			year = 1855
+		}
+		effect = {
+			prestige = 5
+			1740 = { secede_province = ARA }
+			1740 = { add_core = ARA }
+			1740 = { life_rating = 25 }
+			1738 = { secede_province = ARA }
+			1738 = { add_core = ARA }
+			1738 = { life_rating = 25 }
+            1739 = { secede_province = ARA }
+			1739 = { add_core = ARA }
+			1739 = { life_rating = 25 }
+			2585 = { secede_province = ARA }
+			2585 = { add_core = ARA }
+			2585 = { life_rating = 25 }
+			set_country_flag = sasai_kudasai2
+		}
+	}
+	arabian_choise = {
+		picture = build_kiel_canal
+		potential = {
+			NOT = { 
+				has_country_flag = arab_choise 
+			}
+			tag = ARA
+		}
+		allow = {
+			year = 1845
+		}
+		effect = {
+			THIS = {
+				country_event = { id=666666 days=0 }
+			}
+			set_country_flag = arab_choise 
+		}
+	}
+		build_the_tower_of_babylon = {
+	picture = build_the_tower_of_babylon
+		potential = {
+			OR = {
+			tag = TUR
+			tag = ARA
+			tag = IGM
+ }
+			NOT = {
+				has_country_flag = Babilon
+			}
+		}
+		allow = {
+			advanced_metallurgy = 1
+			the_historical_theory = 1
+		}
+		effect = {
+			set_country_flag = Babilon 
+			TUR_931 = {
+				add_core = BAB
+			}
+			TUR_935 = {
+				add_core = BAB
+			}
+			prestige = 20
+		}
+	}
+	eastern_crisis = {
+	picture = brazzas_expedition
+		potential = {
+			NOT = { has_country_flag = sasai_kudasai }
+			OR = { 
+				tag = EGY
+				tag = ARA 
+			}
+		}
+		allow = {
+			OR = {
+				AND = {
+					year = 1860
+					owns = 1151
+					owns = 1178
+					owns = 1166
+					owns = 1167
+					owns = 1160
+					owns = 1157
+					owns = 1156
+				}
+			year = 1880
+			}
+		}
+		effect = {
+			prestige = 20 
+			add_accepted_culture = maghrebi
+			set_country_flag = sasai_kudasai
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+enact_muhammad_alis_reforms = {
+ picture = enact_muhammad_alis_reforms
+		potential = {
+			OR = { 
+			tag = EGY
+			tag = ARA
+ }
+			civilized = no
+			NOT = {
+				has_country_flag = muhammad_alis_reforms_enacted
+			}
+		}
+		allow = {
+			prestige = 5
+			OR = {
+				average_consciousness = 2
+				ai = no
+				}
+		}
+		effect = {
+			add_country_modifier = {
+				name = muhammad_alis_reforms
+				duration = 7300
+			}
+			add_country_modifier = {
+				name = arab_tech_school
+				duration = 3650
+			}
+			any_pop = {
+				literacy = 0.10
+			}
+			HDJ = {any_pop = {
+				literacy = 0.10
+			}}
+			YEM = {any_pop = {
+				literacy = 0.10
+			}}
+			NEJ = {any_pop = {
+				literacy = 0.10
+			}}
+			ABU = {any_pop = {
+				literacy = 0.10
+			}}
+			OMA = {any_pop = {
+				literacy = 0.10
+			}}
+			HDJ = {
+			add_casus_belli = {
+				target = EGY
+				type = conquest2
+				months = 12
+			}}
+			economic_reform = yes_admin_reform
+			set_country_flag = muhammad_alis_reforms_enacted
+		}
+	}
+	neft_kompania_1c = { 
+	alert = yes
+	potential = { 
+	 has_country_flag = close_company	
+	 has_country_flag = invested_nc
+			or = {
+tag = IGM
+tag = PER
+tag = ARA
+}
+		}
+	allow = {
+	not = {
+	check_variable = {
+       which = company_level
+       value = 2.01
+}
+}
+	ai = no
+	year = 1880
+		}
+	effect = {
+clr_country_flag = invested_nc	
+	 change_variable = {	
+	which = company_level
+	value = 1
+       }
+		}
+	ai_will_do = {
+				factor = 0.5
+		}
+	}
+neft_kompania_form = { 
+	alert = yes
+	potential = { 
+	not = {
+	has_country_flag = close_company
+	 }
+	any_owned_province = {
+				trade_goods = oil
+			}
+			or = {
+tag = IGM
+tag = PER
+tag = ARA
+}
+or = {
+ part_of_sphere = yes
+ is_greater_power = yes
+}		 
+		}
+	allow = {
+	 money = 2000000
+ not = {
+	check_variable = {
+       which = company_level
+       value = 0.99
+}
+}
+	ai = no
+	year = 1880
+		}
+	effect = { 
+	 money = -2000000
+	  country_event = 1011201
+		}
+	ai_will_do = {
+				factor = 0.5
+		}
+	}
+	neft_kompania6 = { 
+	alert = yes
+	potential = {
+   is_greater_power = yes	
+	 		not = {
+			has_country_modifier = cost_of_inv_4
+			}
+			 or = {
+PER = {
+	 in_sphere = this
+   has_country_flag = close_company
+}
+	IGM = {
+	 in_sphere = this
+   has_country_flag = close_company
+}
+ARA = {
+	 in_sphere = this
+   has_country_flag = close_company
+}
+and = {
+tag = IGM
+is_greater_power = yes}  
+and = {
+tag = ARA
+is_greater_power = yes}
+and = {
+tag = PER
+is_greater_power = yes}
+}
+		}
+	allow = {
+	is_greater_power = yes
+	 ai = no
+  or = {
+PER = {
+	 in_sphere = this
+   has_country_flag = close_company
+}
+IGM = {
+	 in_sphere = this
+   has_country_flag = close_company
+}
+ARA = {
+	 in_sphere = this
+   has_country_flag = close_company
+}
+and = {
+tag = IGM
+is_greater_power = yes}  
+and = {
+tag = ARA
+is_greater_power = yes}
+and = {
+tag = PER
+is_greater_power = yes}
+}
+money = 5000000
+		}
+	effect = { 
+	 money = -2000000
+	  money = -2000000
+	   money = -1000000
+	set_country_flag = invested_nc
+	add_country_modifier = {
+	  name = cost_of_inv_4
+	  duration = 700
+	  }
+	  any_country = {
+		limit = {
+		in_sphere = THIS
+		has_country_flag = close_company
+		}
+		set_country_flag = invested_nc
+	  }
+		}
+	}
+	north_africa = {
+	picture = form_italy_min
+		potential = {
+		OR = { 
+		tag = FRA
+		tag = TUR
+		tag = ITA
+		tag = SPA
+		tag = ARA
+		tag = EGY
+		}
+		NOT = { has_global_flag = expand_ended }
+		}
+		allow = {
+			OR = {
+				MOR_1688 = { owned_by = THIS }
+				MOR_1688 = { owner = { in_sphere = THIS }}
+			}
+			OR = {
+				MOR_1683 = { owned_by = THIS }
+				MOR_1683 = { owner = { in_sphere = THIS }}
+			}
+			OR = {
+				MOR_1686 = { owned_by = THIS }
+				MOR_1686 = { owner = { in_sphere = THIS }}
+			}
+			OR = {
+				MOR_1693 = { owned_by = THIS }
+				MOR_1693 = { owner = { in_sphere = THIS }}
+			}
+			OR = {
+				MOR_1696 = { owned_by = THIS }
+				MOR_1696 = { owner = { in_sphere = THIS }}
+			}
+			OR = {
+				FRA_1700 = { owned_by = THIS }
+				FRA_1700 = { owner = { in_sphere = THIS }}
+			}
+			OR = {
+				ALD_1704 = { owned_by = THIS }
+				ALD_1704 = { owner = { in_sphere = THIS }}
+			}
+			OR = {
+				ALD_1708 = { owned_by = THIS }
+				ALD_1708 = { owner = { in_sphere = THIS }}
+			}
+			OR = {
+				TUN_1726 = { owned_by = THIS }
+				TUN_1726 = { owner = { in_sphere = THIS }}
+			}
+			OR = {
+				TRI_1743 = { owned_by = THIS }
+				TRI_1743 = { owner = { in_sphere = THIS }}
+			}
+			OR = {
+				EGY_1753 = { owned_by = THIS }
+				EGY_1753 = { owner = { in_sphere = THIS }}
+			}
+		}
+		effect = { 
+		set_country_flag = exp_end
+		set_global_flag = expand_ended
+		EGY_1753 = { remove_core = ARA }
+		TRI = { all_core = {remove_core = TRI}}
+		ALD = { all_core = {remove_core = FRA}}
+		MOR = { all_core = {remove_core = MOR}}
+		TUN = { all_core = {remove_core = TUN}}
+		prestige = 150
+		}
+	}
+	Osman_peredacha = {
+        picture = OSMAN_PEREDACHA
+        potential = {
+			exists = TUR
+			OR = {    
+				tag = EGY
+				tag = ARA
+			}
+            NOT = { has_country_flag = creat }
+        }
+        allow = {
+            war = no
+            897 = {
+                OR = {
+                    owned_by = THIS
+                    owner = {
+                        in_sphere = THIS
+                    }
+                }
+            }
+        }
+        effect = {
+            set_country_flag = creat
+            TUR_876 = {
+				secede_province = TUR
+            }
+            847 = {
+				secede_province = TUR
+            }
+			848 = {
+				secede_province = TUR
+            }
+		    prestige = -10	
+        }    
+	         ai_will_do = {
+             factor = 0
+             }
+    }
+	vibor_techshkol1 = {
+		potential = {
+	    civilized = yes
+		ai = no
+		OR = {
+			tag = JAP
+			tag = PER
+			tag = ARA
+			tag = EGY
+		}
+		   NOT = { has_country_flag = tech_shkola1 
+		   has_country_flag = tech_shkola2
+		   has_country_flag = tech_shkola3}
+		}
+		allow = {
+		 civilized = yes
+		 tech_school = traditional_academic
+		}
+		effect = {
+	 add_country_modifier = {
+				name = academic_confusion
+				duration = 2560
+			}
+			tech_school = commerce_tech_school
+		THIS = {
+		country_event = 101103 
+		set_country_flag = tech_shkola1 }
+		}
+	}
+vibor_techshkol2 = {
+		potential = {
+	    civilized = yes
+		ai = no
+		OR = {
+			tag = JAP
+			tag = PER
+			tag = ARA
+			tag = EGY
+		}
+		   NOT = { has_country_flag = tech_shkola1 
+		   has_country_flag = tech_shkola2
+		   has_country_flag = tech_shkola3}
+		}
+		allow = {
+		 civilized = yes
+		 tech_school = traditional_academic
+		}
+		effect = {
+		add_country_modifier = {
+				name = academic_confusion
+				duration = 2560
+			}
+			tech_school = culture_tech_school
+	 THIS = {
+		country_event = 101104 
+		set_country_flag = tech_shkola2 }
+		 }
+	}
+vibor_techshkol3 = {
+		potential = {
+	    civilized = yes
+		ai = no
+		OR = {
+			tag = JAP
+			tag = PER
+			tag = ARA
+			tag = EGY
+		}
+		   NOT = { has_country_flag = tech_shkola1 
+		   has_country_flag = tech_shkola2
+		   has_country_flag = tech_shkola3}
+		}
+		allow = {
+		 civilized = yes
+		 tech_school = traditional_academic
+		}
+		effect = { 
+		add_country_modifier = {
+				name = academic_confusion
+				duration = 2560
+			}
+			tech_school = army_tech_school
+		THIS = {
+		country_event = 101105 
+		set_country_flag = tech_shkola3 }
+		}
+	}
+	form_arabia = {
+	picture = form_arabia
+		potential = {
+			ARA = { exists = no }
+			is_culture_group = arab
+		}
+		allow = {
+			OR = { 
+				AND = { 
+					is_greater_power = yes
+					any_neighbor_country = {
+						in_sphere = this
+						is_culture_group = arab
+						relation = { who = THIS value = 100 }
+					}
+				}
+				AND = {
+					tag = EGY
+					HDJ = { 
+						all_core = { owned_by = THIS } 
+					}
+					NEJ = { 
+						all_core = { owned_by = THIS } 
+					}
+				}
+			    AND = {
+					tag = EGY
+					NEJ = { 
+						all_core = { owned_by = TUR } 
+					}
+				}
+				AND = {
+					tag = EGY 
+					year = 1845
+				}
+			}
+		}
+		effect = {
+			prestige = 30
+			badboy = 10
+			all_core = {
+				limit = {
+					owned_by = THIS
+				}
+				remove_core = THIS 
+				add_core = ARA
+			}
+			change_tag = ARA
+			random_country = {
+				limit = {
+					is_culture_group = THIS
+					in_sphere = THIS
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+					}
+				}
+				country_event = 111011928
+			}
+			add_accepted_culture = bedouin
+			any_country = {
+				limit = {
+					is_culture_group = THIS
+				}
+				all_core = {
+					add_core = ARA
+				}
+			}
+			914 = {
+				remove_core = ARA
+ }
+			912 = {
+				remove_core = ARA
+ }
+			915 = {
+				remove_core = ARA
+ }
+			902 = {
+				remove_core = ARA
+ }
+			913 = {
+				remove_core = ARA
+ }
+			903 = {
+				remove_core = ARA
+ }
+			906 = {
+				remove_core = ARA
+ }
+			907 = {
+				remove_core = ARA
+ }
+			931 = {
+				remove_core = ARA
+ }
+			927 = {
+				remove_core = ARA
+ }
+			929 = {
+				remove_core = ARA
+ }
+			926 = {
+				remove_core = ARA
+ }
+			934 = {
+				remove_core = ARA
+ }
+			935 = {
+				remove_core = ARA
+ }
+			932 = {
+				remove_core = ARA
+ }
+			933 = {
+				remove_core = ARA
+ }
+			930 = {
+				remove_core = ARA
+ }
+			928 = {
+				remove_core = ARA
+ }
+			925 = {
+				remove_core = ARA
+ }
+			924 = {
+				remove_core = ARA
+ }
+			923 = {
+				remove_core = ARA
+ }
+			1683 = {
+				remove_core = ARA
+ }
+			1684 = {
+				remove_core = ARA
+ }
+			1697 = {
+				remove_core = ARA
+ }
+			1698 = {
+				remove_core = ARA
+ }
+			1699 = {
+				remove_core = ARA
+ }
+			1686 = {
+				remove_core = ARA
+ }
+			1687 = {
+				remove_core = ARA
+ }
+			1688 = {
+				remove_core = ARA
+ }
+			1681 = {
+				remove_core = ARA
+ }
+			1685 = {
+				remove_core = ARA
+ }
+			1682 = {
+				remove_core = ARA
+ }
+			1680 = {
+				remove_core = ARA
+ }
+			1692 = {
+				remove_core = ARA
+ }
+			1691 = {
+				remove_core = ARA
+ }
+			2563 = {
+				remove_core = ARA
+ }
+			1690 = {
+				remove_core = ARA
+ }
+			1693 = {
+				remove_core = ARA
+ }
+			1695 = {
+				remove_core = ARA
+ }
+			1694 = {
+				remove_core = ARA
+ }
+			1696 = {
+				remove_core = ARA
+ }
+            1725 = {
+				remove_core = ARA
+ }
+            1726 = {
+				remove_core = ARA
+ }
+            1727 = {
+				remove_core = ARA
+ }
+            1728 = {
+				remove_core = ARA
+ }
+            1729 = {
+				remove_core = ARA
+ }
+            1730 = {
+				remove_core = ARA
+ }
+            1740 = {
+				remove_core = ARA
+ }
+            1738 = {
+				remove_core = ARA
+ }
+            1739 = {
+				remove_core = ARA
+ }
+            2585 = {
+				remove_core = ARA
+ }
+            ALD_1708 = {
+				remove_core = ARA
+ }
+            ALD_1704 = {
+				remove_core = ARA
+ }
+            FRA_1700 = {
+				remove_core = ARA
+ }
+            PER_1138 = {
+				remove_core = ARA
+ }
+			EGY_903 = {remove_core = EGY
+			}
+			EGY_915 = {remove_core = EGY}
+            1737 = {
+			add_core = ARA
+			}
+			1736 = {
+			add_core = ARA
+			}
+			1735 = {
+			add_core = ARA
+			}
+			1734 = {
+			add_core = ARA
+			}
+			1733 = {
+			add_core = ARA
+			}
+			EGY_903 = { add_core = TUR }
+			EGY_915 = { add_core = TUR }
+			1868 = {add_core = ARA}
+			2030 = {add_core = ARA}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

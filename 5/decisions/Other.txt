@@ -1,0 +1,1299 @@
+political_decisions = {
+	gon_kong = {
+		picture = build_kiel_canal
+		potential = {
+			NOT = { has_country_flag = gon_kong }
+			1496 = { owned_by = THIS }
+		}
+		allow = {
+			year = 1855
+			1496 = { owned_by = ENG }
+		}
+		effect = {
+			prestige = 5
+			badboy = 5
+			1496 = {trade_goods = precious_metal}
+			set_country_flag = gon_kong
+		}
+	}
+	dip_med = {
+	picture = dip_med
+		potential = {
+ civilized = yes
+			NOT = {
+				has_country_flag = dip_med
+			}
+		}
+		allow = {
+			money = 30000
+			year = 1836
+		}
+		effect = {
+			set_country_flag = dip_med
+			add_country_modifier = {
+				name = med_ref_mp
+				duration = 100000
+			}
+			prestige = 5
+			money = -30000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dip_med1 = {
+	picture = dip_med
+		potential = {
+		has_country_flag = dip_med
+			NOT = {
+				has_country_flag = dip_med1
+			}
+		}
+		allow = {
+			money = 100000
+			year = 1840
+		}
+		effect = {
+			set_country_flag = dip_med1
+			remove_country_modifier = med_ref_mp
+			add_country_modifier = {
+				name = med_ref_mp1
+				duration = 100000
+			}
+			prestige = 5
+			money = -100000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dip_med2 = {
+	picture = dip_med
+		potential = {
+			prestige = 10
+		has_country_flag = dip_med1
+			NOT = {
+				has_country_flag = dip_med2
+			}
+		}
+		allow = {
+			money = 375000
+			year = 1844
+		}
+		effect = {
+			set_country_flag = dip_med2
+			remove_country_modifier = med_ref_mp1
+			add_country_modifier = {
+				name = med_ref_mp2
+				duration = 100000
+			}
+			prestige = 5
+			money = -375000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dip_med3 = {
+	picture = dip_med
+		potential = {
+			prestige = 10
+		has_country_flag = dip_med2
+			NOT = {
+				has_country_flag = dip_med3
+			}
+		}
+		allow = {
+			money = 625000
+			year = 1848
+		}
+		effect = {
+			set_country_flag = dip_med3
+			remove_country_modifier = med_ref_mp2
+			add_country_modifier = {
+				name = med_ref_mp3
+				duration = 100000
+			}
+			prestige = 10
+			money = -625000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dip_med4 = {
+	picture = dip_med
+		potential = {
+			prestige = 15
+		has_country_flag = dip_med3
+			NOT = {
+				has_country_flag = dip_med4
+			}
+		}
+		allow = {
+			money = 1500000
+			year = 1852
+		}
+		effect = {
+			set_country_flag = dip_med4
+			remove_country_modifier = med_ref_mp3
+			add_country_modifier = {
+				name = med_ref_mp4
+				duration = 100000
+			}
+			prestige = 20
+			money = -1500000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dip_med5 = {
+	picture = dip_med
+		potential = {
+			prestige = 30
+		has_country_flag = dip_med4
+			NOT = {
+				has_country_flag = dip_med5
+			}
+		}
+		allow = {
+			money = 5000000
+			year = 1900
+		}
+		effect = {
+			set_country_flag = dip_med5
+			remove_country_modifier = med_ref_mp4
+			add_country_modifier = {		
+				name = med_ref_mp5
+				duration = 100000
+			}
+			prestige = 30
+			money = -5000000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	form_republic_a = {
+		potential = {
+		year = 1870
+			government = democracy
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		allow = {			
+			prestige = 300
+			year = 1880			
+		}
+		effect = {
+			add_country_modifier = {
+				name = republic_a
+				duration = 1460
+			}
+			clr_country_flag = war_push_used
+			clr_country_flag = communist_b
+			clr_country_flag = republic1_b
+			clr_country_flag = big_brother_is_watching
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	form_republic_b = {
+		potential = {
+		year = 1870
+			government = democracy
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		allow = {			
+			prestige = 300
+			year = 1880		
+		}
+		effect = {
+			set_country_flag = republic1_b
+			add_country_modifier = {
+				name = republic_b
+				duration = 1460
+			}
+			clr_country_flag = war_def_used
+			clr_country_flag = communist_b
+			clr_country_flag = big_brother_is_watching
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	form_comunist_a = {
+		potential = {
+		year = 1870
+			government = proletarian_dictatorship
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		allow = {			
+			prestige = 300
+			year = 1880			
+		}
+		effect = {
+			add_country_modifier = {
+				name = comunist_a
+				duration = 1460
+			}
+			clr_country_flag = war_push_used
+			clr_country_flag = communist_b
+			clr_country_flag = republic1_b
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	form_comunist_b = {
+		potential = {
+		year = 1870
+			government = proletarian_dictatorship
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		allow = {			
+			prestige = 300
+			year = 1880			
+		}
+		effect = {
+			set_country_flag = communist_b
+			add_country_modifier = {
+				name = comunist_b
+				duration = 1460
+			}
+			clr_country_flag = war_def_used
+			clr_country_flag = republic1_b
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	form_fashist_a = {
+		potential = {
+			government = fascist_dictatorship
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		allow = {			
+			prestige = 500
+			year = 1880			
+		}
+		effect = {
+			add_country_modifier = {
+				name = fashist_a
+				duration = 1460
+			}
+			clr_country_flag = war_push_used
+			clr_country_flag = communist_b
+			clr_country_flag = republic1_b
+			clr_country_flag = big_brother_is_watching
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	form_fashist_b = {
+		potential = {
+			government = fascist_dictatorship
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		allow = {			
+			prestige = 500
+			year = 1880
+		}
+		effect = {
+			add_country_modifier = {
+				name = fashist_b
+				duration = 1460
+			}
+			clr_country_flag = war_def_used
+			clr_country_flag = communist_b
+			clr_country_flag = republic1_b
+			clr_country_flag = big_brother_is_watching
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	form_bourgeois_a = {
+		potential = {
+			OR = {
+			government = presidential_dictatorship
+			government = bourgeois_dictatorship
+			}
+			NOT = {
+				has_country_modifier = republic_a
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_a
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_a
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_a
+				has_country_modifier = bourgeois_b
+			}
+			ai = no
+		}
+		allow = {			
+			year = 1836			
+		}
+		effect = {
+			add_country_modifier = {
+				name = bourgeois_a
+				duration = 1460
+			}
+			add_country_modifier = {
+				name = bourgeois_b
+				duration = 1460
+			}
+			clr_country_flag = war_push_used
+			clr_country_flag = republic1_b
+			clr_country_flag = communist_b
+			clr_country_flag = big_brother_is_watching
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	srart_copenhagen = {
+		picture = bosfor_and_dar
+		potential = {
+			owns = 372
+			NOT = {
+				is_canal_enabled = 6
+			}
+		}
+		allow = {
+			owns = 372			
+		}
+		effect = {
+			enable_canal = 6
+			add_country_modifier = {
+				name = kopengagen
+				duration = 100000
+			}
+			prestige = 10
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	assimilation_spread = { 
+		potential = {
+			year = 1885
+			civilized = yes
+			NOT = {
+				has_country_flag = assimilation_spread
+			}
+		}
+		allow = { 
+		invention = family_planning
+ 		year = 1890
+		}
+		effect = {
+			set_country_flag = assimilation_spread
+			any_pop = {
+				militancy = 1
+ }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+    obrazovanue1 = {
+     picture = enact_the_homestead_act
+	potential = {
+	year = 1845
+	ai = no
+	NOT = { 
+	 has_country_modifier = obrazovanue_cost
+	}
+	}
+        allow = {
+            money = 1500000
+			biologism = 1
+        }
+            effect = {
+				add_country_modifier = {
+                name = obrazovanue_cost
+                duration = 365
+                }
+				money = -1500000 
+				prestige = 5
+			}
+    }
+FAQ_dec = { 
+	alert = no 
+	potential = { 
+	ai = no 
+		}
+	allow = { 
+	year = 1836
+		}
+	effect = { 
+	country_event = 145110
+		}
+	ai_will_do = {
+				factor = 0
+		}
+	}
+	belize_offer_to_mexico = {
+		alert = no
+		potential = {
+			2190 = { owned_by = THIS }
+			exists = MEX
+			NOT = { has_country_flag = belize_offered }
+		}
+		allow = {
+			year = 1840
+		}
+		effect = {
+			set_country_flag = belize_offered
+			country_event = 9991211
+		}
+		ai_will_do = { factor = 0 }
+	}
+	raskopka1 = { 
+	alert = no 
+	potential = {
+	ai = no 
+  not = {has_country_flag = pora_kopat}	
+	year = 1860
+		}
+	allow = { 
+			year = 1870
+			money = 500000
+		}
+	effect = {
+	set_country_flag = pora_kopat
+	money = -500000
+any_owned = {
+limit = {
+or = { 
+province_id = 1875
+province_id = 1463
+province_id = 1626
+province_id = 1621
+province_id = 888
+province_id = 893
+province_id = 1100
+province_id = 1098
+province_id = 1059
+province_id = 1060
+province_id = 1044
+province_id = 342
+province_id = 492
+province_id = 515
+province_id = 1709
+province_id = 739
+province_id = 563
+province_id = 592
+province_id = 392
+province_id = 413
+province_id = 427
+province_id = 286
+province_id = 44
+province_id = 75
+province_id = 146
+province_id = 168
+province_id = 2330
+province_id = 2327
+province_id = 2325
+province_id = 2324
+province_id = 2326
+province_id = 2323
+province_id = 2243
+province_id = 2169
+province_id = 100
+province_id = 13
+province_id = 562
+province_id = 634
+province_id = 635
+province_id = 616
+province_id = 774
+province_id = 52
+province_id = 28
+province_id = 854
+province_id = 1978
+}
+not = { trade_goods = iron }
+}
+add_province_modifier = {
+			name = "raskopka"
+			duration = -1
+		}
+}	
+		}
+	ai_will_do = {
+				factor = 0
+		}
+	}
+	raskopka2 = { 
+	alert = no 
+	potential = { 
+	any_owned_province = {
+				has_province_modifier = raskopka
+			}
+			not = {has_country_flag = kopaem}
+		}
+	allow = { 
+	year = 1850
+	money = 500000
+		}
+	effect = { 
+	money = -500000
+	country_event = 1011016
+		}
+	ai_will_do = {
+				factor = 0.5
+		}
+	}
+	war_push = {
+		alert = yes 
+		potential = {
+			or = {
+				has_country_modifier = republic_a
+				has_country_modifier = comunist_a
+				has_country_modifier = fashist_a
+				has_country_modifier = bourgeois_a
+			}
+		not = {has_country_flag = war_push_used}
+		war_exhaustion = 50
+		}
+		allow = {
+			money = 1000000
+			war_exhaustion = 50
+			war = yes
+		}
+		effect = {
+			money = -1000000
+			set_country_flag = war_push_used
+			add_country_modifier = {
+				name = war_test_attack
+				duration = 100
+			}
+		}
+	}
+	war_def = {
+	alert = yes 
+	potential = {
+	or = {
+	has_country_modifier = republic_b
+	has_country_modifier = comunist_b
+	has_country_modifier = fashist_b
+	has_country_modifier = bourgeois_b
+	 }
+	 not = {has_country_flag = war_def_used}
+	 war_exhaustion = 50
+}
+allow = {
+money = 1000000
+   war_exhaustion = 50
+war = yes
+}
+effect = {
+money = -1000000
+set_country_flag = war_def_used
+ add_country_modifier = {
+name = war_test_def
+duration = 100
+}
+}
+	}
+sanatoriy = {
+	alert = yes 
+	potential = {
+	year = 1870
+	is_greater_power = no
+	 not = {has_country_flag = sanatoriy_used}
+}
+allow = {
+year = 1880
+electric_gear = 10000
+money = 1000000
+  any_owned_province = {
+	 not = {total_pops = 300000}
+	units_in_province = 12
+	not = {units_in_province = 13}
+	is_colonial = no
+	}
+}
+effect = {
+electric_gear = -10000
+money = -1000000
+set_country_flag = sanatoriy_used
+random_owned = {	
+limit = {
+  not = {total_pops = 300000}
+units_in_province = 12
+not = {units_in_province = 13}
+}     
+	 add_province_modifier = {
+	 name = government_sanitarium2
+	 duration = -1
+	 }
+	 }
+}
+	}
+ change_gov_type = {
+ picture = palais_garnier
+	alert = yes 
+	potential = {
+		year = 1875
+			NOT = {
+				year = 1905
+			}
+               }
+     allow = {
+	 	year = 1880
+		literacy = 0.7
+		NOT = {
+				has_country_modifier = gov_changed
+			}
+             }
+	effect = {
+	 add_country_modifier = {
+	 name = gov_changed
+	 duration = 3652
+	                        }
+ country_event = { id=347105 days=0 }
+            }
+	                }
+change_gov_type2 = {
+picture = palais_garnier
+	alert = yes 
+	potential = {
+		year = 1900
+               }
+     allow = {
+	 	year = 1905
+		literacy = 0.8
+		NOT = {
+				has_country_modifier = gov_changed
+			}
+             }
+	effect = {
+	 add_country_modifier = {
+	 name = gov_changed
+	 duration = 3652
+	                        }
+ country_event = { id=347005 days=0 }
+            }
+	                }
+		go_to_regular_focus = {
+		picture = palais_garnier
+	alert = yes 
+	potential = {
+	year = 1870
+               }
+     allow = {
+	 	year = 1880
+	 ai = no
+		NOT = {
+				has_country_flag = changed_army2
+			}
+			NOT = {
+				has_country_flag = changed_army
+			}
+			war = no
+			is_mobilised = no
+             }
+	effect = {
+	 add_country_modifier = {
+	 name = army_changed
+	 duration = -1
+	                        }
+  set_country_flag = changed_army
+            }
+	                }
+		go_back_to_mobile = {
+		picture = palais_garnier
+	alert = yes 
+	potential = {
+	has_country_flag = changed_army
+	year = 1865
+               }
+     allow = {
+	 	year = 1870
+		 ai = no
+		NOT = {
+				has_country_modifier = army_changed2
+			}
+             }
+	effect = {
+	remove_country_modifier = army_changed
+	 add_country_modifier = {
+	 name = army_changed2		
+	 duration = 1825
+	                        }
+							set_country_flag = changed_army2
+ country_event = { id=99912115 days=1825 }
+  clr_country_flag = changed_army
+            }
+	                }
+experience = { 
+	picture = expand_motala_verkstad
+		potential = {
+		year = 1845
+		THIS = {
+		NOT = { has_country_modifier = exp }
+			}
+		}
+		allow = {
+		money = 1500000
+		army_decision_making = 1
+		}
+		effect = { 
+		money = -1500000
+		 add_country_modifier = {
+		name = exp
+		duration = 1825
+			}
+		}
+	}
+	fabrics = { 
+	picture = the_grunderzeit
+		potential = {
+		year = 1845
+		THIS = {
+		NOT = { has_country_modifier = fabrics }
+			}
+		}
+		allow = {
+		money = 1500000
+		early_railroad = 1
+		}
+		effect = { 
+		money = -1500000
+		 add_country_modifier = {
+		name = fabrics
+		duration = 1095
+			}
+		}
+	}
+	build_kiel_canal = {
+	picture = build_kiel_canal
+		potential = {
+			NOT = { is_canal_enabled = 1 }
+			owns = 369	
+		}
+		allow = {
+			mechanical_production = 1
+			invention = machine_tools
+			invention = nitroglycerin
+			iron_steamers = 1
+			money = 750000
+		}
+		effect = {
+			enable_canal = 1
+			prestige = 50
+			money = -600000
+			add_country_modifier = {
+				name = kiel
+				duration = 100000	
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+	exchange_settings_dec = {
+		picture = give_money
+		alert = no
+		potential = {
+			NOT = { has_country_flag = hide_all_decs_flag }
+			ai = no
+		}
+		allow = {
+			ai = no
+		}
+		effect = {
+			country_event = 57052
+		}
+	}
+	enact_liquor_prohibition = {
+	picture = enact_liquor_prohibition
+		potential = {
+			has_country_modifier = temperance_league
+			NOT = {
+				OR = {
+					has_country_modifier = liquor_prohibition
+					has_country_modifier = prohibition_cancelled
+				}
+			}
+		}
+		allow = {
+			social_science = 1
+			OR = {
+				government = proletarian_dictatorship
+				government = fascist_dictatorship
+				government = bourgeois_dictatorship
+				government = presidential_dictatorship
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = liquor_prohibition
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						moralism = 30
+						liberal = 60
+					}
+				}
+			}		
+		}
+	}
+	abolish_prohibition = {
+		picture = abolish_prohibition
+		potential = {
+			has_country_modifier = liquor_prohibition
+		}
+		allow = {
+				OR = {
+					government = proletarian_dictatorship
+					government = fascist_dictatorship
+					government = bourgeois_dictatorship
+					government = presidential_dictatorship
+					NOT = {	
+						liberal = 50 
+					}
+					NOT = { 
+						moralism = 20
+					}
+				}
+		}
+		effect = {
+		 	add_country_modifier = {
+			name = prohibition_cancelled
+			duration = 500
+		}
+		    remove_country_modifier = liquor_prohibition
+		}
+	}
+	institute_central_bank = {
+	picture = institute_central_bank
+		potential = {
+			NOT = {
+				has_country_modifier = central_bank_established
+			}
+			central_bank_money_bill_printing = 1
+		}
+		allow = {
+			money = 1000
+			modern_central_bank_system = 1
+		}
+		effect = {
+			treasury = -1000
+			add_country_modifier = {
+				name = central_bank_established
+				duration = -1
+			}
+		}
+	}
+	enact_female_suffrage = {
+		picture = enact_female_suffrage
+		potential = {
+			year = 1870
+			civilized = yes
+			NOT = { has_country_modifier = female_suffrage }
+			OR = {
+				government = prussian_constitutionalism
+				government = hms_government
+				government = democracy
+			}
+			OR = {
+				vote_franschise = universal_weighted_voting
+				vote_franschise = universal_voting
+			}	
+		}
+		allow = {
+			social_science = 1
+			revolution_n_counterrevolution = 1
+			OR = {
+				upper_house = {
+					ideology = socialist
+					value = 0.3
+				}
+				upper_house = {
+					ideology = liberal
+					value = 0.3
+				}
+			}
+			OR = {
+				political_reform_want = 0.15
+				vote_franschise = universal_voting
+			}
+			average_consciousness = 4
+		}
+		effect = {
+			war_exhaustion = -2
+			add_country_modifier = {
+				name = female_suffrage
+				duration = -1
+			}
+		}
+	}
+	leave_soi = {
+	picture = leave_soi
+		alert = no
+		potential = {
+			part_of_sphere = yes
+		}
+		allow = {
+			is_secondary_power = yes
+			sphere_owner = {
+				NOT = { relation = {
+					who = THIS
+					value = 0
+					}
+				truce_with = THIS
+				}
+			}
+		}
+		effect = {
+			sphere_owner = {
+				diplomatic_influence = {
+				who = THIS
+				value = -200
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				sphere_owner = {
+						brigades_compare = 3
+				}
+			}
+		}
+	}
+	nationalize = {
+	picture = nationalize
+		alert = no
+		potential = {
+			can_nationalize = yes 
+		}
+		allow = {
+			NOT = { part_of_sphere = yes }
+		}
+		effect = {
+			nationalize = yes
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	egyptological_excavations = {
+	picture = egyptological_excavations
+		potential = {
+			civilized = yes
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			exists = EGY
+			1767 = {
+				owned_by = EGY
+			}
+			NOT = {
+				tag = EGY
+				has_global_flag = tutankhamun_found
+				has_country_modifier = egyptian_excavations
+				has_country_modifier = international_negotiations
+			}
+		}
+		allow = {
+			prestige = 25
+		}
+		effect = {
+			EGY = {
+				country_event = { id=19040 days=0 }
+			}
+			add_country_modifier = {
+				name = international_negotiations
+				duration = 730
+			}
+		}
+	}
+	egyptological_excavations1 = {
+	picture = egyptological_excavations1
+		potential = {
+			civilized = yes
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			exists = ARA
+			1767 = {
+				owned_by = ARA
+			}
+			NOT = {
+				tag = ARA
+				has_global_flag = tutankhamun_found
+				has_country_modifier = egyptian_excavations
+				has_country_modifier = international_negotiations
+			}
+		}
+		allow = {
+			prestige = 25
+		}
+		effect = {
+			ARA = {
+				country_event = { id=19040 days=0 }
+			}
+			add_country_modifier = {
+				name = international_negotiations
+				duration = 730
+			}
+		}
+	}
+	forced_egyptological_excavations = {
+	picture = forced_egyptological_excavations
+		potential = {
+			civilized = yes
+			nationalism_n_imperialism = 1
+			OR = {
+				owns = 1767
+				1767 = {
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			NOT = {
+				has_global_flag = tutankhamun_found
+				has_country_modifier = egyptian_excavations
+			}
+		}
+		allow = {
+			civilized = yes
+			owns = 1767
+		}
+		effect = {
+			add_country_modifier = {
+				name = egyptian_excavations
+				duration = -1
+			}
+		}
+	}
+	troya_excavations = {
+	picture = troya_excavations
+		potential = {
+			civilized = yes
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			exists = TUR
+			865 = {
+				owned_by = TUR
+			}
+			NOT = {
+				tag = TUR
+				has_global_flag = troya_found
+				has_country_modifier = troya1_excavations
+				has_country_modifier = international_negotiations1
+			}
+		}
+		allow = {
+			prestige = 25
+		}
+		effect = {
+			TUR = {
+				country_event = { id=19050 days=0 }
+			}
+			add_country_modifier = {
+				name = international_negotiations1
+				duration = 1000
+			}
+		}
+	}
+	forced_troya_excavations = {
+	picture = forced_troya_excavations
+		potential = {
+			civilized = yes
+			nationalism_n_imperialism = 1
+			OR = {
+				owns = 865
+				865 = {
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+			NOT = {
+				has_global_flag = troya_found
+				has_country_modifier = troya1_excavations
+			}
+		}
+		allow = {
+			civilized = yes
+			owns = 865
+		}
+		effect = {
+			add_country_modifier = {
+				name = troya1_excavations
+				duration = -1
+			}
+		}
+	}
+	call_geneva_convention = {
+	picture = call_geneva_convention
+		potential = {
+			civilized = yes
+			owns = 607
+			NOT = {
+				has_global_flag = geneva_convention_held
+			}
+		}
+		allow = {
+			any_greater_power = {
+				war_exhaustion = 5
+			}
+			empiricism = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = signed_the_geneva_convention
+				duration = -1
+			}
+			set_global_flag = geneva_convention_held
+			prestige = 30
+		}
+	}
+	sign_the_geneva_convention = {
+	picture = sign_the_geneva_convention
+		potential = {
+			civilized = yes
+			has_global_flag = geneva_convention_held
+			NOT = {
+				has_country_modifier = signed_the_geneva_convention
+			}
+		}
+		allow = {
+			NOT = {
+				badboy = 1
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = signed_the_geneva_convention
+				duration = -1
+			}
+			badboy = -5
+		}
+	}
+	build_gotthard_tunnel = {
+	picture = build_gotthard_tunnel
+		potential = {
+			owns = 606
+			NOT = {
+				has_country_flag = gotthard_tunnel_built
+			}
+		}
+		allow = {
+			invention = machine_tools
+			NOT = { year = 1900 }
+		}
+		effect = {
+			606 = { infrastructure = 2 }
+			603 = { infrastructure = 2 }
+			611 = { infrastructure = 2 }
+			2568 = { infrastructure = 2 }
+			prestige = 5
+			set_country_flag = gotthard_tunnel_built
+		}
+	}
+	torching_of_the_summer_palace = {
+	picture = torching_of_the_summer_palace
+		potential = {
+			NOT = {
+				tag = CHI
+			}
+			CHI = {
+				owns = 1612
+			}
+			civilized = yes
+			is_greater_power = yes
+			nationalism_n_imperialism = 1
+			war_with = CHI
+			NOT = {
+				has_global_flag = summer_palace_torched
+			}
+		}
+		allow = {
+			controls = 1612
+		}
+		effect = {
+		prestige = 10
+			badboy = 3
+			set_global_flag = summer_palace_torched
+		}
+	}
+}
+

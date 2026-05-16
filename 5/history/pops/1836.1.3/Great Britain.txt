@@ -1,0 +1,2188 @@
+#Aberdeen
+266 = {
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 40000
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1200
+    }
+
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    officers = {
+        culture = british
+        religion = orthodox
+        size = 900
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 2100
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 8400
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 110000
+    }
+
+}
+
+#Inverness
+267 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1200
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 4000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 15000
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 150000
+    }
+
+}
+
+#Dundee
+268 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1300
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 18000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 4000
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 150000
+    }
+
+}
+
+#Edinburgh
+269 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    officers = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 375
+    }
+
+    capitalists = {
+        culture = british
+        religion = orthodox
+        size = 550
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    clerks = {
+        culture = british
+        religion = orthodox
+        size = 400
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 4000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 6000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 2000
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 57175
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 100
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 5000
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 26400
+    }
+
+    artisans = {
+        culture = irish
+        religion = orthodox
+        size = 1100
+    }
+
+}
+
+#Stirling
+270 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 200
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 6500
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3100
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 79100
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 4000
+    }
+
+}
+
+#Glasgow
+271 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    clerks = {
+        culture = british
+        religion = orthodox
+        size = 850
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 11500
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 2000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 4000
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 87650
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 4900
+    }
+
+    craftsmen = {
+        culture = irish
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = irish
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = irish
+        religion = orthodox
+        size = 2000
+    }
+
+}
+
+#Dumfries
+272 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 4000
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 85000
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 25000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3000
+    }
+
+}
+
+#Cardiff
+273 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    capitalists = {
+        culture = british
+        religion = orthodox
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 625
+    }
+
+    officers = {
+        culture = british
+        religion = orthodox
+        size = 350
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 375
+    }
+
+    clerks = {
+        culture = british
+        religion = orthodox
+        size = 50
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 3500
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 100000
+    }
+
+}
+
+#Cardigan
+274 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 2500
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3100
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 12000
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 140000
+    }
+
+}
+
+#Llandrindod
+275 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 2500
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 12000
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 120000
+    }
+
+}
+
+#Holyhead
+276 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3750
+    }
+
+    clerks = {
+        culture = british
+        religion = orthodox
+        size = 150
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 3000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 8100
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 140000
+    }
+
+}
+
+#Liverpool
+277 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    officers = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 1150
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    capitalists = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    clerks = {
+        culture = british
+        religion = orthodox
+        size = 1750
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 30000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 2500
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3000
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 138850
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 50
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 6450
+    }
+
+    clergymen = {
+        culture = irish
+        religion = orthodox
+        size = 125
+    }
+
+    craftsmen = {
+        culture = irish
+        religion = orthodox
+        size = 2250
+    }
+
+    artisans = {
+        culture = irish
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = irish
+        religion = orthodox
+        size = 3750
+    }
+
+    farmers = {
+        culture = irish
+        religion = orthodox
+        size = 7875
+    }
+
+}
+
+#Manchester
+278 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    clerks = {
+        culture = british
+        religion = orthodox
+        size = 1150
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 22500
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 7500
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 4000
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 125350
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 75
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 8850
+    }
+
+    artisans = {
+        culture = irish
+        religion = orthodox
+        size = 2000
+    }
+
+    labourers = {
+        culture = irish
+        religion = orthodox
+        size = 2075
+    }
+
+}
+
+#Carlisle
+279 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 12000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3500
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 146000
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 20000
+    }
+
+    artisans = {
+        culture = irish
+        religion = orthodox
+        size = 7500
+    }
+
+    farmers = {
+        culture = irish
+        religion = orthodox
+        size = 12500
+    }
+
+}
+
+#Newcastle On Tyne
+280 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 750
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 5900
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 114850
+    }
+
+    labourers = {
+        culture = irish
+        religion = orthodox
+        size = 4000
+    }
+
+}
+
+#Hull
+281 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 750
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 5000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 125000
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 5000
+    }
+
+}
+
+#Leeds
+282 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 750
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 625
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3250
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 140000
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 3000
+    }
+
+}
+
+#Sheffield
+283 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 2050
+    }
+
+    officers = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    officers = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 875
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 9750
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3500
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 152825
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 4000
+    }
+
+}
+
+#Birmingham
+284 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    officers = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 1125
+    }
+
+    capitalists = {
+        culture = british
+        religion = orthodox
+        size = 350
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 625
+    }
+
+    clerks = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 7000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 2000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3000
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 130900
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    farmers = {
+        culture = irish
+        religion = orthodox
+        size = 3000
+    }
+
+}
+
+#Chester
+285 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 750
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 625
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 5000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 82625
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    artisans = {
+        culture = irish
+        religion = orthodox
+        size = 1100
+    }
+
+}
+
+#Shrewesbury
+286 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1400
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 12000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 120000
+    }
+
+}
+
+#Coventry
+287 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    clerks = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 3500
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 6000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 95000
+    }
+
+}
+
+#Nottingham
+288 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 750
+    }
+
+    officers = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 750
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    capitalists = {
+        culture = british
+        religion = orthodox
+        size = 100
+    }
+
+    clerks = {
+        culture = british
+        religion = orthodox
+        size = 200
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 5000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 7000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 99700
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 5000
+    }
+
+}
+
+#Leicester
+289 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 450
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 9000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 130375
+    }
+
+}
+
+#Lincoln
+290 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 16500
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 130000
+    }
+
+}
+
+#Cambridge
+291 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    officers = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 750
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 15500
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 170000
+    }
+
+}
+
+#Ipswich
+292 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 8500
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3500
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 180000
+    }
+
+}
+
+#Chelmsford
+293 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 375
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 7500
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 95125
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 2000
+    }
+
+}
+
+#Oxford
+294 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 950
+    }
+
+    officers = {
+        culture = british
+        religion = orthodox
+        size = 550
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 675
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 8000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3500
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 146625
+    }
+
+}
+
+#St Albans
+295 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1750
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 14000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 140000
+    }
+
+}
+
+#Bristol
+296 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    officers = {
+        culture = british
+        religion = orthodox
+        size = 900
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1625
+    }
+
+    capitalists = {
+        culture = british
+        religion = orthodox
+        size = 250
+    }
+
+    clerks = {
+        culture = british
+        religion = orthodox
+        size = 600
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 7000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 9000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 80000
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 80000
+    }
+
+}
+
+#Salisbury
+297 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 625
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 5000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3600
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 154375
+    }
+
+}
+
+#Bath
+298 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 750
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 825
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 5000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3400
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 144625
+    }
+
+}
+
+#Plymouth
+299 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3500
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 186250
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    farmers = {
+        culture = irish
+        religion = orthodox
+        size = 1100
+    }
+
+}
+
+#London
+300 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    officers = {
+        culture = british
+        religion = orthodox
+        size = 2000
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 2000
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 3250
+    }
+
+    capitalists = {
+        culture = british
+        religion = orthodox
+        size = 2500
+    }
+
+    clerks = {
+        culture = british
+        religion = orthodox
+        size = 6000
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 119000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 9500
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 9000
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 162250
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 8000
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 17000
+    }
+
+    clerks = {
+        culture = british
+        religion = orthodox
+        size = 100
+    }
+
+    craftsmen = {
+        culture = british
+        religion = orthodox
+        size = 1500
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 3400
+    }
+
+    craftsmen = {
+        culture = irish
+        religion = orthodox
+        size = 4000
+    }
+
+    artisans = {
+        culture = irish
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = irish
+        religion = orthodox
+        size = 2000
+    }
+
+}
+
+#Canterbury
+301 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 750
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 625
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 4000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 90625
+    }
+
+    artisans = {
+        culture = irish
+        religion = orthodox
+        size = 1100
+    }
+
+}
+
+#Brighton
+302 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 750
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 1250
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 87500
+    }
+
+}
+
+#Southampton
+303 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 750
+    }
+
+    officers = {
+        culture = british
+        religion = orthodox
+        size = 1100
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 750
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 6000
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 3100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 73000
+    }
+
+}
+
+#Isle of Man
+304 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 125
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 3250
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 100
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 7600
+    }
+
+    labourers = {
+        culture = british
+        religion = orthodox
+        size = 300
+    }
+
+}
+
+#Channel Islands
+419 = {
+    aristocrats = {
+        culture = british
+        religion = orthodox
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = british
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 125
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 3400
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 14075
+    }
+
+}
+

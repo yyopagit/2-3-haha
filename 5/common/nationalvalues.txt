@@ -1,0 +1,25 @@
+nv_order = {
+	mobilisation_size = 0.045
+	#ruling_party_support = 0.5
+	mobilisation_economy_impact = 0.6
+}
+
+nv_liberty = {
+	mobilisation_size = 0.04
+	#political_reform_desire = 0.2
+	mobilisation_economy_impact = 0.55
+}
+
+nv_equality = {
+	mobilisation_size = 0.05
+	#social_reform_desire = 0.2
+	mobilisation_economy_impact = 0.65
+}
+
+nv_MEX_order = {
+	mobilisation_size = 0.055
+	political_reform_desire = 0.2
+	social_reform_desire = 0.2
+	ruling_party_support = 0.5
+	mobilisation_economy_impact = -1
+}

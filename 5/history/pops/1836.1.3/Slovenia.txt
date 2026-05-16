@@ -1,0 +1,156 @@
+#Maribor
+767 = {
+    aristocrats = {
+        culture = south_german
+        religion = orthodox
+        size = 750
+    }
+
+    bureaucrats = {
+        culture = south_german
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = south_german
+        religion = orthodox
+        size = 1100
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = south_german
+        religion = orthodox
+        size = 3150
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = orthodox
+        size = 450
+    }
+
+    artisans = {
+        culture = south_german
+        religion = orthodox
+        size = 1600
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = orthodox
+        size = 450
+    }
+
+    farmers = {
+        culture = croat
+        religion = orthodox
+        size = 43500
+    }
+
+}
+
+#Ljubljana
+768 = {
+    aristocrats = {
+        culture = south_german
+        religion = orthodox
+        size = 825
+    }
+
+    bureaucrats = {
+        culture = south_german
+        religion = orthodox
+        size = 225
+    }
+
+    officers = {
+        culture = south_german
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = orthodox
+        size = 700
+    }
+
+    artisans = {
+        culture = south_german
+        religion = orthodox
+        size = 4000
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = orthodox
+        size = 1100
+    }
+
+    farmers = {
+        culture = croat
+        religion = orthodox
+        size = 63150
+    }
+
+}
+
+#Postojna
+769 = {
+    aristocrats = {
+        culture = south_italian
+        religion = orthodox
+        size = 500
+    }
+
+    clergymen = {
+        culture = south_italian
+        religion = orthodox
+        size = 425
+    }
+
+    artisans = {
+        culture = south_italian
+        religion = orthodox
+        size = 2100
+    }
+
+    soldiers = {
+        culture = south_italian
+        religion = orthodox
+        size = 425
+    }
+
+    farmers = {
+        culture = south_italian
+        religion = orthodox
+        size = 39575
+    }
+
+    clergymen = {
+        culture = south_italian
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = south_italian
+        religion = orthodox
+        size = 1975
+    }
+
+}
+

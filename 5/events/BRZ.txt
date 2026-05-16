@@ -1,0 +1,139 @@
+country_event = {
+
+	id = 46301
+
+	trigger = {
+		tag = BRZ 
+		year = 1895
+		NOT = {
+			year = 1910
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 18
+
+		modifier = {
+			factor = 0.55 #increase likelihood to happen
+			year = 1898
+		}
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1902
+		}
+	}
+
+	title = "EVTNAME46301"
+	desc = "EVTDESC46301"
+	picture = "football"
+
+	option = {
+		name = "EVTOPTA46301" 
+		set_country_flag = JogoBonito
+		prestige = 1
+		poor_strata = {
+			militancy = 2
+		}
+	}
+}
+
+country_event = {
+	
+	id = 99912124
+
+	trigger = {
+	tag = BRZ
+	has_country_modifier = big_brz
+	NOT = {
+		OR = {
+			CLM_2259 = { owned_by = THIS }
+			CLM_2251 = { owned_by = THIS }
+			VNZ_2234 = { owned_by = THIS }
+			VNZ_2265 = { owned_by = THIS }
+			CLM_2262 = { owned_by = THIS }
+			ENG_1979 = { owned_by = THIS }
+		}
+	}
+}
+	title = "EVTNAME1011076"
+	desc = "EVTDESC1011076"
+	picture = "Travel"
+
+	option = {
+		name = "EVTOPTA1011076"
+	 	remove_country_modifier = big_brz
+	}
+
+}
+
+country_event = {
+
+	id = 46400
+	news = yes
+	news_desc_long = "EVTDESC46400_NEWS_LONG"
+	news_desc_medium = "EVTDESC46400_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC46400_NEWS_SHORT"
+
+	trigger = {
+		tag = BRZ
+		year = 1911
+		government = democracy
+		NOT = {
+			year = 1916
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1912
+		}
+		
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1913
+		}
+	}
+
+	title = "EVTNAME46400"
+	desc = "EVTDESC46400"
+	picture = "Prosper"
+
+	option = {
+		name = "EVTOPTA46400"
+		plurality = 5 
+		farmers = {
+			consciousness = 1
+		}
+		labourers = {
+			consciousness = 1
+		}
+		craftsmen = {
+			consciousness = 1
+		}
+		artisans = {
+			consciousness = 1
+		}		
+		farmers = {
+			militancy = -1
+		}
+		labourers = {
+			militancy = -1
+		}
+		craftsmen = {
+			militancy = -1
+		}
+		artisans = {
+			militancy = -1
+		}		
+	}
+
+}
+

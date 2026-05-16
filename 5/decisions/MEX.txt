@@ -1,0 +1,92 @@
+political_decisions = {
+	 natsionalnoe_edinstvo = {
+        picture = bixby_letter
+        potential = {
+            tag = MEX
+            NOT = {
+				has_global_flag = mexstronger
+            }
+		}
+        allow = {
+            MEX_85 = {
+            owned_by = MEX
+            }
+			138 = {
+            owned_by = MEX
+            }
+			133 = {
+            owned_by = MEX
+            }
+			year = 1860
+			NOT = { year = 1880 }
+        }
+        effect = {
+			set_country_flag = natsionalnoe_edinstvo
+			set_global_flag = mexstronger
+            add_country_modifier = { 
+			name = natsionalnoe_edinstvo
+			duration = -1
+            }
+			add_country_modifier = { name = big_mex duration = -1 }
+			add_country_modifier = { name = mex_no_migracia duration = -1 }
+			MEX_94 = { 
+			add_core = MEX
+			remove_core = DES
+			remove_core = USA
+			add_province_modifier = {
+			name = baby_boom
+			duration = 1825
+				}
+			}
+			MEX_85 = { 
+			remove_core = CAL
+			add_core = MEX
+			remove_core = USA
+			add_province_modifier = {
+			name = baby_boom
+			duration = 1825
+				}
+			}
+			TEX_132 = { 
+			remove_core = TEX
+			add_core = MEX
+			remove_core = USA
+			add_province_modifier = {
+			name = baby_boom
+			duration = 1825
+				}
+			}
+		add_accepted_culture = texan
+		USA = { 
+		remove_accepted_culture = texan }
+		remove_accepted_culture = pueblo }
+        }
+        COR_CENTRAL_AMERICA = {
+	  picture = form_italy
+        potential = {
+		tag = MEX
+            NOT = {
+                has_country_flag = Central_America
+            }
+		}
+		 allow = {
+		 ai = no
+		 year = 1841
+		 state_n_government = 1
+        }
+		effect = {
+		add_accepted_culture = north_andean
+		add_country_modifier = { name = mex_migracia duration = -1 }
+        CLM_2251 = {
+		add_core = MEX
+		}
+		1723 = { add_core = MEX }
+		ECU_2279 = {
+		add_core = MEX
+		}
+		badboy = 8
+		set_country_flag = Central_America
+		}	
+	}
+}
+

@@ -1,0 +1,550 @@
+#
+# Allowed variables 
+#
+# attack = + or - on dice roll in combat when attacking. (like skill in eu3)
+# defence = + or - on dice roll in combat. (like skill in eu3)
+# morale = % modifier on morale.
+# organisation = % bonus on org.
+# reconnaissance = % bonus on reconaissance.
+# speed = % bonus on movement
+# attrition = penalty on attrition. (negative is good)
+# experience = % bonus on experience gain.
+# reliability = mil gain or loss for pop associated.
+#
+
+
+
+personality = {
+	no_personality = {
+		attack = -3
+	}
+	aggressive = {
+		attack = 4
+		experience = 0.10
+		reliability = 0.10
+	}
+	relentless = {
+		attack = 3
+		speed = 0.10
+	}
+	brutish = {
+		attack = 3
+		reconnaissance = 0.50
+		morale = 0.30
+	}
+	vicious = {
+		attack = 3
+		reconnaissance = 0.50
+		organisation = 0.30
+	}
+	deeply_religious = {
+		attack = 2
+		morale = 0.50
+	}
+	imperious = {
+		attack = 2
+		reliability = 0.20
+	}
+	choleric = {
+		attack = 2
+		speed = 0.10
+	}
+	fanatic = {
+		attack = 2
+		morale = 0.30
+	}
+	irate = {
+		attack = 2
+	}
+	wrathful = {
+		attack = 2
+		speed = 0.05
+	}
+	calm = {
+		attack = 2
+	}
+	reserved = {
+		attack = 2
+	}
+	harsh = {
+		attack = 2
+		attrition = -0.10
+	}
+	careful = {
+		attack = 2
+		reliability = 0.10
+	}
+	meticulous = {
+		attack = 2
+	}
+	openminded = {
+		attack = 2
+		organisation = 0.20
+	}
+	impulsive = {
+		attack = 2
+		speed = 0.10
+	}
+	intuitive = {
+		attack = 2
+		morale = 0.20
+	}
+	romantic = {
+		attack = 2
+		experience = 0.10
+		speed = 0.05
+		
+	}
+	brash = {
+		attack = 2
+	}
+	daring = {
+		attack = 2
+		morale = 0.10
+	}
+	soldierly = {
+		attack = 2
+	}
+	disciplined = {
+		attack = 2
+	}
+	unflinching = {
+		attack = 2
+	}
+	bold = {
+		attack = 2
+	}
+	heroic = {
+		attack = 2
+	}
+	steadfast = {
+		attack = 2
+		morale = 0.20
+	}
+	chivalrous = {
+		attack = 2
+	}
+	ballsy = {
+		attack = 1
+		speed = 0.20
+	}
+	aweless = {
+		attack = 1
+		morale = 0.30
+	}
+	sharp = {
+		attack = 1
+		experience = 0.10
+	}
+	keen = {
+		attack = 1
+		organisation = 0.20
+	}
+	intelligent = {
+		attack = 1
+	}
+	clever = {
+		attack = 1
+		experience = 0.10
+	}
+	skilled = {
+		attack = 1
+	}
+	efficient = {
+		attack = 1
+		attrition = -0.10
+	}
+	au_fait = {
+		attack = 1
+	}
+	war_college = {
+		attack = 1
+		reliability = 0.10
+	}
+	indifferent = {
+		attack = 1
+	}
+	mediocre = {
+		attack = 1
+		morale = 0.10
+	}
+	lackluster = {
+		attack = 1
+	}
+	timid = {
+		attack = 1
+	}
+	chickenhearted = {
+		attack = 1
+		morale = 0.10
+	}
+	lilylivered = {
+		attack = 1
+	}
+	soft = {
+		attack = 1
+		speed = 0.05
+	}
+	spineless = {
+		attack = 1
+		organisation = 0.20
+	}
+	unmanly = {
+		attack = 1
+	}
+	yellow = {
+		attack = 1
+	}
+	pusillanimous = {
+		attack = 1
+	}
+	coward = {
+		attack = 1
+	}
+	craven = {
+		attack = 1
+	}
+	maladroit = {
+		attack = 1
+	}
+	undisciplined = {
+		attack = 1
+	}
+	brownnoser = {
+		attack = 1
+	}
+	spoiled = {
+		attack = 1
+	}
+	toady = {
+		attack = 1
+		speed = 0.10
+	}
+	vainglorious = {
+		attack = 1
+		reliability = 0.10
+	}
+	incapable = {
+		attack = 1
+		experience = 0.10
+	}
+	inept = {
+		attack = 1
+		speed = 0.10
+	}
+	sucker = {
+		attack = -1
+	}
+	sad_sack = {
+		attack = -1
+		organisation = 0.20
+	}
+	unfit = {
+		attack = -1
+		speed = 0.05
+	}
+	inefficient = {
+		attack = -1
+		morale = 0.10
+	}
+	perverse = {
+		attack = -1
+		morale = 0.40
+	}
+	persistant = {
+		attack = -1
+		organisation = 0.20
+	}
+	unruly = {
+		attack = -1
+		speed = 0.10
+	}
+	eccentric_genius = {
+		attack = -1
+	}
+	charismatic = {
+		attack = -1
+	}
+	disorderly = {
+		attack = -2
+		attrition = -0.10
+	}
+	careless = {
+		attack = -2
+	}
+	innovative_tactician = {
+		attack = -2
+	}
+	expert_raider = {
+		attack = -2 
+	}
+	stouthearted = {
+		attack = -2
+	}
+	yesman = {
+		attack = -2
+		morale = 0.40
+	}
+	megalomaniac = {
+		attack = -2
+		organisation = 0.20
+	}
+	clueless = {
+		attack = -2
+		speed = 0.05
+	}
+	poet = {
+		attack = -2
+		attrition = -0.10
+	}
+	wretched = {
+		morale = -0.20
+	}
+	adventurer = {
+		reliability = -0.02
+	}
+	pisspoor = {
+		attack = -2
+		morale = -0.20
+	}
+	unsound = {
+		morale = -0.10
+		reliability = -0.01
+	}
+	strange = {
+		reconnaissance = 1
+		morale = 0.20
+	}
+	shrinking_violet = {
+		attrition = -0.30
+	}
+	incompetent = {
+		attrition = -0.50
+	}
+	able = {
+		reconnaissance = 2
+	}	
+}
+
+background = {
+	no_background = {
+		defence = -3
+	}
+	manful = {
+		defence = 4
+		reliability = 0.10
+		organisation = 0.20
+		
+	}
+	merciless = {
+		defence = 3
+		morale = 0.30
+	}
+	implacable = {
+		defence = 3
+		reliability = 0.10
+	}
+	bastard = {
+		defence = 2
+		attrition = -0.10
+	}
+	audacious = {
+		defence = 2
+		reliability = 0.10
+	}
+	shirker = {
+		defence = 2
+		morale = 0.30
+	}
+	stalwart = {
+		defence = 2
+		attrition = -0.10
+	}
+	scared = {
+		defence = 2
+	}
+	arrogant = {
+		defence = 2
+		experience = 0.10
+	}
+	resourceful = {
+		defence = 2
+		speed = 0.10
+	}
+	balanced_p = {
+		defence = 2
+		experience = 0.10
+	}
+	resolute = {
+		defence = 2
+	}
+	bigoted = {
+		defence = 2
+		experience = 0.10
+	}
+	spirited = {
+		defence = 2
+		experience = 0.10
+	}
+	armchair_general = {
+		defence = 2
+	}
+	impetuous = {
+		defence = 2
+		morale = 0.20
+	}
+	bureaucrat_speed = {
+		defence = 2
+	}
+	generals_aide = {
+		defence = 2
+		speed = 0.10
+	}
+	amateur = {
+		defence = 2
+	}
+	madman = { ####
+		defence = 1
+		morale = 0.30
+	}
+	aristocrat = {
+		defence = 1
+	}
+	drillmaster = {
+		defence = 1
+	}
+	butcher = {
+		defence = 1
+		attrition = -0.05
+	}
+	exranker = {
+		defence = 1
+	}
+	gutsy = {
+		defence = 1
+		attrition = -0.05
+	}
+	stout = {
+		defence = 1
+		experience = 0.10
+	}
+	cautious = {
+		defence = 1
+	}
+	debutante = {
+		defence = 1
+		morale = 0.20
+	}
+	coolminded = {
+		defence = 1
+		attrition = -0.10
+	}
+	disgraced = {
+		defence = 1
+		reliability = 0.10
+	}
+	priest = {
+		defence = 1
+		morale = 0.20
+	}
+	rising_star = {
+		defence = 1
+		morale = 0.30
+	}
+	politician = {
+		defence = 1
+		reliability = -0.02
+	}
+	cartographer = {
+		defence = 1
+	}
+	professor = {
+		defence = 1
+	}
+	womanizer = { ####
+		defence = 1
+		morale = 0.20
+		reliability = -0.02
+	}
+	warmonger = {
+		morale = -0.20
+		defence = 1
+		speed = 0.10
+	}
+	corrupt = {
+		morale = 0.20
+		defence = 1
+		organisation = -0.10
+	}
+	bootlicker = {
+		reliability = 0.02
+		defence = 1
+	}
+	sycophant = {
+		morale = 0.50
+		defence = -1
+	}
+	earnest = {
+		morale = 0.40
+		defence = -1
+	}
+	doughty = {
+		morale = 0.30
+		defence = -1
+	}
+	inspiring = {
+		morale = 0.20
+		defence = -1
+	}
+	old_school = {
+		defence = -1
+		morale = 0.20
+	}
+	gifted_administrator = {
+		defence = -1
+	}
+	diplomat = {
+		defence = -1
+	}
+	gallant = { #####
+		defence = -2
+	}
+	hated = {
+		defence = -2
+	}
+	polite = {
+		defence = -2
+	}
+	cursed_luck = {
+		defence = -2
+		morale = 0.30
+	}
+	powerful_friends = {
+		defence = -2
+	}
+	immoral = {#####
+		experience = 0.10
+	}####
+	defiant = {
+		experience = -0.10
+		reliability = 0.01
+	}
+	school_of_defense = {
+		morale = 0.50
+	}
+	school_of_the_bayonet = {
+		speed = 0.10
+	}
+	artillerist = {
+		speed = 0.30
+	}
+	uncommonly_young = {
+		speed = 0.40
+	}
+	unqualified = {
+		speed = 0.20
+	}
+	pawn = {
+		speed = 0.50
+	}
+}

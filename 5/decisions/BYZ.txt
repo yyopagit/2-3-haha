@@ -1,0 +1,85 @@
+political_decisions = {
+	BYZ_Ion = {
+		potential = {
+			exists = ION
+			tag = BYZ
+			NOT = { has_country_flag = BYZ_Ion }
+		}
+		allow = {
+			money = 1000000
+		}
+		effect = { 
+			ENG = {
+				country_event = 888889
+			}
+			money = -1000000
+			set_country_flag = BYZ_Ion
+		}	
+	}
+	BYZ_core = {
+		potential = {
+			tag = BYZ
+			NOT = { has_country_flag = BYZ_core  }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			set_country_flag = BYZ_core
+			TUR_876 = { add_core = THIS }
+			EGY_915 = { add_core = THIS }
+		}
+	}
+	BYZ_TRI = {
+		potential = {
+			tag = BYZ
+			NOT = { has_country_flag = BYZ_TRI }
+		}
+		allow = { 
+			iron_steamers = 1 
+		}
+		effect = {
+			set_country_flag = BYZ_TRI
+			any_owned = { remove_core = TRI }
+		}
+	}
+	BYZ_MON = {
+		potential = {
+			tag = BYZ
+			NOT = { 
+				has_country_flag = BYZ_MON
+				has_global_flag = BYZ_war
+			}
+		}
+		allow = {
+			owns = 2583
+			has_global_flag = BYZ_war_no
+		}
+		effect = {
+			set_country_flag = BYZ_MON
+			BYZ = {
+				country_event = 888890
+			}
+		}
+	}
+	BYZ_MON1 = {
+		potential = {
+			tag = BYZ
+			NOT = { 
+				has_country_flag = BYZ_MON1 
+				has_global_flag = BYZ_war_no
+			}
+		}
+		allow = {
+			owns = 2583
+			has_global_flag = BYZ_war
+		}
+		effect = {
+			set_country_flag = BYZ_MON1
+			BYZ = {
+				country_event = 888891
+			}
+		}
+	}
+}
+

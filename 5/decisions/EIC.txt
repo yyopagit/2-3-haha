@@ -1,0 +1,59 @@
+political_decisions = {
+		reforma_v_Indii = {
+	picture = reforma_v_Indii
+		potential = {
+	   tag = EIC
+			NOT = {
+				has_country_flag = reforma_v_Indii
+			}
+		}
+		allow = {
+			prestige = 25
+		}
+		effect = {
+			any_pop = {
+				militancy = 3
+				consciousness = 3
+				literacy = 0.05
+			}
+			prestige = 15
+			set_country_flag = reforma_v_Indii
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					average_militancy = 1
+				}
+			}
+		}
+	}
+	graet_eic = {
+	picture = graet_eic
+		potential = {
+			tag = EIC
+			NOT = {
+				has_country_flag = graet_eic
+			}		
+		}	
+		allow = {
+		owns = 1277
+		owns = 1283
+		owns = 1279
+			prestige = 60
+			year = 1855
+		}
+		effect = {
+			set_country_flag = graet_eic
+			change_tag = HND
+			prestige = 20
+			add_accepted_culture = marathi 
+			add_accepted_culture = sinhala
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+

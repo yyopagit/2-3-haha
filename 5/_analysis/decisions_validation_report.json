@@ -1,0 +1,792 @@
+﻿{
+    "per_file":  {
+                     "KUK.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "korok_polshi"
+                                               ]
+                                 },
+                     "CSA.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "form_kellys_irish_brigade",
+                                                   "raise_the_bonnie_blue_flag"
+                                               ]
+                                 },
+                     "LIB.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "liberate_liberia",
+                                                   "liberian_constitution"
+                                               ]
+                                 },
+                     "TUR.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "tanzimat_reforms",
+                                                   "vliyanie_tur",
+                                                   "vliyanie_tur2",
+                                                   "kanun_i_esasi",
+                                                   "annex_gre",
+                                                   "annex_val",
+                                                   "annex_mol",
+                                                   "foreign_investiments_tur",
+                                                   "tur_war_warfare",
+                                                   "tur_war_corp",
+                                                   "tur_war_corp_sec",
+                                                   "tur_war_corp_end",
+                                                   "tur_tech_boost"
+                                               ]
+                                 },
+                     "GRE.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "hellenic_parliament",
+                                                   "megali_idea",
+                                                   "form_byzantine_empire"
+                                               ]
+                                 },
+                     "ARA.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "foreign_investiments_ara",
+                                                   "arabian_colonisation",
+                                                   "arabian_choise",
+                                                   "build_the_tower_of_babylon",
+                                                   "eastern_crisis",
+                                                   "enact_muhammad_alis_reforms",
+                                                   "neft_kompania_1c",
+                                                   "neft_kompania_form",
+                                                   "neft_kompania6",
+                                                   "north_africa",
+                                                   "Osman_peredacha",
+                                                   "vibor_techshkol1",
+                                                   "vibor_techshkol2",
+                                                   "vibor_techshkol3",
+                                                   "form_arabia"
+                                               ]
+                                 },
+                     "SCH.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "form_north_german_confederation"
+                                               ]
+                                 },
+                     "SPA.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "establish_la_guardia_civil",
+                                                   "confiscations_of_mendizabal",
+                                                   "spa_colonies",
+                                                   "spa_convention",
+                                                   "spa_convention2",
+                                                   "restore_emp"
+                                               ]
+                                 },
+                     "UCA.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "become_guatemala"
+                                               ]
+                                 },
+                     "Transfers.txt":  {
+                                           "duplicate_count":  0,
+                                           "brace_mismatch":  false,
+                                           "names":  [
+                                                         "BYZ_core_no",
+                                                         "form_germany",
+                                                         "form_italy",
+                                                         "form_scandinavia",
+                                                         "declare_republic_of_neuchatel",
+                                                         "release_vassal",
+                                                         "build_suez_canal",
+                                                         "build_panama_canal",
+                                                         "form_south_german_confederation",
+                                                         "form_union_nation",
+                                                         "form_yugoslavia",
+                                                         "form_israel"
+                                                     ]
+                                       },
+                     "SCA.txt":  {
+                                     "warning":  "political_block_unclosed",
+                                     "brace_mismatch":  true,
+                                     "names":  [
+
+                                               ]
+                                 },
+                     "CAN.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "native_american_minor",
+                                                   "the_greate_reconstruction",
+                                                   "the_greate_reconstruction2",
+                                                   "new_england_will_be_ours",
+                                                   "NAFTA",
+                                                   "franafta",
+                                                   "form_canadian_fabric",
+                                                   "australian_purchase",
+                                                   "the_greenland_purchase"
+                                               ]
+                                 },
+                     "ZUL.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "attack_the_laagers"
+                                               ]
+                                 },
+                     "Other.txt":  {
+                                       "duplicate_count":  0,
+                                       "brace_mismatch":  false,
+                                       "names":  [
+                                                     "gon_kong",
+                                                     "dip_med",
+                                                     "dip_med1",
+                                                     "dip_med2",
+                                                     "dip_med3",
+                                                     "dip_med4",
+                                                     "dip_med5",
+                                                     "form_republic_a",
+                                                     "form_republic_b",
+                                                     "form_comunist_a",
+                                                     "form_comunist_b",
+                                                     "form_fashist_a",
+                                                     "form_fashist_b",
+                                                     "form_bourgeois_a",
+                                                     "srart_copenhagen",
+                                                     "assimilation_spread",
+                                                     "obrazovanue1",
+                                                     "FAQ_dec",
+                                                     "raskopka1",
+                                                     "raskopka2",
+                                                     "war_push",
+                                                     "war_def",
+                                                     "sanatoriy",
+                                                     "change_gov_type",
+                                                     "change_gov_type2",
+                                                     "go_to_regular_focus",
+                                                     "go_back_to_mobile",
+                                                     "experience",
+                                                     "fabrics",
+                                                     "build_kiel_canal",
+                                                     "exchange_settings_dec",
+                                                     "enact_liquor_prohibition",
+                                                     "abolish_prohibition",
+                                                     "institute_central_bank",
+                                                     "enact_female_suffrage",
+                                                     "leave_soi",
+                                                     "nationalize",
+                                                     "egyptological_excavations",
+                                                     "egyptological_excavations1",
+                                                     "forced_egyptological_excavations",
+                                                     "troya_excavations",
+                                                     "forced_troya_excavations",
+                                                     "call_geneva_convention",
+                                                     "sign_the_geneva_convention",
+                                                     "build_gotthard_tunnel",
+                                                     "torching_of_the_summer_palace"
+                                                 ]
+                                   },
+                     "PER.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "Graeter_Persia",
+                                                   "graet_igm",
+                                                   "establish_the_dar_al_funun",
+                                                   "famine_mug_1",
+                                                   "famine_mug_2",
+                                                   "famine_mug_3",
+                                                   "famine_war_end_2",
+                                                   "foreign_investiments_per",
+                                                   "graet_igm23",
+                                                   "persian_cinema",
+                                                   "travel_to_europe",
+                                                   "Turkmen_colonized",
+                                                   "UNCOR_PUNJAB",
+                                                   "UNCOR_TAJIKS"
+                                               ]
+                                 },
+                     "USA.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "custers_expedition",
+                                                   "enact_the_homestead_act",
+                                                   "enact_anaconda_plan",
+                                                   "shermans_march_to_the_sea",
+                                                   "emancipation_proclamation",
+                                                   "manifest_destiny",
+                                                   "ostend_manifesto",
+                                                   "enact_radical_reconstruction",
+                                                   "annex_hawaii",
+                                                   "westcoast",
+                                                   "alaskan_purchase2",
+                                                   "liberia_invasion",
+                                                   "motor_city",
+                                                   "sanction_on",
+                                                   "sanction_off",
+                                                   "rise_of_american_business"
+                                               ]
+                                 },
+                     "LIP.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "support_schaumburgs"
+                                               ]
+                                 },
+                     "SAF.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "nama_colonisation",
+                                                   "north_cap_colonisation",
+                                                   "conquest",
+                                                   "peacefull_conquest",
+                                                   "Black_lifes_matter",
+                                                   "adopt_die_stem"
+                                               ]
+                                 },
+                     "CHI.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "clear_out_the_manchu_elite",
+                                                   "support_boxers"
+                                               ]
+                                 },
+                     "Tech_Schools.txt":  {
+                                              "duplicate_count":  0,
+                                              "brace_mismatch":  false,
+                                              "names":  [
+                                                            "switch_to_free_tech",
+                                                            "switch_to_army_tech",
+                                                            "switch_to_navy_tech",
+                                                            "switch_to_culture_tech",
+                                                            "switch_to_trade_tech",
+                                                            "switch_to_industry_tech",
+                                                            "switch_to_traditional_academic"
+                                                        ]
+                                          },
+                     "SAR.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "form_italy_min1"
+                                               ]
+                                 },
+                     "ETH.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "become_negusa_nagast"
+                                               ]
+                                 },
+                     "EIC.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "reforma_v_Indii",
+                                                   "graet_eic"
+                                               ]
+                                 },
+                     "ENG.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "tea_need",
+                                                   "repeal_the_corn_laws",
+                                                   "crown_empress_of_india",
+                                                   "found_the_bbc",
+                                                   "the_scotland_yard",
+                                                   "ionian_islands_question",
+                                                   "rhodesia_charter",
+                                                   "webster_ashburton_treaty",
+                                                   "switch_to_british_tech",
+                                                   "SA_Governor_Generals_rights",
+                                                   "Change_canadian_general-governer",
+                                                   "add_reform_canada",
+                                                   "opit_boic"
+                                               ]
+                                 },
+                     "NAM.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "Lvymbia"
+                                               ]
+                                 },
+                     "FRA.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "liberty_enlightening_the_world",
+                                                   "support_french_foreign_legion",
+                                                   "french_military_mission_to_japan",
+                                                   "palais_garnier",
+                                                   "the_lambert_charter",
+                                                   "end_the_merina_monarchy",
+                                                   "brazzas_expedition",
+                                                   "the_rhine_crisis",
+                                                   "build_the_eiffel_tower",
+                                                   "haussmanns_renovations",
+                                                   "corki_savoia",
+                                                   "alg_dakar_start",
+                                                   "alg_dakar_route",
+                                                   "alg_dakar_finish",
+                                                   "french_vietnam",
+                                                   "french_ultimatum_eng",
+                                                   "restore_alsace"
+                                               ]
+                                 },
+                     "SOK.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "annals_of_the_fulani_jihad"
+                                               ]
+                                 },
+                     "BYZ.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "BYZ_Ion",
+                                                   "BYZ_core",
+                                                   "BYZ_TRI",
+                                                   "BYZ_MON",
+                                                   "BYZ_MON1"
+                                               ]
+                                 },
+                     "GER.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "annex_KRA",
+                                                   "construct_germania_werft",
+                                                   "construct_the_walhalla",
+                                                   "das_zivilgesetzbuch",
+                                                   "die_wacht_am_rhein",
+                                                   "DP_BUFF1",
+                                                   "DP_BUFF2",
+                                                   "ems_dispatch",
+                                                   "kaiser_wilhelms_land",
+                                                   "niederwald_denkmal",
+                                                   "pribalts",
+                                                   "reichsland_elsass",
+                                                   "schwabing_circles",
+                                                   "support_biesterfelds",
+                                                   "support_ruhr_industrialism",
+                                                   "the_heligoland_question",
+                                                   "the_ruhr_boom",
+                                                   "udalenie",
+                                                   "von_moltkes_staff_reforms"
+                                               ]
+                                 },
+                     "HND.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "graet_eic24",
+                                                   "Inian_ambitions",
+                                                   "famine_ind_1",
+                                                   "famine_ind_2",
+                                                   "famine_ind_3",
+                                                   "famine_war_end_1",
+                                                   "gudbay_eng",
+                                                   "India_reforms",
+                                                   "integratia_boic_v_eng",
+                                                   "inzeneri_eng_v_boic",
+                                                   "iron_in_nagpur",
+                                                   "obrazovanue_for_India1",
+                                                   "obrazovanue_for_India2",
+                                                   "obrazovanue_for_India3",
+                                                   "obrazovanue_for_India4",
+                                                   "obrazovanue_for_India5",
+                                                   "switch_to_indian_tech"
+                                               ]
+                                 },
+                     "SIC.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "form_italy_min"
+                                               ]
+                                 },
+                     "JAP.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "korea_invasion",
+                                                   "manchu_invasion_fast",
+                                                   "manchu_invasion",
+                                                   "kong_invasion",
+                                                   "taiwan_invasion",
+                                                   "hawaii_invasion",
+                                                   "russia_invasion",
+                                                   "phillipines_invasion",
+                                                   "indonesia_invasion",
+                                                   "toyota_corp",
+                                                   "mitsubishi_corp",
+                                                   "build_yamato",
+                                                   "Jap_core",
+                                                   "the_meiji_restoration2",
+                                                   "bonuses_from_meiji",
+                                                   "switch_to_japan_tech"
+                                               ]
+                                 },
+                     "MULTI.txt":  {
+                                       "duplicate_count":  0,
+                                       "brace_mismatch":  false,
+                                       "names":  [
+                                                     "the_grunderzeit",
+                                                     "the_5year",
+                                                     "tough_choice",
+                                                     "bosnian_aus",
+                                                     "aus_werft",
+                                                     "die_groot_trek",
+                                                     "leave_SER_ROM_ALB",
+                                                     "Canadian_Governor_Generals_rights",
+                                                     "cavours_diplomacy",
+                                                     "Adriatika",
+                                                     "caribean_purchase",
+                                                     "narco_kortel",
+                                                     "annex_MON",
+                                                     "miskatonic_university",
+                                                     "austrian_form_south_german_confederation",
+                                                     "unite_moldavia_wallachia",
+                                                     "apply_for_USA_statehood",
+                                                     "alaskan_purchase"
+                                                 ]
+                                   },
+                     "BRZ.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "fatherland_volunteers",
+                                                   "law_1420_of_general_common_education",
+                                                   "brz_resettle_start",
+                                                   "brz_statue",
+                                                   "brz_migration",
+                                                   "brz_railroads",
+                                                   "brz_railroads2",
+                                                   "restore_brz",
+                                                   "big_brazil"
+                                               ]
+                                 },
+                     "TRN.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "sand_river_convention"
+                                               ]
+                                 },
+                     "AUS.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "enact_dual_monarchy",
+                                                   "aus_monarchy"
+                                               ]
+                                 },
+                     "MEX.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "natsionalnoe_edinstvo",
+                                                   "COR_CENTRAL_AMERICA"
+                                               ]
+                                 },
+                     "IGM.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "tur_ulti"
+                                               ]
+                                 },
+                     "ORA.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "orange_river_convention"
+                                               ]
+                                 },
+                     "DEN.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "danmarks_riges_grundlov"
+                                               ]
+                                 },
+                     "ITA.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "award_order_of_st_francis",
+                                                   "statuto_albertino",
+                                                   "build_vittoriano",
+                                                   "the_case_of_edgardo_mortara",
+                                                   "the_first_vatican_council",
+                                                   "law_of_guarantees",
+                                                   "italia_irredenta",
+                                                   "djibuti_expansion",
+                                                   "djibuti_expansion2",
+                                                   "fiat_corp",
+                                                   "tunis_invasion",
+                                                   "tunis_ass",
+                                                   "val_garibaldi_1",
+                                                   "val_garibaldi_2",
+                                                   "val_garibaldi_3",
+                                                   "val_alpine_1",
+                                                   "val_alpine_2",
+                                                   "val_alpine_3",
+                                                   "prisoedinenie_vassalov"
+                                               ]
+                                 },
+                     "RUS.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "abolish_serfdom",
+                                                   "support_industry",
+                                                   "support_education",
+                                                   "support_financial",
+                                                   "embrace_plurality",
+                                                   "establish_the_sovnarkom",
+                                                   "manifesto_on_unshakable_autocracy",
+                                                   "promulgate_the_ems_ukaz",
+                                                   "protect_eastern_christians",
+                                                   "peking_convention",
+                                                   "russian_vladivostok",
+                                                   "move_capital_to_moscow",
+                                                   "Transsibirsk_run",
+                                                   "kaukazus",
+                                                   "poland_back",
+                                                   "finland_back",
+                                                   "pribalts3",
+                                                   "switch_to_soviet_tech"
+                                               ]
+                                 },
+                     "HAN.txt":  {
+                                     "duplicate_count":  0,
+                                     "brace_mismatch":  false,
+                                     "names":  [
+                                                   "introduce_the_presbyteries"
+                                               ]
+                                 }
+                 },
+    "duplicates":  {
+                       "global":  [
+
+                                  ],
+                       "per_file":  {
+                                        "KUK.txt":  {
+
+                                                    },
+                                        "CSA.txt":  {
+
+                                                    },
+                                        "LIB.txt":  {
+
+                                                    },
+                                        "TUR.txt":  {
+
+                                                    },
+                                        "GRE.txt":  {
+
+                                                    },
+                                        "ARA.txt":  {
+
+                                                    },
+                                        "SCH.txt":  {
+
+                                                    },
+                                        "SPA.txt":  {
+
+                                                    },
+                                        "UCA.txt":  {
+
+                                                    },
+                                        "Transfers.txt":  {
+
+                                                          },
+                                        "TRN.txt":  {
+
+                                                    },
+                                        "CAN.txt":  {
+
+                                                    },
+                                        "ZUL.txt":  {
+
+                                                    },
+                                        "Other.txt":  {
+
+                                                      },
+                                        "PER.txt":  {
+
+                                                    },
+                                        "USA.txt":  {
+
+                                                    },
+                                        "LIP.txt":  {
+
+                                                    },
+                                        "SAF.txt":  {
+
+                                                    },
+                                        "CHI.txt":  {
+
+                                                    },
+                                        "Tech_Schools.txt":  {
+
+                                                             },
+                                        "SAR.txt":  {
+
+                                                    },
+                                        "ETH.txt":  {
+
+                                                    },
+                                        "EIC.txt":  {
+
+                                                    },
+                                        "ENG.txt":  {
+
+                                                    },
+                                        "NAM.txt":  {
+
+                                                    },
+                                        "FRA.txt":  {
+
+                                                    },
+                                        "SOK.txt":  {
+
+                                                    },
+                                        "BYZ.txt":  {
+
+                                                    },
+                                        "GER.txt":  {
+
+                                                    },
+                                        "HND.txt":  {
+
+                                                    },
+                                        "SIC.txt":  {
+
+                                                    },
+                                        "JAP.txt":  {
+
+                                                    },
+                                        "MULTI.txt":  {
+
+                                                      },
+                                        "BRZ.txt":  {
+
+                                                    },
+                                        "AUS.txt":  {
+
+                                                    },
+                                        "MEX.txt":  {
+
+                                                    },
+                                        "IGM.txt":  {
+
+                                                    },
+                                        "ORA.txt":  {
+
+                                                    },
+                                        "DEN.txt":  {
+
+                                                    },
+                                        "ITA.txt":  {
+
+                                                    },
+                                        "RUS.txt":  {
+
+                                                    },
+                                        "HAN.txt":  {
+
+                                                    }
+                                    }
+                   },
+    "misplaced":  [
+                      {
+                          "reason":  "does_not_reference_file_tag",
+                          "file":  "ARA.txt",
+                          "decision":  "form_arabia"
+                      },
+                      {
+                          "reason":  "does_not_reference_file_tag",
+                          "file":  "Other.txt",
+                          "decision":  "egyptological_excavations"
+                      },
+                      {
+                          "reason":  "does_not_reference_file_tag",
+                          "file":  "Other.txt",
+                          "decision":  "egyptological_excavations1"
+                      },
+                      {
+                          "reason":  "does_not_reference_file_tag",
+                          "file":  "Other.txt",
+                          "decision":  "troya_excavations"
+                      },
+                      {
+                          "reason":  "does_not_reference_file_tag",
+                          "file":  "Other.txt",
+                          "decision":  "torching_of_the_summer_palace"
+                      },
+                      {
+                          "reason":  "does_not_reference_file_tag",
+                          "file":  "Transfers.txt",
+                          "decision":  "BYZ_core_no"
+                      },
+                      {
+                          "reason":  "does_not_reference_file_tag",
+                          "file":  "Transfers.txt",
+                          "decision":  "form_germany"
+                      },
+                      {
+                          "reason":  "does_not_reference_file_tag",
+                          "file":  "Transfers.txt",
+                          "decision":  "release_vassal"
+                      },
+                      {
+                          "reason":  "does_not_reference_file_tag",
+                          "file":  "Transfers.txt",
+                          "decision":  "form_south_german_confederation"
+                      },
+                      {
+                          "reason":  "does_not_reference_file_tag",
+                          "file":  "Transfers.txt",
+                          "decision":  "form_union_nation"
+                      },
+                      {
+                          "reason":  "does_not_reference_file_tag",
+                          "file":  "Transfers.txt",
+                          "decision":  "form_yugoslavia"
+                      },
+                      {
+                          "reason":  "does_not_reference_file_tag",
+                          "file":  "Transfers.txt",
+                          "decision":  "form_israel"
+                      }
+                  ],
+    "missing_potential":  [
+
+                          ],
+    "missing_effect":  [
+
+                       ],
+    "syntax_issues":  [
+
+                      ]
+}

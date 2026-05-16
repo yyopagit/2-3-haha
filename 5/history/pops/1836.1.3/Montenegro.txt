@@ -1,0 +1,242 @@
+#Ulcinj
+800 = {
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 400
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 40550
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 825
+    }
+
+}
+
+#Niksic
+2569 = {
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 11400
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 75
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 125
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 40825
+    }
+
+}
+
+#Cetinje
+2583 = {
+    bureaucrats = {
+        culture = serb
+        religion = orthodox
+        size = 25
+    }
+
+    officers = {
+        culture = serb
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 275
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 1300
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 1100
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 40375
+    }
+
+}
+
+#Pljevlja
+2577 = {
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 18175
+    }
+
+    aristocrats = {
+        culture = serb
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 400
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 40501
+    }
+
+}
+
+#Kotor
+2582 = {
+    clergymen = {
+        culture = serb
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = serb
+        religion = orthodox
+        size = 250
+    }
+
+    soldiers = {
+        culture = serb
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = serb
+        religion = orthodox
+        size = 650
+    }
+
+    clergymen = {
+        culture = croat
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = croat
+        religion = orthodox
+        size = 550
+    }
+
+    soldiers = {
+        culture = croat
+        religion = orthodox
+        size = 125
+    }
+
+    farmers = {
+        culture = croat
+        religion = orthodox
+        size = 40225
+    }
+
+}
+

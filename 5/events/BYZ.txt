@@ -1,0 +1,407 @@
+country_event = {
+	id = 122223331
+	title = "EVTNAME122223331"
+	desc = "EVTDESC122223331"
+	picture = "treaty"
+	
+	trigger = {
+		tag = BYZ
+		NOT = { 
+			has_country_flag = BYZ_own
+		}
+	}
+	immediate = { 
+		set_country_flag = BYZ_own
+		release = SER
+		release = WAL
+		release_vassal = IRQ
+		release_vassal = ALB
+		release_vassal = CYP
+		release = ARM
+		EGY = {
+			release = CYP
+		}
+	}
+	option = {
+		name = "EVTOPTA122223331"
+		TUR_869 = { assimilate = yes }
+		TUR_860 = { assimilate = yes }
+		TUR_863 = { assimilate = yes }
+		TUR_873 = { assimilate = yes }
+		TUR_881 = { assimilate = yes }
+		TUR_884 = { assimilate = yes }
+		TUR_889 = { assimilate = yes }
+		any_owned = { remove_core = TUR } 
+	}
+}
+
+country_event = {
+	id = 122223332
+	title = "EVTNAME122223332"
+	desc = "EVTDESC122223332"
+	picture = "School"
+	
+	trigger = {
+		tag = BYZ
+		has_country_flag = BYZ_own
+		NOT = { 
+			has_country_flag = BYZ_lit
+		}
+	}
+	immediate = {
+		set_country_flag = BYZ_lit
+		any_pop = { literacy = 0.25 }
+	}
+	option = {
+		name = "EVTOPTA122223332"
+		clergymen = { reduce_pop = 2 }
+		bureaucrats = { reduce_pop = 2 }
+	}
+}
+
+country_event = {
+	id = 122223334
+	title = "EVTNAME122223334"
+	desc = "EVTDESC122223334"
+	picture = "Fascist"
+	
+	trigger = {
+		tag = BYZ
+		plurality = 20
+		year = 1844
+		owns = 809
+		NOT = {
+			has_country_flag = BYZ_BUL
+		}
+	}
+	immediate = {
+		set_country_flag = BYZ_BUL
+		release = BUL
+	}
+	option = {
+		name = "EVTOPTA122223334"
+		war = {
+			target = BUL
+			attacker_goal = {
+					casus_belli = annex_core_country
+				}
+		}
+		release = SER
+		release = WAL
+		release = MOL
+		release = ALB
+		release_vassal = SER
+		release_vassal = WAL
+		release_vassal = MOL
+		release_vassal = ALB
+		leave_alliance = SER
+		leave_alliance = WAL
+		leave_alliance = MOL
+		leave_alliance = ALB
+		set_global_flag = BYZ_war
+	}
+	option = {
+		name = "EVTOPTB122223334"
+		plurality = 25
+	}
+}
+
+country_event = {
+	id = 122223336
+	title = "EVTNAME122223336"
+	desc = "EVTDESC122223336"
+	picture = "Rebellion"
+	
+	trigger = {
+		tag = BYZ
+		year = 1844
+		has_global_flag = BYZ_war
+		NOT = {
+			OR = {
+				AND = {
+					plurality = 90
+					literacy = 0.65	
+				}
+				has_global_flag = BYZ_war_no
+				has_country_flag = BYZ_BUL_1
+			}
+		}
+	}
+	immediate = {
+		set_global_flag = BYZ_war1
+		set_country_flag = BYZ_BUL_1
+		SER = {
+			war = {
+				target = BYZ
+				attacker_goal = {
+					casus_belli = humiliate3
+				}
+				defender_goal = {
+					casus_belli = annex_core_country
+				}
+			}
+		}
+		release = SER
+		release = WAL
+		release = MOL
+		release = ALB
+		release_vassal = SER
+		release_vassal = WAL
+		release_vassal = MOL
+		release_vassal = ALB
+		ROM = {
+			war = {
+				target = BYZ
+				attacker_goal = {
+					casus_belli = humiliate3
+				}
+				defender_goal = {
+						casus_belli = annex_core_country
+					}
+			}
+		}
+		ALB = {
+			war = {
+				target = BYZ
+				attacker_goal = {
+					casus_belli = humiliate3
+				}
+				defender_goal = {
+						casus_belli = annex_core_country
+					}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA122223336"
+		plurality = -25
+		add_accepted_culture = romanian
+		add_accepted_culture = serb
+		add_accepted_culture = croat
+		add_accepted_culture = bulgarian
+		add_accepted_culture = albanian
+	}
+}
+
+country_event = {
+	id = 122223337
+	title = "EVTNAME122223337"
+	desc = "EVTDESC122223337"
+	picture = "Rebellion"
+	
+	trigger = {
+		year = 1850
+		has_global_flag = BYZ_war1
+		tag = BYZ
+		NOT = {
+			OR = {
+				AND = {
+					literacy = 0.85
+					plurality = 95	
+				}
+				has_global_flag = BYZ_war_no
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 100
+	}
+	immediate = {
+		release = SER
+		SER = {
+			war = {
+				target = BYZ
+				attacker_goal = {
+					casus_belli = humiliate3
+				}
+				defender_goal = {
+					casus_belli = annex_core_country
+				}
+			}
+		}
+		release = ROM
+		ROM = {
+			war = {
+				target = BYZ
+				attacker_goal = {
+					casus_belli = humiliate3
+				}
+				defender_goal = {
+						casus_belli = annex_core_country
+					}
+			}
+		}
+		release = ALB
+		ALB = {
+			war = {
+				target = BYZ
+				attacker_goal = {
+					casus_belli = humiliate3
+				}
+				defender_goal = {
+						casus_belli = annex_core_country
+					}
+			}
+		}
+		release = BUL
+		BUL = {
+			war = {
+				target = BYZ
+				attacker_goal = {
+					casus_belli = humiliate3
+				}
+				defender_goal = {
+							casus_belli = annex_core_country
+						}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA122223337"
+		plurality = -20
+	}
+}
+
+country_event = {
+	id = 1222233318
+	title = "EVTNAME1222233318"
+	desc = "EVTDESC1222233318"
+	picture = "Dreyfus"	
+	trigger = {
+		tag = BYZ
+		year = 1850
+		exists = BUL
+		plurality = 80
+		NOT = { 
+			owns = 809
+			has_global_flag = BYZ_war
+			has_global_flag = BYZ_war_no
+		}
+	}
+	immediate = {
+		inherit = BUL
+		set_global_flag = BYZ_war_no
+	}
+	option = {
+		name = "EVTOPTA1222233318"
+		plurality = 10
+		TUR_810 = { assimilate = yes }
+		any_owned = { remove_core = BUL }
+	}
+}
+
+country_event = {
+	id = 1222233319
+	title = "EVTNAME1222233319"
+	desc = "EVTDESC1222233319"
+	picture = "Execution"	
+	trigger = {
+		tag = BYZ
+		year = 1845
+		owns = 809
+		NOT = {
+			OR = {
+				has_global_flag = BYZ_war_accept
+				has_global_flag = BYZ_war
+				has_global_flag = BYZ_war_no
+			}
+		}
+	}
+	immediate = {
+		set_global_flag = BYZ_war
+		release = BUL
+		war = {
+			target = BUL
+			attacker_goal = {
+					casus_belli = annex_core_country
+				}
+		}
+		release = SER
+		release = WAL
+		release = MOL
+		release = ALB
+		release_vassal = SER
+		release_vassal = WAL
+		release_vassal = MOL
+		release_vassal = ALB
+		leave_alliance = SER
+		leave_alliance = WAL
+		leave_alliance = MOL
+		leave_alliance = ALB
+	}
+	option = {
+		name = "EVTOPTA122223337"
+		plurality = -35
+
+	}
+}
+
+country_event = {
+	id = 1222233321
+	title = "EVTNAME1222233321"
+	desc = "EVTDESC1222233321"
+	picture = "Military_reform"	
+	trigger = {
+		tag = BYZ
+		year = 1850
+		has_global_flag = BYZ_war_no
+		NOT = { 
+			has_country_flag = BYZ_accept
+		}
+	}
+	option = {
+		name = "EVTOPTA1222233321"
+		set_global_flag = BYZ_war_accept
+		add_accepted_culture = romanian
+		set_country_flag = BYZ_accept
+	}
+	option = {
+		name = "EVTOPTB1222233321"
+		add_country_modifier = { name = BYZ_great  duration = -1 }
+		set_country_flag = BYZ_accept
+		set_country_flag = BYZ_support
+	}
+	option = {
+		name = "EVTOPTC1222233321"
+		add_country_modifier = { name = BYZ_life  duration = -1 }
+		set_country_flag = BYZ_accept
+	}
+}
+
+country_event = {
+	id = 888892
+	title = "EVTNAME888892"
+	desc = "EVTDESC888892"
+	picture = "utopia"	
+	
+	trigger = {
+		tag = BYZ
+		has_global_flag = BYZ_war_no
+	}
+	
+	mean_time_to_happen = {
+		months = 40
+	}
+	option = {
+		name = "EVTOPTA888892"
+		random_owned = {
+			limit = {
+                NOT = { has_province_modifier = BYZ_Happy }
+                state_scope = {
+                    is_colonial = no
+                    owner = { total_pops = 450000 }
+                }
+            }
+		
+			state_scope = {
+				any_owned = {
+					add_province_modifier = {
+						name = BYZ_Happy
+						duration = 2920
+					}
+				}
+			}
+		}
+	}
+}
+

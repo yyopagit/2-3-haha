@@ -1,0 +1,566 @@
+political_decisions = {
+	award_order_of_st_francis = {
+	picture = award_order_of_st_francis
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = order_awarded
+			}
+		}
+		allow = {
+			prestige = 25
+			year = 1850
+		}
+		effect = {
+			years_of_research = 0.5
+			prestige = 5
+			set_country_flag = order_awarded
+		}
+	}
+	statuto_albertino = {
+	picture = statuto_albertino
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = get_your_statuto_albertino_here
+			}
+		}
+		allow = {
+			average_militancy = 3
+		}
+		effect = {
+			any_pop = {
+				militancy = -2
+			}
+			prestige = 5
+			set_country_flag = get_your_statuto_albertino_here
+		}
+	}
+	build_vittoriano = {
+	picture = build_vittoriano
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = vittoriano_built
+			}
+		}
+		allow = {
+			realism = 1
+		}
+		effect = {
+			prestige = 25
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = vittoriano_built
+		}
+	}
+	the_case_of_edgardo_mortara = {
+	picture = the_case_of_edgardo_mortara
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = edgardo_mortara
+			}
+			owns = 741
+		}
+		allow = {
+			idealism = 1
+		}
+		effect = {
+			prestige = 15
+			badboy = -1
+			any_greater_power = {
+				relation = {
+					value = -20
+					who = THIS
+				}
+			}
+			set_country_flag = edgardo_mortara
+		}
+	}
+	the_first_vatican_council = {
+	picture = the_first_vatican_council
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = first_vatican_council_held
+			}
+		}
+		allow = {
+			empiricism = 1
+		}
+		effect = {
+			prestige = 10
+			badboy = -1
+			any_country = {
+				limit = {
+					religion = orthodox
+				}
+				relation = {
+					who = THIS
+					value = 10
+				}
+			}
+			set_country_flag = first_vatican_council_held
+		}
+	}
+	law_of_guarantees = {
+	picture = law_of_guarantees
+		potential = {
+			tag = ITA
+			NOT = {
+				capital = 749
+			}
+		}
+		allow = {
+			owns = 749
+		}
+		effect = {
+			capital = 749
+			prestige = 5
+			badboy = -2
+		}
+	}
+	italia_irredenta = {
+	picture = italia_irredenta
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = italia_ulterior
+			}
+		}
+		allow = {
+			OR = {
+				invention = populism_vs._establishment
+				is_greater_power = yes
+			}
+		}
+		effect = {
+			set_country_flag = italia_ulterior
+			AUS_729 = {
+			any_pop = {
+				consciousness = 2
+				literacy = 0.2
+			}
+			}
+			729 = {
+				add_core = ITA
+			}
+			730 = {
+				add_core = ITA
+			}
+			731 = {
+				add_core = ITA
+			}
+			732 = {
+				add_core = ITA
+			}
+			733 = {
+				add_core = ITA
+			}
+			734 = {
+				add_core = ITA
+			}
+			726 = {	add_core = ITA	}
+			727 = {	add_core = ITA	}
+			728 = {	add_core = ITA	}
+			SWI_603 = {	add_core = ITA	}
+			SWI_605 = {	add_core = ITA	}
+				}
+			}
+	djibuti_expansion = {
+	picture = cavours_diplomacy
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = djibuti_conquered
+			}
+		}
+		allow = {
+			prestige = 100
+			money = 1000000
+			year = 1860
+		}
+		effect = {
+			prestige = 10
+			money = -1000000
+				1875 = { secede_province = ITA }
+			1875 = { life_rating = 25 
+			naval_base = 1 
+			add_core = ITA }
+			set_country_flag = djibuti_conquered
+		}
+	}
+	djibuti_expansion2 = {
+	picture = cavours_diplomacy
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = djibuti_conquered2
+			}
+		}
+		allow = {
+			year = 1895
+			ETH_1867 = { owned_by = THIS }
+			ENG_1868 = { owned_by = THIS }
+			owns = 1869
+			owns = 1875
+			has_country_flag = djibuti_conquered
+		}
+		effect = {
+		ETH_1867 = { add_province_modifier = { name = djibuti duration = -1} remove_core = ETH }
+		ENG_1868 = { add_province_modifier = { name = djibuti duration = -1}}
+		1875 = { add_province_modifier = { name = djibuti duration = -1}}
+			prestige = 20
+			set_country_flag = djibuti_conquered2
+		}
+	}
+	fiat_corp = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = ITA
+			owns = 720
+			NOT = {
+				has_country_flag = fiat_corp_expanded
+			}
+		}
+		allow = {
+			year = 1885
+			combustion_engine = 1
+			720 = {
+				state_scope = {
+					has_building = automobile_factory
+				}
+			}
+			money = 550000
+		}
+		effect = {
+			720 = {
+				add_province_modifier = {
+					duration = -1
+					name = fiat_corp_work_1				
+				}	
+			}
+			754 = {
+				add_province_modifier = {
+					duration = -1
+					name = event_korsara_na_shaxtu				
+				}	
+			}
+			add_country_modifier = {
+				name = fiat_corp_work_2
+				duration = -1
+			}
+			prestige = 5
+			set_country_flag = fiat_corp_expanded
+			money = -550000
+		}
+	}
+	tunis_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = tunis_conquered
+			}
+		}
+		allow = {
+			owns = 1725
+		}
+		effect = {
+			prestige = 10
+			set_country_flag = tunis_conquered
+		}
+	}
+	tunis_ass = {
+	picture = reichsland_elsass
+		potential = {
+			tag = ITA
+			NOT = {
+				has_country_flag = tunis_ass
+			}
+		}
+		allow = {
+			year = 1855
+			owns = 1725
+			money = 200000
+		}
+		effect = {
+			prestige = 20
+			money = -200000
+			set_country_flag = tunis_ass
+			1725 = {
+				add_province_modifier = {
+					duration = 2160
+					name = tunis_yes				
+				}	
+			}
+			1726 = {
+				add_province_modifier = {
+					duration = 2160
+					name = tunis_yes				
+				}	
+			}
+			1727 = {
+				add_province_modifier = {
+					duration = 2160
+					name = tunis_yes				
+				}	
+			}
+			1728 = {
+				add_province_modifier = {
+					duration = 2160
+					name = tunis_yes				
+				}	
+			}
+			1729 = {
+				add_province_modifier = {
+					duration = 2160
+					name = tunis_yes				
+				}	
+			}
+			1730 = {
+				add_province_modifier = {
+					duration = 2160
+					name = tunis_yes				
+				}	
+			}
+		}
+	}
+	val_garibaldi_1 = {
+	picture = reichsland_elsass
+		potential = {
+			has_country_flag = sardinianflag
+			tag = ITA
+			owns = 726
+			owns = 727
+			owns = 734
+			owns = 732
+			owns = 733
+			owns = 728
+			owns = 730
+			owns = 731
+			owns = 729
+			NOT = {
+				has_country_flag = val_garibaldi_1_built
+				deep_defense_system = 1
+			}
+		}
+		allow = {
+			money = 50000
+			post_napoleonic_thought = 1
+		}
+		effect = {
+			money = -50000
+			set_country_flag = val_garibaldi_1_built
+			727 = { fort = 1 }
+			734 = { fort = 1 }
+			732 = { fort = 1 }
+			733 = { fort = 1 }
+			728 = { fort = 1 }
+			730 = { fort = 1 }
+			731 = { fort = 1 }
+			729 = { fort = 1 }
+		}
+	}
+	val_garibaldi_2 = {
+	picture = reichsland_elsass
+		potential = {
+			has_country_flag = sardinianflag
+			tag = ITA
+			owns = 726
+			owns = 727
+			owns = 734
+			owns = 732
+			owns = 733
+			owns = 728
+			owns = 730
+			owns = 731
+			owns = 729
+			has_country_flag = val_garibaldi_1_built
+			NOT = {
+				has_country_flag = val_garibaldi_2_built
+			}
+		}
+		allow = {
+			money = 500000
+			point_defense_system = 1
+		}
+		effect = {
+			prestige = 20
+			money = -500000
+			set_country_flag = val_garibaldi_2_built
+			727 = { fort = 1 }
+			734 = { fort = 1 }
+			732 = { fort = 1 }
+			733 = { fort = 1 }
+			728 = { fort = 1 }
+			730 = { fort = 1 }
+			731 = { fort = 1 }
+			729 = { fort = 1 }
+			726 = { fort = 1 }
+		}
+	}
+	val_garibaldi_3 = {
+	picture = reichsland_elsass
+		potential = {
+			tag = ITA
+			owns = 726
+			owns = 727
+			owns = 734
+			owns = 732
+			owns = 733
+			owns = 728
+			owns = 730
+			owns = 731
+			owns = 729
+			has_country_flag = sardinianflag
+			NOT = {
+				has_country_flag = val_garibaldi_3_built
+				infiltration = 1
+			}
+		}
+		allow = {
+			money = 1500000
+			deep_defense_system = 1
+		}
+		effect = {
+			prestige = 40
+			money = -1500000
+			set_country_flag = val_garibaldi_3_built
+			727 = { fort = 1 }
+			734 = { fort = 1 }
+			732 = { fort = 1 }
+			733 = { fort = 1 }
+			728 = { fort = 1 }
+			730 = { fort = 1 }
+			731 = { fort = 1 }
+			729 = { fort = 1 }
+			726 = { fort = 1 }
+		}
+	}
+	val_alpine_1 = {
+	picture = reichsland_elsass
+		potential = {
+			has_country_flag = sardinianflag
+			tag = ITA
+			owns = 721
+			owns = 720
+			owns = 725
+			owns = 722
+			owns = 723
+			owns = 724
+			NOT = {
+				has_country_flag = val_alpine_1_built
+				deep_defense_system = 1
+			}
+		}
+		allow = {
+			money = 50000
+			post_napoleonic_thought = 1
+		}
+		effect = {
+			money = -50000
+			set_country_flag = val_alpine_1_built
+			721 = { fort = 1 }
+			720 = { fort = 1 }
+			725 = { fort = 1 }
+			722 = { fort = 1 }
+			723 = { fort = 1 }
+			724 = { fort = 1 }
+		}
+	}
+	val_alpine_2 = {
+	picture = reichsland_elsass
+		potential = {
+			has_country_flag = sardinianflag
+			tag = ITA
+			owns = 721
+			owns = 720
+			owns = 725
+			owns = 722
+			owns = 723
+			owns = 724
+			has_country_flag = val_alpine_1_built
+			NOT = {
+				has_country_flag = val_alpine_2_built
+			}
+		}
+		allow = {
+			money = 500000
+			point_defense_system = 1
+		}
+		effect = {
+			prestige = 20
+			money = -500000
+			set_country_flag = val_alpine_2_built
+			721 = { fort = 1 }
+			720 = { fort = 1 }
+			725 = { fort = 1 }
+			722 = { fort = 1 }
+			723 = { fort = 1 }
+			724 = { fort = 1 }
+		}
+	}
+	val_alpine_3 = {
+	picture = reichsland_elsass
+		potential = {
+			has_country_flag = sardinianflag
+			tag = ITA
+			owns = 721
+			owns = 720
+			owns = 725
+			owns = 722
+			owns = 723
+			owns = 724
+			has_country_flag = val_alpine_2_built
+			NOT = {
+				has_country_flag = val_alpine_3_built
+				infiltration = 1
+			}
+		}
+		allow = {
+			money = 1500000
+			deep_defense_system = 1
+		}
+		effect = {
+			prestige = 40
+			money = -1500000
+			set_country_flag = val_alpine_3_built
+			721 = { fort = 1 }
+			720 = { fort = 1 }
+			725 = { fort = 1 }
+			722 = { fort = 1 }
+			723 = { fort = 1 }
+			724 = { fort = 1 }
+		}
+	}
+	prisoedinenie_vassalov = {
+	    potential = {
+			tag = ITA
+			NOT = {
+			has_country_flag = prisoedinenie_vassalov
+			}
+		}
+		allow = {
+			num_of_vassals = 1
+			war = no
+			is_greater_power = yes
+		}	
+	    effect = {
+		set_country_flag = prisoedinenie_vassalov
+			prestige = 10
+			any_country = {
+				limit = {
+					vassal_of = THIS
+				}
+				annex_to = THIS
+			}
+		}	
+		    ai_will_do = {
+			factor = 1
+		    }		
+	}
+}
+

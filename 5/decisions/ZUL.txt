@@ -1,0 +1,49 @@
+political_decisions = {
+	attack_the_laagers = {
+	picture = attack_the_laagers
+		potential = {
+			tag = ZUL
+			NOT = {
+				has_global_flag = piet_retief_massacre
+			}
+			has_global_flag = the_great_trek
+			OR = {
+				exists = ORA
+				exists = TRN
+			}
+		}
+		allow = {
+			OR = {
+				NOT = {
+					relation = {
+						who = ORA
+						value = 100
+					}
+				}
+				NOT = {
+					relation = {
+						who = TRN
+						value = 100
+					}
+				}
+			}
+		}
+		effect = {
+			prestige = 5
+			badboy = 5
+			set_global_flag = piet_retief_massacre
+			2111 = {
+				any_pop = {
+					limit = {
+						culture = boer
+					}
+					reduce_pop = 0.6
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+

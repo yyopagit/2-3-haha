@@ -1,0 +1,1651 @@
+#Bahari Region (2664000)
+#under the rule of Egypt in 1836
+#Cairo (1004600/251150 POPS)
+1745 = {
+	aristocrats = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 750
+	}
+
+	bureaucrats = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 450
+	}
+
+	officers = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 450
+	}
+
+	artisans = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 1250
+	}
+
+	soldiers = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 1250
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 2600
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 125
+	}
+
+	officers = {
+		culture = bedouin
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 2125
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 4500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 16000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 133200
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 350
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 8000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 26625
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 2950
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = orthodox
+		size = 1225
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 9000
+	}
+}
+#Dumyat (402600/100650 POPS)
+1746 = {
+	aristocrats = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 575
+	}
+
+	soldiers = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 75
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 1500
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 925
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 4800
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 87775
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 2800
+	}
+}
+#Tanta (341600/85400 POPS)
+1747 = {
+	aristocrats = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 575
+	}
+
+	soldiers = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 75
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 850
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 825
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 4100
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 75225
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1850
+	}
+}
+#Mansura (256200/64050 POPS)
+1748 = {
+	aristocrats = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 600
+	}
+
+	artisans = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 50
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 700
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 600
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 3050
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 55400
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1850
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = orthodox
+		size = 5
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = orthodox
+		size = 245
+	}
+}
+#Ziqaziq (272600/68150 POPS)
+1749 = {
+	aristocrats = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 650
+	}
+
+	artisans = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 425
+	}
+
+	soldiers = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 75
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 700
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 650
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 3250
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 59300
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1850
+	}
+}
+#Giza (386400/96600 POPS)
+1750 = {
+	aristocrats = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 950
+	}
+
+	artisans = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 550
+	}
+
+	soldiers = {
+		culture = north_caucasian
+		religion = orthodox
+		size = 100
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 1100
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 800
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 4050
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 74420
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 2800
+	}
+}
+#Alexandria Region (736000)
+#under the rule of Egypt in 1836
+#Alexandria (640000/160000 POPS)
+1751 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 2750
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 150
+	}
+
+	officers = {
+		culture = bedouin
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 1425
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 8750
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 7000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 118725
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 750
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 12125
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = orthodox
+		size = 10
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = orthodox
+		size = 990
+	}
+
+	clergymen = {
+		culture = greek
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = greek
+		religion = orthodox
+		size = 1950
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 6000
+	}
+}
+#Matruh (60000/15000 POPS)
+1752 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 2250
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 1250
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 6000
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 4000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 101500
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 27000
+	}
+}
+#Sidi Barrani (20000/5000 POPS)
+1753 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 45750
+	}
+}
+#Siwa (16000/4000 POPS)
+1754 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 36500
+	}
+}
+#Sinai Region (100000)
+#under the rule of Egypt in 1836
+#Suez (72000/18000 POPS)
+1755 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 3500
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+
+	officers = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 1750
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 9000
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 2000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 163400
+	}
+}
+#Al Arish (16000/4000 POPS)
+1756 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1800
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1800
+	}
+}
+#Sharm al Shaykh (12000/3000 POPS)
+1757 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 15
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 10
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 900
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1800
+	}
+}
+#Hariga Region (56000)
+#uncolonized in 1836
+#Farafra (8000/2000 POPS)
+1758 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1800
+	}
+}
+#Bawiti (12000/3000 POPS)
+1759 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 27000
+	}
+}
+#Mut (20000/5000 POPS)
+1760 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 75
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 4575
+	}
+}
+#Baris (16000/4000 POPS)
+1761 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 200
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 3650
+	}
+}
+#Vostani Region (672000)
+#under the rule of Egypt in 1836
+#Asyut (196000/49000 POPS)
+1762 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 2250
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 400
+	}
+
+	officers = {
+		culture = bedouin
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 5500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 4000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 102400
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 5000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 59350
+	}
+}
+#Bani Suwayf (76000/19000 OPS) }
+1763 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 475
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 450
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 2400
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1200
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 84575
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 550
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 12800
+	}
+}
+#Minya (104000/26000 POPS)
+1764 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 4500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 4000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 83250
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 2500
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 27000
+	}
+}
+#Fayyum (192000/48000 POPS)
+1765 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 2000
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 2250
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 11000
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 4000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 116750
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 3000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 30500
+	}
+}
+#Suhaj (96000/24000 POPS)
+2559 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 1400
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 1250
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 4000
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 2500
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 100250
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 10500
+	}
+}
+#Said Region (244000)
+#under the rule of Egypt in 1836
+#Aswan (48000/12000 POPS)
+1766 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 1750
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 450
+	}
+
+	officers = {
+		culture = bedouin
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 5000
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1250
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 169800
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 38500
+	}
+}
+#Luxor (68000/17000 POPS)
+1767 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 1225
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 1250
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 6000
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1750
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 108750
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 2500
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 47000
+	}
+}
+#Idfu (76000/19000 POPS)
+1768 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 1750
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 4500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 2000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 104750
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 18500
+	}
+}
+#Qina (52000/13000 POPS)
+1769 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 5500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1500
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 100000
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 18500
+	}
+}
+#Red Sea Region (44000) #see Sudan.txt for balance of the region 
+#under the rule of Egypt in 1836
+#Qusayr (12000/3000 POPS)
+1770 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 40000
+	}
+}
+#Marsa Alam (20000/5000 POPS)
+1771 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 9000
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 36500
+	}
+}
+#Ras Gharib (12000/3000 POPS)
+1772 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1250
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 54000
+	}
+
+}

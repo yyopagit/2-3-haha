@@ -1,0 +1,424 @@
+political_decisions = {
+	korea_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			NOT = {
+				has_global_flag = korea_conquered
+			}
+		}
+		allow = {
+			owns = 1624
+			owns = 1619
+			owns = 1626
+			owns = 1632
+		}
+		effect = {
+			prestige = 5
+			add_country_modifier = {
+				name = korea_yes
+				duration = -1
+			}
+			set_global_flag = korea_conquered
+		}
+	}
+	manchu_invasion_fast = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			NOT = {
+				has_global_flag = manchu_conquered
+			}
+		}
+		allow = {
+			owns = 1555
+			owns = 1619
+			owns = 1624
+			NOT = { year = 1845 }
+		}
+		effect = {
+			prestige = 20
+			add_country_modifier = {
+				name = fast_manchu
+				duration = -1
+			}
+			CHI_1553 = { 
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+				}
+				pop_type = farmers
+				}
+			}
+			set_global_flag = manchu_conquered
+		}
+	}
+	manchu_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			NOT = {
+				has_global_flag = manchu_conquered
+			}
+		}
+		allow = {
+			owns = 1555
+			year = 1845
+		}
+		effect = {
+			prestige = 10
+			add_country_modifier = {
+				name = not_fast_manchu
+				duration = -1
+			}
+			set_global_flag = manchu_conquered
+		}
+	}
+	kong_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			NOT = {
+				has_global_flag = kong_conquered
+			}
+		}
+		allow = {
+			owns = 1380
+			owns = 1375
+			owns = 1369
+		}
+		effect = {
+			prestige = 10
+			set_global_flag = kong_conquered
+		}
+	}
+	taiwan_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			NOT = {
+				has_global_flag = taiwan_conquered
+			}
+		}
+		allow = {
+			owns = 1485
+			owns = 2562
+			year = 1860
+		}
+		effect = {
+			prestige = 20
+			set_global_flag = taiwan_conquered
+			2521 = { add_core = JAP	}
+			658 = {	add_core = JAP }
+		}
+	}
+	hawaii_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			NOT = {
+				has_global_flag = hawaii_conquered
+			}
+		}
+		allow = {
+			owns = 658
+			year = 1862
+		}
+		effect = {
+			prestige = 20
+			set_global_flag = hawaii_conquered
+			1649 = {
+				add_province_modifier = {
+					name = japan_werft
+					duration = -1
+				}
+			}
+			THIS = {
+				country_event = { id=18902 days=0 }
+			}
+		}
+	}
+	russia_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			NOT = {
+				has_global_flag = russia_conquered
+			}
+		}
+		allow = {
+			has_country_flag = russia_way
+			owns = 1082
+			owns = 1083
+			owns = 2617
+			owns = 1084
+			owns = 1085
+			owns = 1086
+			owns = 1087
+			owns = 1088
+			owns = 1089
+		}
+		effect = {
+			prestige = 50
+			1082 = { remove_core =  RUS }
+			1083 = { remove_core =  RUS }
+			1084 = { remove_core =  RUS }
+			1085 = { remove_core =  RUS }
+			2617 = { remove_core =  RUS }
+			1086 = { remove_core =  RUS }
+			1087 = { remove_core =  RUS }
+			1088 = { remove_core =  RUS }
+			1089 = { remove_core =  RUS }
+			set_global_flag = russia_conquered
+			set_country_flag = japanease_banzai
+			set_country_flag = jap_assim1
+		}
+	}
+	phillipines_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			NOT = {
+				has_global_flag = phillipines_conquered
+			}
+		}
+		allow = {
+			has_country_flag = sea_way
+			has_global_flag = kong_conquered
+			SPA_1463 = { owned_by = JAP }
+			SPA_1455 = { owned_by = JAP }
+			SPA_1459 = { owned_by = JAP }
+		}
+		effect = {
+			prestige = 20
+			set_global_flag = phillipines_conquered
+			THIS = {
+				country_event = { id=18903 days=0 }
+			}
+		}
+	}
+	indonesia_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = JAP
+			NOT = {
+				has_global_flag = indonesia_conquered
+			}
+		}
+		allow = {
+			has_country_flag = cont_sea
+			owns = 1393
+			owns = 1384
+		}
+		effect = {
+			prestige = 35
+			set_global_flag = indonesia_conquered
+			set_country_flag = japanease_banzai
+		}
+	}
+	toyota_corp = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = JAP
+			NOT = {
+				has_global_flag = toyota_corp_expanded
+			}
+		}
+		allow = {
+			combustion_engine = 1
+			owns = 1671
+			owns = 1672
+			1671 = {
+				state_scope = {
+					has_building = automobile_factory
+					has_building = steel_factory
+				}
+			}
+			1672 = {
+				state_scope = {
+					has_building = automobile_factory
+					has_building = steel_factory
+				}
+			}
+			money = 550000
+		}
+		effect = {
+			add_country_modifier = {
+				name = toyota_corp_work
+				duration = -1
+			}
+			prestige = 20
+			set_global_flag = toyota_corp_expanded
+			money = -550000
+		}
+	}
+	mitsubishi_corp = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = JAP
+			NOT = {
+				has_global_flag = mitsubishi_corp_expanded
+			}
+		}
+		allow = {
+			integral_rail_system = 1
+			money = 1100000
+		}
+		effect = {
+			add_country_modifier = {
+				name = mitsubishi_corp_work
+				duration = -1
+			}
+			prestige = 5
+			money = -1000000
+			set_global_flag = mitsubishi_corp_expanded
+		}
+	}
+	build_yamato = {
+	potential = {
+			tag = JAP
+			NOT = {
+				has_country_flag = yamato_built
+			}
+		}
+		allow = {
+			money = 500000
+			steam_turbine_ships = 1
+			high_sea_battle_fleet = 1
+			year = 1900
+		}
+		effect = {
+			set_country_flag = yamato_built
+			money = -500000
+			prestige = 5
+			1649 = {
+				sub_unit = {
+					type = dreadnought
+					value = current
+				}
+			}	
+		}
+	}
+	Jap_core = {
+		picture = the_meiji_restoration 
+		potential = {
+			NOT = {
+				OR = {
+					1624 = { is_core = JAP }
+					1628 = { is_core = JAP }
+					1630 = { is_core = JAP }
+					1631 = { is_core = JAP }
+					1636 = { is_core = JAP }
+				}
+			}
+			civilized = no
+			tag = JAP
+		}
+		allow = {
+		}
+		effect = {
+			prestige = 10
+			KOR = {
+				all_core = {
+					add_core = JAP
+				}
+			}
+		}
+	}
+	the_meiji_restoration2 = {
+		picture = the_meiji_restoration2 
+		potential = {
+			civilized = no
+			tag = JAP
+			NOT = { 
+				has_country_modifier = meiji_restoration_boost 
+				has_country_flag = meiji_restoration_boost2
+				OR = {
+					1624 = { is_core = JAP }
+					1628 = { is_core = JAP }
+					1630 = { is_core = JAP }
+					1631 = { is_core = JAP }
+					1636 = { is_core = JAP }
+				}
+			}
+		}
+		allow = {
+			NOT = { badboy = 0.88 }
+		}
+		effect = {
+			years_of_research = 1
+			prestige = 10
+			badboy = 22 
+			add_country_modifier = {
+				name = meiji_restoration_boost
+				duration = 7200
+			}
+			KOR = {
+				all_core = {
+					add_core = JAP
+				}
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = 3
+				}
+				scaled_militancy = {
+					ideology = conservative
+					factor = 7
+				}
+				scaled_militancy = {
+					ideology = reactionary
+					factor = 7
+				}
+			}
+			set_country_flag = meiji_restoration_boost2
+		}
+	}
+	bonuses_from_meiji = {
+	picture = nationalize
+		alert = no
+		potential = {
+			NOT = { has_country_modifier = meiji_restoration_boost }
+			tag = JAP
+		}
+		allow = {
+			has_country_flag = meiji_restoration_boost2
+		}
+		effect = {
+				add_country_modifier = {
+				name = meiji_restoration_boost
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	switch_to_japan_tech = {
+		alert = no
+		potential = {
+			civilized = yes
+			tag = JAP
+			tech_school = traditional_academic
+			NOT = {
+			has_country_modifier = academic_confusion
+			}
+		}
+		allow = {
+			prestige = 200
+			industrial_score = 150
+			military_score = 100
+		}
+		effect = {
+			prestige = -10
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 2560
+			}
+			tech_school = japan_tech_school
+		}
+	}
+}
+

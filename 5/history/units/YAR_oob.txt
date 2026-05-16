@@ -1,0 +1,9 @@
+army = {
+	name = "Армия Яури"
+	location = 1938
+	regiment = {
+		name= "1ая дивизия"
+		type = irregular
+		home = 1938
+	}
+}

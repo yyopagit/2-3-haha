@@ -1,0 +1,137 @@
+army = {	
+	name = "1-й корпус"
+	location = 2087
+	regiment = {
+		name= "Летучая Бригада"
+		type = infantry
+		home = 2087
+	}
+
+	regiment = {
+		name= "Королевские драгуны"
+		type = infantry
+		home = 2089
+	}
+
+	regiment = {
+		name= "Тяжелая бригада"
+		type = infantry
+		home = 2090
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 2088
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 2091
+	}
+
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = infantry
+		home = 2092
+	}
+	regiment = {
+		name= "Летучая Бригада"
+		type = infantry
+		home = 2093
+	}
+
+	regiment = {
+		name= "Королевские драгуны"
+		type = infantry
+		home = 2558
+	}
+
+	regiment = {
+		name= "Тяжелая бригада"
+		type = infantry
+		home = 2096
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 2097
+	}
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 2098
+	}
+
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = infantry
+		home = 2100
+	}
+}
+army = {	
+	name = "2-й корпус"
+	location = 2087
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 2098
+	}
+
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = infantry
+		home = 2100
+	}
+	regiment = {
+		name= "Тяжелая бригада"
+		type = infantry
+		home = 2090
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 2088
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 2091
+	}
+
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = infantry
+		home = 2092
+	}
+	regiment = {
+		name= "Летучая Бригада"
+		type = infantry
+		home = 2093
+	}
+
+	regiment = {
+		name= "Королевские драгуны"
+		type = infantry
+		home = 2558
+	}
+
+	regiment = {
+		name= "Тяжелая бригада"
+		type = infantry
+		home = 2096
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 2097
+	}
+
+	
+
+}

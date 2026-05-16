@@ -1,0 +1,376 @@
+political_decisions = {
+	tea_need = {
+	picture = crown_empress_of_india
+		potential = {
+			tag = ENG
+			NOT = {
+				has_country_flag = tn
+			}
+		}
+		allow = {
+			year = 1850
+			owns = 1321
+			owns = 1323
+			owns = 1324
+			owns = 1322
+			steam_turbine = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = Investicii_v_Ceylon
+				duration = 730
+			}
+			1321 ={ add_province_modifier = { name = Tea_need duration = -1 }}
+			1322 ={ add_province_modifier = { name = Tea_need duration = -1 }}
+			1323 ={ add_province_modifier = { name = Tea_need duration = -1 }}
+			1324 ={ add_province_modifier = { name = Tea_need duration = -1 }}
+			set_country_flag = tn
+		}
+	}
+	repeal_the_corn_laws = {
+	picture = repeal_the_corn_laws
+		potential = {
+			tag = ENG
+			NOT = {
+				has_country_flag = corn_laws_repealed_flag
+			}
+		}
+		allow = {
+			year = 1850
+			average_militancy = 2
+		}
+		effect = {
+			add_country_modifier = {
+				name = corn_laws_repealed
+				duration = 3650
+			}
+			add_accepted_culture = anglo_canadian
+			any_pop = {
+				militancy = -1
+				consciousness = 1
+			}
+			set_country_flag = corn_laws_repealed_flag
+		}
+	}
+	crown_empress_of_india = {
+	picture = crown_empress_of_india
+		potential = {
+			tag = ENG
+			NOT = {
+				has_country_flag = empress_of_india
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			ENG_1304 = { owned_by = THIS }
+			MYS_1314 = { owned_by = THIS }
+			ENG_1317 = { owned_by = THIS }
+		}
+		effect = {
+			prestige = 50
+			ENG_1304 = { add_core = THIS }
+			MYS_1314 = { add_core = THIS }
+			ENG_1317 = { add_core = THIS }
+			any_pop = {
+				militancy = -1
+			}
+			set_country_flag = empress_of_india
+		}
+	}
+	found_the_bbc = {
+	picture = found_the_bbc
+		potential = {
+			tag = ENG
+			NOT = {
+				has_country_flag = we_are_live_from_london
+			}
+		}
+		allow = {
+			invention = national_radio_networks
+		}
+		effect = {
+			any_country = {
+				relation = {
+					who = THIS
+					value = 5
+				}
+			}
+			any_pop = {
+				militancy = -2
+			}
+			prestige = 100
+			set_country_flag = we_are_live_from_london
+		}
+	}
+	the_scotland_yard = {
+	picture = the_scotland_yard
+		potential = {
+			tag = ENG
+			NOT = {
+				has_country_flag = elementary_my_dear_watson # I know, he never says it in the books, yadiyadi.
+			}
+		}
+		allow = {
+			realism = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = the_yard
+				duration = -1
+			}
+			set_country_flag = elementary_my_dear_watson
+		}
+	}
+	ionian_islands_question = {
+	picture = ionian_islands_question
+		potential = {
+			tag = ENG
+			ION = {
+				vassal_of = ENG
+			}
+			ION = { ai = yes }
+			NOT = {
+				truce_with = GRE
+			}			
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			relation = {
+				who = GRE
+				value = 50
+			}
+			diplomatic_influence = {
+				who = GRE
+				value = 50
+			}
+			prestige = 10
+			badboy = -4
+			GRE = {
+				inherit = ION
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					AND = {
+						year = 1864 
+						month = 4
+					}
+				}
+			}
+			modifier = {
+				factor = 0.99
+				relation = {
+					who = GRE
+					value = 0
+				}
+			}
+		}
+	}
+	rhodesia_charter = {
+	picture = rhodesia_charter
+		potential = {
+			tag = ENG
+			NOT = {
+				has_country_flag = ian_would_be_proud
+			}
+		}
+		allow = {
+			owns = 2068
+			invention = mission_to_civilize
+		}
+		effect = {
+			prestige = 10
+			2068 = {
+				state_scope = {
+					any_owned = {
+						add_core = RHO
+						}
+					}
+				}
+			set_country_flag = ian_would_be_proud
+		}
+	}
+	webster_ashburton_treaty = {
+	picture = webster_ashburton_treaty
+		potential = {
+			tag = ENG
+			owns = 250
+			NOT = {
+				has_country_flag = webster_ashburton_signed
+			}
+		}
+		allow = {
+			NOT = {
+				war_with = USA
+			}
+		}
+		effect = {
+			relation = {
+				who = USA
+				value = 100
+			}
+			250 = {
+				secede_province = USA
+			}
+			badboy = -2
+			prestige = 20
+			set_country_flag = webster_ashburton_signed
+			250 = {				#Caribou
+				remove_core = CAN
+				remove_core = ENG
+			}
+			249 = {				#Bangor
+				remove_core = CAN
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					badboy = 0.2
+				}
+			}
+		}
+	}
+	switch_to_british_tech = {
+	picture = btitish_tech_school_switch
+		alert = yes
+		potential = {
+			civilized = yes
+			tag = ENG
+			tech_school = traditional_academic
+			NOT = {
+			has_country_modifier = academic_confusion
+			}
+		}
+		allow = {
+			prestige = 500
+			industrial_score = 300
+			military_score = 300
+		}
+		effect = {
+			prestige = -10
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 2560
+			}
+			tech_school = british_tech_school
+		}
+	}
+	SA_Governor_Generals_rights = {
+		picture = REFORMA_V_INDII
+		potential = {
+			tag = ENG
+			is_sphere_leader_of = SAF
+			exists = SAF
+		}
+		allow = {
+			NOT = {
+			has_country_modifier = cd_sa_governor_generals_rights
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = cd_sa_governor_generals_rights
+				duration = 1825
+			}
+			ENG = {
+				country_event = { id=11111111 days=0 }
+			}
+		}
+	}
+	Change_canadian_general-governer = {
+		picture = an_elephant_for_america
+		potential = {
+			tag = ENG
+			exists = CAN
+			CAN = {
+				NOT = {
+					has_country_modifier = CD_GG
+				}
+			}
+			ai = no
+			is_sphere_leader_of = CAN
+		}
+		allow = {
+		}
+		effect = {
+			add_country_modifier = {
+				name = CD_GG
+				duration = 365
+			}
+			ENG = {
+				country_event = { id=101145 days=0 }
+			}
+		}
+	}
+	add_reform_canada = {
+	picture = enact_the_homestead_act
+	potential = {
+	tag = ENG
+	is_sphere_leader_of = CAN
+	exists = CAN
+	ai = no
+	NOT = { 
+		has_country_modifier = force_reform_cooldown_modifier
+		year = 1880
+		}
+	}
+        allow = {
+            money = 10000
+        }
+            effect = {
+			add_country_modifier = {
+				name = force_reform_cooldown_modifier
+				duration = 1825
+			}
+			money = -10000
+			CAN = {
+			set_country_flag = force_reform
+				add_country_modifier = {
+					name = force_reform_modifier
+					duration = 150
+				}
+			prestige = 5
+			}
+		}
+	}
+	opit_boic  = {
+		potential = {
+		 OR = {
+		      is_sphere_leader_of = EIC 
+			  is_sphere_leader_of = HND 
+		 }
+	     tag = ENG
+			NOT = {
+				has_country_flag = opit_dla_Indii
+			}
+		}
+		allow = {
+			money = 2200000
+		}
+		effect = {
+		  set_country_flag = opit_dla_Indii
+		    HND = {
+			    add_country_modifier = {
+                name = opit_v_boic_ot_eng
+				duration = -1
+                }
+			   }	
+		    EIC = {
+			    add_country_modifier = {
+                name = opit_v_boic_ot_eng
+				duration = -1
+                }
+		    }
+				money = -2000000
+		}
+    }
+}
+

@@ -1,0 +1,13 @@
+owner = USA
+controller = USA
+add_core = USA
+add_core = CSA
+trade_goods = grain
+life_rating = 45  
+fort = 1
+naval_base = 2
+#state_building = {
+#	level = 1
+#	building = ammunition_factory
+#	upgrade = yes
+#}

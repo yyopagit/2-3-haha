@@ -1,0 +1,242 @@
+#Khwarazm Region (40000) #see Uzbekistan.txt and Kazakhstan.txt for balance of region 
+#under the rule of Khiva in 1836 
+#Dashhowuz (40000/10000 POPS) #now part of kazakistan 
+1195 = {
+	aristocrats = {
+		culture = kazak
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = kazak
+		religion = orthodox
+		size = 450
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = kazak
+		religion = orthodox
+		size = 9200
+	}
+}
+#kazakia Region (368000) 
+#under the rule of Khiva in 1836 
+#Ashkabad (148000/32000 POPS) 
+1204 = {
+	aristocrats = {
+		culture = kazak
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = orthodox
+		size = 275
+	}
+
+	artisans = {
+		culture = kazak
+		religion = orthodox
+		size = 1250
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = orthodox
+		size = 300
+	}
+
+	farmers = {
+		culture = kazak
+		religion = orthodox
+		size = 25675
+	}
+
+	clergymen = {
+		culture = persian
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = persian
+		religion = orthodox
+		size = 200
+	}
+
+	soldiers = {
+		culture = persian
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = persian
+		religion = orthodox
+		size = 3750
+	}
+}
+#Kizil Arvut (88000/22000 POPS) 
+1205 = {
+	aristocrats = {
+		culture = kazak
+		religion = orthodox
+		size = 375
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = orthodox
+		size = 175
+	}
+
+	artisans = {
+		culture = kazak
+		religion = orthodox
+		size = 850
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = orthodox
+		size = 200
+	}
+
+	farmers = {
+		culture = kazak
+		religion = orthodox
+		size = 17400
+	}
+
+	clergymen = {
+		culture = persian
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = persian
+		religion = orthodox
+		size = 150
+	}
+
+	soldiers = {
+		culture = persian
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = persian
+		religion = orthodox
+		size = 2800
+	}
+}
+#under the rule of Bukhara in 1836 
+#Merv (132000/33000 POPS) 
+1206 = {
+	aristocrats = {
+		culture = kazak
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = kazak
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = kazak
+		religion = orthodox
+		size = 1825
+	}
+
+	aristocrats = {
+		culture = kazak
+		religion = orthodox
+		size = 400
+	}
+
+	clergymen = {
+		culture = kazak
+		religion = orthodox
+		size = 225
+	}
+
+	artisans = {
+		culture = kazak
+		religion = orthodox
+		size = 1100
+	}
+
+	soldiers = {
+		culture = kazak
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = kazak
+		religion = orthodox
+		size = 21025
+	}
+
+	aristocrats = {
+		culture = persian
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = persian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = persian
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = persian
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = persian
+		religion = orthodox
+		size = 7425
+	}
+
+}

@@ -1,0 +1,152 @@
+leader = {
+	name = "Pierre Labatut"
+	date = 1824.1.1
+	type = land
+	personality = persistant
+	background = gifted_administrator
+	prestige = 0.1
+}
+
+leader = {
+	name = "Lima e Silva"
+	date = 1824.1.1
+	type = land
+	personality = chivalrous
+	background = gifted_administrator
+	prestige = 0.1
+}
+
+leader = {
+	name = "Sebastiгo Pinto"
+	date = 1825.1.1
+	type = land
+	personality = perverse
+	background = inspiring
+	prestige = 0.0
+}
+
+leader = {
+	name = "Barгo de Tramandaн"
+	date = 1830.1.1
+	type = land
+	personality = sad_sack
+	background = immoral
+	prestige = 0.0
+}
+
+leader = {
+	name = "de Lajes"
+	date = 1830.1.1
+	type = land
+	personality = inept
+	background = politician
+	prestige = 0.0
+}
+
+leader = {
+	name = "Bellegarde"
+	date = 1833.1.1
+	type = land
+	personality = disorderly
+	background = immoral
+	prestige = 0.0
+}
+
+leader = {
+	name = "John Grenfell"
+	date = 1822.1.1
+	type = sea
+	personality = brash
+	background = butcher
+	prestige = 0.1
+}
+
+army = {
+	name = "1-й армейский корпус"
+	location = 2447
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 2447
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 2450
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 2436
+	}
+
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cuirassier
+		home = 2429
+	}
+}
+
+army = {
+	name = "2-й армейский корпус"
+	location = 2463
+	regiment = {
+		name= "4-я пехотная бригада"
+		type = infantry
+		home = 2463
+	}
+
+	regiment = {
+		name= "5-я пехотная бригада"
+		type = infantry
+		home = 2457
+	}
+
+}
+navy = {
+	name = "Бразильский флот"
+	location = 2447
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "5-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "6-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "7-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "8-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "9-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "10-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}

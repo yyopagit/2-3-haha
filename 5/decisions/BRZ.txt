@@ -1,0 +1,261 @@
+political_decisions = {
+	fatherland_volunteers = {
+	picture = fatherland_volunteers
+		potential = {
+			tag = BRZ
+			NOT = {
+				has_country_flag = pedro_said_it_best
+			}
+		}
+		allow = {
+			army_decision_making = 1
+			war = yes
+		}
+		effect = {
+			war_exhaustion = -1
+			prestige = 10
+			add_country_modifier = {
+	 name = statue_bra2
+	 duration = 7310
+	 }
+			set_country_flag = pedro_said_it_best
+		}
+	}
+	law_1420_of_general_common_education = {
+	picture = law_1420_of_general_common_education
+		potential = {
+			tag = BRZ
+			NOT = {
+				has_country_flag = 1420_passed
+			}
+		}
+		allow = {
+			social_science = 1
+		}
+		effect = {
+			years_of_research = 0.5
+			set_country_flag = 1420_passed
+		}
+	}
+brz_resettle_start = {
+		picture = the_vega_expedition
+		potential = {
+			tag = BRZ
+			NOT = {has_country_flag = race_started}
+		}
+		allow = {
+			 year = 1870
+			 owns = 2344
+			 any_owned_province = {
+			 is_colonial = yes
+			 NOT = {continent = north_america}
+			 NOT = {continent = asia}
+			 NOT = {continent = china}
+			 NOT = {continent = indo_china}
+			 NOT = {continent = blijnui_vostok}
+			 }
+			 }
+		effect = {
+		set_country_flag = race_started
+		add_country_modifier = {
+	 name = colonial_race
+	 duration = -1
+	 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	brz_statue = {
+		picture = the_vega_expedition
+		potential = {
+			tag = BRZ
+			NOT = {has_country_flag = statue_built2}
+		}
+		allow = {
+			money = 500000
+			raider_group_doctrine = 1
+			 }
+		effect = {
+		money = -500000
+		set_country_flag = statue_built2
+	 add_country_modifier = {
+	 name = statue_bra
+	 duration = -1
+	 }
+		prestige = 40  	  
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+brz_migration = {
+	picture = fatherland_volunteers
+		potential = {
+			tag = BRZ
+			NOT = {
+				has_country_modifier = migration_cd
+			}
+		}
+		allow = {
+		}
+		effect = {
+			country_event = {
+			id = 46303 days = 0
+			}
+		add_country_modifier = { 
+			name = migration_cd
+			duration = 1825
+			}			
+		}
+	}
+brz_railroads = {
+	picture = fatherland_volunteers
+		potential = {
+			tag = BRZ
+			NOT = {
+				year = 1860
+				has_country_flag = railroads_done
+			}
+		}
+		allow = {
+		money = 500000
+		experimental_railroad = 1
+		}
+		effect = {
+			money = -500000
+			all_core = { infrastructure = 1 }
+			set_country_flag = railroads_done
+		}
+	}
+brz_railroads2 = {
+	picture = fatherland_volunteers
+		potential = {
+			tag = BRZ
+			has_country_flag = railroads_done
+			NOT = {
+				year = 1880
+				has_country_flag = railroads_done2
+			}
+		}
+		allow = {
+		money = 1000000
+		experimental_railroad = 1
+		}
+		effect = {
+			money = -1000000
+			all_core = { infrastructure = 1 }
+			set_country_flag = railroads_done2
+		}
+	}
+	restore_brz = {
+	picture = restore_brz
+		potential = {
+			tag = BRZ
+			NOT = {
+				has_country_flag = has_restore_brz
+			}
+		}
+		allow = {
+			state_n_government = 1
+		}
+		effect = {
+			prestige = 40
+			badboy = 10
+			government = democracy
+            add_accepted_culture = north_andean
+			add_accepted_culture = platinean
+			CLM_2262 = {
+		    	add_core = BRZ
+		     	}
+			ECU_2279 = {
+			add_core = THIS
+			}
+			ENG_1979 = {
+				add_core = BRZ
+			}
+			PEU = {
+				all_core = {
+					add_core = BRZ
+				}
+			}
+			URU = {
+				all_core = {
+					add_core = BRZ
+				}
+			}			
+			PRG = {
+				all_core = {
+					add_core = BRZ
+				}
+			}
+			BOL = {
+				all_core = {
+					add_core = BRZ
+				}
+			}
+			ARG = {
+				all_core = {
+					add_core = BRZ
+				}
+			}
+			CHL = {
+				all_core = {
+					add_core = BRZ
+				}
+			}
+			inherit = PEU	#Перу
+			inherit = CHL	#Чили
+			inherit = ARG	#Аргентина
+			inherit = PRG	#Парагвай
+			inherit = BOL	#Боливия
+			2131={
+			remove_core = BRZ
+			}
+			2133={
+			remove_core = BRZ
+			}
+			set_country_flag = has_restore_brz
+		}
+	}
+	big_brazil = {
+	picture = restore_brz
+	potential = { 
+		tag = BRZ
+		NOT = {
+			has_country_flag = has_big_brazil
+			}
+		}
+		allow = {
+			CLM_2259 = {
+				owned_by = THIS
+			}
+			CLM_2251 = {
+				owned_by = THIS
+			}
+			VNZ_2234 = {
+				owned_by = THIS
+			}
+			VNZ_2265 = {
+				owned_by = THIS
+			}
+			CLM_2262 = {
+				owned_by = THIS
+			}
+			ENG_1979 = {
+				owned_by = THIS
+			}
+			ECU_2279 = {
+				owned_by = THIS
+			}
+		}
+		effect = {
+			prestige = 70
+				 add_country_modifier = {
+				 name = big_brz
+	 			duration = -1 }
+			set_country_flag = has_big_brazil
+		}
+	}
+}
+

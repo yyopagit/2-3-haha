@@ -1,0 +1,123 @@
+country_event = {
+
+	id = 23400
+	news = yes
+	news_title = "EVTNAME23400_NEWS_TITLE"
+	news_desc_long = "EVTDESC23400_NEWS_LONG"
+	news_desc_medium = "EVTDESC23400_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC23400_NEWS_SHORT"
+
+	trigger = {
+		NOT = { has_country_flag = IOCMember }
+		year = 1893
+		war = no # Nation can NOT be at war at the time of invite
+		or = { 
+			is_greater_power = yes # Nation is a great power
+			prestige = 500 # Non-Euro/non GP need to be high prestige to get invite in this era
+			tag = GRE # Greece projected to host first games so has to get invite
+			and = {
+				capital_scope = { 		
+				OR = {
+		continent = europe
+		continent = england
+		continent = scandinavia
+		continent = iberia
+		continent = balkans
+		} } # European nation with > 25 prestige
+				prestige = 25
+			}
+		}
+	}
+ 
+	mean_time_to_happen = {
+		months = 12
+
+		modifier = {
+			factor = 0.8
+			year = 1894
+		}
+		modifier = {
+			factor = 0.8
+			year = 1895
+		}
+		
+		modifier = {
+			factor = 0.9
+			rank = 4
+		}
+		modifier = {
+			factor = 0.9
+			rank = 8
+		}
+	}
+
+	title = "EVTNAME23400"
+	desc = "EVTDESC23400"
+	picture = "Olympics"
+	
+
+	option = {
+		name = "EVTOPTA23400" # Join the IOC
+		ai_chance = { factor = 99 }
+		money = -10000
+		prestige = 30
+		set_country_flag = IOCMember
+	}
+	option = {
+		name = "EVTOPTB23400" # Reject invite
+		ai_chance = { factor = 1 }
+		prestige = -30
+	}
+}
+
+country_event = {
+
+	id = 23401 
+
+	trigger = {
+		tag = GRE # Greece hosted 1896 Olympics
+		has_country_flag = IOCMember
+		NOT = {
+			OR = {
+				has_country_flag = Host1Olympiad
+				has_country_flag = Attend1Olympiad
+				has_country_flag = NoHost1Olympiad
+			}
+		}
+		year = 1895
+		NOT = { year = 1898 }
+		war = no # Nation can NOT be at war at the time of invite
+	}
+ 
+	mean_time_to_happen = {
+		months = 12
+
+		modifier = {
+			factor = 0.9
+			year = 1896
+		}
+		modifier = {
+			factor = 0.95
+			year = 1897
+		}
+	}
+
+	title = "EVTNAME23401"
+	desc = "EVTDESC23401"
+	picture = "Olympics"
+
+	option = {
+		name = "EVTOPTA23401" # Send invites to other IOC members
+		money = -1000
+		set_global_flag = Host1Olympiad
+		set_country_flag = Host1Olympiad
+		set_country_flag = Attend1Olympiad
+	}
+	option = {
+		name = "EVTOPTB23401" # NOT interested
+		prestige = -25
+		set_global_flag = GRENoHost1Olympiad
+		set_country_flag = NoHost1Olympiad
+	}
+}
+

@@ -1,0 +1,776 @@
+#file includes modern polynesiansia, Singapore and Brunei
+#polynesiana Region (780800)
+#Ruled By Britain 1836
+#Singapore (36000/9000 POPS)
+1384 = {
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 2450
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 30500
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 4700
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1100
+	}
+}
+#Malacca (52800/13200 POPS)
+1386 = {
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1450
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 1500
+	}
+
+	aristocrats = {
+		culture = british
+		religion = orthodox
+		size = 175
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 9300
+	}
+}
+#Penang (84000/21000 POPS)
+1388 = {
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 3875
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 2075
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 750
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 13900
+	}
+}
+#Under polynesian Rule 1836 (324000)
+#Johor Bahru (108000/27000 POPS)
+1385 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 250
+	}
+
+	bureaucrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 125
+	}
+
+	officers = {
+		culture = polynesian
+		religion = orthodox
+		size = 75
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1250
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 110
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 22050
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1450
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 500
+	}
+}
+#Kuala Lumpur (68000/17000 POPS)
+1387 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 750
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 110
+	}
+
+	labourers = {
+		culture = polynesian
+		religion = orthodox
+		size = 12950
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 950
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 31100
+	}
+}
+#Kuantan (32000/8000 POPS)
+1390 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 75
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 75
+	}
+
+	labourers = {
+		culture = polynesian
+		religion = orthodox
+		size = 41375
+	}
+}
+#Ipoh (116000/29000 POPS)
+2575 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 300
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 110
+	}
+
+	labourers = {
+		culture = polynesian
+		religion = orthodox
+		size = 25900
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 925
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 32000
+	}
+}
+#under Overlordship of Siam 1836 (284000)
+#Alor Setar (116000/29000 POPS)
+1389 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 300
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1350
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 64800
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 950
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 1100
+	}
+}
+#Kota Bharu (168000/42000 POPS)
+1391 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 400
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 425
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 36825
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 950
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 1100
+	}
+
+}
+#Northern Borneo Region (252000)
+#Under the Rule of Brunei in 1836 (212000)
+#Brunei (24000/6000 POPS)
+1393 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 750
+	}
+
+	bureaucrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 500
+	}
+
+	officers = {
+		culture = polynesian
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 3000
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 84250
+	}
+}
+#Kuching (88000/22000 POPS)
+1394 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 1000
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 5000
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 310
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 83000
+	}
+
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 1250
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 5250
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 101250
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 4750
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 5000
+	}
+}
+#Bintulu (44000/11000 POPS)
+1395 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 47250
+	}
+
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 1000
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 3500
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 93750
+	}
+}
+#Api (56000/14000 POPS)
+1396 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 95750
+	}
+
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 3500
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 94250
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 5000
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 8750
+	}
+}
+#Under the Rule of Sulu in 1836 (40000)
+#Sandakan (40000/10000 POPS)
+1397 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 3000
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 94750
+	}
+
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 67500
+	}
+
+}

@@ -1,0 +1,33 @@
+political_decisions = {
+	Lvymbia = {
+     potential = {
+     tag = NAM
+		NOT = {
+		has_country_flag = Lvymbia
+		}
+	}	
+		allow = {
+        tag = NAM
+		ai = no
+		}	
+	effect = {
+    change_tag = LEV	
+	set_country_flag = Lvymbia
+    2078 = {
+	remove_core = NAM
+	add_core = LEV
+	}
+	2079 = {
+	remove_core = NAM
+	add_core = LEV
+	}
+	2080 = {
+	remove_core = NAM
+	add_core = LEV
+	state_scope = {
+                }
+			}	
+		}
+	}
+}
+

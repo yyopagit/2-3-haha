@@ -1,0 +1,609 @@
+country_event = {
+	
+	id = 99912121
+
+	trigger = {
+	tag = SPA
+	NOT = {has_country_flag = yukatan}
+	}
+	title = "EVTNAME1011075"
+	desc = "EVTDESC1011074"
+	picture = "Parade"
+
+	option = {
+		name = "EVTOPTA1011074"
+	 	enable_canal = 12
+		add_country_modifier = { name = yucatan duration = 100000 }
+	  set_country_flag = yukatan
+	}
+
+}
+
+country_event = {
+	
+	id = 99912122
+
+	trigger = {
+	tag = SPA
+	NOT = {has_country_flag = florida}
+	}
+	title = "EVTNAME1011074"
+	desc = "EVTDESC1011074"
+	picture = "Parade"
+
+	option = {
+		name = "EVTOPTA1011075"
+	 	enable_canal = 13
+		add_country_modifier = { name = florida duration = 100000 }
+	  set_country_flag = florida
+	}
+
+}
+
+country_event = {
+	
+	id = 99912123
+
+	trigger = {
+	tag = SPA
+	NOT = {has_country_flag = florida2}
+	}
+	title = "EVTNAME1011074"
+	desc = "EVTDESC1011074"
+	picture = "Parade"
+
+	option = {
+		name = "EVTOPTA1011075"
+	 	enable_canal = 14
+		add_country_modifier = { name = florida2 duration = 100000 }
+	  set_country_flag = florida2
+	}
+
+}
+
+country_event = {
+
+	id = 37700
+
+	trigger = {
+		tag = SPA
+		year = 1837
+		NOT = {
+			year = 1840
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME37700"
+	desc = "EVTDESC37700"
+	picture = "Upperhouse"
+
+	option = {
+		name = "EVTOPTA37700"
+		clergymen = {
+			scaled_militancy = {
+				factor = -2
+				ideology = conservative
+			}
+		}
+		clergymen = {
+			scaled_militancy = {
+				factor = -3
+				ideology = reactionary
+			}
+		}
+		aristocrats = {
+			scaled_militancy = {
+				factor = -2
+				ideology = conservative
+			}
+		}
+		aristocrats = {
+			scaled_militancy = {
+				factor = -3
+				ideology = reactionary
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB37700"
+		clergymen = {
+			scaled_militancy = {
+				factor = 2
+				ideology = conservative
+			}
+		}
+		clergymen = {
+			scaled_militancy = {
+				factor = 3
+				ideology = reactionary
+			}
+		}
+		clergymen = {
+			scaled_consciousness = {
+				factor = 2
+				ideology = conservative
+			}
+		}
+		clergymen = {
+			scaled_consciousness = {
+				factor = 3
+				ideology = reactionary
+			}
+		}
+		aristocrats = {
+			scaled_militancy = {
+				factor = 2
+				ideology = conservative
+			}
+		}
+		aristocrats = {
+			scaled_militancy = {
+				factor = 3
+				ideology = reactionary
+			}
+		}
+		aristocrats = {
+			scaled_consciousness = {
+				factor = 2
+				ideology = conservative
+			}
+		}
+		aristocrats = {
+			scaled_consciousness = {
+				factor = 3
+				ideology = reactionary
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 37706
+	news = yes
+	news_desc_long = "EVTDESC37706_NEWS_LONG"
+	news_desc_medium = "EVTDESC37706_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC37706_NEWS_SHORT"
+
+	trigger = {
+		tag = SPA
+		year = 1907
+		expressionism = 1
+		NOT = {
+			year = 1915
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1908
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1910
+		}
+	}
+
+	title = "EVTNAME37706"
+	desc = "EVTDESC37706"
+	picture = "picaso"
+
+	option = {
+		name = "EVTOPTA37706" 
+		prestige = 30
+	}
+
+}
+
+country_event = {
+
+	id = 37707
+
+	trigger = {
+		tag = SPA
+		year = 1854
+		government = hms_government
+		NOT = {
+			year = 1858
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1855
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1856
+		}
+	}
+
+	title = "EVTNAME37707"
+	desc = "EVTDESC37707"
+	picture = "Administration"
+
+	option = {
+		name = "EVTOPTA37707"
+		farmers = {
+			militancy = 2
+			consciousness = 2
+		}
+	}
+
+	option = {
+		name = "EVTOPTB37707"
+		clergymen = {
+			scaled_militancy = {
+				factor = 2
+				ideology = conservative
+			}
+		}
+		clergymen = {
+			scaled_militancy = {
+				factor = 3
+				ideology = reactionary
+			}
+		}
+		clergymen = {
+			scaled_consciousness = {
+				factor = 2
+				ideology = conservative
+			}
+		}
+		clergymen = {
+			scaled_consciousness = {
+				factor = 3
+				ideology = reactionary
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTC37707"
+		clergymen = {
+			scaled_consciousness = {
+				factor = 2
+				ideology = conservative
+			}
+		}
+		clergymen = {
+			scaled_consciousness = {
+				factor = 3
+				ideology = reactionary
+			}
+		}
+		aristocrats = {
+			scaled_consciousness = {
+				factor = 2
+				ideology = conservative
+			}
+		}
+		aristocrats = {
+			scaled_consciousness = {
+				factor = 3
+				ideology = reactionary
+			}
+		}
+		capitalists = {
+			scaled_consciousness = {
+				factor = 2
+				ideology = conservative
+			}
+		}
+		capitalists = {
+			scaled_consciousness = {
+				factor = 3
+				ideology = reactionary
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 37708
+
+	trigger = {
+		tag = SPA
+		year = 1842
+		NOT = {
+			year = 1846
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1855
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1856
+		}
+	}
+
+	title = "EVTNAME37708"
+	desc = "EVTDESC37708"
+	picture = "Administration"
+
+	option = {
+		name = "EVTOPTA37708"
+		officers = {
+			militancy = 1
+			consciousness = 1
+		}
+		soldiers = {
+			militancy = 1
+			consciousness = 1
+		}
+		artisans = {
+			militancy = -1
+			consciousness = -1
+		}
+		craftsmen = {
+			militancy = -1
+			consciousness = -1
+		}
+	}
+
+	option = {
+		name = "EVTOPTB37708"
+		officers = {
+			militancy = -1
+			consciousness = -1
+		}
+		soldiers = {
+			militancy = -1
+			consciousness = -1
+		}
+		artisans = {
+			militancy = 1
+			consciousness = 1
+		}
+		craftsmen = {
+			militancy = 1
+			consciousness = 1
+		}
+	}
+}
+
+country_event = {
+
+	id = 37709
+
+	trigger = {
+		tag = SPA
+		year = 1849
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	title = "EVTNAME37709"
+	desc = "EVTDESC37709"
+	picture = "velaskes"
+
+	option = {
+		name = "EVTOPTA37709" 
+		prestige = 30
+	}
+}
+
+country_event = {
+
+    id = 3333333 #бонус от контроля первых регионов
+    trigger = {
+        tag = SPA
+		VNZ_2265= { owned_by = THIS }
+		VNZ_2234= { owned_by = THIS }
+		CLM_2251= { owned_by = THIS }
+		CLM_2262= { owned_by = THIS }
+		CLM_2259= { owned_by = THIS }
+		ECU_2279= { owned_by = THIS }
+		CLM_1723= { owned_by = THIS }
+        NOT = {
+            has_country_modifier = Great_agan
+        }
+    }
+    option = {
+	set_country_flag = spain_assim
+        name = "EVTOPTA3333333" 
+        add_country_modifier = {
+            name = Great_agan
+            duration = -1
+        }
+		
+		
+
+    }
+    title = "EVTNAME3333333"
+    desc  = "EVTDESC3333333"
+    picture = "Administration"
+}
+
+country_event = {
+
+    id = 3333334 #снятие бонуса
+    trigger = {
+        tag = SPA
+        has_country_modifier = Great_agan
+        NOT = 
+		{
+		VNZ_2265= { owned_by = THIS }
+		VNZ_2234= { owned_by = THIS }
+		CLM_2251= { owned_by = THIS }
+		CLM_2262= { owned_by = THIS }
+		CLM_2259= { owned_by = THIS }
+		ECU_2279= { owned_by = THIS }
+		CLM_1723= { owned_by = THIS }
+             }
+    }
+    option = {
+        name = "EVTOPTA3333334" 
+        remove_country_modifier = Great_agan
+		clr_country_flag = american_assim
+    }
+    title = "EVTNAME3333334"
+    desc = "EVTDESC3333334"
+    picture = "Administration"
+}
+
+country_event = {
+
+    id = 3333336 #потеря филиппин
+    trigger = {
+        tag = SPA
+        has_country_flag = perfect_within
+        NOT = 
+		{
+		SPA_1455 = { owned_by = THIS }
+		SPA_1463 = { owned_by = THIS }
+
+              }
+    }
+	mean_time_to_happen ={
+	months = 1
+	}
+    option = {
+        name = "EVTOPTA3333336" 
+        prestige = -25
+		clr_country_flag = perfect_within
+    }
+    title = "EVTNAME3333336"
+    desc = "EVTDESC3333336"
+    picture = "Administration"
+}
+
+country_event = {
+
+    id = 3333337 #санаторий на провку с углем
+    trigger = {
+        tag = SPA
+       has_country_flag = perfect_within2
+        
+         1458 = { owned_by = THIS }
+		 1458 = { NOT = {has_province_modifier = government_sanitarium2} }
+		 1458 = {NOT = { has_province_modifier = gold_rush_fra }}
+
+    }
+	mean_time_to_happen ={
+	months = 1
+	}
+    option = {
+        name = "EVTOPTA3333337" 
+       	1458 = { add_province_modifier = {
+	 name = gold_rush_fra
+	 duration = -1}}
+		1458 = { add_province_modifier = {
+	 name = government_sanitarium2
+	 duration = -1}}
+    }
+    title = "EVTNAME3333337"
+    desc = "EVTDESC3333337"
+    picture = "Administration"
+}
+
+country_event = {
+	id = 37702
+	is_triggered_only = yes
+	title = "EVTNAME37702"
+	desc = "EVTDESC37702"
+	picture = "Cubanrebels"
+	option = {
+		name = "EVTOPTA37702"
+		set_country_flag = perfect_within
+		VNZ_2278 = { add_core = SPA }
+		VNZ_2265 = { add_core = SPA }
+		VNZ_2234 = { add_core = SPA }
+		CLM_2251 = { add_core = SPA }
+		CLM_2262 = { add_core = SPA }
+		CLM_2247 = { add_core = SPA }
+		CLM_2259 = { add_core = SPA }
+		ECU_2279 = { add_core = SPA }
+		CLM_1723 = { add_core = SPA }
+		PEU_2289 = { add_core = SPA }
+		badboy = 15
+		any_country = {
+			limit = {
+				primary_culture = north_andean
+				in_sphere = THIS
+				NOT = { tag = THIS }
+			}
+			annex_to = THIS
+		}
+	}
+	option = {
+		name = "EVTOPTB37702"
+		badboy = 6
+		set_country_flag = perfect_within2
+		SPA_1455 = { add_core = SPA remove_core = PHI life_rating = 5 any_pop = { literacy = 0.25 } }
+		SPA_1463 = { add_core = SPA remove_core = PHI life_rating = 5 any_pop = { literacy = 0.25 } }
+		SPA_1459 = { add_core = SPA remove_core = PHI life_rating = 5 any_pop = { literacy = 0.25 } }
+		1458 = { add_province_modifier = { name = gold_rush_fra duration = -1 } }
+		1458 = { add_province_modifier = { name = government_sanitarium2 duration = -1 } }
+		1458 = { trade_goods = coal }
+	}
+	option = {
+		name = "EVTOPTC37702"
+		remove_country_modifier = spa23
+	}
+}
+
+country_event = {
+	id = 3471001
+	title = "EVTNAME3471001"
+	desc = "EVTDESC3471001"
+	picture = "Celebration"
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA3471001"
+		SPA = { inherit = POR }
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = "EVTOPTB3471001"
+		prestige = 5
+		ai_chance = { factor = 0 }
+		any_pop = { militancy = 2 }
+	}
+}
+

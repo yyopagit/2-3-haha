@@ -1,0 +1,545 @@
+political_decisions = {
+	native_american_minor = {
+		picture = manifesto14 
+		potential = {
+			tag = CAN
+			NOT = {
+				accepted_culture = inuit
+			}
+		}
+		allow = {
+			year = 1845
+			biologism = 1
+		}
+		effect = {
+			add_accepted_culture = inuit
+			prestige = 10
+			any_pop = {
+				militancy = 1
+			}
+		}
+	}
+	the_greate_reconstruction = {
+		picture = form_kellys_irish_brigade
+		potential = {
+			tag = CAN
+			NOT = {
+				has_country_flag = extreme_home_makeover
+			}
+		}
+		allow = {
+			steel = 12000
+			lumber = 12000
+			coal = 12000
+			timber = 12000
+			machine_parts = 2000
+			money = 500000
+		}
+		effect = {
+			steel = -12000
+			lumber = -12000
+			coal = -12000
+			timber = -12000
+			machine_parts = -2000
+			money = -500000
+			set_country_flag = extreme_home_makeover
+			CAN = { all_core = { life_rating = 5 }}
+			14 = { life_rating = 5 }
+			44 = { life_rating = 5 }
+			74 = { life_rating = 5 }
+		}
+	}
+	the_greate_reconstruction2 = {
+		picture = form_kellys_irish_brigade
+		potential = {
+			tag = CAN
+			NOT = {
+				has_country_flag = australian_recon
+			}
+		}
+		allow = {
+			2507 = { owned_by = CAN }
+			has_country_flag = extreme_home_makeover
+			steel = 12000
+			lumber = 12000
+			coal = 12000
+			timber = 12000
+			machine_parts = 2000
+			money = 500000
+		}
+		effect = {
+			steel = -12000
+			lumber = -12000
+			coal = -12000
+			timber = -12000
+			machine_parts = -2000
+			money = -500000
+			set_country_flag = australian_recon
+			2501 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2505 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2506 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2488 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2487 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2486 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2485 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2484 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2470 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2508 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2490 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2489 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2604 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2483 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2474 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+			}
+			2475 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2469 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2468 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				add_core = CAN
+				remove_core = ENG
+			}
+			2473 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2471 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2472 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2479 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2480 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2476 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2477 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2478 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2481 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2482 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2493 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2491 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2494 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2492 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2496 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2495 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2507 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2603 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2601 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2602 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2605 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+			}
+			2503 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2504 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2502 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2500 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2473 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2499 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2497 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2498 = {
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+			}
+			2509 = { 
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+		}
+			2571 = { 
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+		}
+			2511 = { 
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+		}
+			2512 = { 
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+		}
+			2510 = { 
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+		}
+			2516 = { 
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+		}
+			2515 = { 
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+		}
+			2513 = { 
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+		}
+			2514 = { 
+				add_province_modifier = { name = migracia_can duration = 3650 }
+				remove_core = ENG
+				add_core = CAN
+		}	
+			ENG_2497 = { life_rating = 5 }
+			ENG_2505 = { life_rating = 5 }
+			ENG_2468 = { life_rating = 5 }
+			ENG_2509 = { life_rating = 5 }
+		}
+	}
+	new_england_will_be_ours = {
+		picture = an_elephant_for_america
+		potential = {
+			tag = CAN
+			NOT = {
+				has_country_flag = new_england_will_be_ours
+			}
+		}
+		allow = {
+			year = 1880
+			ai = no
+		}
+		effect = {
+		set_country_flag = new_england_will_be_ours
+			250 = {
+				add_core = CAN
+				remove_core = NEN
+			}
+			248 = {
+				add_core = CAN
+					remove_core = NEN
+			}
+			247 = {
+				add_core = CAN
+					remove_core = NEN
+			}
+			246 = {
+				add_core = CAN
+					remove_core = NEN
+			}
+			249 = {
+				add_core = CAN
+					remove_core = NEN
+			}
+			77 = {
+				add_core = CAN
+					remove_core = FRA
+			}
+			74 = {
+				add_core = CAN
+					remove_core = ENG
+			}
+			44 = {
+				add_core = CAN
+					remove_core = ENG
+			}
+			14 = {
+				add_core = CAN
+					remove_core = ENG
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	NAFTA = {
+		picture = manifesto14 
+		potential = {
+			tag = CAN
+			not = {
+			has_country_flag = nafta1
+			}
+		}
+		allow = {
+			in_sphere = USA
+			ai = no
+		}
+		effect = {
+		set_country_flag = nafta1
+			add_country_modifier = {
+				name = nafta_can
+				duration = -1
+			}
+			USA = {
+			set_country_flag = nafta1
+				add_country_modifier = {
+					name = nafta_usa
+					duration = -1
+				}
+			}
+		}
+	}
+	franafta = {
+		picture = manifesto14 
+		potential = {
+			tag = CAN
+			not = {
+			has_country_flag = nafta2
+			}
+		}
+		allow = {
+			in_sphere = FRA
+			ai = no
+		}
+		effect = {
+			set_country_flag = nafta2
+			ENG_60 = { remove_core = CAN }
+			remove_accepted_culture = french_canadian
+			add_country_modifier = {
+				name = franafta_can
+				duration = -1
+			}
+			FRA = {
+			add_accepted_culture = french_canadian
+			set_country_flag = nafta2
+				add_country_modifier = {
+					name = franafta_fra
+					duration = -1
+				}
+			58 = { secede_province = FRA }
+			64 = { secede_province = FRA }
+			65 = { secede_province = FRA }
+			66 = { secede_province = FRA }
+			67 = { secede_province = FRA }
+			}
+		}
+	}
+	form_canadian_fabric = {
+	picture = court_yard_speech
+		potential = {
+			tag = CAN
+			 NOT = {has_country_flag = big_canada_producer}
+		}
+		allow = {
+			 big_producer = furniture
+			 big_producer = paper
+			 big_producer = lumber
+		}
+		effect = {
+		prestige = 10
+		set_country_flag = big_canada_producer
+		}
+	}
+	australian_purchase = { 
+	picture = alaskan_purchase
+		potential = {
+			NOT = { 2507 = { owned_by = CAN } }
+			tag = CAN
+			NOT = {
+				has_country_modifier =  can_cd
+		}
+	}
+		allow = {
+			year = 1850
+		}
+		effect = {
+		ENG = { country_event = { id=32520 days=0 } }
+		CAN = { add_country_modifier = { name = can_cd duration = 1850 } }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	the_greenland_purchase = {
+	picture = the_greenland_purchase
+		potential = {
+			tag = CAN
+			NOT = {
+				has_country_flag = greenland_purchase
+			}			
+		}
+		allow = {
+			war = no
+			year = 1865
+			SCA = { 
+				is_greater_power = no
+				OR = {
+					owns = 251 
+					owns = 252 
+					owns = 253 
+					owns = 2591
+					owns = 2632 
+					owns = 2636				
+				}
+			}
+			money = 500000
+		}
+		effect = {
+			set_country_flag = greenland_purchase
+			SCA = { country_event = { id=36230 days=0 } }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
+

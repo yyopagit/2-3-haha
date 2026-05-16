@@ -1,0 +1,511 @@
+#Ceylon (1224000) #now Sri Lanka
+#Under rule of Britain 1836
+#Colombo (400000/100000 POPS)
+1321 = {
+	aristocrats = {
+		culture = sinhala
+		religion = orthodox
+		size = 800
+	}
+
+	bureaucrats = {
+		culture = sinhala
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = orthodox
+		size = 800
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = orthodox
+		size = 750
+	}
+
+	farmers = {
+		culture = sinhala
+		religion = orthodox
+		size = 67750
+	}
+
+	aristocrats = {
+		culture = tamil
+		religion = orthodox
+		size = 125
+	}
+
+	bureaucrats = {
+		culture = tamil
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = tamil
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = tamil
+		religion = orthodox
+		size = 750
+	}
+
+	soldiers = {
+		culture = tamil
+		religion = orthodox
+		size = 100
+	}
+
+	labourers = {
+		culture = tamil
+		religion = orthodox
+		size = 9800
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = orthodox
+		size = 50
+	}
+
+	labourers = {
+		culture = sinhala
+		religion = orthodox
+		size = 6400
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = orthodox
+		size = 750
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = orthodox
+		size = 25
+	}
+
+	labourers = {
+		culture = sinhala
+		religion = orthodox
+		size = 1200
+	}
+
+	aristocrats = {
+		culture = mashriqi
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 25
+	}
+
+	labourers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 3375
+	}
+
+	aristocrats = {
+		culture = malay
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = malay
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = malay
+		religion = orthodox
+		size = 1100
+	}
+
+	soldiers = {
+		culture = malay
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = malay
+		religion = orthodox
+		size = 1900
+	}
+
+	aristocrats = {
+		culture = british
+		religion = orthodox
+		size = 25
+	}
+
+	bureaucrats = {
+		culture = british
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = british
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = british
+		religion = orthodox
+		size = 1100
+	}
+
+	soldiers = {
+		culture = british
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = british
+		religion = orthodox
+		size = 675
+	}
+}
+#Jaffna (288000/72000 POPS)
+1322 = {
+	aristocrats = {
+		culture = sinhala
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = orthodox
+		size = 4000
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = sinhala
+		religion = orthodox
+		size = 42500
+	}
+
+	aristocrats = {
+		culture = tamil
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = tamil
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = tamil
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = tamil
+		religion = orthodox
+		size = 500
+	}
+
+	labourers = {
+		culture = tamil
+		religion = orthodox
+		size = 21000
+	}
+}
+#Kandy (304000/76000 POPS)
+1323 = {
+	aristocrats = {
+		culture = sinhala
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = orthodox
+		size = 4000
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = orthodox
+		size = 750
+	}
+
+	farmers = {
+		culture = sinhala
+		religion = orthodox
+		size = 69250
+	}
+}
+#Trincomalee (208000/52000 POPS)
+1324 = {
+	aristocrats = {
+		culture = sinhala
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = orthodox
+		size = 225
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = orthodox
+		size = 200
+	}
+
+	farmers = {
+		culture = sinhala
+		religion = orthodox
+		size = 19825
+	}
+
+	aristocrats = {
+		culture = tamil
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = tamil
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = tamil
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = tamil
+		religion = orthodox
+		size = 250
+	}
+
+	labourers = {
+		culture = tamil
+		religion = orthodox
+		size = 22750
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = orthodox
+		size = 25
+	}
+
+	labourers = {
+		culture = sinhala
+		religion = orthodox
+		size = 700
+	}
+
+	clergymen = {
+		culture = sinhala
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = sinhala
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = sinhala
+		religion = orthodox
+		size = 25
+	}
+
+	labourers = {
+		culture = sinhala
+		religion = orthodox
+		size = 1475
+	}
+
+	clergymen = {
+		culture = malay
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = malay
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = malay
+		religion = orthodox
+		size = 50
+	}
+
+	labourers = {
+		culture = malay
+		religion = orthodox
+		size = 675
+	}
+
+	aristocrats = {
+		culture = mashriqi
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 750
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 25
+	}
+
+	labourers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 2150
+	}
+}
+#Maldives (24000/6000 POPS) #now independent
+1325 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 5325
+	}
+
+}

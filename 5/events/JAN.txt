@@ -1,0 +1,357 @@
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140400
+	
+	trigger = {
+		tag = JAN
+		NOT = {
+			has_country_modifier = mcl_happened_modifier
+		}
+	}
+	
+	
+	option = {
+		name = "noloc"
+		add_country_modifier = { name = mcl_happened_modifier duration = 360 }
+		
+		any_country = {
+			limit = {
+				exists = no
+				is_greater_power = no
+                capital_scope = { NOT = { province_control_days = 120 } }
+                OR = {
+                    is_mobilised = yes
+                    total_amount_of_ships = 1
+                }
+			}
+			## Audax Validator "." Ignore_NEXT
+			annex_to = FROM
+		}
+	}
+}
+
+country_event = {
+	id = 57095
+	title = "CapSupply_Depot_EvtName"
+	desc = "CapSupply_Depot_EvtDesc"
+	picture = "Administration"
+
+
+	trigger = {
+			tag = JAN
+			year = 1850
+		}
+
+	fire_only_once = yes
+
+	option = {
+		name = "CapSupply_Depot_EvtOptA"
+		PRU_572 = { life_rating = -5 }
+		FRA_412 = { life_rating = -5 }
+		WUR_589 = { life_rating = -5 }
+		BAV_599 = { life_rating = -5 }
+		BAV_595 = { life_rating = -5 }
+		PRU_575 = { life_rating = -5 }
+		HAN_534 = { life_rating = -5 }
+		HAM_528 = { life_rating = -5 }
+		MEC_544 = { life_rating = -5 }
+		HEK_568 = { life_rating = -5 }
+		SAX_558 = { life_rating = -5 }
+		PRU_546 = { life_rating = -5 }
+		PRU_682 = { life_rating = -5 }
+		PRU_701 = { life_rating = -5 }
+		PRU_695 = { life_rating = -5 }
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140401
+	
+	trigger = {
+		tag = JAN
+		year = 1850
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140402
+	
+	trigger = {
+		tag = JAN
+		year = 1860
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140403
+	
+	trigger = {
+		tag = JAN
+		year = 1870
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140404
+	
+	trigger = {
+		tag = JAN
+		year = 1880
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140405
+	
+	trigger = {
+		tag = JAN
+		year = 1890
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140406
+	
+	trigger = {
+		tag = JAN
+		year = 1900
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140407
+	
+	trigger = {
+		tag = JAN
+		year = 1910
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140408
+	
+	trigger = {
+		tag = JAN
+		year = 1920
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140409
+	
+	trigger = {
+		tag = JAN
+		year = 1930
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140410
+	
+	trigger = {
+		tag = JAN
+		year = 1840
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+

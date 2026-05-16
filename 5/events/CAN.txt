@@ -1,0 +1,173 @@
+country_event = {
+
+	id = 44303
+	trigger = {
+		tag = CAN 
+		owns = 2 
+		owns = 74 
+		NOT = {
+			has_country_flag = big_canada
+		}
+	} 
+		fire_only_once = yes
+		
+		mean_time_to_happen = {
+		months = 1
+	}
+
+	title = "EVTNAME44303"
+	desc = "EVTDESC44303"
+	picture = "Rebellion"
+
+	option = {
+		name = "EVTOPTA44303" 
+		set_country_flag = big_canada
+		add_country_modifier = {
+		name = can_buff2
+		duration = -1
+		}
+		77 = { remove_core = FRA }
+		44 = { remove_core = ENG }
+		14 = { remove_core = ENG }
+		74 = { remove_core = ENG }
+		USA_1 = { remove_core = RUS }
+		USA_1 = { remove_core = USA }
+	}
+}
+
+province_event = {
+	
+	id = 999122
+
+	trigger = {
+	owner = {
+        tag = CAN
+	has_country_flag = big_canada_producer}
+	 
+		trade_goods = tropical_wood
+		NOT = { has_province_modifier = tropical_blood }
+		
+	}
+	title = "EVTNAME999121"
+	desc = "EVTDESC999121"
+	picture = "Travel"
+
+	option = {
+		name = "EVTOPTA999121"
+	 
+	  add_province_modifier = {
+	  name = tropical_blood
+	  duration = -1
+	  }
+	  
+	}
+}
+
+country_event = {
+	title = "EVTNAME5002"
+	desc = "EVTDESC5002"
+	news = yes
+	news_desc_long = "EVTDESC5002_NEWS_LONG"
+	news_desc_medium = "EVTDESC5002_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC5002_NEWS_SHORT"
+	id = 5002
+	picture = "stanley_cup"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = CAN
+		year = 1892
+	}
+	mean_time_to_happen = {
+		months = 12
+	}
+	option = {
+		name = "EVTOPTA5002"
+		prestige = 2
+	}
+}
+
+country_event = {
+
+	id = 101136 
+	trigger = {
+		tag = CAN
+		in_sphere = ENG
+		NOT = {
+        	has_country_modifier = can_buff
+        }
+	}
+	option = {
+		name = "EVTOPTA101136" 
+		add_country_modifier = {
+			name = can_buff
+			duration = 37000
+		}
+	}
+	title = "EVTNAME101136"
+	desc = "EVTDESC101136"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101140
+	fire_only_once = yes
+	trigger = {
+		tag = CAN
+	}
+	option = {
+		name = "EVTOPTA101140"
+		badboy = 22
+	}
+	title = "EVTNAME101140"
+	desc = "EVTDESC101140"
+	picture = "Administration"
+}
+
+country_event = {
+
+    id = 101141 
+    trigger = {
+        tag = CAN
+        has_country_modifier = can_buff
+        NOT = {
+            in_sphere = ENG
+        }
+    }
+    option = {
+        name = "EVTOPTA101141" 
+        remove_country_modifier = can_buff
+    }
+    title = "EVTNAME101141"
+    desc = "EVTDESC101141"
+    picture = "Administration"
+}
+
+country_event = {	
+
+	id = 101157 #Убрать бонусы если не в сфере 
+	trigger = {
+				tag = CAN
+				year = 1882
+				NOT = {	ENG = { is_sphere_leader_of = CAN } }
+				NOT = {	USA = { is_sphere_leader_of = CAN } }
+				NOT = {	FRA = { is_sphere_leader_of = CAN } }
+				NOT = { has_country_flag = bezsferu }
+	}
+	option = {
+		name = "EVTOPTA101150" 
+		set_country_flag = bezsferu
+		CAN = {
+		remove_country_modifier = vbtop1
+		remove_country_modifier = vbtop2
+		remove_country_modifier = vbtop3
+		remove_country_modifier = vbtop4
+		}
+	}
+	title = "EVTNAME101150"
+	desc = "EVTDESC101150"
+	picture = "Administration"
+}
+

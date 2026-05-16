@@ -1,0 +1,401 @@
+political_decisions = {
+	concede_finland = {
+	picture = concede_finland
+		potential = {
+			tag = SCA
+			NOT = {
+				has_country_flag = Conceded_Finland
+			}
+			RUS_339 = { owned_by = THIS }
+			RUS_340 = { owned_by = THIS }
+		}
+		allow = {
+		}
+		effect = {
+			RUS_340 = {
+				remove_core = RUS
+			}
+			RUS_339 = {
+				remove_core = RUS
+			}
+			prestige = 10
+			badboy = 3
+			set_country_flag = Conceded_Finland
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					average_militancy = 4
+				}
+			}
+		}
+	}
+	court_yard_speech = {
+	picture = court_yard_speech
+		potential = {
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					primary_culture = swedish
+				}
+			}
+			government = hms_government
+			OR = {
+				vote_franschise = wealth_weighted_voting
+				vote_franschise = wealth_voting
+			}
+			NOT = {
+				has_country_flag = court_yard_speech_held
+			}
+		}
+		
+		allow = {
+			OR = {
+				war_policy = pacifism
+				war_policy = anti_military
+			}
+			OR = {
+				pro_military = 10
+				jingoism = 10
+			}
+		}
+		
+		effect = {
+			ruling_party_ideology = conservative
+			any_pop = {
+				militancy = -0.5
+				
+			}
+			set_country_flag = court_yard_speech_held
+		}
+	}
+
+	expand_motala_verkstad = {
+	picture = expand_motala_verkstad
+		potential = {
+			
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					primary_culture = swedish
+				}
+			}
+			owns = 325
+			NOT = {
+				has_global_flag = motala_verkstad_expanded
+			}
+		}
+		
+		allow = {
+			mechanical_production = 1
+		}
+		
+		effect = {
+			SCA = {
+				add_country_modifier = {
+					name = motala_verkstad
+					duration = -1
+				}
+			}
+			prestige = 15
+			set_global_flag = motala_verkstad_expanded
+		}
+	}
+
+	form_ikea = {
+	picture = court_yard_speech
+		potential = {
+			
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					primary_culture = swedish
+				}
+			}
+			 NOT = {has_country_flag = ikea_start}
+		}
+		
+		allow = {
+			 year = 1870
+			 big_producer = furniture
+			 big_producer = lumber
+
+		}
+		
+		effect = {
+		set_country_flag = ikea_start
+			add_country_modifier = {
+					name = ikea_buff
+					duration = -1
+				}
+		}
+	}
+
+	form_scandinavia = {
+		picture = form_scandinavia
+		potential = {
+		
+			OR = {
+				is_culture_group = scandinavian
+				is_culture_group = bears
+			}
+			NOT = {
+				exists = SCA
+			}
+		}
+		
+		allow = {
+			#is_greater_power = yes
+			prestige = 20
+				SCA = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = {
+								OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+								}
+							}
+						}
+					}
+				}
+			 
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = SCA
+			add_accepted_culture = swedish
+			add_accepted_culture = danish
+			add_accepted_culture = finnish
+			add_accepted_culture = inuit
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = scandinavian
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	new_sca_land = {
+	picture = court_yard_speech
+		potential = {
+			exists = CAN
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					primary_culture = swedish
+				}
+			}
+			 NOT = {has_country_flag = new_land}
+		}
+		
+		allow = {
+			252 = { owned_by = THIS }
+			revolution_n_counterrevolution = 1
+		}
+		
+		effect = {
+		set_country_flag = new_land
+		76 = { add_core = THIS }
+		2625 = { add_core = THIS }
+		62 = { add_core = THIS }
+		75 = { add_core = THIS }
+		}
+	}
+
+					
+	pass_folkskolereformen = {
+	picture = pass_folkskolereformen
+		potential = {
+		
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					primary_culture = swedish
+				}
+			}
+			NOT = {
+				has_country_modifier = folkis_educates
+			}
+		}
+		
+		allow = {
+			ideological_thought = 1
+			money = 150000
+		}
+		
+		effect = {
+			money = -150000
+			add_country_modifier = {
+				name = folkis_educates
+				duration = -1
+			}
+		}
+	}
+
+	pop_up = {
+		potential = {
+		
+			OR = {
+				tag = SCA
+				tag = SWE
+			}				
+			prestige = 10
+			NOT = {
+				has_country_flag = pop_up
+			}
+			
+		}
+		
+		allow = {
+			semi_automatization = 1
+		}
+		
+		effect = {
+			set_country_flag = pop_up
+			add_country_modifier = {
+				name = sca_ruhr_boom
+				duration = 10950
+			}
+			322 = { add_province_modifier = {
+	 		name = event_korsara_na_shaxtu
+	 		duration = -1}
+	 		}
+			prestige = 20
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	scandinavian_colony = {
+	picture = svenska_pansarbats_foreningen
+		potential = {
+		
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					primary_culture = swedish
+				}
+			}
+			NOT = {
+				has_country_flag = new_colony
+			}
+		}
+		
+		allow = {
+			1910 = { owned_by = THIS }
+			FRA_1914 = { owned_by = THIS }
+		}
+		
+		effect = {
+				FRA_1907  = { 
+				add_province_modifier = {
+					name = bonuses
+					duration = -1
+				}
+				add_core = SCA
+			}
+				FRA_1914 = { 
+				add_province_modifier = {
+					name = bonuses
+					duration = -1
+				}
+				add_core = SCA
+			}
+			1908 = { secede_province = SCA }
+			1909 = { secede_province = SCA }
+
+			set_country_flag = new_colony
+		}
+	}
+
+	svenska_pansarbats_foreningen = {
+	picture = svenska_pansarbats_foreningen
+		potential = {
+			
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					primary_culture = swedish
+				}
+			}
+			owns = 329
+			NOT = {
+				has_country_flag = hms_sverige_built
+			}
+		}
+		
+		allow = {
+			NOT = {
+				average_militancy = 3
+			}
+			steel_steamers = 1
+			year = 1905
+		}
+		
+		effect = {
+			any_pop = {
+				money = -0.1
+			}
+			329 = {
+				sub_unit = {
+					type = cruiser
+					value = current
+				}
+			}
+			set_country_flag = hms_sverige_built
+		}
+	}
+
+	the_vega_expedition = {
+	picture = the_vega_expedition
+		potential = {
+		
+			OR = {
+				tag = SWE
+				AND = {
+					tag = SCA
+					primary_culture = swedish
+				}
+			}
+			NOT = {
+				has_country_flag = the_vega_expedition_went
+			}
+		}
+		
+		allow = {
+			biologism = 1
+			iron_steamers = 1
+		}
+		
+		effect = {
+			prestige = 15
+			years_of_research = 0.5
+			badboy = -3
+			set_country_flag = the_vega_expedition_went
+		}
+	}
+}
+

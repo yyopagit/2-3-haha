@@ -1,0 +1,181 @@
+political_decisions = {
+	enact_dual_monarchy = {
+	picture = enact_dual_monarchy
+		potential = {
+			tag = AUS
+			OR = {
+				government = absolute_monarchy
+				government = hms_government
+				government = prussian_constitutionalism
+			}
+			any_owned_province = {
+				is_core = HUN
+			}
+			NOT = {
+				has_country_flag = dual_monarchy_done
+				has_country_flag = aus_monarchy_done
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+		prestige = 30
+			all_core = {
+				add_core = KUK
+			}
+			all_core = {
+				limit = {
+					NOT = {
+						culture = south_german
+						culture = nuba
+					}
+				}
+				remove_core = AUS
+			}
+			any_pop = {
+				limit = {
+					culture = hungarian
+				}
+				militancy = -2
+			}
+			any_pop = {
+				limit = {
+					NOT = {
+						OR = {
+							culture = hungarian
+							culture = south_german
+						}
+					}
+				}
+				militancy = 2
+			}
+			AUS = { all_core = {remove_core = AUS }}
+			change_tag = KUK			
+			add_accepted_culture = hungarian
+			add_accepted_culture = croat
+			add_accepted_culture = romanian
+			add_accepted_culture = slovak
+			662 = {	add_core = KUK }
+			663 = {	add_core = KUK }
+			664 = {	add_core = KUK }
+			665 = {	add_core = KUK }
+			666 = {	add_core = KUK }
+			667 = {	add_core = KUK }
+			668 = {	add_core = KUK }
+			669 = {	add_core = KUK }
+			670 = {	add_core = KUK }
+			671 = {	add_core = KUK }
+			672 = {	add_core = KUK }
+			673 = {	add_core = KUK }
+			702 = {	add_core = KUK }
+			705 = {	add_core = KUK }
+			794 = {	add_core = KUK }
+			795 = {	add_core = KUK }
+			796 = {	add_core = KUK }
+			797 = {	add_core = KUK }
+			793 = {	add_core = KUK }
+			796 = {	add_core = KUK }
+			674 = {	add_core = KUK }
+			675 = {	add_core = KUK }
+			676 = {	add_core = KUK }
+			677 = {	add_core = KUK }
+			678 = {	add_core = KUK }
+			818 = {	add_core = KUK }
+			951 = {	add_core = KUK }
+			952 = {	add_core = KUK }
+			953 = {	add_core = KUK }
+			set_country_flag = dual_monarchy_done
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	aus_monarchy = {
+	picture = enact_dual_monarchy
+		potential = {
+			tag = AUS
+			OR = {
+				government = absolute_monarchy
+				government = hms_government
+				government = prussian_constitutionalism
+			}
+			any_owned_province = {
+				is_core = HUN
+			}
+			NOT = {
+				has_country_flag = dual_monarchy_done
+				has_country_flag = aus_monarchy_done
+				OR = {
+				war_with = NGF
+				war_with = PRU
+				}
+			}
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			594 = { owner = { in_sphere = THIS }}
+		}
+		effect = {
+			set_country_flag = aus_monarchy_done
+			AUS = { all_core = {add_core = SGF }}
+			SGF = { all_core = {remove_core = AUS }}
+			BAV_595 = { add_core = SGF }
+			BAV_599 = { add_core = SGF }
+			WUR_589 = { add_core = SGF }
+			BAD_586 = { add_core = SGF }
+			inherit = BAV
+			inherit = BAD
+			inherit = WUR
+			inherit = SIG
+			change_tag = SGF
+			SGF = { all_core = {remove_core = SER }}
+			SGF = { all_core = {remove_core = CRO }}
+			SGF = { all_core = {remove_core = ROM }}
+			SGF = { all_core = {remove_core = SLV }}
+			SGF = { all_core = {remove_core = YUG }}
+			SGF = { all_core = {remove_core = PLC }}
+			SGF = { all_core = {remove_core = POL }}
+			SGF = { all_core = {remove_core = HUN }}
+			SGF = { all_core = {remove_core = UKR }}
+			SGF = { all_core = {remove_core = POL }}
+			SGF = { all_core = {remove_core = BOH }}
+			SGF = { all_core = {remove_core = CZH }}
+			SGF = { all_core = {remove_core = SIE }}
+			SGF = { all_core = {remove_core = BAV }}
+			SGF = { all_core = {remove_core = SIG }}
+			SGF = { all_core = {remove_core = BAD }}
+			SGF = { all_core = {remove_core = WUR }}
+			SGF = { all_core = {remove_core = GER }}
+			397 = { add_core = SGF }
+			409 = { add_core = SGF }
+			410 = { add_core = SGF }
+			412 = { add_core = SGF }
+			594 = { remove_core = PRU }
+			any_pop = {
+				limit = {
+					NOT = {
+						OR = {
+							culture = south_german
+							culture = nuba
+						}
+					}
+				}
+				militancy = 2
+			}
+			remove_accepted_culture = serb
+			remove_accepted_culture = czech
+			add_accepted_culture = south_german
+			PRU = { 
+			remove_accepted_culture = south_german
+			}
+			NGF = { 
+			remove_accepted_culture = south_german
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+

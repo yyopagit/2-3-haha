@@ -1,0 +1,1879 @@
+country_event = {
+	id = 18930
+	title = "EVTNAME18930"
+	desc = "EVTDESC18930"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+
+	trigger = {
+	}
+	
+	
+	
+	option = {
+		name = "EVTOPTA18905"
+		money = -100000
+		ENG = {
+
+		}
+	}
+	option = {
+		name = "EVTOPTB18905"
+		money = -100000
+		RUS = {
+
+		}
+	}
+	option = {
+		name = "EVTOPTC18905"
+		money = -100000
+		USA = {
+
+		}
+	}
+	option = {
+		name = "EVTOPTD18905"
+		money = -100000
+		any_country = {
+		limit = {
+		exists = yes
+		OR = {tag = PRU
+		tag = NGF 
+		tag = GER}
+		}
+
+		}
+			 
+		
+	}
+	option = {
+		name = "EVTOPTE18905"
+		money = -100000
+		FRA = {
+
+		}
+	}
+}
+
+country_event = {
+
+	id = 31502
+	news = yes
+	news_desc_long = "EVTDESC31502_NEWS_LONG"
+	news_desc_medium = "EVTDESC31502_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC31502_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = AUS
+			tag = KUK
+		}
+		year = 1842
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+			}
+		NOT = {
+			year = 1845		
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1843
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1844
+		}
+	}
+
+	title = "EVTNAME31502"
+	desc = "EVTDESC31502"
+	picture = "Ferdinand"
+
+	option = {
+		name = "EVTOPTA31502" 
+		any_pop = {
+			scaled_consciousness = {
+				factor = 2
+				ideology = conservative
+			}
+			scaled_consciousness = {
+				factor = 3
+				ideology = liberal
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 31505
+	news = yes
+	news_desc_long = "EVTDESC31505_NEWS_LONG"
+	news_desc_medium = "EVTDESC31505_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC31505_NEWS_SHORT"
+
+	trigger = {
+		OR = {
+			tag = AUS
+			tag = KUK
+		}
+		year = 1897
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+			government = hms_government
+			}
+		NOT = {
+			year = 1900
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1898
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1899
+		}
+	}
+
+	title = "EVTNAME31505"
+	desc = "EVTDESC31505"
+	picture = "SISIASSASSINATION"
+
+	option = {
+		name = "EVTOPTA31505" 
+		any_pop = {
+			scaled_consciousness = {
+				factor = 2
+				ideology = conservative
+			}
+			scaled_consciousness = {
+				factor = 2
+				ideology = reactionary
+			}
+			militancy = -1
+		}
+	}
+}
+
+country_event = {
+
+	id = 31506
+
+	trigger = {
+		OR = {
+			tag = AUS
+			tag = KUK
+		}
+		year = 1911
+		expressionism = 1 #has the expressionism tech
+		NOT = {
+			year = 1930
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1912
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1913
+		}
+	}
+
+	title = "EVTNAME31506"
+	desc = "EVTDESC31506"
+	picture = "SISI"
+
+	option = {
+		name = "EVTOPTA31502" 
+		prestige = 30
+	}
+}
+
+country_event = {
+
+	id = 315091 #see PRU34610 and RUS32501 for parallel events
+
+	trigger = {
+	OR = {
+		 tag = AUS
+		 tag = KUK}		
+		year = 1836
+		war = no
+		 not ={has_country_flag = bohemia_strong}		
+	}
+	
+	 
+	
+	mean_time_to_happen = {
+		months = 1
+
+	}
+
+	title = "EVTNAME315091"
+	desc = "EVTDESC315091"
+	picture = "PopeLeo"
+
+	option = {
+		name = "EVTOPTA315091" 
+		set_country_flag = bohemia_strong
+		prestige = 15
+		AUS_619 = {
+		life_rating = 1
+	}
+		619 = { life_rating = 4 }
+		 	
+	}
+	option = {
+		name = "EVTOPTB315091" 
+		set_country_flag = bohemia_strong
+		625 = { life_rating = 15 }	 
+		AUS_625 = {  
+		add_province_modifier = {
+			 name = bohemia_buff
+			 duration = -1}}
+		 	
+	}
+}
+
+country_event = {
+
+	id = 33400
+
+	trigger = {
+	or ={
+		tag = BAV
+		tag = PRU
+		tag = NGF
+		tag = GER
+		}
+		year = 1841
+		classicism_n_early_romanticism = 1 #has the romanticism tech
+		}
+
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1842
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1843
+		}
+	}
+
+	title = "EVTNAME33400"
+	desc = "EVTDESC33400"
+	picture = "Walhalla"
+
+	option = {
+		name = "EVTOPTA33400" 
+		prestige = 5
+		set_country_flag = Walhalla
+	}
+}
+
+country_event = {
+
+	id = 33401
+	news = yes
+	news_desc_long = "EVTDESC33401_NEWS_LONG"
+	news_desc_medium = "EVTDESC33401_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC33401_NEWS_SHORT"
+
+	trigger = {
+	or ={
+		tag = BAV
+		tag = PRU
+		tag = NGF
+		tag = GER
+		}
+		year = 1846
+	}
+		
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 6
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME33401"
+	desc = "EVTDESC33401"
+	picture = "Lola"
+
+	option = {
+		name = "EVTOPTA33401" 
+		prestige = 5
+		any_pop = {
+			consciousness = 1
+			scaled_militancy = {
+				factor = 2
+				ideology = liberal
+			}
+			scaled_militancy = {
+				factor = 2
+				ideology = anarcho_liberal
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 33402
+	news = yes
+	news_desc_long = "EVTDESC33402_NEWS_LONG"
+	news_desc_medium = "EVTDESC33402_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC33402_NEWS_SHORT"
+
+	trigger = {
+	or ={
+		tag = BAV
+		tag = PRU
+		tag = NGF
+		tag = GER
+		}
+		year = 1852
+		realism = 1 #has the realism tech
+		OR = {
+			government = absolute_monarchy
+			government = hms_government
+		}
+		NOT = {
+			year = 1855
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1853
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1854
+		}
+	}
+
+	title = "EVTNAME33402"
+	desc = "EVTDESC33402"
+	picture = "Bayern"
+
+	option = {
+		name = "EVTOPTA33402" 
+		prestige = 5
+		treasury = -500
+	}
+}
+
+country_event = {
+	id = 1222233320
+	title = "EVTNAME1222233320"
+	desc = "EVTDESC1222233320"
+	picture = "Rebellion"	
+	trigger = {
+		OR = {		
+			has_country_flag = albanian
+			has_global_flag = BYZ_war
+			has_global_flag = BYZ_war_accept
+		}
+		OR = {
+			tag = BYZ
+			tag = KUK
+			tag = ITA
+		}
+		year = 1845
+		owns = 852
+		NOT = { accepted_culture = albanian }
+	}
+	option = {
+		name = "EVTOPTA1222233320"
+		add_accepted_culture = albanian
+
+	}
+}
+
+country_event = {
+
+	id = 44300
+	trigger = {
+	or = {
+		tag = CAN 
+		tag = ENG
+		}
+		year = 1872
+		owns = 13 #Vancouver BC
+		owns = 57 #Ottawa ON
+		NOT = {
+			year = 1878
+		}
+	}
+ 
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 12
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1873
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1875
+		}
+	}
+
+	title = "EVTNAME44300"
+	desc = "EVTDESC44300"
+	picture = "train"
+
+	option = {
+		name = "EVTOPTA44300" 
+		any_pop = {
+			ideology = {
+				factor = 0.1
+				value = liberal
+			}
+			scaled_militancy = {
+				factor = 2
+				ideology = liberal
+			}
+			scaled_consciousness = {
+				factor = 2
+				ideology = liberal
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB44300" 
+		any_pop = {
+			ideology = {
+				factor = 0.25
+				value = liberal
+			}
+			scaled_militancy = {
+				factor = 2
+				ideology = liberal
+			}
+			scaled_consciousness = {
+				factor = 3
+				ideology = liberal
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 44302
+	trigger = {
+	or = {
+		tag = USA
+		tag = CAN
+		}
+		year = 1884
+		owns = 57 #Ottawa ON
+		OR = {
+			has_country_flag = RielRebellionIgnored
+			owns = 30 #Saskatchewan 
+			owns = 34 
+			owns = 38 #Western Manitoba 
+			owns = 39 
+			owns = 40 
+			owns = 41
+			} 
+		NOT = {
+			year = 1888
+			has_country_flag = NorthwestRebellion
+			}
+		}
+ 
+	mean_time_to_happen = {
+		months = 8
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1885
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1886
+		}
+	}
+
+	title = "EVTNAME44302"
+	desc = "EVTDESC44302"
+	picture = "Rebellion"
+
+	option = {
+		name = "EVTOPTA44302" 
+		set_country_flag = NorthwestRebellion
+		any_pop = {
+			limit = {
+				has_pop_culture = metis
+			}
+			militancy = 7
+			consciousness = 5
+		}
+	}
+}
+
+country_event = {
+	title = "westernize_nation_title"
+	desc = "westernize_nation_desc"
+	picture = "Celebration"
+
+	id = 90903
+
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = the_dragon_wakes }
+		OR = { 
+		tag = GXI
+		tag = MCK
+		tag = XIN
+		tag = YNN
+		tag = XBI
+		tag = MGL
+		}
+		}
+
+	option = {				
+		name = "EVTOPTA90902"
+		set_global_flag = the_dragon_wakes
+		release_vassal = THIS
+		leave_alliance = CHI
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				substate_of = CHI
+				num_of_cities = 1
+			}
+
+		}
+		CHI = {
+
+		}
+		prestige = 10
+			remove_country_modifier = educational_reform
+			remove_country_modifier = military_reform
+			remove_country_modifier = western_influences
+			remove_country_modifier = uncivilized_isolationism
+			remove_country_modifier = trade_restrictions
+			remove_country_modifier = sayings_of_the_dutch
+			remove_country_modifier = extraterritoriality_granted
+			any_owned = {
+				remove_province_modifier = western_presence
+				remove_province_modifier = foreign_smugglers
+				remove_province_modifier = foreign_trading_post
+				remove_province_modifier = local_opium_habit
+				remove_province_modifier = european_military_mission
+				remove_province_modifier = legation_quarter
+				remove_province_modifier = kettler_denkmal
+			}
+	}
+}
+
+country_event = {
+	id = 60120
+	title = "EVTNAME60120"
+	desc = "EVTDESC60120"
+	picture = "ILIJA"
+	
+	trigger = {
+		ai = yes
+		war = no
+		part_of_sphere = yes
+		or = {and = {
+		or = {
+		#tag = ALB
+		tag = CRO
+		#tag = SER
+		#tag = YUG
+		tag = ROM
+		#tag = WAL
+		#tag = MOL
+		tag = BOH
+		tag = CZH
+		tag = HUN
+		tag = SLV
+		tag = BOS
+		}
+		sphere_owner = {
+		is_greater_power = yes
+war = no
+tag = KUK
+		}
+		}
+		sphere_owner = {
+			is_greater_power = yes			  
+			is_culture_group = THIS
+			is_cultural_union = yes
+			war = no
+		}}
+		NOT = {
+			AND = {
+				OR = {
+					tag = AUS
+					tag = KUK
+				}
+				sphere_owner = {
+					tag = GER
+				}
+				NOT = {
+					exists = HUN
+				}
+			}
+		}
+		NOT = {	
+			tag = ISR 
+			}
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}
+	
+	option = {
+		name = "EVTOPTA60120"
+		sphere_owner = {
+
+		}
+	}
+}
+
+country_event = { 
+	id = 402003
+	title = "EVTNAME402003"
+	desc = "EVTDESC402003"
+	picture = "greatpowers"
+	trigger = {
+		OR = {
+			tag = HND
+			tag = EIC
+		}
+		year = 1836
+		THIS = {
+			in_sphere = ENG
+		}
+		NOT = {
+			has_country_modifier = Help_from_England
+			has_country_flag = Help_from_England
+		}
+	} 
+	option = {
+	name = "EVTOPTA402003"
+		THIS = {
+			add_country_modifier = { 
+				name = Help_from_England
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				is_sphere_leader_of = THIS
+				tag = ENG
+			}	
+			add_country_modifier = { 
+				name = Protectorate_over_India
+				duration = -1
+			}
+		}
+		set_country_flag = Help_from_England
+	}
+}
+
+country_event = { 
+	id = 402004
+	title = "EVTNAME402004"
+	desc = "EVTDESC402004"
+	picture = "LORDDALHOUSIE"
+	trigger = {
+		OR = {
+			tag = EIC
+			tag = HND
+		}
+		year = 1855
+		THIS = {
+			in_sphere = ENG
+			has_country_flag = Help_from_England
+		}
+		NOT = {
+			has_country_flag = Help_from_England2
+		}
+	}
+	option = {
+	name = "EVTOPTA402004"
+		THIS = {
+				add_country_modifier = { 
+				name = Help_from_England2
+				duration = -1
+				}
+		}
+		any_country = {
+			limit = {
+				is_sphere_leader_of = THIS
+				tag = ENG
+			}
+			remove_country_modifier = Protectorate_over_India		
+			add_country_modifier = { 
+				name = Protectorate_over_India2
+				duration = -1
+			}
+		}
+		set_country_flag = Help_from_England2
+		remove_country_modifier = Help_from_England
+	}
+}
+
+country_event = { 
+	id = 4020066
+	title = "EVTNAME4020066"
+	desc = "EVTDESC4020066"
+	picture = "greatpowers"
+	trigger = {
+		OR = {
+			tag = EIC
+			tag = HND
+		}
+		year = 1845
+		THIS = {
+			in_sphere = ENG
+		}
+		1280 = {
+			owned_by = THIS
+		}
+		1241 = {
+			owned_by = THIS
+		}
+		1270 = {
+			owned_by = THIS
+		}
+		1272 = {
+			owned_by = THIS
+		}
+		1273 = {
+			owned_by = THIS
+		}
+     	1275 = {
+			owned_by = THIS
+		}
+		1276 = {
+			owned_by = THIS
+		}
+		NOT = {
+			has_country_flag = Paints
+		}
+	}
+	option = {
+	name = "EVTOPTA4020066"
+		any_country = {
+			limit = {
+				is_sphere_leader_of = THIS
+				tag = ENG
+			}	
+			add_country_modifier = { 
+				name = Protectorate_over_India_Paints
+				duration = -1
+			}
+		}
+		set_country_flag = Paints
+	}
+}
+
+country_event = { 
+	id = 4020077
+	title = "EVTNAME4020077"
+	desc = "EVTDESC4020077"
+	picture = "greatpowers"
+	trigger = {
+		OR = {
+			tag = EIC
+			tag = HND
+		}
+		year = 1845
+		THIS = {
+			in_sphere = ENG
+		}
+		1283 = {
+			owned_by = THIS
+		}
+		1286 = {
+			owned_by = THIS
+		}
+		1287 = {
+			owned_by = THIS
+		}
+		1271 = {
+			owned_by = THIS
+		}
+		1269 = {
+			owned_by = THIS
+		}
+		NOT = {
+			has_country_flag = Hlopock
+		}
+	}
+	option = {
+	name = "EVTOPTA4020077"
+		any_country = {
+			limit = {
+				is_sphere_leader_of = THIS
+				tag = ENG
+			}	
+			add_country_modifier = { 
+				name = Protectorate_over_India_Hlopock
+				duration = -1
+			}
+		}
+		set_country_flag = Hlopock
+	}
+}
+
+country_event = { 
+	id = 4020088
+	title = "EVTNAME4020088"
+	desc = "EVTDESC4020088"
+	picture = "greatpowers"
+	trigger = {
+		OR = {
+			tag = EIC
+			tag = HND
+		}
+		year = 1880
+		THIS = {
+			in_sphere = ENG
+		}
+		1283 = {
+			owned_by = THIS
+			trade_goods = rubber
+		}
+		NOT = {
+			has_country_flag = rubber
+		}
+	}
+option = {
+	name = "EVTOPTA4020088"
+		any_country = {
+			limit = {
+				is_sphere_leader_of = THIS
+				tag = ENG
+			}	
+			add_country_modifier = { 
+				name = Protectorate_over_India_Rubber
+				duration = -1
+			}
+		}
+		set_country_flag = rubber
+	}
+}
+
+country_event = { 
+	id = 402005
+	title = "EVTNAME402005"
+	desc = "EVTDESC402005"
+	picture = "greatpowers"
+	trigger = {
+		OR = {
+			tag = EIC
+			tag = HND
+		}
+		OR = {
+			has_country_flag = Help_from_England
+			has_country_flag = Help_from_England2
+		}
+		NOT = {
+			in_sphere = ENG
+		}
+	}
+	option = {
+	name = "EVTOPTA402005"
+		any_country = {
+		limit = {
+	    tag = ENG
+		}	
+		clr_country_flag = inzeneri_eng_v_boic
+		remove_country_modifier = Protectorate_over_India
+		remove_country_modifier = Protectorate_over_India2
+		remove_country_modifier = Protectorate_over_India_Paints
+		remove_country_modifier = Protectorate_over_India_Hlopock
+		remove_country_modifier = Protectorate_over_India_Rubber
+	    }
+		remove_country_modifier = integratia_boic_v_eng
+		remove_country_modifier = inzeneri_eng_v_boic
+        remove_country_modifier = Help_from_England
+		remove_country_modifier = Help_from_England2
+		remove_country_modifier = opit_v_boic_ot_eng
+	    clr_country_flag = Help_from_England
+		clr_country_flag = Help_from_England2
+		clr_country_flag = Paints
+		clr_country_flag = Hlopock
+		clr_country_flag = rubber
+		clr_country_flag = opit_dla_Indii
+		clr_country_flag = integratia_boic_v_eng
+	}
+}
+
+country_event = {
+	id = 777703
+	trigger = {
+		OR = {
+			tag = PRU
+			tag = NGF			
+		}
+		NOT = {
+				exists = GER
+				exists = SGF
+			}
+ year = 1850
+ #war = no
+ }
+	title = "EVTNAME777703"
+	desc = "EVTDESC777703"
+	picture = "greatpowers"
+
+	fire_only_once = yes
+
+	option = {
+		NGF = { all_core = {remove_core = NGF }}
+		PRU = { all_core = {remove_core = PRU }}
+		name = "EVTOPTA777703"
+		change_tag = GER
+		add_accepted_culture = north_german
+		add_accepted_culture = south_german
+		prestige = 55
+		ai_chance = {
+ factor = 99
+ }
+	}
+
+	option = {
+		name = "EVTOPTB777703"
+		prestige = -25
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+
+country_event = {
+	id = 777705
+	trigger = {
+		OR = {
+			tag = FRA
+			tag = PRU
+			tag = NGF
+			tag = GER
+			tag = BEL
+			tag = NET
+		}
+ year = 1836
+		exists = LUX
+		LUX = {
+				all_core = {
+					owner = {
+							in_sphere = THIS
+						}
+				}
+			}
+ }
+	mean_time_to_happen = { # ���� ���� ���������� ����������� ������������ ������
+ months = 1
+
+ }
+	title = "EVTNAME777705"
+	desc = "EVTDESC777705"
+	picture = "LEOPOLDIV"
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA777705"
+		inherit	= LUX	
+		prestige = 30
+		ai_chance = {
+ factor = 99
+ }
+	}
+
+	option = {
+		name = "EVTOPTB777705"
+		prestige = -15
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+
+country_event = {
+
+	id =1011210
+	 trigger = {
+	 or = {tag = GER
+	 tag = NGF
+	 tag = KUK
+	 tag = FRA
+	 tag = ITA}
+	 not = {accepted_culture = swiss}
+	 or = {
+	 owns = 603
+	 owns = 605
+	 }
+	 }
+      picture = "greek_osman"	  
+	 mean_time_to_happen = {
+	 months = 1
+	 }
+    option = {
+	name = "EVTOPTA1011210"	
+	 add_accepted_culture = swiss 
+		 
+		
+ }
+  
+ 
+	title = "EVTNAME1011210"
+	desc = "EVTDESC1011210"
+	 
+}
+
+country_event = {
+
+	id =1011211
+	title = "EVTNAME1011211"
+	desc = "EVTDESC1011211"
+	  trigger = {
+	 or = {tag = GER
+	 tag = KUK
+	 tag = FRA
+	 tag = AUS
+	 tag = ITA}
+	 accepted_culture = swiss
+	 not = {owns = 603}
+	 not = {owns = 605}
+	 }
+      picture = "greek_osman"	  
+	 mean_time_to_happen = {
+	 months = 1
+	 }
+    option = {
+	name = "EVTOPTA1011211"	
+	 remove_accepted_culture = swiss 
+		 
+	}	
+ }
+
+country_event = {
+
+	id =1011212
+	  trigger = {
+	  OR = {
+	  tag = KUK
+	  tag = ITA
+	  }
+	   year = 1880
+	   729 = { 
+	   not = {
+	   has_province_modifier = Arsenal_ven}
+	   }
+	   729 = { OR = { owned_by = KUK owned_by = ITA } }
+	 }
+      picture = "greek_osman"	  
+	 mean_time_to_happen = {
+	 months = 1
+	 }
+    option = {
+	name = "EVTOPTA1011212"	
+	729 = { add_province_modifier = {
+	 name = Arsenal_ven
+	 duration = -1
+	 }
+	 }
+ }
+   
+ 
+	title = "EVTNAME1011212"
+	desc = "EVTDESC1011212"
+	 
+}
+
+country_event = {
+	title = "EVTNAME11100"
+	desc = "EVTDESC11100"
+	picture = "Celebration"
+
+	id = 11100
+	fire_only_once = yes
+	mean_time_to_happen = { months = 100000 }
+	# Парламент предлагает корону Скандинавии — только стране, которая ещё НЕ Скандинавия (Швеция, Дания и т.д.)
+	trigger = {
+		NOT = { tag = SCA }
+		NOT = { exists = SCA }
+		OR = {
+			is_culture_group = scandinavian
+			is_culture_group = bears
+		}
+		is_greater_power = yes
+	}
+
+	option = {				# Accept inheritance
+		name = "EVTOPTA11100"
+		change_tag = culture
+		any_country = {
+			limit = {
+				NOT = {
+					tag = THIS
+				}
+				is_culture_group = THIS
+				is_greater_power = no
+				OR = {
+					in_sphere = THIS
+					part_of_sphere = no
+					NOT = {
+						OR = {
+							tag = AUS
+							tag = KUK
+						}
+					}
+					tag = WAL
+					tag = MOL
+					tag = MON
+					tag = BOS
+					tag = SER
+					tag = SLO
+					tag = EIC
+					AND = {
+						OR = {
+							tag = AUS
+							tag = KUK
+						}
+						exists = HUN
+						part_of_sphere = no
+					}
+				}
+				num_of_cities = 1
+			}
+
+		}
+		political_reform = wealth_voting
+		political_reform = population_equal_weight
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = non_socialist
+		political_reform = secret_ballots
+		government = hms_government
+		add_accepted_culture = union
+		prestige = -15
+		badboy = 10
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 200
+				OR = {
+					tag = MOL
+					tag = WAL
+				}
+			}
+			modifier = {
+				factor = 5
+				government = hms_government
+			}
+			modifier = {
+				factor = 10
+				government = democracy
+			}
+			modifier = {
+				factor = 2
+				ruling_party_ideology = liberal
+			}
+			modifier = {
+				factor = 3
+				upper_house = {
+					ideology = liberal
+					value = 0.5
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB11100"
+		prestige = 2
+		ai_chance = {
+			factor = 95
+			modifier = {
+				factor = 1.5
+				government = absolute_monarchy
+			}
+		}
+		any_pop = {
+			militancy = 1
+		}
+	}
+}
+
+country_event = {
+
+	id = 46800
+	news = yes
+	news_desc_long = "EVTDESC46800_NEWS_LONG"
+	news_desc_medium = "EVTDESC46800_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC46800_NEWS_SHORT"
+
+	trigger = {
+	or = {
+		tag = PEU
+		tag = BRZ
+		}
+		year = 1911
+		war = no
+		owns = 2302 #Cusco
+		NOT = {
+			year = 1914
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1912
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1913
+		}
+	}
+
+	title = "EVTNAME46800"
+	desc = "EVTDESC46800"
+	picture = "Machupicchu"
+
+	option = {
+		name = "EVTOPTA46800" 
+		prestige = 30
+	}
+
+}
+
+country_event = {
+
+	id = 101120 #бонус к строительству флота от канады
+	trigger = {
+		OR = {
+		tag = ENG
+		tag = FRA
+		}
+		is_sphere_leader_of = CAN
+		NOT = {
+        	has_country_modifier = navy_bonus_by_can1
+        }
+		CAN = {ai=no}
+	}
+	option = {
+		name = "EVTOPTA101120" 
+		add_country_modifier = {
+			name = navy_bonus_by_can1
+			duration = -1
+		}
+		#517 = {add_province_modifier = {
+		#		name = eng_exhaustion
+		#		duration = -1
+		#	}}		
+#		any_owned = {
+#			limit = {
+#				is_coastal = yes
+#				port = yes
+#			}
+#			add_province_modifier = {
+#				name = navy_bonus_by_can
+#				duration = -1
+#			}
+#			
+#		}
+
+	}
+	title = "EVTNAME101120"
+	desc = "EVTDESC101120"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101121 #снятие бонуса от канады
+	trigger = {
+		OR = {
+		tag = FRA
+		tag = ENG
+		}
+		has_country_modifier = navy_bonus_by_can1
+        NOT = {
+        	is_sphere_leader_of = CAN
+        }
+	}
+	option = {
+		name = "EVTOPTA101121" 
+		remove_country_modifier = navy_bonus_by_can1
+	
+#		any_owned = {
+#			limit = {
+#			is_coastal = yes
+#			port = yes
+#			}
+#			remove_province_modifier  = navy_bonus_by_can
+#						
+#		}
+
+	}
+	title = "EVTNAME101121"
+	desc = "EVTDESC101121"
+	picture = "Administration"
+}
+
+country_event = {	
+
+	id = 101149 #Бонусы Канаде если вбшка топ1
+	trigger = {
+		OR = {
+			AND = {
+				tag = ENG
+				year = 1880
+				has_country_modifier = navy_bonus_by_can1
+				rank = 1
+				NOT = {
+				has_country_flag = top1
+				}
+			}
+			AND = {
+				tag = USA
+				year = 1880
+				has_country_modifier = nafta_usa
+				rank = 1
+				NOT = {
+				has_country_flag = top1
+				}
+			}
+			AND = {
+				tag = FRA
+				year = 1880
+				has_country_modifier = franafta_fra
+				rank = 1
+				NOT = {
+				has_country_flag = top1
+				}
+			}			
+		}
+	}
+	option = {
+		name = "EVTOPTA101148" 
+		set_country_flag = top1
+		clr_country_flag = netop1
+		clr_country_flag = bezsferu
+		CAN = {
+		add_country_modifier = {
+		name = vbtop1
+		duration = -1
+			}
+		}
+	}
+	title = "EVTNAME101148"
+	desc = "EVTDESC101148"
+	picture = "Administration"
+}
+
+country_event = {	
+
+	id = 101150 #Бонусы Канаде если вбшка топ2
+	trigger = {
+		OR = {
+			AND = {
+				tag = ENG
+				year = 1880
+				has_country_modifier = navy_bonus_by_can1
+				rank = 2
+				NOT = {
+				OR = {
+					rank = 1
+					has_country_flag = top2
+				}
+		}
+	}
+			AND = {
+				tag = USA
+				year = 1880
+				has_country_modifier = nafta_usa
+				rank = 2
+				NOT = {
+				OR = {
+					rank = 1
+					has_country_flag = top2
+				}
+				}
+			}
+			AND = {
+				tag = FRA
+				year = 1880
+				has_country_modifier = franafta_fra
+				rank = 2
+				NOT = {
+				OR = {
+					rank = 1
+					has_country_flag = top2
+				}
+				}
+			}			
+		}
+	}
+	option = {
+		name = "EVTOPTA101148" 
+		set_country_flag = top2
+		clr_country_flag = netop2
+		clr_country_flag = bezsferu
+		CAN = {
+		add_country_modifier = {
+		name = vbtop2
+		duration = -1
+			}
+		}
+	}
+	title = "EVTNAME101148"
+	desc = "EVTDESC101148"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101151 #Бонусы Канаде если вбшка топ3
+	trigger = {
+		OR = {
+			AND = {
+				tag = ENG
+				year = 1880
+				has_country_modifier = navy_bonus_by_can1
+				rank = 3
+				NOT = {
+				OR = {
+					rank = 2
+					has_country_flag = top3
+				}
+		}
+	}
+			AND = {
+				tag = USA
+				year = 1880
+				has_country_modifier = nafta_usa
+				rank = 3
+				NOT = {
+				OR = {
+					rank = 2
+					has_country_flag = top3
+				}
+				}
+			}
+			AND = {
+				tag = FRA
+				year = 1880
+				has_country_modifier = franafta_fra
+				rank = 3
+				NOT = {
+				OR = {
+					rank = 2
+					has_country_flag = top3
+				}
+				}
+			}			
+		}
+	}
+	option = {
+		name = "EVTOPTA101148" 
+		set_country_flag = top3
+		clr_country_flag = netop3
+		clr_country_flag = bezsferu
+		CAN = {
+		add_country_modifier = {
+		name = vbtop3
+		duration = -1
+			}
+		}
+	}
+	title = "EVTNAME101148"
+	desc = "EVTDESC101148"
+	picture = "Administration"
+}
+
+country_event = {	
+
+	id = 101152 #Бонусы Канаде если вбшка топ4
+	trigger = {
+		OR = {
+			AND = {
+				tag = ENG
+				year = 1880
+				has_country_modifier = navy_bonus_by_can1
+				rank = 4
+				NOT = {
+				OR = {
+					rank = 3
+					has_country_flag = top4
+				}
+		}
+	}
+			AND = {
+				tag = USA
+				year = 1880
+				has_country_modifier = nafta_usa
+				rank = 4
+				NOT = {
+				OR = {
+					rank = 3
+					has_country_flag = top4
+				}
+				}
+			}
+			AND = {
+				tag = FRA
+				year = 1880
+				has_country_modifier = franafta_fra
+				rank = 4
+				NOT = {
+				OR = {
+					rank = 3
+					has_country_flag = top4
+				}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA101148" 
+		set_country_flag = top4
+		clr_country_flag = netop4
+		clr_country_flag = bezsferu
+		CAN = {
+		add_country_modifier = {
+		name = vbtop4
+		duration = -1
+			}
+		}
+	}
+	title = "EVTNAME101148"
+	desc = "EVTDESC101148"
+	picture = "Administration"
+}
+
+country_event = {	
+
+	id = 101153 #Убрать бонусы если не топ1
+	trigger = {
+		OR = {
+			AND = {
+				tag = ENG
+				year = 1881
+				ENG = { is_sphere_leader_of = CAN }
+				OR = {
+					AND = {
+					NOT = {	has_country_modifier = navy_bonus_by_can1 }
+					NOT = {	has_country_flag = netop1 }
+					}
+					AND = {
+					NOT = {	has_country_flag = netop1 }
+					NOT = {	rank = 1 }
+				}
+			}
+		}
+			AND = {
+				tag = USA
+				year = 1881
+				USA = { is_sphere_leader_of = CAN }
+				OR = {
+					AND = {
+					NOT = {	has_country_modifier = nafta_usa }
+					NOT = {	has_country_flag = netop1 }
+					}
+					AND = {
+					NOT = {	rank = 1 }
+					NOT = {	has_country_flag = netop1 }
+					}
+				}
+			}
+			AND = {
+				tag = FRA
+				year = 1881
+				USA = { is_sphere_leader_of = CAN }
+				OR = {
+					AND = {
+					NOT = {	has_country_modifier = franafta_fra }
+					NOT = {	has_country_flag = netop1 }
+					}
+					AND = {
+					NOT = {	rank = 1 }
+					NOT = {	has_country_flag = netop1 }
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA101149" 
+		clr_country_flag = top1
+		clr_country_flag = bezsferu
+		set_country_flag = netop1
+		CAN = { remove_country_modifier = vbtop1 }
+	}
+	title = "EVTNAME101149"
+	desc = "EVTDESC101149"
+	picture = "Administration"
+}
+
+country_event = {	
+
+	id = 101154 #Убрать бонусы если не топ2
+	trigger = {
+		OR = {
+			AND = {
+				tag = ENG
+				year = 1881
+				ENG = { is_sphere_leader_of = CAN }
+				OR = {
+					AND = {
+					NOT = {	has_country_modifier = navy_bonus_by_can1 }
+					NOT = {	has_country_flag = netop2 }
+					}
+					AND = {
+					NOT = {	has_country_flag = netop2 }
+					NOT = {	rank = 2 }
+				}
+			}
+		}
+			AND = {
+				tag = USA
+				year = 1881
+				USA = { is_sphere_leader_of = CAN }
+				OR = {
+					AND = {
+					NOT = {	has_country_modifier = nafta_usa }
+					NOT = {	has_country_flag = netop2 }
+					}
+					AND = {
+					NOT = {	rank = 2 }
+					NOT = {	has_country_flag = netop2 }
+					}
+				}
+			}
+			AND = {
+				tag = FRA
+				year = 1881
+				USA = { is_sphere_leader_of = CAN }
+				OR = {
+					AND = {
+					NOT = {	has_country_modifier = franafta_fra }
+					NOT = {	has_country_flag = netop2 }
+					}
+					AND = {
+					NOT = {	rank = 2 }
+					NOT = {	has_country_flag = netop2 }
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA101149" 
+		clr_country_flag = top2
+		clr_country_flag = bezsferu
+		set_country_flag = netop2
+		CAN = { remove_country_modifier = vbtop2 }
+	}
+	title = "EVTNAME101149"
+	desc = "EVTDESC101149"
+	picture = "Administration"
+}
+
+country_event = {	
+
+	id = 101155 #Убрать бонусы если не топ3
+	trigger = {
+		OR = {
+			AND = {
+				tag = ENG
+				year = 1881
+				ENG = { is_sphere_leader_of = CAN }
+				OR = {
+					AND = {
+					NOT = {	has_country_modifier = navy_bonus_by_can1 }
+					NOT = {	has_country_flag = netop3 }
+					}
+					AND = {
+					NOT = {	has_country_flag = netop3 }
+					NOT = {	rank = 3 }
+				}
+			}
+		}
+			AND = {
+				tag = USA
+				year = 1881
+				USA = { is_sphere_leader_of = CAN }
+				OR = {
+					AND = {
+					NOT = {	has_country_modifier = nafta_usa }
+					NOT = {	has_country_flag = netop3 }
+					}
+					AND = {
+					NOT = {	rank = 3 }
+					NOT = {	has_country_flag = netop3 }
+					}
+				}
+			}
+			AND = {
+				tag = FRA
+				year = 1881
+				USA = { is_sphere_leader_of = CAN }
+				OR = {
+					AND = {
+					NOT = {	has_country_modifier = franafta_fra }
+					NOT = {	has_country_flag = netop3 }
+					}
+					AND = {
+					NOT = {	rank = 3 }
+					NOT = {	has_country_flag = netop3 }
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA101149" 
+		clr_country_flag = top3
+		clr_country_flag = bezsferu
+		set_country_flag = netop3
+		CAN = { remove_country_modifier = vbtop3 }
+	}
+	title = "EVTNAME101149"
+	desc = "EVTDESC101149"
+	picture = "Administration"
+}
+
+country_event = {	
+
+	id = 101156 #Убрать бонусы если не топ4
+	trigger = {
+		OR = {
+			AND = {
+				tag = ENG
+				year = 1881
+				ENG = { is_sphere_leader_of = CAN }
+				OR = {
+					AND = {
+					NOT = {	has_country_modifier = navy_bonus_by_can1 }
+					NOT = {	has_country_flag = netop4 }
+					}
+					AND = {
+					NOT = {	has_country_flag = netop4 }
+					NOT = {	rank = 4 }
+				}
+			}
+		}
+			AND = {
+				tag = USA
+				year = 1881
+				USA = { is_sphere_leader_of = CAN }
+				OR = {
+					AND = {
+					NOT = {	has_country_modifier = nafta_usa }
+					NOT = {	has_country_flag = netop4 }
+					}
+					AND = {
+					NOT = {	rank = 4 }
+					NOT = {	has_country_flag = netop4 }
+					}
+				}
+			}
+			AND = {
+				tag = FRA
+				year = 1881
+				USA = { is_sphere_leader_of = CAN }
+				OR = {
+					AND = {
+					NOT = {	has_country_modifier = franafta_fra }
+					NOT = {	has_country_flag = netop4 }
+					}
+					AND = {
+					NOT = {	rank = 4 }
+					NOT = {	has_country_flag = netop4 }
+					}
+				}
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTA101149" 
+		clr_country_flag = top4
+		clr_country_flag = bezsferu
+		set_country_flag = netop4
+		CAN = { remove_country_modifier = vbtop4 }
+	}
+	title = "EVTNAME101149"
+	desc = "EVTDESC101149"
+	picture = "Administration"
+}
+

@@ -1,0 +1,536 @@
+political_decisions = {
+	liberty_enlightening_the_world = {
+	picture = liberty_enlightening_the_world
+		potential = {
+			NOT = {
+				has_global_flag = statue_of_liberty_has_been_built
+			}
+			tag = FRA
+			exists = FRA
+			exists = USA
+			USA = {
+				government = democracy
+				owns = 232
+			}	
+		}
+		allow = {
+			cheap_iron = 1
+			ai = no
+		}
+		effect = {
+			set_global_flag = statue_of_liberty_has_been_built
+			any_pop = {
+				militancy = -2
+			}
+			USA = {
+				country_event = { id=19300 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					relation = {
+						who = USA
+						value = 50
+					}
+				}
+			}
+		}
+	}
+	support_french_foreign_legion = {
+	picture = support_french_foreign_legion
+		potential = {
+			tag = FRA
+			owns = 1700
+			has_country_flag = in_leg
+			NOT = {
+				has_country_flag = french_foreign_legion_supported
+			}
+		}
+		allow = {
+		year = 1850
+			army_decision_making = 1
+		}
+		effect = {
+			add_country_modifier = {
+				name = the_french_foreign_legion
+				duration = -1
+			}
+			set_country_flag = french_foreign_legion_supported
+			1700 = {add_province_modifier =
+{			name = migracia
+duration = 5000
+}
+			}
+			426 = {add_province_modifier =
+{			name = migracia
+duration = 5000
+}
+			}
+			429 = {add_province_modifier =
+{			name = migracia
+duration = 5000
+}
+			}
+		}
+	}
+	french_military_mission_to_japan = {
+	picture = french_military_mission_to_japan
+		potential = {
+			tag = FRA
+			exists = JAP
+			JAP = {
+				civilized = yes
+			}
+			NOT = {
+				has_country_flag = military_mission_in_japan
+			}
+		}
+		allow = {
+			naval_plans = 1
+			relation = {
+				who = JAP
+				value = 120
+			}
+		}
+		effect = {
+			relation = {
+				who = JAP
+				value = 40
+			}
+			JAP = {
+				years_of_research = 0.5
+			}
+			prestige = 20
+			set_country_flag = military_mission_in_japan
+		}
+	}
+	palais_garnier = {
+	picture = palais_garnier
+		potential = {
+			NOT = {
+				has_country_flag = palais_garnier_built
+			}
+			tag = FRA
+			owns = 425
+		}
+		allow = {
+			expressionism = 1
+		}
+		effect = {
+			prestige = 40
+			set_country_flag = palais_garnier_built
+		}
+	}
+	the_lambert_charter = {
+	picture = the_lambert_charter
+		potential = {
+			NOT = {
+				has_country_flag = lambert_has_been_chartered
+			}
+			tag = FRA
+			exists = MAD
+		}
+		allow = {
+			is_greater_power = yes
+			MAD = {
+				civilized = no
+				OR = {
+					in_sphere = FRA
+					NOT = { part_of_sphere = yes }
+				}
+			}
+		}
+		effect = {
+			diplomatic_influence = {
+				who = MAD
+				value = 150
+			}
+			set_country_flag = lambert_has_been_chartered
+		}
+	}
+	end_the_merina_monarchy = {
+	picture = end_the_merina_monarchy
+		potential = {
+			OR = {
+				has_country_flag = lambert_has_been_chartered
+				MAD = {
+					in_sphere = FRA
+					civilized = no
+			}
+				}
+			NOT = {
+				has_country_flag = merina_monarchy_is_over
+			}
+			exists = MAD
+			tag = FRA
+		}
+		allow = {
+			MAD = {
+				in_sphere = FRA
+				war = no
+			}
+			invention = mission_to_civilize
+			invention = expansionism
+			war = no
+		}
+		effect = {
+			2115 = { add_core = FRA }
+			inherit = MAD
+			set_country_flag = merina_monarchy_is_over
+		}
+	}
+	brazzas_expedition = {
+	picture = brazzas_expedition
+		potential = {
+			tag = FRA
+			NOT = {
+				has_global_flag = brazzaville_formed
+			}
+		}
+		allow = {
+		owns = 1978
+			invention = mission_to_civilize
+		}
+		effect = {
+			1977 = { life_rating = 20 }
+		        1977 =
+			{secede_province = FRA
+			trade_goods = coal}
+			1978 = { remove_core = CNG }
+			2624 = { remove_core = CNG }
+			prestige = 5
+			set_global_flag = brazzaville_formed
+		}
+	}
+	the_rhine_crisis = {
+	picture = left_bereg
+		potential = {
+			tag = FRA
+			OR={
+			exists = NGF
+			exists = PRU}
+			PRU = {
+				owns = 572
+				owns = 575
+			}
+			NOT = {
+				has_country_flag = crisis_on_the_rhine
+			}
+		}
+		allow = {
+			ideological_thought = 1
+		}
+		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = north_german
+						primary_culture = south_german
+					}
+				}
+				relation = {
+					who = THIS
+					value = -100
+				}
+			}
+			casus_belli = {	
+				target = PRU
+				type = acquire_state
+				months = 60
+			}
+			prestige = 10
+			set_country_flag = crisis_on_the_rhine
+			397 = {assimilate = yes}
+			410 = {assimilate = yes}
+			409 = {assimilate = yes}
+			412 = {assimilate = yes}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					badboy = 0.5
+				}
+			}
+		}
+	}
+	build_the_eiffel_tower = {
+	picture = build_the_eiffel_tower
+		potential = {
+			tag = FRA
+			NOT = {
+				has_country_flag = the_eiffel_tower_was_built
+			}
+		}
+		allow = {
+			FRA = { rank = 1 }
+			cheap_steel = 1
+		}
+		effect = {
+			425 = {
+				add_province_modifier = {
+					name = the_eiffel_tower
+					duration = -1
+				}
+			}
+			prestige = 20
+			set_country_flag = the_eiffel_tower_was_built
+		}
+	}
+	haussmanns_renovations = {
+	picture = haussmanns_renovations
+		potential = {
+			tag = FRA
+			owns = 425
+			NOT = {
+				has_country_flag = extreme_home_makeover
+			}
+			OR = {
+				realism = 1
+				early_railroad = 1
+			}
+		}
+		allow = {
+			impressionism = 1
+			iron_railroad = 1
+			business_banks = 1
+		}
+		effect = {
+			425 = {
+				life_rating = 5
+			}
+			prestige = 10
+			set_country_flag = extreme_home_makeover
+		}
+	}
+   corki_savoia = {
+        picture = annals_of_the_fulani_jihad
+        potential = {
+			NOT = {
+            has_country_flag = savoia
+            }
+            tag = FRA
+			465 = {
+        owned_by =ITA
+        }
+        466 = {
+        owned_by =ITA
+		}
+		ai = no
+		}
+        allow = {
+		year = 1841
+		465 = {
+        owned_by =ITA
+        }
+        466 = {
+        owned_by =ITA
+		}
+       }
+        effect = {
+		set_country_flag = savoia
+		465 = {
+		add_core = FRA
+		remove_core = ITA
+		}
+		466 = {
+		add_core = FRA
+		remove_core = ITA
+		}
+		472 = {
+		add_core = FRA
+		remove_core = ITA
+		}
+			badboy = 4
+            }
+        }
+	alg_dakar_start = {
+        picture = annals_of_the_fulani_jihad
+        potential = {
+			NOT = {
+            has_country_flag = road_started
+            }
+            tag = FRA
+		}
+        allow = {
+		year = 1855
+		 1784= {
+		 owned_by =FRA
+		 }
+		 1700= {
+		 owned_by =FRA
+		 }
+		 1705= {
+		 owned_by =FRA
+		 }
+		 early_railroad = 1
+		 raider_group_doctrine = 1
+       }
+        effect = {
+		set_country_flag = road_started
+		1783 = {
+           secede_province = FRA
+		 }
+		 2573 = {
+           secede_province = FRA
+		 }
+		 1778 = {
+           secede_province = FRA
+		 }
+		FRA_1700 = {
+		 remove_core = ALD
+		 }
+            }
+        }
+	alg_dakar_route = {
+        picture = annals_of_the_fulani_jihad
+        potential = {
+			NOT = {
+            has_country_flag = road_route_change
+            }
+            tag = FRA
+			not = {
+		  1714= {
+		 owned_by =FRA
+		 }
+		 }
+		  1803= {
+		 owned_by =FRA
+		 }
+		  1718= {
+		 owned_by =FRA
+		 }
+		  1780= {
+		 owned_by =FRA
+		 }
+		  1778= {
+		 owned_by =FRA
+		 }
+		  1784= {
+		 owned_by =FRA
+		 }
+		  1700= {
+		 owned_by =FRA
+		 }
+		  1705= {
+		 owned_by =FRA
+		 }
+		 or = {
+		 has_country_flag = konst_route
+		 has_country_flag = tlem_route}
+		}
+        allow = {
+		  money = 500000
+		  year = 1875
+       }
+        effect = {
+		set_country_flag = road_route_change
+		money = -500000
+		   prestige = -5
+		  	1806 = { life_rating = 25 }
+				1722 = { life_rating = 25 }
+					1718 = { life_rating = 25 }
+						1719 = { life_rating = 25 }
+            }
+        }
+		alg_dakar_finish = {
+        picture = annals_of_the_fulani_jihad
+        potential = {
+			NOT = {
+            has_country_flag = road_finished
+            }
+			has_country_flag = road_finish_line
+            tag = FRA
+		}
+        allow = {
+		year = 1880
+       }
+        effect = {
+		set_country_flag = road_finished
+		prestige = 30
+		 1783 = { life_rating = 25 }
+		 2573 = { life_rating = 25 }
+		 1778 = { life_rating = 25 }
+		 ALD_1704 = {remove_core = ALD}
+		 ALD_1708 = {remove_core = ALD}
+		 add_country_modifier = {
+		 name = alg_dakar_roaad
+		 duration = -1
+		 }
+            }
+        }
+	french_vietnam = {
+	picture = brazzas_expedition
+		potential = {
+			tag = FRA
+			NOT = {
+				has_country_flag = vietnam_is_french
+			}
+		}
+		allow = {
+		owns = 1369
+		owns = 1376
+		owns = 1380
+		owns = 1366
+		}
+		effect = {
+			prestige = 50
+			add_country_modifier = {
+			name = french_indochina
+			duration = -1
+		 }
+			set_country_flag = vietnam_is_french
+		}
+	}
+	french_ultimatum_eng = {
+	picture = brazzas_expedition
+		potential = {
+			tag = FRA
+			NOT = {
+				has_country_flag = french_ultimatum_eng
+			}
+		}
+		allow = {
+		year = 1900
+		ENG = { rank = 1 }
+		FRA = { rank = 4 }
+		}
+		effect = {
+			419 = { secede_province = FRA 
+			remove_core = ENG 
+			add_core = FRA }
+			FRA = { prestige = 100 }
+			ENG = { prestige = -100 }
+			FRA = {
+			add_casus_belli = {
+			target = ENG
+				type = humiliate
+				months = 36
+			}
+		}
+		set_country_flag = french_ultimatum_eng
+		 }
+	}
+	restore_alsace = {
+	picture = restore_alsace
+		potential = {
+			tag = FRA
+			has_global_flag = germany_has_renamed_elsass
+			owns = 410
+			owns = 409
+			owns = 412
+		}
+		allow = {
+			prestige = 10
+		}
+		effect = {
+			prestige = 10
+			clr_global_flag = germany_has_renamed_elsass
+		}
+	}
+}
+

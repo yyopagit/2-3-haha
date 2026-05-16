@@ -1,0 +1,356 @@
+#Panama Region (128000)
+#Ruled by Colombia 1836
+#Balboa (12000/3000 POPS)
+1723 = {
+	aristocrats = {
+		culture = central_american
+		religion = orthodox
+		size = 1000
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = central_american
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = central_american
+		religion = orthodox
+		size = 45500
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 5000
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 1200
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 66500
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 25000
+	}
+}
+
+#Panama City (52000/13000 POPS)
+2204 = {
+	aristocrats = {
+		culture = central_american
+		religion = orthodox
+		size = 1250
+	}
+
+	bureaucrats = {
+		culture = central_american
+		religion = orthodox
+		size = 250
+	}
+
+	officers = {
+		culture = central_american
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = central_american
+		religion = orthodox
+		size = 4500
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = central_american
+		religion = orthodox
+		size = 60500
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 20750
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 11000
+	}
+}
+#David (28000/7000 POPS)
+2205 = {
+	aristocrats = {
+		culture = central_american
+		religion = orthodox
+		size = 1500
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = central_american
+		religion = orthodox
+		size = 3000
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = orthodox
+		size = 750
+	}
+
+	farmers = {
+		culture = central_american
+		religion = orthodox
+		size = 53750
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 200
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 6700
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 2500
+	}
+}
+#Penonome (24000/6000 POPS)
+2206 = {
+	aristocrats = {
+		culture = central_american
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = central_american
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = central_american
+		religion = orthodox
+		size = 4500
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 20
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 50
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 10
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 670
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 250
+	}
+}
+#Yaviza (12000/3000 POPS)
+2208 = {
+	aristocrats = {
+		culture = central_american
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = central_american
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = central_american
+		religion = orthodox
+		size = 18950
+	}
+
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 18950
+	}
+
+	aristocrats = {
+		culture = native_american_minor
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = orthodox
+		size = 19000
+	}
+
+}

@@ -1,0 +1,1556 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+#-------------------------------------------------------ВЕЛИКОБРИТАНИЯ АНГЛИЯ ВБ-------------------------------------------------------
+Tea_need = {
+	farm_RGO_eff = 2
+}
+corn_laws_repealed = {
+	max_tariff = -0.05
+	#max_tax = -0.05
+	global_pop_militancy_modifier = -0.02
+	global_pop_consciousness_modifier = 0.01
+	icon = 1
+}
+
+the_yard = {
+	tax_efficiency = 0.05
+	icon = 1
+} 
+# JOH_DEV = {
+# 	mine_RGO_eff = 10
+# }
+Investicii_v_Ceylon = {
+	tax_efficiency = -0.02
+	icon = 1
+}
+a_nation_of_shopkeepers = {
+    tax_efficiency = 0.02
+}
+uk_navy_tradition = {
+    local_ship_build = -0.20
+}
+uk_navy_tradition1 = {
+
+}
+#-------------------------------------------------------ГЕРМАНИЯ-------------------------------------------------------
+DP_BUFF1 = {
+farm_RGO_size = 0.5
+mine_RGO_size = 1
+}
+DP_BUFF2 = {
+farm_RGO_size = 0.5
+mine_RGO_size = 0.5
+}
+germania_werft = {
+	local_repair = 0.5
+	local_ship_build = -0.2
+	icon = 15
+}
+
+ruhr_boom = {
+	factory_owner_cost = -0.40
+	global_population_growth = 0.002
+	factory_throughput = 0.10
+	icon = 11
+}
+
+prussian_general_staff = {
+	badboy = -0.1
+	org_regain = 0.1
+	land_organisation = 0.10
+	land_unit_start_experience = 10
+	supply_consumption = -0.5
+	icon = 15
+}
+the_walhalla = {
+	prestige = 0.25
+	icon = 15
+}
+#-------------------------------------------------------ЮСА---------------- #pekorskaya xueta
+motor_city_work_1 = {
+    factory_throughput = 0.05     #Pekora pomenyesh i ya tebe nassu v rot
+    factory_output = 0.05
+    icon = 13
+}
+motor_city_work_2 = {
+    land_unit_start_experience = 5
+    icon = 15
+}
+usafabrics = {
+	factory_throughput = 0.10
+	factory_owner_cost = -0.50
+}
+# american_business = {
+# 	
+# }
+migracia = {
+	immigrant_attract = 10        #300%
+	life_rating = 0.5
+}
+miskatonic_campus = {
+	research_points_modifier = 0.1
+	pop_consciousness_modifier = 0.01
+	icon = 5
+}
+the_homestead_act = {
+	global_immigrant_attract = 0.50	#75%
+	#global_assimilation_rate = 0.5
+	icon = 9
+}
+the_slavery_debate = {
+	global_pop_consciousness_modifier = 0.05
+	icon = 4
+}
+sanction_on_jap = {
+	factory_input = -0.2
+	icon = 10
+}
+#-------------------------------------------------------РАШКА РОССИЯ-------------------------------------------------------
+Transib = {
+farm_RGO_eff = 0.25
+mine_RGO_eff = 0.25
+}
+Vladivostok = {
+ immigrant_attract = 3        #300%
+ life_rating = 0.5
+}
+lacking_industialization = {
+	factory_cost = 1
+	factory_owner_cost = 0.2
+}
+european_gendarme = {
+	leadership_modifier = 0.10
+	badboy = 0.01
+	prestige = 0.25
+	max_tariff = 0.05
+}
+financial_crisis = {
+	max_tariff = -0.15
+	max_tax = -0.05
+}
+education_problem = {
+	education_efficiency_modifier = -0.20
+}
+protector_of_eastern_christendom = {
+	prestige = 1.0
+	icon = 17
+}
+xai_jive_polska = {
+	war_exhaustion = -0.15
+}
+#-------------------------------------------------------ФРАНЦИЯ-------------------------------------------------------
+the_french_foreign_legion = {
+	prestige = 0.1
+	land_organisation = 0.02
+	leadership_modifier = 0.10
+	icon = 17
+}
+the_eiffel_tower = {
+	prestige = 0.25
+	icon = 15
+}
+french_indochina = {
+	tax_efficiency = 0.05
+	icon = 17
+}
+alg_dakar_roaad = {
+ industry_tech_research_bonus = 0.1
+  mine_rgo_eff = 0.1
+}
+the_statue_of_liberty = {
+	prestige = 1
+	global_immigrant_attract = 0.35	#35%
+	icon = 15
+}
+#-------------------------------------------------------ИТАЛИЯ-------------------------------------------------------
+fiat_corp_work_1 = {
+	factory_throughput = 0.05
+	factory_output = 0.05
+	icon = 13
+}
+fiat_corp_work_2 = {
+	land_unit_start_experience = 5
+	icon = 15
+}
+tunis_yes = {
+	immigrant_attract = 1
+	life_rating = 0.5
+	icon = 1
+}
+djibuti = {
+	assimilation_rate = 0.5
+}
+#-------------------------------------------------------ИСПАНИЯ-------------------------------------------------------
+Great_agan = {
+tax_efficiency = 0.02
+factory_input = -0.02
+badboy = -0.02
+icon = 9
+}
+# Great_agan2 = {
+# }
+spa23 = {
+icon = 9
+}
+
+la_guardia_civil = {
+	land_unit_start_experience = 10
+	tax_efficiency = 0.03
+	icon = 1
+}
+#-------------------------------------------------------ТУРЦИЯ-------------------------------------------------------
+investiments_yes = {
+	icon = 13
+}
+tur_war_warfare_army = {
+	land_organisation = 0.10
+	naval_organisation = -0.05
+	icon = 15
+}
+tur_war_warfare_navy = {
+	naval_organisation = 0.10
+	land_organisation = -0.05
+	icon = 15
+}
+tur_war_industry = {
+	local_factory_output = 0.03
+	local_RGO_output = 0.03
+}
+tur_war_industry_all = {
+	factory_output = 0.04
+	factory_throughput = 0.04
+	factory_input = -0.02
+}
+culture_tur_boost = {
+	culture_tech_research_bonus = 0.1
+}
+#-------------------------------------------------------ВИЗАНТИЯ-------------------------------------------------------
+BYZ_ap = {
+	navy_tech_research_bonus = 0.05
+	commerce_tech_research_bonus = 0.05
+}
+
+BYZ_great = {
+	org_regain = 0.2
+	land_organisation = 0.20
+	land_unit_start_experience = 20
+}
+BYZ_life = {
+	global_population_growth = 0.001
+	research_points_modifier = 0.25
+}
+BYZ_Constan = {
+	local_factory_throughput = 0.05
+	population_growth = 0.003
+	local_RGO_output = 0.25
+	immigrant_attract = 0.25
+	icon = 9
+}
+BYZ_tax = {
+	tax_efficiency = -0.10
+}
+BYZ_Happy = {
+	local_factory_throughput = 0.05
+	population_growth = 0.001
+	local_RGO_output = 0.35
+	immigrant_attract = 0.25
+	icon = 9
+}
+BYZ_MON_war = {
+	global_pop_militancy_modifier = -0.2
+	global_pop_consciousness_modifier = 0.2
+}
+
+#-------------------------------------------------------ЯПОНИЯ-------------------------------------------------------
+japan_werft = {
+	local_repair = 0.5
+	local_ship_build = -0.2
+	icon = 15
+}
+fast_manchu = {
+	tax_efficiency = 0.01
+	factory_throughput = 0.03
+	icon = 5
+}
+not_fast_manchu = {
+	factory_output = 0.03
+	icon = 5
+}
+korea_yes = {
+	tax_efficiency = 0.02
+	icon = 9
+}
+toyota_corp_work = {
+	factory_throughput = 0.02
+	icon = 11
+}
+mitsubishi_corp_work = {
+	land_organisation = 0.05
+	icon = 11
+}
+
+jap_banzai_end = {
+	prestige = 0.25
+	cb_generation_speed_modifier = 0.1
+	#global_assimilation_rate = 0.5
+	naval_organisation = 0.1
+	icon = 1
+}
+ meiji_restoration_boost = {
+	prestige = 0.25
+	research_points_modifier = 0.25
+	education_efficiency_modifier = 0.25
+	icon = 5
+}
+#-------------------------------------------------------ПЕРСИЯ-------------------------------------------------------
+silver_age = {
+ tax_efficiency = 0.05
+ diplomatic_points_modifier = 0.2
+ research_points_modifier = 0.1
+ icon = 17
+}
+dar_al_funun = {
+	research_points_modifier = 0.5
+	icon = 5
+}
+#-------------------------------------------------------МЕКСИКА-------------------------------------------------------
+natsionalnoe_edinstvo = {
+    prestige = 0.75
+    land_organisation = 0.1
+    land_unit_start_experience = 10 
+    reinforce_speed = 0.1
+    icon = 15
+}
+mex_no_migracia = {
+    tax_efficiency = 0.10
+    global_population_growth = 0.0025
+    war_exhaustion = -0.1
+    factory_input = -0.1
+    icon = 15
+}
+mex_migracia = {
+ prestige = 0.25
+    education_efficiency_modifier = 0.10
+    global_immigrant_attract = 0.30
+    icon = 15
+}
+big_mex = {
+tax_efficiency = 0.06
+farm_rgo_eff = 0.1
+mine_rgo_eff = 0.1
+land_organisation = 0.10
+land_unit_start_experience = 10
+leadership_modifier = 0.10
+}
+#-------------------------------------------------------БРАЗИЛИЯ-------------------------------------------------------
+colonial_race = {
+  prestige = 0.25
+  #global_assimilation_rate = 0.5
+}
+statue_bra2 = {
+  loan_interest = -0.5
+  war_exhaustion = -0.5
+  icon = 15
+}
+statue_bra = {
+   global_immigrant_attract = 0.5
+   poor_life_needs = -0.1
+   naval_unit_start_experience = 10
+   naval_organisation = 0.1
+  icon = 15
+}
+big_brz = {
+tax_efficiency = 0.06
+farm_rgo_eff = 0.1
+mine_rgo_eff = 0.1
+land_organisation = 0.10
+land_unit_start_experience = 10
+leadership_modifier = 0.10
+}
+migration_brz = {
+	immigrant_attract = 3
+	life_rating = 0.1
+	icon = 1
+}
+# railroads_cd = {
+#
+# }
+migration_cd = {
+
+}
+#-------------------------------------------------------АВСТРИЯ-------------------------------------------------------
+bonus5_1 = {
+ global_pop_militancy_modifier = -0.01
+ global_pop_consciousness_modifier = -0.01
+}
+bonus5_2 = {
+  research_points_modifier = 0.05
+  global_pop_militancy_modifier = 0.02
+  badboy = -0.01
+}
+bonus5_3 = {
+  education_efficiency_modifier = 0.1
+  badboy = -0.02
+   
+}
+bohemia_buff = {
+  mine_rgo_eff = 0.05
+  immigrant_push = -0.2
+}
+tough_choice_made = {
+
+}
+#-------------------------------------------------------ИНДИЯ-------------------------------------------------------
+obrazovanue_for_India1 = {
+education_efficiency_modifier = 0.1
+}
+obrazovanue_for_India2 = {
+education_efficiency_modifier = 0.1
+}
+obrazovanue_for_India3 = {
+education_efficiency_modifier = 0.1
+}
+obrazovanue_for_India4 = {
+education_efficiency_modifier = 0.1
+}
+India = {
+education_efficiency_modifier = -0.5
+}
+famine_la_india = {
+	tax_efficiency = -0.1
+	global_population_growth = -0.004
+}
+famine_war = {
+	local_RGO_output = 0.02
+}
+famine_war_first_step = {
+	tax_efficiency = -0.08
+	global_population_growth = -0.003
+}
+famine_war_second_step = {
+	tax_efficiency = -0.05
+	global_population_growth = -0.002
+}
+famine_war_third_step = {
+	tax_efficiency = -0.02
+	global_population_growth = -0.001
+}
+famine_war_end = {
+	tax_efficiency = 0.01
+}
+#-------------------------------------------------------ИНДИЯ В СФЕРЕ-------------------------------------------------------
+gudbay_eng2 = {
+ farm_RGO_eff = -0.1
+ mine_RGO_eff = -0.1
+}	
+gudbay_eng1 = {
+global_population_growth = 0.001
+}
+integratia_boic_v_eng = {
+factory_output = -0.10
+ farm_RGO_eff = 0.3
+ mine_RGO_eff = 0.1
+}
+inzeneri_eng_v_boic = {
+mine_RGO_eff = 0.25
+}
+opit_v_boic_ot_eng = {
+global_population_growth = -0.001
+education_efficiency_modifier = 0.25
+research_points_modifier = 0.25
+}
+Help_from_England = {
+tax_efficiency = 0.03
+ education_efficiency_modifier = 0.1
+ badboy = -0.02
+}
+Help_from_England2 = {
+tax_efficiency = 0.06
+ #global_pop_consciousness_modifier = 0.1
+ education_efficiency_modifier = 0.2
+ badboy = -0.04
+}
+Protectorate_over_India = {
+ tax_efficiency = 0.03
+ factory_throughput = 0.1
+ supply_consumption = -0.25
+ farm_RGO_eff = 0.20
+ mine_RGO_eff = 0.20
+ global_population_growth = 0.001
+}
+Protectorate_over_India2 = {
+ tax_efficiency = 0.06
+ factory_throughput = 0.20
+ supply_consumption = -0.5
+ farm_RGO_eff = 0.40
+ mine_RGO_eff = 0.40
+ global_population_growth = 0.002
+}
+Protectorate_over_India_Paints = {
+factory_output = 0.03
+}
+Protectorate_over_India_Hlopock = {
+ factory_input = -0.03
+}
+Protectorate_over_India_Rubber = {
+factory_input = -0.01
+}
+#-------------------------------------------------------СКАНДИНАВИЯ-------------------------------------------------------
+folkis_educates = {
+	research_points_modifier = 0.10
+	icon = 5
+}
+motala_verkstad = {
+	local_factory_throughput = 0.05
+	icon = 13
+}
+bonuses = {
+	mine_rgo_eff = 0.25
+	farm_rgo_eff = 0.25
+}
+sca_ruhr_boom = {
+	factory_owner_cost = -0.40
+	global_population_growth = 0.005
+	factory_throughput = 0.10
+	icon = 11
+}
+ikea_buff = {
+    factory_input = -0.02
+    factory_throughput = 0.10
+}
+#-------------------------------------------------------СФЕРЫ НИДОВ И СКАНДЫ(сфера)-------------------------------------------------------
+jopa_podsosa = { # тот кто взял Ниды в сферу
+	tax_efficiency = 0.04
+	factory_throughput = 0.1
+	factory_input = -0.05
+}
+podsos = { # так же бонус который получает ниды
+	tax_efficiency = 0.07
+	supply_consumption = -0.5
+}
+podsos1 = { #ger бонус который сейчас получает ниды
+	factory_owner_cost = -0.25
+	farm_RGO_eff = 0.25
+	mine_RGO_eff = 0.25
+	factory_throughput = 0.05
+	#land_unit_start_experience = 30
+}
+podsos2 = { #fra
+mobilisation_size = 0.015
+farm_RGO_eff = 0.5
+mine_RGO_eff = 0.5
+}
+podsos3 = { #eng
+tax_efficiency = 0.08
+education_efficiency_modifier = 0.10
+factory_input = -0.05
+supply_consumption = -0.15
+}
+jopa_podsosa2 = { # тот кто взял Сканду в сферу
+	tax_efficiency = 0.05
+	badboy = -0.04
+	research_points_modifier = 0.25
+	education_efficiency_modifier = 0.1
+}
+podsos4 = { # так же бонус который получает сканда
+	tax_efficiency = 0.07
+	global_immigrant_attract = 0.25
+}
+podsos5 = { #ger бонус который сейчас получает сканда
+	land_unit_start_experience = 30
+	leadership_modifier = 0.1
+	#rich_life_needs = -0.12
+	farm_RGO_eff = 0.25
+	mine_RGO_eff = 0.25
+	mobilisation_size = 0.01
+}
+podsos6 = { #rus
+prestige = 0.25
+mobilisation_size = 0.01
+education_efficiency_modifier = 0.25
+}
+podsos7 = { #eng
+tax_efficiency = 0.1
+factory_input = -0.05
+supply_consumption = -0.3
+}
+# iron_sca = {
+# mine_RGO_eff = 1
+# mine_RGO_size = 0.5
+# }
+# iron_ger = {
+# mine_RGO_eff = -0.2
+# }
+#-------------------------------------------------------Арабия-------------------------------------------------------
+arab_tech_school = {
+ diplomatic_points_modifier = 0.2
+ leadership_modifier = 0.2
+	icon = 9
+}
+muhammad_alis_reforms = {
+	research_points_modifier = 0.5
+	pop_consciousness_modifier = 0.05
+	icon = 5
+}
+#-------------------------------------------------------КАНАДА И ЮАР-------------------------------------------------------
+# navy_bonus_by_can = {
+#     local_ship_build = -0.01
+# }
+navy_bonus_by_can1 = {
+    factory_output = 0.05
+    tax_efficiency = 0.08
+		icon = 6
+}
+# navy_bonus_by_saf = {
+#     local_ship_build = -0.01
+# }
+navy_bonus_by_saf1 = {
+    factory_output = 0.05
+    tax_efficiency = 0.08
+		icon = 6
+}
+# rgo_by_governor_general_farm = {
+#     farm_rgo_eff = 0.30
+# }
+# rgo_by_governor_general_mine = {
+#     mine_rgo_eff = 0.30
+# }
+cd_canadian_governor_generals_rights = {
+
+}
+cd_sa_governor_generals_rights = {
+
+}
+british_helping_in_colonisation = {
+
+}
+super_conquest =  {
+
+}
+peacefull_conquest = {
+
+}
+super_conquest1 = {
+    farm_rgo_eff = -0.10
+    mine_rgo_eff = -0.10
+}
+peacefull_conquest1 = {
+    farm_rgo_eff = 0.15
+    mine_rgo_eff = 0.15
+}
+can_buff = {
+    global_population_growth = 0.004
+    tax_efficiency = 0.10
+} 
+saf_buff = {
+    tax_efficiency = 0.10
+    global_population_growth = 0.002
+}
+assimilation_cd = {
+	 assimilation_rate = 0.25
+}
+CD_GG = {
+
+}
+vbtop1 = {
+ global_immigrant_attract = 0.2
+}
+vbtop2 = {
+ global_immigrant_attract = 0.15
+}
+vbtop3 = {
+ global_immigrant_attract = 0.10
+}
+vbtop4 = {
+ global_immigrant_attract = 0.05
+}
+can_buff2 = {
+	global_immigrant_attract = 0.05
+}
+
+force_reform_modifier = {
+
+}
+force_reform_cooldown_modifier = {
+
+}
+can_cd = { #кд покупки Австралии
+
+}
+migracia_can = {
+	immigrant_attract = 3        #300%
+	population_growth = 0.001
+}
+#-------------------------------------------------------БАФЫ РЕГИОНА#-------------------------------------------------------
+Investicii_v_region = {
+tax_efficiency = -0.1
+icon = 9
+}
+poderzka_regiona = {
+tax_efficiency = -0.05
+icon = 9
+}
+krestianka_otmena = {
+tax_efficiency = -0.05
+icon = 9
+}
+Investicii_v_region1 = {
+local_factory_throughput = 0.1
+population_growth = 0.001
+local_RGO_output  = 0.10
+immigrant_attract = 0.5
+icon = 9
+}
+poderzka_regiona1 = {
+local_factory_throughput = 0.05
+population_growth = 0.001
+local_RGO_output = 0.05
+immigrant_attract = 0.25
+icon = 9
+}
+#-------------------------------------------------------ПРОЛИВЫ-------------------------------------------------------
+suez = { 
+tax_efficiency = 0.04
+ }
+joint_suez = { 
+tax_efficiency = 0.04
+ }
+joint_suezs = {
+ }
+joint_suezd = {
+ }
+panama = { 
+tax_efficiency = 0.04
+ }
+kiel = { 
+tax_efficiency = 0.02
+ }
+stambul = { 
+tax_efficiency = 0.02
+ }
+kopengagen = {
+tax_efficiency = 0.02
+ }
+# aden = {
+# tax_efficiency = 0.02
+#  }
+# gibraltar = {
+# tax_efficiency = 0.02
+#  }
+# pers = {
+# tax_efficiency = 0.02
+#  }
+singopur = {
+tax_efficiency = 0.02
+ }
+# otranto = {
+# tax_efficiency = 0.02
+#  }
+elisabeth = {
+commerce_tech_research_bonus = 0.15
+}
+jopa_safa = {
+tax_efficiency = 0.03
+}
+adriatic = {
+tax_efficiency = 0.04
+}
+yucatan = {
+tax_efficiency = 0.01
+ }
+florida = {
+tax_efficiency = 0.01
+ }
+florida2 = {
+tax_efficiency = 0.01
+ }
+
+#-------------------------------------------------------ТОРГОВЫЕ ТОЧКИ-------------------------------------------------------
+# krakovsk = {
+# tax_efficiency = 0.02
+# }
+tunisik = {
+tax_efficiency = 0.02
+ }
+finland = {
+tax_efficiency = 0.02
+ }
+pribaltika = {
+tax_efficiency = 0.02
+ }
+primorsk = {
+tax_efficiency = 0.02
+ }
+primorsk2 = {
+tax_efficiency = 0.02
+ }
+#-------------------------------------------------------ИНВЕСТИЦИИ-------------------------------------------------------
+# ne_trogat = {
+# }
+# rus_investiments = {
+# 	tax_efficiency = 0.02
+# 	farm_RGO_eff = 0.1
+#     	mine_RGO_eff = 0.1
+# }
+# usa_investiments = {
+# 	factory_output = -0.02
+# }
+# ger_investiments = {
+# 	land_organisation = 0.1
+# 	factory_throughput = 0.05
+# }
+# fra_investiments = {
+# 	factory_input = -0.02
+# 	education_efficiency_modifier = 0.10
+# }
+# eng_investments = {
+# 	factory_output = 0.05
+# 	naval_organisation = 0.15
+# }
+# cost_of_inv_1 = {
+# 	factory_output = -0.02
+# }
+# cost_of_inv_2 = {
+# 	factory_output = -0.02
+# }
+# cost_of_inv_3 = {
+# 	factory_output = -0.02
+# }
+cost_of_inv_4 = {
+factory_output = -0.02
+}
+# cost_of_inv_5 = {
+# global_pop_consciousness_modifier = -0.01
+# }
+#-------------------------------------------------------МЕДЫ/МЕДИЦИНА-------------------------------------------------------
+med_ref_mp = {
+ global_population_growth = 0.001
+ tax_efficiency = -0.04
+	icon = 17
+}
+med_ref_mp1 = {
+ global_population_growth = 0.002
+ tax_efficiency = -0.07
+	icon = 17
+}
+med_ref_mp2 = {
+ global_population_growth = 0.003
+ tax_efficiency = -0.10
+	icon = 17
+}
+med_ref_mp3 = {
+ global_population_growth = 0.004
+ tax_efficiency = -0.14
+	icon = 17
+}
+med_ref_mp4 = {
+ global_population_growth = 0.005
+tax_efficiency = -0.20
+	icon = 17
+}
+med_ref_mp5 = {
+ global_population_growth = 0.007
+ tax_efficiency = -0.25
+	icon = 17
+}
+#-------------------------------------------------------ФОРМЫ ПРАВЛЕНИЯ-------------------------------------------------------
+republic_a = {
+	badboy = -0.1
+	supply_consumption = -0.5
+	war_exhaustion = -1.0
+	icon = 2
+}
+republic_b = {
+	tax_efficiency = 0.06
+	badboy = 0.05
+	mine_rgo_eff = 0.2
+	farm_rgo_eff = 0.2
+    global_assimilation_rate = 0.20
+	poor_everyday_needs = -0.20
+	factory_output = 0.10
+	global_immigrant_attract = 0.20
+	icon = 5
+}
+comunist_a = {
+	tax_efficiency = -0.05
+	badboy = -0.2
+	cb_generation_speed_modifier = 0.25
+	mine_rgo_eff = -0.25
+	farm_rgo_eff = -0.25
+	supply_consumption = -0.5
+	factory_throughput = -0.05
+	war_exhaustion = -0.3
+	land_unit_start_experience = 10
+	org_regain = 0.10
+	land_organisation = 0.10	
+	icon = 2
+}
+comunist_b = {
+	tax_efficiency = 0.03
+	badboy = 0.05
+	mine_rgo_eff = 0.1
+	farm_rgo_eff = 0.1
+    global_assimilation_rate = 0.10
+	poor_everyday_needs = -0.10
+	factory_output = 0.05
+	war_exhaustion = -0.5
+	global_immigrant_attract = 0.10
+	icon = 5
+}
+fashist_a = {
+	tax_efficiency = -0.10
+	badboy = -0.3
+	cb_generation_speed_modifier = 0.5
+	mine_rgo_eff = -0.5
+	farm_rgo_eff = -0.5
+	supply_consumption = -1
+	factory_throughput = -0.1
+	war_exhaustion = -0.5
+	land_unit_start_experience = 20
+	org_regain = 0.2
+	land_organisation = 0.2
+	poor_everyday_needs = 0.20
+	icon = 2
+	
+}
+fashist_b = {
+	tax_efficiency = 0.05
+	badboy = -0.1
+	cb_generation_speed_modifier = 0.5
+	factory_throughput = 0.1
+	factory_output = 0.1
+	factory_owner_cost = -1.0
+	war_exhaustion = -1
+	icon = 5
+}
+# эти для буржуазной диктатуры
+bourgeois_a = {
+     
+    org_regain = 0.05
+    land_unit_start_experience = 5
+    global_pop_militancy_modifier = -10
+	war_exhaustion = -0.5
+    factory_input = -0.1
+    factory_output = 0.1
+    factory_throughput = 0.1
+    mine_rgo_eff = 0.15
+    farm_rgo_eff = 0.15
+    icon = 2
+}
+bourgeois_b = {
+    badboy = 0.1
+    factory_input = -0.1
+    factory_output = 0.1
+    factory_throughput = 0.1
+    mine_rgo_eff = 0.15
+    farm_rgo_eff = 0.15
+    global_pop_militancy_modifier = -10
+    icon = 5
+}
+#-------------------------------------------------------РАСКОПКИ-------------------------------------------------------
+meshaem_kopat = {
+tax_efficiency = -0.05
+}
+raskopka = {
+
+}
+#-------------------------------------------------------НЕФТЯНАЯ КОМПАНИЯ-------------------------------------------------------
+oil_drill = {
+mine_RGO_size = 0.4
+mine_RGO_eff = 0.4
+}
+oil_migracia = {
+immigrant_attract = 3
+life_rating = 0.3
+}
+
+war_test_attack = {
+  land_unit_start_experience = 20
+  org_regain = 0.5
+}
+war_test_def = {             		
+  supply_consumption = -3	
+  factory_output = 1
+}
+
+fuel_boost = {
+  mine_rgo_eff = 0.05
+}
+#-------------------------------------------------------СФЕРА КАНАДЫ С ЮСОЙ ИЛИ ФРА-------------------------------------------------------
+nafta_can = {
+	global_population_growth = 0.004
+	rich_life_needs = -0.1
+	middle_life_needs = -0.1
+	poor_life_needs = -0.1
+	rich_everyday_needs = -0.1
+	middle_everyday_needs = -0.1
+	poor_everyday_needs = -0.1
+	global_immigrant_attract = 0.10
+	tax_efficiency = 0.05
+	mine_rgo_eff = 0.50
+
+}	
+nafta_usa = {	
+	tax_efficiency = 0.05
+	factory_input = -0.05
+	factory_owner_cost = -0.40
+}
+franafta_can = {
+	research_points_modifier = 0.5
+	global_population_growth = 0.008
+	tax_efficiency = 0.05
+	mobilisation_size = 0.01
+	org_regain = 0.1
+	land_organisation = 0.1
+	land_unit_start_experience = 10
+}	
+franafta_fra = {	
+	global_immigrant_attract = 0.05
+	tax_efficiency = 0.05
+	prestige = 5
+	factory_throughput = 0.10
+}
+
+#-------------------------------------------------------ИЗМЕНЕНИЕ ФОРМЫ ПРАВЛЕНИЯ-------------------------------------------------------
+gov_changed = {	
+	tax_efficiency = -0.02
+	global_pop_militancy_modifier = -0.01
+}
+#-------------------------------------------------------ИВЕНТЫ ЯН-МАЙЕНА-------------------------------------------------------
+grant_request_cooldown_modifier = {
+	icon = 20
+}
+#-------------------------------------------------------БАФФ ДЛЯ ИИ (событие 1206)-------------------------------------------------------
+ai_buff = {
+	icon = 17
+}
+mcl_happened_modifier = {
+
+}
+capital_supply_depot_pmodifier = {
+		max_attrition = -100
+		icon = 17
+	}	 
+	
+#-------------------------------------------------------ОПЫТ АРМИИ + БАФФ НА ФАБРИКИ + ИЗМЕНЕНИЕ МАКСИМАЛЬНОГО КОЛИЧЕСТВА СОЛДАТ + ОБРАЗОВАНИЕ-------------------------------------------------------
+exp = {
+	land_unit_start_experience = 10
+	naval_unit_start_experience = 10
+}
+fabrics = {
+	factory_owner_cost = -0.20
+}
+army_changed = {
+	leadership_modifier = 0.15
+	mobilisation_size = -0.06
+}
+army_changed2 = {
+	mobilisation_size = -0.03
+}
+obrazovanue_cost = {
+	education_efficiency_modifier = 0.35
+	tax_efficiency = -0.10
+}
+#-------------------------------------------------------ЖЕНЕВСКАЯ КОНВЕНЦИЯ-------------------------------------------------------
+signed_the_geneva_convention = {
+	war_exhaustion = -0.3
+	org_regain = 0.10
+	badboy = 0.01
+	icon = 7
+}
+#-------------------------------------------------------Сафари-------------------------------------------------------
+ recent_safari = {
+	prestige = 0.25
+ }
+ recent_safari2 = {
+	prestige = 0.25
+ }
+#-------------------------------------------------------БАФЫ К ДП-------------------------------------------------------
+# silk_famine = {
+# 	farm_rgo_eff = -0.5
+# 	icon = 14
+# }
+
+# blood_and_iron_mine = {
+# 	pop_militancy_modifier = 0.01
+# 	mine_rgo_eff = 1.25
+# 	icon = 14
+# }
+blood_gold = {
+	mine_RGO_size = 2
+	mine_rgo_eff = -0.05
+	icon = 14
+}
+tropical_blood = {
+	mine_RGO_size = 1.5
+	mine_rgo_eff = 1
+	icon = 14
+}
+gold_rush_fra = {
+	mine_RGO_size = 1
+}
+event_korsara_na_fermu = {
+	farm_RGO_size = 1.5
+}
+event_korsara_na_shaxtu = {
+	mine_RGO_size = 2
+}
+#-------------------------------------------------------АЛКОГОЛИЗМ-------------------------------------------------------
+prohibition_cancelled = {
+}
+#-------------------------------------------------------Бафф нецивилов-------------------------------------------------------
+unciv_buff = {
+ research_points_modifier = 0.5
+ icon = 17
+}
+#-------------------------------------------------------ПРИРОСТА НАСЕЛЕНИЯ-------------------------------------------------------
+government_sanitarium = {
+	population_growth = 0.005
+	icon = 19
+}
+government_sanitarium2 = {
+	population_growth = 0.003
+	icon = 19
+}
+#-------------------------------------------------------ТЕХ ШКОЛА-------------------------------------------------------
+academic_confusion = {
+	research_points_modifier = -0.01
+	prestige = -0.01
+	icon = 6
+}
+#-------------------------------------------------------Венецианский арсенал-------------------------------------------------------
+Arsenal_ven = {
+	factory_throughput= 0.10
+	prestige = 0.25
+	local_repair = 0.5
+	icon = 6
+}
+#-------------------------------------------------------Либеральная революция-------------------------------------------------------
+liberal_agitation = {
+	pop_consciousness_modifier = 0.1
+	icon = 4
+}
+springtime_of_nations = {
+	core_pop_militancy_modifier = 0.3
+	icon = 8
+}
+global_liberal_agitation = {
+	core_pop_militancy_modifier = 0.02
+	global_pop_consciousness_modifier = 0.05
+	icon = 4
+}
+# liberal_reaction = {
+# 	pop_consciousness_modifier = 0.01
+# 	icon = 4
+# }
+
+# national_tragedy = {
+# 	pop_consciousness_modifier = 0.01
+# 	icon = 15
+# }
+#-------------------------------------------------------ГНИЛАЯ КАРТОШКА-------------------------------------------------------
+potato_blight = {
+	population_growth = -0.001
+	icon = 20
+}
+
+#-------------------------------------------------------АНТИ-ЯКОБИНСКИЙ ЧЁТ ТАМ-------------------------------------------------------
+anti_jacobin_tract = {
+	core_pop_consciousness_modifier = -0.05
+	icon = 3
+}
+
+#-------------------------------------------------------ЭПИДЕМИЯ ХОЛЕРЫ-------------------------------------------------------
+cholera_epidemic_small = {
+	population_growth = -0.0005
+	icon = 20
+}
+cholera_epidemic_big = {
+	population_growth = -0.001
+	icon = 20
+}
+# conservative_reaction = {
+# 	pop_consciousness_modifier = 0.01
+# 	icon = 4
+# }
+
+
+##### CIVILIZATION AND GUNBOATS #####
+western_influences = {
+	global_pop_militancy_modifier = 0.1
+	global_pop_consciousness_modifier = 0.05
+	research_points_modifier = 1
+	icon = 10
+}
+uncivilized_isolationism = {
+	global_pop_militancy_modifier = -0.1
+	global_pop_consciousness_modifier = -0.05
+	research_points_modifier = -0.2
+	icon = 10
+}
+western_presence = {
+	pop_militancy_modifier = 0.1
+	research_points_modifier = 0.01
+	icon = 9
+}
+foreign_smugglers = {
+	poor_life_needs = -0.05
+	middle_life_needs = -0.05
+	rich_life_needs = -0.05
+	icon = 12
+}
+foreign_trading_post = {
+	poor_life_needs = -0.1
+	middle_life_needs = -0.1
+	rich_life_needs = -0.1
+	icon = 11
+}
+# naval_school = {
+# 	research_points_modifier = 0.01
+# 	icon = 17
+# }
+trade_restrictions = {
+	poor_life_needs = 0.05
+	middle_life_needs = 0.05
+	rich_life_needs = 0.05
+	pop_consciousness_modifier = -0.05
+	icon = 10
+}
+# colonial_dry_spell = {
+# 	pop_militancy_modifier = 0.05
+# 	farm_RGO_eff = -0.20
+# 	icon = 14
+# }
+colonial_exploitation = {
+	farm_RGO_eff = 0.10
+	mine_RGO_eff = 0.10
+	pop_militancy_modifier = 0.01
+	icon = 18
+}
+# colonial_museum_of_natural_history = {
+# 	research_points_modifier = 0.05
+# 	icon = 5
+# }
+colonial_mismanagement = {
+	pop_militancy_modifier = -0.02
+	farm_rgo_eff = -0.2
+	mine_rgo_eff = -0.2
+	icon = 2
+}
+colonial_recruitment = {
+	immigrant_attract = 1		#100%
+	life_rating = 0.1
+	population_growth = 0.01
+	assimilation_rate = 0.25
+	icon = 9
+}
+loyal_askaris = {
+	pop_militancy_modifier = -0.05
+	pop_consciousness_modifier = -0.05
+	prestige = 0.01
+	icon = 17
+}
+#-------------------------------------------------------БЕЙБИ БУМ-------------------------------------------------------
+baby_boom = {
+	population_growth = 0.01
+	icon = 19
+}
+#-------------------------------------------------------ПРАВА ЖЕНЩИНАМ-------------------------------------------------------
+female_suffrage = {
+	poor_vote = 0.05
+	middle_vote = 0.02
+	rich_vote = -0.01
+	global_pop_militancy_modifier = -0.03
+	farm_rgo_eff = 0.25
+	mine_rgo_eff = 0.25
+	badboy = -0.04
+	icon = 7
+}
+##### Civilization & Gunboats #####
+local_opium_habit = {
+	mine_rgo_eff = -0.2
+	farm_rgo_eff = -0.2
+	pop_consciousness_modifier = -0.01
+	icon = 20
+}
+sayings_of_the_dutch = {
+	research_points_modifier = 0.05
+	icon = 5
+}
+european_military_mission = {
+	research_points_modifier = 0.02
+	pop_militancy_modifier = 0.1
+	icon = 17
+}
+extraterritoriality_granted = {
+	pop_militancy_modifier = 0.15
+	icon = 10
+}
+military_reform = {
+	leadership_modifier = 0.2
+	pop_militancy_modifier = 0.3
+	icon = 18
+}
+educational_reform = {
+	research_points_modifier = 0.05
+	pop_militancy_modifier = 0.07
+	icon = 5
+}
+legation_quarter = {
+	pop_militancy_modifier = 0.03
+	icon = 8
+}
+kettler_denkmal = {
+	prestige = -0.07
+	pop_militancy_modifier = 0.03
+	icon = 8
+}
+local_economic_downturn = {
+	local_RGO_output = -0.2
+	pop_consciousness_modifier = 0.5
+	icon = 12
+}
+
+#-------------------------------------------------------АМЕРИКАНСКАЯ ГРАЖДАНСКАЯ ВОЙНА-------------------------------------------------------
+free_staters = {
+	life_rating = -0.02
+	pop_militancy_modifier = 0.05
+	icon = 1
+}
+
+border_ruffians = {
+	life_rating = -0.02
+	pop_militancy_modifier = 0.05
+	icon = 18
+}
+
+copperhead_democrats = {
+	core_pop_consciousness_modifier = 0.08
+	icon = 8
+}
+
+anaconda_plan = {
+	war_exhaustion = 0.05
+	icon = 18
+}
+
+
+the_bonnie_blue_flag = {
+	leadership = 2
+	mobilisation_economy_impact = -0.25
+	mobilisation_size = 0.1
+	icon = 15
+}
+##### TEMPERANCE LEAGUE #####
+libertine_culture = {
+	prestige = -0.01
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
+	tax_efficiency = 0.03
+	icon = 2
+}
+temperance_league = {
+	poor_everyday_needs = -0.05
+	prestige = 0.01
+	global_pop_militancy_modifier = 0.01
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
+	icon = 2
+}
+beer_halls = {
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
+	pop_militancy_modifier = -0.02
+	icon = 15
+}
+destitution_and_poverty = {
+	farm_rgo_eff = -0.05
+	mine_rgo_eff = -0.05
+	pop_militancy_modifier = 0.02
+	icon = 19
+}
+liquor_prohibition = {
+	poor_everyday_needs = -0.12
+	prestige = 0.25
+	global_pop_militancy_modifier = 0.02
+	farm_rgo_eff = 0.25
+	mine_rgo_eff = 0.25
+	tax_efficiency = -0.10
+	icon = 2
+}
+
+
+##### NATIONALIST UPRISINGS #####
+minority_building_restrictions = {
+	non_accepted_pop_militancy_modifier = 0.05
+	assimilation_rate = 0.05
+	icon = 16
+}
+dryzymalas_wagon = {
+	pop_militancy_modifier = 0.05
+	pop_consciousness_modifier = 0.02
+	icon = 8
+}
+discriminatory_school_system = {
+	research_points_modifier = -0.02
+	assimilation_rate = 0.05
+	icon = 8
+}
+flying_university = {
+	research_points_modifier = 0.05
+	pop_consciousness_modifier = 0.2
+	pop_militancy_modifier = 0.2
+	icon = 5
+}
+organic_work = {
+	farm_rgo_eff = 0.04
+	mine_rgo_eff = 0.04
+	icon = 13
+}
+
+##### GREAT POWERS #####
+egyptian_excavations = {
+	prestige = 0.25
+	icon = 5
+}
+international_negotiations = {
+	badboy = 0.01
+	icon = 17
+}
+troya1_excavations = {
+	prestige = 0.25
+	icon = 5
+}
+international_negotiations1 = {
+	badboy = 0.01
+	icon = 17
+}
+##### Boer War #####
+trek_boers = {
+	immigrant_attract = 2		#200%
+	icon = 19
+}
+boer_exodus = {
+	immigrant_push = 0.5
+	icon = 20
+}
+gold_rush = {
+	immigrant_attract = 3		#300%
+	life_rating = 0.5
+	icon = 11
+}
+witwatersrand_gold_rush = {
+	prestige = 0.01
+	icon = 11
+}
+
+#-------------------------------------------------------ПАНДЕМИЯ-------------------------------------------------------
+pandemic_influenza = {
+	global_population_growth = -0.001
+	global_pop_consciousness_modifier = 0.1
+	icon = 18
+}
+##### Crime & Punishment #####
+trustee_system = {
+	pop_militancy_modifier = 0.01
+	pop_consciousness_modifier = 0.02
+	farm_RGO_eff = 0.1
+	mine_RGO_eff = 0.1
+	icon = 20
+}
+penal_colonies = {
+	core_pop_militancy_modifier = -0.01
+	prestige = 0.01
+	icon = 9
+}
+##### Economic Events #####
+stock_market_crash = {
+	factory_throughput = -0.2
+	rgo_output = -0.2
+	loan_interest = 0.05
+	icon = 12
+}
+great_depression = {
+	factory_throughput = -0.3
+	rgo_output = -0.3
+	tax_efficiency = -0.05
+	loan_interest = 0.02
+	pop_militancy_modifier = 0.2
+	pop_consciousness_modifier = 0.2
+	icon = 12
+}
+central_bank_established = {
+	loan_interest = -0.05
+	icon = 11
+}
+local_stock_exchange = {
+	local_rgo_output = 0.05
+	pop_militancy_modifier = -0.02
+	icon = 11
+}
+economic_boom = {
+	factory_throughput = 0.05
+	rgo_output = 0.05
+	icon = 11
+}
+######CB generation######
+ CB_gen_plus = {
+	cb_generation_speed_modifier = 0.25
+ }
+ 
+ CB_gen_minus = {
+	cb_generation_speed_modifier = -0.25
+ }
+ 
+ ##more event modifiers
+ free_press_promised = {
+	prestige = 0.1
+	icon = 17
+ }
+ yes_meeting_promised = {
+	prestige = 0.1
+	icon = 17
+ }
+ trade_unions_promised = {
+	prestige = 0.1
+	icon = 17
+ }
+# apache_raiders	= {
+# 	population_growth = -0.002	
+# 	pop_militancy_modifier = 0.2
+# 	icon = 18
+# }
+
+liberian_research_boost = {
+	research_points_modifier = 0.15
+	icon = 5
+}
+# eng_exhaustion = {   #закоменчено(в файле где используется)это бафф на минус в.у. от гибры
+# war_exhaustion = -0.3
+# icon = 9
+# }
+
+assim_core = {
+assimilation_rate = 0.2
+population_growth = -0.005
+}
+
+
+
+# el_libertador = {
+# 	mobilisation_size = 0.2
+# 	mobilization_impact = 2
+# 	org_regain = 0.1
+# 	land_organisation = 0.1
+# 	tax_efficiency = 0.1
+# 	icon = 15
+# }
+
+# nalogi_na_poluchi = {
+#  tax_efficiency = 0.07
+# }
+
+
+
+

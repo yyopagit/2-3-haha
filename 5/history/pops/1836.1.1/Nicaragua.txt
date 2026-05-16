@@ -1,0 +1,193 @@
+#Nicaragua Region (292000)
+#Ruled by Central America 1836
+#Managua (192000/48000 POPS)
+2197 = {
+	aristocrats = {
+		culture = central_american
+		religion = orthodox
+		size = 1050
+		#militancy = 9
+	}
+
+	bureaucrats = {
+		culture = central_american
+		religion = orthodox
+		size = 600
+		#militancy = 9
+	}
+
+	officers = {
+		culture = central_american
+		religion = orthodox
+		size = 175
+		#militancy = 9
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = orthodox
+		size = 1475
+		#militancy = 9
+	}
+
+	artisans = {
+		culture = central_american
+		religion = orthodox
+		size = 3400
+		#militancy = 9
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = orthodox
+		size = 1475
+		#militancy = 9
+	}
+
+	farmers = {
+		culture = central_american
+		religion = orthodox
+		size = 113425
+		#militancy = 9
+	}
+}
+#Rivas (40000/10000 POPS)
+2198 = {
+	aristocrats = {
+		culture = central_american
+		religion = orthodox
+		size = 275
+		#militancy = 9
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = orthodox
+		size = 500
+		#militancy = 9
+	}
+
+	artisans = {
+		culture = central_american
+		religion = orthodox
+		size = 5000
+		#militancy = 9
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = orthodox
+		size = 1000
+		#militancy = 9
+	}
+
+	farmers = {
+		culture = central_american
+		religion = orthodox
+		size = 80250
+		#militancy = 9
+	}
+}
+#Esteli (48000/12000 POPS)
+2199 = {
+	aristocrats = {
+		culture = central_american
+		religion = orthodox
+		size = 325
+		#militancy = 9
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = orthodox
+		size = 325
+		#militancy = 9
+	}
+
+	artisans = {
+		culture = central_american
+		religion = orthodox
+		size = 1000
+		#militancy = 9
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = orthodox
+		size = 1250
+		#militancy = 9
+	}
+
+	farmers = {
+		culture = central_american
+		religion = orthodox
+		size = 28250
+		#militancy = 9
+	}
+}
+#Bluefields (12000/3000 POPS)
+2200 = {
+	aristocrats = {
+		culture = central_american
+		religion = orthodox
+		size = 150
+		#militancy = 9
+	}
+
+	clergymen = {
+		culture = central_american
+		religion = orthodox
+		size = 250
+		#militancy = 9
+	}
+
+	artisans = {
+		culture = central_american
+		religion = orthodox
+		size = 500
+		#militancy = 9
+	}
+
+	soldiers = {
+		culture = central_american
+		religion = orthodox
+		size = 100
+		#militancy = 9
+	}
+
+	farmers = {
+		culture = central_american
+		religion = orthodox
+		size = 9000
+		#militancy = 9
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 500
+		#militancy = 9
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 1000
+		#militancy = 9
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 500
+		#militancy = 9
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 18000
+		#militancy = 9
+	}
+
+}

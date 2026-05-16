@@ -1,0 +1,82 @@
+#Luxembourg
+397 = {
+    aristocrats = {
+        culture = south_german
+        religion = orthodox
+        size = 175
+    }
+
+    bureaucrats = {
+        culture = south_german
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = south_german
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = south_german
+        religion = orthodox
+        size = 750
+    }
+
+    soldiers = {
+        culture = south_german
+        religion = orthodox
+        size = 2000
+    }
+
+    farmers = {
+        culture = south_german
+        religion = orthodox
+        size = 24900
+    }
+
+    aristocrats = {
+        culture = french
+        religion = orthodox
+        size = 250
+    }
+
+    officers = {
+        culture = french
+        religion = orthodox
+        size = 50
+    }
+
+    bureaucrats = {
+        culture = french
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = french
+        religion = orthodox
+        size = 275
+    }
+
+    artisans = {
+        culture = french
+        religion = orthodox
+        size = 1750
+    }
+
+    soldiers = {
+        culture = french
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = french
+        religion = orthodox
+        size = 23375
+    }
+
+}
+

@@ -1,0 +1,75 @@
+army = {	
+	name = "Brosok pllyarnogo medvedia"
+	location = 57
+	regiment = {
+		name= "Летучая Бригада"
+		type = infantry
+		home = 72
+	}
+
+	regiment = {
+		name= "Королевские драгуны"
+		type = infantry
+		home = 72
+	}
+
+	regiment = {
+		name= "Тяжелая бригада"
+		type = infantry
+		home = 68
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 68
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 68
+	}
+
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = infantry
+		home = 63
+	}
+	regiment = {
+		name= "Летучая Бригада"
+		type = infantry
+		home = 63
+	}
+
+	regiment = {
+		name= "Королевские драгуны"
+		type = infantry
+		home = 58
+	}
+
+	regiment = {
+		name= "Тяжелая бригада"
+		type = infantry
+		home = 58
+	}
+
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 58
+	}
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 57
+	}
+
+	regiment = {
+		name= "1-я артиллерийская бригада"
+		type = infantry
+		home = 57
+	}
+}
+
+

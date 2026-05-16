@@ -1,0 +1,810 @@
+#La Paz
+2310 = {
+    aristocrats = {
+        culture = south_andean
+        religion = orthodox
+        size = 2000
+    }
+
+    bureaucrats = {
+        culture = south_andean
+        religion = orthodox
+        size = 300
+    }
+
+    officers = {
+        culture = south_andean
+        religion = orthodox
+        size = 225
+    }
+
+    clergymen = {
+        culture = south_andean
+        religion = orthodox
+        size = 650
+    }
+
+    artisans = {
+        culture = south_andean
+        religion = orthodox
+        size = 5825
+    }
+
+    soldiers = {
+        culture = south_andean
+        religion = orthodox
+        size = 1100
+    }
+
+    farmers = {
+        culture = south_andean
+        religion = orthodox
+        size = 18000
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 300
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 2525
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 1075
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 63100
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 2775
+    }
+
+}
+
+#Cochabamba
+2311 = {
+    aristocrats = {
+        culture = south_andean
+        religion = orthodox
+        size = 1700
+    }
+
+    clergymen = {
+        culture = south_andean
+        religion = orthodox
+        size = 550
+    }
+
+    artisans = {
+        culture = south_andean
+        religion = orthodox
+        size = 1150
+    }
+
+    soldiers = {
+        culture = south_andean
+        religion = orthodox
+        size = 1100
+    }
+
+    farmers = {
+        culture = south_andean
+        religion = orthodox
+        size = 18600
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 300
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 3250
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 1100
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 60400
+    }
+
+}
+
+#Oruro
+2312 = {
+    aristocrats = {
+        culture = south_andean
+        religion = orthodox
+        size = 225
+    }
+
+    clergymen = {
+        culture = south_andean
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = south_andean
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = south_andean
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = south_andean
+        religion = orthodox
+        size = 2525
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 350
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 10500
+    }
+
+}
+
+#Chuquisaca
+2313 = {
+    aristocrats = {
+        culture = south_andean
+        religion = orthodox
+        size = 600
+    }
+
+    bureaucrats = {
+        culture = south_andean
+        religion = orthodox
+        size = 75
+    }
+
+    officers = {
+        culture = south_andean
+        religion = orthodox
+        size = 75
+    }
+
+    clergymen = {
+        culture = south_andean
+        religion = orthodox
+        size = 175
+    }
+
+    artisans = {
+        culture = south_andean
+        religion = orthodox
+        size = 250
+    }
+
+    soldiers = {
+        culture = south_andean
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = south_andean
+        religion = orthodox
+        size = 3825
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 125
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 1200
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 1050
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 23325
+    }
+
+}
+
+#Potosi
+2314 = {
+    aristocrats = {
+        culture = south_andean
+        religion = orthodox
+        size = 625
+    }
+
+    clergymen = {
+        culture = south_andean
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = south_andean
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = south_andean
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = south_andean
+        religion = orthodox
+        size = 2050
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 125
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 1350
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 275
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 25250
+    }
+
+}
+
+#Tarija
+2315 = {
+    aristocrats = {
+        culture = south_andean
+        religion = orthodox
+        size = 275
+    }
+
+    clergymen = {
+        culture = south_andean
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = south_andean
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = south_andean
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = south_andean
+        religion = orthodox
+        size = 575
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 600
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 125
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 11225
+    }
+
+}
+
+#Santa Cruz
+2316 = {
+    aristocrats = {
+        culture = south_andean
+        religion = orthodox
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = south_andean
+        religion = orthodox
+        size = 5
+    }
+
+    officers = {
+        culture = south_andean
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = south_andean
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = south_andean
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = south_andean
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = south_andean
+        religion = orthodox
+        size = 735
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 10775
+    }
+
+}
+
+#San Ignacio
+2317 = {
+    clergymen = {
+        culture = south_andean
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = south_andean
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = south_andean
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = south_andean
+        religion = orthodox
+        size = 900
+    }
+
+    aristocrats = {
+        culture = brazilian
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 1800
+    }
+
+    aristocrats = {
+        culture = brazilian
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 10800
+    }
+
+}
+
+#Robore
+2318 = {
+    aristocrats = {
+        culture = brazilian
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 10000
+    }
+
+}
+
+#Santa Ana
+2319 = {
+    aristocrats = {
+        culture = south_andean
+        religion = orthodox
+        size = 275
+    }
+
+    bureaucrats = {
+        culture = south_andean
+        religion = orthodox
+        size = 25
+    }
+
+    officers = {
+        culture = south_andean
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = south_andean
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = south_andean
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = south_andean
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = south_andean
+        religion = orthodox
+        size = 2400
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 9350
+    }
+
+    aristocrats = {
+        culture = brazilian
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 300
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 10475
+    }
+
+}
+
+#Riberalta
+2320 = {
+    aristocrats = {
+        culture = brazilian
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 10000
+    }
+
+}
+
+#Cobija
+2321 = {
+    aristocrats = {
+        culture = south_andean
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = south_andean
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = south_andean
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = south_andean
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = south_andean
+        religion = orthodox
+        size = 775
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 2775
+    }
+
+    aristocrats = {
+        culture = brazilian
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = brazilian
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = brazilian
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = brazilian
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = brazilian
+        religion = orthodox
+        size = 10700
+    }
+
+}
+

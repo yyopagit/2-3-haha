@@ -1,0 +1,89 @@
+country_event = { 
+	id = 4020030
+	title = "EVTNAME402020"
+	desc = "EVTDESC402020"
+	picture = "GLYPTOTEKET"
+	trigger = {
+    tag = SCA
+	any_greater_power = {
+		is_sphere_leader_of = SCA
+	}
+	NOT = {
+		has_country_modifier = podsos4
+	}
+}	
+	
+	option = {
+		name = "EVTOPTA402020"
+		any_country = {
+			limit = {
+				is_sphere_leader_of = SCA
+			}
+			add_country_modifier = { 
+				name = jopa_podsosa2
+				duration = -1
+			}
+			SCA = {
+					add_country_modifier = { 
+					name = podsos5
+					duration = -1
+					}
+			}
+			set_country_flag = yes_papik2
+		}
+		any_country = {
+			limit = {
+				is_sphere_leader_of = SCA
+				tag = RUS
+			}
+			add_country_modifier = { name = podsos6 duration = -1 }
+		}
+		any_country = {
+			limit = {
+				is_sphere_leader_of = SCA
+				tag = ENG
+			}
+			add_country_modifier = { name = podsos7 duration = -1 }
+		}
+		set_country_flag = yes_papik2
+		add_country_modifier = { 
+			name = podsos4
+			duration = -1
+		}
+	  
+    }
+}
+
+country_event = { 
+	id = 40200400
+	title = "EVTNAME402021"
+	desc = "EVTDESC402021"
+	picture = "greatpowers"
+	trigger = {
+		tag = SCA
+		has_country_flag = yes_papik2
+		NOT = {
+			any_greater_power = {
+				is_sphere_leader_of = SCA
+			}
+		}
+		has_country_modifier = podsos4 
+	}	
+
+	option = {
+	name = "EVTOPTA402021"
+		any_country = {
+			limit = {
+				has_country_modifier = jopa_podsosa2
+			}	
+			remove_country_modifier = jopa_podsosa2
+			clr_country_flag = yes_papik2
+	    }
+		remove_country_modifier = podsos4
+		remove_country_modifier = podsos5
+		remove_country_modifier = podsos6
+		remove_country_modifier = podsos7
+	    clr_country_flag = yes_papik2
+	}
+}
+

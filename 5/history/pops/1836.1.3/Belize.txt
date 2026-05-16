@@ -1,0 +1,34 @@
+#Belize
+2190 = {
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = orthodox
+        size = 15
+    }
+
+    artisans = {
+        culture = mexican
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = orthodox
+        size = 10
+    }
+
+    farmers = {
+        culture = mexican
+        religion = orthodox
+        size = 60000
+    }
+
+}
+

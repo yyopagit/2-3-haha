@@ -1,0 +1,358 @@
+#Laos Region (700000) 
+#under the rule of Luang Prabang in 1836 
+#Louangprabang (240000/60000 POPS) #asian_minor = hmong/montagnard 
+1356 = {
+	aristocrats = {
+		culture = lao
+		religion = orthodox
+		size = 800
+	}
+
+	bureaucrats = {
+		culture = lao
+		religion = orthodox
+		size = 75
+	}
+
+	officers = {
+		culture = lao
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = lao
+		religion = orthodox
+		size = 425
+	}
+
+	artisans = {
+		culture = lao
+		religion = orthodox
+		size = 2150
+	}
+
+	soldiers = {
+		culture = lao
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = lao
+		religion = orthodox
+		size = 37940
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 800
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 175
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 15575
+	}
+}
+#Vientiane (88000/22000 POPS) 
+1357 = {
+	aristocrats = {
+		culture = lao
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = lao
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = lao
+		religion = orthodox
+		size = 750
+	}
+
+	soldiers = {
+		culture = lao
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = lao
+		religion = orthodox
+		size = 13700
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 125
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 350
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 6375
+	}
+}
+#Savannakhet (80000/20000 POPS) 
+1361 = {
+	aristocrats = {
+		culture = lao
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = lao
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = lao
+		religion = orthodox
+		size = 750
+	}
+
+	soldiers = {
+		culture = lao
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = lao
+		religion = orthodox
+		size = 13700
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 4550
+	}
+}
+#Satavan (168000/42000 POPS) 
+1362 = {
+	aristocrats = {
+		culture = lao
+		religion = orthodox
+		size = 450
+	}
+
+	clergymen = {
+		culture = lao
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = lao
+		religion = orthodox
+		size = 1200
+	}
+
+	soldiers = {
+		culture = lao
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = lao
+		religion = orthodox
+		size = 21096
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 325
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 175
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 900
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 175
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 16425
+	}
+}
+#under the rule of Siam in 1836 
+#Xaignabouli (64000/16000 POPS) 
+1360 = {
+	aristocrats = {
+		culture = lao
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = lao
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = lao
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = lao
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = lao
+		religion = orthodox
+		size = 8300
+	}
+
+	aristocrats = {
+		culture = shan
+		religion = orthodox
+		size = 125
+	}
+
+	clergymen = {
+		culture = shan
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = shan
+		religion = orthodox
+		size = 350
+	}
+
+	soldiers = {
+		culture = shan
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = shan
+		religion = orthodox
+		size = 6375
+	}
+}
+#Paekche (60000/15000 POPS) 
+1363 = {
+	aristocrats = {
+		culture = lao
+		religion = orthodox
+		size = 275
+	}
+
+	clergymen = {
+		culture = lao
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = lao
+		religion = orthodox
+		size = 750
+	}
+
+	soldiers = {
+		culture = lao
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = lao
+		religion = orthodox
+		size = 13700
+	}
+
+}

@@ -1,0 +1,367 @@
+#Dahomey Region (512000)
+#uncolonized in 1836/ruled by Dahomey
+#Cotonou (272000/68000 POPS)
+1919 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 975
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 2050
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 90975
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 2000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 275
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 750
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 53675
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 33000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 6800
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 6000
+	}
+}
+#Abomey (240000/60000 POPS)
+1920 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1050
+	}
+
+	bureaucrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	officers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 2125
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 152625
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 20000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 200
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 9650
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 3100
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 6700
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 3100
+	}
+}
+#Borgu Region (76000) #see Nigeria.txt for balance of region 
+#ruled by Sokoto in 1836
+#Nikki (48000/12000 POPS)
+1921 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 2700
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 31000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1750
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3750
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 142500
+	}
+}
+#Jugu (28000/7000 POPS)
+1922 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 95750
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 48000
+	}
+
+}

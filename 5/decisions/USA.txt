@@ -1,0 +1,571 @@
+political_decisions = {
+	custers_expedition = {
+	picture = custers_expedition 
+		potential = {
+			tag = USA
+			NOT = {
+				has_country_flag = custers_expedition_sent
+			}
+			owns = 122
+		}
+		allow = {
+			year = 1874
+			122 = {
+				units_in_province = 1
+			}
+		}
+		effect = {
+			prestige = 5
+			set_country_flag = custers_expedition_sent
+		}
+	}
+	enact_the_homestead_act = {
+		picture = enact_the_homestead_act 
+		potential = {
+				tag = USA
+			NOT = {
+				has_country_modifier = the_homestead_act
+			}
+		}
+		allow = {
+			year = 1862
+		}
+		effect = {
+			add_country_modifier = {
+				name = the_homestead_act
+				duration = -1
+			}
+		}
+	}
+	enact_anaconda_plan = {
+	picture = enact_anaconda_plan
+		potential = {
+			tag = USA
+			war_with = CSA
+			NOT = {
+				has_global_flag = anaconda_plan_active
+			}
+		}
+		allow = {
+			CSA = {
+				blockade = 0.8
+			}
+		}
+		effect = {
+			CSA = {
+				add_country_modifier = {
+					name = anaconda_plan
+					duration = -1
+				}
+			}
+			set_global_flag = anaconda_plan_active
+		}
+	}
+	shermans_march_to_the_sea = {
+		picture = shermans_march_to_the_sea
+		potential = {
+			tag = USA
+			war_with = CSA
+			NOT = {
+				has_country_flag = sherman_marched_to_the_sea
+			}
+		}		
+		allow = {
+			controls = 201
+			controls = 2555
+			controls = 204
+		}
+		effect = {
+			set_country_flag = sherman_marched_to_the_sea
+			CSA = {
+				war_exhaustion = 10
+			}
+		}
+	}
+	emancipation_proclamation = {
+	picture = emancipation_proclamation
+		potential = {
+			tag = USA
+			NOT = {
+				has_country_flag = emancipation
+			}
+			OR = {
+				war_with = CSA
+				AND = {
+					NOT = {
+						exists = CSA
+					}
+					has_global_flag = american_civil_war_has_happened
+				}
+			}
+		}
+		allow = {
+				NOT = {
+					exists = CSA
+				}
+		}
+		effect = {
+			set_country_flag = emancipation
+			prestige = 10
+			political_reform = no_slavery
+			any_pop = {
+				limit = {
+					has_pop_culture = yankee
+				}
+				consciousness = -5
+				militancy = -5
+			}
+			CSA = { all_core = {remove_core = CSA }}
+			any_greater_power = {
+				relation = {
+					who = USA
+					value = 30
+				}
+			}
+		}
+	}
+	manifest_destiny = {
+		picture = manifest_destiny
+		potential = {
+			tag = USA
+			NOT = {
+				has_country_flag = hasmanifestdestiny
+				has_global_flag = mexstronger
+			}
+		}
+		allow = {
+			prestige = 50
+			NOT = {
+				exists = TEX
+				133 = {
+					owned_by = MEX # Austin
+				}
+			}
+		}
+		effect = {
+			set_country_flag = hasmanifestdestiny
+			diplomatic_influence = {
+				who = MEX
+				value = -500
+			}
+			relation = {
+				who = MEX
+				value = -250
+			}
+			any_pop = {
+				consciousness = 2
+			}
+			TEX_132 = {
+				add_core = USA
+			}
+			USA_81 = {
+				add_core = USA
+			}
+			MEX_94 = {
+				add_core = USA
+			}
+			MEX_85 = {
+				add_core = USA
+			}
+		}
+	}
+	ostend_manifesto = {
+	picture = ostend_manifesto
+		potential = {
+			tag = USA
+			NOT = {
+				has_country_flag = ostend_manifesto_published
+			}
+		}
+		allow = {
+			average_consciousness = 5
+		}
+		effect = {
+			badboy = 4
+			any_greater_power = {
+				relation = {
+					who = USA
+					value = -150
+				}
+			}
+			SPA_2209 = {
+				add_core = USA
+			}
+			any_state = {
+				any_pop = {
+					consciousness = -1
+				}
+			}
+			set_country_flag = ostend_manifesto_published
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				prestige = 25
+			}
+		}
+	}
+	enact_radical_reconstruction = {
+		picture = enact_radical_reconstruction
+		potential = {
+			tag = USA
+			owns = 211
+			owns = 195
+			owns = 139
+			NOT = {
+				exists = CSA
+				has_country_flag = has_used_radical_reconstruction
+			}
+		}
+		allow = {
+			NOT = {
+				average_militancy = 4
+			}
+			war = no
+			has_global_flag = american_civil_war_has_happened
+		}
+		effect = {
+			war_exhaustion = -20
+			any_pop = {
+				limit = {
+					has_pop_culture = dixie
+				}
+				consciousness = -5
+				militancy = -5
+			}
+			money = 500000
+			set_country_flag = has_used_radical_reconstruction
+		}
+	}
+	annex_hawaii = {
+		picture = annex_hawaii
+		potential = {
+			NOT = {
+				has_country_flag = hawaii_annexed
+			}
+			exists = HAW
+			tag = USA
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			is_sphere_leader_of = HAW
+		}
+		effect = {
+			HAW_658 = {
+				add_core = USA
+			}
+			prestige = 5
+			inherit = HAW
+			set_country_flag = hawaii_annexed
+		}
+	}
+	westcoast = {
+        picture = manifest_destiny
+		potential = {
+			tag = USA
+			NOT = { 
+			    has_country_flag = you_did_try
+				has_global_flag = mexstronger
+			}
+	    }
+		allow = {		
+			84 = { owned_by = THIS }
+			94 = { owned_by = THIS }
+			97 = { owned_by = THIS }
+			100 = { owned_by = THIS }
+			104 = { owned_by = THIS }
+	    }
+		effect = {
+		    set_country_flag = you_did_try
+		     84 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }
+		     85 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }
+		     86 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }
+		     87 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }
+		     88 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }
+		     89 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }
+		     90 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }
+		     94 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }			
+		     95 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }			
+		     96 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }			
+		     97 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }
+		     98 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }			
+		     99 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }			
+		     100 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }
+		     101 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }			
+		     102 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }			
+		     103 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }	
+		     104 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }			
+		     105 = {
+             add_province_modifier = {
+             name = migracia
+             duration = 5475
+                    }
+		    }								
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+alaskan_purchase2 = { 
+	picture = alaskan_purchase
+		potential = {
+			tag = USA
+			NOT = {
+				has_country_flag = you_did_try2
+			}
+		}
+		allow = {
+			OR = {
+				1 = { is_core = RUS }
+				2 = { is_core = RUS }
+				3 = { is_core = RUS }
+				4 = { is_core = RUS }
+				5 = { is_core = RUS }
+				2599 = { is_core = RUS }
+				2630 = { is_core = RUS }
+				2631 = { is_core = RUS }
+			}
+			owns = 2
+		}
+		effect = {
+			1 = { remove_core = RUS }
+			2 = { remove_core = RUS }
+			3 = { remove_core = RUS }
+			4 = { remove_core = RUS }
+			5 = { remove_core = RUS }
+			6 = { remove_core = RUS }
+			7 = { remove_core = RUS }
+			8 = { remove_core = RUS }
+			9 = { remove_core = RUS }
+			10 = { remove_core = RUS }
+			11 = { remove_core = RUS }
+			12 = { remove_core = RUS }
+			2599 = { remove_core = RUS }
+			2630 = { remove_core = RUS }
+			2631 = { remove_core = RUS }
+			2598 = { remove_core = RUS }
+			2596 = { remove_core = RUS }
+			set_country_flag = you_did_try2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	liberia_invasion = {
+	picture = reichsland_elsass
+		potential = {
+			tag = USA
+			NOT = {
+				has_global_flag = liberia_conquered
+			}
+		}
+		allow = {
+			owns = 1888
+			owns = 1887
+		}
+		effect = {
+			1889 = {
+			life_rating = 20
+           		secede_province = USA
+		 	}
+			 1890 = {
+			life_rating = 20
+           		secede_province = USA
+		 	}
+		 	1891 = {
+			life_rating = 20
+           		secede_province = USA
+		 	}
+			prestige = 20
+			set_global_flag = liberia_conquered
+			THIS = {
+				country_event = { id=19001 days=0 }
+			}
+		}
+	}
+	motor_city = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = USA
+			owns = 173
+			NOT = {
+				has_country_flag = motor_city_expanded
+			}
+		}
+		allow = {
+			year = 1880
+			combustion_engine = 1
+			173 = {
+				state_scope = {
+					has_building = automobile_factory
+				}
+			}
+			money = 600000
+		}
+		effect = {
+			173 = {
+				add_province_modifier = {
+					duration = -1
+					name = motor_city_work_1				
+				}	
+			}
+			add_country_modifier = {
+				name = motor_city_work_2
+				duration = -1
+			}
+						173 = {
+				life_rating = 10
+			}
+			prestige = 5
+			set_country_flag = motor_city_expanded
+			money = -600000
+		}
+	}
+		sanction_on = {
+		potential = {
+			tag = USA
+			has_global_flag = hawaii_conquered
+			NOT = {
+				has_global_flag = sanction_on_yes
+				has_global_flag = sanction_off_yes
+			}
+		}
+		allow = {
+			money = 100000
+		}
+		effect = {
+			money = -100000
+			set_global_flag = sanction_on_yes
+		}
+	}
+	sanction_off = {
+		potential = {
+			tag = USA
+			has_global_flag = sanction_on_yes
+		}
+		allow = {
+			money = 100000
+		}
+		effect = {
+			money = -100000
+			prestige = -50
+			clr_global_flag = sanction_on_yes
+			set_global_flag = sanction_off_yes
+		}
+	}
+	rise_of_american_business = {
+		picture =  reichsland_elsass
+		potential = {
+			NOT = { has_country_flag = american_business23 }
+			tag = USA
+		}
+		allow = {
+			has_global_flag = american_civil_war_has_happened
+			early_railroad = 1
+			money = 500000		 
+		}
+		effect = {
+			set_country_flag = american_business23
+			add_country_modifier = {
+				name = usafabrics
+				duration = 3650
+			}
+			money = -500000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+

@@ -1,0 +1,460 @@
+political_decisions = {
+#----------------------------------------------------------- ЮЗЛЕСС -------------------------------------------------------------	
+	sign_treaty_of_london = {
+	picture = sign_treaty_of_london
+		potential = {
+			tag = NET
+			exists = BEL
+			NOT = {
+				has_country_flag = signed_treay_of_london
+			}
+		}
+		allow = {
+			OR = { 
+				relation = {
+					who = ENG
+					value = 100
+				}
+				ENG = { 
+					diplomatic_influence = {
+						who = THIS
+						value = 50
+					}
+				}
+				ideological_thought = 1
+			}		
+		}
+		effect = {
+			remove_core = 387
+			remove_core = 388
+			remove_core = 389
+			remove_core = 390
+			remove_core = 391
+			remove_core = 392
+			remove_core = 393
+			remove_core = 394
+			remove_core = 395
+			remove_core = 396
+			remove_core = 398
+			prestige = 20
+			any_greater_power = {
+				limit = { 
+					NOT = { 
+						OR = {
+							tag = FRA
+							tag = ENG
+						}
+					}
+				}	
+				relation = {
+					who = THIS
+					value = 20
+				}
+			}
+			ENG = {
+				relation = {
+					who = THIS
+					value = 150
+				}
+			}
+			FRA = {
+				relation = {
+					who = THIS
+					value = 150
+				}
+			}
+			BEL = {
+				relation = {
+					who = THIS
+					value = 25
+				}
+			}
+			set_country_flag = signed_treay_of_london
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					year = 1839
+				}
+			}
+			modifier = {
+				factor = 0
+				war = yes
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					owns = 387
+					owns = 388
+					owns = 389
+					owns = 390
+					owns = 391
+					owns = 392
+					owns = 393
+					owns = 394
+					owns = 395
+					owns = 396
+					owns = 398
+				}
+			}
+		}
+	}
+
+#----------------------------------------------------------- РАСКОЛОНИЗАЦИЯ ЯВЫ И СУМАТРЫ 1 -------------------------------------------------------------	
+	 manifesto11 = { 
+ picture = manifesto11
+ potential = {
+ 	
+	 NOT = {
+ has_country_flag = palais12
+ }
+ tag = NET
+ }
+ allow = {
+ medicine = 1
+ prestige = 20
+  NOT = {
+ has_country_flag = palais11
+ }
+ }
+ effect = {
+ set_country_flag = palais11
+ 1413 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1402 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1398 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1418 = {
+		any_pop = {
+			limit = {
+			pop_type = bureaucrats
+			has_pop_culture = dutch
+				}
+			reduce_pop = 2
+			}
+ }
+	}
+ }
+#----------------------------------------------------------- РАСКОЛОНИЗАЦИЯ ЯВЫ И СУМАТРЫ 2 -------------------------------------------------------------
+ manifesto12 = { 
+ picture = manifesto12 
+ potential = {
+ 	
+ tag = NET
+ has_country_flag = palais11
+ NOT = {
+ has_country_flag = palais12
+ }
+ }
+ allow = {
+ money = 200000
+ OR = {
+ mechanical_production = 1
+ market_structure = 1
+	}
+ NOT = {
+ has_country_flag = palais12
+ } 
+ }
+ 
+ effect = {
+  money = -200000
+ set_country_flag = palais12
+ 1413 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1402 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1398 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1418 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+ } 
+ }
+ 
+ #----------------------------------------------------------- РАСКОЛОНИЗАЦИЯ ЯВЫ И СУМАТРЫ 3 -------------------------------------------------------------
+ manifesto13 = { 
+ picture = manifesto13 
+ potential = {
+ 	
+ tag = NET
+ has_country_flag = palais12
+ NOT = {
+ has_country_flag = palais13
+ }
+ }
+ allow = {
+ ad_hoc_money_bill_printing = 1
+ prestige = 45
+ steamer_convoy = 2000
+  NOT = {
+ has_country_flag = palais13
+ }
+ } 
+ effect = { 
+ set_country_flag = palais13
+ 1413 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1402 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1398 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1418 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+ }
+ }
+ 
+#----------------------------------------------------------- РАСКОЛОНИЗАЦИЯ ЯВЫ И СУМАТРЫ 4 -------------------------------------------------------------
+ manifesto14 = { 
+ picture = manifesto14 
+ potential = {
+ 	
+ tag = NET
+ has_country_flag = palais13
+ NOT = {
+ has_country_flag = palais14
+ }
+ }
+ allow = {
+ industrial_score = 100
+ liquor = 500
+ wine = 500
+ grain = 500
+ fruit = 500
+ fish = 500
+ cattle = 500
+ wool = 500
+ }
+ effect = { 
+ set_country_flag = palais14
+ liquor = -500
+ wine = -500
+ grain = -500
+ fruit = -500
+ fish = -500
+ cattle = -500
+ wool = -500
+ 1413 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1402 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1398 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+  1418 = {
+	any_pop = {
+		limit = {
+		pop_type = bureaucrats
+		has_pop_culture = dutch
+		}
+		reduce_pop = 2
+	}
+ }
+ }
+ }
+#----------------------------------------------------------- РАСКОЛОНИЗАЦИЯ ЯВЫ И СУМАТРЫ 5 -------------------------------------------------------------
+ manifesto15 = { 
+ picture = manifesto15
+	potential = {
+			tag = NET
+			has_country_flag = palais14
+	NOT = {
+ has_country_flag = palais15
+	}
+ }
+	allow = {
+		biologism = 1
+	OR = {
+ semi_automatization = 1
+ market_regulations = 1
+ }
+ industrial_score = 200
+ machine_parts = 500
+ cement = 1000
+ steel = 1000
+ lumber = 5000
+ timber = 5000
+ iron = 2000
+ }
+ effect = { 
+ set_country_flag = palais15
+ machine_parts = -500
+ cement = -1000
+ steel = -1000
+ lumber = -1000
+ timber = -5000
+ iron = -2000
+ NET_1398 = { 	any_pop = {
+				consciousness = 1
+				literacy = 0.10
+		}
+		add_core = NET
+	}
+ NET_1399 = { 	any_pop = {
+				consciousness = 1
+				literacy = 0.10
+		}
+		add_core = NET
+	}
+ NET_1413 = { 	any_pop = {
+				consciousness = 1
+				literacy = 0.10
+		}
+		add_core = NET
+	}
+ NET_1414 = { 	any_pop = {
+				consciousness = 1
+				literacy = 0.10
+		}
+		add_core = NET
+	}
+			375 = {
+				sub_unit = {
+					type = ironclad
+					value = current
+				 
+					
+				}
+			}
+			375 = {
+				sub_unit = {
+					type = ironclad
+					value = current
+					
+				}
+			}
+			375 = {
+				sub_unit = {
+					type = ironclad
+					value = current
+					
+				}
+			}
+			375 = {
+				sub_unit = {
+					type = ironclad
+					value = current
+					
+				}
+			}
+ }
+ }
+ #----------------------------------------------------------- ПЕРЕНОС СТОЛИЦЫ В ЯВУ -------------------------------------------------------------
+ manifesto16 = { 
+ picture = manifesto16
+ potential = {
+ 
+ tag = NET
+ has_country_flag = palais15
+ NOT = {
+ has_country_flag = palais16
+	}
+ }
+ allow = { 
+	capital = 375
+ }
+ effect = { 
+	capital = 1415
+ set_country_flag = palais16
+ 
+ }
+}

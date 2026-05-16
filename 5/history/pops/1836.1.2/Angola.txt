@@ -1,0 +1,919 @@
+#Angola : Angola (464000)
+#Ruled by Portugal in 1836
+#Luanda (164000/41000 POPS)
+1999 = {
+	aristocrats = {
+		culture = portuguese
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = orthodox
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = portuguese
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = orthodox
+		size = 50
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 41550
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 35200
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 17000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 57600
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 30000
+	}
+}
+#uncolonized in 1836
+#2001 - Mbanza (180000/45000 POPS)
+2001 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 400
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 37350
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 1100
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 63450
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 40000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 700
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 53250
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 35000
+	}
+}
+#Quibala (120000/30000 POPS)
+2002 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 1200
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 121950
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 60000
+	}
+
+}
+#Congo Region (116000) #see Congo-Zaire.txt for balance of region 
+#uncolonized in 1836/tradepost for Portugal
+#Cabinda (116000/29000 POPS) 
+2000 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1250
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 63750
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 50000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 425
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 225
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 5000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 225
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 85225
+	}
+
+}
+
+#Angola - Mbundu (440000)
+#Uncolonized in 1836
+#Benguela (116000/29000 POPS)
+2003 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 300
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 140800
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 58000
+	}
+}
+#Mocamedes (116000/29000 POPS)
+2004 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 600
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 4750
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 300
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 151250
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 58000
+	}
+}
+#Huambo (208000/52000 POPS)
+2005 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 600
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 550
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 2600
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 96650
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 61000
+	}
+
+}
+#Angola - Bihe (264000)
+#Uncolonized in 1836
+#Kuito (148000/37000 POPS)
+2006 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 350
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 350
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 4800
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 126700
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 57500
+	}
+}
+#Mavinga (80000/20000 POPS)
+2007 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 75
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 24000
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 13500
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 175
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 800
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 104500
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 32000
+	}
+}
+#Ondjiva (36000/9000 POPS)
+2008 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 600
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 750
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 52050
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 36000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 82750
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 44500
+	}
+
+}
+#Angola - Kwango (232000)
+#Uncolonized in 1836
+#Malanje (44000/11000 POPS)
+2009 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 43500
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 12000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 600
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 750
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 21750
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 6000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 14000
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 8000
+	}
+}
+#Saurimo (112000/28000 POPS)
+2010 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1250
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1250
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 4250
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 94000
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 48000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 28500
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 8000
+	}
+}
+#Kubanda (76000/19000 POPS)
+2011 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1500
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1250
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 7500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 81250
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 47000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 36000
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 11000
+	}
+
+}

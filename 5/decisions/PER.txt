@@ -1,0 +1,496 @@
+political_decisions = {
+	Graeter_Persia = {
+		picture = graet_eic
+		potential = {
+			tag = PER
+			NOT = {
+			has_global_flag = Graeter_Persia
+			}
+		}
+		allow = {
+			prestige = 10
+							owns = 1222
+							owns = 1221
+							owns = 1209
+							owns = 1214
+		}
+		effect = {
+			prestige = 25
+			1218 = {	add_core = PER }
+			1228 = {	add_core = PER }
+			1232 = {	add_core = PER }
+			1230 = {	add_core = PER }
+			1218 = {	add_core = PER }
+			1227 = {	add_core = PER }
+			1233 = {	add_core = PER }
+			1229 = {	add_core = PER }
+			1223 = {	add_core = PER }
+			1224 = {	add_core = PER }
+			1225 = {	add_core = PER }
+			1226 = {	add_core = PER }
+			set_global_flag = Graeter_Persia
+		}
+	}
+	graet_igm = {
+	picture = graet_eic
+		potential = {
+			tag = PER
+			NOT = {
+				has_country_flag = graet_igm
+			}	
+                   has_global_flag = Graeter_Persia			
+		}	
+		allow = {
+			OR = {
+				AND = {
+					owns = 1228
+					owns = 1232
+					owns = 1230
+					owns = 1218
+					owns = 1227 
+					owns = 1233
+					owns = 1229
+					owns = 1223
+					prestige = 60
+				}
+				AND = {
+					prestige = 60
+					year = 1845
+				}
+			}
+		}
+		effect = {
+			set_country_flag = graet_igm
+			PER = { all_core = {remove_core = IGM }}
+			prestige = 20
+			add_accepted_culture = rajput
+			add_accepted_culture = kashmiri
+			add_accepted_culture = pashtun
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	establish_the_dar_al_funun = {
+	picture = establish_the_dar_al_funun
+		potential = {
+			tag = PER
+			NOT = {
+				has_country_flag = dar_al_funun_built
+			}
+		}
+		allow = {
+				ai = no
+				owns = 1209
+				owns = 1221
+				owns = 1222
+				owns = 1227
+		}
+		effect = {
+			years_of_research = 15
+			any_pop = {
+				consciousness = 0.5
+			}
+			any_pop = {
+				literacy = 0.1
+			}
+			set_country_flag = dar_al_funun_built
+			add_country_modifier = {
+				name = dar_al_funun
+				duration = 7300
+			}
+		}
+	}
+
+		famine_mug_1 = {
+	picture = expand_motala_verkstad
+		potential = {
+			year = 1870
+			has_country_modifier = famine_la_india
+			OR = {
+				tag = IGM
+				tag = MUG
+			}
+			NOT = {
+				has_global_flag = famine_mug_1_yes
+			}
+		}
+		allow = {
+			money = 1100000
+			owns = 1292
+		}
+		effect = {
+			money = -1000000
+			prestige = 5
+			set_global_flag = famine_mug_1_yes
+			remove_country_modifier = famine_la_india
+			add_country_modifier = {
+					name = famine_war_first_step
+					duration = -1
+			}
+			1292 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+
+	famine_mug_2 = {
+	picture = expand_motala_verkstad
+		potential = {
+			has_global_flag = famine_mug_1_yes
+			OR = {
+				tag = IGM
+				tag = MUG
+			}
+			NOT = {
+				has_global_flag = famine_mug_2_yes
+			}
+		}
+		allow = {
+			money = 2100000
+			year = 1871
+			owns = 1239
+		}
+		effect = {
+			money = -1000000
+			prestige = 5
+			set_global_flag = famine_mug_2_yes
+			remove_country_modifier = famine_war_first_step
+			add_country_modifier = {
+					name = famine_war_second_step
+					duration = -1
+			}
+			1239 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+
+	famine_mug_3 = {
+	picture = expand_motala_verkstad
+		potential = {
+			has_global_flag = famine_mug_2_yes
+			OR = {
+				tag = IGM
+				tag = MUG
+			}
+			NOT = {
+				has_global_flag = famine_mug_3_yes
+			}
+		}
+		allow = {
+			money = 2500000
+			year = 1872
+			owns = 1296
+		}
+		effect = {
+			money = -1500000
+			prestige = 5
+			set_global_flag = famine_mug_3_yes
+			remove_country_modifier = famine_war_second_step
+			add_country_modifier = {
+					name = famine_war_third_step
+					duration = -1
+			}
+			1296 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+
+	famine_war_end_2 = {
+		picture = expand_motala_verkstad
+		potential = {
+			has_global_flag = famine_mug_3_yes
+			OR = {
+				tag = IGM
+				tag = MUG
+			}
+			NOT = {
+				has_global_flag = famine_war_end_2_yes
+			}
+		}
+		allow = {
+			money = 4100000
+			OR = {
+				owns = 1298
+				owns = 1318
+			}
+			year = 1873
+		}
+		effect = {
+			money = -2000000
+			prestige = 5
+			set_global_flag = famine_war_end_2_yes
+			THIS = {
+				country_event = { id=18945 days=0 }
+			}
+			1298 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+			1318 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+
+		foreign_investiments_per = {
+		picture = expand_motala_verkstad
+		potential = {
+			OR = {
+			tag = PER
+			tag = IGM
+			}
+			is_greater_power = no
+			NOT = {
+				has_country_modifier = investiments_yes
+			}
+		}
+		allow = {
+			prestige = 10
+			money = 120000
+		}
+		effect = {
+			add_country_modifier = {
+				name = investiments_yes
+				duration = 1825
+			}
+			THIS = {
+				country_event = { id=18918 days=0 }
+			}
+		}
+	}
+
+	graet_igm23 = {
+	picture = graet_eic
+		potential = {
+		OR = {
+			tag = PER
+			tag = IGM
+			}
+			NOT = {
+				has_country_flag = graet_igm23
+			}			
+		}	
+		allow = {
+			year = 1880
+		}
+		effect = {
+				set_country_flag = graet_igm23
+				badboy = 5
+				SIN_1288 = { add_core = THIS }
+				ENG_1292 = { add_core = THIS }
+				ENG_1291 = { add_core = THIS }
+				ENG_1264 = { add_core = THIS }
+				PAN_1231 = { add_core = THIS }
+				PAN_1239 = { add_core = THIS }
+				ENG_1236 = { add_core = THIS }
+				1242 = { add_core = THIS }
+				1244 = { add_core = THIS }
+				1270 = { add_core = THIS }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	persian_cinema = {
+		potential = {
+		or = {
+			tag = PER
+			tag = IGM
+		}
+		NOT = { has_country_flag = persian_cinema }
+ }
+		allow = {
+			 OR = {
+			  year = 1880
+			 any_greater_power = { invention = the_talkies relation = { who = THIS value = 50 } }
+			 invention = the_talkies
+ }
+		}
+		effect = {
+				set_country_flag = persian_cinema
+				prestige = 20
+				years_of_research = 0.5
+		rich_strata = {
+			militancy = 1
+ }
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						moralism = 30
+						liberal = 60
+					}
+				}
+			}		
+		}
+	}
+
+	travel_to_europe = {
+		potential = {
+		or = {
+			tag = PER
+			tag = IGM
+	}
+		NOT = { has_country_flag = travel_to_europe }
+ }
+		allow = {
+			money = 300000
+			year = 1855
+		}
+		effect = {
+			money = -300000
+			prestige = 10
+			years_of_research = 0.5
+			add_accepted_culture = gujarati
+	relation = {
+		who = ENG
+		value = 50
+	}
+		set_country_flag = travel_to_europe
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						moralism = 30
+						liberal = 60
+					}
+				}
+			}		
+		}
+	}
+
+	Turkmen_colonized = {
+   picture = cavours_diplomacy
+       potential = {
+			OR = {
+           tag = PER
+			tag = IGM
+			}
+            NOT = {
+               has_country_flag = Turkmen_colonized
+			1204 = { owned_by = RUS }	 
+           1205 = { owned_by = RUS }
+			1204 = { owned_by = TUR }	 
+           1205 = { owned_by = TUR }
+			1204 = { owned_by = THIS }	 
+           1205 = { owned_by = THIS }
+           }
+       }
+       allow = {
+       money = 50000
+       }
+       effect = {
+           money = -50000
+				1204 = { secede_province = THIS }	 
+				1205 = { secede_province = THIS }
+				1206 = { secede_province = THIS }	 
+				1196 = { secede_province = THIS }
+				1204 = { add_core = THIS }
+				1205 = { add_core = THIS }		
+				1206 = { add_core = THIS }
+				1196 = { add_core = THIS }
+           set_country_flag = Turkmen_colonized
+       }
+   }
+
+	UNCOR_PUNJAB = {
+	  picture = expand_motala_verkstad
+        potential = {
+		 OR = {
+            tag = IGM
+			tag = PER
+			}
+            NOT = {
+                has_country_flag = core_punjab
+            }
+		}
+		 allow = {
+		 year = 1850
+		  PAN_1227 = {
+		  owned_by = THIS
+		  }
+		  PAN_1229 = { 
+          owned_by = THIS
+		  }
+        }
+		effect = {
+	    PAN_1227 = {remove_core = PAN}
+        PAN_1229 = {remove_core = PAN}
+		PAN_1231 = {remove_core = GWA}
+		badboy = 8
+		set_country_flag = core_punjab
+		 RUS_1196 = {add_core = THIS}
+		 KOK_1190 = {add_core = THIS}
+		}
+}
+
+UNCOR_TAJIKS = {
+	  picture = expand_motala_verkstad
+        potential = {
+		 OR = {
+            tag = IGM
+			tag = PER
+			}
+            NOT = {
+                has_country_flag = core_tajiks
+            }
+		}
+		 allow = {
+		 year = 1880
+		  RUS_1196 = {
+		  owned_by = THIS
+		  }
+		  KOK_1190 = { 
+          owned_by = THIS
+		  }
+        }
+		effect = {
+        KOK_1190 = {
+			remove_core = KHI
+			remove_core = BUK
+			remove_core = KOK
+			add_core = THIS
+		}
+			RUS_1196  = {
+			remove_core = KHI
+			remove_core = BUK
+			remove_core = KOK
+			add_core = THIS
+		}
+			RUS_1182 = {
+			remove_core = KHI
+			remove_core = BUK
+			remove_core = KOK
+			add_core = THIS
+		}
+		badboy = 5
+		set_country_flag = core_tajiks
+		}
+}
+}
+
+

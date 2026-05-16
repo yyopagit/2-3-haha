@@ -1,0 +1,358 @@
+political_decisions = {
+	tanzimat_reforms = {
+	picture = tanzimat_reforms
+		potential = {
+			tag = TUR
+			NOT = {
+				has_country_flag = tanzimat_reforms_enacted
+			}
+		}
+		allow = {
+		OR = {
+			average_militancy = 3
+			 AND = {
+			average_militancy = 2
+			average_consciousness = 2
+			}
+			}
+		}
+		effect = {
+			any_pop = {
+				limit = {
+					NOT = {
+						has_pop_culture = turkish
+					}
+				}
+				militancy = -3
+				consciousness = 1
+			}
+			add_accepted_culture = azerbaijani
+			set_country_flag = tanzimat_reforms_enacted
+		}
+	}
+	vliyanie_tur = {
+	picture = reichsland_elsass
+		potential = {
+			tag = TUR
+			NOT = {
+				has_country_flag = kavkaz
+			}
+		}
+		allow = {
+			year = 1860
+			RUS_1098 = { owned_by = THIS }
+			PER_1112 = { owned_by = THIS }
+			1264 = { owned_by = PER }
+			1235 = { owned_by = PER }
+			1290 = { owned_by = PER }
+}
+		effect = {
+			prestige = 10
+			RUS_1048 = { add_core = TUR }
+			PER_1138 = { add_core = TUR }
+			PER_1138 = { remove_core = PER }
+			TUR_885 = { add_core = RUS }
+			PER = {
+				add_accepted_culture = kurdish
+			}
+			add_accepted_culture = north_caucasian
+			set_country_flag = kavkaz
+		}
+	}
+	vliyanie_tur2 = {
+	picture = reichsland_elsass
+		potential = {
+			tag = TUR
+			NOT = {
+				has_country_flag = kavkaz2
+			}
+		}
+		allow = {
+			year = 1880
+			has_country_flag = kavkaz
+			OR = {
+			RUS_1048 = { owned_by = THIS }
+			RUS_1196 = { owned_by = THIS }
+			PER_1138 = { owned_by = THIS }
+		}
+	}
+		effect = {
+			prestige = 20
+			add_accepted_culture = kazak
+			1109 = { trade_goods = iron }
+			1110 = { trade_goods = precious_metal }
+			1090 = { trade_goods = iron }
+			1105 = { trade_goods = precious_metal }
+			set_country_flag = kavkaz2
+		}
+	}
+	kanun_i_esasi = {
+	picture = kanun_i_esasi
+		potential = {
+			tag = TUR
+			NOT = {
+				has_country_flag = kanun_i_esasi_here
+			}
+		}
+		allow = {
+			prestige = 25
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			any_pop = {
+				consciousness = 3
+				literacy = 0.10
+			}
+			prestige = 15
+			add_accepted_culture = bulgarian
+			set_country_flag = kanun_i_esasi_here
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					average_militancy = 1
+				}
+			}
+		}
+	}
+	annex_gre = {
+	picture =  reichsland_elsass
+		potential = {
+			tag = TUR
+			 exists = GRE
+		}
+		allow = {
+			OR = {
+	and = {
+		tag = TUR
+        year = 1845
+		GRE = {
+				in_sphere = THIS
+		}
+	}
+	and = {
+ 		tag = TUR
+ 		year = 1850
+		GRE = {
+			 vassal_of = TUR
+		}
+	}
+	} 
+		}
+		effect = {
+		inherit	= GRE
+		add_accepted_culture = greek
+		prestige = 15
+		badboy = 5
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					average_militancy = 1
+				}
+			}
+		}
+	}
+	annex_val = {
+	picture =  reichsland_elsass
+		potential = {
+			tag = TUR
+			 exists = WAL
+		}
+		allow = {
+		NOT = { has_country_flag = walahiya 
+		has_country_flag = kavkaz
+		has_country_flag = kavkaz2}
+ 		tag = TUR
+ 		year = 1870 
+		WAL = {
+			 vassal_of = TUR
+			} 
+		}
+		effect = {
+		inherit	= WAL
+		WAL_665 = { add_core = TUR }
+		prestige = 15
+		badboy = 5
+		add_accepted_culture = romanian 
+		set_country_flag = walahiya
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	annex_mol = {
+	picture =  reichsland_elsass
+		potential = {
+			tag = TUR
+			 exists = MOL
+		}
+		allow = {
+		NOT = { has_country_flag = moldavia 
+		has_country_flag = kavkaz
+		has_country_flag = kavkaz2}
+ 		tag = TUR
+ 		year = 1870
+		MOL = {
+			 vassal_of = TUR
+			}
+		}
+		effect = {
+		inherit	= MOL
+		MOL_673 = { add_core = TUR }
+		prestige = 15
+		badboy = 5
+		add_accepted_culture = romanian 
+		set_country_flag = moldavia
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	foreign_investiments_tur = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = TUR
+			is_greater_power = no
+			NOT = {
+				has_country_modifier = investiments_yes
+			}
+		}
+		allow = {
+			prestige = 10
+			money = 120000
+		}
+		effect = {
+			add_country_modifier = {
+				name = investiments_yes
+				duration = 1825
+			}
+			THIS = {
+				country_event = { id=18905 days=0 }
+			}
+		}
+	}
+	tur_war_warfare = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = TUR
+			NOT = {
+				has_country_modifier = tur_war_warfare_army
+				has_country_modifier = tur_war_warfare_navy
+			}
+		}
+		allow = {
+			prestige = 10
+			money = 120000
+			army_decision_making = 1
+			naval_decision_making = 1
+		}
+		effect = {
+			THIS = {
+				country_event = { id=18917 days=0 }
+			}
+			money = -100000
+		}
+	}
+	tur_war_corp = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = TUR
+			NOT = {
+				has_country_flag = tur_war_corp_1
+			}
+		}
+		allow = {
+			mechanical_production = 1
+			money = 100000
+		}
+		effect = {
+			TUR_889 = {
+				add_province_modifier = {
+					name = tur_war_industry
+					duration = -1
+				}
+			}
+			prestige = 5
+			money = -100000
+			set_country_flag = tur_war_corp_1
+		}
+	}
+	tur_war_corp_sec = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = TUR
+			has_country_flag = tur_war_corp_1
+			NOT = {
+				has_country_flag = tur_war_corp_2
+			}
+		}
+		allow = {
+			semi_automatization = 1
+			money = 200000
+			prestige = 300
+			year = 1850
+		}
+		effect = {
+			TUR_884 = {
+				add_province_modifier = {
+					name = tur_war_industry
+					duration = -1
+				}
+			}
+			prestige = 5
+			money = -200000
+			set_country_flag = tur_war_corp_2
+		}
+	}
+	tur_war_corp_end = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = TUR
+			has_country_flag = tur_war_corp_2
+			NOT = {
+				has_country_flag = tur_war_corp_3
+			}
+		}
+		allow = {
+			assembly_line = 1
+			money = 500000
+			prestige = 400
+			year = 1870
+		}
+		effect = {
+			add_country_modifier = {
+					name = tur_war_industry_all
+					duration = -1
+			}
+			prestige = 5
+			money = -500000
+			set_country_flag = tur_war_corp_3
+		}
+	}
+	tur_tech_boost = {
+		picture = expand_motala_verkstad
+		potential = {
+			tag = TUR
+			NOT = {
+				has_country_flag = tur_tech_boost_yes
+			}
+		}
+		allow = {
+			money = 200000
+		}
+		effect = {
+			add_country_modifier = {
+					name = culture_tur_boost
+					duration = 3650
+			}
+			money = -200000
+			set_country_flag = tur_tech_boost_yes
+		}
+	}
+}
+

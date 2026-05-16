@@ -1,0 +1,533 @@
+2026-01-17 19:51:15,068 - INFO - Starting Flask server on 0.0.0.0:9100
+2026-01-17 19:51:15,068 - INFO - Available files: ['settings.txt', 'time', 'app (1).py']
+2026-01-17 19:51:15,068 - INFO - Server will log all connections to server.log
+2026-01-17 19:51:16,008 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 19:51:16,008 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 19:51:31,356 - INFO - Starting Flask server on 0.0.0.0:9100
+2026-01-17 19:51:31,356 - INFO - Available files: ['settings.txt', 'time', 'app (1).py', 'server.log']
+2026-01-17 19:51:31,356 - INFO - Server will log all connections to server.log
+2026-01-17 19:51:32,278 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 19:51:32,278 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 19:51:48,040 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:51:48,042 - INFO - Index generated in 1.6 ms, files: 3 for 10.0.0.6
+2026-01-17 19:51:48,042 - INFO - 10.0.0.6 - - [17/Jan/2026 19:51:48] "GET / HTTP/1.1" 200 -
+2026-01-17 19:51:48,958 - INFO - Access from 10.0.5.73 to /
+2026-01-17 19:51:48,960 - INFO - Index generated in 1.1 ms, files: 3 for 10.0.5.73
+2026-01-17 19:51:48,960 - INFO - 10.0.5.73 - - [17/Jan/2026 19:51:48] "GET / HTTP/1.1" 200 -
+2026-01-17 19:51:49,126 - INFO - 10.0.0.6 - - [17/Jan/2026 19:51:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:51:49,370 - INFO - 10.0.5.73 - - [17/Jan/2026 19:51:49] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:54:17,580 - INFO - Starting Flask server on 0.0.0.0:9100
+2026-01-17 19:54:17,580 - INFO - Available files: ['time', 'settings.txt']
+2026-01-17 19:54:17,581 - INFO - Server will log all connections to server.log
+2026-01-17 19:54:18,484 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 19:54:18,485 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 19:54:20,729 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:54:20,730 - INFO - Index generated in 1.1 ms, files: 3 for 10.0.0.6
+2026-01-17 19:54:20,730 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:20] "GET / HTTP/1.1" 200 -
+2026-01-17 19:54:20,762 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:54:21,879 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:54:21,882 - INFO - Index generated in 1.1 ms, files: 3 for 10.0.0.6
+2026-01-17 19:54:21,882 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:21] "GET / HTTP/1.1" 200 -
+2026-01-17 19:54:21,908 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:21] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:54:22,432 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:54:22,434 - INFO - Index generated in 1.1 ms, files: 3 for 10.0.0.6
+2026-01-17 19:54:22,434 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:22] "GET / HTTP/1.1" 200 -
+2026-01-17 19:54:22,456 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:22] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:54:23,369 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:54:23,370 - INFO - Index generated in 0.8 ms, files: 3 for 10.0.0.6
+2026-01-17 19:54:23,371 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:23] "GET / HTTP/1.1" 200 -
+2026-01-17 19:54:23,391 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:54:23,926 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:54:23,927 - INFO - Index generated in 0.8 ms, files: 3 for 10.0.0.6
+2026-01-17 19:54:23,927 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:23] "GET / HTTP/1.1" 200 -
+2026-01-17 19:54:23,946 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:23] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:54:30,259 - INFO - Starting Flask server on 0.0.0.0:9100
+2026-01-17 19:54:30,260 - INFO - Available files: ['time', 'settings.txt']
+2026-01-17 19:54:30,260 - INFO - Server will log all connections to server.log
+2026-01-17 19:54:31,165 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 19:54:31,165 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 19:54:39,633 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:54:39,634 - INFO - Index generated in 1.1 ms, files: 3 for 10.0.0.6
+2026-01-17 19:54:39,635 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:39] "GET / HTTP/1.1" 200 -
+2026-01-17 19:54:39,657 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:39] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:54:40,212 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:54:40,213 - INFO - Index generated in 1.0 ms, files: 3 for 10.0.0.6
+2026-01-17 19:54:40,214 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:40] "GET / HTTP/1.1" 200 -
+2026-01-17 19:54:40,234 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:40] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:54:48,409 - INFO - Starting Flask server on 0.0.0.0:9100
+2026-01-17 19:54:48,409 - INFO - Available files: ['settings.txt', 'time']
+2026-01-17 19:54:48,410 - INFO - Server will log all connections to server.log
+2026-01-17 19:54:49,325 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 19:54:49,325 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 19:54:59,831 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:54:59,833 - INFO - Index generated in 1.6 ms, files: 3 for 10.0.0.6
+2026-01-17 19:54:59,833 - INFO - 10.0.0.6 - - [17/Jan/2026 19:54:59] "GET / HTTP/1.1" 200 -
+2026-01-17 19:55:00,565 - INFO - 10.0.0.6 - - [17/Jan/2026 19:55:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:55:01,925 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:55:01,926 - INFO - Index generated in 1.2 ms, files: 3 for 10.0.0.6
+2026-01-17 19:55:01,926 - INFO - 10.0.0.6 - - [17/Jan/2026 19:55:01] "GET / HTTP/1.1" 200 -
+2026-01-17 19:55:01,946 - INFO - 10.0.0.6 - - [17/Jan/2026 19:55:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:55:02,338 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:55:02,339 - INFO - Index generated in 1.0 ms, files: 3 for 10.0.0.6
+2026-01-17 19:55:02,339 - INFO - 10.0.0.6 - - [17/Jan/2026 19:55:02] "GET / HTTP/1.1" 200 -
+2026-01-17 19:55:02,360 - INFO - 10.0.0.6 - - [17/Jan/2026 19:55:02] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:55:02,492 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:55:02,493 - INFO - Index generated in 0.8 ms, files: 3 for 10.0.0.6
+2026-01-17 19:55:02,493 - INFO - 10.0.0.6 - - [17/Jan/2026 19:55:02] "GET / HTTP/1.1" 200 -
+2026-01-17 19:55:02,512 - INFO - 10.0.0.6 - - [17/Jan/2026 19:55:02] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:55:02,647 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:55:02,648 - INFO - Index generated in 0.8 ms, files: 3 for 10.0.0.6
+2026-01-17 19:55:02,648 - INFO - 10.0.0.6 - - [17/Jan/2026 19:55:02] "GET / HTTP/1.1" 200 -
+2026-01-17 19:55:02,665 - INFO - 10.0.0.6 - - [17/Jan/2026 19:55:02] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:55:02,811 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:55:02,811 - INFO - Index generated in 0.8 ms, files: 3 for 10.0.0.6
+2026-01-17 19:55:02,812 - INFO - 10.0.0.6 - - [17/Jan/2026 19:55:02] "GET / HTTP/1.1" 200 -
+2026-01-17 19:55:02,834 - INFO - 10.0.0.6 - - [17/Jan/2026 19:55:02] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:55:02,990 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:55:02,990 - INFO - Index generated in 0.8 ms, files: 3 for 10.0.0.6
+2026-01-17 19:55:02,991 - INFO - 10.0.0.6 - - [17/Jan/2026 19:55:02] "GET / HTTP/1.1" 200 -
+2026-01-17 19:55:03,013 - INFO - 10.0.0.6 - - [17/Jan/2026 19:55:03] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:56:12,872 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:56:12,873 - INFO - Index generated in 1.0 ms, files: 3 for 10.0.0.6
+2026-01-17 19:56:12,874 - INFO - 10.0.0.6 - - [17/Jan/2026 19:56:12] "GET / HTTP/1.1" 200 -
+2026-01-17 19:56:12,893 - INFO - 10.0.0.6 - - [17/Jan/2026 19:56:12] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:56:13,475 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:56:13,476 - INFO - Index generated in 1.0 ms, files: 3 for 10.0.0.6
+2026-01-17 19:56:13,476 - INFO - 10.0.0.6 - - [17/Jan/2026 19:56:13] "GET / HTTP/1.1" 200 -
+2026-01-17 19:56:13,495 - INFO - 10.0.0.6 - - [17/Jan/2026 19:56:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:56:13,624 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:56:13,625 - INFO - Index generated in 0.9 ms, files: 3 for 10.0.0.6
+2026-01-17 19:56:13,625 - INFO - 10.0.0.6 - - [17/Jan/2026 19:56:13] "GET / HTTP/1.1" 200 -
+2026-01-17 19:56:13,643 - INFO - 10.0.0.6 - - [17/Jan/2026 19:56:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:56:13,775 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:56:13,776 - INFO - Index generated in 0.9 ms, files: 3 for 10.0.0.6
+2026-01-17 19:56:13,776 - INFO - 10.0.0.6 - - [17/Jan/2026 19:56:13] "GET / HTTP/1.1" 200 -
+2026-01-17 19:56:13,793 - INFO - 10.0.0.6 - - [17/Jan/2026 19:56:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:57:56,677 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:57:56,679 - INFO - Index generated in 0.9 ms, files: 3 for 10.0.0.6
+2026-01-17 19:57:56,679 - INFO - 10.0.0.6 - - [17/Jan/2026 19:57:56] "GET / HTTP/1.1" 200 -
+2026-01-17 19:57:56,705 - INFO - 10.0.0.6 - - [17/Jan/2026 19:57:56] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:58:14,348 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:58:14,349 - INFO - Index generated in 0.8 ms, files: 3 for 10.0.0.6
+2026-01-17 19:58:14,349 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:14] "GET / HTTP/1.1" 200 -
+2026-01-17 19:58:14,370 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:58:14,840 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:58:14,840 - INFO - Index generated in 1.0 ms, files: 3 for 10.0.0.6
+2026-01-17 19:58:14,841 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:14] "GET / HTTP/1.1" 200 -
+2026-01-17 19:58:14,858 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:14] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:58:15,010 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:58:15,011 - INFO - Index generated in 0.9 ms, files: 3 for 10.0.0.6
+2026-01-17 19:58:15,011 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:15] "GET / HTTP/1.1" 200 -
+2026-01-17 19:58:15,026 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:58:15,180 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:58:15,181 - INFO - Index generated in 1.0 ms, files: 3 for 10.0.0.6
+2026-01-17 19:58:15,181 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:15] "GET / HTTP/1.1" 200 -
+2026-01-17 19:58:15,202 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:58:15,348 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:58:15,349 - INFO - Index generated in 1.2 ms, files: 3 for 10.0.0.6
+2026-01-17 19:58:15,350 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:15] "GET / HTTP/1.1" 200 -
+2026-01-17 19:58:15,370 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:58:15,511 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:58:15,513 - INFO - Index generated in 1.2 ms, files: 3 for 10.0.0.6
+2026-01-17 19:58:15,513 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:15] "GET / HTTP/1.1" 200 -
+2026-01-17 19:58:15,538 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:58:15,673 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:58:15,674 - INFO - Index generated in 0.8 ms, files: 3 for 10.0.0.6
+2026-01-17 19:58:15,674 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:15] "GET / HTTP/1.1" 200 -
+2026-01-17 19:58:15,691 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 19:58:15,845 - INFO - Access from 10.0.0.6 to /
+2026-01-17 19:58:15,846 - INFO - Index generated in 1.0 ms, files: 3 for 10.0.0.6
+2026-01-17 19:58:15,846 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:15] "GET / HTTP/1.1" 200 -
+2026-01-17 19:58:15,865 - INFO - 10.0.0.6 - - [17/Jan/2026 19:58:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:02:47,731 - INFO - Starting Flask server on 0.0.0.0:9100
+2026-01-17 20:02:47,731 - INFO - Available files: ['time', 'settings.txt']
+2026-01-17 20:02:47,732 - INFO - Server will log all connections to server.log
+2026-01-17 20:02:48,642 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 20:02:48,642 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 20:02:48,644 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 20:02:48,644 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 20:02:52,237 - INFO - Access from 10.0.0.6 to /
+2026-01-17 20:02:52,238 - INFO - Index generated in 0.8 ms for 10.0.0.6
+2026-01-17 20:02:52,239 - INFO - 10.0.0.6 - - [17/Jan/2026 20:02:52] "GET / HTTP/1.1" 200 -
+2026-01-17 20:02:52,239 - INFO - 10.0.0.6 - - [17/Jan/2026 20:02:52] "GET / HTTP/1.1" 200 -
+2026-01-17 20:02:53,134 - INFO - 10.0.0.6 - - [17/Jan/2026 20:02:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:02:53,134 - INFO - 10.0.0.6 - - [17/Jan/2026 20:02:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:02:59,649 - INFO - Access from 10.0.5.73 to /
+2026-01-17 20:02:59,650 - INFO - Index generated in 0.8 ms for 10.0.5.73
+2026-01-17 20:02:59,651 - INFO - 10.0.5.73 - - [17/Jan/2026 20:02:59] "GET / HTTP/1.1" 200 -
+2026-01-17 20:02:59,651 - INFO - 10.0.5.73 - - [17/Jan/2026 20:02:59] "GET / HTTP/1.1" 200 -
+2026-01-17 20:03:00,452 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:03:00,452 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:03:08,157 - INFO - Access from 10.0.0.6 to /browse/decisions
+2026-01-17 20:03:08,168 - INFO - Folder listing generated in 10.3 ms for 'decisions' from 10.0.0.6
+2026-01-17 20:03:08,169 - INFO - 10.0.0.6 - - [17/Jan/2026 20:03:08] "GET /browse/decisions HTTP/1.1" 200 -
+2026-01-17 20:03:08,169 - INFO - 10.0.0.6 - - [17/Jan/2026 20:03:08] "GET /browse/decisions HTTP/1.1" 200 -
+2026-01-17 20:03:08,209 - INFO - 10.0.0.6 - - [17/Jan/2026 20:03:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:03:08,209 - INFO - 10.0.0.6 - - [17/Jan/2026 20:03:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:03:12,387 - INFO - Access from 10.0.5.73 to /browse/decisions
+2026-01-17 20:03:12,391 - INFO - Folder listing generated in 4.3 ms for 'decisions' from 10.0.5.73
+2026-01-17 20:03:12,391 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:12] "GET /browse/decisions HTTP/1.1" 200 -
+2026-01-17 20:03:12,391 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:12] "GET /browse/decisions HTTP/1.1" 200 -
+2026-01-17 20:03:12,973 - INFO - Access from 10.0.0.6 to /
+2026-01-17 20:03:12,974 - INFO - Index generated in 1.2 ms for 10.0.0.6
+2026-01-17 20:03:12,974 - INFO - 10.0.0.6 - - [17/Jan/2026 20:03:12] "GET / HTTP/1.1" 200 -
+2026-01-17 20:03:12,974 - INFO - 10.0.0.6 - - [17/Jan/2026 20:03:12] "GET / HTTP/1.1" 200 -
+2026-01-17 20:03:13,023 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:03:13,024 - INFO - 10.0.0.6 - - [17/Jan/2026 20:03:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:03:13,023 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:03:13,024 - INFO - 10.0.0.6 - - [17/Jan/2026 20:03:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:03:17,544 - INFO - Access from 10.0.5.73 to /download/decisions/ZUL.txt
+2026-01-17 20:03:17,545 - INFO - File download: 'decisions/ZUL.txt' by 10.0.5.73 (validated in 0.8 ms)
+2026-01-17 20:03:17,609 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:17] "GET /download/decisions/ZUL.txt HTTP/1.1" 200 -
+2026-01-17 20:03:17,609 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:17] "GET /download/decisions/ZUL.txt HTTP/1.1" 200 -
+2026-01-17 20:03:32,669 - INFO - Access from 10.0.0.6 to /browse/decisions
+2026-01-17 20:03:32,673 - INFO - Folder listing generated in 4.3 ms for 'decisions' from 10.0.0.6
+2026-01-17 20:03:32,674 - INFO - 10.0.0.6 - - [17/Jan/2026 20:03:32] "GET /browse/decisions HTTP/1.1" 200 -
+2026-01-17 20:03:32,674 - INFO - 10.0.0.6 - - [17/Jan/2026 20:03:32] "GET /browse/decisions HTTP/1.1" 200 -
+2026-01-17 20:03:32,725 - INFO - 10.0.0.6 - - [17/Jan/2026 20:03:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:03:32,725 - INFO - 10.0.0.6 - - [17/Jan/2026 20:03:32] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:03:42,125 - INFO - Access from 10.0.5.73 to /
+2026-01-17 20:03:42,126 - INFO - Index generated in 1.1 ms for 10.0.5.73
+2026-01-17 20:03:42,126 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:42] "GET / HTTP/1.1" 200 -
+2026-01-17 20:03:42,126 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:42] "GET / HTTP/1.1" 200 -
+2026-01-17 20:03:42,554 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:03:42,554 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:03:44,105 - INFO - Access from 10.0.5.73 to /browse/events
+2026-01-17 20:03:44,109 - INFO - Folder listing generated in 3.5 ms for 'events' from 10.0.5.73
+2026-01-17 20:03:44,109 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:44] "GET /browse/events HTTP/1.1" 200 -
+2026-01-17 20:03:44,109 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:44] "GET /browse/events HTTP/1.1" 200 -
+2026-01-17 20:03:45,432 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:03:45,432 - INFO - 10.0.5.73 - - [17/Jan/2026 20:03:45] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:06:16,911 - INFO - Access from 10.0.5.73 to /
+2026-01-17 20:06:16,912 - INFO - Index generated in 1.0 ms for 10.0.5.73
+2026-01-17 20:06:16,912 - INFO - 10.0.5.73 - - [17/Jan/2026 20:06:16] "GET / HTTP/1.1" 200 -
+2026-01-17 20:06:16,912 - INFO - 10.0.5.73 - - [17/Jan/2026 20:06:16] "GET / HTTP/1.1" 200 -
+2026-01-17 20:06:17,293 - INFO - 10.0.5.73 - - [17/Jan/2026 20:06:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:06:17,293 - INFO - 10.0.5.73 - - [17/Jan/2026 20:06:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:07:06,854 - INFO - Access from 10.0.0.6 to /download/decisions/AUS.txt
+2026-01-17 20:07:06,855 - INFO - File download: 'decisions/AUS.txt' by 10.0.0.6 (validated in 0.6 ms)
+2026-01-17 20:07:06,856 - INFO - 10.0.0.6 - - [17/Jan/2026 20:07:06] "GET /download/decisions/AUS.txt HTTP/1.1" 200 -
+2026-01-17 20:07:06,856 - INFO - 10.0.0.6 - - [17/Jan/2026 20:07:06] "GET /download/decisions/AUS.txt HTTP/1.1" 200 -
+2026-01-17 20:07:08,584 - INFO - 10.0.0.6 - - [17/Jan/2026 20:07:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:07:08,584 - INFO - 10.0.0.6 - - [17/Jan/2026 20:07:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:11:36,340 - INFO - Access from 10.0.5.73 to /download_folder/common
+2026-01-17 20:11:36,585 - INFO - Folder download: 'common' as common.zip (361681 bytes) by 10.0.5.73 (created in 246.0 ms)
+2026-01-17 20:11:36,586 - INFO - 10.0.5.73 - - [17/Jan/2026 20:11:36] "GET /download_folder/common HTTP/1.1" 200 -
+2026-01-17 20:11:36,586 - INFO - 10.0.5.73 - - [17/Jan/2026 20:11:36] "GET /download_folder/common HTTP/1.1" 200 -
+2026-01-17 20:11:43,002 - INFO - Access from 10.0.5.73 to /download_folder/decisions
+2026-01-17 20:11:43,027 - INFO - Folder download: 'decisions' as decisions.zip (48364 bytes) by 10.0.5.73 (created in 24.5 ms)
+2026-01-17 20:11:43,028 - INFO - 10.0.5.73 - - [17/Jan/2026 20:11:43] "GET /download_folder/decisions HTTP/1.1" 200 -
+2026-01-17 20:11:43,028 - INFO - 10.0.5.73 - - [17/Jan/2026 20:11:43] "GET /download_folder/decisions HTTP/1.1" 200 -
+2026-01-17 20:11:52,499 - INFO - Access from 10.0.5.73 to /download_folder/events
+2026-01-17 20:11:52,534 - INFO - Folder download: 'events' as events.zip (101499 bytes) by 10.0.5.73 (created in 35.0 ms)
+2026-01-17 20:11:52,534 - INFO - 10.0.5.73 - - [17/Jan/2026 20:11:52] "GET /download_folder/events HTTP/1.1" 200 -
+2026-01-17 20:11:52,534 - INFO - 10.0.5.73 - - [17/Jan/2026 20:11:52] "GET /download_folder/events HTTP/1.1" 200 -
+2026-01-17 20:14:30,200 - INFO - Access from 10.0.0.6 to /
+2026-01-17 20:14:30,202 - INFO - Index generated in 1.4 ms for 10.0.0.6
+2026-01-17 20:14:30,203 - INFO - 10.0.0.6 - - [17/Jan/2026 20:14:30] "GET / HTTP/1.1" 200 -
+2026-01-17 20:14:30,203 - INFO - 10.0.0.6 - - [17/Jan/2026 20:14:30] "GET / HTTP/1.1" 200 -
+2026-01-17 20:14:30,248 - INFO - 10.0.0.6 - - [17/Jan/2026 20:14:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:14:30,248 - INFO - 10.0.0.6 - - [17/Jan/2026 20:14:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:15:57,599 - INFO - Starting Flask server on 0.0.0.0:9100
+2026-01-17 20:15:57,599 - INFO - Available files: ['time', 'settings.txt']
+2026-01-17 20:15:57,600 - INFO - Server will log all connections to server.log
+2026-01-17 20:15:58,521 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 20:15:58,521 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 20:15:58,524 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 20:15:58,524 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 20:16:00,313 - INFO - Access from 10.0.0.6 to /
+2026-01-17 20:16:00,315 - INFO - Index generated in 1.4 ms for 10.0.0.6
+2026-01-17 20:16:00,316 - INFO - 10.0.0.6 - - [17/Jan/2026 20:16:00] "GET / HTTP/1.1" 200 -
+2026-01-17 20:16:00,316 - INFO - 10.0.0.6 - - [17/Jan/2026 20:16:00] "GET / HTTP/1.1" 200 -
+2026-01-17 20:16:00,347 - INFO - 10.0.0.6 - - [17/Jan/2026 20:16:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:16:00,347 - INFO - 10.0.0.6 - - [17/Jan/2026 20:16:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:16:05,778 - INFO - Access from 10.0.5.73 to /
+2026-01-17 20:16:05,779 - INFO - Index generated in 1.0 ms for 10.0.5.73
+2026-01-17 20:16:05,780 - INFO - 10.0.5.73 - - [17/Jan/2026 20:16:05] "GET / HTTP/1.1" 200 -
+2026-01-17 20:16:05,780 - INFO - 10.0.5.73 - - [17/Jan/2026 20:16:05] "GET / HTTP/1.1" 200 -
+2026-01-17 20:16:06,206 - INFO - 10.0.5.73 - - [17/Jan/2026 20:16:06] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:16:06,206 - INFO - 10.0.5.73 - - [17/Jan/2026 20:16:06] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:16:08,725 - INFO - Access from 10.0.5.73 to /download_all
+2026-01-17 20:16:33,270 - INFO - Root folder download as 7.zip (265901746 bytes) by 10.0.5.73 (created in 24545.9 ms)
+2026-01-17 20:16:33,271 - INFO - 10.0.5.73 - - [17/Jan/2026 20:16:33] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:16:33,271 - INFO - 10.0.5.73 - - [17/Jan/2026 20:16:33] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:19:49,070 - INFO - Access from 10.0.5.73 to /download_all
+2026-01-17 20:20:12,554 - INFO - Root folder download as 7.zip (265901746 bytes) by 10.0.5.73 (created in 23483.3 ms)
+2026-01-17 20:20:12,556 - INFO - 10.0.5.73 - - [17/Jan/2026 20:20:12] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:20:12,556 - INFO - 10.0.5.73 - - [17/Jan/2026 20:20:12] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:20:50,058 - INFO - Access from 10.0.0.6 to /download_all
+2026-01-17 20:20:53,624 - INFO - Access from 10.0.0.6 to /
+2026-01-17 20:20:53,626 - INFO - Index generated in 1.8 ms for 10.0.0.6
+2026-01-17 20:20:53,626 - INFO - 10.0.0.6 - - [17/Jan/2026 20:20:53] "GET / HTTP/1.1" 200 -
+2026-01-17 20:20:53,626 - INFO - 10.0.0.6 - - [17/Jan/2026 20:20:53] "GET / HTTP/1.1" 200 -
+2026-01-17 20:20:53,680 - INFO - 10.0.0.6 - - [17/Jan/2026 20:20:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:20:53,680 - INFO - 10.0.0.6 - - [17/Jan/2026 20:20:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:20:54,337 - INFO - Access from 10.0.0.6 to /
+2026-01-17 20:20:54,338 - INFO - Index generated in 1.3 ms for 10.0.0.6
+2026-01-17 20:20:54,339 - INFO - 10.0.0.6 - - [17/Jan/2026 20:20:54] "GET / HTTP/1.1" 200 -
+2026-01-17 20:20:54,339 - INFO - 10.0.0.6 - - [17/Jan/2026 20:20:54] "GET / HTTP/1.1" 200 -
+2026-01-17 20:20:54,370 - INFO - 10.0.0.6 - - [17/Jan/2026 20:20:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:20:54,370 - INFO - 10.0.0.6 - - [17/Jan/2026 20:20:54] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:20:55,740 - INFO - Access from 10.0.0.6 to /
+2026-01-17 20:20:55,742 - INFO - Index generated in 1.3 ms for 10.0.0.6
+2026-01-17 20:20:55,742 - INFO - 10.0.0.6 - - [17/Jan/2026 20:20:55] "GET / HTTP/1.1" 200 -
+2026-01-17 20:20:55,742 - INFO - 10.0.0.6 - - [17/Jan/2026 20:20:55] "GET / HTTP/1.1" 200 -
+2026-01-17 20:20:55,774 - INFO - 10.0.0.6 - - [17/Jan/2026 20:20:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:20:55,774 - INFO - 10.0.0.6 - - [17/Jan/2026 20:20:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:20:56,988 - INFO - Access from 10.0.0.6 to /download_all
+2026-01-17 20:21:04,597 - INFO - Access from 10.0.0.6 to /download_folder/decisions
+2026-01-17 20:21:04,624 - INFO - Folder download: 'decisions' as decisions.zip (48364 bytes) by 10.0.0.6 (created in 26.0 ms)
+2026-01-17 20:21:04,624 - INFO - 10.0.0.6 - - [17/Jan/2026 20:21:04] "GET /download_folder/decisions HTTP/1.1" 200 -
+2026-01-17 20:21:04,624 - INFO - 10.0.0.6 - - [17/Jan/2026 20:21:04] "GET /download_folder/decisions HTTP/1.1" 200 -
+2026-01-17 20:21:07,360 - INFO - Access from 10.0.0.6 to /download_folder/gfx
+2026-01-17 20:21:15,815 - INFO - Root folder download as 7.zip (265901746 bytes) by 10.0.0.6 (created in 25756.6 ms)
+2026-01-17 20:21:15,816 - INFO - 10.0.0.6 - - [17/Jan/2026 20:21:15] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:21:15,816 - INFO - 10.0.0.6 - - [17/Jan/2026 20:21:15] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:21:22,523 - INFO - Root folder download as 7.zip (265901746 bytes) by 10.0.0.6 (created in 25534.8 ms)
+2026-01-17 20:21:22,523 - INFO - 10.0.0.6 - - [17/Jan/2026 20:21:22] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:21:22,523 - INFO - 10.0.0.6 - - [17/Jan/2026 20:21:22] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:21:23,142 - INFO - Folder download: 'gfx' as gfx.zip (125180494 bytes) by 10.0.0.6 (created in 15781.7 ms)
+2026-01-17 20:21:23,143 - INFO - 10.0.0.6 - - [17/Jan/2026 20:21:23] "GET /download_folder/gfx HTTP/1.1" 200 -
+2026-01-17 20:21:23,143 - INFO - 10.0.0.6 - - [17/Jan/2026 20:21:23] "GET /download_folder/gfx HTTP/1.1" 200 -
+2026-01-17 20:25:58,003 - INFO - Starting Flask server on 0.0.0.0:9100
+2026-01-17 20:25:58,003 - INFO - Available files: ['settings.txt', 'time']
+2026-01-17 20:25:58,003 - INFO - Server will log all connections to server.log
+2026-01-17 20:25:58,013 - ERROR - Failed to start server: run_simple() got an unexpected keyword argument 'request_timeout'
+2026-01-17 20:26:23,800 - INFO - Starting Flask server on 0.0.0.0:9100
+2026-01-17 20:26:23,801 - INFO - Available files: ['settings.txt', 'time']
+2026-01-17 20:26:23,802 - INFO - Server will log all connections to server.log
+2026-01-17 20:26:24,704 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 20:26:24,704 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 20:26:24,706 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 20:26:24,706 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 20:26:27,508 - INFO - Access from 10.0.0.6 to /
+2026-01-17 20:26:27,510 - INFO - Index generated in 1.2 ms for 10.0.0.6
+2026-01-17 20:26:27,511 - INFO - 10.0.0.6 - - [17/Jan/2026 20:26:27] "GET / HTTP/1.1" 200 -
+2026-01-17 20:26:27,511 - INFO - 10.0.0.6 - - [17/Jan/2026 20:26:27] "GET / HTTP/1.1" 200 -
+2026-01-17 20:26:27,537 - INFO - 10.0.0.6 - - [17/Jan/2026 20:26:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:26:27,537 - INFO - 10.0.0.6 - - [17/Jan/2026 20:26:27] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:26:28,471 - INFO - Access from 10.0.0.6 to /
+2026-01-17 20:26:28,473 - INFO - Index generated in 1.2 ms for 10.0.0.6
+2026-01-17 20:26:28,473 - INFO - 10.0.0.6 - - [17/Jan/2026 20:26:28] "GET / HTTP/1.1" 200 -
+2026-01-17 20:26:28,473 - INFO - 10.0.0.6 - - [17/Jan/2026 20:26:28] "GET / HTTP/1.1" 200 -
+2026-01-17 20:26:28,504 - INFO - 10.0.0.6 - - [17/Jan/2026 20:26:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:26:28,504 - INFO - 10.0.0.6 - - [17/Jan/2026 20:26:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:26:30,727 - INFO - Access from 10.0.0.6 to /download_all
+2026-01-17 20:26:35,700 - INFO - Root folder download as 7.zip (645136845 bytes) by 10.0.0.6 (created in 4973.4 ms)
+2026-01-17 20:26:35,706 - INFO - 10.0.0.6 - - [17/Jan/2026 20:26:35] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:26:35,706 - INFO - 10.0.0.6 - - [17/Jan/2026 20:26:35] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:27:05,460 - INFO - Access from 10.0.5.73 to /download_all
+2026-01-17 20:27:13,388 - INFO - Root folder download as 7.zip (645136845 bytes) by 10.0.5.73 (created in 7928.1 ms)
+2026-01-17 20:27:13,389 - INFO - 10.0.5.73 - - [17/Jan/2026 20:27:13] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:27:13,389 - INFO - 10.0.5.73 - - [17/Jan/2026 20:27:13] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:28:59,172 - INFO - Starting Flask server on 0.0.0.0:9100
+2026-01-17 20:28:59,173 - INFO - Available files: ['settings.txt', 'time']
+2026-01-17 20:28:59,173 - INFO - Server will log all connections to server.log
+2026-01-17 20:29:00,078 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 20:29:00,078 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 20:29:00,081 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 20:29:00,081 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 20:29:07,244 - INFO - Access from 10.0.5.73 to /download_all
+2026-01-17 20:29:42,804 - INFO - Root folder download as 7.zip (264968573 bytes) by 10.0.5.73 (created in 35559.8 ms)
+2026-01-17 20:29:42,804 - INFO - 10.0.5.73 - - [17/Jan/2026 20:29:42] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:29:42,804 - INFO - 10.0.5.73 - - [17/Jan/2026 20:29:42] "GET /download_all HTTP/1.1" 200 -
+2026-01-17 20:32:15,804 - INFO - Starting Flask server on 0.0.0.0:9100
+2026-01-17 20:32:15,805 - INFO - Available files: ['settings.txt', 'time']
+2026-01-17 20:32:15,805 - INFO - Server will log all connections to server.log
+2026-01-17 20:32:16,727 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 20:32:16,727 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:9100
+ * Running on http://10.0.0.6:9100
+2026-01-17 20:32:16,729 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 20:32:16,729 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 20:32:18,456 - INFO - Access from 10.0.0.6 to /
+2026-01-17 20:32:18,458 - INFO - Index generated in 1.4 ms for 10.0.0.6
+2026-01-17 20:32:18,459 - INFO - 10.0.0.6 - - [17/Jan/2026 20:32:18] "GET / HTTP/1.1" 200 -
+2026-01-17 20:32:18,459 - INFO - 10.0.0.6 - - [17/Jan/2026 20:32:18] "GET / HTTP/1.1" 200 -
+2026-01-17 20:32:20,429 - INFO - 10.0.0.6 - - [17/Jan/2026 20:32:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:32:20,429 - INFO - 10.0.0.6 - - [17/Jan/2026 20:32:20] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:32:42,504 - INFO - Access from 10.0.5.73 to /
+2026-01-17 20:32:42,506 - INFO - Index generated in 1.3 ms for 10.0.5.73
+2026-01-17 20:32:42,506 - INFO - 10.0.5.73 - - [17/Jan/2026 20:32:42] "GET / HTTP/1.1" 200 -
+2026-01-17 20:32:42,506 - INFO - 10.0.5.73 - - [17/Jan/2026 20:32:42] "GET / HTTP/1.1" 200 -
+2026-01-17 20:32:42,900 - INFO - 10.0.5.73 - - [17/Jan/2026 20:32:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:32:42,900 - INFO - 10.0.5.73 - - [17/Jan/2026 20:32:42] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:33:16,084 - INFO - Access from 10.0.5.73 to /download_selected
+2026-01-17 20:33:53,342 - INFO - Selected items download: 16 items as selected_items_1768671233.zip (148255835 bytes) by 10.0.5.73 (created in 37258.8 ms)
+2026-01-17 20:33:53,343 - INFO - 10.0.5.73 - - [17/Jan/2026 20:33:53] "POST /download_selected HTTP/1.1" 200 -
+2026-01-17 20:33:53,343 - INFO - 10.0.5.73 - - [17/Jan/2026 20:33:53] "POST /download_selected HTTP/1.1" 200 -
+2026-01-17 20:37:21,207 - INFO - Starting Flask server on 0.0.0.0:50001
+2026-01-17 20:37:21,207 - INFO - External access: http://217.10.41.213:50001
+2026-01-17 20:37:21,207 - INFO - Available files: ['settings.txt', 'time']
+2026-01-17 20:37:21,208 - INFO - Server will log all connections to server.log
+2026-01-17 20:37:21,224 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.0.7:50001
+2026-01-17 20:37:21,224 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:50001
+ * Running on http://192.168.0.7:50001
+2026-01-17 20:37:21,225 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 20:37:21,225 - INFO - [33mPress CTRL+C to quit[0m
+2026-01-17 20:37:43,687 - INFO - Access from 217.10.41.213 to /
+2026-01-17 20:37:43,689 - INFO - Index generated in 1.4 ms for 217.10.41.213
+2026-01-17 20:37:43,689 - INFO - 217.10.41.213 - - [17/Jan/2026 20:37:43] "GET / HTTP/1.1" 200 -
+2026-01-17 20:37:43,689 - INFO - 217.10.41.213 - - [17/Jan/2026 20:37:43] "GET / HTTP/1.1" 200 -
+2026-01-17 20:37:44,387 - INFO - 217.10.41.213 - - [17/Jan/2026 20:37:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:37:44,387 - INFO - 217.10.41.213 - - [17/Jan/2026 20:37:44] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:38:13,133 - INFO - Access from 194.147.115.29 to /
+2026-01-17 20:38:13,135 - INFO - Index generated in 1.2 ms for 194.147.115.29
+2026-01-17 20:38:13,135 - INFO - 194.147.115.29 - - [17/Jan/2026 20:38:13] "GET / HTTP/1.1" 200 -
+2026-01-17 20:38:13,135 - INFO - 194.147.115.29 - - [17/Jan/2026 20:38:13] "GET / HTTP/1.1" 200 -
+2026-01-17 20:38:13,830 - INFO - 194.147.115.29 - - [17/Jan/2026 20:38:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:38:13,830 - INFO - 194.147.115.29 - - [17/Jan/2026 20:38:13] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:38:47,798 - INFO - Access from 35.237.4.214 to /
+2026-01-17 20:38:47,799 - INFO - Index generated in 1.5 ms for 35.237.4.214
+2026-01-17 20:38:47,800 - INFO - 35.237.4.214 - - [17/Jan/2026 20:38:47] "GET / HTTP/1.1" 200 -
+2026-01-17 20:38:47,800 - INFO - 35.237.4.214 - - [17/Jan/2026 20:38:47] "GET / HTTP/1.1" 200 -
+2026-01-17 20:38:52,473 - INFO - Access from 134.17.133.254 to /
+2026-01-17 20:38:52,474 - INFO - Index generated in 1.0 ms for 134.17.133.254
+2026-01-17 20:38:52,475 - INFO - 134.17.133.254 - - [17/Jan/2026 20:38:52] "GET / HTTP/1.1" 200 -
+2026-01-17 20:38:52,475 - INFO - 134.17.133.254 - - [17/Jan/2026 20:38:52] "GET / HTTP/1.1" 200 -
+2026-01-17 20:38:52,704 - INFO - 134.17.133.254 - - [17/Jan/2026 20:38:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:38:52,704 - INFO - 134.17.133.254 - - [17/Jan/2026 20:38:52] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-17 20:39:28,525 - INFO - Access from 134.17.133.254 to /download_selected
+2026-01-17 20:40:03,113 - INFO - Selected items download: 15 items as selected_items_1768671603.zip (148235683 bytes) by 134.17.133.254 (created in 34588.1 ms)
+2026-01-17 20:40:03,113 - INFO - 134.17.133.254 - - [17/Jan/2026 20:40:03] "POST /download_selected HTTP/1.1" 200 -
+2026-01-17 20:40:03,113 - INFO - 134.17.133.254 - - [17/Jan/2026 20:40:03] "POST /download_selected HTTP/1.1" 200 -
+2026-01-18 00:16:27,084 - ERROR - 162.142.125.115 - - [18/Jan/2026 00:16:27] code 400, message Bad request version ('À\x14À')
+2026-01-18 00:16:27,084 - ERROR - 162.142.125.115 - - [18/Jan/2026 00:16:27] code 400, message Bad request version ('À\x14À')
+2026-01-18 00:16:27,086 - INFO - 162.142.125.115 - - [18/Jan/2026 00:16:27] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Å.Þq\x03<×²Nß.¤KW\x95{KøU;¿'\x14\x94µË\x18ñul«{ §¯vrm÷®çßóz\x14\x0fÂ \x8d&A\x83\x9b\x02\x95b¯C\x1dM(\x12¬\x90T\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+2026-01-18 00:16:27,086 - INFO - 162.142.125.115 - - [18/Jan/2026 00:16:27] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Å.Þq\x03<×²Nß.¤KW\x95{KøU;¿'\x14\x94µË\x18ñul«{ §¯vrm÷®çßóz\x14\x0fÂ \x8d&A\x83\x9b\x02\x95b¯C\x1dM(\x12¬\x90T\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+2026-01-18 00:16:27,448 - INFO - Access from 162.142.125.115 to /
+2026-01-18 00:16:27,452 - INFO - Index generated in 3.7 ms for 162.142.125.115
+2026-01-18 00:16:27,454 - INFO - 162.142.125.115 - - [18/Jan/2026 00:16:27] "GET / HTTP/1.1" 200 -
+2026-01-18 00:16:27,454 - INFO - 162.142.125.115 - - [18/Jan/2026 00:16:27] "GET / HTTP/1.1" 200 -
+2026-01-18 00:16:27,780 - ERROR - 162.142.125.115 - - [18/Jan/2026 00:16:27] code 505, message Invalid HTTP version (2.0)
+2026-01-18 00:16:27,780 - ERROR - 162.142.125.115 - - [18/Jan/2026 00:16:27] code 505, message Invalid HTTP version (2.0)
+2026-01-18 00:16:27,781 - INFO - 162.142.125.115 - - [18/Jan/2026 00:16:27] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+2026-01-18 00:16:27,781 - INFO - 162.142.125.115 - - [18/Jan/2026 00:16:27] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+2026-01-18 00:16:28,066 - INFO - 162.142.125.115 - - [18/Jan/2026 00:16:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-18 00:16:28,066 - INFO - 162.142.125.115 - - [18/Jan/2026 00:16:28] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-18 00:16:33,450 - ERROR - 162.142.125.115 - - [18/Jan/2026 00:16:33] code 400, message Bad request version ('À\x14À')
+2026-01-18 00:16:33,450 - ERROR - 162.142.125.115 - - [18/Jan/2026 00:16:33] code 400, message Bad request version ('À\x14À')
+2026-01-18 00:16:33,452 - INFO - 162.142.125.115 - - [18/Jan/2026 00:16:33] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Hî$Þ15é\x1bl\x0ckó&\x93¬@\x8f(\x97\x94\x8czq«\x01^zÔ\x17\x1d\x08Ó s\x95d*\x0cà\x0fNÛ$m²\x99N\x9a\x1aÚ¸*«<Éï\x17¸4ã\x0fsrV¤\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+2026-01-18 00:16:33,452 - INFO - 162.142.125.115 - - [18/Jan/2026 00:16:33] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Hî$Þ15é\x1bl\x0ckó&\x93¬@\x8f(\x97\x94\x8czq«\x01^zÔ\x17\x1d\x08Ó s\x95d*\x0cà\x0fNÛ$m²\x99N\x9a\x1aÚ¸*«<Éï\x17¸4ã\x0fsrV¤\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+2026-01-18 00:16:33,776 - INFO - 162.142.125.115 - - [18/Jan/2026 00:16:33] "[33mGET /.well-known/security.txt HTTP/1.1[0m" 404 -
+2026-01-18 00:16:33,776 - INFO - 162.142.125.115 - - [18/Jan/2026 00:16:33] "[33mGET /.well-known/security.txt HTTP/1.1[0m" 404 -
+2026-01-18 05:25:05,017 - INFO - Access from 162.216.149.13 to /
+2026-01-18 05:25:05,021 - INFO - Index generated in 2.5 ms for 162.216.149.13
+2026-01-18 05:25:05,022 - INFO - 162.216.149.13 - - [18/Jan/2026 05:25:05] "GET / HTTP/1.1" 200 -
+2026-01-18 05:25:05,022 - INFO - 162.216.149.13 - - [18/Jan/2026 05:25:05] "GET / HTTP/1.1" 200 -
+2026-01-18 06:22:59,895 - ERROR - 198.235.24.164 - - [18/Jan/2026 06:22:59] code 400, message Bad request version ('/r®¹\x0fÊ¦_Ñó"\x96Ý\x0f/ü´©0^PF:Oßc¿¥')
+2026-01-18 06:22:59,895 - ERROR - 198.235.24.164 - - [18/Jan/2026 06:22:59] code 400, message Bad request version ('/r®¹\x0fÊ¦_Ñó"\x96Ý\x0f/ü´©0^PF:Oßc¿¥')
+2026-01-18 06:22:59,898 - INFO - 198.235.24.164 - - [18/Jan/2026 06:22:59] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Íó\x9a\x0bBí`\x8b\x84Gü>\x8açØâOL]&å8\x88³ç\x8aèÎ\x84¦Jô /r®¹\x0fÊ¦_Ñó"\x96Ý\x0f/ü´©0^PF:Oßc¿¥[0m" 400 -
+2026-01-18 06:22:59,898 - INFO - 198.235.24.164 - - [18/Jan/2026 06:22:59] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Íó\x9a\x0bBí`\x8b\x84Gü>\x8açØâOL]&å8\x88³ç\x8aèÎ\x84¦Jô /r®¹\x0fÊ¦_Ñó"\x96Ý\x0f/ü´©0^PF:Oßc¿¥[0m" 400 -
+2026-01-18 06:23:00,006 - ERROR - 198.235.24.164 - - [18/Jan/2026 06:23:00] code 400, message Bad request version ('À(À$À\x14À')
+2026-01-18 06:23:00,006 - ERROR - 198.235.24.164 - - [18/Jan/2026 06:23:00] code 400, message Bad request version ('À(À$À\x14À')
+2026-01-18 06:23:00,007 - INFO - 198.235.24.164 - - [18/Jan/2026 06:23:00] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03´\x889\x11sòó=>¬%ð*ô8\x1dwju¼íÇ\x15ùç2¬n/J&_\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
+2026-01-18 06:23:00,007 - INFO - 198.235.24.164 - - [18/Jan/2026 06:23:00] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03´\x889\x11sòó=>¬%ð*ô8\x1dwju¼íÇ\x15ùç2¬n/J&_\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
+2026-01-18 10:53:35,675 - INFO - Access from 147.185.133.207 to /
+2026-01-18 10:53:35,677 - INFO - Index generated in 1.9 ms for 147.185.133.207
+2026-01-18 10:53:35,677 - INFO - 147.185.133.207 - - [18/Jan/2026 10:53:35] "GET / HTTP/1.1" 200 -
+2026-01-18 10:53:35,677 - INFO - 147.185.133.207 - - [18/Jan/2026 10:53:35] "GET / HTTP/1.1" 200 -
+2026-01-18 12:51:15,517 - ERROR - 87.236.176.240 - - [18/Jan/2026 12:51:15] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+2026-01-18 12:51:15,517 - ERROR - 87.236.176.240 - - [18/Jan/2026 12:51:15] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+2026-01-18 12:51:15,518 - INFO - 87.236.176.240 - - [18/Jan/2026 12:51:15] "[31m[1m\x16\x03\x01\x01[0m" 400 -
+2026-01-18 12:51:15,518 - INFO - 87.236.176.240 - - [18/Jan/2026 12:51:15] "[31m[1m\x16\x03\x01\x01[0m" 400 -
+2026-01-18 12:51:30,651 - INFO - Access from 185.247.137.244 to /
+2026-01-18 12:51:30,653 - INFO - Index generated in 1.0 ms for 185.247.137.244
+2026-01-18 12:51:30,653 - INFO - 185.247.137.244 - - [18/Jan/2026 12:51:30] "GET / HTTP/1.1" 200 -
+2026-01-18 12:51:30,653 - INFO - 185.247.137.244 - - [18/Jan/2026 12:51:30] "GET / HTTP/1.1" 200 -
+2026-01-18 13:45:43,902 - INFO - Access from 98.80.4.39 to /
+2026-01-18 13:45:43,903 - INFO - Index generated in 0.9 ms for 98.80.4.39
+2026-01-18 13:45:43,904 - INFO - 98.80.4.39 - - [18/Jan/2026 13:45:43] "GET / HTTP/1.1" 200 -
+2026-01-18 13:45:43,904 - INFO - 98.80.4.39 - - [18/Jan/2026 13:45:43] "GET / HTTP/1.1" 200 -
+2026-01-18 16:29:19,570 - ERROR - 66.132.153.137 - - [18/Jan/2026 16:29:19] code 400, message Bad request version ('À\x14À')
+2026-01-18 16:29:19,570 - ERROR - 66.132.153.137 - - [18/Jan/2026 16:29:19] code 400, message Bad request version ('À\x14À')
+2026-01-18 16:29:19,573 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:19] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¤Ã*\x02\x8b¦^,¢2yÌ\x94åü$Ë\x0fâÍÐ[Ø}gÄ\x1fa\x0b\x9eÔ% `F\x1b\x14/ÚþI\x92´i->Þq<Ã¶bð\x9e<6E¾râµb'úe\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+2026-01-18 16:29:19,573 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:19] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¤Ã*\x02\x8b¦^,¢2yÌ\x94åü$Ë\x0fâÍÐ[Ø}gÄ\x1fa\x0b\x9eÔ% `F\x1b\x14/ÚþI\x92´i->Þq<Ã¶bð\x9e<6E¾râµb'úe\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+2026-01-18 16:29:23,481 - INFO - Access from 66.132.153.137 to /
+2026-01-18 16:29:23,484 - INFO - Index generated in 3.3 ms for 66.132.153.137
+2026-01-18 16:29:23,486 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:23] "GET / HTTP/1.1" 200 -
+2026-01-18 16:29:23,486 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:23] "GET / HTTP/1.1" 200 -
+2026-01-18 16:29:28,811 - ERROR - 66.132.153.137 - - [18/Jan/2026 16:29:28] code 400, message Bad request version ('À\x14À')
+2026-01-18 16:29:28,811 - ERROR - 66.132.153.137 - - [18/Jan/2026 16:29:28] code 400, message Bad request version ('À\x14À')
+2026-01-18 16:29:28,813 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:28] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03YzeÓÒ \x09È\x18n\x12\x80k\x88\x9b[ð\x94Ñq\x9f\x14 Ú'iÜ¦!ovn æÌ¼^½å\x95ü\x9bý `ôæéSrN×\x14éæ\x0c\x07{\x82\x88µ4^\x16ö\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+2026-01-18 16:29:28,813 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:28] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03YzeÓÒ \x09È\x18n\x12\x80k\x88\x9b[ð\x94Ñq\x9f\x14 Ú'iÜ¦!ovn æÌ¼^½å\x95ü\x9bý `ôæéSrN×\x14éæ\x0c\x07{\x82\x88µ4^\x16ö\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+2026-01-18 16:29:29,197 - INFO - Access from 66.132.153.137 to /
+2026-01-18 16:29:29,199 - INFO - Index generated in 1.9 ms for 66.132.153.137
+2026-01-18 16:29:29,199 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:29] "GET / HTTP/1.1" 200 -
+2026-01-18 16:29:29,199 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:29] "GET / HTTP/1.1" 200 -
+2026-01-18 16:29:29,808 - ERROR - 66.132.153.137 - - [18/Jan/2026 16:29:29] code 505, message Invalid HTTP version (2.0)
+2026-01-18 16:29:29,808 - ERROR - 66.132.153.137 - - [18/Jan/2026 16:29:29] code 505, message Invalid HTTP version (2.0)
+2026-01-18 16:29:29,809 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:29] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+2026-01-18 16:29:29,809 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:29] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+2026-01-18 16:29:30,381 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-18 16:29:30,381 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-18 16:29:34,800 - ERROR - 66.132.153.137 - - [18/Jan/2026 16:29:34] code 400, message Bad request version ('À\x14À')
+2026-01-18 16:29:34,800 - ERROR - 66.132.153.137 - - [18/Jan/2026 16:29:34] code 400, message Bad request version ('À\x14À')
+2026-01-18 16:29:34,802 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:34] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x08k\x9a»e[\x13Ãõä\x93Ê\x19\x09S\x82\x02\x01\x95\x9fê[#\x91î¥³E\x93\x06zØ ÷\x1bH\x0f*E×\x98\x07kê\x12\x98.¶Åe\x9b­$ÊÇq\\© ¶SÍ\x84å¶\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+2026-01-18 16:29:34,802 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:34] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x08k\x9a»e[\x13Ãõä\x93Ê\x19\x09S\x82\x02\x01\x95\x9fê[#\x91î¥³E\x93\x06zØ ÷\x1bH\x0f*E×\x98\x07kê\x12\x98.¶Åe\x9b­$ÊÇq\\© ¶SÍ\x84å¶\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+2026-01-18 16:29:35,548 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:35] "[33mGET /.well-known/security.txt HTTP/1.1[0m" 404 -
+2026-01-18 16:29:35,548 - INFO - 66.132.153.137 - - [18/Jan/2026 16:29:35] "[33mGET /.well-known/security.txt HTTP/1.1[0m" 404 -
+2026-01-18 19:34:50,041 - INFO - Access from 115.231.78.11 to /
+2026-01-18 19:34:50,049 - INFO - Index generated in 6.1 ms for 115.231.78.11
+2026-01-18 19:34:50,050 - INFO - 115.231.78.11 - - [18/Jan/2026 19:34:50] "GET / HTTP/1.1" 200 -
+2026-01-18 19:34:50,050 - INFO - 115.231.78.11 - - [18/Jan/2026 19:34:50] "GET / HTTP/1.1" 200 -
+2026-01-18 19:34:52,680 - INFO - Access from 115.231.78.11 to /
+2026-01-18 19:34:52,684 - INFO - Index generated in 3.3 ms for 115.231.78.11
+2026-01-18 19:34:52,685 - INFO - 115.231.78.11 - - [18/Jan/2026 19:34:52] "GET / HTTP/1.1" 200 -
+2026-01-18 19:34:52,685 - INFO - 115.231.78.11 - - [18/Jan/2026 19:34:52] "GET / HTTP/1.1" 200 -
+2026-01-18 19:34:53,360 - INFO - 115.231.78.11 - - [18/Jan/2026 19:34:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-18 19:34:53,360 - INFO - 115.231.78.11 - - [18/Jan/2026 19:34:53] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 204 -
+2026-01-18 19:34:53,904 - INFO - 115.231.78.11 - - [18/Jan/2026 19:34:53] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+2026-01-18 19:34:53,904 - INFO - 115.231.78.11 - - [18/Jan/2026 19:34:53] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+2026-01-18 20:27:25,796 - INFO - Access from 147.185.132.236 to /
+2026-01-18 20:27:25,802 - INFO - Index generated in 5.6 ms for 147.185.132.236
+2026-01-18 20:27:25,804 - INFO - 147.185.132.236 - - [18/Jan/2026 20:27:25] "GET / HTTP/1.1" 200 -
+2026-01-18 20:27:25,804 - INFO - 147.185.132.236 - - [18/Jan/2026 20:27:25] "GET / HTTP/1.1" 200 -

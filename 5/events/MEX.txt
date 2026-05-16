@@ -1,0 +1,300 @@
+country_event = {
+
+	id = 44800
+
+	trigger = {
+		tag = MEX
+		year = 1869
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1871
+		}
+		
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1872
+		}
+	}
+
+	title = "EVTNAME44800"
+	desc = "EVTDESC44800"
+	picture = "Madero"
+
+	option = {
+		name = "EVTOPTA44800" 
+		farmers = {
+			militancy = 3
+			consciousness = 3
+		}
+		labourers = {
+			militancy = 3
+			consciousness = 3
+		}
+		craftsmen = {
+			militancy = 3
+			consciousness = 3
+		}
+		artisans = {
+			militancy = 3
+			consciousness = 3
+		}
+		set_country_flag = Madero
+	}
+
+	option = {
+		name = "EVTOPTB44800" 
+		prestige = -5
+		officers = {
+			militancy = 3
+			consciousness = 3
+		}
+		aristocrats = {
+			militancy = 3
+			consciousness = 3
+		}
+		capitalists = {
+			militancy = 3
+			consciousness = 3
+		}
+		set_country_flag = Madero2
+	}
+}
+
+country_event = {
+
+	id = 44801
+
+	trigger = {
+		tag = MEX
+		year = 1871
+		 money = 100000
+		has_country_flag = Madero
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1872
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1873
+		}
+	}
+
+	title = "EVTNAME44801"
+	desc = "EVTDESC44801"
+	picture = "Riot"
+
+	option = {
+		name = "EVTOPTA44801" 
+		 prestige = 5
+		 money = -100000
+		set_country_flag = MaderoRevolt
+	}
+	option = {
+		name = "EVTOPTB44801" 
+		  prestige = 10
+		 set_country_flag = Madero2
+	}
+}
+
+country_event = {
+
+	id = 44802
+
+	trigger = {
+		tag = MEX
+		year = 1871
+		has_country_flag = MaderoRevolt
+		 ammunition = 1000
+		 small_arms = 1000
+		 artillery = 1000
+		 canned_food = 1000
+		NOT = { has_country_flag = Madero2 }
+	}
+ 
+ 	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	title = "EVTNAME44802"
+	desc = "EVTDESC44802"
+	picture = "churchmexico"
+
+	option = {
+		name = "EVTOPTA44802" 
+		 ammunition = -1000
+		 small_arms = -1000
+		 artillery = -1000
+		 canned_food = -1000
+		 government = presidential_dictatorship
+		 prestige = 15
+		 set_country_flag = MaderoOver
+	}
+
+}
+
+country_event = {
+
+	id = 44803
+
+	trigger = {
+		tag = MEX
+		OR = {
+		AND = {has_country_flag = Madero2
+		year = 1877}
+		AND = {
+		not = {has_country_flag = MaderoOver}
+		has_country_flag = MaderoRevolt
+		year = 1880
+		}
+		}
+		 
+	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		 
+	}
+
+	title = "EVTNAME44803"
+	desc = "EVTDESC44803"
+	picture = "Posada"
+
+	option = {
+		name = "EVTOPTA44803" 
+		 nationalvalue = nv_MEX_order
+	}
+}
+
+country_event = {
+ id = 666001
+ title = "EVTNAME666001"
+ desc = "EVTDESC666001"
+ picture = "news"
+
+ trigger = {
+ tag = MEX
+ year = 1880
+ owns = 2142
+ }
+
+ mean_time_to_happen = { months = 12 }
+ fire_only_once = yes
+
+ option = {
+ name = "EVT666001OPTA"
+ prestige = 2
+ relation = { who = USA value = 30 }
+ any_pop = {
+ limit = { is_culture_group = native_american }
+ militancy = 6
+ }
+ }
+}
+
+country_event = {
+ id = 666002
+ title = "EVTNAME666002" 
+ desc = "EVTDESC666002"
+ picture = "Posada"
+
+ trigger = {
+ tag = MEX
+  OR = {
+   has_country_modifier = mex_migracia
+  has_country_modifier = mex_no_migracia
+  }
+   not = { vote_franschise = none_voting}
+   not = { vote_franschise = landed_voting}
+   not = { vote_franschise = universal_voting}
+  
+ }
+
+ mean_time_to_happen = {
+ months = 1
+ 
+ }	
+
+ option = {
+ name = "EVTOPTA666002"
+  remove_country_modifier = mex_migracia
+   remove_country_modifier = mex_no_migracia
+ }
+}
+
+     country_event = {
+     id = 28470
+     title = "EVTNAME28470" 
+     desc = "EVTDESC28470"
+     picture = "Posada"
+         trigger = {
+         tag = MEX
+		 has_country_modifier = natsionalnoe_edinstvo
+		OR = {
+            MEX_85 = {
+           owned_by = USA
+            }
+              138= {
+            owned_by = USA
+            }
+#			MEX_100 = {
+#			owned_by = USA
+#			}
+		}	
+		}	
+     option = {
+	 name = "EVTOPTA28470"
+	 remove_country_modifier = natsionalnoe_edinstvo
+	 }
+	 }
+
+country_event = {
+	
+	id = 99912125
+
+	trigger = {
+	tag = MEX
+	has_country_modifier = big_mex
+	NOT = {
+		OR = {
+			CLM_2259 = { owned_by = THIS }
+			CLM_2251 = { owned_by = THIS }
+			VNZ_2234 = { owned_by = THIS }
+			VNZ_2265 = { owned_by = THIS }
+			CLM_2262 = { owned_by = THIS }
+			CLM_1723 = { owned_by = THIS }
+		}
+	}
+}
+	
+	title = "EVTNAME1011076"
+	desc = "EVTDESC1011076"
+	picture = "Travel"
+
+	option = {
+		name = "EVTOPTA1011076"
+	 	remove_country_modifier = big_mex
+	}
+
+}
+

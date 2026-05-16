@@ -1,0 +1,60 @@
+country_event = {
+    id = 18946
+    title = "EVTNAME18946"
+    desc = "EVTDESC18946"
+    picture = "Upperhouse"
+    trigger = {
+		tag = HND
+		HND = {
+		total_pops = 15000000
+		}
+        NOT = { has_country_flag = India }
+    }
+    option = {
+		name = "EVTOPTB18946"
+		add_country_modifier = { name = India duration = -1 }
+		set_country_flag = India
+    }
+}
+
+country_event = {
+	id = 777708
+	trigger = {
+		tag = HND
+ year = 1888
+ #war = no
+		exists = BHU
+		BHU = {
+				in_sphere = THIS
+			}
+ }
+	mean_time_to_happen = { # ���� ���� ���������� ����������� ������������ ������
+ months = 3
+
+ }
+	title = "EVTNAME777711"
+	desc = "EVTDESC777711"
+	picture = "greatpowers"
+
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA777711"
+		inherit	= BHU
+		prestige = 30
+		badboy = 1
+		ai_chance = {
+ factor = 99
+ }
+	}
+
+	option = {
+		name = "EVTOPTB777711"
+		prestige = -15
+		badboy = -1
+		ai_chance = {
+ factor = 1
+ }
+	}
+}
+

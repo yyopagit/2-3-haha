@@ -1,0 +1,439 @@
+country_event = {
+
+	id = 32500
+	news = yes
+	news_desc_long = "EVTDESC32500_NEWS_LONG"
+	news_desc_medium = "EVTDESC32500_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC32500_NEWS_SHORT"
+
+	trigger = {
+		tag = RUS
+		year = 1837
+		war = no
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME32500"
+	desc = "EVTDESC32500"
+	picture = "Pushkin"
+
+	option = {
+		name = "EVTOPTA32500" 
+		prestige = 30
+	}
+}
+
+country_event = {
+
+	id = 32503
+
+	trigger = {
+		tag = RUS
+		year = 1852
+		NOT = {
+			year = 1855
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1853
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1854
+		}
+	}
+
+	title = "EVTNAME32503"
+	desc = "EVTDESC32503"
+	picture = "hermitage"
+
+	option = {
+		name = "EVTOPTA32503" 
+		prestige = 30
+	}
+}
+
+country_event = {
+
+	id = 32504
+
+	trigger = {
+		tag = RUS
+		year = 1874
+		NOT = {
+			year = 1877
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1875
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1876
+		}
+	}
+
+	title = "EVTNAME32504"
+	desc = "EVTDESC32504"
+	picture = "Godunov"
+
+	option = {
+		name = "EVTOPTA32504" 
+		prestige = 30
+		any_pop = {
+			limit = { has_pop_culture = russian }
+			consciousness = 1
+		}	
+	}
+}
+
+country_event = {
+
+	id = 32505
+	news = yes
+	news_desc_long = "EVTDESC32505_NEWS_LONG"
+	news_desc_medium = "EVTDESC32505_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC32505_NEWS_SHORT"
+
+	trigger = {
+		tag = RUS
+		year = 1880
+		NOT = {
+			year = 1883
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1881
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1882
+		}
+	}
+
+	title = "EVTNAME32505"
+	desc = "EVTDESC32505"
+	picture = "Dostoevsky"
+
+	option = {
+		name = "EVTOPTA32505" 
+		prestige = 30
+		any_pop = {
+			limit = { has_pop_culture = russian }
+			consciousness = 1
+		}	
+	}
+}
+
+country_event = {
+
+	id = 32506
+	trigger = {
+		tag = RUS
+		year = 1837
+		experimental_railroad = 1
+		994 = {
+			has_building = railroad
+		}
+		NOT = {
+			year = 1850
+		}
+		
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1839
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1842
+		}
+	}
+
+	title = "EVTNAME32506"
+	desc = "EVTDESC32506"
+	picture = "train"
+
+	option = {
+		name = "EVTOPTA32506" 
+		prestige = 30
+	}
+}
+
+country_event = {
+
+	id = 32507
+
+	trigger = {
+		tag = RUS
+		year = 1855
+		owns = 1072 #Okhotsk
+		NOT = {
+			year = 1858
+			war_with = JAP
+			JAP = {
+				part_of_sphere = no
+				is_independant = yes
+			}
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1856
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1857
+		}
+	}
+
+	title = "EVTNAME32507"
+	desc = "EVTDESC32507"
+	picture = "kurils"
+
+	option = {
+		name = "EVTOPTA32506" 
+		relation = { who = JAP value = 50 }
+	}
+}
+
+country_event = {
+
+	id = 32508
+
+	trigger = {
+		tag = RUS
+		year = 1899
+		NOT = {
+			year = 1902
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1900
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1901
+		}
+	}
+
+	title = "EVTNAME32508"
+	desc = "EVTDESC32508"
+	picture = "theatre"
+
+	option = {
+		name = "EVTOPTA32508" 
+		prestige = 30
+	}
+}
+
+country_event = {
+
+	id = 80002
+
+	trigger = {
+		tag = RUS
+		year = 1836
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1840
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1845
+		}
+	}
+
+	title = "EVTNAME32514"
+	desc = "EVTDESC32514"
+	picture = "theatre"
+
+	option = {
+		add_country_modifier = {
+				name = lacking_industialization
+				duration = 40000
+			}
+		set_country_flag = lacking_industrialization
+		name = "EVTOPTA32508" 
+	}
+}
+
+country_event = {
+
+	id = 80003
+
+	trigger = {
+		tag = RUS
+		year = 1836
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1840
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1845
+		}
+	}
+
+	title = "EVTNAME32515"
+	desc = "EVTDESC32515"
+	picture = "theatre"
+
+	option = {
+		set_country_flag = gendarme
+		add_country_modifier = {
+				name = european_gendarme
+				duration = 40000
+			}
+		name = "EVTOPTA32508" 
+	}
+}
+
+country_event = {
+
+	id = 80004
+
+	trigger = {
+		tag = RUS
+		year = 1836
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 2
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1836
+		}
+	}
+
+	title = "EVTNAME32516"
+	desc = "EVTDESC32516"
+	picture = "theatre"
+
+	option = {
+		set_country_flag = education_problem
+		add_country_modifier = {
+				name = education_problem
+				duration = 40000
+			}
+		name = "EVTOPTA32508" 
+	}
+}
+
+country_event = {
+
+	id = 80005
+
+	trigger = {
+		tag = RUS
+		year = 1883
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 2
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1883
+		}
+	}
+
+	title = "EVTNAME32517"
+	desc = "EVTDESC32517"
+	picture = "theatre"
+
+	option = {
+		set_country_flag = financial_crisis
+		add_country_modifier = {
+				name = financial_crisis
+				duration = 40000
+			}
+		name = "EVTOPTA32508" 
+	}
+}
+

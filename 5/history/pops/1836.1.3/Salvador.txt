@@ -1,0 +1,80 @@
+#San Salvador
+2191 = {
+    aristocrats = {
+        culture = mexican
+        religion = orthodox
+        size = 1425
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = orthodox
+        size = 150
+    }
+
+    officers = {
+        culture = mexican
+        religion = orthodox
+        size = 125
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = orthodox
+        size = 650
+    }
+
+    artisans = {
+        culture = mexican
+        religion = orthodox
+        size = 3250
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = orthodox
+        size = 1100
+    }
+
+    farmers = {
+        culture = mexican
+        religion = orthodox
+        size = 60000
+    }
+
+}
+
+#San Miguel
+2192 = {
+    aristocrats = {
+        culture = mexican
+        religion = orthodox
+        size = 950
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = orthodox
+        size = 450
+    }
+
+    artisans = {
+        culture = mexican
+        religion = orthodox
+        size = 2200
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = orthodox
+        size = 450
+    }
+
+    farmers = {
+        culture = mexican
+        religion = orthodox
+        size = 60000
+    }
+
+}
+

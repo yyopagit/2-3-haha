@@ -1,0 +1,148 @@
+#Comayagua
+2193 = {
+    aristocrats = {
+        culture = mexican
+        religion = orthodox
+        size = 950
+    }
+
+    bureaucrats = {
+        culture = mexican
+        religion = orthodox
+        size = 125
+    }
+
+    officers = {
+        culture = mexican
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = orthodox
+        size = 450
+    }
+
+    artisans = {
+        culture = mexican
+        religion = orthodox
+        size = 2250
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = orthodox
+        size = 450
+    }
+
+    farmers = {
+        culture = mexican
+        religion = orthodox
+        size = 60000
+    }
+
+}
+
+#San Pedro Sula
+2194 = {
+    aristocrats = {
+        culture = mexican
+        religion = orthodox
+        size = 550
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = orthodox
+        size = 225
+    }
+
+    artisans = {
+        culture = mexican
+        religion = orthodox
+        size = 1150
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = orthodox
+        size = 225
+    }
+
+    farmers = {
+        culture = mexican
+        religion = orthodox
+        size = 60000
+    }
+
+}
+
+#La Ceiba
+2195 = {
+    aristocrats = {
+        culture = mexican
+        religion = orthodox
+        size = 425
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = orthodox
+        size = 475
+    }
+
+    artisans = {
+        culture = mexican
+        religion = orthodox
+        size = 1850
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = orthodox
+        size = 1175
+    }
+
+    farmers = {
+        culture = mexican
+        religion = orthodox
+        size = 60000
+    }
+
+}
+
+#Puerto Lempira
+2196 = {
+    aristocrats = {
+        culture = mexican
+        religion = orthodox
+        size = 75
+    }
+
+    clergymen = {
+        culture = mexican
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = mexican
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = mexican
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = mexican
+        religion = orthodox
+        size = 60000
+    }
+
+}
+

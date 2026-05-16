@@ -1,0 +1,75 @@
+country_event = {
+	id = 19320
+	news = yes
+	news_desc_long = "EVTDESC19320_NEWS_LONG"
+	news_desc_medium = "EVTDESC19320_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC19320_NEWS_SHORT"
+	title = "EVTNAME19320"
+	desc = "EVTDESC19320"
+	picture = "japanese_power"
+
+	trigger = {
+		tag = JAP
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA19320"
+		prestige = 5
+		any_pop = {
+			militancy = -3
+		}
+	}
+}
+
+country_event = {
+	id = 18900
+	title = "EVTNAME18900"
+	desc = "EVTDESC18900"
+	picture = "Upperhouse"
+	fire_only_once = yes
+
+	trigger = {
+		has_global_flag = sanction_on_yes
+		tag = JAP
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA18900"
+		add_country_modifier = {
+			name = sanction_on_jap
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 18901
+	title = "EVTNAME18901"
+	desc = "EVTDESC18901"
+	picture = "Upperhouse"
+	fire_only_once = yes
+
+	trigger = {
+		has_country_modifier = sanction_on_jap
+		tag = JAP
+			NOT = {
+				has_global_flag = sanction_on_yes
+			}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA18901"
+		remove_country_modifier = sanction_on_jap
+	}
+}
+

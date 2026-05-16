@@ -1,0 +1,19 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+add_core = CAN
+add_core = ICL
+trade_goods = fish
+life_rating = 35
+1836.1.2 = {
+    owner = ENG
+    controller = ENG
+    add_core = ENG
+    add_core = ICL
+    }
+1836.1.3 = {
+    owner = ENG
+    controller = ENG
+    add_core = ENG
+    add_core = ICL
+    }

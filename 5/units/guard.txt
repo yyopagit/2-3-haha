@@ -1,0 +1,45 @@
+guard = {
+	icon = 18
+	
+	type = land
+	sprite = Guard
+	active = no
+	unit_type = infantry
+	primary_culture = yes
+	floating_flag = no
+
+	#Core Abilities
+	priority = 18
+	max_strength = 3
+	default_organisation = 37
+	maximum_speed = 4.00
+	weighted_value = 9.0
+
+
+	#Building Costs
+	build_time = 120
+	build_cost = {
+		small_arms = 840				#37		=	740
+		liquor = 600					# 200 + 400 (wine->liquor)
+		luxury_clothes = 15			#65		=	325
+		ammunition = 1320
+	    canned_food = 1020
+	}								#1593
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		small_arms = 0.12  #0.015	37	*0.1	=3.7	=1.85 
+		ammunition = 0.08 #0		18	*0.08	=1.44	=0.72 
+		canned_food = 0.15 # 0.08	20	*0.12	=2.16	=1.08 
+		#Итого 7.3	/	3.65
+	}
+	
+
+	#Land Abilties
+	reconnaissance = 0
+	attack = 12
+	defence = 10
+	discipline = 1.5
+	support = 0.0
+	maneuver = 2
+}

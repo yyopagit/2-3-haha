@@ -1,0 +1,419 @@
+#Bayrut Region (52000) #see Lebanon.txt for balance of region
+#under the rule of Egypt in 1836
+#Acre (52000/13000 POPS) #now part of Israel-Palestine mashriqi-animist = druze 
+916 = {
+	aristocrats = {
+		culture = mashriqi
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 45750
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 18750
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 2000
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 37500
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 18500
+	}
+}
+#Palestine Region (236000) #see Jordan.txt for balance of region
+#under the rule of Egypt in 1836
+#Jerusalem (68000/17000 POPS)
+917 = {
+	aristocrats = {
+		culture = mashriqi
+		religion = orthodox
+		size = 2000
+	}
+
+	bureaucrats = {
+		culture = mashriqi
+		religion = orthodox
+		size = 500
+	}
+
+	officers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 15000
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1750
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 75000
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 8250
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 27000
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = orthodox
+		size = 8750
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = orthodox
+		size = 10750
+	}
+}
+#Nablus (44000/11000 POPS)
+918 = {
+	aristocrats = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1250
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 10250
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1250
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 70250
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1250
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 8500
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 8750
+	}
+}
+#Jaffa (48000/12000 POPS)
+919 = {
+	aristocrats = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1250
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 4000
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1250
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 40500
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 8750
+	}
+
+	clergymen = {
+		culture = sephardic
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = sephardic
+		religion = orthodox
+		size = 3000
+	}
+
+	farmers = {
+		culture = sephardic
+		religion = orthodox
+		size = 10750
+	}
+}
+#Gaza (44000/11000 POPS)
+920 = {
+	aristocrats = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1250
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 4500
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1250
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 64000
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 2500
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 14250
+	}
+}
+#Beersheba (36000/9000 POPS)
+921 = {
+	aristocrats = {
+		culture = mashriqi
+		religion = orthodox
+		size = 350
+	}
+
+	clergymen = {
+		culture = mashriqi
+		religion = orthodox
+		size = 300
+	}
+
+	artisans = {
+		culture = mashriqi
+		religion = orthodox
+		size = 3500
+	}
+
+	soldiers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 1000
+	}
+
+	farmers = {
+		culture = mashriqi
+		religion = orthodox
+		size = 34250
+	}
+
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 750
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 10500
+	}
+
+}

@@ -1,0 +1,342 @@
+#rail_focus =
+#{
+#	encourage_rail = 
+#	{
+#		railroads = 0.50 #Capitalists 50% more likeley to choose railroads
+#		icon = 2
+#	}
+#}
+
+#immigration_focus = 
+#{
+#	immigration =
+#	{
+#	immigrant_attract = 10000
+#	immigrant_push = -10000
+#		 
+#	 
+#		#increases attactiveness to immigrants by 100%
+#		icon = 3
+#		limit = { 
+#			#OR = { 
+#				#continent = north_america
+#				#continent = south_america
+#				#is_overseas = yes
+#			#} 
+#		}
+#	}
+#	globalimmigration =
+#	{
+#		global_immigrant_attract = 0.02
+#		icon = 3
+#		limit = { 
+#			is_capital = yes
+#			continent = north_america
+#			continent = south_america
+#			continent = canadian_america
+#		}
+#	}
+#}
+
+diplomatic_focus =
+{
+	increase_tension =
+	{
+		icon = 4
+		has_flashpoint = yes
+		own_provinces = no
+
+		flashpoint_tension = 0.5
+
+		limit = {
+			is_core = THIS
+			THIS = {
+				is_greater_power = no
+			}
+		}
+	}
+	increase_supply =
+	{
+		icon = 21
+		 own_provinces = yes
+		 
+	     
+         supply_limit = 4
+		 
+		 movement_cost = -0.2
+
+	}
+	supply_partisans =
+	{
+		icon = 20
+		 
+		own_provinces = yes
+
+		 movement_cost = 0.3
+		limit = {
+		year = 1855	 
+		}
+	}
+}
+
+promotion_focus =
+{
+	promote_aristocrats =
+	{
+		aristocrats = 0.30 #20% more likeley to become artisans
+		farm_RGO_eff = 0.10
+		mine_RGO_eff = 0.10
+		icon = 5
+		outliner_show_as_percent = yes
+		limit = {
+		}
+	}
+
+#	promote_artisans =
+#	{
+#		artisans = 0.10 #20% more likeley to become this type
+#		capitalists = -1.0
+#		local_factory_output = 0.05
+#		local_factory_throughput = 0.05
+#		icon = 6
+#		outliner_show_as_percent = yes
+#		limit = {
+#		ai = no
+#		}
+#	}
+
+	promote_bureaucrats =
+	{
+		bureaucrats = 0.20 #20% more likeley to become this type
+		icon = 7
+		outliner_show_as_percent = yes
+	}
+
+	promote_capitalists =
+	{
+		capitalists = 0.30 #20% more likeley to become this type
+		icon = 8
+		outliner_show_as_percent = yes
+		limit = { 
+			civilized = yes
+		}
+
+	}
+	
+	promote_clergymen =
+	{
+		clergymen = 0.20 #20% more likeley to become this type
+		icon = 9
+		outliner_show_as_percent = yes
+	}
+
+	promote_craftsmen =
+	{
+		craftsmen = 0.2 #20% more likeley to become this type
+		icon = 11
+		outliner_show_as_percent = yes
+		limit = { 
+			civilized = yes
+		}
+	}
+#	promote_craftsmen2 =
+#	{
+#		craftsmen = 0.20 #20% more likeley to become this type
+#		icon = 11
+#		outliner_show_as_percent = yes
+#		limit = { 
+#			civilized = yes
+#			industrial_score = 300
+#			OR = {
+#			continent = canadian_america
+#			continent = north_america
+#			continent = south_america
+#			}
+#		}
+#	}
+	promote_farmers =
+	{
+		farmers = 0.50 #20% more likeley to become this type
+		farm_RGO_size = 0.25
+		mine_RGO_size = 0.25
+		icon = 12
+		outliner_show_as_percent = yes
+		limit = {
+		NOT = { 
+			continent = china
+			}
+		}
+	}
+	promote_officers =
+	{
+		officers = 0.30 #20% more likeley to become this type
+		soldiers = 0.10
+		pop_consciousness_modifier = 0.1
+		icon = 14
+		limit = {
+			civilized = yes
+			NOT = {
+			continent = china
+			#state_scope = { NOT = { any_owned_province = { NOT = { is_core = THIS }}}}
+			}
+		}
+	}
+	promote_soldiers =
+	{
+		soldiers = 0.20 #20% more likeley to become this type
+		icon = 15
+		outliner_show_as_percent = yes
+		limit = {
+		}
+	}
+	promote_clerks =
+	{
+		clerks = 0.30 #20% more likeley to become this type
+		icon = 10
+		outliner_show_as_percent = yes
+		limit = {
+			year = 1870	 
+			civilized = yes
+		}
+	}
+	promote_labourers =
+	{
+		craftsmen = -0.25 #20% more likeley to become this type
+		clerks = 0.5
+		icon = 10
+		outliner_show_as_percent = yes
+		limit = {
+		year = 1890	 
+		civilized = yes
+		}
+	}
+}
+
+production_focus =
+{
+	 armaments_focus = 
+	{
+		artillery = 55
+		small_arms = 55
+		ammunition = 55
+		canned_food = 55
+		explosives = 55
+		 barrels = 66
+		icon = 23
+		#limit = { 
+		#	civilized = yes
+		#}
+	}
+
+	 
+
+	 
+
+	shipping_focus =
+	{
+	local_repair = 0.4
+	local_ship_build = -0.1
+		icon = 19
+		limit = { 
+			#civilized = yes
+			state_scope = { any_owned_province = { port = yes } }
+		}
+	}
+
+	 
+
+	 
+
+	basic_industry_focus =
+	{
+		local_factory_output = 0.25
+		local_factory_throughput = 0.25
+		icon = 22
+		#limit = { 
+		#	civilized = yes
+		#}
+	}
+rgo_focus =
+	{
+		farm_RGO_eff = 0.5
+		mine_RGO_eff = 0.5
+	 
+		 
+		icon = 33
+		limit = { 
+		  NOT = {
+		  year = 1890
+		  }
+		}
+	}
+	rgo_focus2 =
+	{
+	farm_RGO_eff = 1
+	mine_RGO_eff = 1
+	 
+		 
+		icon = 32
+		limit = { 
+		   
+		  year = 1890
+		  
+		}
+	}
+	 
+
+	 
+
+	 
+}
+
+party_loyalty_focus =
+{
+	fascist_focus =
+	{
+		ideology = fascist
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 25
+	}
+	
+	reactionary_focus =
+	{
+		ideology = reactionary
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 26
+	}
+	
+	conservative_focus =
+	{
+		ideology = conservative
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 27
+	}
+	
+	socialist_focus =
+	{
+		ideology = socialist
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 28
+	}
+	
+	communist_focus =
+	{
+		ideology = communist
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 29
+	}
+	
+	liberal_focus =
+	{
+		ideology = liberal
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 30
+	}
+	
+	anarcho_liberal_focus =
+	{
+		ideology = anarcho_liberal
+		loyalty_value = 0.05 # By that much pops will be more loyal
+		icon = 31
+	}
+}

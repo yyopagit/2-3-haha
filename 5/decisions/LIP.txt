@@ -1,0 +1,24 @@
+political_decisions = {
+	support_schaumburgs = {
+	picture = support_schaumburgs
+		potential = {
+			tag = LIP
+			NOT = {
+				has_country_flag = lippe_dispute_solved
+			}
+			exists = PRU
+		}
+		allow = {
+			is_independant = yes
+			year = 1880
+		}
+		effect = {
+			relation = {
+				who = PRU
+				value = 50
+			}
+			set_country_flag = lippe_dispute_solved
+		}
+	}
+}
+

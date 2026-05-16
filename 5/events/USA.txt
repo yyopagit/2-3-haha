@@ -1,0 +1,2745 @@
+country_event = {	
+
+	id = 101147 #снятие бонуса от канады для США
+	trigger = {
+		tag = USA
+		has_country_modifier = nafta_usa
+        NOT = {
+        	is_sphere_leader_of = CAN
+        }
+	}
+	option = {
+		name = "EVTOPTA101147" 
+		remove_country_modifier = nafta_usa
+		clr_country_flag = nafta1
+		CAN = {
+		clr_country_flag = nafta1
+			remove_country_modifier = nafta_can
+		}
+	}
+	title = "EVTNAME101147"
+	desc = "EVTDESC101147"
+	picture = "Administration"
+}
+
+country_event = {
+	id = 16000
+	title = "EVTNAME16000"
+	desc = "EVTDESC16000"
+	major = yes
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+		has_country_flag = john_browns_raid
+		has_country_flag = dred_scott_decision
+		upper_house = {
+			ideology = liberal
+			value = 0.3
+		}
+	}
+	
+	immediate = { clr_country_flag = the_slavery_debate 
+		CSA = {
+			set_country_flag = the_slavery_debate
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+		modifier = {
+			factor = 3
+			year = 1850
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1858
+			}
+		}
+		modifier = {
+			factor = 100
+			year = 1862
+		   
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16000"
+		any_pop = {
+			consciousness = -7
+			militancy = -3
+		}
+		any_owned = {
+			limit = {
+				is_core = CSA
+				NOT = {
+					province_id = 217
+					province_id = 218
+					province_id = 219
+					province_id = 220
+					province_id = 221
+					province_id = 222
+				}
+			}
+			secede_province = CSA
+		}
+		CSA = {
+			capital = 211
+			leadership = 80
+		}
+		capital = 220
+		war = {
+			target = CSA
+			attacker_goal = {
+				casus_belli = civil_war
+			}
+			
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		set_global_flag = american_civil_war_has_happened
+		clr_country_flag = the_slavery_debate
+	}
+	
+	option = {
+		name = "EVTOPTB16000"
+		any_pop = {
+			consciousness = -7
+			militancy = -3
+		}
+		any_owned = {
+			limit = {
+				is_core = CSA
+				NOT = {
+					province_id = 146
+					province_id = 147
+					province_id = 148
+					province_id = 149
+					province_id = 150
+					province_id = 217
+					province_id = 218
+					province_id = 219
+					province_id = 220
+					province_id = 221
+					province_id = 222
+				}
+			}
+			secede_province = CSA
+		}
+		CSA = {
+			capital = 211
+			leadership = 80
+		}
+		capital = 220
+		
+		change_tag_no_core_switch = CSA
+		USA = {
+			war = {
+				target = CSA
+				attacker_goal = {
+					casus_belli = civil_war
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+			}
+		}
+		set_global_flag = american_civil_war_has_happened
+		clr_country_flag = the_slavery_debate
+	}
+}
+
+country_event = {
+	id = 16001
+	title = "EVTNAME16001"
+	desc = "EVTDESC16001"
+	fire_only_once = yes
+	picture = "Slaves"
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	 
+	immediate = {
+		set_country_flag = the_slavery_debate
+	}
+	option = {
+		name = "EVTOPTA16001"
+		add_country_modifier = {
+			name = the_slavery_debate
+			duration = 10950
+		}
+	}
+}
+
+country_event = {
+	id = 16010
+	title = "EVTNAME16010"
+	desc = "EVTDESC16010"
+	major = yes
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		NOT = {
+			has_country_flag = john_browns_raid
+			has_global_flag = american_civil_war_has_happened
+		}
+		any_state = {
+			is_slave = no
+			average_consciousness = 5
+		}
+		upper_house = {
+			ideology = liberal
+			value = 0.1
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+#		modifier = {
+#			factor = 10
+#			NOT = {
+#				year = 1845
+#			}
+#		}
+		modifier = {
+			factor = 5
+			year = 1850
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16010"
+		set_country_flag = john_browns_raid
+		any_pop = {
+			limit = {
+				has_pop_culture = dixie
+			}
+			militancy = 1
+			consciousness = 2
+		}
+	}
+}
+
+country_event = {
+	id = 16020
+	title = "EVTNAME16020"
+	desc = "EVTDESC16020"
+	major = yes
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		NOT = {
+			has_country_flag = dred_scott_decision
+			has_global_flag = american_civil_war_has_happened
+		}
+		any_state = {
+			is_slave = yes
+			average_consciousness = 4
+		}
+		upper_house = {
+			ideology = liberal
+			value = 0.1
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+#		modifier = {
+#			factor = 5
+#			NOT = {
+#				year = 1845
+#			}
+#		}
+		modifier = {
+			factor = 5
+			year = 1850
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16020"
+		set_country_flag = dred_scott_decision
+		any_pop = {
+			limit = {
+				has_pop_culture = yankee
+			}
+			militancy = 1
+			consciousness = 2
+		}
+	}
+}
+
+country_event = {
+	id = 16040
+	title = "EVTNAME16040"
+	desc = "EVTDESC16040"
+	picture = "Utopia"
+	
+	trigger = {
+		tag = USA
+		any_state = {
+			is_slave = yes
+		}
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 100 #600
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = {
+				average_consciousness = 5
+			}
+		}
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16040"
+		random_state = {
+			limit = {
+				is_slave = yes
+				is_colonial = no
+			}
+			aristocrats = {
+				consciousness = 0.25 #1
+			}
+			capitalists = {
+				consciousness = 0.25 #1
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB16040"
+		random_state = {
+			limit = {
+				is_slave = yes
+				is_colonial = no
+			}
+			farmers = {
+				consciousness = 0.15 #0.5
+			}
+			labourers = {
+				consciousness = 0.15 #0.5
+			}
+			slaves = {
+				consciousness = 0.25 #1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16050
+	title = "EVTNAME16050"
+	desc = "EVTDESC16050"
+	picture = "dixie"
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		any_state = {
+			is_slave = yes
+		}
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = {
+				average_consciousness = 5
+			}
+		}
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16050"
+		random_state = {
+			limit = {
+				is_slave = yes
+				is_colonial = no
+			}
+			any_pop = {
+				consciousness = 1
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB16050"
+		random_state = {
+			limit = {
+				is_slave = yes
+				is_colonial = no
+			}
+			farmers = {
+				consciousness = 1.5
+			}
+			labourers = {
+				consciousness = 1.5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16060
+	title = "EVTNAME16060"
+	desc = "EVTDESC16060"
+	picture = "yankee"
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		any_state = {
+			is_slave = no
+		}
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = {
+				average_consciousness = 5
+			}
+		}
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16060"
+		random_state = {
+			limit = {
+				is_slave = no
+				is_colonial = no
+			}
+			any_pop = {
+				consciousness = 1
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB16060"
+		random_state = {
+			limit = {
+				is_slave = no
+				is_colonial = no
+			}
+			farmers = {
+				consciousness = 1.5
+			}
+			labourers = {
+				consciousness = 1.5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16080
+	title = "EVTNAME16080"
+	desc = "EVTDESC16080"
+	picture = "prisonworkers"
+		
+	trigger = {
+		slavery = yes_slavery
+		tag = USA
+		any_state = {
+			is_slave = yes
+		}
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 600
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = {
+				average_consciousness = 5
+			}
+		}
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16080"
+		random_state = {
+			limit = {
+				is_slave = yes
+				is_colonial = no
+			}
+			slaves = {
+				consciousness = 2
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB16080"
+		random_state = {
+			limit = {
+				is_slave = yes
+				is_colonial = no
+			}
+			any_pop = {
+				consciousness = 0.5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16110
+	title = "EVTNAME16110"
+	desc = "EVTDESC16110"
+	picture = "Slaves"
+
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		any_state = {
+			is_slave = yes
+		}
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 100 #600
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = {
+				average_consciousness = 5
+			}
+		}
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16110"
+		random_state = {
+			limit = {
+				is_slave = yes
+				is_colonial = no
+			}
+			slaves = {
+				consciousness = 0.15 #1.5
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB16110"
+		any_state = {
+			limit = {
+				is_slave = yes
+				is_colonial = no
+			}
+			any_pop = {
+				consciousness = 0.1 #0.5
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16120
+	title = "EVTNAME16120"
+	desc = "EVTDESC16120"
+	
+	trigger = {
+		 
+			tag = USA
+			slavery = yes_slavery
+		 
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 600 #600
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 1.1
+			NOT = {
+				average_consciousness = 5
+			}
+		}
+		modifier = {
+			factor = 15
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16120"
+		poor_strata = {
+			consciousness = 0.2 #2
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB16120"
+		rich_strata = {
+			consciousness = 0.15 #1.5
+		}
+		middle_strata = {
+			consciousness = 0.15 #1.5
+		}
+	}
+}
+
+country_event = {
+	id = 16150
+	title = "EVTNAME16150"
+	desc = "EVTDESC16150"
+	
+	trigger = {
+	 
+			tag = USA
+			slavery = yes_slavery
+		NOT = {
+			has_country_modifier = copperhead_democrats
+		}
+		 
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 100 #800
+		modifier = {
+			factor = 0.8
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.8
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				average_consciousness = 5
+			}
+		}
+		modifier = {
+			factor = 5
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 3
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 2
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16150"
+		add_country_modifier = {
+			name = copperhead_democrats
+			duration = 365
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB16150"
+		 
+			any_state = {
+				limit = {
+					is_slave = yes
+				}
+				any_pop = {
+					consciousness = 4 #2
+				}
+			 
+		}
+	}
+}
+
+country_event = {
+	id = 16160
+	title = "EVTNAME16160"
+	desc = "EVTDESC16160"
+	picture = "Liberator"
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		any_state = {
+			is_slave = yes
+		}
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 750
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				average_consciousness = 5
+			}
+		}
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16160"
+		any_state = {
+			limit = {
+				is_slave = no
+				is_colonial = no
+			}
+			any_pop = {
+				consciousness = 0.5
+				dominant_issue = {
+					value = no_slavery
+					factor = 0.1
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16170
+	title = "EVTNAME16170"
+	desc = "EVTDESC16170"
+	picture = "Slavepower"
+
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		any_state = {
+			is_slave = yes
+		}
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 750
+		modifier = {
+			factor = 0.9
+			average_consciousness = 5
+		}
+		modifier = {
+			factor = 0.9
+			average_consciousness = 6
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				average_consciousness = 5
+			}
+		}
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16170"
+		any_state = {
+			limit = {
+				is_slave = yes
+				is_colonial = no
+			}
+			any_pop = {
+				limit = {
+					NOT = {
+						type = slaves
+					}
+				}
+				consciousness = 0.5
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 16180
+	title = "EVTNAME16180"
+	desc = "EVTDESC16180"
+	
+	trigger = {
+		owner = {
+			tag = USA
+			slavery = yes_slavery
+		}
+		state_scope = {
+			is_colonial = yes
+		}
+		owner = {
+			slavery = yes_slavery
+		}
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 100 #750
+		modifier = {
+			factor = 0.3
+			has_province_modifier = border_ruffians
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				has_country_flag = emigrant_aid_company
+			}
+		}
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16180"
+		add_province_modifier = {
+			name = free_staters
+			duration = 365
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB16180"
+		owner = {
+			any_state = {
+				limit = {
+					is_slave = no
+					is_colonial = no
+				}
+				any_pop = {
+					consciousness = 0.15 #0.5
+				}
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 16190
+	title = "EVTNAME16190"
+	desc = "EVTDESC16190"
+	
+	trigger = {
+		owner = {
+			tag = USA
+			slavery = yes_slavery
+		}
+		state_scope = {
+			is_colonial = yes
+		}
+		owner = {
+			slavery = yes_slavery
+		}
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 100 #750
+		modifier = {
+			factor = 0.3
+			has_province_modifier = free_staters
+		}
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16190"
+		add_province_modifier = {
+			name = border_ruffians
+			duration = 365
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB16190"
+		owner = {
+			any_state = {
+				limit = {
+					is_colonial = no
+					is_slave = no
+				}
+				any_pop = {
+					consciousness = 0.15 #0.5
+				}
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 16200
+	title = "EVTNAME16200"
+	desc = "EVTDESC16200"
+	
+	trigger = {
+		owner = {
+			tag = USA
+			slavery = yes_slavery
+		}
+		has_province_modifier = border_ruffians
+		has_province_modifier = free_staters
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16200"
+		remove_province_modifier = border_ruffians
+		remove_province_modifier = free_staters
+		state_scope = {
+			any_pop = {
+				reduce_pop = 0.98
+			}
+		}
+		owner = {
+			set_country_flag = bleeding_kansas
+			any_pop = {
+				consciousness = 0.5
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 16210
+	title = "EVTNAME16210"
+	desc = "EVTDESC16210"
+	
+	trigger = {
+		owner = {
+			tag = USA
+			slavery = yes_slavery
+		}
+		has_province_modifier = border_ruffians
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 15
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA14210"
+		any_pop = {
+			reduce_pop = 0.98
+		}
+	}
+}
+
+province_event = {
+	id = 16220
+	title = "EVTNAME16220"
+	desc = "EVTDESC16220"
+	
+	trigger = {
+		owner = {
+			tag = USA
+			slavery = yes_slavery
+			NOT = {
+				has_country_flag = emigrant_aid_company
+			}
+		}
+		state_scope = {
+			is_colonial = no
+			is_slave = no
+		}
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+		modifier = {
+			factor = 0.1
+			owner = {
+				has_country_flag = bleeding_kansas
+			}
+		}
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16220"
+		owner = {
+			set_country_flag = emigrant_aid_company
+		}
+		state_scope = {
+			any_pop = {
+				consciousness = 0.5
+			}
+		}
+	}
+}
+
+province_event = {
+	id = 16230
+	title = "EVTNAME16230"
+	desc = "EVTDESC16230"
+	
+	trigger = {
+		owner = {
+			tag = USA
+			slavery = yes_slavery
+		}
+		has_province_modifier = free_staters
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 100 #400
+		
+		modifier = {
+			factor = 0.9
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 1.2
+			NOT = {
+				average_consciousness = 4
+			}
+		}
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16230"
+		remove_province_modifier = free_staters
+		any_pop = {
+			reduce_pop = 0.98 #0.95
+		}
+	}
+}
+
+province_event = {
+	id = 16240
+	title = "EVTNAME16240"
+	desc = "EVTDESC16240"
+	
+	trigger = {
+		owner = {
+			tag = USA
+			slavery = yes_slavery
+		}
+		has_province_modifier = border_ruffians
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 150 #450
+		modifier = {
+			factor = 0.9
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 0.9
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 1.2
+			NOT = {
+				average_consciousness = 4
+			}
+		}
+		modifier = {
+			factor = 20
+			NOT = {
+				year = 1845
+			}
+		}
+		modifier = {
+			factor = 10
+			year = 1845
+			NOT = {
+				year = 1855
+			}
+		}
+		modifier = {
+			factor = 5
+			year = 1855
+			NOT = {
+				year = 1860
+			}
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16240"
+		remove_province_modifier = border_ruffians
+		any_pop = {
+			reduce_pop = 0.98 #0.98
+		}
+	}
+}
+
+province_event = {
+	id = 16250
+	title = "EVTNAME16250"
+	desc = "EVTDESC16250"
+	
+	trigger = {
+		NOT = {
+			is_core = CSA
+		}
+		owner = {
+			tag = USA
+			slavery = yes_slavery
+			NOT = {
+				has_global_flag = american_civil_war_has_happened
+			}
+		}
+		state_scope = {
+			is_slave = yes
+		}
+		yes_slavery = 10
+		average_consciousness = 5
+		continent = north_america
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+		modifier = {
+			factor = 0.5
+			yes_slavery = 15
+		}
+		modifier = {
+			factor = 0.5
+			average_consciousness = 4
+		}
+		modifier = {
+			factor = 0.5
+			average_consciousness = 5
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA16250"
+		state_scope = {
+			any_owned = {
+				add_core = CSA
+			}
+			any_pop = {
+				dominant_issue = {
+					value = yes_slavery
+					factor = 0.2
+				}
+				militancy = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16300
+	title = "EVTNAME16300"
+	desc = "EVTDESC16300"
+	picture = "Uncletom"
+	
+	trigger = {
+		tag = USA
+		slavery = yes_slavery
+		year = 1852
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "EVTOPTA16300"
+		any_pop = {
+			consciousness = 2
+			dominant_issue = {
+				factor = 0.1
+				value = no_slavery
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16310
+	title = "EVTNAME16310"
+	desc = "EVTDESC16310"
+	picture = "Amistad"
+	
+	trigger = {
+		tag = USA
+		year = 1841
+		slavery = yes_slavery
+		NOT = {
+			has_global_flag = american_civil_war_has_happened
+		}
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 4
+	}
+	
+	option = {
+		name = "EVTOPTA16310"
+		any_pop = {
+			consciousness = 2
+			dominant_issue = {
+				factor = 0.05
+				value = no_slavery
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 16415
+	title = "EVTNAME16415"
+	desc = "EVTDESC16415"
+	fire_only_once = yes
+	picture = "kkk"
+	
+	trigger = {
+		tag = USA
+		has_global_flag = american_civil_war_has_happened
+		has_country_flag = has_used_radical_reconstruction
+		NOT = {
+			exists = CSA
+		}
+		owns = 211
+		owns = 195
+		owns = 139
+	}
+	
+	mean_time_to_happen = {
+		months = 30
+	}
+	
+	option = {
+		name = "EVTOPTA16415"
+		any_pop = {
+			limit = {
+				has_pop_culture = dixie
+			}
+			militancy = 3
+			consciousness = 1
+		}
+	}
+}
+
+country_event = {
+
+	id = 44100
+	news = yes
+	news_desc_long = "EVTDESC44100_NEWS_LONG"
+	news_desc_medium = "EVTDESC44100_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44100_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1885
+		NOT = {
+			year = 1888
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1886
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1887
+		}
+	}
+
+	title = "EVTNAME44100"
+	desc = "EVTDESC44100"
+	picture = "HuckleberryFinn"
+
+	option = {
+		name = "EVTOPTA44100" 
+		prestige = 30
+	}
+
+}
+
+country_event = {
+
+	id = 44101
+	news = yes
+	news_desc_long = "EVTDESC44101_NEWS_LONG"
+	news_desc_medium = "EVTDESC44101_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44101_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1893
+		NOT = {
+			year = 1896
+		}
+	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1886
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1887
+		}
+	}
+
+	title = "EVTNAME44101"
+	desc = "EVTDESC44101"
+	picture = "speedrecord"
+
+	option = {
+		name = "EVTOPTA44101" 
+		prestige = 30
+	}
+
+}
+
+country_event = {
+
+	id = 44102
+	news = yes
+	news_desc_long = "EVTDESC44102_NEWS_LONG"
+	news_desc_medium = "EVTDESC44102_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44102_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		government = democracy
+		invention = double_standard 
+		year = 1895
+		NOT = {
+			year = 1898
+			}
+	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1896
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1897
+		}
+	}
+
+	title = "EVTNAME44102"
+	desc = "EVTDESC44102"
+	picture = "CrossofGold"
+
+	option = {
+		name = "EVTOPTA44102" 
+		plurality = 3
+		any_pop = {
+			consciousness = 1
+		}
+	}
+
+}
+
+country_event = {
+
+	id = 44103
+	news = yes
+	news_desc_long = "EVTDESC44103_NEWS_LONG"
+	news_desc_medium = "EVTDESC44103_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44103_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1856
+		war = no
+		NOT = {
+			year = 1859
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1857
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1858
+		}
+	}
+
+	title = "EVTNAME44103"
+	desc = "EVTDESC44103"
+	picture = "HMS_Resolute"
+
+	option = {
+		name = "EVTOPTA44103" 
+		prestige = 30
+		relation = { who = ENG value = 100 }
+	}
+
+}
+
+country_event = {
+
+	id = 44104
+	news = yes
+	news_desc_long = "EVTDESC44104_NEWS_LONG"
+	news_desc_medium = "EVTDESC44104_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44104_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		government = democracy
+		year = 1838
+		NOT = {
+			year = 1842
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1839
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1840
+		}
+	}
+
+	title = "EVTNAME44104"
+	desc = "EVTDESC44104"
+	picture = "HoraceMann"
+
+	option = {
+		name = "EVTOPTA44104" 
+		prestige = 30
+		plurality = 1
+		years_of_research = 0.5
+	}
+
+}
+
+country_event = {
+
+	id = 44105
+	news = yes
+	news_desc_long = "EVTDESC44105_NEWS_LONG"
+	news_desc_medium = "EVTDESC44105_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44105_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1846
+		NOT = {
+			year = 1849
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME44105"
+	desc = "EVTDESC44105"
+	picture = "Smithsonian"
+
+	option = {
+		name = "EVTOPTA44105" 
+		prestige = 30
+		years_of_research = 0.5
+	}
+
+}
+
+country_event = {
+
+	id = 44106
+	news = yes
+	news_desc_long = "EVTDESC44106_NEWS_LONG"
+	news_desc_medium = "EVTDESC44106_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44106_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1841
+		NOT = {
+			year = 1844
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1842
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1843
+		}
+	}
+
+	title = "EVTNAME44106"
+	desc = "EVTDESC44106"
+	picture = "Emerson"
+
+	option = {
+		name = "EVTOPTA44106" 
+		prestige = 30
+		any_pop = {
+			dominant_issue = { 
+				factor = 0.10
+				value = moralism
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 44107
+	news = yes
+	news_desc_long = "EVTDESC44107_NEWS_LONG"
+	news_desc_medium = "EVTDESC44107_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44107_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		government = democracy
+		year = 1861
+		NOT = {
+			year = 1864
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1862
+		}
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1863
+		}
+	}
+
+	title = "EVTNAME44107"
+	desc = "EVTDESC44107"
+	picture = "CommonLaw"
+
+	option = {
+		name = "EVTOPTA44107" 
+		prestige = 30
+		plurality = 2
+	}
+}
+
+country_event = {
+
+	id = 44108
+	news = yes
+	news_desc_long = "EVTDESC44108_NEWS_LONG"
+	news_desc_medium = "EVTDESC44108_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44108_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1885
+		has_global_flag = american_civil_war_has_happened
+		NOT = {
+			exists = CSA
+			year = 1888
+		}
+	}
+		
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1886
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1887
+		}
+	}
+
+	title = "EVTNAME44108"
+	desc = "EVTDESC44108"
+	picture = "Grant"
+
+	option = {
+		name = "EVTOPTA44108" 
+		prestige = 30
+	}
+}
+
+country_event = {
+
+	id = 44109
+	news = yes
+	news_desc_long = "EVTDESC44109_NEWS_LONG"
+	news_desc_medium = "EVTDESC44109_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44109_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1890
+		is_greater_power = yes
+		NOT = {
+			exists = CSA
+			year = 1893
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1891
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1892
+		}
+	}
+
+	title = "EVTNAME44109"
+	desc = "EVTDESC44109"
+	picture = "SeaPower"
+
+	option = {
+		name = "EVTOPTA44109" 
+		prestige = 30
+	}
+}
+
+country_event = {
+
+	id = 44110
+	news = yes
+	news_desc_long = "EVTDESC44110_NEWS_LONG"
+	news_desc_medium = "EVTDESC44110_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44110_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1916
+		government = democracy
+		is_greater_power = yes
+		war = yes
+		NOT = {
+			exists = CSA
+			year = 1930
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1917
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1920
+		}
+	}
+
+	title = "EVTNAME44110"
+	desc = "EVTDESC44110"
+	picture = "Spies"
+
+	option = {
+		name = "EVTOPTA44110" 
+		prestige = -10
+		any_pop = {
+			militancy = -2
+			consciousness = -2
+			}
+		political_reform = censored_press
+		political_reform = non_socialist
+		plurality = -10
+	}
+
+
+	option = {
+		name = "EVTOPTB44110" 
+		prestige = 25
+		political_reform = free_press
+		political_reform = all_trade_unions
+		plurality = 10
+		craftsmen = {
+			ideology = {
+				factor = 0.15
+				value = socialist
+				}
+			}
+		labourers = {
+			ideology = {
+				factor = 0.20
+				value = socialist
+				}
+			}
+		soldiers = {
+			ideology = {
+				factor = 0.05
+				value = socialist
+				}
+			}
+	}
+}
+
+country_event = {
+
+	id = 44111
+	news = yes
+	news_desc_long = "EVTDESC44111_NEWS_LONG"
+	news_desc_medium = "EVTDESC44111_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44111_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1865
+		war = no
+		NOT = {
+			year = 1868
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1866
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1867
+		}
+	}
+
+	title = "EVTNAME44111"
+	desc = "EVTDESC44111"
+	picture = "pinkertons"
+
+	option = {
+		name = "EVTOPTA44111" 
+		prestige = 30
+		
+	}
+}
+
+country_event = {
+
+	id = 44112
+	news = yes
+	news_desc_long = "EVTDESC44112_NEWS_LONG"
+	news_desc_medium = "EVTDESC44112_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44112_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1876
+		war = no
+		NOT = {
+			year = 1880
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1877
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1878
+		}
+	}
+
+	title = "EVTNAME44112"
+	desc = "EVTDESC44112"
+	picture = "baseball"
+
+	option = {
+		name = "EVTOPTA44112" 
+		prestige = 30
+		farmers = {
+			consciousness = -1
+			}
+		labourers = {
+			consciousness = -1
+			}
+		soldiers = {
+			consciousness = -1
+			}
+		artisans = {
+			consciousness = -1
+			}
+		craftsmen = {
+			consciousness = -1
+			}
+		clerks = {
+			consciousness = -1
+			}
+		clergymen = {
+			consciousness = -1
+			}
+	}
+}
+
+country_event = {
+
+	id = 44113
+	news = yes
+	news_desc_long = "EVTDESC44113_NEWS_LONG"
+	news_desc_medium = "EVTDESC44113_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44113_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1871
+		owns = 163 #Chicago
+		NOT = {
+			year = 1874
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1872
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1873
+		}
+	}
+
+	title = "EVTNAME44113"
+	desc = "EVTDESC44113"
+	picture = "chicagofire"
+
+	option = {
+		name = "EVTOPTA44113" 
+		treasury = -25
+	}
+}
+
+country_event = {
+
+	id = 44114
+	news = yes
+	news_desc_long = "EVTDESC44114_NEWS_LONG"
+	news_desc_medium = "EVTDESC44114_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44114_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1881
+		owns = 102 #S Arizona
+		NOT = {
+			year = 1884
+		}	
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1882
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1883
+		}
+	}
+
+	title = "EVTNAME44114"
+	desc = "EVTDESC44114"
+	picture = "WyattEarp"
+
+	option = {
+		name = "EVTOPTA44114" 
+		prestige = 30
+	}
+}
+
+country_event = {
+
+	id = 44115
+
+	trigger = {
+		tag = USA
+		year = 1846
+		NOT = {
+			year = 1850
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1847
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1848
+		}
+	}
+
+	title = "EVTNAME44115"
+	desc = "EVTDESC44115"
+	picture = "baseball"
+
+	option = {
+		name = "EVTOPTA44114" 
+		prestige = 30
+	}
+}
+
+country_event = {
+
+	id = 44116
+	news = yes
+	news_desc_long = "EVTDESC44116_NEWS_LONG"
+	news_desc_medium = "EVTDESC44116_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44116_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1836
+		NOT = {
+			year = 1840
+			}
+	}
+		
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1837
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1838
+		}
+	}
+
+	title = "EVTNAME44116"
+	desc = "EVTDESC44116"
+	picture = "secondawakening"
+
+	option = {
+		name = "EVTOPTA44116"
+		any_pop = {
+			consciousness = 0.3
+		}
+		farmers = { 
+			dominant_issue = {
+				factor = 0.40
+				value = moralism
+				}
+			}		
+		labourers = { 
+			dominant_issue = {
+				factor = 0.40
+				value = moralism
+				}
+			}		
+		soldiers = { 
+			dominant_issue = {
+				factor = 0.25
+				value = moralism
+				}
+			}		
+		artisans = { 
+			dominant_issue = {
+				factor = 0.30
+				value = moralism
+				}
+		}
+	}
+}
+
+country_event = {
+
+	id = 44117
+	news = yes
+	news_desc_long = "EVTDESC44117_NEWS_LONG"
+	news_desc_medium = "EVTDESC44117_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44117_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1837
+		NOT = {
+			year = 1840
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME44117"
+	desc = "EVTDESC44117"
+	picture = "christ"
+
+	option = {
+		name = "EVTOPTA44117" 
+		any_pop = { 
+			scaled_consciousness = {
+				factor = 1
+				ideology = liberal
+				}
+			}		
+	}
+}
+
+country_event = {
+
+	id = 44118
+	news = yes
+	news_desc_long = "EVTDESC44118_NEWS_LONG"
+	news_desc_medium = "EVTDESC44118_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44118_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1837
+		NOT = {
+			year = 1840
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME44118"
+	desc = "EVTDESC44118"
+	picture = "charity"
+
+	option = {
+		name = "EVTOPTA44118" 
+		plurality = 1
+		farmers = { 
+			militancy = -1
+			}		
+		labourers = { 
+			militancy = -1
+			}		
+		soldiers = { 
+			militancy = -1
+			}		
+		artisans = { 
+			militancy = -1
+			}		
+	}
+}
+
+country_event = {
+
+	id = 44119
+	news = yes
+	news_desc_long = "EVTDESC44119_NEWS_LONG"
+	news_desc_medium = "EVTDESC44119_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44119_NEWS_SHORT"
+
+	trigger = {
+		tag = USA
+		year = 1848
+		NOT = {
+			year = 1852
+			}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 5
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1849
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1850
+		}
+	}
+
+	title = "EVTNAME44119"
+	desc = "EVTDESC44119"
+	picture = "JJHughes"
+
+	option = {
+		name = "EVTOPTA44119" 
+		any_pop = { 
+			limit = {
+				has_pop_religion = catholic
+				}
+			consciousness = 1
+			}		
+	}
+}
+
+country_event = {
+
+	id = 44120
+	news = yes
+	news_desc_long = "EVTDESC44120_NEWS_LONG"
+	news_desc_medium = "EVTDESC44120_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44120_NEWS_SHORT"
+
+	trigger = {
+		tag = USA 
+		moralism = 5
+		year = 1838
+		NOT = {
+			year = 1930
+		}
+	}
+	
+	fire_only_once = no
+ 
+	mean_time_to_happen = {
+		months = 60
+
+		modifier = {
+			factor = 0.9 #increase likelihood to happen
+			year = 1885
+		}
+
+
+		modifier = {
+			factor = 0.9 #increase likelihood to happen
+			year = 1910
+		}
+	}
+
+	title = "EVTNAME44120"
+	desc = "EVTDESC44120"
+	picture = "saloon"
+
+	option = {
+		name = "EVTOPTA44120" 
+		any_pop = { 
+			limit = {
+				has_pop_religion = protestant
+			}
+			consciousness = 1
+			dominant_issue = {
+				factor = 0.02
+				value = moralism
+			}		
+			dominant_issue = {
+				factor = 0.04
+				value = secularized
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = 44121
+	news = yes
+	news_desc_long = "EVTDESC44121_NEWS_LONG"
+	news_desc_medium = "EVTDESC44121_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC44121_NEWS_SHORT"
+
+	trigger = {
+		tag = USA 
+		year = 1838
+		NOT = {
+			year = 1842
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 6
+
+		modifier = {
+			factor = 0.25 #increase likelihood to happen
+			year = 1839
+		}
+
+
+		modifier = {
+			factor = 0.25 #increase likelihood to happen
+			year = 1840
+		}
+	}
+
+	title = "EVTNAME44121"
+	desc = "EVTDESC44121"
+	picture = "christ"
+
+	option = {
+		name = "EVTOPTA44121" 
+		any_pop = { 
+			limit = {
+				has_pop_culture = afro_american
+				}
+			consciousness = 1
+				}
+		}
+}
+
+country_event = {
+	id = 19001
+	title = "EVTNAME19001"
+	desc = "EVTDESC19001"
+	picture = "Upperhouse"
+	is_triggered_only = yes
+	option = { name = "EVTOPTA19001" 1887 = { trade_goods = wool } 1888 = { trade_goods = wool } }
+	option = { name = "EVTOPTB19001" 1887 = { trade_goods = wool } 1888 = { trade_goods = dye } }
+	option = { name = "EVTOPTC19001" 1887 = { trade_goods = tobacco } 1888 = { trade_goods = tobacco } }
+}
+

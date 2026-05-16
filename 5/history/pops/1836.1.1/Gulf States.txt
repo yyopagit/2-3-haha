@@ -1,0 +1,209 @@
+#Basra Region (12000) #see Iraq.txt for balance of region 
+#under the rule of Ottoman Empire in 1836 
+#Kuwait (12000/3000 POPS) #now part of Kuwait 
+935 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 70000
+	}
+}
+#Bahrain Region (28000) #see Saudi Arabia.txt for balance of region 
+#under the rule of Trucial States in 1836 
+#Bahrain (20000/5000 POPS) #now part of Bahrein 
+1162 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 150
+	}
+
+	officers = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 37000
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 1500
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 56000
+	}
+}
+#Doha (8000/2000 POPS) #now part of Qatar 
+1165 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 1000
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 90000
+	}
+}
+#Uman Region (36000) #see Oman.txt for balance of region 
+#under the rule of Oman in 1836 
+#Abu Dhabi (20000/5000 POPS) #now part of UAE 
+1167 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 250
+	}
+
+	bureaucrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 150
+	}
+
+	officers = {
+		culture = bedouin
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 100000
+	}
+}
+#Dubai (16000/4000 POPS) #now part of UAE 
+1168 = {
+	aristocrats = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	clergymen = {
+		culture = bedouin
+		religion = orthodox
+		size = 350
+	}
+
+	artisans = {
+		culture = bedouin
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = bedouin
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = bedouin
+		religion = orthodox
+		size = 90000
+	}
+
+}

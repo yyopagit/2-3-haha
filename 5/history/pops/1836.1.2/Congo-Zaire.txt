@@ -1,0 +1,909 @@
+#Congo Region (164000)
+#uncolonized in 1836/ruled by Teke in 1836
+#Kinshasa (128000/32000 POPS)
+1982 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 625
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 325
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 1275
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 230
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 122450
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 60000
+	}
+}
+#Boma (36000/9000 POPS)
+1983 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 675
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 600
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3750
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 52500
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 30000
+	}
+}
+#Kasai Region (496000)
+#uncolonized in 1836/under Lunda control
+#Kananga (184000/46000 POPS)
+1984 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 75
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 625
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 800
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 400
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3650
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 240
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 90725
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 61000
+	}
+}
+#Kumbana (124000/31000 POPS)
+1985 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 4650
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 175
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 82725
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1275
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1050
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 4750
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 86750
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 20000
+	}
+}
+#uncolonized in 1836/dominated by the Luba
+#Lusambo (188000/47000 POPS)
+1986 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 2650
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 175
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 48725
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1600
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1300
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 5550
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 325
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 128225
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 60000
+	}
+}
+#Katanga Region (832000)
+#uncolonized in 1836/under the rule of Kazembe
+#Bunkeya (444000/111000 POPS)
+1987 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1950
+	}
+
+	bureaucrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 20
+	}
+
+	officers = {
+		culture = african_minor
+		religion = orthodox
+		size = 80
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 975
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 8000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 310
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 91050
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1500
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1250
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 6500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 118500
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 90000
+	}
+}
+#uncolonized in 1836/under Lunda control
+#Mussumba (108000/27000 POPS)
+1988 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 2300
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1750
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 6750
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 175
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 96750
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1750
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 5000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 91250
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 60000
+	}
+}
+#uncolonized in 1836/dominated by the Luba
+#Munza (280000/70000 POPS)
+1989 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1100
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 2050
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 225
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 123925
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1350
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1200
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3950
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 200
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 77200
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 43000
+	}
+}
+#Maniema Region (300000)
+#uncolonized in 1836/dominated by the Luba
+#Nyangwe (104000/26000 POPS)
+1990 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 2250
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1250
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 5250
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 80000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1250
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1125
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 6500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 118500
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 40000
+	}
+}
+#Uvira (76000/19000 POPS)
+1991 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1750
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1200
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 7750
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 200
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 134500
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 40000
+	}
+}
+#Basoko (120000/30000 POPS)
+1992 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1575
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1300
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 6200
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 300
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 207250
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 70000
+	}
+}
+#Equateur Region (232000)
+#uncolonized in 1836
+#Irebu (60000/15000 POPS)
+1993 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1275
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1150
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 6000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 108250
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 60000
+	}
+}
+#Nsheng (60000/15000 POPS)
+1994 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1275
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1150
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 6000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 108250
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 60000
+	}
+}
+#Gemena (112000/28000 POPS)
+1995 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 2550
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1275
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 8000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 300
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 217500
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 40000
+	}
+}
+#Ituri-Uele Region (337000)
+#uncolonized in 1836/dominated by Luba
+#Kisangani (156000/39000 POPS)
+1996 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1775
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1400
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 6575
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 400
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 188500
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 80000
+	}
+}
+#uncolonized in 1836/under the domination of the Azande
+#Mungbane (76000/19000 POPS)
+1997 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1750
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3750
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 62500
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1750
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 5000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 91250
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 50000
+	}
+}
+#Baramo (108000/27000 POPS)
+1998 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 2250
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1750
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 13500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 275
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 245750
+	}
+
+}

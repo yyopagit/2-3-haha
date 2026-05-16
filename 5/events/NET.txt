@@ -1,0 +1,174 @@
+country_event = {
+
+	id = 36704
+	news = yes
+	news_desc_long = "EVTDESC36704_NEWS_LONG"
+	news_desc_medium = "EVTDESC36704_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36704_NEWS_SHORT"
+
+	trigger = {
+		tag = NET 
+		year = 1845
+		NOT = {
+			year = 1848
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1846
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1847
+		}
+	}
+
+	title = "EVTNAME36704"
+	desc = "EVTDESC36704"
+	picture = "sax"
+
+	
+	option = {
+		name = "EVTOPTA36704" 
+		prestige = 20
+	}
+}
+
+country_event = {
+
+	id = 36705
+	news = yes
+	news_desc_long = "EVTDESC36705_NEWS_LONG"
+	news_desc_medium = "EVTDESC36705_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC36705_NEWS_SHORT"
+
+	trigger = {
+		tag = NET 
+		year = 1861
+		NOT = {
+			year = 1864
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen = {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1862
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1863
+		}
+	}
+
+	title = "EVTNAME36705"
+	desc = "EVTDESC36705"
+	picture = "Solvay"
+
+	option = {
+		name = "EVTOPTA36705" 
+		prestige = 30
+		years_of_research = 0.5
+	}
+}
+
+country_event = { 
+	id = 402001
+	title = "EVTNAME402001"
+	desc = "EVTDESC402001"
+	picture = "greatpowers"
+	trigger = {
+		tag = NET
+	  	any_greater_power = {
+			is_sphere_leader_of = NET
+		}
+		NOT = {
+			has_country_modifier = podsos
+		}
+	}	
+	
+	option = {
+		name = "EVTOPTA402001"
+		any_country = {
+			limit = {
+				is_sphere_leader_of = NET
+			}	
+			add_country_modifier = { 
+				name = jopa_podsosa
+				duration = -1
+			}
+			NET = {
+				add_country_modifier = { 
+					name = podsos1
+					duration = -1
+				}
+			}
+			set_country_flag = yes_papik
+		}
+		any_country = {
+			limit = {
+				is_sphere_leader_of = NET
+				tag = FRA
+			}
+			add_country_modifier = { name = podsos2 duration = -1 }
+		}
+		any_country = {
+			limit = {
+				is_sphere_leader_of = NET
+				tag = ENG
+			}
+			add_country_modifier = { name = podsos3 duration = -1 }
+		}
+		set_country_flag = yes_papik
+		add_country_modifier = { 
+			name = podsos
+			duration = -1
+		}
+	  
+    }
+}
+
+country_event = { 
+	id = 402002
+	title = "EVTNAME402002"
+	desc = "EVTDESC402002"
+	picture = "greatpowers"
+	trigger = {
+		tag = NET
+		has_country_flag = yes_papik
+		NOT = {	
+			any_greater_power = {
+				is_sphere_leader_of = NET
+			}
+		}
+		has_country_modifier = podsos
+	} 
+	option = {
+	name = "EVTOPTA402002"
+		any_country = {
+			limit = {
+				has_country_modifier = jopa_podsosa
+			}	
+			remove_country_modifier = jopa_podsosa
+			clr_country_flag = yes_papik
+	    }
+        remove_country_modifier = podsos
+		remove_country_modifier = podsos1
+		remove_country_modifier = podsos2
+		remove_country_modifier = podsos3
+	    clr_country_flag = yes_papik
+	}
+}
+

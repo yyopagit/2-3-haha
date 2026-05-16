@@ -1,0 +1,46 @@
+political_decisions = {
+	korok_polshi = {
+	picture = the_grunderzeit
+		potential = {
+			tag = KUK
+			NOT = {
+				has_country_flag = polish_core
+			}
+		}
+		allow = {
+			year = 1900
+			money = 10000000
+			owns = 956
+			owns = 676
+			owns = 702
+			owns = 703
+		}
+		effect = {
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			705 = { remove_core = POL }
+			705 = { remove_core = PLC }
+			702 = { remove_core = POL }
+			702 = { remove_core = PLC }
+			951 = { remove_core = POL }
+			951 = { remove_core = PLC }
+			952 = { remove_core = POL }
+			952 = { remove_core = PLC }
+			953 = { remove_core = POL }
+			953 = { remove_core = PLC }
+			2584 = { remove_core = POL }
+			2584 = { remove_core = PLC }
+			704 = { remove_core = POL }
+			704 = { remove_core = PLC }
+			714 = { remove_core = POL }
+			714 = { remove_core = PLC }
+			703 = { remove_core = POL }
+			703 = { remove_core = PLC }
+			set_country_flag = polish_core
+		}
+	}
+}
+

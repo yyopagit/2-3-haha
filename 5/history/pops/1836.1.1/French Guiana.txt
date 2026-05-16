@@ -1,0 +1,133 @@
+#French Guiana (20000)
+#Ruled by France 1836
+#Cayenne (17000/4250 POPS)
+2241 = {
+	aristocrats = {
+		culture = french
+		religion = orthodox
+		size = 150
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = orthodox
+		size = 10
+	}
+
+	clergymen = {
+		culture = french
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = french
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = french
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = french
+		religion = orthodox
+		size = 80
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 500
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 4250
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 2950
+	}
+
+	aristocrats = {
+		culture = amazonian
+		religion = orthodox
+		size = 20
+	}
+
+	clergymen = {
+		culture = amazonian
+		religion = orthodox
+		size = 30
+	}
+
+	artisans = {
+		culture = amazonian
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = amazonian
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = amazonian
+		religion = orthodox
+		size = 23000
+	}
+}
+#Maripasoula (3000/750 POPS)
+2246 = {
+	aristocrats = {
+		culture = amazonian
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = amazonian
+		religion = orthodox
+		size = 1500
+	}
+
+	artisans = {
+		culture = amazonian
+		religion = orthodox
+		size = 350
+	}
+
+	soldiers = {
+		culture = amazonian
+		religion = orthodox
+		size = 2090
+	}
+
+	farmers = {
+		culture = amazonian
+		religion = orthodox
+		size = 68000
+	}
+
+}

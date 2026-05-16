@@ -1,0 +1,92 @@
+#Paramaribo
+2240 = {
+    aristocrats = {
+        culture = dutch
+        religion = orthodox
+        size = 25
+    }
+
+    bureaucrats = {
+        culture = dutch
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = dutch
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = dutch
+        religion = orthodox
+        size = 75
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = orthodox
+        size = 1750
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = orthodox
+        size = 1200
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = orthodox
+        size = 250
+    }
+
+    slaves = {
+        culture = north_andean
+        religion = orthodox
+        size = 39000
+    }
+
+}
+
+#Apetina
+2245 = {
+    aristocrats = {
+        culture = north_andean
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = north_andean
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = north_andean
+        religion = orthodox
+        size = 1000
+    }
+
+    soldiers = {
+        culture = north_andean
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = north_andean
+        religion = orthodox
+        size = 115000
+    }
+
+}
+

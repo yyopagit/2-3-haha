@@ -1,0 +1,42 @@
+political_decisions = {
+	form_italy_min = {
+	picture = form_italy_min
+		potential = {
+			tag = SIC
+			NOT = {
+				exists = ITA
+				has_country_flag = form_italy_min
+			}
+			ai = no
+		}
+		allow = {			
+			prestige = 5			
+		}
+		effect = {
+			prestige = 40
+			inherit = TUS
+			inherit = PAR
+			inherit = LUC
+			inherit = MOD
+			inherit = LOM
+			726 = {	remove_core = ITA	}
+			727 = {	remove_core = ITA	}
+			728 = {	remove_core = ITA	}
+			AUS_726 = {
+				add_core = SIC
+			}
+			MOD_739 = {
+				add_core = SIC
+			}
+			TUS_744 = {
+				add_core = SIC
+			}
+			create_vassal = SAR
+			set_country_flag = form_italy_min
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
+

@@ -1,0 +1,174 @@
+political_decisions = {
+	establish_la_guardia_civil = {
+	picture = establish_la_guardia_civil
+		potential = {
+			tag = SPA
+			OR = {
+				government = absolute_monarchy
+				government = prussian_constitutionalism
+				government = hms_government
+			}
+			NOT = {
+				has_country_flag = guardia_civil_established
+			}
+		}
+		allow = {
+			NOT = {
+				num_of_revolts = 1
+			}
+			OR = {
+				average_militancy = 3
+				average_consciousness = 4
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = la_guardia_civil
+				duration = -1
+			}
+			set_country_flag = guardia_civil_established
+		}
+	}
+	confiscations_of_mendizabal = {
+	picture = confiscations_of_mendizabal
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = mendizabal_confiscated
+			}
+		}
+		allow = {
+			ideological_thought = 1
+		}
+		effect = {
+			treasury = 250000
+			prestige = 10
+			relation = {
+				who = PAP
+				value = -50
+			}
+			any_pop = {
+				scaled_militancy = {
+					ideology = conservative
+					factor = 4
+				}
+				dominant_issue = {
+					value = pro_atheism
+					factor = 0.15
+				}
+			}
+			set_country_flag = mendizabal_confiscated
+		}
+	}
+	spa_colonies = {
+	picture = establish_la_guardia_civil
+		potential = {
+			tag = SPA
+			NOT = {
+				has_country_flag = spa_colony
+			}
+		}
+		allow = {
+			POR_2006 = { owned_by = SPA }
+			ENG_2014 = { owned_by = SPA }
+			POR_2053 = { owned_by = SPA }
+			POR_2049 = { owned_by = SPA }
+			POR_1999 = { owned_by = SPA }
+		}
+		effect = {
+			prestige = 60
+			2110 = {trade_goods = grain}
+			487 = {trade_goods = precious_metal}
+			POR_2006 = { infrastructure = 1 }
+			ENG_2014 = { infrastructure = 1 }
+			POR_2053 = { infrastructure = 1 }
+			POR_2049 = { infrastructure = 1 }
+			POR_1999 = { infrastructure = 1 }
+			set_country_flag = spa_colony
+		}
+	}
+	spa_convention = {
+        picture = annex_portugal
+ 		potential = {
+			tag = SPA
+			exists = POR
+			NOT = {
+				has_country_flag = spa_convention
+				war_with = POR
+			}
+		}
+		allow = {
+			is_sphere_leader_of = POR
+			is_greater_power = yes
+		}
+		effect = {
+			set_country_flag = spa_convention			
+			POR = {
+				country_event = { id=3471001 days=0 }
+			}
+			521 = {
+				add_core = SPA
+			}
+			526 = {
+				add_core = SPA
+			}
+			2135 = {
+				add_core = SPA
+			}
+			add_accepted_culture = portuguese
+			prestige = 30
+			badboy = 12
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	spa_convention2 = {
+        picture = give_money
+ 		potential = {
+			tag = SPA
+			exists = MOR
+			war = no
+			NOT = {
+				has_country_flag = spa_convention2
+			}
+		}
+		allow = {
+		MOR = {
+		vassal_of = THIS
+		}
+		}
+		effect = {
+			set_country_flag = spa_convention2			
+	         inherit =MOR
+			prestige = 20
+			badboy = 7
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	restore_emp = {
+	picture = restore_brz
+	potential = {
+			tag = SPA
+			}
+		allow =
+		{
+	        ai = no
+			year = 1850
+			nationalism_n_imperialism = 1
+			NOT = {
+				has_country_modifier = spa23
+				}
+		}
+		effect = {
+		 THIS = {country_event = { id=37702 days=0 }}
+		 	add_country_modifier = {
+			name = spa23
+			duration = 18250
+			}
+		}
+	}
+}
+

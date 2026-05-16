@@ -1,0 +1,699 @@
+#Flanders Region (2558000)
+#Brussels (772000/193000 POPS)
+387 = {
+	clergymen = {
+		culture = ashkenazi
+		religion = orthodox
+		size = 25
+	}
+
+	clerks = {
+		culture = ashkenazi
+		religion = orthodox
+		size = 50
+	}
+
+	craftsmen = {
+		culture = ashkenazi
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = orthodox
+		size = 1425
+	}
+
+	aristocrats = {
+		culture = dutch
+		religion = orthodox
+		size = 1500
+	}
+
+	officers = {
+		culture = dutch
+		religion = orthodox
+		size = 200
+	}
+
+	bureaucrats = {
+		culture = dutch
+		religion = orthodox
+		size = 800
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 1625
+	}
+
+	capitalists = {
+		culture = dutch
+		religion = orthodox
+		size = 50
+	}
+
+	clerks = {
+		culture = dutch
+		religion = orthodox
+		size = 150
+	}
+
+	craftsmen = {
+		culture = dutch
+		religion = orthodox
+		size = 3000
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 6000
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 3000
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 145725
+	}
+
+	aristocrats = {
+		culture = dutch
+		religion = orthodox
+		size = 300
+	}
+
+	officers = {
+		culture = dutch
+		religion = orthodox
+		size = 450
+	}
+
+	bureaucrats = {
+		culture = dutch
+		religion = orthodox
+		size = 1600
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 250
+	}
+
+	capitalists = {
+		culture = dutch
+		religion = orthodox
+		size = 150
+	}
+
+	clerks = {
+		culture = dutch
+		religion = orthodox
+		size = 300
+	}
+
+	craftsmen = {
+		culture = dutch
+		religion = orthodox
+		size = 5000
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 2300
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 1100
+	}
+
+	labourers = {
+		culture = dutch
+		religion = orthodox
+		size = 5650
+	}
+}
+#Bruges (456000/114000 POPS)
+388 = {
+	aristocrats = {
+		culture = dutch
+		religion = orthodox
+		size = 1150
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 1125
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 10000
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 1200
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 100525
+	}
+}
+#Ghent (704000/176000 POPS)
+389 = {
+	aristocrats = {
+		culture = dutch
+		religion = orthodox
+		size = 1750
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 1750
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 6000
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 1750
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 149750
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 4900
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 50
+	}
+}
+#Antwerp (354000/88500 POPS)
+390 = {
+	clergymen = {
+		culture = ashkenazi
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = orthodox
+		size = 1475
+	}
+
+	aristocrats = {
+		culture = dutch
+		religion = orthodox
+		size = 825
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 875
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 10000
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 3600
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 67700
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 2925
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 25
+	}
+}
+#Hasselt (272000/68000 POPS)
+391 = {
+	aristocrats = {
+		culture = dutch
+		religion = orthodox
+		size = 650
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 675
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 3500
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 62175
+	}
+
+}
+#Wallonia Region (1432000)
+#Liege (388000/97000 POPS)
+392 = {
+	aristocrats = {
+		culture = dutch
+		religion = orthodox
+		size = 850
+	}
+
+	officers = {
+		culture = dutch
+		religion = orthodox
+		size = 350
+	}
+
+	bureaucrats = {
+		culture = dutch
+		religion = orthodox
+		size = 1400
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 850
+	}
+
+	capitalists = {
+		culture = dutch
+		religion = orthodox
+		size = 150
+	}
+
+	clerks = {
+		culture = dutch
+		religion = orthodox
+		size = 200
+	}
+
+	craftsmen = {
+		culture = dutch
+		religion = orthodox
+		size = 4000
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 9000
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 4000
+	}
+
+	labourers = {
+		culture = dutch
+		religion = orthodox
+		size = 61200
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 3000
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 125
+	}
+
+	labourers = {
+		culture = dutch
+		religion = orthodox
+		size = 7825
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 3925
+	}
+}
+#Tournai (292000/73000 POPS)
+393 = {
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 1100
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 8800
+	}
+
+	aristocrats = {
+		culture = dutch
+		religion = orthodox
+		size = 700
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 625
+	}
+
+	clerks = {
+		culture = dutch
+		religion = orthodox
+		size = 100
+	}
+
+	craftsmen = {
+		culture = dutch
+		religion = orthodox
+		size = 2000
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 66075
+	}
+}
+#Charleroi (396000/99000 POPS)
+394 = {
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 10275
+	}
+
+	aristocrats = {
+		culture = dutch
+		religion = orthodox
+		size = 900
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 875
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 3500
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 80725
+	}
+}
+#Namur (212000/53000 POPS)
+395 = {
+	aristocrats = {
+		culture = dutch
+		religion = orthodox
+		size = 550
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 550
+	}
+
+	clerks = {
+		culture = dutch
+		religion = orthodox
+		size = 100
+	}
+
+	craftsmen = {
+		culture = dutch
+		religion = orthodox
+		size = 2000
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 3000
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 45800
+	}
+}
+#Spa (144000/36000 POPS)
+396 = {
+	aristocrats = {
+		culture = dutch
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 275
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 1300
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 24175
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 450
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 48375
+	}
+}
+#Luxembourg Region (172000)
+#Arlon (172000/43000 POPS)
+398 = {
+	aristocrats = {
+		culture = dutch
+		religion = orthodox
+		size = 450
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 425
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = dutch
+		religion = orthodox
+		size = 41125
+	}
+
+}

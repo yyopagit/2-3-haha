@@ -1,0 +1,61 @@
+engineer = {
+	icon = 16
+	
+	type = land
+	sprite = Engineer
+	active = no
+	unit_type = infantry
+	#Core Abilities	
+	priority = 19
+	max_strength = 3
+	default_organisation = 30
+	maximum_speed = 5.00
+	weighted_value = 10.00
+	floating_flag = no
+
+
+	#Building Costs
+	build_time = 100
+	build_cost = {
+		small_arms = 20				#37		=	740
+		canned_food = 20			#20		=	400
+		liquor = 20					#6.4	=	128
+		explosives = 10				#20		=	200
+	}								#1468
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		small_arms = 0.05 	#0.01	37	*0.08	=2.96 	=1.11
+		ammunition = 0.06 	#0		18	*0.08	=1.44	=0.72
+		canned_food = 0.6 	#0.02	20	*0.1	=2		=1
+		explosives = 0.04	#		20	*0.3	=6		=2
+	}						#		12.4	/	4.83
+	
+
+	#Land Abilties
+	reconnaissance = 0
+	attack = 4
+	defence = 4
+ 
+	support = 0.5
+	maneuver = 2
+	 
+	 discipline = 1.2
+	siege = 2
+	forest = {movement = 1}
+	mountain = {movement = 1}
+	hills = {movement = 1}
+	woods = {movement = 1}
+	farmlands = {movement = 0.5}
+    steppe = {movement = 0.5}
+    plains = {movement = 0.5}
+	jungle = {movement = 0.6} 
+	marsh  = {movement = 0.6}   
+	desert	= {
+	  movement = 0.5 	
+	  
+	} 
+		
+		 
+		 
+}

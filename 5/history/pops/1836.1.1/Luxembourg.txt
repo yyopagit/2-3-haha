@@ -1,0 +1,83 @@
+#Luxembourg (172000)
+#In personal union with Netherlands in 1836
+#Luxembourg (172000/43000 POPS)
+397 = {
+	aristocrats = {
+		culture = north_german
+		religion = orthodox
+		size = 175
+	}
+
+	bureaucrats = {
+		culture = north_german
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = north_german
+		religion = orthodox
+		size = 750
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = orthodox
+		size = 2000
+	}
+
+	farmers = {
+		culture = north_german
+		religion = orthodox
+		size = 14900
+	}
+
+	aristocrats = {
+		culture = french
+		religion = orthodox
+		size = 250
+	}
+
+	officers = {
+		culture = french
+		religion = orthodox
+		size = 50
+	}
+
+	bureaucrats = {
+		culture = french
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = french
+		religion = orthodox
+		size = 275
+	}
+
+	artisans = {
+		culture = french
+		religion = orthodox
+		size = 1750
+	}
+
+	soldiers = {
+		culture = french
+		religion = orthodox
+		size = 250
+	}
+
+	farmers = {
+		culture = french
+		religion = orthodox
+		size = 23375
+	}
+
+}

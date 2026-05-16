@@ -1,0 +1,31 @@
+political_decisions = {
+	sand_river_convention = {
+	picture = sand_river_convention
+		potential = {
+			tag = TRN
+			NOT = {
+				has_country_flag = had_sand_river_convention
+				any_owned_province = {
+					is_core = ENG
+				}
+			}
+		}
+		allow = {
+			relation = {
+				who = ENG
+				value = 75
+			}
+			prestige = 10
+			state_n_government = 1
+		}
+		effect = {
+			political_reform = no_slavery
+			set_country_flag = had_sand_river_convention
+			relation = {
+				who = ENG
+				value = 25
+			}
+		}
+	}
+}
+

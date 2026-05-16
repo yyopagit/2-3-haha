@@ -1,0 +1,24 @@
+political_decisions = {
+	tur_ulti = {
+		alert = yes 
+		potential = {
+			not = { has_country_flag = ulti_sent_tur }
+			tag = IGM 
+			is_greater_power = yes 
+		}
+		allow = {
+			year = 1890
+			check_variable = { 
+				which = company_level
+				value = 3
+			}
+		}
+		effect = {
+			set_country_flag = ulti_sent_tur
+			ARA = {
+				country_event = 1011208
+			}
+		}
+	}
+}
+

@@ -1,0 +1,381 @@
+#Ubangi-Shari Region (228000)
+#uncolonized in 1836
+#Bangui (104000/26000 POPS)
+1965 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1500
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1250
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 5300
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 275
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 236750
+	}
+}
+#Nola (40000/10000 POPS)
+1966 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 5000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 161250
+	}
+}
+#uncolonized in 1836/under influence of Baguirmi
+#Bouar (28000/7000 POPS)
+1967 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1250
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 750
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 163750
+	}
+}
+#Bossangoa (56000/14000 POPS)
+1968 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1000
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 5000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 91250
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 9000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 50
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 27000
+	}
+}
+#Dar Banda Region (128000)
+#uncolonized in 1836/under influence of Azande
+#Zemio (44000/11000 POPS)
+1969 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1000
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 114750
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 750
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 85750
+	}
+}
+#Bangassou (56000/14000 POPS)
+1970 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 9000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 2250
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1500
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 6500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 138750
+	}
+}
+#uncolonized in 1836/under influence of Wadai
+#Ndele (28000/7000 POPS)
+1971 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 59000
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1000
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 500
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3000
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 124750
+	}
+
+}

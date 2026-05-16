@@ -1,0 +1,47 @@
+plane = {
+	icon = 19
+	
+	type = land
+	sprite = Plane
+	active = no
+	unit_type = special
+	#primary_culture = yes
+	floating_flag = no
+	
+	#Core Abilities
+	priority = 50
+	max_strength = 3
+	default_organisation = 20
+	maximum_speed = 9.00
+	weighted_value = 10.0
+
+
+	#Building Costs
+	build_time = 180
+	build_cost = {
+		aeroplanes = 60				#110	=	6600
+		small_arms = 20				#37		=	740
+		canned_food = 20			#20		=	400
+		liquor = 20					# wine->liquor
+		fuel = 20					#25		=	500
+	}								#8434
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		aeroplanes = 0.2			#110	*0.2	=	22		=	22
+		small_arms = 0.1			#37		*0.16	=	5.92	=	3.7
+		canned_food = 0.1			#20		*0.06	=	1.2		=	2.0
+		explosives = 0.1			#20		*0.4	=	8		=	4
+		ammunition = 0.1			#18		*0.2	=	3.6		=	1.8
+		fuel = 0.3					#25		*0.2	=	5		=	5
+	}								#45.72	/	38.5
+	
+
+	#Land Abilties
+	reconnaissance = 4
+	attack = 8
+	defence = 3
+	discipline = 0.7
+	support = 2
+	maneuver = 4
+}

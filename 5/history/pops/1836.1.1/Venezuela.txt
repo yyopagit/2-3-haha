@@ -1,0 +1,1024 @@
+#Caracas Region (332000)
+#Ruled by Venezuela 1836
+#Caracas (224000/56000 POPS)
+2264 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 1125
+	}
+
+	bureaucrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 125
+	}
+
+	officers = {
+		culture = north_andean
+		religion = orthodox
+		size = 300
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 1400
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 6050
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 3100
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 80725
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 1550
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 2100
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 19400
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 8000
+	}
+}
+#Cumana (24000/6000 POPS)
+2267 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 250
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 1250
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 3100
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 9575
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 150
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 1200
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 600
+	}
+}
+#San Felipe (44000/11000 POPS)
+2268 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 225
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 1450
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 2100
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 16200
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 200
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 3425
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 900
+	}
+}
+#Guiria (40000/10000 POPS)
+2269 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 1450
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 2100
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 15275
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 150
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 30
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 3100
+	}
+}
+#Llanos Region (88000)
+#Ruled by Venezuela 1836
+#Guanare (16000/4000 POPS)
+2265 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 25
+	}
+
+	officers = {
+		culture = north_andean
+		religion = orthodox
+		size = 125
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 175
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 1150
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 5075
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 40
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 20
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 1520
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 1400
+	}
+}
+#Calabozo (40000/10000 POPS)
+2266 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 225
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 175
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 1400
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 175
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 17225
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 1100
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 6350
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 1500
+	}
+}
+#Barinas (32000/8000 POPS)
+2274 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 1250
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 14475
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 50
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 10
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 515
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 400
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = orthodox
+		size = 25
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = orthodox
+		size = 4850
+	}
+}
+#Zulia Region (378000)
+#Ruled by Venezuela 1836
+#Maracaibo (100000/25000 POPS)
+2270 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 550
+	}
+
+	bureaucrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 150
+	}
+
+	officers = {
+		culture = north_andean
+		religion = orthodox
+		size = 125
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 200
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 1700
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 1150
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 25275
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 1500
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 1100
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 17350
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 2000
+	}
+
+	clergymen = {
+		culture = guajiro
+		religion = orthodox
+		size = 10
+	}
+
+	artisans = {
+		culture = guajiro
+		religion = orthodox
+		size = 50
+	}
+
+	soldiers = {
+		culture = guajiro
+		religion = orthodox
+		size = 10
+	}
+
+	farmers = {
+		culture = guajiro
+		religion = orthodox
+		size = 1930
+	}
+}
+#Valera (128000/32000 POPS)
+2271 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 650
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 275
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 1350
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 3100
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 93725
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 150
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 1200
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 9700
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 3100
+	}
+
+	clergymen = {
+		culture = native_american_minor
+		religion = orthodox
+		size = 10
+	}
+
+	artisans = {
+		culture = native_american_minor
+		religion = orthodox
+		size = 50
+	}
+
+	soldiers = {
+		culture = native_american_minor
+		religion = orthodox
+		size = 10
+	}
+
+	farmers = {
+		culture = native_american_minor
+		religion = orthodox
+		size = 930
+	}
+}
+#Coro (56000/14000 POPS)
+2272 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 325
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 18950
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 200
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 5700
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 3100
+	}
+}
+#Barquisimento (96000/24000 POPS)
+2273 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 525
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 200
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 1100
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 1200
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 38075
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 200
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 50
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 6700
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 3100
+	}
+}
+#Orinoco Region (152000)
+#Ruled by Venezuela 1836
+#Angostura (32000/8000 POPS)
+2275 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 175
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 1250
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 14475
+	}
+
+	aristocrats = {
+		culture = amazonian
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = amazonian
+		religion = orthodox
+		size = 175
+	}
+
+	artisans = {
+		culture = amazonian
+		religion = orthodox
+		size = 1150
+	}
+
+	soldiers = {
+		culture = amazonian
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = amazonian
+		religion = orthodox
+		size = 9700
+	}
+}
+#Curiapo (104000/26000 POPS)
+2276 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 550
+	}
+
+	bureaucrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 25
+	}
+
+	officers = {
+		culture = north_andean
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 225
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 1050
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 1225
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 38900
+	}
+
+	clergymen = {
+		culture = caribeno
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = caribeno
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 9625
+	}
+
+	slaves = {
+		culture = caribeno
+		religion = orthodox
+		size = 3100
+	}
+}
+#under "rule" of Venezuela 1836
+#El Jobal (12000/4000 POPS)
+2277 = {
+	aristocrats = {
+		culture = north_andean
+		religion = orthodox
+		size = 115
+	}
+
+	clergymen = {
+		culture = north_andean
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = north_andean
+		religion = orthodox
+		size = 150
+	}
+
+	soldiers = {
+		culture = north_andean
+		religion = orthodox
+		size = 110
+	}
+
+	farmers = {
+		culture = north_andean
+		religion = orthodox
+		size = 2900
+	}
+
+	aristocrats = {
+		culture = amazonian
+		religion = orthodox
+		size = 150
+	}
+
+	clergymen = {
+		culture = amazonian
+		religion = orthodox
+		size = 175
+	}
+
+	artisans = {
+		culture = amazonian
+		religion = orthodox
+		size = 1150
+	}
+
+	soldiers = {
+		culture = amazonian
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = amazonian
+		religion = orthodox
+		size = 8700
+	}
+}
+#San Fernando de Atabapo (4000/1000 POPS)
+2278 = {
+	aristocrats = {
+		culture = amazonian
+		religion = orthodox
+		size = 100
+	}
+
+	clergymen = {
+		culture = amazonian
+		religion = orthodox
+		size = 250
+	}
+
+	artisans = {
+		culture = amazonian
+		religion = orthodox
+		size = 500
+	}
+
+	soldiers = {
+		culture = amazonian
+		religion = orthodox
+		size = 150
+	}
+
+	farmers = {
+		culture = amazonian
+		religion = orthodox
+		size = 18000
+	}
+
+}

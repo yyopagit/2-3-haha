@@ -1,0 +1,118 @@
+country_event = {
+	id = 10112061 #per_mod
+	title = "EVTNAME10112061"
+	desc = "EVTDESC10112061"
+	picture = "greek_osman"
+trigger = {
+     tag = IGM
+	not = {
+	has_country_flag = northvssouth
+	}
+	check_variable = {
+       which = company_level
+       value = 2.9
+}
+not = {	
+check_variable = {
+       which = company_level
+       value = 3.1
+}
+}
+has_country_modifier = fuel_boost
+	}
+		mean_time_to_happen = {
+		months = 60
+		}
+	 option = {
+      name = "EVTOPTA10112061"
+	  any_owned = {
+	    limit = {
+		or = {
+		trade_goods = oil
+		trade_goods = timber
+		trade_goods = coal
+		trade_goods = iron
+		}
+		}
+		life_rating = 3
+	  }
+	  	  any_owned = {
+	    limit = {
+		or = {
+		trade_goods = tobacco
+		trade_goods = wool
+		trade_goods = dye
+		trade_goods = cotton
+		trade_goods = grain
+		trade_goods = fish
+		}
+		}
+		life_rating = -2
+	  }
+	 }
+	 option = {
+      name = "EVTOPTB10112061"
+	   any_owned = {
+	    limit = {
+		or = {
+		trade_goods = oil
+		trade_goods = timber
+		trade_goods = coal
+		trade_goods = iron
+		}
+		}
+		life_rating = -1
+	  }
+	  	  any_owned = {
+	    limit = {
+		or = {
+		trade_goods = tobacco
+		trade_goods = wool
+		trade_goods = dye
+		trade_goods = cotton
+		trade_goods = grain
+		trade_goods = fish
+		}
+		}
+		life_rating = 2
+	  }
+	 }
+	}
+
+country_event = {
+
+	id =10112121
+	  trigger = {
+	  tag = IGM
+	   year = 1880
+	   not = {year = 1914}
+	   war = yes
+	   war_exhaustion = 10
+	   NOT = {has_country_flag = unluck_event}
+	 }
+      picture = "greek_osman"	  
+	 mean_time_to_happen = {
+	 months = 4
+	 }
+    option = {
+	name = "EVTOPTA10112121"	
+	set_country_flag = unluck_event
+	any_owned = {
+	limit = {
+	terrain = mountain
+	}
+	infrastructure  = 1
+	fort = 1
+	}
+ }
+   option = {
+   set_country_flag = unluck_event
+	name = "EVTOPTB10112121"
+	prestige = 40		
+	} 
+ 
+	title = "EVTNAME10112121"
+	desc = "EVTDESC10112121"
+	 
+}
+

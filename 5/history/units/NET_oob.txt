@@ -1,0 +1,384 @@
+leader = {
+	name = "David Chass"
+	date = 1806.1.1
+	type = land
+	personality = timid
+	background = school_of_defense
+	prestige = 0.3
+}
+
+leader = {
+	name = "Frans Cochius"
+	date = 1830.1.1
+	type = land
+	personality = yesman
+	background = powerful_friends
+	prestige = 0.1
+}
+
+leader = {
+	name = "Andreas Michiels"
+	date = 1836.1.1
+	type = land
+	personality = soldierly
+	background = school_of_defense
+	prestige = 0.0
+}
+
+leader = {
+	name = "Hendrik de Kock"
+	date = 1807.1.1
+	type = land
+	personality = adventurer
+	background = school_of_defense
+	prestige = 0.3
+}
+
+leader = {
+	name = "van den Bosch"
+	date = 1827.1.1
+	type = land
+	personality = inept
+	background = powerful_friends
+	prestige = 0.1
+}
+
+leader = {
+	name = "Dominique de Eerens"
+	date = 1815.1.1
+	type = land
+	personality = innovative_tactician
+	background = exranker
+	prestige = 0.2
+}
+
+leader = {
+	name = "Frederik List"
+	date = 1830.1.1
+	type = land
+	personality = perverse
+	background = old_school
+	prestige = 0.1
+}
+
+leader = {
+	name = "Engelbertus Lucas"
+	date = 1830.1.1
+	type = sea
+	personality = indifferent
+	background = politician
+	prestige = 0.1
+}
+
+leader = {
+	name = "Charles Nepveu"
+	date = 1831.1.1
+	type = land
+	personality = inept
+	background = powerful_friends
+	prestige = 0.0
+}
+
+leader = {
+	name = "Karel Bernhard van Saksen-Weimar"
+	date = 1815.1.1
+	type = land
+	personality = unfit
+	background = uncommonly_young
+	prestige = 0.2
+}
+
+leader = {
+	name = "Hendrik Duycker"
+	date = 1827.1.1
+	type = land
+	personality = mediocre
+	background = old_school
+	prestige = 0.1
+}
+
+leader = {
+	name = "Julius Rijk"
+	date = 1836.1.1
+	type = sea
+	personality = able
+	background = exranker
+	prestige = 0.0
+}
+
+army = {
+	name = "1-� �������"
+	location = 375 
+	regiment = {
+		name= "1-� ������������� �������"
+		type = cuirassier
+		home = 375
+	}
+
+	regiment = {
+		name= "2-� ������������� �������"
+		type = cuirassier
+		home = 383
+	}
+
+	regiment = {
+		name= "3-� ������������� �������"
+		type = cuirassier
+		home = 380
+	}
+
+	regiment = {
+		name = "1-� �������� �������"
+		type = infantry
+		home = 376
+	}
+
+	regiment = {
+		name = "2-� �������� �������"
+		type = infantry
+		home = 381
+	}
+
+	regiment = {
+		name = "3-� �������� �������"
+		type = infantry
+		home = 377
+	}
+
+}
+
+army = {
+	name = "2-� �������"
+	location = 381
+	regiment = {
+		name = "4-� �������� �������"
+		type = infantry
+		home = 378
+	}
+
+	regiment = {
+		name = "5-� �������� �������"
+		type = infantry
+		home = 379
+	}
+
+	regiment = {
+		name = "6-� �������� �������"
+		type = infantry
+		home = 386
+	}
+
+}
+
+army = {
+	name = "3-� �������"
+	location = 375
+	regiment = {
+		name = "7-� �������� �������"
+		type = infantry
+		home = 383
+	}
+
+	regiment = {
+		name = "8-� �������� �������"
+		type = infantry
+		home = 384
+	}
+
+	regiment = {
+		name = "9-� �������� �������"
+		type = infantry
+		home = 385
+	}
+
+}
+
+army = {
+	name = "���-������� �����"
+	location = 1413
+	regiment = {
+		name = "1-� ��������� �������"
+		type = infantry
+		home = 1413
+	}
+
+	regiment = {
+		name = "2-� ��������� �������"
+		type = irregular
+		home = 1421
+	}
+}
+
+navy = {
+	name = "����������� ����"
+	location = 375 #Amsterdam
+	ship = {
+		name= "�����������"
+		type = manowar
+	}
+
+	ship = {
+		name= "���������"
+		type = manowar
+	}
+
+	ship = {
+		name= "����� ������������"
+		type = frigate
+	}
+
+	ship = {
+		name= "�������"
+		type = frigate
+	}
+
+	ship = {
+		name= "����������"
+		type = frigate
+	}
+
+	ship = {
+		name= "�����"
+		type = frigate
+	}
+
+	ship = {
+		name= "������"
+		type = frigate
+	}
+
+	ship = {
+		name= "�������"
+		type = frigate
+	}
+
+	ship = {
+		name= "�����"
+		type = frigate
+	}
+
+	ship = {
+		name= "�����"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "1-� ������������ ��������"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "���-������� �������"
+	location = 1413 #Batavia
+	ship = {
+		name= "�� ������"
+		type = manowar
+	}
+
+	ship = {
+		name= "����������"
+		type = manowar
+	}
+
+	ship = {
+		name= "������"
+		type = frigate
+	}
+
+	ship = {
+		name= "�����"
+		type = frigate
+	}
+
+	ship = {
+		name= "������"
+		type = frigate
+	}
+
+	ship = {
+		name= "�������"
+		type = frigate
+	}
+
+	ship = {
+		name= "2-� ������������ ��������"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "����-������� �������"
+	location = 2234 #Curacao
+
+	ship = {
+		name= "�������-�������"
+		type = manowar
+	}
+
+	ship = {
+		name= "�����"
+		type = frigate
+	}
+
+	ship = {
+		name= "����"
+		type = frigate
+	}
+
+	ship = {
+		name= "3-� ������������ ��������"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+    name = "����������� ������������ ����"
+	location = 375 #Amsterdam
+	ship = {
+		name= "1-�� ������������ ������"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-�� ������������ ������"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-�� ������������ ������"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4-�� ������������ ������"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5-�� ������������ ������"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6-�� ������������ ������"
+		type = clipper_transport
+	}
+	
+	ship = {
+		name= "7-�� ������������ ������"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "8-�� ������������ ������"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "9-�� ������������ ������"
+		type = clipper_transport
+	}
+}

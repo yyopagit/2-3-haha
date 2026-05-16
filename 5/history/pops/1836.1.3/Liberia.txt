@@ -1,0 +1,410 @@
+#Monrovia
+1887 = {
+    bureaucrats = {
+        culture = afro_american
+        religion = orthodox
+        size = 3500
+    }
+
+    officers = {
+        culture = afro_american
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 41810
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 210
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 12775
+    }
+
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 875
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 450
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 4350
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 245
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 80875
+    }
+
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 450
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 375
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 2450
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 28225
+    }
+
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 275
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 2000
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 13625
+    }
+
+}
+
+#Harper
+1888 = {
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 750
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 375
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 1900
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 375
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 104600
+    }
+
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 125
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 650
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 125
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 41850
+    }
+
+}
+
+#Bopolu
+1889 = {
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 475
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 1250
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 107750
+    }
+
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 1100
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 3000
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 54750
+    }
+
+}
+
+#Gbarnga
+1890 = {
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 550
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 125
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 80250
+    }
+
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 1425
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 1225
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 5100
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 225
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 80250
+    }
+
+}
+
+#Zwedru
+1891 = {
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 1425
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 1250
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 4150
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 109750
+    }
+
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 1350
+    }
+
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 1200
+    }
+
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 4950
+    }
+
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 200
+    }
+
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 117300
+    }
+
+}
+

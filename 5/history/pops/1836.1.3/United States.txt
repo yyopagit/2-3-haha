@@ -1,0 +1,10214 @@
+#Sitka
+1 = {
+    bureaucrats = {
+        culture = russian
+        religion = orthodox
+        size = 20
+    }
+
+    clergymen = {
+        culture = russian
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = russian
+        religion = orthodox
+        size = 280
+    }
+
+    soldiers = {
+        culture = russian
+        religion = orthodox
+        size = 100
+    }
+
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 1000
+    }
+
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 100000
+    }
+
+}
+
+#Yakutat
+2 = {
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 150000
+    }
+
+}
+
+#Kenai
+3 = {
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 250
+    }
+
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 10000
+    }
+
+}
+
+#Dutch Harbor
+4 = {
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 250
+    }
+
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 10000
+    }
+
+}
+
+#Unalakleet
+5 = {
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 20
+    }
+
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 30
+    }
+
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 2250
+    }
+
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 20
+    }
+
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 30
+    }
+
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 10000
+    }
+
+}
+
+#Fort Yukon
+2599 = {
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
+
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
+
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
+
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
+
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 10000
+    }
+
+}
+
+#Fairbanks
+2630 = {
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
+
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
+
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 20
+    }
+
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
+
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 10000
+    }
+
+}
+
+#Yukon
+2631 = {
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
+
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 10
+    }
+
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 25
+    }
+
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
+
+    farmers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 450
+    }
+
+    aristocrats = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 2
+    }
+
+    clergymen = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 3
+    }
+
+    artisans = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 15
+    }
+
+    soldiers = {
+        culture = native_american_minor
+        religion = orthodox
+        size = 5
+    }
+
+    farmers = {
+        culture = inuit
+        religion = orthodox
+        size = 10000
+    }
+
+}
+
+#Seattle
+78 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 750
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Spokane
+79 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Walla Walla
+80 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Portland
+81 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 750
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Baker City
+82 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Klamath Falls
+83 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#San Francisco
+84 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 23500
+    }
+
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 1800
+    }
+
+}
+
+#Eureka
+85 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 29000
+    }
+
+}
+
+#Sacramento
+86 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 22700
+    }
+
+}
+
+#Monterey
+87 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 12
+    }
+
+    bureaucrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 3
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 15
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 35
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 10
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25250
+    }
+
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Mariposa
+88 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 41800
+    }
+
+}
+
+#Los Angeles
+89 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25000
+    }
+
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 1800
+    }
+
+}
+
+#San Diego
+90 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25000
+    }
+
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 1800
+    }
+
+}
+
+#Boise
+91 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 7200
+    }
+
+}
+
+#Coeur D'Alene
+92 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Pocatello
+93 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Carson City
+94 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 10900
+    }
+
+}
+
+#Elko
+95 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 20900
+    }
+
+}
+
+#Las Vegas
+96 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 20900
+    }
+
+}
+
+#Salt Lake City
+97 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 21800
+    }
+
+}
+
+#Loa
+98 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 20900
+    }
+
+}
+
+#Moab
+99 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 20900
+    }
+
+}
+
+#Phoenix
+100 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 22700
+    }
+
+}
+
+#Flagstaff
+101 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 1800
+    }
+
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 20900
+    }
+
+}
+
+#Tucson
+102 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 2700
+    }
+
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 2
+    }
+
+    bureaucrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 1
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 5
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 12
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 5
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 20225
+    }
+
+}
+
+#Santa Fe
+103 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 55
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 250
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 24485
+    }
+
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 1800
+    }
+
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Albuquerque
+104 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 2700
+    }
+
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 21800
+    }
+
+}
+
+#Las Cruces
+105 = {
+    aristocrats = {
+        culture = pueblo
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = pueblo
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = pueblo
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = pueblo
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = pueblo
+        religion = orthodox
+        size = 20900
+    }
+
+}
+
+#Denver
+106 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1000
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 18000
+    }
+
+}
+
+#Grand Junction
+107 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Alamosa
+108 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Pueblo
+109 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Chyenne
+110 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Cody
+111 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Casper
+112 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Bozeman
+113 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Missoula
+114 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Great Falls
+115 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Billings
+116 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 1800
+    }
+
+}
+
+#Bismarck
+117 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Minot
+118 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Dickinson
+119 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Sioux Falls
+120 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Dupree
+121 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Rapid City
+122 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Omaha
+123 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Alliance
+124 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#North Platte
+125 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Topeka
+126 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 850
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Goodland
+127 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 850
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Wichita
+128 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 750
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Oklahoma City
+129 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 8000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1000
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Tahlequah
+130 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1000
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 9000
+    }
+
+}
+
+#Okmulgee
+131 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1000
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Houston
+132 = {
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 500
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 1500
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 2200
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 42000
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 15000
+    }
+
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 20
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 30
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 2250
+    }
+
+}
+
+#Austin
+133 = {
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 250
+    }
+
+    bureaucrats = {
+        culture = texan
+        religion = orthodox
+        size = 750
+    }
+
+    officers = {
+        culture = texan
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 125
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 2200
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 80200
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 15000
+    }
+
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 20
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 30
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 22250
+    }
+
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 20
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 30
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 2250
+    }
+
+}
+
+#San Antonio
+137 = {
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 1000
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 3300
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 89000
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 9500
+    }
+
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 20
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 30
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 2250
+    }
+
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 2
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 3
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 15
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 5
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 225
+    }
+
+}
+
+#Laredo
+138 = {
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 900
+    }
+
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 5
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 10
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 25
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 10
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 45000
+    }
+
+}
+
+#Dallas
+134 = {
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 7500
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 5000
+    }
+
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 1500
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 19000
+    }
+
+}
+
+#Lubbock
+135 = {
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 1000
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 18000
+    }
+
+}
+
+#El Paso
+136 = {
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 1000
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 100
+    }
+
+    aristocrats = {
+        culture = texan
+        religion = orthodox
+        size = 20
+    }
+
+    clergymen = {
+        culture = texan
+        religion = orthodox
+        size = 30
+    }
+
+    artisans = {
+        culture = texan
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = texan
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = texan
+        religion = orthodox
+        size = 22250
+    }
+
+}
+
+#New Orleans
+139 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 225
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 125
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 650
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 4550
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 650
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 3325
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 10000
+    }
+
+}
+
+#Baton Rouge
+140 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 45
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 175
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 125
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 30
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 3470
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 15
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 125
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 10
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 9875
+    }
+
+}
+
+#Lake Charles
+141 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 175
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 30000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 15
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 10
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 4900
+    }
+
+}
+
+#Shreveport
+142 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 125
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 30000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 15
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 10
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 5875
+    }
+
+}
+
+#Little Rock
+143 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 15
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 5000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 135
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 15
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 3800
+    }
+
+}
+
+#Hot Springs
+144 = {
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Fayetteville
+145 = {
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 30000
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 35
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 2000
+    }
+
+}
+
+#St Louis
+146 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1175
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 23650
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 5
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 220
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 275
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 675
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 15875
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 15
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 10
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 915
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 1825
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 2700
+    }
+
+}
+
+#Joplin
+147 = {
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Malden
+148 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 300
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 4500
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 2850
+    }
+
+}
+
+#Jefferson City
+149 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 45
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 300
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 4425
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 2700
+    }
+
+}
+
+#Kansas City
+150 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 400
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 225
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 4600
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 15
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 35
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Des Moines
+151 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 900
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Oskaloosa
+152 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Cedar Rapids
+153 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Sioux City
+154 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Minneapolis
+155 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Granite Falls
+156 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Moorehead
+157 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Duluth
+158 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Milwaukee
+159 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Eau Claire
+160 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Green Bay
+161 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 900
+    }
+
+}
+
+#Madison
+162 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Chicago
+163 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 275
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2150
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 450
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 40125
+    }
+
+}
+
+#Rockford
+164 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 550
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 125
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Champaign
+165 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 450
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Peoria
+166 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1250
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Springfield
+167 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 300
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 125
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 450
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Carbondale
+168 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 4100
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 800
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 175
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 15
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 110
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 875
+    }
+
+}
+
+#Indianapolis
+169 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 275
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 375
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 3200
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 650
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 64225
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 4675
+    }
+
+}
+
+#Evansville
+170 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 325
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2300
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 450
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 42925
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 1825
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 20
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 930
+    }
+
+}
+
+#South Bend
+171 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 550
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 125
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 10275
+    }
+
+}
+
+#Fort Wayne
+172 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 225
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1600
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 325
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 29850
+    }
+
+}
+
+#Detroit
+173 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 125
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 300
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 900
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 1100
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 40000
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 930
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 1840
+    }
+
+}
+
+#Grand Rapids
+174 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 300
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1300
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 1575
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 45550
+    }
+
+}
+
+#Saginaw
+175 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 350
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2000
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 37000
+    }
+
+}
+
+#Traverse City
+176 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1000
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 450
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 22500
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 9000
+    }
+
+}
+
+#Marquette
+177 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 550
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 30000
+    }
+
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 400
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1000
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 14000
+    }
+
+}
+
+#Cleveland
+178 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 350
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2250
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 450
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 41950
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 350
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 6600
+    }
+
+}
+
+#Columbus
+179 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 625
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 275
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 375
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2500
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 45775
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 350
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 6600
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 9425
+    }
+
+}
+
+#Sandusky
+180 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1850
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 375
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 34525
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 9425
+    }
+
+}
+
+#Dayton
+181 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 325
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2450
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 45725
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 350
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 6600
+    }
+
+}
+
+#Cincinnati
+182 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 375
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2650
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 2525
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 69450
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 400
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 7550
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 9425
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 200
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 2750
+    }
+
+}
+
+#Marietta
+183 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 225
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1950
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 2400
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 80000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 15
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 85
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 1900
+    }
+
+}
+
+#Louisville
+184 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 700
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 1150
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 33050
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 4675
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 350
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 8125
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 700
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 700
+    }
+
+}
+
+#Lexington
+185 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 5100
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 350
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2350
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 1475
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 63725
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 450
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 125
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 125
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 175
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 950
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 350
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 21825
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 800
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 850
+    }
+
+}
+
+#Bowling Green
+186 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 650
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 125
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 12150
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 525
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 225
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 11950
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 700
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 700
+    }
+
+}
+
+#Paducah
+187 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 4625
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 275
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 550
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 225
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 30000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 350
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+}
+
+#Nashville
+188 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 200
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 275
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1800
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 350
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 28525
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 950
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 300
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 3100
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 2000
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 46000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 125
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 850
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 325
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 13700
+    }
+
+}
+
+#Memphis
+189 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 400
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 6475
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 450
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 800
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 300
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 30000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 350
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 7500
+    }
+
+}
+
+#Knoxville
+190 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 350
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 5525
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 275
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 475
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 225
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 8950
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 4675
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 350
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 7075
+    }
+
+}
+
+#Chattanooga
+191 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 400
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 6475
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 275
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 825
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 11000
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 4675
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 350
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 400
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 5200
+    }
+
+    aristocrats = {
+        culture = cherokee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = cherokee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = cherokee
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = cherokee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = cherokee
+        religion = orthodox
+        size = 1600
+    }
+
+}
+
+#Jackson
+192 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 525
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 175
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 1650
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 400
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 30000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 300
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 17650
+    }
+
+}
+
+#Vicksburg
+193 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 350
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 1100
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 30000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 13700
+    }
+
+}
+
+#Biloxi
+194 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 800
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 30000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 9800
+    }
+
+}
+
+#Montgomery
+195 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 750
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 350
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 175
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 275
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 1650
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 2000
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 35950
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 15
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 35
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 1825
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 450
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 23500
+    }
+
+}
+
+#Tuscaloosa
+196 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 600
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 175
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 1100
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 425
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 23800
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 575
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 15300
+    }
+
+}
+
+#Mobile
+197 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 450
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 600
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 325
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 13525
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 15
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 35
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 1825
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 300
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 17650
+    }
+
+}
+
+#Tallahassee
+198 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 1000
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 1750
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 750
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 30500
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 800
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 27000
+    }
+
+}
+
+#St Augustine
+199 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 1500
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 3250
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 1250
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 43500
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 400
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Tampa
+200 = {
+    aristocrats = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1000
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 18000
+    }
+
+}
+
+#Atlanta
+201 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 750
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 400
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 225
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 1325
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 550
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 29775
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 550
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 22400
+    }
+
+    aristocrats = {
+        culture = cherokee
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = cherokee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = cherokee
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = cherokee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = cherokee
+        religion = orthodox
+        size = 2775
+    }
+
+}
+
+#Valdosta
+202 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 300
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 600
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 1500
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 20000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 750
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 39000
+    }
+
+}
+
+#Savannah
+204 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 700
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 5000
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 2500
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 50000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 4750
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 250
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 40475
+    }
+
+}
+
+#Augusta
+2555 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 1500
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 2500
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 2350
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 45000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 3250
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 30000
+    }
+
+}
+
+#Charleston
+205 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 850
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 450
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 3300
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 4500
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 35000
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 2500
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 1200
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 55300
+    }
+
+}
+
+#Columbia
+206 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 2100
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 400
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 300
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 600
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 3200
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 4000
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 62000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 125
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 250
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 62450
+    }
+
+}
+
+#Raleigh
+207 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 425
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 300
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 1500
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 1500
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 35000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 325
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 15000
+    }
+
+}
+
+#Winston-Salem
+208 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 750
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 400
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 300
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 2500
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 2400
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 52000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 450
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 100
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 20000
+    }
+
+}
+
+#Charlotte
+209 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 500
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 750
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 1350
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 27250
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 550
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 19400
+    }
+
+}
+
+#WIlmington
+210 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 775
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 400
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 1150
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 2475
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 36375
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 27450
+    }
+
+}
+
+#Asheville
+2556 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 600
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 400
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 1350
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 2375
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 34475
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 150
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 16300
+    }
+
+}
+
+#Richmond
+211 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 1200
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 500
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 375
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 2300
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 2000
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 51475
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 225
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 1400
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 1125
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 28000
+    }
+
+}
+
+#Manassas
+212 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 5350
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 550
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 625
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 9750
+    }
+
+}
+
+#Fredericksburg
+213 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 425
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 125
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 600
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 275
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 13575
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 650
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 400
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 12875
+    }
+
+}
+
+#Norfolk
+214 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 125
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 175
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 3650
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 225
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 175
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 11000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 225
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 10225
+    }
+
+}
+
+#Staunton
+215 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 325
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 7275
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 350
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 250
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 6400
+    }
+
+}
+
+#Roanoke
+216 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 225
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 650
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 300
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 14675
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 650
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 13275
+    }
+
+}
+
+#Wheeling
+217 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 175
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 12050
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 3625
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 1425
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 8000
+    }
+
+}
+
+#Huntington
+218 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 200
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 500
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 175
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 11050
+    }
+
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 125
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 2725
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 2425
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 7000
+    }
+
+}
+
+#Baltimore
+219 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 525
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 250
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 125
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 225
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 3700
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 11750
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 225
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 1300
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 1875
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 22600
+    }
+
+}
+
+#Washington
+220 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 475
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 400
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 550
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 3800
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 3450
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 45000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 200
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 1300
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 1900
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 36000
+    }
+
+}
+
+#Hagerstown
+221 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 325
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 7325
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 300
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 2650
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 6000
+    }
+
+}
+
+#Dover
+222 = {
+    aristocrats = {
+        culture = dixie
+        religion = orthodox
+        size = 75
+    }
+
+    bureaucrats = {
+        culture = dixie
+        religion = orthodox
+        size = 25
+    }
+
+    officers = {
+        culture = dixie
+        religion = orthodox
+        size = 10
+    }
+
+    clergymen = {
+        culture = dixie
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = dixie
+        religion = orthodox
+        size = 650
+    }
+
+    soldiers = {
+        culture = dixie
+        religion = orthodox
+        size = 125
+    }
+
+    farmers = {
+        culture = dixie
+        religion = orthodox
+        size = 12015
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 300
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 5150
+    }
+
+    slaves = {
+        culture = afro_american
+        religion = orthodox
+        size = 500
+    }
+
+}
+
+#Philadelphia
+223 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 1800
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 300
+    }
+
+    capitalists = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 550
+    }
+
+    clerks = {
+        culture = yankee
+        religion = orthodox
+        size = 60
+    }
+
+    craftsmen = {
+        culture = yankee
+        religion = orthodox
+        size = 1200
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 740
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 3000
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 75000
+    }
+
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 175
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 175
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 200
+    }
+
+    clerks = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    craftsmen = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2045
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 2175
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 22000
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 5000
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 6000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 2000
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 8000
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 490
+    }
+
+}
+
+#Scranton
+224 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 600
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 4050
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 3425
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 80000
+    }
+
+}
+
+#Williamsport
+225 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 650
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 4150
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 2425
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 80100
+    }
+
+}
+
+#Harrisburg
+226 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 550
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 3650
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 4000
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 76000
+    }
+
+}
+
+#Pittsburgh
+227 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 400
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2750
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 2550
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 65000
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 900
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 1175
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 20000
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 3500
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 9000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 150
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 7800
+    }
+
+}
+
+#Erie
+228 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 600
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 3350
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 2675
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 67000
+    }
+
+}
+
+#Newark
+229 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 200
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1550
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 1325
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 58925
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 400
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 3700
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 200
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 3750
+    }
+
+}
+
+#Trenton
+230 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 200
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 70
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1050
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 825
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 61105
+    }
+
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 2735
+    }
+
+}
+
+#Atlantic City
+231 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1100
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 2225
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 40525
+    }
+
+}
+
+#New York
+232 = {
+    capitalists = {
+        culture = yankee
+        religion = orthodox
+        size = 125
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 675
+    }
+
+    clerks = {
+        culture = yankee
+        religion = orthodox
+        size = 125
+    }
+
+    craftsmen = {
+        culture = yankee
+        religion = orthodox
+        size = 6500
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 8375
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 6000
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 95125
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 4000
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 875
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 6000
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 3950
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 10
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 490
+    }
+
+}
+
+#Long Island
+233 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 275
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1250
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 1250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 63325
+    }
+
+}
+
+#Albany
+234 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 1800
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 625
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 3125
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 3000
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 70775
+    }
+
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 4475
+    }
+
+}
+
+#Binghamton
+235 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 625
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 4400
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 3000
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 80975
+    }
+
+}
+
+#Buffalo
+236 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 450
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 3050
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 1625
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 56875
+    }
+
+}
+
+#Rochester
+237 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 325
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2200
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 1450
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 41025
+    }
+
+}
+
+#Syracuse
+238 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 525
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 3800
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 2000
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 69675
+    }
+
+}
+
+#Watertown
+239 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 225
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1450
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 300
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 27025
+    }
+
+}
+
+#Plattsburgh
+240 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 125
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 950
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 200
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 17725
+    }
+
+}
+
+#Hartford
+241 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    capitalists = {
+        culture = yankee
+        religion = orthodox
+        size = 15
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 550
+    }
+
+    clerks = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    craftsmen = {
+        culture = yankee
+        religion = orthodox
+        size = 550
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 3050
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 2000
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 66560
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 25
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 500
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 1475
+    }
+
+}
+
+#Providence
+242 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 125
+    }
+
+    capitalists = {
+        culture = yankee
+        religion = orthodox
+        size = 125
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 400
+    }
+
+    clerks = {
+        culture = yankee
+        religion = orthodox
+        size = 175
+    }
+
+    craftsmen = {
+        culture = yankee
+        religion = orthodox
+        size = 750
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 8000
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 3250
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 40000
+    }
+
+    clergymen = {
+        culture = afro_american
+        religion = orthodox
+        size = 225
+    }
+
+    artisans = {
+        culture = afro_american
+        religion = orthodox
+        size = 1500
+    }
+
+    farmers = {
+        culture = afro_american
+        religion = orthodox
+        size = 4750
+    }
+
+}
+
+#Boston
+243 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 300
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    capitalists = {
+        culture = yankee
+        religion = orthodox
+        size = 350
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 675
+    }
+
+    clerks = {
+        culture = yankee
+        religion = orthodox
+        size = 825
+    }
+
+    craftsmen = {
+        culture = yankee
+        religion = orthodox
+        size = 16250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 10000
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 7925
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 4000
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 28000
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    clerks = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    craftsmen = {
+        culture = yankee
+        religion = orthodox
+        size = 1100
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2950
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 750
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 6000
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 7000
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 5000
+    }
+
+}
+
+#New Bedford
+244 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 325
+    }
+
+    clerks = {
+        culture = yankee
+        religion = orthodox
+        size = 125
+    }
+
+    craftsmen = {
+        culture = yankee
+        religion = orthodox
+        size = 600
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 3000
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 3300
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 55000
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 150
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2200
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 8000
+    }
+
+}
+
+#Pittsfield
+245 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 550
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 4050
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 3225
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 45000
+    }
+
+}
+
+#Burlington
+246 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 125
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 3150
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 650
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 58200
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 400
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 7475
+    }
+
+}
+
+#Concord
+247 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    clerks = {
+        culture = yankee
+        religion = orthodox
+        size = 25
+    }
+
+    craftsmen = {
+        culture = yankee
+        religion = orthodox
+        size = 500
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 1150
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 2925
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 2000
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 62200
+    }
+
+}
+
+#Lewiston
+248 = {
+    bureaucrats = {
+        culture = yankee
+        religion = orthodox
+        size = 175
+    }
+
+    officers = {
+        culture = yankee
+        religion = orthodox
+        size = 100
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 450
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 3000
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 600
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 55675
+    }
+
+}
+
+#Bangor
+249 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 1900
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 375
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 35475
+    }
+
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 300
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 5575
+    }
+
+}
+
+#Caribou
+250 = {
+    clergymen = {
+        culture = yankee
+        religion = orthodox
+        size = 75
+    }
+
+    artisans = {
+        culture = yankee
+        religion = orthodox
+        size = 250
+    }
+
+    soldiers = {
+        culture = yankee
+        religion = orthodox
+        size = 50
+    }
+
+    farmers = {
+        culture = yankee
+        religion = orthodox
+        size = 4625
+    }
+
+    clergymen = {
+        culture = british
+        religion = orthodox
+        size = 50
+    }
+
+    artisans = {
+        culture = british
+        religion = orthodox
+        size = 200
+    }
+
+    soldiers = {
+        culture = british
+        religion = orthodox
+        size = 25
+    }
+
+    farmers = {
+        culture = british
+        religion = orthodox
+        size = 3725
+    }
+
+}
+

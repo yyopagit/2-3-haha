@@ -1,0 +1,180 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+bonus_from_singapour = {
+	trigger = { 
+		ai = no
+		1384 = {
+			owned_by = THIS
+		}
+	}
+	tax_efficiency = 0.02
+}
+
+bonus_from_gibraltar = {
+	trigger = { 
+		ai = no
+		517 = {
+			owned_by = THIS
+		}
+	}
+	tax_efficiency = 0.02
+}
+
+Bonus_from_kiel = {
+	trigger = { 
+		ai = no
+		369 = {
+			owned_by = THIS
+		}
+	}
+	tax_efficiency = 0.02
+}
+
+bonus_from_aden = {
+	trigger = { 
+		ai = no
+		1412 = {
+			owned_by = THIS
+		}
+	}
+	tax_efficiency = 0.02
+}
+
+bonus_from_kopengagen = {
+	trigger = { 
+		ai = no
+		372 = {
+			owned_by = THIS
+		}
+	}
+	tax_efficiency = 0.02
+}
+
+bonus_from_pers = {
+	trigger = { 
+		ai = no
+		1168 = {
+			owned_by = THIS
+		}
+	}
+	tax_efficiency = 0.02
+}
+
+bonus_from_stambul = {
+	trigger = { 
+		ai = no
+		860 = {
+			owned_by = THIS
+		}
+	}
+	tax_efficiency = 0.02
+}
+
+bonus_from_suez = {
+	trigger = { 
+		ai = no
+		1755 = {
+			owned_by = THIS
+		}
+		has_global_flag = suez_canal_built
+	}
+	tax_efficiency = 0.04
+}
+
+bonus_from_panama = {
+	trigger = { 
+		ai = no
+		1723 = {
+			owned_by = THIS
+		}
+		has_global_flag = panama_canal_built
+	}
+	tax_efficiency = 0.04
+}
+
+more_money = {
+	trigger = {
+		money = 10000000
+		ai = no
+	}
+	tax_efficiency = -0.10
+}
+more_money1 = {
+	trigger = {
+		money = 20000000
+		ai = no
+	}
+	tax_efficiency = -0.10
+}
+more_money2 = {
+	trigger = {
+		money = 30000000
+		ai = no
+	}
+	tax_efficiency = -0.10
+}
+more_money3 = {
+	trigger = {
+		money = 40000000
+		ai = no
+	}
+	tax_efficiency = -0.10
+}
+more_money4 = {
+	trigger = {
+		money = 50000000
+		ai = no
+	}
+	tax_efficiency = -0.10
+}
+more_money5 = {
+	trigger = {
+		money = 60000000
+		ai = no
+	}
+	tax_efficiency = -0.10
+}
+more_money6 = {
+	trigger = {
+		money = 70000000
+		ai = no
+	}
+	tax_efficiency = -0.10
+}
+more_money7 = {
+	trigger = {
+		money = 80000000
+		ai = no
+	}
+	tax_efficiency = -0.10
+}
+more_money8 = {
+	trigger = {
+		money = 90000000
+		ai = no
+	}
+	tax_efficiency = -0.10
+}
+more_money9 = {
+	trigger = {
+		money = 100000000
+		ai = no
+	}
+	tax_efficiency = -0.50
+}
+
+# min_education_spending / min_administration_spending движок не поддерживает — компенсируем бонусами эффективности.
+ai_min_spending_triggered = {
+	trigger = {
+		ai = yes
+	}
+	min_tax = 1
+	min_social_spending = 1
+	min_military_spending = 1
+	min_tariff = 1
+	education_efficiency_modifier = 0.80
+	administrative_efficiency_modifier = 0.90
+	factory_owner_cost = -1
+}

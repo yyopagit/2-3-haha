@@ -1,0 +1,326 @@
+political_decisions = {
+	nama_colonisation = {
+		picture = build_kiel_canal
+		potential = {
+			tag = SAF
+			NOT = {
+				owns = 2086
+			}
+			USA = {
+				NOT = {
+					owns = 2086
+				}
+			}
+			ENG = {
+				NOT = {
+					owns = 2086
+				}
+			}
+			RUS = {
+				NOT = {
+					owns = 2086
+				}
+			}
+			FRA = {
+				NOT = {
+					owns = 2086
+				}
+			}
+			GER = {
+				NOT = {
+					owns = 2086
+				}
+			}
+			ITA = {
+				NOT = {
+					owns = 2086
+				}
+			}
+			SPA = {
+				NOT = {
+					owns = 2086
+				}
+			}
+			BRZ = {
+				NOT = {
+					owns = 2086
+				}
+			}
+			MEX = {
+				NOT = {
+					owns = 2086
+				}
+			}
+			KUK = {
+				NOT = {
+					owns = 2086
+				}
+			}
+			AUS = {
+				NOT = {
+					owns = 2086
+				}
+			}
+			TUR = {
+				NOT = {
+					owns = 2086
+				}
+			}
+			NET = {
+				NOT = {
+					owns = 2086
+				}
+			}
+		}
+		allow = {
+			prestige = 5
+		}
+		effect = {
+			prestige = 5
+			2110 = {trade_goods = precious_metal}
+			2086= { secede_province = SAF }
+			2086= { add_core = SAF}
+			2086 = { life_rating = 20}
+			2083= { secede_province = SAF }
+			 2083= { add_core = SAF }
+			 2083 = { life_rating = 20}
+            2084= { secede_province = SAF }
+			 2084= { add_core = SAF }
+			 2084 = { life_rating = 20}
+			2085= { secede_province = SAF }
+			2085= { add_core = SAF }
+			2085 = { life_rating = 20}
+		}
+	}
+	north_cap_colonisation = {
+		picture = kaiser_wilhelms_land
+		potential = {
+			tag = SAF
+			NOT = {
+				owns = 2095
+			}
+			USA = {
+				NOT = {
+					owns = 2095
+				}
+			}
+			ENG = {
+				NOT = {
+					owns = 2095
+				}
+			}
+			RUS = {
+				NOT = {
+					owns = 2095
+				}
+			}
+			FRA = {
+				NOT = {
+					owns = 2095
+				}
+			}
+			GER = {
+				NOT = {
+					owns = 2095
+				}
+			}
+			ITA = {
+				NOT = {
+					owns = 2095
+				}
+			}
+			SPA = {
+				NOT = {
+					owns = 2095
+				}
+			}
+			BRZ = {
+				NOT = {
+					owns = 2095
+				}
+			}
+			MEX = {
+				NOT = {
+					owns = 2095
+				}
+			}
+			KUK = {
+				NOT = {
+					owns = 2095
+				}
+			}
+			AUS = {
+				NOT = {
+					owns = 2095
+				}
+			}
+			TUR = {
+				NOT = {
+					owns = 2095
+				}
+			}
+			NET = {
+				NOT = {
+					owns = 2095
+				}
+			}
+		}
+		allow = {
+			prestige = 5
+		}
+		effect = {
+			prestige = 5
+			2095 = { secede_province = SAF }
+			2095 = { life_rating = 20}
+			2095 = { add_core = SAF }
+           2094 = { secede_province = SAF }
+			2094 = { life_rating = 20}
+			2094 = { add_core = SAF  }
+		}
+	}
+	conquest = {
+		picture = fatherland_volunteers
+		potential = {
+			tag = SAF
+			NOT = {
+				has_country_modifier = super_conquest
+				has_country_modifier = peacefull_conquest
+			}
+			OR = {
+				NOT = {
+					owns = 2101
+				}
+				NOT = {
+					owns = 2113
+				}
+				NOT = {
+					owns = 2105
+				}
+			}
+		}
+		allow = {
+		}
+		effect = {
+			prestige = 10
+			add_country_modifier = {
+				name = super_conquest
+				duration = -1
+			}
+			set_country_flag = agrresive_way
+			set_country_flag = black
+			SAF = { set_country_flag = black }
+			2101 = {
+				add_core = SAF
+			}
+			2102 = {
+				add_core = SAF
+			}
+			2103 = {
+				add_core = SAF
+			}
+			2105 = {
+				add_core = SAF
+			}
+			2107 = {
+				add_core = SAF
+			}
+			2106 = {
+				add_core = SAF
+			}
+			2109 = {
+				add_core = SAF
+			}
+			2114 = {
+				add_core = SAF
+			}
+			2110 = {
+				add_core = SAF
+			}
+			2108 = {
+				add_core = SAF
+			}
+			2113 = {
+				add_core = SAF
+			}
+			2111 = {
+				add_core = SAF
+			}
+			2112 = {
+				add_core = SAF
+			}
+		}
+	}
+	peacefull_conquest = {
+		picture = ems_dispatch
+		potential = {
+			tag = SAF
+			NOT = {
+				has_country_modifier = super_conquest
+				has_country_modifier = peacefull_conquest
+			}
+			OR = {
+				NOT = {
+					owns = 2101
+				}
+				NOT = {
+					owns = 2113
+				}
+				NOT = {
+					owns = 2105
+				}
+			}
+		}
+		allow = {
+			year = 1836
+		}
+		effect = {
+			prestige = 10
+			add_accepted_culture = zulu
+			add_country_modifier = {
+				name = peacefull_conquest
+				duration = 36600
+			}
+			set_country_flag = black
+			CAN = { set_country_flag = black }
+		}
+	}
+	Black_lifes_matter = {
+		picture = support_biesterfelds
+		potential = {
+			tag = SAF
+			NOT = {
+				has_country_modifier = assimilation_cd
+			}
+		}
+		allow = {
+		}
+		effect = {
+			country_event = { id=101146 days=0 }
+		}
+	}
+	adopt_die_stem = {
+	picture = adopt_die_stem
+		potential = {
+			tag = SAF
+			NOT = {
+				has_country_flag = has_die_stem
+			}
+		}
+		allow = {
+			OR = { 
+				ENG_2074 = { owned_by = SAF } 
+				ENG_2074 = { owned_by = ENG } 
+			}
+			raider_group_doctrine = 1
+		}
+		effect = {
+			prestige = 25
+			ENG_2074 = {
+				life_rating = 20
+				add_core = SAF
+			}
+			set_country_flag = has_die_stem
+		}
+	}
+}
+

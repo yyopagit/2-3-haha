@@ -1,0 +1,470 @@
+province_event = {
+	
+	id = 999121
+
+	trigger = {
+	owner = {
+        tag = SAF}
+	 
+		trade_goods = precious_metal
+		not = { has_province_modifier = blood_gold }
+		
+	}
+	title = "EVTNAME999121"
+	desc = "EVTDESC999121"
+	picture = "lion"
+
+	option = {
+		name = "EVTOPTA999121"
+	 
+	  add_province_modifier = {
+	  name = blood_gold
+	  duration = -1
+	  }
+	  
+	}
+}
+
+country_event = { 
+	id = 401000
+	title = "EVTNAME401001"
+	desc = "EVTDESC401001"
+	picture = "greatpowers"
+	trigger = {
+    	tag = SAF	
+           2096 = {
+		    owned_by = SAF
+            }
+     	NOT = { has_global_flag = suez_canal_built }
+	NOT = { has_country_modifier = elisabeth }
+	NOT = { has_country_modifier = jopa_safa }
+}
+	option = {
+	name = "EVTOPTA401001"
+	any_country = {
+		limit = {
+		is_sphere_leader_of = SAF
+		}
+		add_country_modifier = { 
+	     		name = jopa_safa
+	     		duration = -1
+	    }
+	set_country_flag = yes_saf		
+}	
+	  add_country_modifier = {
+		name = elisabeth
+		duration = -1
+		}
+		set_country_flag = yes_saf
+    }
+}
+
+country_event = { 
+	id = 401001
+	title = "EVTNAME401002"
+	desc = "EVTDESC401002"
+	picture = "greatpowers"
+	trigger = {
+	tag = SAF
+	has_country_flag = yes_saf
+	has_global_flag = suez_canal_built
+	has_country_modifier = elisabeth
+	}
+	option = {
+	name = "EVTOPTA401002"
+		any_country = {
+		limit = {
+		has_country_modifier = jopa_safa
+		}	
+		remove_country_modifier = jopa_safa
+		clr_country_flag = yes_saf
+	    }
+		remove_country_modifier = elisabeth
+		clr_country_flag = yes_saf
+	}
+}
+
+country_event = {
+
+	id = 101126
+	fire_only_once = yes 
+	trigger = {
+		tag = SAF
+		owns = 2101
+		has_country_modifier = super_conquest
+
+	}
+	option = {
+		name = "EVTOPTA101126" 
+		2102 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2103 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2101 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		 
+	
+	}
+	title = "EVTNAME101126"
+	desc = "EVTDESC101126"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101127
+	fire_only_once = yes 
+	trigger = {
+		tag = SAF
+		owns = 2105
+		has_country_modifier = super_conquest
+
+	}
+	option = {
+		name = "EVTOPTA101127" 
+		2107 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2106 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2109 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}		
+		2108 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2114 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2105 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2108 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2110 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		 
+	
+	}
+	title = "EVTNAME101127"
+	desc = "EVTDESC101127"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101128 
+	fire_only_once = yes
+	trigger = {
+		tag = SAF
+		owns = 2113
+		has_country_modifier = super_conquest
+
+	}
+	option = {
+		name = "EVTOPTA101128" 
+		2113 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2112 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		2111 = {
+			add_province_modifier = {
+				name = super_conquest1
+				duration = 36600
+			}
+		}
+		 
+	
+	}
+	title = "EVTNAME101128"
+	desc = "EVTDESC101128"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101131 
+	fire_only_once = yes
+	trigger = {
+		tag = SAF
+		owns = 2101
+		has_country_modifier = peacefull_conquest
+
+	}
+	option = {
+		name = "EVTOPTA101131" 
+		2102 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2103 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2101 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		 
+	
+	}
+	title = "EVTNAME101131"
+	desc = "EVTDESC101131"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101130 
+	fire_only_once = yes
+	trigger = {
+		tag = SAF
+		owns = 2105
+		has_country_modifier = peacefull_conquest
+
+	}
+	option = {
+		name = "EVTOPTA101130" 
+		2107 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2106 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2109 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}		
+		2108 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2114 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2105 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2108 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		 
+	
+	}
+	title = "EVTNAME101130"
+	desc = "EVTDESC101130"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101129 
+	fire_only_once = yes
+	trigger = {
+		tag = SAF
+		owns = 2113
+		has_country_modifier = peacefull_conquest
+
+	}
+	option = {
+		name = "EVTOPTA101129" 
+		2113 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2112 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		2111 = {
+			add_province_modifier = {
+				name = peacefull_conquest1
+				duration = 36600
+			}
+		}
+		 
+	
+	}
+	title = "EVTNAME101129"
+	desc = "EVTDESC101129"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101137
+	trigger = {
+		tag = SAF
+		in_sphere = ENG
+		NOT = {
+        	has_country_modifier = saf_buff
+        }
+	}
+	option = {
+		name = "EVTOPTA101137" 
+		add_country_modifier = {
+			name = saf_buff
+			duration = 37000
+		}
+	}
+	title = "EVTNAME101137"
+	desc = "EVTDESC101137"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 101139
+	fire_only_once = yes
+	trigger = {
+		tag = SAF
+	}
+	option = {
+		name = "EVTOPTA101139"
+		badboy = 15
+	}
+	title = "EVTNAME101139"
+	desc = "EVTDESC101139"
+	picture = "Administration"
+}
+
+country_event = {
+
+    id = 101142
+    trigger = {
+        tag = SAF
+        has_country_modifier = saf_buff
+        NOT = {
+            in_sphere = ENG
+        }
+    }
+    option = {
+        name = "EVTOPTA101142" 
+        remove_country_modifier = saf_buff
+    }
+    title = "EVTNAME101142"
+    desc = "EVTDESC101142"
+    picture = "Administration"
+}
+
+country_event = {
+
+    id = 101143
+    fire_only_once = yes 
+    trigger = {
+    	year = 1838
+        tag = SAF
+      	has_country_modifier = peacefull_conquest
+        in_sphere = ENG
+    }
+    option = {
+    	name = "EVTOPTA101143" 
+        create_vassal = ZUL
+        create_vassal = TRN
+        create_vassal = ORA
+    }
+    title = "EVTNAME101143"
+    desc = "EVTDESC101143"
+    picture = "Administration"
+}
+
+country_event = {
+
+    id = 101144
+    fire_only_once = yes 
+    trigger = {
+    	year = 1841
+        tag = SAF
+      	has_country_modifier = peacefull_conquest
+        in_sphere = ENG
+        is_our_vassal = ZUL
+        is_our_vassal =	TRN
+        is_our_vassal =	ORA
+    }
+    option = {
+    	name = "EVTOPTA101144" 
+        inherit	= ORA
+		inherit	= ZUL
+		inherit	= TRN
+    }
+    title = "EVTNAME101144"
+    desc = "EVTDESC101144"
+    picture = "Administration"
+}
+

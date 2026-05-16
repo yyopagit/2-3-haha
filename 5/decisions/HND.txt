@@ -1,0 +1,503 @@
+political_decisions = {
+	graet_eic24 = {
+	picture = graet_eic
+		potential = {
+			tag = HND
+			NOT = {
+				has_country_flag = graet_eic24
+			}		
+		}	
+		allow = {
+			year = 1880
+		}
+		effect = {
+			set_country_flag = graet_eic24
+			badboy = 5
+			HYD_1283 = { add_core = HND }
+			ENG_1275 = { add_core = HND }
+			ENG_1276 = { add_core = HND }
+			ENG_1242 = { add_core = HND }
+			ENG_1307 = { add_core = HND }
+			ENG_1305 = { add_core = HND }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Inian_ambitions = {
+	picture = graet_eic
+		potential = {
+			tag = HND
+			NOT = {
+				has_country_flag = Inian_ambitions
+			}		
+		}	
+		allow = {
+		owns = 1245
+		owns = 1275
+		owns = 1276
+			prestige = 100
+			year = 1875
+		}
+		effect = {
+			set_country_flag = Inian_ambitions
+			prestige = 25
+			add_accepted_culture = kanauji
+			add_accepted_culture = nepali
+				NAG = { all_core = {remove_core = NAG}}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	famine_ind_1 = {
+	picture = expand_motala_verkstad
+		potential = {
+			owns = 1254
+			has_country_modifier = famine_la_india
+			OR = {
+				tag = EIC
+				tag = HND
+			}
+			NOT = {
+				has_global_flag = famine_ind_1_yes
+			}
+		}
+		allow = {
+			money = 3100000
+		}
+		effect = {
+			money = -2000000
+			money = -1000000
+			prestige = 5
+			set_global_flag = famine_ind_1_yes
+			remove_country_modifier = famine_la_india
+			add_country_modifier = {
+					name = famine_war_first_step
+					duration = -1
+			}
+			1255 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+	famine_ind_2 = {
+	picture = expand_motala_verkstad
+		potential = {
+			owns = 2566
+			has_global_flag = famine_ind_1_yes
+			OR = {
+				tag = EIC
+				tag = HND
+			}
+			NOT = {
+				has_global_flag = famine_ind_2_yes
+			}
+		}
+		allow = {
+			money = 5100000
+		}
+		effect = {
+			money = -5000000
+			prestige = 5
+			set_global_flag = famine_ind_2_yes
+			remove_country_modifier = famine_war_first_step
+			add_country_modifier = {
+					name = famine_war_second_step
+					duration = -1
+			}
+			2566 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+	famine_ind_3 = {
+	picture = expand_motala_verkstad
+		potential = {
+			owns = 1262
+			owns = 1263
+			has_global_flag = famine_ind_2_yes
+			OR = {
+				tag = EIC
+				tag = HND
+			}
+			NOT = {
+				has_global_flag = famine_ind_3_yes
+			}
+		}
+		allow = {
+			money = 6100000
+			year = 1872
+			OR = {
+				owns = 1307
+				owns = 1281
+			}
+		}
+		effect = {
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			prestige = 5
+			set_global_flag = famine_ind_3_yes
+			remove_country_modifier = famine_war_second_step
+			add_country_modifier = {
+					name = famine_war_third_step
+					duration = -1
+			}
+			1262 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+			1263 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+	famine_war_end_1 = {
+		picture = expand_motala_verkstad
+		potential = {
+			has_global_flag = famine_ind_3_yes
+			OR = {
+				tag = EIC
+				tag = HND
+			}
+			NOT = {
+				has_global_flag = famine_war_end_1_yes
+			}
+		}
+		allow = {
+			money = 9100000
+			owns = 1280
+		}
+		effect = {
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			money = -2000000
+			money = -1000000
+			prestige = 5
+			set_global_flag = famine_war_end_1_yes
+			THIS = {
+				country_event = { id=18943 days=0 }
+			}
+			1280 = {
+				add_province_modifier = {
+					name = famine_war
+					duration = -1
+				}
+			}
+		}
+	}
+	gudbay_eng = {
+		potential = {
+		has_country_flag = integratia_boic_v_eng
+		 year = 1870
+		 ENG = {
+		 OR = {
+		      is_sphere_leader_of = EIC 
+			  is_sphere_leader_of = HND 
+		  }
+		 }
+		 OR = {
+	     tag = HND
+		 tag = EIC
+		 }
+		}
+		allow = {
+		}
+		effect = {
+					sphere_owner = {
+				 diplomatic_influence = {
+				 who = THIS
+				 value = -200
+				 }
+			    }
+                add_country_modifier = {
+                name = gudbay_eng1
+				duration = -1
+				}
+		        add_country_modifier = {
+                name = gudbay_eng2
+				duration = 1825
+				}
+		}
+    }
+	India_reforms = {
+			potential = {
+	   OR = {
+	   tag = EIC
+	   tag = MUG
+	   tag = IGM
+	   tag = HND
+	   }
+	   has_country_modifier = India
+			NOT = {
+				has_country_flag = India_reforms
+			}
+		}
+			allow = {
+			prestige = 25
+			year = 1900
+		    }
+		effect = {
+			set_country_flag = India_reforms
+			remove_country_modifier = India
+			}
+		}
+	integratia_boic_v_eng = {
+		potential = {
+		 year = 1845
+		 ENG = {
+		 OR = {
+		      is_sphere_leader_of = EIC 
+			  is_sphere_leader_of = HND 
+		  }
+		 }
+		 OR = {
+	     tag = HND
+		 tag = EIC
+		 }
+			NOT = {
+				has_country_flag = integratia_boic_v_eng
+			}
+		}
+		allow = {
+		NOT = {
+		industrial_score = 100
+		}
+		}
+		effect = {
+		        remove_country_modifier = gudbay_eng1
+		        add_country_modifier = {
+                name = integratia_boic_v_eng
+				duration = -1
+				}
+		  set_country_flag = integratia_boic_v_eng
+		}
+    }
+	inzeneri_eng_v_boic = {
+		potential = {
+		 ENG = {
+		 OR = {
+		      is_sphere_leader_of = EIC 
+			  is_sphere_leader_of = HND 
+		  }
+		 }
+		 OR = {
+	     tag = HND
+		 tag = EIC
+		 }
+			NOT = {
+				has_country_flag = inzeneri_eng_v_boic
+			}
+		}
+		allow = {
+		   ENG = {
+		   semi_automatization = 1
+		   }
+			money = 520000
+		}
+		effect = {
+		        add_country_modifier = {
+                name = inzeneri_eng_v_boic
+				duration = -1
+				}
+		  set_country_flag = inzeneri_eng_v_boic
+		   money = -500000
+		}
+    }
+	iron_in_nagpur = {
+		picture = expand_motala_verkstad
+		potential = {
+			owns = 1277
+			OR = {
+				tag = EIC
+				tag = HND
+				tag = MUG
+				tag = IGM
+			}
+			NOT = {
+				has_global_flag = iron_in_nagpur_yes
+			}
+		}
+		allow = {
+			money = 1100000
+			cheap_iron = 1
+		}
+		effect = {
+			money = -1000000
+			1277 = { trade_goods = iron }
+			prestige = 5
+			set_global_flag = iron_in_nagpur_yes
+		}
+	}
+	obrazovanue_for_India1 = {
+	picture = graet_eic
+	potential = {
+	OR = {
+	tag = HND
+	tag = EIC
+	}
+	has_country_modifier = India
+	NOT = {
+	has_country_flag = obrazovanue_for_India1
+	}
+}	
+	allow = {
+	prestige = 20
+	money = 500000
+	}
+	effect = {
+	set_country_flag = obrazovanue_for_India1
+	money = -500000
+	add_country_modifier = {
+	name = obrazovanue_for_India1
+	duration = -1
+	}
+}
+}
+		obrazovanue_for_India2 = {
+	picture = REFORMA_V_INDII
+	potential = {
+	OR = {
+	tag = HND
+	tag = EIC
+	}
+	has_country_modifier = India
+	has_country_flag = obrazovanue_for_India1
+	NOT = {
+	has_country_flag = obrazovanue_for_India2
+	}
+}	
+	allow = {
+	prestige = 20
+	money = 1500000
+	}
+	effect = {
+	set_country_flag = obrazovanue_for_India2
+	money = -1500000
+	add_country_modifier = {
+	name = obrazovanue_for_India2
+	duration = -1
+	}
+}
+}
+		obrazovanue_for_India3 = {
+	picture = REFORMA_V_INDII
+	potential = {
+	OR = {
+	tag = HND
+	tag = EIC
+	}
+	has_country_modifier = India
+	has_country_flag = obrazovanue_for_India2
+	NOT = {
+	has_country_flag = obrazovanue_for_India3
+	}
+}	
+	allow = {
+	prestige = 20
+	money = 2000000
+	}
+	effect = {
+	set_country_flag = obrazovanue_for_India3
+	money = -2000000
+	add_country_modifier = {
+	name = obrazovanue_for_India3
+	duration = -1
+	}
+}
+}
+		obrazovanue_for_India4 = {
+	picture = REFORMA_V_INDII
+	potential = {
+	OR = {
+	tag = HND
+	tag = EIC
+	}
+	has_country_flag = obrazovanue_for_India3
+	has_country_modifier = India
+	NOT = {
+	has_country_flag = obrazovanue_for_India4
+	}
+}	
+	allow = {
+	prestige = 20
+	money = 2000000
+	}
+	effect = {
+	set_country_flag = obrazovanue_for_India4
+	money = -2000000
+	add_country_modifier = {
+	name = obrazovanue_for_India4
+	duration = -1
+	}
+}
+}
+	obrazovanue_for_India5 = {
+	picture = REFORMA_V_INDII
+	potential = {
+	OR = {
+	tag = HND
+	tag = EIC
+	}
+	has_country_flag = obrazovanue_for_India4
+	has_country_modifier = India
+	NOT = {
+	has_country_flag = obrazovanue_for_India5
+	}
+}	
+	allow = {
+	prestige = 20
+	money = 2000000
+	}
+	effect = {
+	set_country_flag = obrazovanue_for_India5
+	money = -2000000
+remove_country_modifier = obrazovanue_for_India1
+remove_country_modifier = obrazovanue_for_India2
+remove_country_modifier = obrazovanue_for_India3
+remove_country_modifier = obrazovanue_for_India4
+remove_country_modifier = India
+		}
+	}
+	switch_to_indian_tech = {
+		alert = no
+		potential = {
+			civilized = yes
+			OR = {
+				tag = EIC
+				tag = HND
+			}
+			tech_school = traditional_academic
+			NOT = {
+			has_country_modifier = academic_confusion
+			}
+		}
+		allow = {
+			prestige = 150
+			industrial_score = 50
+			military_score = 150
+		}
+		effect = {
+			prestige = -10
+			add_country_modifier = {
+				name = academic_confusion
+				duration = 2560
+			}
+			tech_school = indian_tech_school
+		}
+	}
+}
+
