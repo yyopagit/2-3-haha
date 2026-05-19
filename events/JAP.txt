@@ -72,4 +72,81 @@ country_event = {
 		remove_country_modifier = sanction_on_jap
 	}
 }
+#---------------------------------------
+# ==========================================
+# ИВЕНТ: Проверка 2 лет оккупации Филиппин
+# ==========================================
+country_event = {
+    id = 900100
+    title = "OK"
+    desc = "OK"
+    picture = "default"
+    
+    trigger = {
+        tag = JAP
+        war_with = SPA
+        NOT = { has_global_flag = philippines_ready_to_take }
+        
+        # Проверю что ВСЕ ЭТИ ЕБУЧИЕ провинции оккупированы Японией
+        1456 = { controlled_by = JAP }
+        1455 = { controlled_by = JAP }
+        1457 = { controlled_by = JAP }
+        1458 = { controlled_by = JAP }
+        1459 = { controlled_by = JAP }
+        1460 = { controlled_by = JAP }
+        1461 = { controlled_by = JAP }
+        2565 = { controlled_by = JAP }
+        1464 = { controlled_by = JAP }
+        1463 = { controlled_by = JAP }
+        1462 = { controlled_by = JAP }
+    }
+    
+    # Ждём 2 ГОДА (24 месяца) после выполнения условий( тот кто читает это знайте я потратил на РУШИ 5 часов чтобы написать и проверить все как работает этА ЕБУЧАЯ ХУЕТЕНЬ!!!)
+    mean_time_to_happen = {
+        months = 24
+    }
+    
+    option = {
+        name = "OK"
+        set_global_flag = philippines_ready_to_take
+    }
+}
 
+# ==========================================
+# ИВЕНТ: Сбрасываем флаг, если оккупация прервалась
+# ==========================================
+country_event = {
+    id = 900101
+    title = "OK"
+    desc = "OK"
+    picture = "default"
+    
+    trigger = {
+        tag = JAP
+        has_global_flag = philippines_ready_to_take
+        
+        # Проверяем, что ХОТЯ БЫ ОДНА провинция НЕ оккупирована
+        OR = {
+            NOT = { 1456 = { controlled_by = JAP } }
+            NOT = { 1455 = { controlled_by = JAP } }
+            NOT = { 1457 = { controlled_by = JAP } }
+            NOT = { 1458 = { controlled_by = JAP } }
+            NOT = { 1459 = { controlled_by = JAP } }
+            NOT = { 1460 = { controlled_by = JAP } }
+            NOT = { 1461 = { controlled_by = JAP } }
+            NOT = { 2565 = { controlled_by = JAP } }
+            NOT = { 1464 = { controlled_by = JAP } }
+            NOT = { 1463 = { controlled_by = JAP } }
+            NOT = { 1462 = { controlled_by = JAP } }
+        }
+    }
+    
+    mean_time_to_happen = {
+        days = 1
+    }
+    
+    option = {
+        name = "OK"
+        clr_global_flag = philippines_ready_to_take
+    }
+}
