@@ -403,24 +403,41 @@ country_event = {
 
 	id = 100201
 	trigger = {
-		tag = PER
+		OR = {
+			tag = RPC
+			tag = GPC
+			tag = TPC
+		}
 		OR = {
 			AND = {
-				PER = { in_sphere = RUS }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				KUT = { in_sphere = RUS }
 			}
 			AND = {
-				PER = { in_sphere = GER }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				KUT = { in_sphere = GER }
 			}
 			AND = {
-				PER = { in_sphere = TUR }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				KUT = { in_sphere = TUR }
 			}
 		any_owned_province = {
 			any_neighbor_province = {
 				owned_by = KUT
 			}
+		}
 		}
 	}
 	
@@ -447,24 +464,41 @@ country_event = {
 
 	id = 100202
 	trigger = {
-		tag = PER
+		OR = {
+			tag = RPC
+			tag = GPC
+			tag = TPC
+		}
 		OR = {
 			AND = {
-				PER = { in_sphere = RUS }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				JAI = { in_sphere = RUS }
 			}
 			AND = {
-				PER = { in_sphere = GER }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				JAI = { in_sphere = GER }
 			}
 			AND = {
-				PER = { in_sphere = TUR }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				JAI = { in_sphere = TUR }
 			}
 		any_owned_province = {
 			any_neighbor_province = {
 				owned_by = JAI
 			}
+		}
 		}
 	}
 	
@@ -491,24 +525,41 @@ country_event = {
 
 	id = 100203
 	trigger = {
-		tag = PER
+		OR = {
+			tag = RPC
+			tag = GPC
+			tag = TPC
+		}
 		OR = {
 			AND = {
-				PER = { in_sphere = RUS }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				MAK = { in_sphere = RUS }
 			}
 			AND = {
-				PER = { in_sphere = GER }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				MAK = { in_sphere = GER }
 			}
 			AND = {
-				PER = { in_sphere = TUR }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				MAK = { in_sphere = TUR }
 			}
 		any_owned_province = {
 			any_neighbor_province = {
 				owned_by = MAK
 			}
+		}
 		}
 	}
 	
@@ -535,24 +586,41 @@ country_event = {
 
 	id = 100204
 	trigger = {
-		tag = PER
+		OR = {
+			tag = RPC
+			tag = GPC
+			tag = TPC
+		}
 		OR = {
 			AND = {
-				PER = { in_sphere = RUS }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				JOD = { in_sphere = RUS }
 			}
 			AND = {
-				PER = { in_sphere = GER }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				JOD = { in_sphere = GER }
 			}
 			AND = {
-				PER = { in_sphere = TUR }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				JOD = { in_sphere = TUR }
 			}
 		any_owned_province = {
 			any_neighbor_province = {
 				owned_by = JOD
 			}
+		}
 		}
 	}
 	
@@ -579,24 +647,41 @@ country_event = {
 
 	id = 100205
 	trigger = {
-		tag = PER
+		OR = {
+			tag = RPC
+			tag = GPC
+			tag = TPC
+		}
 		OR = {
 			AND = {
-				PER = { in_sphere = RUS }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				BUN = { in_sphere = RUS }
 			}
 			AND = {
-				PER = { in_sphere = GER }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				BUN = { in_sphere = GER }
 			}
 			AND = {
-				PER = { in_sphere = TUR }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				BUN = { in_sphere = TUR }
 			}
 		any_owned_province = {
 			any_neighbor_province = {
 				owned_by = BUN
 			}
+		}
 		}
 	}
 	
@@ -623,24 +708,41 @@ country_event = {
 
 	id = 100206
 	trigger = {
-		tag = PER
+		OR = {
+			tag = RPC
+			tag = GPC
+			tag = TPC
+		}
 		OR = {
 			AND = {
-				PER = { in_sphere = RUS }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				BHO = { in_sphere = RUS }
 			}
 			AND = {
-				PER = { in_sphere = GER }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				BHO = { in_sphere = GER }
 			}
 			AND = {
-				PER = { in_sphere = TUR }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				BHO = { in_sphere = TUR }
 			}
 		any_owned_province = {
 			any_neighbor_province = {
 				owned_by = BHO
 			}
+		}
 		}
 	}
 	
@@ -667,24 +769,41 @@ country_event = {
 
 	id = 100207
 	trigger = {
-		tag = PER
+		OR = {
+			tag = RPC
+			tag = GPC
+			tag = TPC
+		}
 		OR = {
 			AND = {
-				PER = { in_sphere = RUS }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				IND = { in_sphere = RUS }
 			}
 			AND = {
-				PER = { in_sphere = GER }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				IND = { in_sphere = GER }
 			}
 			AND = {
-				PER = { in_sphere = TUR }
+				OR = { 
+					RPC = { in_sphere = RUS }
+					GPC = { in_sphere = GER }
+					TPC = { in_sphere = TUR }
+				}
 				IND = { in_sphere = TUR }
 			}
 		any_owned_province = {
 			any_neighbor_province = {
 				owned_by = IND
 			}
+		}
 		}
 	}
 	
@@ -704,5 +823,74 @@ country_event = {
 	}
 	title = "EVTNAME100207"
 	desc = "EVTDESC100207"
+	picture = "Administration"
+}
+
+
+=============================
+ВЫБОР ПУТИ ПЕРСИИ
+=============================
+
+country_event = {
+	
+	fire_only_once = yes
+
+	trigger = {
+		year = 2055
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	id = 100300
+	option = {
+		name = "EVTOPTA100300"
+		change_tag = RPC
+		RUS = {
+			diplomatic_influence = {
+				who = RPC
+				value = 200
+			}
+		}
+	}
+		option = {
+		name = "EVTOPTB100300"
+		change_tag = GPC
+		GER = {
+			diplomatic_influence = {
+				who = GPC
+				value = 200
+			}
+		}
+		NGF = {
+			diplomatic_influence = {
+				who = GPC
+				value = 200
+			}
+		}
+		PRU = {
+			diplomatic_influence = {
+				who = GPC
+				value = 200
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTC100300"
+		change_tag = TPC
+		TUR = {
+			diplomatic_influence = {
+				who = TPC
+				value = 200
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTD100300"
+		change_tag = IGM
+	}
+	title = "EVTNAME100300"
+	desc = "EVTDESC100300"
 	picture = "Administration"
 }

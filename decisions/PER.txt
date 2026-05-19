@@ -62,11 +62,12 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = graet_igm
-			PER = { all_core = {remove_core = IGM }}
-			prestige = 20
-			add_accepted_culture = rajput
-			add_accepted_culture = kashmiri
-			add_accepted_culture = pashtun
+			THIS = {
+				country_event = {
+					id = 100300
+					days = 0
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
