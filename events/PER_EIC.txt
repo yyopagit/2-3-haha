@@ -1,0 +1,708 @@
+==================================
+ИВЕНТЫ ДЛЯ АННЕКСИИ МИНОРОВ БОИКОМ
+==================================
+country_event = {
+
+	id = 100101
+	trigger = {
+		tag = EIC
+		EIC = { in_sphere = ENG }
+		MYS = { in_sphere = ENG }
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = MYS
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 24
+	}
+	option = {
+		name = "EVTOPTA100101"
+		inherit = MYS
+		badboy = 5
+		prestige = 5
+	}
+	option = {
+		name = "EVTOPTB100101"
+		prestige = -5
+	}
+	title = "EVTNAME100101"
+	desc = "EVTDESC100101"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100102
+	trigger = {
+		tag = EIC
+		EIC = { in_sphere = ENG }
+		TRA = { in_sphere = ENG }
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = TRA
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100102"
+		inherit = TRA
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100102"
+		prestige = -5
+	}
+	title = "EVTNAME100102"
+	desc = "EVTDESC100102"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100103
+	trigger = {
+		tag = EIC
+		EIC = { in_sphere = ENG }
+		HYD = { in_sphere = ENG }
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = HYD
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100103"
+		inherit = HYD
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100103"
+		prestige = -5
+	}
+	title = "EVTNAME100103"
+	desc = "EVTDESC100103"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100104
+	trigger = {
+		tag = EIC
+		EIC = { in_sphere = ENG }
+		BER = { in_sphere = ENG }
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = BER
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100104"
+		inherit = BER
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100104"
+		prestige = -5
+	}
+	title = "EVTNAME100104"
+	desc = "EVTDESC100104"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100105
+	trigger = {
+		tag = EIC
+		EIC = { in_sphere = ENG }
+		BIK = { in_sphere = ENG }
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = BIK
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100105"
+		inherit = BIK
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100105"
+		prestige = -5
+	}
+	title = "EVTNAME100105"
+	desc = "EVTDESC100105"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100106
+	trigger = {
+		tag = EIC
+		EIC = { in_sphere = ENG }
+		JOD = { in_sphere = ENG }
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = JOD
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100106"
+		inherit = JOD
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100106"
+		prestige = -5
+	}
+	title = "EVTNAME100106"
+	desc = "EVTDESC100106"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100107
+	trigger = {
+		tag = EIC
+		EIC = { in_sphere = ENG }
+		BHO = { in_sphere = ENG }
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = BHO
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100107"
+		inherit = BHO
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100107"
+		prestige = -5
+	}
+	title = "EVTNAME100107"
+	desc = "EVTDESC100107"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100108
+	trigger = {
+		tag = EIC
+		EIC = { in_sphere = ENG }
+		BUN = { in_sphere = ENG }
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = BUN
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100108"
+		inherit = BUN
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100108"
+		prestige = -5
+	}
+	title = "EVTNAME100108"
+	desc = "EVTDESC100108"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100109
+	trigger = {
+		tag = EIC
+		EIC = { in_sphere = ENG }
+		IND = { in_sphere = ENG }
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = IND
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100109"
+		inherit = IND
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100109"
+		prestige = -5
+	}
+	title = "EVTNAME100109"
+	desc = "EVTDESC100109"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100110
+	trigger = {
+		tag = EIC
+		EIC = { in_sphere = ENG }
+		MAK = { in_sphere = ENG }
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = MAK
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100110"
+		inherit = MAK
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100110"
+		prestige = -5
+	}
+	title = "EVTNAME100110"
+	desc = "EVTDESC100110"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100111
+	trigger = {
+		tag = EIC
+		EIC = { in_sphere = ENG }
+		JAI = { in_sphere = ENG }
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = JAI
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100111"
+		inherit = JAI
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100111"
+		prestige = -5
+	}
+	title = "EVTNAME100111"
+	desc = "EVTDESC100111"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100112
+	trigger = {
+		tag = EIC
+		EIC = { in_sphere = ENG }
+		KUT = { in_sphere = ENG }
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = KUT
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100112"
+		inherit = KUT
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100112"
+		prestige = -5
+	}
+	title = "EVTNAME100112"
+	desc = "EVTDESC100112"
+	picture = "Administration"
+}
+
+==================================
+ИВЕНТЫ ДЛЯ АННЕКСИИ МИНОРОВ ПЕРСОМ
+==================================
+
+country_event = {
+
+	id = 100201
+	trigger = {
+		tag = PER
+		OR = {
+			AND = {
+				PER = { in_sphere = RUS }
+				KUT = { in_sphere = RUS }
+			}
+			AND = {
+				PER = { in_sphere = GER }
+				KUT = { in_sphere = GER }
+			}
+			AND = {
+				PER = { in_sphere = TUR }
+				KUT = { in_sphere = TUR }
+			}
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = KUT
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100201"
+		inherit = KUT
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100201"
+		prestige = -5
+	}
+	title = "EVTNAME100201"
+	desc = "EVTDESC100201"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100202
+	trigger = {
+		tag = PER
+		OR = {
+			AND = {
+				PER = { in_sphere = RUS }
+				JAI = { in_sphere = RUS }
+			}
+			AND = {
+				PER = { in_sphere = GER }
+				JAI = { in_sphere = GER }
+			}
+			AND = {
+				PER = { in_sphere = TUR }
+				JAI = { in_sphere = TUR }
+			}
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = JAI
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100202"
+		inherit = JAI
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100202"
+		prestige = -5
+	}
+	title = "EVTNAME100202"
+	desc = "EVTDESC100202"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100203
+	trigger = {
+		tag = PER
+		OR = {
+			AND = {
+				PER = { in_sphere = RUS }
+				MAK = { in_sphere = RUS }
+			}
+			AND = {
+				PER = { in_sphere = GER }
+				MAK = { in_sphere = GER }
+			}
+			AND = {
+				PER = { in_sphere = TUR }
+				MAK = { in_sphere = TUR }
+			}
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = MAK
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100203"
+		inherit = MAK
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100203"
+		prestige = -5
+	}
+	title = "EVTNAME100203"
+	desc = "EVTDESC100203"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100204
+	trigger = {
+		tag = PER
+		OR = {
+			AND = {
+				PER = { in_sphere = RUS }
+				JOD = { in_sphere = RUS }
+			}
+			AND = {
+				PER = { in_sphere = GER }
+				JOD = { in_sphere = GER }
+			}
+			AND = {
+				PER = { in_sphere = TUR }
+				JOD = { in_sphere = TUR }
+			}
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = JOD
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100204"
+		inherit = JOD
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100204"
+		prestige = -5
+	}
+	title = "EVTNAME100204"
+	desc = "EVTDESC100204"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100205
+	trigger = {
+		tag = PER
+		OR = {
+			AND = {
+				PER = { in_sphere = RUS }
+				BUN = { in_sphere = RUS }
+			}
+			AND = {
+				PER = { in_sphere = GER }
+				BUN = { in_sphere = GER }
+			}
+			AND = {
+				PER = { in_sphere = TUR }
+				BUN = { in_sphere = TUR }
+			}
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = BUN
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100205"
+		inherit = BUN
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100205"
+		prestige = -5
+	}
+	title = "EVTNAME100205"
+	desc = "EVTDESC100205"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100206
+	trigger = {
+		tag = PER
+		OR = {
+			AND = {
+				PER = { in_sphere = RUS }
+				BHO = { in_sphere = RUS }
+			}
+			AND = {
+				PER = { in_sphere = GER }
+				BHO = { in_sphere = GER }
+			}
+			AND = {
+				PER = { in_sphere = TUR }
+				BHO = { in_sphere = TUR }
+			}
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = BHO
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100206"
+		inherit = BHO
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100206"
+		prestige = -5
+	}
+	title = "EVTNAME100206"
+	desc = "EVTDESC100206"
+	picture = "Administration"
+}
+
+country_event = {
+
+	id = 100207
+	trigger = {
+		tag = PER
+		OR = {
+			AND = {
+				PER = { in_sphere = RUS }
+				IND = { in_sphere = RUS }
+			}
+			AND = {
+				PER = { in_sphere = GER }
+				IND = { in_sphere = GER }
+			}
+			AND = {
+				PER = { in_sphere = TUR }
+				IND = { in_sphere = TUR }
+			}
+		any_owned_province = {
+			any_neighbor_province = {
+				owned_by = IND
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 24
+	}
+	
+	option = {
+		name = "EVTOPTA100207"
+		inherit = IND
+		badboy = 5
+		prestige = 5
+	}
+		option = {
+		name = "EVTOPTB100207"
+		prestige = -5
+	}
+	title = "EVTNAME100207"
+	desc = "EVTDESC100207"
+	picture = "Administration"
+}

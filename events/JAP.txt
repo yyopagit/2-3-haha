@@ -72,4 +72,80 @@ country_event = {
 		remove_country_modifier = sanction_on_jap
 	}
 }
-
+#---------------------------------------
+# ==========================================
+# ИВЕНТ: Проверка 2 лет оккупации Филиппин
+# ==========================================
+country_event = {
+    id = 900100
+    title = "EVTNAME900100"
+    desc = "EVTDESC900100"
+    picture = "default"
+    
+    trigger = {
+        tag = JAP
+        war_with = SPA
+        NOT = { has_global_flag = philippines_taken }
+        
+        # Проверю что ВСЕ ЭТИ ЕБУЧИЕ провинции оккупированы Японией
+        1456 = { controlled_by = JAP }
+        1455 = { controlled_by = JAP }
+        1457 = { controlled_by = JAP }
+        1458 = { controlled_by = JAP }
+        1459 = { controlled_by = JAP }
+        1460 = { controlled_by = JAP }
+        1461 = { controlled_by = JAP }
+        2565 = { controlled_by = JAP }
+        1464 = { controlled_by = JAP }
+        1463 = { controlled_by = JAP }
+        1462 = { controlled_by = JAP }
+    }
+    
+    # Ждём 2 ГОДА (24 месяца) после выполнения условий( тот кто читает это знайте я потратил на РУШИ 5 часов чтобы написать и проверить все как работает этА ЕБУЧАЯ ХУЕТЕНЬ!!!)
+    mean_time_to_happen = {
+        months = 24
+    }
+    
+    option = {
+        name = "EVTOPTA900100"
+        prestige = 20
+            
+            1456 = { secede_province = JAP }
+            1455 = { secede_province = JAP }
+            1457 = { secede_province = JAP }
+            1458 = { secede_province = JAP }
+            1459 = { secede_province = JAP }
+            1460 = { secede_province = JAP }
+            1461 = { secede_province = JAP }
+            2565 = { secede_province = JAP }
+            1464 = { secede_province = JAP }
+            1463 = { secede_province = JAP }
+            1462 = { secede_province = JAP }
+            
+            1456 = { remove_core = SPA }
+            1455 = { remove_core = SPA }
+            1457 = { remove_core = SPA }
+            1458 = { remove_core = SPA }
+            1459 = { remove_core = SPA }
+            1460 = { remove_core = SPA }
+            1461 = { remove_core = SPA }
+            2565 = { remove_core = SPA }
+            1464 = { remove_core = SPA }
+            1463 = { remove_core = SPA }
+            1462 = { remove_core = SPA }
+            
+            1456 = { add_core = JAP }
+            1455 = { add_core = JAP }
+            1457 = { add_core = JAP }
+            1458 = { add_core = JAP }
+            1459 = { add_core = JAP }
+            1460 = { add_core = JAP }
+            1461 = { add_core = JAP }
+            2565 = { add_core = JAP }
+            1464 = { add_core = JAP }
+            1463 = { add_core = JAP }
+            1462 = { add_core = JAP }
+			
+			set_global_flag = philippines_taken
+    }
+}
