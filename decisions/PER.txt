@@ -406,6 +406,32 @@ political_decisions = {
 		
 	}
 	
+	tpc_accepted_culture_get = {
+	picture = graet_eic
+		potential = {
+			tag = TPC
+			NOT = {
+				has_country_flag = tpc_accepted_culture_get
+			}			
+		}	
+		allow = {
+			year = 1860
+		}
+		effect = {
+				set_country_flag = tpc_accepted_culture_get
+				badboy = 5
+
+				any_owned = {
+					remove_core = AFG
+                }
+				add_accepted_culture = sindi
+				add_accepted_culture = hazara
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 }
 
 
