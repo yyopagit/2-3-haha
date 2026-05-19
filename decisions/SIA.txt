@@ -1,0 +1,30 @@
+political_decisions = {
+
+rise_of_siam_start = {
+    potential = { 
+        civilized = no
+        tag = SIA
+        NOT = {
+            has_country_flag = first_reform_started
+        }
+    }
+
+    allow = {
+        prestige = 3
+        ai = no
+    }
+
+    effect = {
+        set_country_flag = first_reform_started
+        add_country_modifier = { name = rise_of_siam_1 duration = 7300}
+        military_reform = yes_foreign_training
+        military_reform = yes_foreign_weapons
+        economic_reform = yes_finance_reform
+    }
+
+    ai_will_do = {
+        factor = 0
+    }
+}
+
+}
