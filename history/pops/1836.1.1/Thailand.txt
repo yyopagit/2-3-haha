@@ -5,115 +5,115 @@
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 11250
+size = 16875
 	}
 
 	bureaucrats = {
 		culture = thai
 		religion = orthodox
-size = 937
+size = 1405
 	}
 
 	officers = {
 		culture = thai
 		religion = orthodox
-size = 1187
+size = 1780
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 5937
+size = 8905
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 25000
+size = 37500
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 2750
+size = 4125
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 5625
+size = 8437
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 482562
+size = 723843
 	}
 
 	slaves = {
 		culture = thai
 		religion = orthodox
-size = 15000
+size = 22500
 	}
 
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 1875
+size = 2812
 	}
 
 	bureaucrats = {
 		culture = thai
 		religion = orthodox
-size = 500
+size = 750
 	}
 
 	officers = {
 		culture = thai
 		religion = orthodox
-size = 187
+size = 280
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 1312
+size = 1968
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 25000
+size = 37500
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 25000
+size = 37500
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 25000
+size = 37500
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 7500
+size = 11250
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 1437
+size = 2155
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 54687
+size = 82030
 	}
 }
 #Lopburi (324000/81000 POPS)
@@ -121,37 +121,37 @@ size = 54687
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 3937
+size = 5905
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 2062
+size = 3093
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 10000
+size = 15000
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 2750
+size = 4125
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 176500
+size = 264750
 	}
 
 	slaves = {
 		culture = thai
 		religion = orthodox
-size = 7500
+size = 11250
 	}
 }
 #Nakhon Sawan (188000/47000 POPS)
@@ -159,67 +159,67 @@ size = 7500
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 2000
+size = 3000
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 1000
+size = 1500
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 3750
+size = 5625
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 2750
+size = 4125
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 93250
+size = 139875
 	}
 
 	slaves = {
 		culture = thai
 		religion = orthodox
-size = 7500
+size = 11250
 	}
 
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 62
+size = 93
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 125
+size = 187
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 3125
+size = 4687
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 62
+size = 93
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 4125
+size = 6187
 	}
 }
 #Sukothai (136000/34000 POPS)
@@ -227,455 +227,13 @@ size = 4125
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 1625
+size = 2437
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 875
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 4250
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 2750
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 74750
-	}
-}
-#Nakhon Ratchasima (160000/40000 POPS)
-1350 = {
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 2000
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 1062
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 5000
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 2750
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 89437
-	}
-}
-#Prachin Buri (164000/41000 POPS)
-1351 = {
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 1437
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 750
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 3500
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 2750
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 69312
-	}
-
-	slaves = {
-		culture = thai
-		religion = orthodox
-size = 2750
-	}
-
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 250
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 187
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 5000
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 250
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 16812
-	}
-}
-#Kra Region (492000)
-#under the rule of Siam in 1836
-#Phuket (124000/31000 POPS)
-1352 = {
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 1125
-	}
-
-	bureaucrats = {
-		culture = thai
-		religion = orthodox
-size = 250
-	}
-
-	officers = {
-		culture = thai
-		religion = orthodox
-size = 250
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 562
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 2625
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 2750
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 50062
-	}
-
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 187
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 125
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 2750
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 125
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 9562
-	}
-
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 62
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 125
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 375
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 62
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 6875
-	}
-}
-#Ratchaburi (172000/43000 POPS)
-1353 = {
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 1750
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 875
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 4500
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 2750
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 82875
-	}
-
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 312
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 187
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 3750
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 187
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 13062
-	}
-}
-#Nakhon Si Thammanet (196000/49000 POPS)
-1354 = {
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 1562
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 812
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 3250
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 2750
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 72000
-	}
-
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 187
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 125
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 3187
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 125
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 8875
-	}
-
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 500
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 312
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 1500
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 250
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 27437
-	}
-}
-#thai Region (600000)
-#under the rule of Siam in 1836
-#Chiang Mai (332000/83000 POPS)
-1355 = {
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 1375
-	}
-
-	bureaucrats = {
-		culture = thai
-		religion = orthodox
-size = 312
-	}
-
-	officers = {
-		culture = thai
-		religion = orthodox
-size = 187
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 812
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 4000
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 812
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 71812
-	}
-
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 3562
-	}
-
-	officers = {
-		culture = thai
-		religion = orthodox
-size = 187
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 1250
+size = 1312
 	}
 
 	artisans = {
@@ -687,115 +245,123 @@ size = 6375
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 1312
+size = 4125
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 115625
+size = 112125
 	}
 }
-#Nan (268000/67000 POPS)
-2572 = {
+#Nakhon Ratchasima (160000/40000 POPS)
+1350 = {
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 1000
+size = 3000
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 562
+size = 1593
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 2750
+size = 7500
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 562
+size = 4125
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 50125
-	}
-
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 1062
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 500
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 2875
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 625
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 52687
-	}
-
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 937
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 500
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 2750
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 562
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 50500
+size = 134155
 	}
 }
-#thais Region (776000)
+#Prachin Buri (164000/41000 POPS)
+1351 = {
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 2155
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 1125
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 5250
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 4125
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 103968
+	}
+
+	slaves = {
+		culture = thai
+		religion = orthodox
+size = 4125
+	}
+
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 375
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 280
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 7500
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 375
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 25218
+	}
+}
+#Kra Region (492000)
 #under the rule of Siam in 1836
-#Udon Thani (596000/149000 POPS) #now part of Thailand 
-1358 = {
+#Phuket (124000/31000 POPS)
+1352 = {
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 1000
+size = 1687
 	}
 
 	bureaucrats = {
@@ -807,61 +373,495 @@ size = 375
 	officers = {
 		culture = thai
 		religion = orthodox
-size = 500
+size = 375
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 562
+size = 843
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 2625
+size = 3937
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 562
+size = 4125
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 52562
+size = 75093
 	}
 
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 6250
+size = 280
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 3250
+size = 187
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 16000
+size = 4125
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 3000
+size = 187
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 291500
+size = 14343
+	}
+
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 93
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 187
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 562
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 93
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 10312
+	}
+}
+#Ratchaburi (172000/43000 POPS)
+1353 = {
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 2625
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 1312
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 6750
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 4125
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 124312
+	}
+
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 468
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 280
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 5625
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 280
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 19593
+	}
+}
+#Nakhon Si Thammanet (196000/49000 POPS)
+1354 = {
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 2343
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 1218
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 4875
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 4125
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 108000
+	}
+
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 280
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 187
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 4780
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 187
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 13312
+	}
+
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 750
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 468
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 2250
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 375
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 41155
+	}
+}
+#thai Region (600000)
+#under the rule of Siam in 1836
+#Chiang Mai (332000/83000 POPS)
+1355 = {
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 2062
+	}
+
+	bureaucrats = {
+		culture = thai
+		religion = orthodox
+size = 468
+	}
+
+	officers = {
+		culture = thai
+		religion = orthodox
+size = 280
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 1218
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 6000
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 1218
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 107718
+	}
+
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 5343
+	}
+
+	officers = {
+		culture = thai
+		religion = orthodox
+size = 280
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 1875
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 9562
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 1968
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 173437
+	}
+}
+#Nan (268000/67000 POPS)
+2572 = {
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 1500
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 843
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 4125
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 843
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 75187
+	}
+
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 1593
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 750
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 4312
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 937
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 79030
+	}
+
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 1405
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 750
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 4125
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 843
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 75750
+	}
+}
+#thais Region (776000)
+#under the rule of Siam in 1836
+#Udon Thani (596000/149000 POPS) #now part of Thailand 
+1358 = {
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 1500
+	}
+
+	bureaucrats = {
+		culture = thai
+		religion = orthodox
+size = 562
+	}
+
+	officers = {
+		culture = thai
+		religion = orthodox
+size = 750
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 843
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 3937
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 843
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 78843
+	}
+
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 9375
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 4875
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 24000
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 4500
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 437250
 	}
 }
 #Sisaket (180000/45000 POPS) #now part of Thailand 
@@ -869,91 +869,91 @@ size = 291500
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 1062
+size = 1593
 	}
 
 	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 843
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 4312
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 937
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 78562
+	}
+
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 1218
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 655
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 3280
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 655
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 65437
+	}
+
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 93
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 187
+	}
+
+	artisans = {
 		culture = thai
 		religion = orthodox
 size = 562
 	}
 
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 2875
-	}
-
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 625
+size = 93
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 52375
-	}
-
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 812
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 437
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 2187
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 437
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 43625
-	}
-
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 62
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 125
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 375
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 62
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 6875
+size = 10312
 	}
 }
 #Cambodia Region (72000)
@@ -963,67 +963,43 @@ size = 6875
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 187
+size = 280
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 125
+size = 187
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 562
+size = 843
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 125
+size = 187
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 11500
+size = 17250
 	}
 
 	aristocrats = {
 		culture = thai
 		religion = orthodox
+size = 562
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
 size = 375
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 250
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 1250
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 250
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 22875
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 125
 	}
 
 	artisans = {
@@ -1035,13 +1011,37 @@ size = 1875
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 125
+size = 375
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 5375
+size = 34312
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 187
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 2812
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 187
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 8062
 	}
 }
 #thaia Region (132000) #see thaisia.txt for balance of region
@@ -1051,55 +1051,55 @@ size = 5375
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 1375
+size = 2062
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 750
+size = 1125
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 3750
+size = 5625
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 750
+size = 1125
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 71125
+size = 106687
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 125
+size = 187
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 1625
+size = 2437
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 62
+size = 93
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 3187
+size = 4780
 	}
 
 }

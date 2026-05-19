@@ -5,122 +5,16 @@
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 5000
+size = 7500
 	}
 
 	bureaucrats = {
 		culture = thai
 		religion = orthodox
-size = 375
+size = 562
 	}
 
 	officers = {
-		culture = thai
-		religion = orthodox
-size = 500
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 2812
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 13750
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 10000
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 245062
-	}
-
-	slaves = {
-		culture = thai
-		religion = orthodox
-size = 5000
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 187
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 3125
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 6687
-	}
-}
-#Kampot (160000/40000 POPS)
-1367 = {
-	aristocrats = {
-		culture = thai
-		religion = orthodox
-size = 1812
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 937
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 4375
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 2750
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 85375
-	}
-
-	clergymen = {
-		culture = thai
-		religion = orthodox
-size = 62
-	}
-
-	artisans = {
-		culture = thai
-		religion = orthodox
-size = 1250
-	}
-
-	farmers = {
-		culture = thai
-		religion = orthodox
-size = 3687
-	}
-}
-#Stongtreng (84000/21000 POPS)
-1368 = {
-	aristocrats = {
 		culture = thai
 		religion = orthodox
 size = 750
@@ -129,73 +23,134 @@ size = 750
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 437
+size = 4218
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 2250
+size = 20625
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 437
+size = 15000
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 41125
+size = 367593
 	}
 
-	aristocrats = {
+	slaves = {
 		culture = thai
 		religion = orthodox
-size = 125
+size = 7500
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 125
+size = 280
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 312
-	}
-
-	soldiers = {
-		culture = thai
-		religion = orthodox
-size = 62
+size = 4687
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 6875
+size = 10030
 	}
 }
-#under the rule of Siam in 1836
-#Battambang (152000/48000 POPS)
-1366 = {
+#Kampot (160000/40000 POPS)
+1367 = {
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 62
+size = 2718
 	}
 
-	bureaucrats = {
+	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 125
+size = 1405
 	}
 
-	officers = {
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 6562
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 4125
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 128062
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 93
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 1875
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 5530
+	}
+}
+#Stongtreng (84000/21000 POPS)
+1368 = {
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 1125
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 655
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 3375
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 655
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 61687
+	}
+
+	aristocrats = {
 		culture = thai
 		religion = orthodox
 size = 187
@@ -204,85 +159,130 @@ size = 187
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 62
+size = 187
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 125
+size = 468
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 125
+size = 93
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 1812
+size = 10312
+	}
+}
+#under the rule of Siam in 1836
+#Battambang (152000/48000 POPS)
+1366 = {
+	aristocrats = {
+		culture = thai
+		religion = orthodox
+size = 93
+	}
+
+	bureaucrats = {
+		culture = thai
+		religion = orthodox
+size = 187
+	}
+
+	officers = {
+		culture = thai
+		religion = orthodox
+size = 280
+	}
+
+	clergymen = {
+		culture = thai
+		religion = orthodox
+size = 93
+	}
+
+	artisans = {
+		culture = thai
+		religion = orthodox
+size = 187
+	}
+
+	soldiers = {
+		culture = thai
+		religion = orthodox
+size = 187
+	}
+
+	farmers = {
+		culture = thai
+		religion = orthodox
+size = 2718
 	}
 
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 1875
+size = 2812
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 1000
+size = 1500
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 5000
+size = 7500
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 1062
+size = 1593
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 98562
+size = 147843
 	}
 
 	slaves = {
 		culture = thai
 		religion = orthodox
-size = 2750
+size = 4125
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 125
+size = 187
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 1875
+size = 2812
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 125
+size = 187
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 5375
+size = 8062
 	}
 
 }

@@ -603,6 +603,14 @@ muhammad_alis_reforms = {
 	pop_consciousness_modifier = 0.05
 	icon = 5
 }
+
+
+#----------------Сиам--------------
+rise_of_siam_1 = {
+	research_points_modifier = 0.7
+	pop_consciousness_modifier = 0.05
+	icon = 4
+}
 #-------------------------------------------------------КАНАДА И ЮАР-------------------------------------------------------
 # navy_bonus_by_can = {
 #     local_ship_build = -0.01

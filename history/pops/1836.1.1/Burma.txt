@@ -3,55 +3,55 @@
 #Rangoon (344000/86000 POPS)
 1330 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 500
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 625
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 3000
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 625
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 55000
 	}
 
 	aristocrats = {
-		culture = asian_minor #Mon
+		culture = burmese #Mon
 		religion = orthodox
 size = 250
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 375
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 2750
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 375
 	}
@@ -119,25 +119,25 @@ size = 61937
 	}
 
 	aristocrats = {
-		culture = asian_minor #Mon
+		culture = burmese #Mon
 		religion = orthodox
 size = 62
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 187
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 500
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 125
 	}
@@ -145,55 +145,55 @@ size = 125
 #Pegu (560000/140000 POPS)
 1332 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 1000
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 1250
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 6000
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 1250
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 110500
 	}
 
 	aristocrats = {
-		culture = asian_minor #Mon
+		culture = burmese #Mon
 		religion = orthodox
 size = 250
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 375
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 2125
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 375
 	}
@@ -243,31 +243,31 @@ size = 168250
 #Toungoo (308000/77000 POPS)
 1333 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 750
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 812
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 4000
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 875
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 73562
 	}
@@ -338,61 +338,61 @@ size = 99000
 	}
 
 	aristocrats = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 125
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 125
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 625
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 125
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 14000
 	}
 
 	aristocrats = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 187
 	}
 
 	clergymen = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 187
 	}
 
 	artisans = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 875
 	}
 
 	soldiers = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 187
 	}
 
 	farmers = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 16062
 	}
@@ -442,31 +442,31 @@ size = 251250
 	}
 
 	aristocrats = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 125
 	}
 
 	clergymen = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 125
 	}
 
 	artisans = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 625
 	}
 
 	soldiers = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 125
 	}
 
 	farmers = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 11500
 	}
@@ -536,48 +536,48 @@ size = 137125
 	}
 
 }
-#Shan Region (680000)
+#burmese Region (680000)
 #Under Burma rule 1836
 #Taunggye (416000/104000 POPS)
 1338 = {
 	aristocrats = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 2250
 	}
 
 	bureaucrats = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 562
 	}
 
 	officers = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 437
 	}
 
 	clergymen = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 2125
 	}
 
 	artisans = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 10625
 	}
 
 	soldiers = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 2125
 	}
 
 	farmers = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 191875
 	}
@@ -627,61 +627,61 @@ size = 45750
 #Lashio (264000/66000 POPS)
 1340 = {
 	aristocrats = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 1250
 	}
 
 	clergymen = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 1250
 	}
 
 	artisans = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 6250
 	}
 
 	soldiers = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 1250
 	}
 
 	farmers = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 115000
 	}
 
 	aristocrats = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 250
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 250
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 1375
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 375
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 25250
 	}
@@ -746,55 +746,55 @@ size = 9125
 	}
 
 	aristocrats = {
-		culture = asian_minor #Chin
+		culture = burmese #Chin
 		religion = orthodox
 size = 1250
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 1250
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 7500
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 1250
 	}
 
 	aristocrats = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 187
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 875
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 2000
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 500
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 38937
 	}
@@ -802,31 +802,31 @@ size = 38937
 #Putao (216000/54000 POPS)
 1341 = {
 	aristocrats = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 1375
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 1375
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 6250
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 1375
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 124625
 	}
@@ -834,61 +834,61 @@ size = 124625
 #Myitkyina (364000/91000 POPS)
 1342 = {
 	aristocrats = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 1000
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 1000
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 5000
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 1000
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 94500
 	}
 
 	aristocrats = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 625
 	}
 
 	clergymen = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 625
 	}
 
 	artisans = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 3000
 	}
 
 	soldiers = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 625
 	}
 
 	farmers = {
-		culture = shan
+		culture = burmese
 		religion = orthodox
 size = 52625
 	}
@@ -935,55 +935,55 @@ size = 52375
 #Moulmein (272000/68000 POPS)
 1343 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 1000
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 875
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 2750
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 750
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 77375
 	}
 
 	aristocrats = {
-		culture = asian_minor #Mon
+		culture = burmese #Mon
 		religion = orthodox
 size = 500
 	}
 
 	clergymen = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 937
 	}
 
 	artisans = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 3437
 	}
 
 	soldiers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 625
 	}
@@ -1033,31 +1033,31 @@ size = 62
 #Mergui (332000/83000 POPS)
 1344 = {
 	aristocrats = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 1000
 	}
 
 	clergymen = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 937
 	}
 
 	artisans = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 2750
 	}
 
 	soldiers = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 1000
 	}
 
 	farmers = {
-		culture = karen
+		culture = burmese
 		religion = orthodox
 size = 87062
 	}
@@ -1200,13 +1200,13 @@ size = 47062
 	}
 
 	clergymen = { 
-		culture = asian_minor #Chin
+		culture = burmese #Chin
 		religion = orthodox
 size = 62
 	}
 
 	farmers = {
-		culture = asian_minor
+		culture = burmese
 		religion = orthodox
 size = 2375
 	}
