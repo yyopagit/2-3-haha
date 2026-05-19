@@ -314,6 +314,16 @@ dar_al_funun = {
 	research_points_modifier = 0.5
 	icon = 5
 }
+german_investitons_to_persia = {
+	research_points_modifier = 0.5
+	education_efficiency_modifier = 0.5
+	
+}
+tpc_buffs = {
+	global_population_growth = 0.002
+	farm_rgo_eff = 0.5
+	mine_rgo_eff = 0.5
+}
 #-------------------------------------------------------МЕКСИКА-------------------------------------------------------
 natsionalnoe_edinstvo = {
     prestige = 0.75
