@@ -78,14 +78,14 @@ country_event = {
 # ==========================================
 country_event = {
     id = 900100
-    title = "OK"
-    desc = "OK"
+    title = "EVTNAME900100"
+    desc = "EVTDESC900100"
     picture = "default"
     
     trigger = {
         tag = JAP
         war_with = SPA
-        NOT = { has_global_flag = philippines_ready_to_take }
+        NOT = { has_global_flag = philippines_taken }
         
         # Проверю что ВСЕ ЭТИ ЕБУЧИЕ провинции оккупированы Японией
         1456 = { controlled_by = JAP }
@@ -107,46 +107,45 @@ country_event = {
     }
     
     option = {
-        name = "OK"
-        set_global_flag = philippines_ready_to_take
-    }
-}
-
-# ==========================================
-# ИВЕНТ: Сбрасываем флаг, если оккупация прервалась
-# ==========================================
-country_event = {
-    id = 900101
-    title = "OK"
-    desc = "OK"
-    picture = "default"
-    
-    trigger = {
-        tag = JAP
-        has_global_flag = philippines_ready_to_take
-        
-        # Проверяем, что ХОТЯ БЫ ОДНА провинция НЕ оккупирована
-        OR = {
-            NOT = { 1456 = { controlled_by = JAP } }
-            NOT = { 1455 = { controlled_by = JAP } }
-            NOT = { 1457 = { controlled_by = JAP } }
-            NOT = { 1458 = { controlled_by = JAP } }
-            NOT = { 1459 = { controlled_by = JAP } }
-            NOT = { 1460 = { controlled_by = JAP } }
-            NOT = { 1461 = { controlled_by = JAP } }
-            NOT = { 2565 = { controlled_by = JAP } }
-            NOT = { 1464 = { controlled_by = JAP } }
-            NOT = { 1463 = { controlled_by = JAP } }
-            NOT = { 1462 = { controlled_by = JAP } }
-        }
-    }
-    
-    mean_time_to_happen = {
-        days = 1
-    }
-    
-    option = {
-        name = "OK"
-        clr_global_flag = philippines_ready_to_take
+        name = "EVTOPTA900100"
+        prestige = 20
+            
+            1456 = { secede_province = JAP }
+            1455 = { secede_province = JAP }
+            1457 = { secede_province = JAP }
+            1458 = { secede_province = JAP }
+            1459 = { secede_province = JAP }
+            1460 = { secede_province = JAP }
+            1461 = { secede_province = JAP }
+            2565 = { secede_province = JAP }
+            1464 = { secede_province = JAP }
+            1463 = { secede_province = JAP }
+            1462 = { secede_province = JAP }
+            
+            1456 = { remove_core = SPA }
+            1455 = { remove_core = SPA }
+            1457 = { remove_core = SPA }
+            1458 = { remove_core = SPA }
+            1459 = { remove_core = SPA }
+            1460 = { remove_core = SPA }
+            1461 = { remove_core = SPA }
+            2565 = { remove_core = SPA }
+            1464 = { remove_core = SPA }
+            1463 = { remove_core = SPA }
+            1462 = { remove_core = SPA }
+            
+            1456 = { add_core = JAP }
+            1455 = { add_core = JAP }
+            1457 = { add_core = JAP }
+            1458 = { add_core = JAP }
+            1459 = { add_core = JAP }
+            1460 = { add_core = JAP }
+            1461 = { add_core = JAP }
+            2565 = { add_core = JAP }
+            1464 = { add_core = JAP }
+            1463 = { add_core = JAP }
+            1462 = { add_core = JAP }
+			
+			set_global_flag = philippines_taken
     }
 }
