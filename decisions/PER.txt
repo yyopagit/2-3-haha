@@ -1,8 +1,6 @@
 political_decisions = {
 
-===============================================
-ОБЩИЕ РЕШЕНИЯ ПЕРСИИ
-===============================================
+###############ОБЩИЕ РЕШЕНИЯ ПЕРСИИ################
 
 	Graeter_Persia = {
 		picture = graet_eic
@@ -149,17 +147,13 @@ political_decisions = {
 		 KOK_1190 = {add_core = THIS}
 		}
 	}
-	
-===================
-РЕШЕНИЯ МОГОЛА
-===================
+
+#######РЕШЕНИЯ МОГОЛА#######
 
 	graet_igm23 = {
 	picture = graet_eic
 		potential = {
-		OR = {
 			tag = IGM
-			}
 			NOT = {
 				has_country_flag = graet_igm23
 			}			
@@ -187,37 +181,230 @@ political_decisions = {
 		}
 	}
 	
-=========================
-РЕШЕНИЯ РОССИЙСКОЙ ПЕРСИИ
-=========================
+################РЕШЕНИЯ РОССИЙСКОЙ ПЕРСИИ########################
 	
 	rpc_railroads1 = {
 	picture = graet_eic
 		potential = {
-		OR = {
-			tag = RPC
-			}
+			tag = RUS
 			NOT = {
 				has_country_flag = rpc_railroads1
 			}			
 		}	
 		allow = {
-			RUS = {
-				experimental_railroads = 1
-			}
+			experimental_railroad = 1
 			money = 500000
 		}
 		effect = {
 			set_country_flag = rpc_railroads1
 			money = -500000
-			all_core = { infrastructure = 1 }
+			RPC = {
+				all_core = { infrastructure = 1 }
+			}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	
+	rpc_railroads2 = {
+	picture = graet_eic
+		potential = {
+		has_country_flag = rpc_railroads1
+			tag = RUS
+			NOT = {
+				has_country_flag = rpc_railroads2
+			}			
+		}	
+		allow = {
+			RUS = {
+				early_railroad = 1
+			}
+			money = 1000000
+		}
+		effect = {
+			set_country_flag = rpc_railroads2
+			money = -1000000
+			RPC = {
+				all_core = { infrastructure = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
+	rpc_railroads3 = {
+	picture = graet_eic
+		potential = {
+		has_country_flag = rpc_railroads2
+			tag = RUS
+			NOT = {
+				has_country_flag = rpc_railroads3
+			}			
+		}	
+		allow = {
+			RUS = {
+				iron_railroad = 1
+			}
+			money = 2000000
+		}
+		effect = {
+			set_country_flag = rpc_railroads3
+			money = -2000000
+			RPC = {
+				all_core = { infrastructure = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	rpc_railroads4 = {
+	picture = graet_eic
+		potential = {
+		has_country_flag = rpc_railroads3
+			tag = RUS
+			NOT = {
+				has_country_flag = rpc_railroads3
+			}			
+		}	
+		allow = {
+			RUS = {
+				steel_railroad = 1
+			}
+			money = 3000000
+		}
+		effect = {
+			set_country_flag = rpc_railroads4
+			money = -3000000
+			RPC = {
+				all_core = { infrastructure = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	rpc_accepted_culture_get = {
+	picture = graet_eic
+		potential = {
+			tag = RPC
+			NOT = {
+				has_country_flag = rpc_accepted_culture_get
+			}			
+		}	
+		allow = {
+			year = 1860
+		}
+		effect = {
+				set_country_flag = rpc_accepted_culture_get
+				badboy = 5
+
+				any_owned = {
+					remove_core = AFG
+                }
+				add_accepted_culture = gujarati
+				add_accepted_culture = sindi
+				add_accepted_culture = rajput
+				add_accepted_culture = avadhi
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+############РЕШЕНИЯ ГЕРМАНСКОЙ ПЕРСИИ#####################
+	gpc_tempo_increase = {
+	picture = graet_eic
+		potential = {
+			tag = GPC
+			NOT = {
+				has_country_flag = gpc_tempo_increase
+			}			
+		}	
+		allow = {
+			year = 1850
+		}
+		effect = {
+				set_country_flag = gpc_tempo_increase
+				badboy = 5
+				add_country_modifier = { 
+					name = german_investitons_to_persia 
+					duration = -1
+				}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	gpc_accepted_culture_get = {
+	picture = graet_eic
+		potential = {
+			tag = GPC
+			NOT = {
+				has_country_flag = gpc_accepted_culture_get
+			}			
+		}	
+		allow = {
+			year = 1860
+		}
+		effect = {
+				set_country_flag = gpc_accepted_culture_get
+				badboy = 5
+
+				any_owned = {
+					remove_core = AFG
+                }
+				add_accepted_culture = sindi
+				add_accepted_culture = rajput
+				add_accepted_culture = avadhi
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+############РЕШЕНИЯ ТУРЕЦКОЙ ПЕРСИИ#####################
+	tpc_buffs_got = {
+	picture = graet_eic
+		potential = {
+			tag = TPC
+			NOT = {
+				has_country_flag = tpc_buffs_got
+			}			
+		}	
+		allow = {
+			year = 1850
+		}
+		effect = {
+				set_country_flag = tpc_buffs_got
+				badboy = 5
+				add_country_modifier = { 
+					name = tpc_buffs
+					duration = -1
+				}
+				1132 = { secede_province = TUR }
+				1131 = { secede_province = TUR }
+				1133 = { secede_province = TUR }
+				1119 = { secede_province = TUR }
+				1120 = { secede_province = TUR }
+				1117 = { secede_province = TUR }
+				1118 = { secede_province = TUR }
+				1111 = { secede_province = TUR }
+				1110 = { secede_province = TUR }
+				1108 = { secede_province = TUR }
+				1109 = { secede_province = TUR }
+				1112 = { secede_province = TUR }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
 	
 }
 
