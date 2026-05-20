@@ -149,3 +149,44 @@ country_event = {
 			set_global_flag = philippines_taken
     }
 }
+# ==========================================
+# ИВЕНТ: Проверка 2 лет оккупации Тайваня
+# ==========================================
+country_event = {
+    id = 900199
+    title = "DA"
+    desc = "DA"
+    picture = "default"
+    
+    trigger = {
+        tag = JAP
+        war_with = CHI
+        NOT = { has_global_flag = philippines_taken }
+        
+        # Проверю что ВСЕ ЭТИ ЕБУЧИЕ провинции оккупированы Японией
+        2562 = { controlled_by = CHI }
+        1485 = { controlled_by = CHI }
+            }
+    
+    # Ждём 2 ГОДА (24 месяца) после выполнения условий( тот кто читает это знайте я потратил на РУШИ 5 часов чтобы написать и проверить все как работает этА ЕБУЧАЯ ХУЕТЕНЬ!!!)
+    mean_time_to_happen = {
+        months = 24
+    }
+    
+    option = {
+        name = "DA"
+        prestige = 20
+            
+            2562 = { secede_province = CHI }
+            1485 = { secede_province = CHI }
+                        
+            2562 = { remove_core = CHI }
+            1485 = { remove_core = CHI }
+                        
+            2562 = { add_core = CHI }
+            1485 = { add_core = CHI }
+            			
+			set_global_flag = philippines_taken
+    }
+}
+
