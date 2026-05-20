@@ -27,4 +27,34 @@ rise_of_siam_start = {
     }
 }
 
+    fate_of_burma = {
+    potential = { 
+        tag = SIA
+        year = 1836
+        ai = no
+        NOT = {
+            has_country_flag = fate_of_burma_sealed
+        }
+    }
+
+    allow = {
+        SIA = {
+            owns = 1334
+            owns = 1340
+            owns = 1336
+        }
+        prestige = 5
+    }
+
+    effect = {
+        set_country_flag = fate_of_burma_sealed
+        prestige = 15
+        country_event = 67671
+    }
+
+    ai_will_do = {
+        factor = 1
+    }
+}
+
 }
