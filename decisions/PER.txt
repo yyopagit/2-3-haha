@@ -426,6 +426,7 @@ political_decisions = {
                 }
 				add_accepted_culture = sindi
 				add_accepted_culture = hazara
+				add_accepted_culture = pashtun
 		}
 		ai_will_do = {
 			factor = 1
