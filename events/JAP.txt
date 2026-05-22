@@ -189,3 +189,33 @@ country_event = {
 			set_global_flag = tavans_taken
     }
 }
+# events/japan.txt
+
+country_event = {
+
+	id = 999001
+
+	trigger = {
+		tag = JAP
+		NOT = {
+			has_country_flag = jap_start_modifier
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	# ВОТ СЮДА ВСТАВЛЯЕТСЯ
+	option = {
+
+		name = "OK"
+
+		set_country_flag = jap_start_modifier
+
+		add_country_modifier = {
+			name = japan_empty_modifier
+			duration = 365
+		}
+	}
+}

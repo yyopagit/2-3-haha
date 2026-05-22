@@ -1,32 +1,32 @@
-political_decisions = {
-	tea_need = {
-	picture = crown_empress_of_india
-		potential = {
-			tag = ENG
-			NOT = {
-				has_country_flag = tn
-			}
-		}
-		allow = {
-			year = 1850
-			owns = 1321
-			owns = 1323
-			owns = 1324
-			owns = 1322
-			steam_turbine = 1
-		}
-		effect = {
-			add_country_modifier = {
-				name = Investicii_v_Ceylon
-				duration = 730
-			}
-			1321 ={ add_province_modifier = { name = Tea_need duration = -1 }}
-			1322 ={ add_province_modifier = { name = Tea_need duration = -1 }}
-			1323 ={ add_province_modifier = { name = Tea_need duration = -1 }}
-			1324 ={ add_province_modifier = { name = Tea_need duration = -1 }}
-			set_country_flag = tn
-		}
-	}
+#ical_decisions = {
+#ea_need = {
+#icture = crown_empress_of_india
+#	potential = {
+#		tag = ENG
+#		NOT = {
+#			has_country_flag = tn
+#		}
+#	}
+#	allow = {
+#		year = 1850
+#		owns = 1321
+#		owns = 1323
+#		owns = 1324
+#		owns = 1322
+#		steam_turbine = 1
+#	}
+#	effect = {
+#		add_country_modifier = {
+#			name = Investicii_v_Ceylon
+#			duration = 730
+#		}
+#		1321 ={ add_province_modifier = { name = Tea_need duration = -1 }}
+#		1322 ={ add_province_modifier = { name = Tea_need duration = -1 }}
+#		1323 ={ add_province_modifier = { name = Tea_need duration = -1 }}
+#		1324 ={ add_province_modifier = { name = Tea_need duration = -1 }}
+#		set_country_flag = tn
+#	}
+#
 	repeal_the_corn_laws = {
 	picture = repeal_the_corn_laws
 		potential = {
