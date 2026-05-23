@@ -1570,5 +1570,27 @@ population_growth = -0.005
 # }
 
 
+#====================================================
+# Незаморские провинции и блокада
+#====================================================
+non_overseas_selector = {
+	icon = 1
+}
 
+non_blockadable_ports = {
+	icon = 2
+}
 
+blockaded_marker = {
+	icon = 2
+}
+
+totally_blockaded = {
+	tax_efficiency = -0.10
+	war_exhaustion = 0.5
+	prestige = -0.05
+}
+
+cb_speed = {
+	cb_generation_speed_modifier = 100
+}
