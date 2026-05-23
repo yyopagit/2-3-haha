@@ -42,3 +42,12 @@ health_care = no_culture
 unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
+
+education_reform = yes_education_reform
+finance_reform = finance_reform_two
+foreign_weapons = yes_foreign_weapons
+admin_reform = yes_admin_reform
+economic_reform = yes_land_reform
+pre_indust = yes_pre_indust
+foreign_training = yes_foreign_training
+

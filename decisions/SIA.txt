@@ -17,9 +17,6 @@ rise_of_siam_start = {
     effect = {
         set_country_flag = first_reform_started
         add_country_modifier = { name = rise_of_siam_1 duration = 7300}
-        military_reform = yes_foreign_training
-        military_reform = yes_foreign_weapons
-        economic_reform = yes_finance_reform
     }
 
     ai_will_do = {
