@@ -179,3 +179,10 @@ vassal = {
 	start_date = 1861.1.1
 	end_date = 1936.1.1
 }
+#Камбоджа вассал Сиама
+vassal = {
+	first = SIA
+	second = CAM
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}

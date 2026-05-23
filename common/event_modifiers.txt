@@ -611,12 +611,7 @@ muhammad_alis_reforms = {
 }
 
 
-#----------------Сиам--------------
-rise_of_siam_1 = {
-	research_points_modifier = 0.7
-	pop_consciousness_modifier = 0.05
-	icon = 4
-}
+
 #-------------------------------------------------------КАНАДА И ЮАР-------------------------------------------------------
 # navy_bonus_by_can = {
 #     local_ship_build = -0.01
@@ -1611,4 +1606,45 @@ help_malakka_SIA = {
 	local_RGO_throughput = 0.25
 	farm_rgo_eff = 0.5
 	icon = 19
+}
+
+help_france_sia = {
+	badboy = -0.2
+	cb_generation_speed_modifier = 0.2
+	diplomatic_points_modifier = 0.5
+	administrative_efficiency_modifier = 0.1
+	tax_efficiency = 0.01
+	icon = 15
+}
+
+help_usa_sia = {
+	badboy = -0.05
+	research_points = 3
+	global_population_growth = 0.0001
+	global_assimilation_rate = 0.5
+	RGO_output = 0.25
+	RGO_throughput = 0.25
+	tax_efficiency = 0.03
+	icon = 5
+}
+
+help_japan_sia = {
+	badboy = -0.05
+	org_regain = 0.25
+	mobilisation_size = 0.03
+	land_unit_start_experience = 10
+	land_organisation = 0.25
+	RGO_throughput = 0.1
+	RGO_output = 0.1
+	tax_efficiency = 0.01
+	icon = 9
+}
+
+grant_kd1 = {
+	icon = 8
+}
+rise_of_siam_1 = {
+	research_points_modifier = 0.5
+	pop_consciousness_modifier = 0.05
+	icon = 4
 }
