@@ -1648,3 +1648,6 @@ rise_of_siam_1 = {
 	pop_consciousness_modifier = 0.05
 	icon = 4
 }
+japan_empty_modifier = {
+       icon = 15                  # Иконка (опционально)
+}

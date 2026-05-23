@@ -193,8 +193,9 @@ country_event = {
 
 country_event = {
 
-	id = 999001
-
+	id = EVTP999001
+ title = "EVTNAME999001"
+    desc = "EVTDESC999001"
 	trigger = {
 		tag = JAP
 		NOT = {
@@ -209,7 +210,7 @@ country_event = {
 	# ВОТ СЮДА ВСТАВЛЯЕТСЯ
 	option = {
 
-		name = "OK"
+		name = "EVTOPTA999001"
 
 		set_country_flag = jap_start_modifier
 
