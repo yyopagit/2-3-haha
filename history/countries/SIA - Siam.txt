@@ -1,11 +1,13 @@
 capital = 1346
-primary_culture = polynesian
+primary_culture = thai
+culture = lao
 religion = orthodox
 government = absolute_monarchy
-plurality = 0.0
+plurality = 0.2
 nationalvalue = nv_order
-literacy = 0.10
-non_state_culture_literacy = 0.10
+literacy = 0.09
+non_state_culture_literacy = 0.09
+prestige = 15
 
 ruling_party = SIA_conservative
 upper_house = {

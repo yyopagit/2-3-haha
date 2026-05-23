@@ -1417,3 +1417,15 @@ telephone_switchboard = {
 		} 
 	}
 }
+
+early_railroad_flag = {
+	limit = { 
+		early_railroad = 1
+	}
+	chance = {
+		base = 100			
+	}
+	effect = {
+		set_country_flag = got_early_railroad_flag
+	}
+}
