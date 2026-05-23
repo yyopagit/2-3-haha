@@ -23,93 +23,10 @@ country_event = {
     
     option = {
         name = "EVTOPTBId67671"
-        BUR_1339 = { add_core = THIS }
-        BUR_1330 = { add_core = THIS }
+        BUR_1339 = { add_core = SIA }
+        BUR_1330 = { add_core = SIA }
         add_accepted_culture = burmese
         badboy = 14
         set_country_flag = burma_union
-    }
-}
-
-country_event = {
-    id = 676721
-    title = "EVTNAMEId676721"
-    desc = "EVTDESCId676721"
-    picture = asian_ruler
-    is_triggered_only = yes
-    
-    trigger = {
-        tag = ENG
-    }
-    
-    mean_time_to_happen = {
-    
-        days = 1    
-    }
-    option = {                  #Согласие ВБ
-        name = "EVTOPTAId676721"
-        add_country_modifier = {
-            name = help_malakka_ENG
-            duration = 35600000
-        }
-        money = 1500000
-        SIA = {
-            country_event = 67673
-        }
-    }
-    
-    option = { #отказ ВБ
-        name = "EVTOPTBId676721"
-        SIA = {
-            country_event = 67674
-        }
-    }
-}
-
-country_event = {
-    id = 67674
-    title = "EVTNAMEId67674"
-    desc = "EVTDESCId67674"
-    picture = Anaconda
-    is_triggered_only = yes
-    
-    trigger = {
-        tag = SIA
-    }
-    
-    mean_time_to_happen = {
-        days = 1
-        
-    }
-    option = {
-        name = "EVTOPTAId67674"
-        prestige = -5
-    }
-}
-
-country_event = {
-    id = 67673
-    title = "EVTNAMEId67673"
-    desc = "EVTDESCId67673"
-    picture = Anaconda
-    is_triggered_only = yes
-    
-    trigger = {
-        tag = SIA
-    }
-    
-    mean_time_to_happen = {
-        days = 1
-        
-    }
-    option = {
-        name = "EVTOPTAId67673"
-        ENG_1384 = {
-            add_province_modifier = {
-                name = help_malakka_SIA
-                duration = 7500
-            }
-        }
-        prestige = 5
     }
 }

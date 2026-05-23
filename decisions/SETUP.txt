@@ -1,18 +1,15 @@
 political_decisions = {
 #-------------------------------------------------------Проливы-------------------------------------------------------	
 
-	marker_jan = {
+	proliv_open = {
 		potential = {
 			tag = JAN
-			NOT = { has_country_flag = marker_jan }
 		}
 		
 		allow = {
 		}
 		
 		effect = {
-			set_country_flag = marker_jan
-			country_event = 140400
 		}
 		ai_will_do = {
 			factor = 1

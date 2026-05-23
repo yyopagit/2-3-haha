@@ -14,7 +14,6 @@ country_event = {
 	option = {
 		name = "noloc"
 		add_country_modifier = { name = mcl_happened_modifier duration = 360 }
-		country_event = { id = 140400 days = 30 }
 		
 		any_country = {
 			limit = {
@@ -26,232 +25,8 @@ country_event = {
                     total_amount_of_ships = 1
                 }
 			}
+			## Audax Validator "." Ignore_NEXT
 			annex_to = FROM
-		}
-		
-		any_country = {
-			any_pop = {
-				limit = {
-					type = bureaucrats
-					is_accepted_culture = no
-					NOT = { continent = china }
-				}
-				pop_type = farmers
-			}
-		}
-		
-		any_country = {
-            
-            any_owned = {
-                limit = {
-                    NOT = {
-					is_overseas = yes
-					has_province_modifier = non_overseas_selector
-					}
-                }
-                
-                add_province_modifier = {
-                    name = non_overseas_selector
-                    duration = -1
-                }
-                
-            }
-        }
-		
-		RUS = {
-			RUS_non_blockaded = {
-				limit = { NOT = { has_province_modifier = non_blockadable_ports } }
-                add_province_modifier = {
-                    name = non_blockadable_ports
-                    duration = -1
-                }
-			}
-		}
-		
-		USA = {
-			USA_non_blockaded = {
-				limit = { NOT = { has_province_modifier = non_blockadable_ports } }
-                add_province_modifier = {
-                    name = non_blockadable_ports
-                    duration = -1
-                }
-			}
-		}
-	}
-}
-
-
-#=========================================================
-#Тотальная блокада
-#=========================================================
-
-country_event = {
-	id = 140401
-	name = "EVTNAME140401"
-	desc = "EVTDESC140401"
-	picture = "Administration"
-	
-	trigger = {
-		NOT = {
-			tag = RUS
-			tag = USA
-			has_country_modifier = totally_blockaded
-			any_owned_province = {
-				has_province_modifier = non_overseas_selector
-				is_coastal = yes
-				is_blockaded = no
-			}
-		}
-	}
-	
-	immediate = {
-		add_country_modifier = {
-			name = totally_blockaded
-			duration = -1
-		}
-		capital_scope = { 
-			add_province_modifier = {
-				name = blockaded_marker
-				duration = -1
-			}
-		}
-		
-	}
-	
-	option = {
-		name = "EVTNAME140401"
-	}
-}
-
-#==============================
-#Снятие тотальной блокады
-#==============================
-
-country_event = {
-	id = 140402
-	name = "EVTNAME140402"
-	desc = "EVTDESC140402"
-	picture = "Administration"
-	
-	trigger = {
-		NOT = {
-			tag = RUS
-			tag = USA
-		}
-		has_country_modifier = totally_blockaded
-		any_owned_province = {
-			has_province_modifier = non_overseas_selector
-			is_coastal = yes
-			is_blockaded = no
-		}
-	}
-	
-	immediate = {
-		remove_country_modifier = totally_blockaded
-		capital_scope = {
-			remove_province_modifier = blockaded_marker
-		}
-	}
-	
-	option = {
-		name = "EVTNAME140402"
-	}
-}
-
-
-#==================================
-#Тотальная блокада США и России
-#==================================
-country_event = {
-	id = 140403
-	name = "EVTNAME140401"
-	desc = "EVTDESC140401"
-	picture = "Administration"
-	
-	trigger = {
-	
-		OR = {
-			tag = RUS
-			tag = USA
-		}
-		
-		NOT = {
-			has_country_modifier = totally_blockaded
-			any_owned_province = {
-						has_province_modifier = non_overseas_selector
-						is_coastal = yes
-						is_blockaded = no
-						NOT = { has_province_modifier = non_blockadable_ports }
-			}
-		}
-	}
-	
-	immediate = {
-		add_country_modifier = {
-			name = totally_blockaded
-			duration = -1
-		}
-		capital_scope = {
-			add_province_modifier = {
-				name = blockaded_marker
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTNAME140401"
-	}
-}
-
-#==============================
-#Снятие тотальной блокады США и России
-#==============================
-
-country_event = {
-	id = 140404
-	name = "EVTNAME140402"
-	desc = "EVTDESC140402"
-	picture = "Administration"
-	
-	trigger = {
-		OR = {
-			tag = RUS
-			tag = USA
-		}
-		has_country_modifier = totally_blockaded
-		any_owned_province = {
-			has_province_modifier = non_overseas_selector
-			is_coastal = yes
-			is_blockaded = no
-			NOT = { has_province_modifier = non_blockadable_ports }
-		}
-	}
-	
-	immediate = {
-		remove_country_modifier = totally_blockaded
-		capital_scope = {
-			remove_province_modifier = blockaded_marker
-		}
-	}
-	
-	option = {
-		name = "EVTNAME140402"
-	}
-}
-
-country_event = {
-	id = 140405
-	name = "EVTNAME140402"
-	desc = "EVTDESC140402"
-	picture = "Administration"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTNAME140402"
-		add_country_modifier = {
-			name = cb_speed
-			duration = -1
 		}
 	}
 }
@@ -287,6 +62,296 @@ country_event = {
 		PRU_682 = { life_rating = -5 }
 		PRU_701 = { life_rating = -5 }
 		PRU_695 = { life_rating = -5 }
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140401
+	
+	trigger = {
+		tag = JAN
+		year = 1850
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140402
+	
+	trigger = {
+		tag = JAN
+		year = 1860
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140403
+	
+	trigger = {
+		tag = JAN
+		year = 1870
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140404
+	
+	trigger = {
+		tag = JAN
+		year = 1880
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140405
+	
+	trigger = {
+		tag = JAN
+		year = 1890
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140406
+	
+	trigger = {
+		tag = JAN
+		year = 1900
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140407
+	
+	trigger = {
+		tag = JAN
+		year = 1910
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140408
+	
+	trigger = {
+		tag = JAN
+		year = 1920
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140409
+	
+	trigger = {
+		tag = JAN
+		year = 1930
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140410
+	
+	trigger = {
+		tag = JAN
+		year = 1840
+	}
+	
+	fire_only_once = yes
+	
+	
+	option = {
+		name = "noloc"
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
 	}
 }
 
