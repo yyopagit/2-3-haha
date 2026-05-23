@@ -149,3 +149,74 @@ country_event = {
 			set_global_flag = philippines_taken
     }
 }
+# ==========================================
+# ИВЕНТ: Проверка 2 лет оккупации Тайваня
+# ==========================================
+country_event = {
+    id = 900111
+    title = "qqq"
+    desc = "qqq"
+    picture = "default"
+    
+    trigger = {
+        tag = JAP
+        war_with = CHI
+        NOT = { has_global_flag = tavans_taken }
+        
+        # Проверю что ВСЕ ЭТИ ЕБУЧИЕ провинции оккупированы Японией
+        2562 = { controlled_by = JAP }
+        1485 = { controlled_by = JAP }
+            }
+    
+    # Ждём 2 ГОДА (24 месяца) после выполнения условий( тот кто читает это знайте я потратил на РУШИ 5 часов чтобы написать и проверить все как работает этА ЕБУЧАЯ ХУЕТЕНЬ!!!)
+    mean_time_to_happen = {
+        months = 24
+    }
+    
+    option = {
+        name = "EVTOPTA900111"
+        prestige = 20
+            
+            2562 = { secede_province = JAP }
+            1485 = { secede_province = JAP }
+                        
+            2562 = { remove_core = CHI }
+            1485 = { remove_core = CHI }
+                        
+            2562 = { add_core = JAP }
+            1485 = { add_core = JAP }
+            			
+			set_global_flag = tavans_taken
+    }
+}
+# events/japan.txt
+
+country_event = {
+
+	id = EVTP999001
+ title = "EVTNAME999001"
+    desc = "EVTDESC999001"
+	trigger = {
+		tag = JAP
+		NOT = {
+			has_country_flag = jap_start_modifier
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	# ВОТ СЮДА ВСТАВЛЯЕТСЯ
+	option = {
+
+		name = "EVTOPTA999001"
+
+		set_country_flag = jap_start_modifier
+
+		add_country_modifier = {
+			name = japan_empty_modifier
+			duration = 365
+		}
+	}
+}
