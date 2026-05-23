@@ -33,6 +33,12 @@ uk_navy_tradition = {
 uk_navy_tradition1 = {
 
 }
+
+help_malakka_ENG = {
+	tax_efficiency = -0.02
+	icon = 1
+
+}
 #-------------------------------------------------------ГЕРМАНИЯ-------------------------------------------------------
 DP_BUFF1 = {
 farm_RGO_size = 0.5
@@ -1568,6 +1574,17 @@ population_growth = -0.005
 # nalogi_na_poluchi = {
 #  tax_efficiency = 0.07
 # }
+
+
+# ------------ -- - - -- - - - -- СИАМ - - - -- - - - - - - -- - - - - 
+help_malakka_SIA = {
+	assimilation_rate = 5
+	population_growth = 0.001
+	local_RGO_output = 0.5
+	local_RGO_throughput = 0.25
+	farm_rgo_eff = 0.5
+	icon = 19
+}
 
 
 
