@@ -130,7 +130,7 @@ political_decisions = {
 		}
 		 allow = {
 		 year = 1850
-		  PAN_1227 = {
+		  PAN_1224 = {
 		  owned_by = THIS
 		  }
 		  PAN_1229 = { 
@@ -138,13 +138,10 @@ political_decisions = {
 		  }
         }
 		effect = {
-	    PAN_1227 = {remove_core = PAN}
-        PAN_1229 = {remove_core = PAN}
-		PAN_1231 = {remove_core = GWA}
+        PAN_1224 = {remove_core = PAN}
+		PAN_1229 = {remove_core = PAN}
 		badboy = 8
 		set_country_flag = core_punjab
-		 RUS_1196 = {add_core = THIS}
-		 KOK_1190 = {add_core = THIS}
 		}
 	}
 
@@ -172,9 +169,9 @@ political_decisions = {
 				ENG_1264 = { add_core = THIS }
 				PAN_1239 = { add_core = THIS }
 				ENG_1291 = { add_core = THIS }
-				add_accepted_culture = gujarati
 				add_accepted_culture = sindi
-				add_accepted_culture = rajput
+				add_accepted_culture = hazara
+				add_accepted_culture = pashtun
 		}
 		ai_will_do = {
 			factor = 1
@@ -306,10 +303,9 @@ political_decisions = {
 				any_owned = {
 					remove_core = AFG
                 }
-				add_accepted_culture = gujarati
 				add_accepted_culture = sindi
-				add_accepted_culture = rajput
-				add_accepted_culture = avadhi
+				add_accepted_culture = hazara
+				add_accepted_culture = pashtun
 		}
 		ai_will_do = {
 			factor = 1
@@ -360,8 +356,8 @@ political_decisions = {
 					remove_core = AFG
                 }
 				add_accepted_culture = sindi
-				add_accepted_culture = rajput
-				add_accepted_culture = avadhi
+				add_accepted_culture = hazara
+				add_accepted_culture = pashtun
 		}
 		ai_will_do = {
 			factor = 1
