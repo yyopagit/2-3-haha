@@ -24414,6 +24414,17 @@ EVTOPTC100300;Займемся развитием ислама вместе с нашими турецкими братьями.;X;X;
 EVTOPTD100300;Мы независимы, славься Империя Великих Моголов!;X;X;X;X;X;X
 german_investitons_to_persia;Германские инвестиции в персию;X;X;X;X;X;X
 tpc_buffs;Бум рождаемости;X;X;X;X;X;X
+non_overseas_selector;Незаморская провинция;X;X;X;X;X;X
+totally_blockaded;Тотальная блокада;X;X;X;X;X;X
+EVTNAME140401;Тотальная блокада наших родных портов;X;X;X;X;X;X
+EVTDESC140401;Наши враги заблокировали наши порты, экономика начинает постепенно умирать;X;X;X;X;X;X
+EVTOPTA140401;Это печально.;X;X;X;X;X;X
+non_blockadable_ports;Не требуемые для блокады порты;X;X;X;X;X;X
+blockaded_marker;Страна в тотальной блокаде;X;X;X;X;X;X
+EVTNAME140402;Блокада снята!;X;X;X;X;X;X
+EVTDESC140402;Мы больше не подвергнуты ужасам блокады;X;X;X;X;X;X
+EVTOPTA140402;Пора вдохнуть полной грудью;X;X;X;X;X;X
+province_selector;Выбор провинции;X;X;X;X;X;X
 VAI;Вадаи;X;X;X;X;X;X
 BAG;Багирми;X;X;X;X;X;X
 DAR;Дарфур;X;X;X;X;X;X
@@ -24425,3 +24436,4 @@ MAS;Массина;X;X;X;X;X;X
 KAA;Каарта;X;X;X;X;X;X
 FUG;Фуго-Хуило;X;X;X;X;X;X
 GOB;Гобир;X;X;X;X;X;X
+
