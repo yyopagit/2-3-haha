@@ -305,6 +305,7 @@ political_decisions = {
             add_country_modifier = {
                 name = meiji_restoration_boost
                 duration = 7200
+            make_satellite = COR
             }
             KOR = {
                 all_core = {
