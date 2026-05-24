@@ -2,8 +2,8 @@ guiTypes = {
 	windowType = {
 		name = "province_view"
 		backGround=""
-		position = { x=0 y=-563 }	
-		size = { x=380 y=525 }
+		position = { x=0 y=-597 }	
+		size = { x=401 y=607 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
