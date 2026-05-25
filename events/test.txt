@@ -1,0 +1,25 @@
+country_event = {
+    id = 999009
+    title = "Update Colonial Power"
+    trigger = { always = yes }
+    
+    immediate = {
+        # Обнуляем переменную
+        change_variable = { which = "colonial_power" value = -10000 }
+        
+        # Добавляем очки за военно-морские базы
+        any_owned_province = {
+            limit = { has_building = naval_base }
+            change_variable = { 
+                which = "colonial_power" 
+                value = naval_base_level  # Каждый уровень базы дает 1 очко
+            }
+        }
+        
+        # Добавляем за корабли
+        naval_unit_in_each = {
+            unit_type = manowar
+            change_variable = { which = "colonial_power" value = 50 }
+        }
+    }
+}
