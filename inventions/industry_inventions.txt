@@ -964,8 +964,9 @@ prophylaxis_against_malaria = {
 			inorganic_chemistry = 1
 		}		
 		modifier = {
-			factor = 3
-			colonial_nation = yes
+			country = {
+            check_variable = { which = "colonial_power" value = 1500 }
+        }
 		}
 	}
 	effect = {
