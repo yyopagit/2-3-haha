@@ -958,15 +958,22 @@ clinical_thermometers_and_binaural_stethoscopes = {
 prophylaxis_against_malaria = {
 	limit = { medicine = 1 }
 	chance = {
-		base = 2
+		base = 5
 		modifier = {
-			factor = 2
-			inorganic_chemistry = 1
-		}		
+			factor = 10
+			is_greater_power = yes
+		}
 		modifier = {
-			country = {
-            check_variable = { which = "colonial_power" value = 1500 }
-        }
+			factor = 10
+			any_greater_power = {
+				invention = prophylaxis_against_malaria
+				}
+			}
+		modifier = {
+			factor = 10
+			any_neighbor_country = {
+				invention = prophylaxis_against_malaria
+			}
 		}
 	}
 	effect = {

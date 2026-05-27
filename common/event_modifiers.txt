@@ -1587,10 +1587,30 @@ blockaded_marker = {
 	icon = 2
 }
 
+blockaded_marker_lvl2 = {
+	icon = 2
+}
+
+blockaded_marker_lvl3 = {
+	icon = 2
+}
+
 totally_blockaded = {
 	tax_efficiency = -0.10
 	war_exhaustion = 0.5
 	prestige = -0.05
+}
+
+totally_blockaded_lvl2 = {
+	tax_efficiency = -0.15
+	war_exhaustion = 0.75
+	prestige = -0.1
+}
+
+totally_blockaded_lvl3 = {
+	tax_efficiency = -0.20
+	war_exhaustion = 0.1
+	prestige = -0.2
 }
 
 cb_speed = {
@@ -1650,4 +1670,12 @@ rise_of_siam_1 = {
 }
 japan_empty_modifier = {
        icon = 15                  # Иконка (опционально)
+}
+
+malaria_modifier = {
+	icon = 15
+}
+
+harsh_malaria_modifier = {
+	icon = 16
 }

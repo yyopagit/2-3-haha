@@ -29,6 +29,8 @@ country_event = {
 			annex_to = FROM
 		}
 		
+		###Удаление чиновников
+		
 		any_country = {
 			any_pop = {
 				limit = {
@@ -39,6 +41,8 @@ country_event = {
 				pop_type = farmers
 			}
 		}
+		
+		####Маркер незаморских провинций
 		
 		any_country = {
             
@@ -57,6 +61,8 @@ country_event = {
                 
             }
         }
+		
+		##### Маркер неблокируемых портов для России и США
 		
 		RUS = {
 			RUS_non_blockaded = {
@@ -77,184 +83,64 @@ country_event = {
                 }
 			}
 		}
-	}
-}
-
-
-#=========================================================
-#Тотальная блокада
-#=========================================================
-
-country_event = {
-	id = 140401
-	name = "EVTNAME140401"
-	desc = "EVTDESC140401"
-	picture = "Administration"
-	
-	trigger = {
-		NOT = {
-			tag = RUS
-			tag = USA
-			has_country_modifier = totally_blockaded
-			any_owned_province = {
-				has_province_modifier = non_overseas_selector
-				is_coastal = yes
-				is_blockaded = no
+		
+		###проверка изобретений колонизации
+		
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = malaria }
+					invention = prophylaxis_against_malaria
+				}
 			}
+			set_country_flag = malaria
 		}
-	}
-	
-	immediate = {
-		add_country_modifier = {
-			name = totally_blockaded
-			duration = -1
+		
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = mission_to_civilize }
+					invention = mission_to_civilize
+				}
+			}
+			set_country_flag = mission_to_civilize
 		}
-		capital_scope = { 
-			add_province_modifier = {
-				name = blockaded_marker
-				duration = -1
+		
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = mission_to_civilize }
+					invention = colonial_negotiations
+				}
+			}
+			set_country_flag = colonial_negotiations
+		}
+		
+		##### маркер африканских миноров для захвата
+		
+		any_country = {
+			malaria_metarg = {
+				limit = { civilized = no NOT = { has_province_modifier = malaria_modifier } }
+				add_province_modifier = {
+					name = malaria_modifier
+					duration = -1
+				}
 			}
 		}
 		
-	}
-	
-	option = {
-		name = "EVTNAME140401"
-	}
-}
-
-#==============================
-#Снятие тотальной блокады
-#==============================
-
-country_event = {
-	id = 140402
-	name = "EVTNAME140402"
-	desc = "EVTDESC140402"
-	picture = "Administration"
-	
-	trigger = {
-		NOT = {
-			tag = RUS
-			tag = USA
-		}
-		has_country_modifier = totally_blockaded
-		any_owned_province = {
-			has_province_modifier = non_overseas_selector
-			is_coastal = yes
-			is_blockaded = no
-		}
-	}
-	
-	immediate = {
-		remove_country_modifier = totally_blockaded
-		capital_scope = {
-			remove_province_modifier = blockaded_marker
-		}
-	}
-	
-	option = {
-		name = "EVTNAME140402"
-	}
-}
-
-
-#==================================
-#Тотальная блокада США и России
-#==================================
-country_event = {
-	id = 140403
-	name = "EVTNAME140401"
-	desc = "EVTDESC140401"
-	picture = "Administration"
-	
-	trigger = {
-	
-		OR = {
-			tag = RUS
-			tag = USA
-		}
-		
-		NOT = {
-			has_country_modifier = totally_blockaded
-			any_owned_province = {
-						has_province_modifier = non_overseas_selector
-						is_coastal = yes
-						is_blockaded = no
-						NOT = { has_province_modifier = non_blockadable_ports }
+		any_country = {
+			harsh_malaria_metarg = {
+				limit = { civilized = no NOT = { has_province_modifier = harsh_malaria_modifier } }
+				add_province_modifier = {
+					name = harsh_malaria_modifier
+					duration = -1
+				}
 			}
 		}
 	}
-	
-	immediate = {
-		add_country_modifier = {
-			name = totally_blockaded
-			duration = -1
-		}
-		capital_scope = {
-			add_province_modifier = {
-				name = blockaded_marker
-			}
-		}
-	}
-	
-	option = {
-		name = "EVTNAME140401"
-	}
 }
 
-#==============================
-#Снятие тотальной блокады США и России
-#==============================
-
-country_event = {
-	id = 140404
-	name = "EVTNAME140402"
-	desc = "EVTDESC140402"
-	picture = "Administration"
-	
-	trigger = {
-		OR = {
-			tag = RUS
-			tag = USA
-		}
-		has_country_modifier = totally_blockaded
-		any_owned_province = {
-			has_province_modifier = non_overseas_selector
-			is_coastal = yes
-			is_blockaded = no
-			NOT = { has_province_modifier = non_blockadable_ports }
-		}
-	}
-	
-	immediate = {
-		remove_country_modifier = totally_blockaded
-		capital_scope = {
-			remove_province_modifier = blockaded_marker
-		}
-	}
-	
-	option = {
-		name = "EVTNAME140402"
-	}
-}
-
-country_event = {
-	id = 140405
-	name = "EVTNAME140402"
-	desc = "EVTDESC140402"
-	picture = "Administration"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTNAME140402"
-		add_country_modifier = {
-			name = cb_speed
-			duration = -1
-		}
-	}
-}
+####Снятие доп уровня жизни в Германии
 
 country_event = {
 	id = 57095
@@ -289,4 +175,5 @@ country_event = {
 		PRU_695 = { life_rating = -5 }
 	}
 }
+
 
