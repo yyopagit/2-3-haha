@@ -718,34 +718,31 @@ fertilizer_factory = {
 	pop_build_factory = yes
 }
 
-fort = { 
-	type = fort
-	cost = 25000		 
+province_selector = {
+	# Audax Validator "." Ignore_NEXT
+	type = province_selector
+	# Audax Validator "." Ignore_NEXT
 	goods_cost =
 	{
-		lumber = 2000
-		cement = 500
-		explosives = 200
-		small_arms = 500
-		artillery = 100
 	}
-	time = 230 
-	visibility = yes
-	onmap = yes
-	max_level = 6
+	time = 1
+	visibility = no
+	onmap = no
+	max_level = 2
 	province = yes
-	fort_level = 1
+	#one_per_state = yes
+	
 }
 
 naval_base = { 
 	type = naval_base
-	cost = 30000	 
+	cost = 18000	 
 	goods_cost =
 	{
-		lumber = 2200
-		cement = 1200
-		steel = 4000
-		machine_parts = 350
+		lumber = 6600
+		cement = 3600
+		steel = 12000
+		machine_parts = 1050
 	}
 	infrastructure = 0.16
 	movement_cost = -0.02
@@ -761,6 +758,7 @@ naval_base = {
 	one_per_state = no
 	colonial_range = 90
 	local_ship_build = -0.05
+	pop_build_factory = yes
 }
  
 railroad = { 
@@ -783,4 +781,23 @@ railroad = {
 	
 	pop_build_factory = yes
 	spawn_railway_track = yes
+}
+
+fort = { 
+	type = fort
+	cost = 25000		 
+	goods_cost =
+	{
+		lumber = 2000
+		cement = 500
+		explosives = 200
+		small_arms = 500
+		artillery = 100
+	}
+	time = 230 
+	visibility = yes
+	onmap = yes
+	max_level = 6
+	province = yes
+	fort_level = 1
 }

@@ -1,3 +1,5 @@
-add_core = ETH
+owner = HAR
+controller = HAR
+add_core = HAR
 trade_goods = tobacco
 life_rating = 15 

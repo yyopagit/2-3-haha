@@ -5,6 +5,7 @@ classicism_n_early_romanticism = {
 	cost = 3600
 
 	prestige = 0.05
+	activate_building = province_selector
 	ai_chance = {
 		factor = 1.01
 		modifier = {

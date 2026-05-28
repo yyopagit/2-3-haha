@@ -1,5 +1,9 @@
 owner = EGY
 controller = EGY
+<<<<<<< Updated upstream
 #add_core = EGY
+=======
+add_core = EGY
+>>>>>>> Stashed changes
 trade_goods = wool
 life_rating = 35 

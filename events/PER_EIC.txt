@@ -702,7 +702,156 @@ country_event = {
 		name = "EVTOPTB100207"
 		prestige = -5
 	}
+<<<<<<< Updated upstream
 	title = "EVTNAME100207"
 	desc = "EVTDESC100207"
+=======
+	title = "EVTNAME100101"
+	desc = "EVTDESC100101"
+	picture = "Administration"
+}
+
+
+#=============================
+#ВЫБОР ПУТИ ПЕРСИИ
+#=============================
+
+country_event = {
+	
+	fire_only_once = yes
+
+	trigger = {
+		year = 2055
+	}
+	
+	id = 100300
+	option = {
+		name = "EVTOPTA100300"
+		RUS = {
+			country_event = {
+					id = 100301
+					days = 0
+				}
+		}
+	}
+	option = {
+		name = "EVTOPTB100300"
+		random_country = {
+			limit = {
+				OR = {
+					tag = GER
+					tag = NGF
+					tag = PRU
+				}
+			}
+			country_event = {
+				id = 100302
+				days = 0
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTC100300"
+		TUR = {
+			country_event = {
+					id = 100303
+					days = 0
+				}
+		}
+	}
+	option = {
+		name = "EVTOPTD100300"
+		change_tag = IGM
+	}
+	title = "EVTNAME100300"
+	desc = "EVTDESC100300"
+>>>>>>> Stashed changes
+	picture = "Administration"
+}
+
+country_event = {
+	fire_only_once = yes
+	id = 100301
+	
+	trigger = {
+		year = 2055
+	}
+	
+	option = {
+		name = "EVTOPTA100301"
+		PER = {
+			change_tag = RPC
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB100301"
+		PER = {
+			country_event = {
+					id = 100300
+					days = 0
+				}
+		}
+	}
+	title = "EVTNAME100301"
+	desc = "EVTDESC100301"
+	picture = "Administration"
+}
+
+country_event = {
+	fire_only_once = yes
+	id = 100302
+	
+	trigger = {
+		year = 2055
+	}
+	
+	option = {
+		name = "EVTOPTA100302"
+		PER = {
+			change_tag = GPC
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB100302"
+		PER = {
+			country_event = {
+					id = 100300
+					days = 0
+				}
+		}
+	}
+	title = "EVTNAME100302"
+	desc = "EVTDESC100302"
+	picture = "Administration"
+}
+
+country_event = {
+	fire_only_once = yes
+	id = 100303
+	
+	trigger = {
+		year = 2055
+	}
+	
+	option = {
+		name = "EVTOPTA100303"
+		PER = {
+			change_tag = TPC
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB100303"
+		PER = {
+			country_event = {
+					id = 100300
+					days = 0
+				}
+		}
+	}
+	title = "EVTNAME100303"
+	desc = "EVTDESC100303"
 	picture = "Administration"
 }

@@ -14,6 +14,7 @@ country_event = {
 	option = {
 		name = "noloc"
 		add_country_modifier = { name = mcl_happened_modifier duration = 360 }
+		country_event = { id = 140400 days = 30 }
 		
 		any_country = {
 			limit = {
@@ -25,11 +26,121 @@ country_event = {
                     total_amount_of_ships = 1
                 }
 			}
-			## Audax Validator "." Ignore_NEXT
 			annex_to = FROM
+		}
+		
+		###Удаление чиновников
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+		
+		####Маркер незаморских провинций
+		
+		any_country = {
+            
+            any_owned = {
+                limit = {
+                    NOT = {
+					is_overseas = yes
+					has_province_modifier = non_overseas_selector
+					}
+                }
+                
+                add_province_modifier = {
+                    name = non_overseas_selector
+                    duration = -1
+                }
+                
+            }
+        }
+		
+		##### Маркер неблокируемых портов для России и США
+		
+		RUS = {
+			RUS_non_blockaded = {
+				limit = { NOT = { has_province_modifier = non_blockadable_ports } }
+                add_province_modifier = {
+                    name = non_blockadable_ports
+                    duration = -1
+                }
+			}
+		}
+		
+		USA = {
+			USA_non_blockaded = {
+				limit = { NOT = { has_province_modifier = non_blockadable_ports } }
+                add_province_modifier = {
+                    name = non_blockadable_ports
+                    duration = -1
+                }
+			}
+		}
+		
+		###проверка изобретений колонизации
+		
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = malaria }
+					invention = prophylaxis_against_malaria
+				}
+			}
+			set_country_flag = malaria
+		}
+		
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = mission_to_civilize }
+					invention = mission_to_civilize
+				}
+			}
+			set_country_flag = mission_to_civilize
+		}
+		
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = mission_to_civilize }
+					invention = colonial_negotiations
+				}
+			}
+			set_country_flag = colonial_negotiations
+		}
+		
+		##### маркер африканских миноров для захвата
+		
+		any_country = {
+			malaria_metarg = {
+				limit = { civilized = no NOT = { has_province_modifier = malaria_modifier } }
+				add_province_modifier = {
+					name = malaria_modifier
+					duration = -1
+				}
+			}
+		}
+		
+		any_country = {
+			harsh_malaria_metarg = {
+				limit = { civilized = no NOT = { has_province_modifier = harsh_malaria_modifier } }
+				add_province_modifier = {
+					name = harsh_malaria_modifier
+					duration = -1
+				}
+			}
 		}
 	}
 }
+
+####Снятие доп уровня жизни в Германии
 
 country_event = {
 	id = 57095
@@ -65,293 +176,4 @@ country_event = {
 	}
 }
 
-country_event = {
-	title = "noloc"
-	desc = "noloc"
-	id = 140401
-	
-	trigger = {
-		tag = JAN
-		year = 1850
-	}
-	
-	fire_only_once = yes
-	
-	
-	option = {
-		name = "noloc"
-		
-		any_country = {
-			any_pop = {
-				limit = {
-					type = bureaucrats
-					is_accepted_culture = no
-					NOT = { continent = china }
-				}
-				pop_type = farmers
-			}
-		}
-	}
-}
-
-country_event = {
-	title = "noloc"
-	desc = "noloc"
-	id = 140402
-	
-	trigger = {
-		tag = JAN
-		year = 1860
-	}
-	
-	fire_only_once = yes
-	
-	
-	option = {
-		name = "noloc"
-		
-		any_country = {
-			any_pop = {
-				limit = {
-					type = bureaucrats
-					is_accepted_culture = no
-					NOT = { continent = china }
-				}
-				pop_type = farmers
-			}
-		}
-	}
-}
-
-country_event = {
-	title = "noloc"
-	desc = "noloc"
-	id = 140403
-	
-	trigger = {
-		tag = JAN
-		year = 1870
-	}
-	
-	fire_only_once = yes
-	
-	
-	option = {
-		name = "noloc"
-		
-		any_country = {
-			any_pop = {
-				limit = {
-					type = bureaucrats
-					is_accepted_culture = no
-					NOT = { continent = china }
-				}
-				pop_type = farmers
-			}
-		}
-	}
-}
-
-country_event = {
-	title = "noloc"
-	desc = "noloc"
-	id = 140404
-	
-	trigger = {
-		tag = JAN
-		year = 1880
-	}
-	
-	fire_only_once = yes
-	
-	
-	option = {
-		name = "noloc"
-		
-		any_country = {
-			any_pop = {
-				limit = {
-					type = bureaucrats
-					is_accepted_culture = no
-					NOT = { continent = china }
-				}
-				pop_type = farmers
-			}
-		}
-	}
-}
-
-country_event = {
-	title = "noloc"
-	desc = "noloc"
-	id = 140405
-	
-	trigger = {
-		tag = JAN
-		year = 1890
-	}
-	
-	fire_only_once = yes
-	
-	
-	option = {
-		name = "noloc"
-		
-		any_country = {
-			any_pop = {
-				limit = {
-					type = bureaucrats
-					is_accepted_culture = no
-					NOT = { continent = china }
-				}
-				pop_type = farmers
-			}
-		}
-	}
-}
-
-country_event = {
-	title = "noloc"
-	desc = "noloc"
-	id = 140406
-	
-	trigger = {
-		tag = JAN
-		year = 1900
-	}
-	
-	fire_only_once = yes
-	
-	
-	option = {
-		name = "noloc"
-		
-		any_country = {
-			any_pop = {
-				limit = {
-					type = bureaucrats
-					is_accepted_culture = no
-					NOT = { continent = china }
-				}
-				pop_type = farmers
-			}
-		}
-	}
-}
-
-country_event = {
-	title = "noloc"
-	desc = "noloc"
-	id = 140407
-	
-	trigger = {
-		tag = JAN
-		year = 1910
-	}
-	
-	fire_only_once = yes
-	
-	
-	option = {
-		name = "noloc"
-		
-		any_country = {
-			any_pop = {
-				limit = {
-					type = bureaucrats
-					is_accepted_culture = no
-					NOT = { continent = china }
-				}
-				pop_type = farmers
-			}
-		}
-	}
-}
-
-country_event = {
-	title = "noloc"
-	desc = "noloc"
-	id = 140408
-	
-	trigger = {
-		tag = JAN
-		year = 1920
-	}
-	
-	fire_only_once = yes
-	
-	
-	option = {
-		name = "noloc"
-		
-		any_country = {
-			any_pop = {
-				limit = {
-					type = bureaucrats
-					is_accepted_culture = no
-					NOT = { continent = china }
-				}
-				pop_type = farmers
-			}
-		}
-	}
-}
-
-country_event = {
-	title = "noloc"
-	desc = "noloc"
-	id = 140409
-	
-	trigger = {
-		tag = JAN
-		year = 1930
-	}
-	
-	fire_only_once = yes
-	
-	
-	option = {
-		name = "noloc"
-		
-		any_country = {
-			any_pop = {
-				limit = {
-					type = bureaucrats
-					is_accepted_culture = no
-					NOT = { continent = china }
-				}
-				pop_type = farmers
-			}
-		}
-	}
-}
-
-country_event = {
-	title = "noloc"
-	desc = "noloc"
-	id = 140410
-	
-	trigger = {
-		tag = JAN
-		year = 1840
-	}
-	
-	fire_only_once = yes
-	
-	
-	option = {
-		name = "noloc"
-		
-		any_country = {
-			any_pop = {
-				limit = {
-					type = bureaucrats
-					is_accepted_culture = no
-					NOT = { continent = china }
-				}
-				pop_type = farmers
-			}
-		}
-	}
-}
 

@@ -43,7 +43,10 @@ add_to_sphere
 take_from_sphere 
 status_quo 
 gunboat 
-conquest 
+conquest
+conquest_africa_stage_one
+conquest_africa_stage_two
+conquest_africa_stage_three
 civil_war 
 acquire_core_state 
 annex_core_country
@@ -156,6 +159,7 @@ conquest = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		NOT = { capital_scope = { continent = africa } }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
 		total_pops = 700000
@@ -212,6 +216,226 @@ conquest = {
 	war_name = WAR_CONQUEST_NAME
 }
 
+conquest_africa_stage_one = {
+	sprite_index = 2
+	is_triggered_only = no
+	constructing_cb = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		capital_scope = { continent = africa }
+		THIS = { has_country_flag = malaria }
+		# only one state or unciv
+		OR = {
+			NOT = { number_of_states = 5 }
+			THIS = { nationalism_n_imperialism = 1 }
+		}
+		OR = {
+			tag = ALD
+			tag = MOR
+			tag = TUN
+			tag = TRN
+			tag = ORA
+			tag = ZUL
+		}
+		is_independant = yes
+	}
+
+	badboy_factor = 1.2
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 0.5
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_CONQUEST_NAME
+}
+
+make_puppet_first_stage = {
+	sprite_index = 10
+	is_triggered_only = yes
+	months = 12
+	crisis = no
+
+	badboy_factor = 1.0
+	prestige_factor = 1
+	peace_cost_factor = 1
+	penalty_factor = 1
+
+	break_truce_prestige_factor = 1
+	break_truce_infamy_factor = 1
+	break_truce_militancy_factor = 1
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		capital_scope = { continent = africa }
+		NOT = { number_of_states = 6 }
+		is_greater_power = no
+		is_vassal = no
+		OR = {
+			tag = ALD
+			tag = MOR
+			tag = TUN
+			tag = TRN
+			tag = ORA
+			tag = ZUL
+		}
+		THIS = { has_country_flag = malaria }
+	}
+	
+	# THIS - us
+	# FROM - country scope is possible match?
+	# war target country of goal is scope
+	#allowed_countries = {
+	#	NOT = { is_our_vassal = FROM }
+		#FROM = { is_substate = no }
+	#}
+	
+	po_make_puppet = yes
+
+	war_name = WAR_PUPPET_NAME
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+}
+
+conquest_africa_stage_two = {
+	sprite_index = 2
+	is_triggered_only = no
+	constructing_cb = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		capital_scope = { continent = africa }
+		THIS = { has_country_flag = mission_to_civilize }
+		# only one state or unciv
+		is_independant = yes
+		any_owned_province = {
+			AND = {
+				has_province_modifier = malaria_modifier
+				OR = {
+					is_coastal = yes
+					any_neighbor_province = { owner = { tag = THIS } }
+				}
+			}
+		}
+	}
+
+	badboy_factor = 0.5
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 1.5
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_CONQUEST_NAME
+}
+
+conquest_africa_stage_three = {
+	sprite_index = 2
+	is_triggered_only = no
+	constructing_cb = yes
+	months = 12
+	crisis = no
+	
+	can_use = {
+		NOT = { is_our_vassal = THIS }
+		capital_scope = { continent = africa }
+		THIS = { has_country_flag = colonial_negotiations }
+		# only one state or unciv
+		is_independant = yes
+		any_owned_province = {
+			AND = {
+				has_province_modifier = harsh_malaria_modifier
+				OR = {
+					is_coastal = yes
+					any_neighbor_province = { owner = { tag = THIS } }
+				}
+			}
+		}
+	}
+
+	badboy_factor = 0.25
+	prestige_factor = 5
+	peace_cost_factor = 1
+	penalty_factor = 1
+	
+	break_truce_prestige_factor = 5
+	break_truce_infamy_factor = 2
+	break_truce_militancy_factor = 2
+	truce_months = 0
+	
+	good_relation_prestige_factor = 1
+	good_relation_infamy_factor = 1
+	good_relation_militancy_factor = 1
+	
+	construction_speed = 2
+	
+	on_add = {
+		move_issue_percentage = { 
+			from = jingoism 
+			to = pro_military
+			value = 0.25
+		}
+	}
+	
+	po_annex = yes
+	
+	war_name = WAR_CONQUEST_NAME
+}
+
 # Conquest2 / Завоевание
 conquest2 = {
 	sprite_index = 2
@@ -221,6 +445,7 @@ conquest2 = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		NOT = { capital_scope = { continent = africa } }
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
 		NOT = {total_pops = 750000}
@@ -341,6 +566,7 @@ add_to_sphere = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		NOT = { capital_scope = { continent = africa } }
 		this = { is_greater_power = yes }
 		is_greater_power = no
 		is_independant = yes
@@ -1091,6 +1317,7 @@ dismantle_forts = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		NOT = { capital_scope = { continent = africa } }
 	}
 
 	# THIS - us
@@ -1190,6 +1417,7 @@ make_puppet = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		NOT = { capital_scope = { continent = africa } }
 		NOT = { number_of_states = 6 }
 		is_greater_power = no
 		is_vassal = no
@@ -1301,6 +1529,7 @@ humiliate = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		NOT = { capital_scope = { continent = africa } }
 	}	
 	on_add = {
 		move_issue_percentage = { 
@@ -1339,6 +1568,7 @@ humiliate2 = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		NOT = { capital_scope = { continent = africa } }
 		has_recently_lost_war = no
 	}	
 	on_add = {
@@ -1374,6 +1604,10 @@ humiliate3 = {
 	tws_battle_factor = 2.0
 	
 	war_name = WAR_REPARATION_NAME
+	
+	can_use = {
+		NOT = { capital_scope = { continent = africa } }
+	}
 
 	on_add = {
 		move_issue_percentage = { 
@@ -1410,6 +1644,7 @@ demand_concession_casus_belli = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		NOT = { capital_scope = { continent = africa } }
 		THIS = {
 			civilized = yes
 		}
@@ -1463,6 +1698,7 @@ establish_protectorate_casus_belli = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		NOT = { capital_scope = { continent = africa } }
 		THIS = {
 			civilized = yes
 		}
@@ -1921,6 +2157,7 @@ war_military_access = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
+		NOT = { capital_scope = { continent = africa } }
 		#sphere_owner = { war = yes }
 		#number_of_states = 2 # annex if you want their last state
 		THIS = { war = yes}

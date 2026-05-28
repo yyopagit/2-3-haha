@@ -830,23 +830,15 @@ breech_loaded_rifle_armament = {
 }
 colonial_negotiations = {
 	limit = { 
-			year = 1870 
+			year = 1890 
 			breech_loaded_rifles = 1
 			}
 	news = no
 	chance = {
-		base = 0
+		base = 5
 		modifier = {
-			factor = 25
-			machine_guns = 1
-		}
-		modifier = {
-			factor = 25
-			investment_banks = 1 
-		}
-		modifier = {
-			factor = 25
-			naval_logistics = 1 
+			factor = 10
+			is_greater_power = yes
 		}
 		modifier = {
 			factor = 10

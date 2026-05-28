@@ -432,7 +432,7 @@ political_decisions = {
 		}
 		 allow = {
 		 year = 1850
-		  PAN_1227 = {
+		  PAN_1224 = {
 		  owned_by = THIS
 		  }
 		  PAN_1229 = { 
@@ -440,22 +440,74 @@ political_decisions = {
 		  }
         }
 		effect = {
-	    PAN_1227 = {remove_core = PAN}
-        PAN_1229 = {remove_core = PAN}
-		PAN_1231 = {remove_core = GWA}
-		badboy = 8
+        PAN_1224 = {remove_core = PAN}
+		PAN_1229 = {remove_core = PAN}
+		badboy = 4
 		set_country_flag = core_punjab
-		 RUS_1196 = {add_core = THIS}
-		 KOK_1190 = {add_core = THIS}
 		}
 }
 
+<<<<<<< Updated upstream
 UNCOR_TAJIKS = {
 	  picture = expand_motala_verkstad
         potential = {
 		 OR = {
             tag = IGM
 			tag = PER
+=======
+#######РЕШЕНИЯ МОГОЛА#######
+
+	graet_igm23 = {
+	picture = graet_eic
+		potential = {
+			tag = IGM
+			NOT = {
+				has_country_flag = graet_igm23
+			}			
+		}	
+		allow = {
+			year = 1860
+		}
+		effect = {
+				set_country_flag = graet_igm23
+				badboy = 5
+
+				any_owned = {
+					remove_core = AFG
+                }
+				ENG_1292 = { add_core = THIS }
+				ENG_1264 = { add_core = THIS }
+				PAN_1239 = { add_core = THIS }
+				ENG_1291 = { add_core = THIS }
+				add_accepted_culture = sindi
+				add_accepted_culture = hazara
+				add_accepted_culture = pashtun
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+################РЕШЕНИЯ РОССИЙСКОЙ ПЕРСИИ########################
+	
+	rpc_railroads1 = {
+	picture = graet_eic
+		potential = {
+			tag = RUS
+			NOT = {
+				has_country_flag = rpc_railroads1
+			}			
+		}	
+		allow = {
+			experimental_railroad = 1
+			money = 500000
+		}
+		effect = {
+			set_country_flag = rpc_railroads1
+			money = -500000
+			RPC = {
+				all_core = { infrastructure = 1 }
+>>>>>>> Stashed changes
 			}
             NOT = {
                 has_country_flag = core_tajiks
@@ -492,7 +544,186 @@ UNCOR_TAJIKS = {
 		badboy = 5
 		set_country_flag = core_tajiks
 		}
+<<<<<<< Updated upstream
 }
+=======
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	rpc_railroads4 = {
+	picture = graet_eic
+		potential = {
+		has_country_flag = rpc_railroads3
+			tag = RUS
+			NOT = {
+				has_country_flag = rpc_railroads3
+			}			
+		}	
+		allow = {
+			RUS = {
+				steel_railroad = 1
+			}
+			money = 3000000
+		}
+		effect = {
+			set_country_flag = rpc_railroads4
+			money = -3000000
+			RPC = {
+				all_core = { infrastructure = 1 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	rpc_accepted_culture_get = {
+	picture = graet_eic
+		potential = {
+			tag = RPC
+			NOT = {
+				has_country_flag = rpc_accepted_culture_get
+			}			
+		}	
+		allow = {
+			year = 1860
+		}
+		effect = {
+				set_country_flag = rpc_accepted_culture_get
+				badboy = 5
+
+				any_owned = {
+					remove_core = AFG
+                }
+				add_accepted_culture = sindi
+				add_accepted_culture = hazara
+				add_accepted_culture = pashtun
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+############РЕШЕНИЯ ГЕРМАНСКОЙ ПЕРСИИ#####################
+	gpc_tempo_increase = {
+	picture = graet_eic
+		potential = {
+			tag = GPC
+			NOT = {
+				has_country_flag = gpc_tempo_increase
+			}			
+		}	
+		allow = {
+			year = 1850
+		}
+		effect = {
+				set_country_flag = gpc_tempo_increase
+				badboy = 5
+				add_country_modifier = { 
+					name = german_investitons_to_persia 
+					duration = -1
+				}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	gpc_accepted_culture_get = {
+	picture = graet_eic
+		potential = {
+			tag = GPC
+			NOT = {
+				has_country_flag = gpc_accepted_culture_get
+			}			
+		}	
+		allow = {
+			year = 1860
+		}
+		effect = {
+				set_country_flag = gpc_accepted_culture_get
+				badboy = 5
+
+				any_owned = {
+					remove_core = AFG
+                }
+				add_accepted_culture = sindi
+				add_accepted_culture = hazara
+				add_accepted_culture = pashtun
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+############РЕШЕНИЯ ТУРЕЦКОЙ ПЕРСИИ#####################
+	tpc_buffs_got = {
+	picture = graet_eic
+		potential = {
+			tag = TPC
+			NOT = {
+				has_country_flag = tpc_buffs_got
+			}			
+		}	
+		allow = {
+			year = 1850
+		}
+		effect = {
+				set_country_flag = tpc_buffs_got
+				badboy = 5
+				add_country_modifier = { 
+					name = tpc_buffs
+					duration = -1
+				}
+				1132 = { secede_province = TUR }
+				1131 = { secede_province = TUR }
+				1133 = { secede_province = TUR }
+				1119 = { secede_province = TUR }
+				1120 = { secede_province = TUR }
+				1117 = { secede_province = TUR }
+				1118 = { secede_province = TUR }
+				1111 = { secede_province = TUR }
+				1110 = { secede_province = TUR }
+				1108 = { secede_province = TUR }
+				1109 = { secede_province = TUR }
+				1112 = { secede_province = TUR }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	
+	tpc_accepted_culture_get = {
+	picture = graet_eic
+		potential = {
+			tag = TPC
+			NOT = {
+				has_country_flag = tpc_accepted_culture_get
+			}			
+		}	
+		allow = {
+			year = 1860
+		}
+		effect = {
+				set_country_flag = tpc_accepted_culture_get
+				badboy = 5
+
+				any_owned = {
+					remove_core = AFG
+                }
+				add_accepted_culture = sindi
+				add_accepted_culture = hazara
+				add_accepted_culture = pashtun
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+>>>>>>> Stashed changes
 }
 
 

@@ -106,7 +106,7 @@ distribution_channels = {
 	}
 	effect = {
 		factory_cost = -0.01
-		farm_RGO_eff = 0.30
+		farm_RGO_eff = 0.25
 	}
 }
 #investment_banks
@@ -162,6 +162,42 @@ industrial_distribution_investments = {
 	}
 	effect = {
 		factory_cost = -0.01
+	}
+}
+financial_regulations = {
+	limit = { investment_banks = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			economic_policy = interventionism
+		}
+		modifier = {
+			factor = 2
+			trade_policy = protectionism
+		}
+	}
+	effect = {
+		tax_eff = 1 
+	}
+}
+banking_regulations = {
+	limit = { investment_banks = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			economic_policy = interventionism
+		}
+		modifier = {
+			factor = 2
+			ruling_party_ideology = socialist
+		}
+	}
+	effect = {
+		tax_eff = 1 
 	}
 }
 #bank_inspection_board
@@ -1218,24 +1254,6 @@ monopoly_structure = {
 	}
 }
 #business_regulations
-limited_partnership_company = {
-	limit = { business_regulations = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = laissez_faire
-		}
-		modifier = {
-			factor = 2
-			is_greater_power = yes
-		}
-	}
-	effect = {
-		tax_eff = 1 
-	}
-}
 joint_stock_company = {
 	limit = { business_regulations = 1 }
 	news = no
@@ -1299,6 +1317,24 @@ trademark = {
 	}
 }
 #market_regulations
+limited_partnership_company = {
+	limit = { market_regulations = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+	}
+	effect = {
+		tax_eff = 1 
+	}
+}
 anti_trust_laws = {
 	limit = { market_regulations = 1 }
 	news = no
@@ -1315,42 +1351,6 @@ anti_trust_laws = {
 		modifier = {
 			factor = 2
 			nationalvalue = nv_equality
-		}
-	}
-	effect = {
-		tax_eff = 1 
-	}
-}
-financial_regulations = {
-	limit = { market_regulations = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = interventionism
-		}
-		modifier = {
-			factor = 2
-			trade_policy = protectionism
-		}
-	}
-	effect = {
-		tax_eff = 1 
-	}
-}
-banking_regulations = {
-	limit = { market_regulations = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = interventionism
-		}
-		modifier = {
-			factor = 2
-			ruling_party_ideology = socialist
 		}
 	}
 	effect = {

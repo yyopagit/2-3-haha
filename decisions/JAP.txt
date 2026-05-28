@@ -276,35 +276,12 @@ political_decisions = {
             }
         }
     }
-    Jap_core = {
-        picture = the_meiji_restoration
-        potential = {
-            NOT = {
-                OR = {
-                    1624 = { is_core = JAP }
-                    1628 = { is_core = JAP }
-                    1630 = { is_core = JAP }
-                    1631 = { is_core = JAP }
-                    1636 = { is_core = JAP }
-                }
-            }
-            civilized = no
-            tag = JAP
-        }
-        allow = {}
-        effect = {
-            prestige = 10
-            KOR = {
-                all_core = {
-                    add_core = JAP
-                }
-            }
-        }
-    }
+
+
     the_meiji_restoration2 = {
         picture = the_meiji_restoration2
         potential = {
-            civilized = no
+            civilized = yes
             tag = JAP
             NOT = {
                 has_country_modifier = meiji_restoration_boost
@@ -328,12 +305,14 @@ political_decisions = {
             add_country_modifier = {
                 name = meiji_restoration_boost
                 duration = 7200
+            make_satellite = COR
             }
             KOR = {
                 all_core = {
                     add_core = JAP
                 }
             }
+
             any_pop = {
                 scaled_militancy = {
                     ideology = liberal

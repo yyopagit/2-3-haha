@@ -1,5 +1,12 @@
+<<<<<<< Updated upstream
 owner = LUA
 controller = LUA
 add_core = LUA
 trade_goods = opium
+=======
+owner = SIA
+controller = SIA
+add_core = SIA
+trade_goods = grain
+>>>>>>> Stashed changes
 life_rating = 35 

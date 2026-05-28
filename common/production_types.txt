@@ -514,14 +514,14 @@ artillery_factory = {
 clipper_shipyard = { 
 	template = factory_template
 	input_goods = { 
-		fabric = 25
-		tropical_wood = 80
-		lumber = 35
-		steel = 30		#4.7*30 = 141		total input+maint = 411
+		fabric = 15
+		tropical_wood = 48
+		lumber = 21
+		steel = 18		#4.7*18 = 84.6		total input+maint = 246.6
 	}
 	output_goods = clipper_convoy 
 	is_coastal = yes
-	value = 15			#45*10 = 450 / 39
+	value = 9			#45*6 = 270 / 23.4
 	bonus = {
 		trigger = { has_building = fabric_factory }
 		value = 0.1
@@ -787,7 +787,7 @@ liquor_distillery = {
 		glass = 8		#2.9*8 = 23.2	total input+maint = 45.2
 	}
 	output_goods = liquor 
-	value = 10			#6.4*10 = 64 / 18.8
+	value = 8.5			#6.4*8.5 = 54.4 / 18.8
 	bonus = {
 		trigger = { has_building = glass_factory }
 		value = 0.15
