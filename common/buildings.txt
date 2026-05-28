@@ -801,3 +801,20 @@ fort = {
 	province = yes
 	fort_level = 1
 }
+
+town_infrastructure = { 
+	type = town_infrastructure
+	cost = 500000		 
+	goods_cost =
+	{
+		lumber = 20000
+		cement = 50000
+		steel = 10000
+		machine_parts = 10000
+	}
+	time = 230 
+	visibility = yes
+	max_level = 5
+	province = yes
+	one_per_state = yes
+}

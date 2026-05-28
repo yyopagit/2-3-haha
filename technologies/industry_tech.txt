@@ -1016,6 +1016,7 @@ medicine = {
 	cost = 7200
 
 	supply_limit = 0.25
+	activate_building = town_infrastructure
 	 
 	ai_chance = {
 		factor = 10
@@ -1040,6 +1041,7 @@ inorganic_chemistry = {
 	cost = 10800
 
 	supply_limit = 0.25
+	max_town_infrastructure = 1
 	
 	ai_chance = {
 		factor = 1.1
