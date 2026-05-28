@@ -1,0 +1,17 @@
+#Egypto-Turkey - EGT
+color = { 136 2 19 }
+graphical_culture = italiangc
+
+party = {
+    name = "EGT_conservative"
+    start_date = 1830.1.1
+    end_date = 1900.1.1
+    ideology = conservative
+}
+
+party = {
+    name = "EGT_liberal"
+    start_date = 1830.1.1
+    end_date = 1900.1.1
+    ideology = liberal
+}

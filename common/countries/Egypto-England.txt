@@ -1,0 +1,17 @@
+#Egypto-England - EGA
+color = { 255 128 128 }
+graphical_culture = italiangc
+
+party = {
+    name = "EGA_conservative"
+    start_date = 1830.1.1
+    end_date = 1900.1.1
+    ideology = conservative
+}
+
+party = {
+    name = "EGA_liberal"
+    start_date = 1830.1.1
+    end_date = 1900.1.1
+    ideology = liberal
+}

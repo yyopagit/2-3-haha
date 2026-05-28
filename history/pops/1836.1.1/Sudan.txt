@@ -1,1779 +1,1810 @@
-#Gezira Region (1152000)
-#under the rule of Egypt in 1836
-#Khartoum (344000/86000 POPS)
+#Khartoum
 1827 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 650
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 413
+    }
 
-	bureaucrats = {
-		culture = amhara
-		religion = orthodox
-		size = 40
-	}
+    bureaucrats = {
+        culture = amhara
+        religion = orthodox
+size = 25
+    }
 
-	officers = {
-		culture = amhara
-		religion = orthodox
-		size = 110
-	}
+    officers = {
+        culture = amhara
+        religion = orthodox
+size = 69
+    }
 
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 425
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 270
+    }
 
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 2125
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 1354
+    }
 
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 400
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 255
+    }
 
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 75150
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 47907
+    }
 
-	bureaucrats = {
-		culture = bedouin
-		religion = orthodox
-		size = 50
-	}
+    bureaucrats = {
+        culture = sephardic
+        religion = orthodox
+size = 31
+    }
 
-	officers = {
-		culture = bedouin
-		religion = orthodox
-		size = 150
-	}
+    officers = {
+        culture = sephardic
+        religion = orthodox
+size = 95
+    }
 
-	soldiers = {
-		culture = bedouin
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = sephardic
+        religion = orthodox
+size = 63
+    }
 
-	aristocrats = {
-		culture = bedouin
-		religion = orthodox
-		size = 275
-	}
+    aristocrats = {
+        culture = sephardic
+        religion = orthodox
+size = 175
+    }
 
-	clergymen = {
-		culture = bedouin
-		religion = orthodox
-		size = 150
-	}
+    clergymen = {
+        culture = sephardic
+        religion = orthodox
+size = 95
+    }
 
-	artisans = {
-		culture = bedouin
-		religion = orthodox
-		size = 800
-	}
+    artisans = {
+        culture = sephardic
+        religion = orthodox
+size = 510
+    }
 
-	soldiers = {
-		culture = bedouin
-		religion = orthodox
-		size = 125
-	}
+    soldiers = {
+        culture = sephardic
+        religion = orthodox
+size = 79
+    }
 
-	farmers = {
-		culture = bedouin
-		religion = orthodox
-		size = 64650
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 41213
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 52000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+size = 33150
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 35000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+size = 22312
+    }
+
 }
-#Wadi Madani (136000/34000 POPS)
+
+#Wad Madani
 1828 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 1375
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 876
+    }
 
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 1225
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 780
+    }
 
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 4150
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 2645
+    }
 
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 210
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 133
+    }
 
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 90250
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 57533
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 27000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+size = 17212
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 44000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+size = 28050
+    }
+
 }
-#Kassala (252000/63000 POPS)
+
+#Kassala
 1829 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 400
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 255
+    }
 
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 225
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 142
+    }
 
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 1150
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 732
+    }
 
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 110
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 69
+    }
 
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 50225
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 32017
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 675
-	}
+    aristocrats = {
+        culture = sephardic
+        religion = orthodox
+size = 430
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 350
-	}
+    clergymen = {
+        culture = sephardic
+        religion = orthodox
+size = 222
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1450
-	}
+    artisans = {
+        culture = sephardic
+        religion = orthodox
+size = 923
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
+    soldiers = {
+        culture = sephardic
+        religion = orthodox
+size = 111
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 102250
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 65183
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 30000
-	}
+    slaves = {
+        culture = sephardic
+        religion = orthodox
+size = 19125
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 450
-	}
+    aristocrats = {
+        culture = sephardic
+        religion = orthodox
+size = 286
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 300
-	}
+    clergymen = {
+        culture = sephardic
+        religion = orthodox
+size = 191
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 2000
-	}
+    artisans = {
+        culture = sephardic
+        religion = orthodox
+size = 1275
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = sephardic
+        religion = orthodox
+size = 63
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 36250
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 23108
+    }
+
 }
-#Sennar (160000/40000 POPS)
+
+#Sennar
 1830 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 1475
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 940
+    }
 
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 1250
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 796
+    }
 
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 4350
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 2772
+    }
 
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 310
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 197
+    }
 
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 101925
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 64976
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
+    aristocrats = {
+        culture = sephardic
+        religion = orthodox
+size = 111
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    clergymen = {
+        culture = sephardic
+        religion = orthodox
+size = 95
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 2250
-	}
+    artisans = {
+        culture = sephardic
+        religion = orthodox
+size = 1433
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = sephardic
+        religion = orthodox
+size = 63
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 24625
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 15697
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 12000
-	}
+    slaves = {
+        culture = sephardic
+        religion = orthodox
+size = 7650
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    aristocrats = {
+        culture = sephardic
+        religion = orthodox
+size = 95
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = sephardic
+        religion = orthodox
+size = 47
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 400
-	}
+    artisans = {
+        culture = sephardic
+        religion = orthodox
+size = 255
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    soldiers = {
+        culture = sephardic
+        religion = orthodox
+size = 47
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 37300
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 23778
+    }
+
 }
-#Rabak (128000/32000 POPS)
+
+#Rabak
 1831 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 350
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 222
+    }
 
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 200
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 127
+    }
 
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 975
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 621
+    }
 
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 110
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 69
+    }
 
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 124750
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 79527
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    aristocrats = {
+        culture = sephardic
+        religion = orthodox
+size = 95
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = sephardic
+        religion = orthodox
+size = 47
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 400
-	}
+    artisans = {
+        culture = sephardic
+        religion = orthodox
+size = 255
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    soldiers = {
+        culture = sephardic
+        religion = orthodox
+size = 47
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 42750
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 27252
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 30000
-	}
+    slaves = {
+        culture = sephardic
+        religion = orthodox
+size = 19125
+    }
+
 }
-#Fashoda (132000/33000 POPS) 
+
+#Fashoda
 1832 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1275
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 812
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 1150
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 732
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 4750
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 3027
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 95
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 66750
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 42552
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 79
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 47
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 350
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 222
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 47
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 36375
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 23188
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 127
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 63
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 550
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 350
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 79
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 49025
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 31252
+    }
+
 }
-#Red Sea Region (108000) #see Egypt.txt for balance of the region 
-#under the rule of Egypt in 1836
-#Suakin (60000/15000 POPS) #now part of Sudan 
+
+#Suakin
 1833 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 750
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 477
+    }
 
-	bureaucrats = {
-		culture = amhara
-		religion = orthodox
-		size = 250
-	}
+    bureaucrats = {
+        culture = amhara
+        religion = orthodox
+size = 158
+    }
 
-	officers = {
-		culture = amhara
-		religion = orthodox
-		size = 250
-	}
+    officers = {
+        culture = amhara
+        religion = orthodox
+size = 158
+    }
 
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 500
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 318
+    }
 
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 2000
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 1275
+    }
 
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 63
+    }
 
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 35750
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 22790
+    }
 
-	aristocrats = {
-		culture = bedouin
-		religion = orthodox
-		size = 1125
-	}
+    aristocrats = {
+        culture = sephardic
+        religion = orthodox
+size = 716
+    }
 
-	clergymen = {
-		culture = bedouin
-		religion = orthodox
-		size = 750
-	}
+    clergymen = {
+        culture = sephardic
+        religion = orthodox
+size = 477
+    }
 
-	artisans = {
-		culture = bedouin
-		religion = orthodox
-		size = 3500
-	}
+    artisans = {
+        culture = sephardic
+        religion = orthodox
+size = 2231
+    }
 
-	soldiers = {
-		culture = bedouin
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = sephardic
+        religion = orthodox
+size = 95
+    }
 
-	farmers = {
-		culture = bedouin
-		religion = orthodox
-		size = 63750
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 40640
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 15
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 31
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 63
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 15
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 18000
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 11475
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 2000
-	}
+    slaves = {
+        culture = amhara
+        religion = orthodox
+size = 1275
+    }
+
 }
-#Halaib (48000/12000 POPS) #now part of Sudan 
+
+#Halaib
 1834 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 1000
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 637
+    }
 
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 500
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 318
+    }
 
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 3000
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 1912
+    }
 
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 95
+    }
 
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 54750
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 34902
+    }
 
-	aristocrats = {
-		culture = bedouin
-		religion = orthodox
-		size = 50
-	}
+    aristocrats = {
+        culture = mashriqi
+        religion = orthodox
+size = 31
+    }
 
-	clergymen = {
-		culture = bedouin
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = mashriqi
+        religion = orthodox
+size = 47
+    }
 
-	artisans = {
-		culture = bedouin
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = mashriqi
+        religion = orthodox
+size = 95
+    }
 
-	soldiers = {
-		culture = bedouin
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = mashriqi
+        religion = orthodox
+size = 95
+    }
 
-	farmers = {
-		culture = bedouin
-		religion = orthodox
-		size = 27000
-	}
+    farmers = {
+        culture = mashriqi
+        religion = orthodox
+size = 17212
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 31
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 47
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 95
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 15
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 27000
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 17212
+    }
+
 }
-#Nubia Region (236000)
-#under the rule of Egypt in 1836
-#Dunqulah (84000/21000 POPS)
+
+#Dongola
 1835 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 50
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 31
+    }
 
-	bureaucrats = {
-		culture = amhara
-		religion = orthodox
-		size = 10
-	}
+    bureaucrats = {
+        culture = amhara
+        religion = orthodox
+size = 5
+    }
 
-	officers = {
-		culture = amhara
-		religion = orthodox
-		size = 40
-	}
+    officers = {
+        culture = amhara
+        religion = orthodox
+size = 25
+    }
 
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 47
+    }
 
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 95
+    }
 
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 75
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 47
+    }
 
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 21000
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 13387
+    }
 
-	aristocrats = {
-		culture = bedouin
-		religion = orthodox
-		size = 250
-	}
+    aristocrats = {
+        culture = sephardic
+        religion = orthodox
+size = 158
+    }
 
-	clergymen = {
-		culture = bedouin
-		religion = orthodox
-		size = 125
-	}
+    clergymen = {
+        culture = sephardic
+        religion = orthodox
+size = 79
+    }
 
-	artisans = {
-		culture = bedouin
-		religion = orthodox
-		size = 700
-	}
+    artisans = {
+        culture = sephardic
+        religion = orthodox
+size = 446
+    }
 
-	soldiers = {
-		culture = bedouin
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = sephardic
+        religion = orthodox
+size = 95
+    }
 
-	farmers = {
-		culture = bedouin
-		religion = orthodox
-		size = 107750
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 68690
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 20000
-	}
+    slaves = {
+        culture = amhara
+        religion = orthodox
+size = 12750
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 15
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 9
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 15
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 31
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 63
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 9000
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 5737
+    }
+
 }
-#Hayya (104000/26000 POPS)
+
+#Hayya
 1836 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 750
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 477
+    }
 
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 500
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 318
+    }
 
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 2000
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 1275
+    }
 
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 63
+    }
 
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 36250
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 23108
+    }
 
-	aristocrats = {
-		culture = bedouin
-		religion = orthodox
-		size = 75
-	}
+    aristocrats = {
+        culture = sephardic
+        religion = orthodox
+size = 47
+    }
 
-	clergymen = {
-		culture = bedouin
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = sephardic
+        religion = orthodox
+size = 47
+    }
 
-	artisans = {
-		culture = bedouin
-		religion = orthodox
-		size = 2000
-	}
+    artisans = {
+        culture = sephardic
+        religion = orthodox
+size = 1275
+    }
 
-	soldiers = {
-		culture = bedouin
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = sephardic
+        religion = orthodox
+size = 63
+    }
 
-	farmers = {
-		culture = bedouin
-		religion = orthodox
-		size = 36000
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 22950
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 325
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 206
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 111
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 9000
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 5737
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 127
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 164000
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 104550
+    }
+
 }
-#Atbarah (40000/1000 POPS)
+
+#Atbara
 1837 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 15
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 9
+    }
 
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 15
+    }
 
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 500
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 318
+    }
 
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 63
+    }
 
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 15000
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 9562
+    }
 
-	aristocrats = {
-		culture = bedouin
-		religion = orthodox
-		size = 1000
-	}
+    aristocrats = {
+        culture = sephardic
+        religion = orthodox
+size = 637
+    }
 
-	clergymen = {
-		culture = bedouin
-		religion = orthodox
-		size = 500
-	}
+    clergymen = {
+        culture = sephardic
+        religion = orthodox
+size = 318
+    }
 
-	artisans = {
-		culture = bedouin
-		religion = orthodox
-		size = 3000
-	}
+    artisans = {
+        culture = sephardic
+        religion = orthodox
+size = 1912
+    }
 
-	soldiers = {
-		culture = bedouin
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = sephardic
+        religion = orthodox
+size = 95
+    }
 
-	farmers = {
-		culture = bedouin
-		religion = orthodox
-		size = 84750
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 54027
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
+    aristocrats = {
+        culture = sephardic
+        religion = orthodox
+size = 318
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 750
-	}
+    clergymen = {
+        culture = sephardic
+        religion = orthodox
+size = 477
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1500
-	}
+    artisans = {
+        culture = sephardic
+        religion = orthodox
+size = 956
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = sephardic
+        religion = orthodox
+size = 95
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 37000
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 23587
+    }
+
 }
-#Salima (8000/2000 POPS)
+
+#Salima
 2564 = {
-	aristocrats = {
-		culture = bedouin
-		religion = orthodox
-		size = 125
-	}
+    aristocrats = {
+        culture = sephardic
+        religion = orthodox
+size = 79
+    }
 
-	clergymen = {
-		culture = bedouin
-		religion = orthodox
-		size = 250
-	}
+    clergymen = {
+        culture = sephardic
+        religion = orthodox
+size = 158
+    }
 
-	artisans = {
-		culture = bedouin
-		religion = orthodox
-		size = 1000
-	}
+    artisans = {
+        culture = sephardic
+        religion = orthodox
+size = 637
+    }
 
-	soldiers = {
-		culture = bedouin
-		religion = orthodox
-		size = 250
-	}
+    soldiers = {
+        culture = sephardic
+        religion = orthodox
+size = 158
+    }
 
-	farmers = {
-		culture = bedouin
-		religion = orthodox
-		size = 48000
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 30600
+    }
+
 }
-#Kordofan Region (524000)
-#under the rule of Egypt in 1836
-#Obeid (180000/45000 POPS)
+
+#Obeid
 1838 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 500
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 318
+    }
 
-	bureaucrats = {
-		culture = amhara
-		religion = orthodox
-		size = 25
-	}
+    bureaucrats = {
+        culture = amhara
+        religion = orthodox
+size = 15
+    }
 
-	officers = {
-		culture = amhara
-		religion = orthodox
-		size = 100
-	}
+    officers = {
+        culture = amhara
+        religion = orthodox
+size = 63
+    }
 
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 250
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 158
+    }
 
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 1100
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 701
+    }
 
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 95
+    }
 
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 43675
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 27842
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 40000
-	}
+    slaves = {
+        culture = sephardic
+        religion = orthodox
+size = 25500
+    }
+
 }
-#Nuhud (164000/41000 POPS)
+
+#Nuhud
 1839 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 675
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 430
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 450
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 286
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 3100
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 1976
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 240
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 153
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 63850
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 40703
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 45000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+size = 28687
+    }
+
 }
-#Kaduqli (180000/45000 POPS)
+
+#Kaduqli
 1840 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 350
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 222
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 111
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 725
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 461
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 63
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 16450
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 10486
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 31000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+size = 19762
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 275
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 175
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 95
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 4000
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 2550
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 95
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 44625
-	}
+    farmers = {
+        culture = sephardic
+        religion = orthodox
+size = 28447
+    }
+
 }
-#Darfur Region (376000)
-#uncolonized/Ruled by Sultans of Darfur in 1836
-#Fasher (136000/34000 POPS)
+
+#Fasher
 1841 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 600
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 382
+    }
 
-	bureaucrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    bureaucrats = {
+        culture = african_minor
+        religion = orthodox
+size = 31
+    }
 
-	officers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    officers = {
+        culture = african_minor
+        religion = orthodox
+size = 63
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 325
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 206
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1300
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 828
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 95
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 99275
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 63287
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 20000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+size = 12750
+    }
+
 }
-#Junayah (100000/25000 POPS)
+
+#Junayah
 1842 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1325
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 844
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 1175
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 748
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 4750
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 3027
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 225
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 142
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 163000
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 103912
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 52000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+size = 33150
+    }
 
-	aristocrats = {
-		culture = bedouin
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = bedouin
+        religion = orthodox
+size = 15
+    }
 
-	clergymen = {
-		culture = bedouin
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = bedouin
+        religion = orthodox
+size = 31
+    }
 
-	artisans = {
-		culture = bedouin
-		religion = orthodox
-		size = 100
-	}
+    artisans = {
+        culture = bedouin
+        religion = orthodox
+size = 63
+    }
 
-	soldiers = {
-		culture = bedouin
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = bedouin
+        religion = orthodox
+size = 95
+    }
 
-	farmers = {
-		culture = bedouin
-		religion = orthodox
-		size = 18000
-	}
+    farmers = {
+        culture = bedouin
+        religion = orthodox
+size = 11475
+    }
+
 }
-#Waw (140000/35000 POPS)
+
+#Waw
 1843 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 2125
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 1354
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 750
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 477
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 4350
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 2772
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 210
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 133
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 63500
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 40481
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 63
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 31
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 300
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 191
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 47
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 54750
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 34902
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 40000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+size = 25500
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 127
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 63
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 450
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 286
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 127
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100500
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 64068
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 70000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+size = 44625
+    }
+
 }
-#Upper Nile Region (868000) 
-#uncolonized in 1836
-#Bor (344000/86000 POPS)
+
+#Bor
 1844 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 50
-	}
+    aristocrats = {
+        culture = amhara
+        religion = orthodox
+size = 31
+    }
 
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = amhara
+        religion = orthodox
+size = 47
+    }
 
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = amhara
+        religion = orthodox
+size = 95
+    }
 
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = amhara
+        religion = orthodox
+size = 15
+    }
 
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 17000
-	}
+    farmers = {
+        culture = amhara
+        religion = orthodox
+size = 10837
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 325
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 206
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 111
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 850
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 541
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 111
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 94750
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 60402
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 750
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 477
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 400
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 255
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1950
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 1242
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 63
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 125000
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 79687
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 300
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 191
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 111
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 675
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 430
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 111
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 95750
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 61040
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 50000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+size = 31875
+    }
+
 }
-#Yambio (140000/35000 POPS)
+
+#Yambio
 1845 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 47
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 31
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 127
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 15
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 26500
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 16893
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 450
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 286
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 225
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 142
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 4000
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 2550
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 325
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 206
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 168000
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 107100
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 70000
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+size = 44625
+    }
+
 }
-#Lado (244000/61000 POPS)
+
+#Lado
 1846 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 450
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 286
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 158
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1200
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 765
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 95
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 81850
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 52178
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 325
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 206
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 111
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 900
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 573
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 127
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 76400
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 48705
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 325
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 206
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 111
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 750
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 477
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 127
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 76550
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 48800
+    }
 
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 8100
-	}
+    slaves = {
+        culture = african_minor
+        religion = orthodox
+size = 5163
+    }
+
 }
-#Kapoeta (140000/35000 POPS)
+
+#Kapoeta
 1847 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 525
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 334
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 275
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 175
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1400
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 892
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 300
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 191
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 125500
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 80006
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+size = 79
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+size = 47
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 350
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+size = 222
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+size = 47
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 46375
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+size = 29563
+    }
 
 }
+

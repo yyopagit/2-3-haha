@@ -1,0 +1,84 @@
+political_decisions = {
+# ВЫБОР ПУТИ
+    egy_choose_tag = {
+        potential = {
+            ai = no
+            tag = EGY
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            country_event = 101300
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+# Реформы Франции
+
+    fra_start_reforms = {
+        potential = {
+            ai = no
+            tag = FRA
+            EGY = {NOT = {has_country_flag = start_fra_reforms}}
+        }
+        allow = {
+            money = 50000
+                EGF = {
+                    exists = yes
+                }
+        }
+        effect = {
+            EGF = {
+                add_country_modifier = {name = start_reforms_egy_fra duration = -1}
+                set_country_flag = start_fra_reforms
+            }
+        }
+
+    }
+
+    second_step_fra_reforms = {
+        potential = {
+            ai = no
+            tag = EGF
+            has_country_flag = start_fra_reforms
+            NOT = {has_country_flag = second_step_fra_reform}
+        }
+        allow = {
+            literacy = 0.04
+            1151 = { owner = THIS }
+        }
+        effect = {
+            add_country_modifier = {name = second_reforms_egy_fra duration = 99999}
+            remove_country_modifier = start_reforms_egy_fra
+            set_country_flag = second_step_fra_reform
+        }
+    }
+
+    final_step_fra_reforms = {
+        potential = {
+            ai = no
+            tag = EGF
+            has_country_flag = second_step_fra_reform
+            NOT = {has_country_flag = final_fra_reforms_egy}
+        }
+        allow = {
+            literacy = 0.04
+        }
+        effect = {
+            add_country_modifier = {name = final_reforms_egy_fra duration = 99999}
+            remove_country_modifier = name = second_reforms_egy_fra
+            set_country_flag = final_step_fra_reform
+            467 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5490 }}
+            458 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5490 }}
+            451 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5490 }}
+            423 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5490 }}
+            446 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5490 }}
+        }
+    }
+
+
+
+}

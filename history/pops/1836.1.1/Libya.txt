@@ -548,6 +548,7 @@
 
 }
 
+#Jaghbub
 1738 = {
     aristocrats = {
         culture = berber
@@ -617,6 +618,7 @@
 
 }
 
+#Kufra
 1739 = {
     aristocrats = {
         culture = berber
@@ -686,6 +688,7 @@
 
 }
 
+#Waddan
 1740 = {
     aristocrats = {
         culture = berber
@@ -869,156 +872,155 @@
         size = 22000
     }
 
-	# Население перенесено из провинций 1738, 1739, 1740
-	aristocrats = {
-		culture = mashriqi
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = mashriqi
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = mashriqi
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = mashriqi
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = mashriqi
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = mashriqi
+        religion = orthodox
+        size = 150
+    }
 
-	soldiers = {
-		culture = mashriqi
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = mashriqi
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = mashriqi
-		religion = orthodox
-		size = 47500
-	}
+    farmers = {
+        culture = mashriqi
+        religion = orthodox
+        size = 47500
+    }
 
-	aristocrats = {
-		culture = mashriqi
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = mashriqi
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = mashriqi
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = mashriqi
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = mashriqi
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = mashriqi
+        religion = orthodox
+        size = 150
+    }
 
-	soldiers = {
-		culture = mashriqi
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = mashriqi
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = mashriqi
-		religion = orthodox
-		size = 47500
-	}
+    farmers = {
+        culture = mashriqi
+        religion = orthodox
+        size = 47500
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 15
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 15
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 10
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 10
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 29000
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 29000
+    }
 
-	aristocrats = {
-		culture = mashriqi
-		religion = orthodox
-		size = 25
-	}
+    aristocrats = {
+        culture = mashriqi
+        religion = orthodox
+        size = 25
+    }
 
-	clergymen = {
-		culture = mashriqi
-		religion = orthodox
-		size = 50
-	}
+    clergymen = {
+        culture = mashriqi
+        religion = orthodox
+        size = 50
+    }
 
-	artisans = {
-		culture = mashriqi
-		religion = orthodox
-		size = 150
-	}
+    artisans = {
+        culture = mashriqi
+        religion = orthodox
+        size = 150
+    }
 
-	soldiers = {
-		culture = mashriqi
-		religion = orthodox
-		size = 25
-	}
+    soldiers = {
+        culture = mashriqi
+        religion = orthodox
+        size = 25
+    }
 
-	farmers = {
-		culture = mashriqi
-		religion = orthodox
-		size = 37500
-	}
+    farmers = {
+        culture = mashriqi
+        religion = orthodox
+        size = 37500
+    }
 
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 15
-	}
+    aristocrats = {
+        culture = african_minor
+        religion = orthodox
+        size = 15
+    }
 
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
+    clergymen = {
+        culture = african_minor
+        religion = orthodox
+        size = 25
+    }
 
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
+    artisans = {
+        culture = african_minor
+        religion = orthodox
+        size = 50
+    }
 
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 10
-	}
+    soldiers = {
+        culture = african_minor
+        religion = orthodox
+        size = 10
+    }
 
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 9000
-	}
+    farmers = {
+        culture = african_minor
+        religion = orthodox
+        size = 9000
+    }
 
 }
 
@@ -1090,7 +1092,6 @@
         size = 5000
     }
 
-    # Население перенесено из провинции 1739 (Kufra, включая 1738 и 1740)
     aristocrats = {
         culture = berber
         religion = orthodox
@@ -1246,37 +1247,37 @@
     }
 
     aristocrats = {
-        culture = african_minor
+        culture = berber
         religion = orthodox
         size = 25
     }
 
     clergymen = {
-        culture = african_minor
+        culture = berber
         religion = orthodox
         size = 25
     }
 
     artisans = {
-        culture = african_minor
+        culture = berber
         religion = orthodox
         size = 1000
     }
 
     soldiers = {
-        culture = african_minor
+        culture = berber
         religion = orthodox
         size = 1100
     }
 
     farmers = {
-        culture = african_minor
+        culture = berber
         religion = orthodox
         size = 9000
     }
 
     slaves = {
-        culture = african_minor
+        culture = berber
         religion = orthodox
         size = 11000
     }

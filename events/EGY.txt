@@ -104,6 +104,151 @@ not = {tag = IGM}
 	picture = "greek_osman"
 }
 
+
+# Новые ивенты
+
+country_event = {
+	id = 101300
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA101300"  # Стать EGF
+		FRA = {
+			country_event = {
+				id = 101301
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTB101300"  # Стать EGA
+		ENG = {
+			country_event = {
+				id = 101302
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTC101300"  # Стать EGT
+		TUR = {
+			country_event = {
+				id = 101303
+				days = 1
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTD101300"  # Стать ARA
+	}
+
+	title = "EVTNAME101300"
+	desc = "EVTDESC101300"
+	picture = "Administration"
+}
+
+
+# Смена тега
+
+
+# Для EGF
+country_event = {
+	fire_only_once = yes
+	id = 101301
+	
+	trigger = {
+		year = 2055
+	}
+	
+	option = {
+		name = "EVTOPTA101301"
+		EGY = {
+			any_owned_province = {
+            literacy = 0.5   # +10% в каждой провинции
+        	}
+			change_tag = EGF  # или другой финальный тег
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB101301"
+		EGY = {
+			country_event = {
+				id = 101300
+				days = 0
+			}
+		}
+	}
+	title = "EVTNAME101301"
+	desc = "EVTDESC101301"
+	picture = "Administration"
+}
+
+# Для EGA
+country_event = {
+	fire_only_once = yes
+	id = 101302
+	
+	trigger = {
+		year = 2055
+	}
+	
+	option = {
+		name = "EVTOPTA101302"
+		EGY = {
+			change_tag = EGA
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB101302"
+		EGY = {
+			country_event = {
+				id = 101300
+				days = 0
+			}
+		}
+	}
+	title = "EVTNAME101302"
+	desc = "EVTDESC101302"
+	picture = "Administration"
+}
+
+# Для EGT
+country_event = {
+	fire_only_once = yes
+	id = 101303
+	
+	trigger = {
+		year = 2055
+	}
+	
+	option = {
+		name = "EVTOPTA101303"
+		EGY = {
+			change_tag = EGT
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB101303"
+		EGY = {
+			country_event = {
+				id = 101300
+				days = 0
+			}
+		}
+	}
+	title = "EVTNAME101303"
+	desc = "EVTDESC101303"
+	picture = "Administration"
+}
+
+
+
 country_event = {
 
 	id = 38500

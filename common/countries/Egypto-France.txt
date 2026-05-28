@@ -1,0 +1,17 @@
+#Egypto-France - EGF
+color = { 56 140 216 }
+graphical_culture = italiangc
+
+party = {
+    name = "EGF_conservative"
+    start_date = 1830.1.1
+    end_date = 1900.1.1
+    ideology = conservative
+}
+
+party = {
+    name = "EGF_liberal"
+    start_date = 1830.1.1
+    end_date = 1900.1.1
+    ideology = liberal
+}
