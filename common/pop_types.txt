@@ -9,6 +9,12 @@ promotion_chance =
 			economic_policy = laissez_faire
 		}
 	}
+	modifier = {
+		factor = 1
+		location = {
+			has_building = town_infrastructure
+		}
+	}
 	group = {
 		modifier = {
 			factor = 0.02
@@ -148,6 +154,12 @@ demotion_chance =
 		factor = 0.10
 		country = {
 			economic_policy = laissez_faire
+		}
+	}
+	modifier = {
+		factor = 1
+		location = {
+			has_building = town_infrastructure
 		}
 	}
 #	modifier = {

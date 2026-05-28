@@ -808,7 +808,7 @@ town_infrastructure = {
 	goods_cost =
 	{
 		lumber = 20000
-		cement = 50000
+		cement = 30000
 		steel = 10000
 		machine_parts = 10000
 	}
