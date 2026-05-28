@@ -140,7 +140,7 @@ political_decisions = {
 		effect = {
         PAN_1224 = {remove_core = PAN}
 		PAN_1229 = {remove_core = PAN}
-		badboy = 8
+		badboy = 4
 		set_country_flag = core_punjab
 		}
 	}

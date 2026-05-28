@@ -718,7 +718,6 @@ fertilizer_factory = {
 	pop_build_factory = yes
 }
 
-# Audax Validator "." Ignore_NEXT
 province_selector = {
 	# Audax Validator "." Ignore_NEXT
 	type = province_selector
@@ -737,13 +736,13 @@ province_selector = {
 
 naval_base = { 
 	type = naval_base
-	cost = 30000	 
+	cost = 18000	 
 	goods_cost =
 	{
-		lumber = 2200
-		cement = 1200
-		steel = 4000
-		machine_parts = 350
+		lumber = 6600
+		cement = 3600
+		steel = 12000
+		machine_parts = 1050
 	}
 	infrastructure = 0.16
 	movement_cost = -0.02
@@ -759,8 +758,9 @@ naval_base = {
 	one_per_state = no
 	colonial_range = 90
 	local_ship_build = -0.05
+	pop_build_factory = yes
 }
-
+ 
 railroad = { 
 	type = infrastructure
 	cost = 6000
@@ -801,6 +801,3 @@ fort = {
 	province = yes
 	fort_level = 1
 }
- 
-
-

@@ -66,7 +66,7 @@ tractors = {
 		}
 	}
 	effect = {
-		farm_rgo_eff = 0.5
+		farm_rgo_eff = 0.35
 	}
 }
 #electrical_power_generation
@@ -257,7 +257,7 @@ hussey_n_mccormicks_reaping_machine = {
 	}
 	effect = {
 		rgo_goods_output = {
-			grain = 0.4
+			grain = 0.25
 		}
 		rgo_goods_output = {
 			tobacco = 0.2
@@ -279,7 +279,7 @@ pitts_threshing_machine = {
 	}
 	effect = {
 		rgo_goods_output = {
-			grain = 0.4
+			grain = 0.25
 		}
 		rgo_goods_output = {
 			tobacco = 0.2
@@ -301,7 +301,7 @@ mechanized_slaughtering_block = {
 	}
 	effect = {
 		rgo_goods_output = {
-			grain = 0.2
+			grain = 0.15
 		}
 		rgo_goods_output = {
 			wool = 0.2
@@ -580,7 +580,7 @@ refrigerator_technology = {
 	}
 	effect = {
 		rgo_goods_output = {
-			grain = 0.4
+			grain = 0.35
 		}
 		rgo_goods_output = {
 			fish = 0.2
@@ -714,7 +714,7 @@ advanced_ore_roasting_processes = {
 	}
 	effect = {
 		rgo_goods_output = {
-			iron = 0.4
+			iron = 0.25
 		}
 	}
 }
@@ -729,25 +729,6 @@ advanced_ore_grinding_processes = {
 		modifier = {
 			factor = 2
 			organized_factories = 1
-		}
-	}
-	effect = {
-		rgo_goods_output = {
-			iron = 0.25
-		}
-	}
-}
-advanced_ore_smelting_processes = {
-	limit = { cheap_iron = 1 }
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			invention = advanced_ore_grinding_processes
-		}
-		modifier = {
-			factor = 2
-			iron_railroad = 1
 		}
 	}
 	effect = {
@@ -850,6 +831,25 @@ steel_alloys = {
 	effect = {
 		rgo_goods_output = {
 		precious_metal = 0.05
+		}
+	}
+}
+advanced_ore_smelting_processes = {
+	limit = { advanced_metallurgy = 1 }
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			invention = advanced_ore_grinding_processes
+		}
+		modifier = {
+			factor = 2
+			iron_railroad = 1
+		}
+	}
+	effect = {
+		rgo_goods_output = {
+			iron = 0.25
 		}
 	}
 }
@@ -968,7 +968,7 @@ prophylaxis_against_malaria = {
 			any_greater_power = {
 				invention = prophylaxis_against_malaria
 				}
-			}
+		}			
 		modifier = {
 			factor = 10
 			any_neighbor_country = {
@@ -1100,7 +1100,7 @@ nitroglycerin = {
 		factory_goods_output = {
 			explosives = 0.02
 		} 
-		mine_RGO_eff = 0.5
+		mine_RGO_eff = 0.3
 	}
 }
 chemical_wood_pulp_process = {

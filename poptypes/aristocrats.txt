@@ -30,13 +30,14 @@ everyday_needs = {
 life_needs = {
 	wool = 0.8
 	grain = 6.8
+	paper = 3
 }
 
 luxury_needs = {
     luxury_furniture = 6
 	opium = 10
-	telephones = 10
-	automobiles = 15
+	telephones = 13
+	automobiles = 6
 	aeroplanes = 8
 	radio = 15
 	fuel = 15

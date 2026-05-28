@@ -10,6 +10,7 @@ country_event = {
 	
 	trigger = {
 		civilized = yes
+		num_of_ports = 1
 		NOT = {
 			tag = RUS
 			tag = USA
@@ -55,6 +56,7 @@ country_event = {
 	
 	trigger = {
 		civilized = yes
+		num_of_ports = 1
 		has_country_flag = totally_blockaded
 		NOT = {
 			tag = RUS
@@ -106,6 +108,7 @@ country_event = {
 	
 	trigger = {
 		civilized = yes
+		num_of_ports = 1
 		has_country_flag = totally_blockaded_lvl2
 		NOT = {
 			tag = RUS

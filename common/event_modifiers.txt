@@ -1609,7 +1609,7 @@ totally_blockaded_lvl2 = {
 
 totally_blockaded_lvl3 = {
 	tax_efficiency = -0.20
-	war_exhaustion = 0.1
+	war_exhaustion = 1.0
 	prestige = -0.2
 }
 

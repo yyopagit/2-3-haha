@@ -99,7 +99,7 @@ investment_banks = {
 	year = 1870
 	cost = 14400
 
-	tax_eff = 4
+	tax_eff = 3
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -129,7 +129,7 @@ bank_inspection_board = {
 	year = 1900
 	cost = 19800
 
-	tax_eff = 4
+	tax_eff = 3
 	ai_chance = {
 		factor = 1.1
 		modifier = {
@@ -159,7 +159,7 @@ mutual_funds = {
 	year = 1914
 	cost = 25200
 
-	tax_eff = 4
+	tax_eff = 2
 	ai_chance = {
 		factor = 1.1
 		modifier = {
