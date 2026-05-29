@@ -439,6 +439,7 @@ political_decisions = {
 	}
 	assimilation_spread = { 
 		potential = {
+			tag = JAN
 			year = 1885
 			civilized = yes
 			NOT = {
@@ -446,14 +447,19 @@ political_decisions = {
 			}
 		}
 		allow = { 
-		invention = family_planning
- 		year = 1890
+ 		year = 1900
 		}
 		effect = {
+			any_country = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = assimilation_spread }
+					invention = family_planning
+				}
+			}
 			set_country_flag = assimilation_spread
-			any_pop = {
-				militancy = 1
- }
+			}
+		set_country_flag = assimilation_spread
 		}
 		ai_will_do = {
 			factor = 1
