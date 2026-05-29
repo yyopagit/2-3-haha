@@ -247,7 +247,43 @@ country_event = {
 	picture = "Administration"
 }
 
+# ивенты с еги-брит
 
+country_event = {
+	id = 102001
+	title = "EVTNAME102001"
+	desc = "EVTDESC102001"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA102001"
+		
+		1862 = { secede_province = ENG }
+		1863 = { secede_province = ENG }
+
+		ENG = { country_event = 102002 }
+	}
+}
+
+
+country_event = {
+	id = 102002
+	title = "EVTNAME102002"
+	desc = "EVTDESC102002"
+	picture = "Administration"
+	trigger = {
+		tag = ENG
+		owns = 1863
+	}
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA102002"
+
+		1863 = {add_province_modifier = { name = eng_afric_frontier_ega duration = 1825} }
+		1863 = {add_core = ENG}
+	}
+}
 
 country_event = {
 

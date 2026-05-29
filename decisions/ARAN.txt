@@ -22,7 +22,7 @@ political_decisions = {
         potential = {
             ai = no
             tag = FRA
-            EGY = {NOT = {has_country_flag = start_fra_reforms}}
+            EGF = {NOT = {has_country_flag = start_fra_reforms}}
         }
         allow = {
             money = 50000
@@ -31,6 +31,7 @@ political_decisions = {
                 }
         }
         effect = {
+            money = -50000
             EGF = {
                 add_country_modifier = {name = start_reforms_egy_fra duration = -1}
                 set_country_flag = start_fra_reforms
@@ -47,38 +48,84 @@ political_decisions = {
             NOT = {has_country_flag = second_step_fra_reform}
         }
         allow = {
-            literacy = 0.04
-            1151 = { owner = THIS }
+            literacy = 0.23
+            industrial_score = 50
+            owns = 1151
+            owns = 1178
         }
         effect = {
-            add_country_modifier = {name = second_reforms_egy_fra duration = 99999}
-            remove_country_modifier = start_reforms_egy_fra
             set_country_flag = second_step_fra_reform
+            add_country_modifier = {name = second_reforms_egy_fra duration = -1}
+            remove_country_modifier = start_reforms_egy_fra
+        }
+        ai_will_do = {
+            factor = 0
         }
     }
-
     final_step_fra_reforms = {
         potential = {
             ai = no
             tag = EGF
             has_country_flag = second_step_fra_reform
-            NOT = {has_country_flag = final_fra_reforms_egy}
+            NOT = {has_country_flag = complete_egf_reforms}
         }
         allow = {
-            literacy = 0.04
+            literacy = 0.3
+            industrial_score = 100
         }
         effect = {
-            add_country_modifier = {name = final_reforms_egy_fra duration = 99999}
-            remove_country_modifier = name = second_reforms_egy_fra
-            set_country_flag = final_step_fra_reform
-            467 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5490 }}
-            458 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5490 }}
-            451 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5490 }}
-            423 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5490 }}
-            446 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5490 }}
+            set_country_flag = complete_egf_reforms
+            add_country_modifier = {name = final_reforms_egy_fra duration = -1}
+            remove_country_modifier = second_reforms_egy_fra
+            461 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5000}}
+            458 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5000}}
+            434 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5000}}
+            468 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5000}}
+            439 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5000}}
+            451 = {add_province_modifier = {name = fra_reforms_back_bonus_province duration = 5000}}
+        }
+        ai_will_do = {
+            factor = 0
         }
     }
 
+# решение вб
 
+    eng_to_ega_army_bonus = {
+        potential = {
+            ai = no
+            tag = ENG
+            NOT = {has_country_flag = get_eng_to_ega_army_baff}
+        }
+        allow = {
+            money = 100000
+        }
+        effect = {
+            set_country_flag = get_eng_to_ega_army_baff
+            money = -100000
+            EGA = {
+                set_country_flag = eng_to_ega_army_baff
+                add_country_modifier = {name = eng_help_egf_buff duration = -1}
+            }
+        }
+    }
+
+    eng_back_bonus_egf = {
+        potential = {
+            tag = EGA
+            ai = no
+            has_country_flag = eng_to_ega_army_baff
+            NOT = {has_country_flag = get_afr_ega_bonus}
+        }
+        allow = {
+            literacy = 0.03
+        }
+        effect = {
+            KAF = {
+                country_event = 102001
+            }
+            set_country_flag = get_afr_ega_bonus
+        }
+    }
 
 }

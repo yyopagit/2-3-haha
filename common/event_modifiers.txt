@@ -613,28 +613,50 @@ muhammad_alis_reforms = {
 start_reforms_egy_fra = {
 	education_efficiency_modifier = 0.2
 	tax_efficiency = 0.01
+	badboy = -0.15
 }
 
 second_reforms_egy_fra = {
 	education_efficiency_modifier = 0.4
 	tax_efficiency = 0.01
 	research_points_modifier = 0.1
+	cb_generation_speed_modifier = 0.2
+	diplomatic_points_modifier = 0.5
+	badboy = -0.05
 }
 
 final_reforms_egy_fra = {
 	education_efficiency_modifier = 0.5
 	tax_efficiency = 0.01
 	research_points_modifier = 0.2
-	leadership_modifier = 0.2
+	leadership_modifier = 0.1
+	cb_generation_speed_modifier = 0.2
+	diplomatic_points_modifier = 0.5
+	badboy = -0.02
 }
 
 fra_reforms_back_bonus_province = {
 	population_growth = 0.001
 	factory_output = 0.05
-	factory_input = 0.05
+	factory_input = -0.05
 	factory_throughput = 0.5
 	farm_rgo_eff = 0.25
 	mine_rgo_eff = 0.25
+}
+eng_help_egf_buff = {
+	factory_input = -0.05
+	factory_throughput = 0.2
+	education_efficiency_modifier = 0.15
+	leadership_modifier = 0.25
+	mobilisation_size = -0.04
+	cb_generation_speed_modifier = 0.2
+	diplomatic_points_modifier = 0.5
+}
+
+eng_afric_frontier_ega = {
+	immigrant_attract = 100
+	immigrant_push = -100
+	life_rating = 10
 }
 #-------------------------------------------------------КАНАДА И ЮАР-------------------------------------------------------
 # navy_bonus_by_can = {
