@@ -763,16 +763,6 @@ assimilation_chance =
 		}
 	}
 	group = {
-  	modifier = {
-			factor = 0.15
-			year = 1836
-		}
-	modifier = {
-			factor = 0.05
-			year = 1836
-		}
-	}
-	group = {
 		modifier = {
 			factor = -0.5
 			militancy = 7
@@ -803,31 +793,10 @@ assimilation_chance =
 			NOT = { unemployment = 0.05 }
 		}
 	}
-   	modifier = {
-			factor = 0.05
-			year = 1836
-		}
 	modifier = {
-			factor = 0.10
-			year = 1836
-	}
-	modifier = {
-	 factor = 0.10
-    	 country = { 
-			 has_country_flag = communist_b
-	    }
-	}
-	modifier = {
-	 factor = 0.2
-    	 country = { 
-			 has_country_flag = republic1_b
-	    }
-	}
-	modifier = {
-	 factor = 1.01
-    	 country = { 
-			 has_country_flag = black 
-	    }
+	 factor = 3
+		has_country_flag = turkey
+    	culture = bedouin
 	}
 }
 
