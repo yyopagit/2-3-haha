@@ -12,6 +12,7 @@ categories =  {
 		movement_cost = 0.75
 		color = { 156 139 228 }
 		defence = 1
+		supply_limit = 20
 	}
 
 
