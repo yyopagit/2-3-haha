@@ -4,6 +4,7 @@ add_core = RUS
 trade_goods = grain
 life_rating = 40
 terrain = urban
+town_infrastructure = 3
 naval_base = 2
 fort = 1
 railroad = 1

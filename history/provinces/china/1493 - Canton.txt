@@ -2,6 +2,7 @@ add_core = CHI
 trade_goods = timber
 life_rating = 40
 terrain = urban
+town_infrastructure = 3
 owner = CHI
 controller = CHI
 fort = 1

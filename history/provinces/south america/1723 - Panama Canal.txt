@@ -3,6 +3,6 @@ controller = PNM
 add_core = PNM
 add_core = GCO
 trade_goods = grain
-life_rating = 35 
-
+life_rating = 35
 terrain = urban
+town_infrastructure = 1

@@ -3,4 +3,6 @@ controller = HAI
 add_core = HAI
 add_core = DOM
 trade_goods = tobacco
-life_rating = 35 terrain = urban
+life_rating = 35
+terrain = urban
+town_infrastructure = 2

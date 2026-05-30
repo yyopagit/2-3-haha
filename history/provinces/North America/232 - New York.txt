@@ -5,6 +5,7 @@ add_core = MAN
 trade_goods = grain
 life_rating = 50
 terrain = urban
+town_infrastructure = 3
 railroad = 1
 fort = 1
 party_loyalty = {

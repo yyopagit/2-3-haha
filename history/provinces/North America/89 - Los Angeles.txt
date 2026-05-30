@@ -4,4 +4,6 @@ controller = MEX
 add_core = MEX
 add_core = CAL
 trade_goods = grain
-life_rating = 40 terrain = urban
+life_rating = 40
+terrain = urban
+town_infrastructure = 1

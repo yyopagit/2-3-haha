@@ -3,4 +3,6 @@ controller = ENG
 add_core = ENG
 add_core = SCO
 trade_goods = coal
-life_rating = 45 terrain = urban
+life_rating = 45
+terrain = urban
+town_infrastructure = 2

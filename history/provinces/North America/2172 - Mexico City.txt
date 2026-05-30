@@ -5,6 +5,7 @@ controller = MEX
 add_core = MEX
 
 trade_goods = grain
-life_rating = 45 
+life_rating = 45
 terrain = urban
+town_infrastructure = 3
 fort = 1

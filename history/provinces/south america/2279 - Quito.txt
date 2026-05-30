@@ -3,5 +3,6 @@ controller = ECU
 add_core = ECU
 add_core = GCO
 trade_goods = iron
-life_rating = 45 
+life_rating = 45
 terrain = urban
+town_infrastructure = 2

@@ -2,5 +2,6 @@ owner = GOD
 controller = GOD
 add_core = GOD
 trade_goods = grain
-life_rating = 30 
+life_rating = 30
 terrain = urban
+town_infrastructure = 1

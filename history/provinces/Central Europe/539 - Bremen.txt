@@ -3,7 +3,8 @@ controller = BRE
 add_core = BRE
 add_core = GER
 trade_goods = fish
-life_rating = 40 
+life_rating = 40
 terrain = urban
+town_infrastructure = 1
 naval_base = 1
 

@@ -6,6 +6,7 @@ add_core = PLC
 trade_goods = grain
 life_rating = 40
 terrain = urban
+town_infrastructure = 3
 state_building = {
 level = 1
 	building = fabric_factory

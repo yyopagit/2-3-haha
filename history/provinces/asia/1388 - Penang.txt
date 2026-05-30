@@ -2,4 +2,6 @@ owner = JOH
 controller = JOH
 add_core = JOH
 trade_goods = timber
-life_rating = 35 terrain = urban
+life_rating = 35
+terrain = urban
+town_infrastructure = 2

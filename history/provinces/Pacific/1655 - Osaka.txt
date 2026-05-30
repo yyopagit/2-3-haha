@@ -4,6 +4,7 @@ add_core = JAP
 trade_goods = grain
 life_rating = 40
 terrain = urban
+town_infrastructure = 3
 #naval_base = 1
 #state_building = {
 #	level = 1

@@ -3,7 +3,8 @@ controller = HAM
 add_core = HAM
 add_core = GER
 trade_goods = grain
-life_rating = 40 
+life_rating = 40
 terrain = urban
+town_infrastructure = 2
 naval_base = 1
 
