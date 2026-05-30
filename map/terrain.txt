@@ -10,7 +10,7 @@ categories =  {
 
 	urban = {
 		movement_cost = 0.75
-		color = { 0 0 0 }
+		color = { 156 139 228 }
 		defence = 1
 	}
 
@@ -253,7 +253,7 @@ text_55	= { type = coastal_desert color = { 	55	 } priority = 	55	 }
 
 
 #UNUSED for now...
-text_56	= { type = mountain color = { 	56	 } priority = 	56	 }
+text_56	= { type = urban color = { 	56	 } priority = 	56	 }
 text_57	= { type = mountain color = { 	57	 } priority = 	57	 }
 text_58	= { type = mountain color = { 	58	 } priority = 	58	 }
 text_59	= { type = mountain color = { 	59	 } priority = 	59	 }
