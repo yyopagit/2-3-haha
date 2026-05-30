@@ -1,6 +1,6 @@
 #tech_power
 water_wheel_power = {
-	#factory_cost = 0.1
+	factory_cost = 0.025
 	area = tech_power
 	year = 1836
 	cost = 3600
@@ -42,7 +42,7 @@ water_wheel_power = {
 	}	
 }
 practical_steam_engine = {
-	#factory_cost = 0.1
+	factory_cost = 0.025
 	area = tech_power
 	year = 1836
 	cost = 7200
@@ -83,7 +83,7 @@ practical_steam_engine = {
 	}
 }
 high_n_low_pressure_steam_engines = {
-	#factory_cost = 0.1
+	factory_cost = 0.025
 	area = tech_power
 	year = 1836
 	cost = 10800
@@ -124,7 +124,7 @@ high_n_low_pressure_steam_engines = {
 	}
 }
 steam_turbine = {
-	factory_cost = 0.1
+	factory_cost = 0.05
 	area = tech_power
 	year = 1850
 	cost = 14400
@@ -165,7 +165,7 @@ steam_turbine = {
 	}
 }
 combustion_engine = {
-	factory_cost = 0.1
+	factory_cost = 0.05
 	area = tech_power
 	year = 1880
 	cost = 19800
@@ -247,7 +247,7 @@ electrical_power_generation = {
 
 #mechanization
 publishing_industry = {
-	factory_cost = 0.1
+	factory_cost = 0.025
 	area = mechanization
 	year = 1836
 	cost = 3600
@@ -283,7 +283,7 @@ publishing_industry = {
 
 }
 mechanical_production = {
-	factory_cost = 0.1
+	factory_cost = 0.025
 	area = mechanization
 	year = 1836
 	cost = 7200
@@ -332,7 +332,7 @@ mechanical_production = {
 	}	
 }
 interchangeable_parts = {
-	factory_cost = 0.1
+	factory_cost = 0.025
 	area = mechanization
 	year = 1836
 	cost = 10800
@@ -372,7 +372,7 @@ semi_automatization = {
 	year = 1850
 	cost = 14400
 	factory_throughput = 0.1
-	factory_cost = 0.1 
+	factory_cost = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -406,7 +406,7 @@ assembly_line = {
 	year = 1870
 	cost = 19800
 	factory_throughput = 0.1
-	factory_cost = 0.1
+	factory_cost = 0.05
 	ai_chance = {
 		factor = 1.05
 		modifier = {
@@ -460,7 +460,7 @@ shift_work = {
 
 #metallurgy
 mechanized_mining = {
-	#factory_cost = 0.1
+	factory_cost = 0.025
 	area = metallurgy
 	year = 1836
 	cost = 3600
@@ -523,7 +523,7 @@ mechanized_mining = {
 	}
 }
 clean_coal = {
-	factory_cost = 0.1
+	factory_cost = 0.05
 	area = metallurgy
 	year = 1850
 	cost = 7200
@@ -592,7 +592,7 @@ clean_coal = {
 	}
 }
 cheap_iron = {
-	factory_cost = 0.1
+	factory_cost = 0.05
 	area = metallurgy
 	year = 1860
 	cost = 10800
@@ -657,7 +657,7 @@ cheap_iron = {
 	}
 }
 cheap_steel = {
-	factory_cost = 0.1
+	factory_cost = 0.05
 	area = metallurgy
 	year = 1880
 	cost = 14400
@@ -850,7 +850,7 @@ experimental_railroad = {
 	cost = 3600
 
 	activate_building = railroad
-	factory_cost = 0.1
+	factory_cost = 0.025
 	ai_chance = {
 		factor = 1.5 #1.1
 		modifier = {
@@ -874,7 +874,7 @@ early_railroad = {
 	cost = 7200
 
 	max_railroad = 1
-	factory_cost = 0.1
+	factory_cost = 0.05
 	
 	ai_chance = {
 		factor = 2
@@ -899,7 +899,7 @@ iron_railroad = {
 	cost = 10800
 
 	max_railroad = 1 
-	factory_cost = 0.1
+	factory_cost = 0.05
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -923,7 +923,7 @@ steel_railroad = {
 	cost = 14400
 
 	max_railroad = 1 
-	factory_cost = 0.1
+	factory_cost = 0.05
 	ai_chance = {
 		factor = 2
 		modifier = {
@@ -992,7 +992,7 @@ limited_access_roads = {
 
 #chemistry_and_electricity
 basic_chemistry = {
-	factory_cost = 0.1
+	factory_cost = 0.025
 	area = chemistry_and_electricity
 	year = 1836
 	cost = 3600
@@ -1035,7 +1035,7 @@ medicine = {
 	}
 }
 inorganic_chemistry = {
-	factory_cost = 0.1
+	factory_cost = 0.05
 	area = chemistry_and_electricity
 	year = 1850
 	cost = 10800
@@ -1072,7 +1072,7 @@ inorganic_chemistry = {
 	}
 }
 organic_chemistry = {
-	factory_cost = 0.1
+	factory_cost = 0.05
 	area = chemistry_and_electricity
 	year = 1870
 	cost = 14400
@@ -1108,7 +1108,7 @@ organic_chemistry = {
 	}
 }
 electricity = {
-	factory_cost = 0.1
+	factory_cost = 0.05
 	area = chemistry_and_electricity
 	year = 1880
 	cost = 19800

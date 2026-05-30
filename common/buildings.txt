@@ -350,9 +350,9 @@ steel_factory = {
 	max_level = 99
 	goods_cost =
 	{
-		machine_parts = 1500
-		lumber = 4000
-		steel = 2100
+		machine_parts = 1000
+		lumber = 6000
+		steel = 3100
 		coal = 1000
 	}
 	time = 140
