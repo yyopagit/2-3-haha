@@ -4,6 +4,7 @@ add_core = PRU
 add_core = GER
 trade_goods = iron
 life_rating = 45 
+terrain = urban
 railroad = 1
 fort = 1
 state_building = {

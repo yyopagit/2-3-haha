@@ -3,6 +3,7 @@ controller = FRA
 add_core = FRA
 trade_goods = coal
 life_rating = 35 
+terrain = urban
 naval_base = 2
 #state_building = {
 #	level = 1

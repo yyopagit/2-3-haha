@@ -4,6 +4,7 @@ add_core = SIC
 add_core = ITA
 trade_goods = iron
 life_rating = 45 
+terrain = urban
 naval_base = 1
 #state_building = {
 #	level = 1

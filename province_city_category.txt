@@ -1,0 +1,515 @@
+# province_id TAB category (1=малый, 2=средний, 3=мегаполис, 1830-1850)
+# Сопоставление с history/provinces mod 5
+# СИНХРОНИЗИРОВАНО: terrain = urban в history; life_rating min 35 (кат.2) / 40 (кат.3)
+# terrain.bmp: RGB (64,97,12) = index 64 / text_64 urban (НЕ 64,64,64!)
+# terrain.txt: categories.urban color = { 0 0 0 } (не трогать — иначе ломается colorspace)
+# Бэкап карты: map/terrain.bmp.bak (и снимки terrain.bmp.bak_YYYYMMDD_* перед перекраской)
+# Последняя перекраска: только 246 провинций-городов, RGB (64,97,12)
+# GFX: province_interface.gfx — один спрайт GFX_terrainimg_urban -> terrain_urban.tga
+
+31	1
+46	2
+56	2
+57	1
+58	2
+65	2
+71	1
+84	1
+89	1
+103	1
+137	1
+139	2
+146	2
+163	2
+173	1
+182	2
+189	1
+204	1
+205	1
+211	1
+219	3
+220	2
+223	3
+227	1
+232	3
+236	1
+243	2
+263	3
+269	2
+271	2
+273	1
+277	2
+278	2
+282	2
+283	1
+284	2
+288	1
+296	2
+299	1
+300	3
+313	2
+322	2
+354	2
+372	2
+375	2
+376	1
+387	2
+390	2
+399	1
+409	1
+415	1
+423	1
+425	3
+451	2
+455	1
+458	2
+467	2
+487	2
+498	2
+503	1
+506	1
+509	1
+518	1
+521	2
+528	2
+530	1
+539	1
+549	3
+558	2
+559	2
+564	2
+575	2
+589	1
+595	1
+599	2
+603	1
+604	1
+607	1
+619	3
+625	2
+641	2
+658	1
+664	2
+690	1
+702	1
+703	1
+706	3
+720	2
+724	1
+726	2
+729	2
+744	1
+749	2
+754	3
+762	1
+783	1
+794	2
+801	1
+805	2
+806	1
+809	1
+834	2
+860	3
+869	2
+897	2
+902	2
+913	2
+917	2
+923	1
+926	2
+932	1
+958	2
+967	1
+968	2
+978	1
+994	3
+1008	3
+1030	1
+1058	1
+1102	1
+1121	2
+1127	2
+1151	1
+1152	1
+1153	1
+1166	1
+1227	3
+1236	3
+1240	2
+1242	3
+1245	2
+1247	2
+1251	3
+1252	1
+1257	1
+1283	3
+1288	2
+1296	2
+1297	3
+1299	2
+1303	1
+1304	3
+1314	2
+1318	1
+1321	1
+1323	1
+1330	2
+1346	2
+1357	1
+1364	1
+1369	2
+1375	1
+1380	2
+1384	2
+1386	1
+1388	2
+1405	1
+1412	1
+1413	2
+1418	1
+1455	2
+1465	1
+1481	1
+1482	2
+1493	3
+1496	2
+1498	2
+1522	2
+1538	3
+1539	2
+1559	2
+1578	2
+1587	1
+1594	1
+1604	2
+1608	2
+1612	3
+1649	3
+1655	3
+1657	3
+1661	2
+1680	2
+1690	2
+1700	2
+1704	1
+1723	1
+1725	2
+1731	2
+1745	3
+1751	3
+1803	2
+1852	1
+1884	1
+1887	1
+1907	1
+1910	2
+1923	1
+1945	2
+1999	1
+2029	1
+2048	2
+2049	1
+2087	2
+2111	2
+2142	1
+2162	1
+2166	2
+2172	3
+2176	2
+2177	1
+2183	1
+2209	3
+2213	2
+2214	2
+2221	2
+2237	2
+2247	2
+2252	1
+2264	2
+2279	2
+2295	3
+2302	1
+2310	2
+2314	2
+2324	2
+2325	2
+2328	1
+2334	1
+2339	2
+2344	2
+2348	3
+2432	2
+2436	2
+2447	3
+2450	2
+2454	1
+2468	2
+2469	1
+2476	2
+2482	2
+2483	1
+2491	1
+2497	1
+2509	2
+2512	1
+2565	1
+
+# Всего провинций с городом: 246
+# --- справка: id -> название провинции / город ---
+# 31	1	Stanley	(Falkland (Stanley))
+# 46	2	Toronto	(Toronto)
+# 56	2	Kingston	(Kingston)
+# 57	1	Ottawa	(Ottawa (Bytown))
+# 58	2	Montreal	(Montreal)
+# 65	2	Quebec City	(Quebec City)
+# 71	1	Halifax	(Halifax)
+# 84	1	San Francisco	(San Francisco)
+# 89	1	Los Angeles	(Los Angeles)
+# 103	1	Santa Fe	(Santa Fe)
+# 137	1	San Antonio	(San Antonio)
+# 139	2	New Orleans	(New Orleans)
+# 146	2	St Louis	(St Louis)
+# 163	2	Chicago	(Chicago)
+# 173	1	Detroit	(Detroit)
+# 182	2	Cincinnati	(Cincinnati)
+# 189	1	Memphis	(Memphis)
+# 204	1	Savannah	(Savannah)
+# 205	1	Charleston	(Charleston)
+# 211	1	Richmond	(Richmond)
+# 219	3	Baltimore	(Baltimore)
+# 220	2	Washington	(Washington)
+# 223	3	Philadelphia	(Philadelphia)
+# 227	1	Pittsburgh	(Pittsburgh)
+# 232	3	New York	(New York)
+# 236	1	Buffalo	(Buffalo)
+# 243	2	Boston	(Boston)
+# 263	3	Dublin	(Dublin)
+# 269	2	Edinburgh	(Edinburgh)
+# 271	2	Glasgow	(Glasgow)
+# 273	1	Cardiff	(Cardiff)
+# 277	2	Liverpool	(Liverpool)
+# 278	2	Manchester	(Manchester)
+# 282	2	Leeds	(Leeds)
+# 283	1	Sheffield	(Sheffield)
+# 284	2	Birmingham	(Birmingham)
+# 288	1	Nottingham	(Nottingham)
+# 296	2	Bristol	(Bristol)
+# 299	1	Plymouth	(Plymouth)
+# 300	3	London	(London)
+# 313	2	Christiania	(Oslo (Christiania))
+# 322	2	Stockholm	(Stockholm)
+# 354	2	Riga	(Riga)
+# 372	2	Copenhagen	(Copenhagen)
+# 375	2	Amsterdam	(Amsterdam)
+# 376	1	Rotterdam	(Rotterdam)
+# 387	2	Brussels	(Brussels)
+# 390	2	Antwerp	(Antwerp)
+# 399	1	Lille	(Lille)
+# 409	1	Strasbourg	(Strasbourg)
+# 415	1	Rouen	(Rouen)
+# 423	1	Nantes	(Nantes)
+# 425	3	Paris	(Paris)
+# 451	2	Lyon	(Lyon)
+# 455	1	Toulouse	(Toulouse)
+# 458	2	Bordeaux	(Bordeaux)
+# 467	2	Marseilles	(Marseille)
+# 487	2	Madrid	(Madrid)
+# 498	2	Barcelona	(Barcelona)
+# 503	1	Valencia	(Valencia)
+# 506	1	Cartagena	(Cartagena)
+# 509	1	Seville	(Seville)
+# 518	1	Oporto	(Porto)
+# 521	2	Lisbon	(Lisbon)
+# 528	2	Hamburg	(Hamburg)
+# 530	1	Lubeck	(Lübeck)
+# 539	1	Bremen	(Bremen)
+# 549	3	Berlin	(Berlin)
+# 558	2	Dresden	(Dresden)
+# 559	2	Leipzig	(Leipzig)
+# 564	2	Frankfurt	(Frankfurt)
+# 575	2	Cologne	(Cologne)
+# 589	1	Stuttgart	(Stuttgart)
+# 595	1	Nuremburg	(Nuremberg)
+# 599	2	Munich	(Munich)
+# 603	1	Zurich	(Zurich)
+# 604	1	Basel	(Basel)
+# 607	1	Geneva	(Geneva)
+# 619	3	Vienna	(Vienna)
+# 625	2	Prague	(Prague)
+# 641	2	Budapest	(Budapest)
+# 658	1	Hawaii	(Honolulu)
+# 664	2	Bucharest	(Bucharest)
+# 690	1	Danzig	(Gdansk (Danzig))
+# 702	1	Lvov	(Lviv (Lemberg))
+# 703	1	Krakow	(Krakow)
+# 706	3	Warsaw	(Warsaw)
+# 720	2	Turin	(Turin)
+# 724	1	Genoa	(Genoa)
+# 726	2	Milan	(Milan)
+# 729	2	Venice	(Venice)
+# 744	1	Florence	(Florence)
+# 749	2	Rome	(Rome)
+# 754	3	Naples	(Naples)
+# 762	1	Palermo	(Palermo)
+# 783	1	Sarajevo	(Sarajevo)
+# 794	2	Belgrade	(Belgrade)
+# 801	1	Tahiti	(Papeete)
+# 805	2	Salonika	(Thessaloniki)
+# 806	1	Skopje	(Skopje)
+# 809	1	Sofia	(Sofia)
+# 834	2	Athens	(Athens)
+# 860	3	Istanbul	(Constantinople)
+# 869	2	Izmir	(Smyrna (Izmir))
+# 897	2	Aleppo	(Aleppo)
+# 902	2	Damascus	(Damascus)
+# 913	2	Beirut	(Beirut)
+# 917	2	Jerusalem	(Jerusalem)
+# 923	1	Mosul	(Mosul)
+# 926	2	Baghdad	(Baghdad)
+# 932	1	Basra	(Basra)
+# 958	2	Kiev	(Kiev)
+# 967	1	Sevastopol	(Sevastopol)
+# 968	2	Odessa	(Odessa)
+# 978	1	Kharkov	(Kharkiv)
+# 994	3	St Petersburg	(Saint Petersburg)
+# 1008	3	Moscow	(Moscow)
+# 1030	1	Kazan	(Kazan)
+# 1058	1	Ekaterinburg	(Yekaterinburg)
+# 1102	1	Baku	(Baku)
+# 1121	2	Tehran	(Tehran)
+# 1127	2	Isfahan	(Isfahan)
+# 1151	1	Mecca	(Mecca)
+# 1152	1	Jidda	(Jeddah)
+# 1153	1	Medina	(Medina)
+# 1166	1	Muscat	(Muscat)
+# 1227	3	Lahore	(Lahore)
+# 1236	3	Delhi	(Delhi)
+# 1240	2	Agra	(Agra)
+# 1242	3	Lucknow	(Lucknow)
+# 1245	2	Benares	(Benares (Varanasi))
+# 1247	2	Patna	(Patna)
+# 1251	3	Calcutta	(Calcutta)
+# 1252	1	Darjeeling	(Darjeeling)
+# 1257	1	Chittagong	(Chittagong)
+# 1283	3	Hyderabad	(Hyderabad)
+# 1288	2	Karachi	(Karachi)
+# 1296	2	Surat	(Surat)
+# 1297	3	Bombay	(Bombay)
+# 1299	2	Poona	(Pune)
+# 1303	1	Goa	(Goa)
+# 1304	3	Madras	(Madras)
+# 1314	2	Mysore	(Mysore)
+# 1318	1	Cochin	(Cochin)
+# 1321	1	Colombo	(Colombo)
+# 1323	1	Kandy	(Kandy)
+# 1330	2	Rangoon	(Rangoon)
+# 1346	2	Bangkok	(Bangkok)
+# 1357	1	Vientiane	(Vientiane)
+# 1364	1	Phnom Penh	(Phnom Penh)
+# 1369	2	Hanoi	(Hanoi)
+# 1375	1	Hue	(Hue)
+# 1380	2	Saigon	(Saigon)
+# 1384	2	Singapore	(Singapore)
+# 1386	1	Malacca	(Malacca)
+# 1388	2	Penang	(Penang)
+# 1405	1	Banda Aceh	(Banda Aceh)
+# 1412	1	Aden	(Aden)
+# 1413	2	Batavia	(Batavia (Jakarta))
+# 1418	1	Surabaya	(Surabaya)
+# 1455	2	Manila	(Manila)
+# 1465	1	Urga	(Urga (Ulaanbaatar))
+# 1481	1	Port Arthur	(Dalian)
+# 1482	2	Fuzhou	(Fuzhou)
+# 1493	3	Canton	(Guangzhou)
+# 1496	2	Hong Kong	(Hong Kong)
+# 1498	2	Macao	(Macau)
+# 1522	2	Wuchang	(Wuhan (Hankou))
+# 1538	3	Shanghai	(Shanghai)
+# 1539	2	Suzhou	(Suzhou)
+# 1559	2	Xian	(Xi'an)
+# 1578	2	Chengdu	(Chengdu)
+# 1587	1	Lhasa	(Lhasa)
+# 1594	1	Kashgar	(Kashgar)
+# 1604	2	Hangzhou	(Hangzhou)
+# 1608	2	Ningbo	(Ningbo)
+# 1612	3	Beijing	(Beijing)
+# 1649	3	Edo	(Edo)
+# 1655	3	Osaka	(Osaka)
+# 1657	3	Kyoto	(Kyoto)
+# 1661	2	Nagasaki	(Nagasaki)
+# 1680	2	Fez	(Fez)
+# 1690	2	Marrakesh	(Marrakesh)
+# 1700	2	Algiers	(Algiers)
+# 1704	1	Oran	(Oran)
+# 1723	1	Panama Canal	(Panama City)
+# 1725	2	Tunis	(Tunis)
+# 1731	2	Tripoli	(Tripoli)
+# 1745	3	Cairo	(Cairo)
+# 1751	3	Alexandria	(Alexandria)
+# 1803	2	Timbuktu	(Timbuktu)
+# 1852	1	Gonder	(Gondar)
+# 1884	1	Freetown	(Freetown)
+# 1887	1	Monrovia	(Monrovia)
+# 1907	1	Accra	(Accra)
+# 1910	2	Kumasi	(Kumasi)
+# 1923	1	Lagos	(Lagos)
+# 1945	2	Kano	(Kano)
+# 1999	1	Luanda	(Luanda)
+# 2029	1	Mombasa	(Mombasa)
+# 2048	2	Zanzibar	(Zanzibar)
+# 2049	1	Maputo	(Lourenço Marques)
+# 2087	2	Cape Town	(Cape Town)
+# 2111	2	Durban	(Durban)
+# 2142	1	Chihuahua	(Chihuahua)
+# 2162	1	Veracruz	(Veracruz)
+# 2166	2	Guadalajara	(Guadalajara)
+# 2172	3	Mexico City	(Mexico City)
+# 2176	2	Puebla	(Puebla)
+# 2177	1	Oaxaca	(Oaxaca)
+# 2183	1	Merida	(Mérida)
+# 2209	3	Havana	(Havana)
+# 2213	2	Port Au Prince	(Port-au-Prince)
+# 2214	2	Santo Domingo	(Santo Domingo)
+# 2221	2	Nanjing	(Nanjing)
+# 2237	2	Trinidad	(Port of Spain)
+# 2247	2	Bogota	(Bogotá)
+# 2252	1	Medellin	(Medellín)
+# 2264	2	Caracas	(Caracas)
+# 2279	2	Quito	(Quito)
+# 2295	3	Lima	(Lima)
+# 2302	1	Cusco	(Cusco)
+# 2310	2	La Paz	(La Paz)
+# 2314	2	Potosi	(Potosí)
+# 2324	2	Santiago	(Santiago)
+# 2325	2	Valparaiso	(Valparaiso)
+# 2328	1	Valdivia	(Valdivia)
+# 2334	1	Punta Arenas	(Punta Arenas)
+# 2339	2	Asuncion	(Asunción)
+# 2344	2	Montevideo	(Montevideo)
+# 2348	3	Buenos Aires	(Buenos Aires)
+# 2432	2	Recife	(Recife)
+# 2436	2	Salvador de Bahia	(Salvador)
+# 2447	3	Rio de Janeiro	(Rio de Janeiro)
+# 2450	2	Sao Paulo	(São Paulo)
+# 2454	1	Fiji	(Suva)
+# 2468	2	Sydney	(Sydney)
+# 2469	1	Newcastle	(Newcastle)
+# 2476	2	Melbourne	(Melbourne)
+# 2482	2	Tasmania	(Hobart)
+# 2483	1	Brisbane	(Brisbane)
+# 2491	1	Adelaide	(Adelaide)
+# 2497	1	Perth	(Perth)
+# 2509	2	Auckland	(Auckland)
+# 2512	1	Wellington	(Wellington)
+# 2565	1	Cebu	(Cebu)
+
+# --- города без провинции на карте мода ---
+# ?	2	Murshidabad
+# ?	2	Xiamen (Amoy)
+# ?	1	Portsmouth
+# ?	1	The Hague
+# ?	1	Tbilisi
+# ?	1	Mandalay
+# ?	1	Harar
+# ?	1	Callao
+# ?	1	Levuka

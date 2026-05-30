@@ -3,6 +3,7 @@ controller = LOM
 add_core = ITA
 trade_goods = grain
 life_rating = 35 
+terrain = urban
 fort = 1
 #state_building = {
 #	level = 1

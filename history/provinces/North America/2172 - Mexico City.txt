@@ -1,6 +1,10 @@
-owner = MEX
+owner = MEX
+
 controller = MEX
-add_core = MEX
+
+add_core = MEX
+
 trade_goods = grain
 life_rating = 45 
-fort = 1
+terrain = urban
+fort = 1

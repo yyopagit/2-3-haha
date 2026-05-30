@@ -3,6 +3,7 @@ controller = SPA
 add_core = SPA
 trade_goods = grain
 life_rating = 45 
+terrain = urban
 state_building = {
 	level = 1
 	building = ammunition_factory
