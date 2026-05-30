@@ -1,10 +1,10 @@
 # province_id TAB category (1=малый, 2=средний, 3=мегаполис, 1830-1850)
 # Сопоставление с history/provinces mod 5
 # СИНХРОНИЗИРОВАНО: terrain = urban в history; life_rating min 35 (кат.2) / 40 (кат.3)
-# terrain.bmp: RGB (64,97,12) = index 64 / text_64 urban (НЕ 64,64,64!)
+# terrain.bmp: индекс 56 = RGB (156,139,228) / text_56 urban (см. map/terrain_palette.txt)
 # terrain.txt: categories.urban color = { 0 0 0 } (не трогать — иначе ломается colorspace)
-# Бэкап карты: map/terrain.bmp.bak (и снимки terrain.bmp.bak_YYYYMMDD_* перед перекраской)
-# Последняя перекраска: только 246 провинций-городов, RGB (64,97,12)
+# Бэкап карты: map/terrain.bmp.bak_* (перед перекраской)
+# Последняя перекраска: 246 провинций terrain=urban, палитра index 56
 # GFX: province_interface.gfx — один спрайт GFX_terrainimg_urban -> terrain_urban.tga
 # town_infrastructure = категория (1/2/3) в history провинций-городов
 
