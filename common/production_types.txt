@@ -470,6 +470,18 @@ steel_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.2
 	}
+	bonus = {
+		trigger = {
+			NOT = {
+				state_scope = {
+					any_owned_province = {
+						has_building = town_infrastructure
+					}
+				}
+			}
+		}
+		value = -0.7
+	}
 }
 
 steel_manufactory = {
