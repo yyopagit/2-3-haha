@@ -4,15 +4,182 @@ political_decisions = {
         potential = {
             ai = no
             tag = EGY
+            NOT = { has_country_flag = hide_others_decisions }
         }
         allow = {
             always = yes
         }
         effect = {
             country_event = 101300
+            set_country_flag = choosed_egy_form
         }
         ai_will_do = {
             factor = 0
+        }
+    }
+
+
+# Выбор баффов
+
+    choose_egy_buffs = {
+        potential = {
+            NOT = { has_country_flag = hide_others_decisions }
+            has_country_flag = choosed_egy_form
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            country_event = { id = 101010 days = 1 }
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+# Блок баффов 
+    Ottoman_buffs_to_egy = {
+        potential = {
+            has_country_flag = open_buffs_decisions
+        }
+        allow = {
+            tag = EGT
+            NOT = {has_country_modifier = couldown_buffs_egy}
+        }
+        effect = {
+            country_event = { id = 105001 days = 1 }
+            clr_country_flag = open_buffs_decisions
+            clr_country_flag = hide_others_decisions
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    France_buffs_to_egy = {
+        potential = {
+            has_country_flag = open_buffs_decisions
+        }
+        allow = {
+            tag = EGF
+            NOT = {has_country_modifier = couldown_buffs_egy}
+        }
+        effect = {
+            country_event = { id = 105002 days = 1 }
+            clr_country_flag = open_buffs_decisions
+            clr_country_flag = hide_others_decisions 
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    England_buffs_to_egy = {
+        potential = {
+            has_country_flag = open_buffs_decisions
+        }
+        allow = {
+            tag = EGA
+            NOT = {has_country_modifier = couldown_buffs_egy}
+        }
+        effect = {
+            country_event = { id = 105003 days = 1 }
+            clr_country_flag = open_buffs_decisions
+            clr_country_flag = hide_others_decisions 
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    Arabian_buffs_to_egy = {
+        potential = {
+            has_country_flag = open_buffs_decisions
+        }
+        allow = {
+            tag = ARA
+            NOT = {has_country_modifier = couldown_buffs_egy}
+        }
+        effect = {
+            country_event = { id = 105004 days = 1 }
+            clr_country_flag = open_buffs_decisions
+            clr_country_flag = hide_others_decisions 
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    Others_buffs_to_egy = {
+        potential = {
+            has_country_flag = open_buffs_decisions
+        }
+        allow = {
+            OR = {tag = ARA tag = EGF tag = EGA tag = EGT}
+            NOT = {has_country_modifier = couldown_buffs_egy}
+        }
+        effect = {
+            country_event = { id = 105005 days = 1 }
+            clr_country_flag = open_buffs_decisions
+            clr_country_flag = hide_others_decisions 
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    Exit_choose_buffs_egy = {
+        potential = {
+            has_country_flag = open_buffs_decisions
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            clr_country_flag = open_buffs_decisions
+            clr_country_flag = hide_others_decisions
+        }
+        ai_will_do = {
+            factor = 0
+        }
+    }
+
+# Решения на освоение
+
+    mastering_matruh_egy = {
+        potential = {
+            ai = no
+            has_country_flag = choosed_egy_form
+            NOT = {has_country_flag = finish_mastering_matruh}
+            NOT = { has_country_flag = hide_others_decisions }
+        }
+        allow = {
+            literacy = 0.03
+        }
+        effect = {
+            1761 = {add_province_modifier = {name = mega_mastering_desert duration = 450}}
+            1754 = {add_province_modifier = {name = mastering_desert duration = 900}}
+            1759 = {add_province_modifier = {name = mastering_desert duration = 900}}
+            1760 = {add_province_modifier = {name = mega_mastering_desert duration = 450}}
+            1758 = {add_province_modifier = {name = ultra_mastering_desert duration = 450}}
+            set_country_flag = finish_mastering_matruh
+        }
+    }
+
+    mastering_sinai= {
+        potential = {
+            ai = no
+            has_country_flag = choosed_egy_form
+            NOT = {has_country_flag = finish_mastering_sinai}
+            NOT = { has_country_flag = hide_others_decisions }
+        }
+        allow = {
+            literacy = 0.03
+            has_country_flag = finish_mastering_matruh
+        }
+        effect = {
+            1756 = {add_province_modifier = {name = ultra_mastering_desert duration = 450}}
+            1757 = {add_province_modifier = {name = ultra_mastering_desert duration = 450}}
+            922 = {add_province_modifier = {name = mega_mastering_desert duration = 450}}
+            911 = {add_province_modifier = {name = mega_mastering_desert duration = 450}}
+            910 = {add_province_modifier = {name = mega_mastering_desert duration = 450}}
+            909 = {add_province_modifier = {name = mega_mastering_desert duration = 450}}
+            set_country_flag = finish_mastering_sinai
         }
     }
 
@@ -23,6 +190,7 @@ political_decisions = {
             ai = no
             tag = FRA
             EGF = {NOT = {has_country_flag = start_fra_reforms}}
+            NOT = { has_country_flag = hide_others_decisions }
         }
         allow = {
             money = 50000
@@ -46,6 +214,7 @@ political_decisions = {
             tag = EGF
             has_country_flag = start_fra_reforms
             NOT = {has_country_flag = second_step_fra_reform}
+            NOT = { has_country_flag = hide_others_decisions }
         }
         allow = {
             literacy = 0.23
@@ -68,6 +237,7 @@ political_decisions = {
             tag = EGF
             has_country_flag = second_step_fra_reform
             NOT = {has_country_flag = complete_egf_reforms}
+            NOT = { has_country_flag = hide_others_decisions }
         }
         allow = {
             literacy = 0.3
@@ -96,6 +266,7 @@ political_decisions = {
             ai = no
             tag = ENG
             NOT = {has_country_flag = get_eng_to_ega_army_baff}
+            NOT = { has_country_flag = hide_others_decisions }
         }
         allow = {
             money = 100000
@@ -116,6 +287,7 @@ political_decisions = {
             ai = no
             has_country_flag = eng_to_ega_army_baff
             NOT = {has_country_flag = get_afr_ega_bonus}
+            NOT = { has_country_flag = hide_others_decisions }
         }
         allow = {
             literacy = 0.03

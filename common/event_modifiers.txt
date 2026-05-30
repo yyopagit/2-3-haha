@@ -658,6 +658,206 @@ eng_afric_frontier_ega = {
 	immigrant_push = -100
 	life_rating = 10
 }
+mastering_desert = {
+	immigrant_attract = 100
+	immigrant_push = -10000
+	life_rating = 0.5
+	population_growth = 0.05
+}
+mega_mastering_desert = {
+	immigrant_push = -10000
+	life_rating = 0.5
+	population_growth = 0.2
+}
+ultra_mastering_desert = {
+	immigrant_push = -100000
+	life_rating = 0.5
+	population_growth = 0.3
+}
+couldown_buffs_egy = {
+}
+#------------------------------------------------------Блок баффов----------------------------------------------------------
+
+# Ottoman модификаторы (105001)
+Ottoman_army_buffs_egy = {
+	cb_generation_speed_modifier = 0.2
+	army_tech_research_bonus = 0.10
+	supply_consumption = -0.10
+	reinforce_speed = 0.05
+	land_organisation = 0.2
+	culture_tech_research_bonus = -0.1
+	commerce_tech_research_bonus = -0.1
+	industry_tech_research_bonus = -0.1
+}
+Ottoman_economy_buffs_egy = {
+	tax_efficiency = 0.04
+	commerce_tech_research_bonus = 0.1
+	industry_tech_research_bonus = 0.1
+	army_tech_research_bonus = -0.1
+	navy_tech_research_bonus = -0.1
+	mine_RGO_eff = 0.2
+	farm_RGO_eff = 0.2
+}
+Ottoman_education_buffs_egy = {
+	education_efficiency_modifier = 0.3
+	culture_tech_research_bonus = 0.3
+	research_points_modifier = 0.1
+	army_tech_research_bonus = -0.1
+	navy_tech_research_bonus = -0.1
+	commerce_tech_research_bonus = -0.1
+	industry_tech_research_bonus = -0.1
+	population_growth = 0.0001
+	tax_efficiency = -0.06
+}
+Ottoman_population_buffs_egy = {
+	population_growth = 0.001
+	factory_owner_cost = -0.3
+	factory_output = 0.03
+	education_efficiency_modifier = 0.1
+	army_tech_research_bonus = -0.1
+	navy_tech_research_bonus = -0.1
+	commerce_tech_research_bonus = -0.1
+	industry_tech_research_bonus = -0.1
+	culture_tech_research_bonus = -0.1
+}
+
+# France модификаторы (105002)
+France_army_buffs_egy = {
+	cb_generation_speed_modifier = 0.3
+	army_tech_research_bonus = 0.2
+	supply_consumption = -0.15
+	reinforce_speed = 0.10
+	badboy = -0.02
+	land_unit_start_experience = 10
+	naval_unit_start_experience = 10
+	naval_organisation = 0.1
+	land_organisation = 0.1
+}
+France_economy_buffs_egy = {
+	tax_efficiency = 0.02
+	commerce_tech_research_bonus = 0.10
+	industry_tech_research_bonus = 0.10
+	factory_output = 0.1
+	factory_throughput = 0.2
+}
+France_education_buffs_egy = {
+	education_efficiency_modifier = 0.5
+	culture_tech_research_bonus = 0.2
+	research_points_modifier = 0.4
+	army_tech_research_bonus = -0.2
+	industry_tech_research_bonus = 0.1
+}
+France_population_buffs_egy = {
+	factory_cost = -0.3
+	industry_tech_research_bonus = 0.30
+	factory_throughput = 0.2
+}
+
+# England модификаторы (105003)
+England_army_buffs_egy = {
+	cb_generation_speed_modifier = 0.1
+	army_tech_research_bonus = 0.05
+	navy_tech_research_bonus = 0.20
+	supply_consumption = -0.2
+	reinforce_speed = 0.10
+	land_unit_start_experience = 15
+	naval_unit_start_experience = 5
+	naval_organisation = 0.2
+	culture_tech_research_bonus = -0.05
+	commerce_tech_research_bonus = -0.05
+	industry_tech_research_bonus = -0.05
+}
+England_economy_buffs_egy = {
+	tax_efficiency = 0.02
+	commerce_tech_research_bonus = 0.20
+	industry_tech_research_bonus = 0.30
+	factory_output = 0.05
+	factory_input = -0.01
+	factory_owner_cost = -0.2
+}
+England_education_buffs_egy = {
+	education_efficiency_modifier = 0.2
+	culture_tech_research_bonus = 0.3
+	research_points_modifier = 0.1
+	army_tech_research_bonus = -0.2
+	commerce_tech_research_bonus = 0.05
+	tax_efficiency = -0.02
+}
+England_population_buffs_egy = {
+	leadership_modifier = 0.3
+	naval_organisation = 0.1
+	land_organisation = 0.1
+}
+
+# Arabian модификаторы (105004)
+Arabian_army_buffs_egy = {
+	cb_generation_speed_modifier = 0.5
+	army_tech_research_bonus = 0.3
+	supply_consumption = -0.10
+	reinforce_speed = 0.2
+	badboy = -0.04
+	culture_tech_research_bonus = -0.10
+	commerce_tech_research_bonus = -0.10
+	industry_tech_research_bonus = -0.10
+	land_organisation = 0.25
+	land_unit_start_experience = 0.25
+}
+Arabian_economy_buffs_egy = {
+	tax_efficiency = 0.02
+	commerce_tech_research_bonus = 0.30
+	industry_tech_research_bonus = 0.10
+	mine_RGO_eff = 0.2
+	farm_RGO_eff = 0.2
+	navy_tech_research_bonus = -0.5
+	factory_cost = -0.3
+	factory_input = -0.1
+	factory_output = 0.1
+	factory_throughput = 0.2
+	factory_owner_cost = -0.1
+}
+Arabian_education_buffs_egy = {
+	tax_efficiency = -0.02
+	education_efficiency_modifier = 0.2
+	culture_tech_research_bonus = 0.3
+	research_points_modifier = 0.1
+	army_tech_research_bonus = 0.1
+}
+Arabian_population_buffs_egy = {
+	education_efficiency_modifier = -0.1
+	mobilisation_size = 0.02
+	cb_generation_speed_modifier = 0.5
+	army_tech_research_bonus = 0.4
+	supply_consumption = -0.2
+	reinforce_speed = 0.25
+	culture_tech_research_bonus = -0.20
+	commerce_tech_research_bonus = -0.20
+	industry_tech_research_bonus = -0.20
+	land_organisation = 0.3
+	land_unit_start_experience = 0.3
+}
+
+# Others модификаторы (105005)
+Others_army_buffs_egy = {
+	cb_generation_speed_modifier = 0.2
+	army_tech_research_bonus = 0.10
+	naval_organisation = 0.10
+	supply_consumption = -0.05
+	reinforce_speed = 0.05
+	badboy = -0.05
+}
+Others_economy_buffs_egy = {
+	factory_cost = -0.1
+	factory_output = 0.1
+	tax_efficiency = 0.08
+	commerce_tech_research_bonus = 0.20
+	industry_tech_research_bonus = 0.20
+}
+Others_education_buffs_egy = {
+	education_efficiency_modifier = 0.3
+	culture_tech_research_bonus = 0.1
+	research_points_modifier = 0.3
+}
+
 #-------------------------------------------------------КАНАДА И ЮАР-------------------------------------------------------
 # navy_bonus_by_can = {
 #     local_ship_build = -0.01

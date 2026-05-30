@@ -103,7 +103,6 @@ political_decisions = {
 		potential = {
 			NOT = { has_country_flag = sasai_kudasai }
 			OR = { 
-				tag = EGY
 				tag = ARA 
 			}
 		}
@@ -135,7 +134,6 @@ enact_muhammad_alis_reforms = {
  picture = enact_muhammad_alis_reforms
 		potential = {
 			OR = { 
-			tag = EGY
 			tag = ARA
  }
 			civilized = no
@@ -179,7 +177,7 @@ enact_muhammad_alis_reforms = {
 			}}
 			HDJ = {
 			add_casus_belli = {
-				target = EGY
+				target = ARA
 				type = conquest2
 				months = 12
 			}}
@@ -334,76 +332,6 @@ money = 5000000
 	  }
 		}
 	}
-	north_africa = {
-	picture = form_italy_min
-		potential = {
-		OR = { 
-		tag = FRA
-		tag = TUR
-		tag = ITA
-		tag = SPA
-		tag = ARA
-		tag = EGY
-		}
-		NOT = { has_global_flag = expand_ended }
-		}
-		allow = {
-			OR = {
-				MOR_1688 = { owned_by = THIS }
-				MOR_1688 = { owner = { in_sphere = THIS }}
-			}
-			OR = {
-				MOR_1683 = { owned_by = THIS }
-				MOR_1683 = { owner = { in_sphere = THIS }}
-			}
-			OR = {
-				MOR_1686 = { owned_by = THIS }
-				MOR_1686 = { owner = { in_sphere = THIS }}
-			}
-			OR = {
-				MOR_1693 = { owned_by = THIS }
-				MOR_1693 = { owner = { in_sphere = THIS }}
-			}
-			OR = {
-				MOR_1696 = { owned_by = THIS }
-				MOR_1696 = { owner = { in_sphere = THIS }}
-			}
-			OR = {
-				FRA_1700 = { owned_by = THIS }
-				FRA_1700 = { owner = { in_sphere = THIS }}
-			}
-			OR = {
-				ALD_1704 = { owned_by = THIS }
-				ALD_1704 = { owner = { in_sphere = THIS }}
-			}
-			OR = {
-				ALD_1708 = { owned_by = THIS }
-				ALD_1708 = { owner = { in_sphere = THIS }}
-			}
-			OR = {
-				TUN_1726 = { owned_by = THIS }
-				TUN_1726 = { owner = { in_sphere = THIS }}
-			}
-			OR = {
-				TRI_1743 = { owned_by = THIS }
-				TRI_1743 = { owner = { in_sphere = THIS }}
-			}
-			OR = {
-				EGY_1753 = { owned_by = THIS }
-				EGY_1753 = { owner = { in_sphere = THIS }}
-			}
-		}
-		effect = { 
-		set_country_flag = exp_end
-		set_global_flag = expand_ended
-		EGY_1753 = { remove_core = ARA }
-		TRI = { all_core = {remove_core = TRI}}
-		ALD = { all_core = {remove_core = FRA}}
-		MOR = { all_core = {remove_core = MOR}}
-		TUN = { all_core = {remove_core = TUN}}
-		prestige = 150
-		}
-	}
 	Osman_peredacha = {
         picture = OSMAN_PEREDACHA
         potential = {
@@ -412,7 +340,7 @@ money = 5000000
 				tag = EGY
 				tag = ARA
 			}
-            NOT = { has_country_flag = creat }
+            NOT = { has_country_flag = creat has_country_flag = egy_button_1}
         }
         allow = {
             war = no
@@ -534,6 +462,7 @@ vibor_techshkol3 = {
 		potential = {
 			ARA = { exists = no }
 			is_culture_group = arab
+			NOT = { has_country_flag = hide_others_decisions }
 		}
 		allow = {
 			OR = { 

@@ -286,6 +286,176 @@ country_event = {
 }
 
 country_event = {
+    id = 101010
+    is_triggered_only = yes
+    title = "EVTNAME101010"
+    desc = "EVTDESC101010"
+    
+    option = {
+        name = "EVTOPTA101010"
+        set_country_flag = hide_others_decisions
+        set_country_flag = open_buffs_decisions
+    }
+}
+
+# Баффы египта
+country_event = {
+	id = 105001
+	option = {
+		name = "EVTOPTA105001"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = Ottoman_army_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTB105001"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = Ottoman_economy_buffs_egyduration = 1880}
+	}
+	option = {
+		name = "EVTOPTC105001"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = Ottoman_education_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTD105001"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = Ottoman_population_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTE105001"
+		prestige = -1
+	}
+	title = "EVTNAME105001"
+	desc = "EVTDESC105001"
+	picture = "sultan"
+	is_triggered_only = yes
+}
+
+country_event = {
+	id = 105002
+	option = {
+		name = "EVTOPTA105002"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = France_army_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTB105002"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = France_economy_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTC105002"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = France_education_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTD105002"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = France_population_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTE105002"
+		prestige = -1
+	}
+	title = "EVTNAME105002"
+	desc = "EVTDESC105002"
+	picture = "sultan"
+	is_triggered_only = yes
+}
+
+country_event = {
+	id = 105003
+	option = {
+		name = "EVTOPTA105003"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = England_army_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTB105003"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = England_economy_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTC105003"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = England_education_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTD105003"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = England_population_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTE105003"
+		prestige = -1
+	}
+	title = "EVTNAME105003"
+	desc = "EVTDESC105003"
+	picture = "sultan"
+	is_triggered_only = yes
+}
+
+country_event = {
+	id = 105004
+	option = {
+		name = "EVTOPTA105004"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = Arabian_army_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTB105004"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = Arabian_economy_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTC105004"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = Arabian_education_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTD105004"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = Arabian_population_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTE105004"
+		prestige = -1
+	}
+	title = "EVTNAME105004"
+	desc = "EVTDESC105004"
+	picture = "sultan"
+	is_triggered_only = yes
+}
+
+country_event = {
+	id = 105005
+	option = {
+		name = "EVTOPTA105005"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = Others_army_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTB105005"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = Others_economy_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTC105005"
+		add_country_modifier = {name = couldown_buffs_egy duration = 1880}
+		add_country_modifier = {name = Others_education_buffs_egy duration = 1880}
+	}
+	option = {
+		name = "EVTOPTE105005"
+		prestige = -1
+	}
+	title = "EVTNAME105005"
+	desc = "EVTDESC105005"
+	picture = "administration"
+	is_triggered_only = yes
+}
+
+
+country_event = {
 
 	id = 38500
 	news = yes

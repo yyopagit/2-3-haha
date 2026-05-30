@@ -2,6 +2,7 @@ political_decisions = {
 	gon_kong = {
 		picture = build_kiel_canal
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			NOT = { has_country_flag = gon_kong }
 			1496 = { owned_by = THIS }
 		}
@@ -12,14 +13,15 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			badboy = 5
-			1496 = {trade_goods = precious_metal}
+			1496 = { trade_goods = precious_metal }
 			set_country_flag = gon_kong
 		}
 	}
 	dip_med = {
-	picture = dip_med
+		picture = dip_med
 		potential = {
- civilized = yes
+			NOT = { has_country_flag = hide_others_decisions }
+			civilized = yes
 			NOT = {
 				has_country_flag = dip_med
 			}
@@ -42,9 +44,10 @@ political_decisions = {
 		}
 	}
 	dip_med1 = {
-	picture = dip_med
+		picture = dip_med
 		potential = {
-		has_country_flag = dip_med
+			NOT = { has_country_flag = hide_others_decisions }
+			has_country_flag = dip_med
 			NOT = {
 				has_country_flag = dip_med1
 			}
@@ -68,10 +71,11 @@ political_decisions = {
 		}
 	}
 	dip_med2 = {
-	picture = dip_med
+		picture = dip_med
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			prestige = 10
-		has_country_flag = dip_med1
+			has_country_flag = dip_med1
 			NOT = {
 				has_country_flag = dip_med2
 			}
@@ -95,10 +99,11 @@ political_decisions = {
 		}
 	}
 	dip_med3 = {
-	picture = dip_med
+		picture = dip_med
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			prestige = 10
-		has_country_flag = dip_med2
+			has_country_flag = dip_med2
 			NOT = {
 				has_country_flag = dip_med3
 			}
@@ -122,10 +127,11 @@ political_decisions = {
 		}
 	}
 	dip_med4 = {
-	picture = dip_med
+		picture = dip_med
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			prestige = 15
-		has_country_flag = dip_med3
+			has_country_flag = dip_med3
 			NOT = {
 				has_country_flag = dip_med4
 			}
@@ -149,10 +155,11 @@ political_decisions = {
 		}
 	}
 	dip_med5 = {
-	picture = dip_med
+		picture = dip_med
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			prestige = 30
-		has_country_flag = dip_med4
+			has_country_flag = dip_med4
 			NOT = {
 				has_country_flag = dip_med5
 			}
@@ -164,7 +171,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = dip_med5
 			remove_country_modifier = med_ref_mp4
-			add_country_modifier = {		
+			add_country_modifier = {
 				name = med_ref_mp5
 				duration = 100000
 			}
@@ -177,7 +184,8 @@ political_decisions = {
 	}
 	form_republic_a = {
 		potential = {
-		year = 1870
+			NOT = { has_country_flag = hide_others_decisions }
+			year = 1870
 			government = democracy
 			NOT = {
 				has_country_modifier = republic_a
@@ -191,9 +199,9 @@ political_decisions = {
 			}
 			ai = no
 		}
-		allow = {			
+		allow = {
 			prestige = 300
-			year = 1880			
+			year = 1880
 		}
 		effect = {
 			add_country_modifier = {
@@ -211,7 +219,8 @@ political_decisions = {
 	}
 	form_republic_b = {
 		potential = {
-		year = 1870
+			NOT = { has_country_flag = hide_others_decisions }
+			year = 1870
 			government = democracy
 			NOT = {
 				has_country_modifier = republic_a
@@ -225,9 +234,9 @@ political_decisions = {
 			}
 			ai = no
 		}
-		allow = {			
+		allow = {
 			prestige = 300
-			year = 1880		
+			year = 1880
 		}
 		effect = {
 			set_country_flag = republic1_b
@@ -245,7 +254,8 @@ political_decisions = {
 	}
 	form_comunist_a = {
 		potential = {
-		year = 1870
+			NOT = { has_country_flag = hide_others_decisions }
+			year = 1870
 			government = proletarian_dictatorship
 			NOT = {
 				has_country_modifier = republic_a
@@ -259,9 +269,9 @@ political_decisions = {
 			}
 			ai = no
 		}
-		allow = {			
+		allow = {
 			prestige = 300
-			year = 1880			
+			year = 1880
 		}
 		effect = {
 			add_country_modifier = {
@@ -278,7 +288,8 @@ political_decisions = {
 	}
 	form_comunist_b = {
 		potential = {
-		year = 1870
+			NOT = { has_country_flag = hide_others_decisions }
+			year = 1870
 			government = proletarian_dictatorship
 			NOT = {
 				has_country_modifier = republic_a
@@ -292,9 +303,9 @@ political_decisions = {
 			}
 			ai = no
 		}
-		allow = {			
+		allow = {
 			prestige = 300
-			year = 1880			
+			year = 1880
 		}
 		effect = {
 			set_country_flag = communist_b
@@ -311,6 +322,7 @@ political_decisions = {
 	}
 	form_fashist_a = {
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			government = fascist_dictatorship
 			NOT = {
 				has_country_modifier = republic_a
@@ -324,9 +336,9 @@ political_decisions = {
 			}
 			ai = no
 		}
-		allow = {			
+		allow = {
 			prestige = 500
-			year = 1880			
+			year = 1880
 		}
 		effect = {
 			add_country_modifier = {
@@ -344,6 +356,7 @@ political_decisions = {
 	}
 	form_fashist_b = {
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			government = fascist_dictatorship
 			NOT = {
 				has_country_modifier = republic_a
@@ -357,7 +370,7 @@ political_decisions = {
 			}
 			ai = no
 		}
-		allow = {			
+		allow = {
 			prestige = 500
 			year = 1880
 		}
@@ -377,9 +390,10 @@ political_decisions = {
 	}
 	form_bourgeois_a = {
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			OR = {
-			government = presidential_dictatorship
-			government = bourgeois_dictatorship
+				government = presidential_dictatorship
+				government = bourgeois_dictatorship
 			}
 			NOT = {
 				has_country_modifier = republic_a
@@ -393,8 +407,8 @@ political_decisions = {
 			}
 			ai = no
 		}
-		allow = {			
-			year = 1836			
+		allow = {
+			year = 1836
 		}
 		effect = {
 			add_country_modifier = {
@@ -417,13 +431,14 @@ political_decisions = {
 	srart_copenhagen = {
 		picture = bosfor_and_dar
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			owns = 372
 			NOT = {
 				is_canal_enabled = 6
 			}
 		}
 		allow = {
-			owns = 372			
+			owns = 372
 		}
 		effect = {
 			enable_canal = 6
@@ -437,68 +452,72 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	assimilation_spread = { 
+	assimilation_spread = {
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			year = 1885
 			civilized = yes
 			NOT = {
 				has_country_flag = assimilation_spread
 			}
 		}
-		allow = { 
-		invention = family_planning
- 		year = 1890
+		allow = {
+			invention = family_planning
+			year = 1890
 		}
 		effect = {
 			set_country_flag = assimilation_spread
 			any_pop = {
 				militancy = 1
- }
+			}
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-    obrazovanue1 = {
-     picture = enact_the_homestead_act
-	potential = {
-	year = 1845
-	ai = no
-	NOT = { 
-	 has_country_modifier = obrazovanue_cost
-	}
-	}
-        allow = {
-            money = 1500000
-			biologism = 1
-        }
-            effect = {
-				add_country_modifier = {
-                name = obrazovanue_cost
-                duration = 365
-                }
-				money = -1500000 
-				prestige = 5
+	obrazovanue1 = {
+		picture = enact_the_homestead_act
+		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
+			year = 1845
+			ai = no
+			NOT = {
+				has_country_modifier = obrazovanue_cost
 			}
-    }
-FAQ_dec = { 
-	alert = no 
-	potential = { 
-	ai = no 
 		}
-	allow = { 
-	year = 1836
+		allow = {
+			money = 1500000
+			biologism = 1
 		}
-	effect = { 
-	country_event = 145110
+		effect = {
+			add_country_modifier = {
+				name = obrazovanue_cost
+				duration = 365
+			}
+			money = -1500000
+			prestige = 5
 		}
-	ai_will_do = {
-				factor = 0
+	}
+	FAQ_dec = {
+		alert = no
+		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
+			ai = no
+		}
+		allow = {
+			year = 1836
+		}
+		effect = {
+			country_event = 145110
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 	belize_offer_to_mexico = {
 		alert = no
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			2190 = { owned_by = THIS }
 			exists = MEX
 			NOT = { has_country_flag = belize_offered }
@@ -510,114 +529,119 @@ FAQ_dec = {
 			set_country_flag = belize_offered
 			country_event = 9991211
 		}
-		ai_will_do = { factor = 0 }
-	}
-	raskopka1 = { 
-	alert = no 
-	potential = {
-	ai = no 
-  not = {has_country_flag = pora_kopat}	
-	year = 1860
+		ai_will_do = {
+			factor = 0
 		}
-	allow = { 
+	}
+	raskopka1 = {
+		alert = no
+		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
+			ai = no
+			not = { has_country_flag = pora_kopat }
+			year = 1860
+		}
+		allow = {
 			year = 1870
 			money = 500000
 		}
-	effect = {
-	set_country_flag = pora_kopat
-	money = -500000
-any_owned = {
-limit = {
-or = { 
-province_id = 1875
-province_id = 1463
-province_id = 1626
-province_id = 1621
-province_id = 888
-province_id = 893
-province_id = 1100
-province_id = 1098
-province_id = 1059
-province_id = 1060
-province_id = 1044
-province_id = 342
-province_id = 492
-province_id = 515
-province_id = 1709
-province_id = 739
-province_id = 563
-province_id = 592
-province_id = 392
-province_id = 413
-province_id = 427
-province_id = 286
-province_id = 44
-province_id = 75
-province_id = 146
-province_id = 168
-province_id = 2330
-province_id = 2327
-province_id = 2325
-province_id = 2324
-province_id = 2326
-province_id = 2323
-province_id = 2243
-province_id = 2169
-province_id = 100
-province_id = 13
-province_id = 562
-province_id = 634
-province_id = 635
-province_id = 616
-province_id = 774
-province_id = 52
-province_id = 28
-province_id = 854
-province_id = 1978
-}
-not = { trade_goods = iron }
-}
-add_province_modifier = {
-			name = "raskopka"
-			duration = -1
+		effect = {
+			set_country_flag = pora_kopat
+			money = -500000
+			any_owned = {
+				limit = {
+					or = {
+						province_id = 1875
+						province_id = 1463
+						province_id = 1626
+						province_id = 1621
+						province_id = 888
+						province_id = 893
+						province_id = 1100
+						province_id = 1098
+						province_id = 1059
+						province_id = 1060
+						province_id = 1044
+						province_id = 342
+						province_id = 492
+						province_id = 515
+						province_id = 1709
+						province_id = 739
+						province_id = 563
+						province_id = 592
+						province_id = 392
+						province_id = 413
+						province_id = 427
+						province_id = 286
+						province_id = 44
+						province_id = 75
+						province_id = 146
+						province_id = 168
+						province_id = 2330
+						province_id = 2327
+						province_id = 2325
+						province_id = 2324
+						province_id = 2326
+						province_id = 2323
+						province_id = 2243
+						province_id = 2169
+						province_id = 100
+						province_id = 13
+						province_id = 562
+						province_id = 634
+						province_id = 635
+						province_id = 616
+						province_id = 774
+						province_id = 52
+						province_id = 28
+						province_id = 854
+						province_id = 1978
+					}
+					not = { trade_goods = iron }
+				}
+				add_province_modifier = {
+					name = "raskopka"
+					duration = -1
+				}
+			}
 		}
-}	
-		}
-	ai_will_do = {
-				factor = 0
+		ai_will_do = {
+			factor = 0
 		}
 	}
-	raskopka2 = { 
-	alert = no 
-	potential = { 
-	any_owned_province = {
+	raskopka2 = {
+		alert = no
+		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
+			any_owned_province = {
 				has_province_modifier = raskopka
 			}
-			not = {has_country_flag = kopaem}
+			not = { has_country_flag = kopaem }
 		}
-	allow = { 
-	year = 1850
-	money = 500000
+		allow = {
+			year = 1850
+			money = 500000
 		}
-	effect = { 
-	money = -500000
-	country_event = 1011016
+		effect = {
+			money = -500000
+			country_event = 1011016
 		}
-	ai_will_do = {
-				factor = 0.5
+		ai_will_do = {
+			factor = 0.5
 		}
 	}
 	war_push = {
-		alert = yes 
+		alert = yes
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			or = {
 				has_country_modifier = republic_a
 				has_country_modifier = comunist_a
 				has_country_modifier = fashist_a
 				has_country_modifier = bourgeois_a
 			}
-		not = {has_country_flag = war_push_used}
-		war_exhaustion = 50
+			not = { has_country_flag = war_push_used }
+			war_exhaustion = 50
 		}
 		allow = {
 			money = 1000000
@@ -634,121 +658,126 @@ add_province_modifier = {
 		}
 	}
 	war_def = {
-	alert = yes 
-	potential = {
-	or = {
-	has_country_modifier = republic_b
-	has_country_modifier = comunist_b
-	has_country_modifier = fashist_b
-	has_country_modifier = bourgeois_b
-	 }
-	 not = {has_country_flag = war_def_used}
-	 war_exhaustion = 50
-}
-allow = {
-money = 1000000
-   war_exhaustion = 50
-war = yes
-}
-effect = {
-money = -1000000
-set_country_flag = war_def_used
- add_country_modifier = {
-name = war_test_def
-duration = 100
-}
-}
+		alert = yes
+		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
+			or = {
+				has_country_modifier = republic_b
+				has_country_modifier = comunist_b
+				has_country_modifier = fashist_b
+				has_country_modifier = bourgeois_b
+			}
+			not = { has_country_flag = war_def_used }
+			war_exhaustion = 50
+		}
+		allow = {
+			money = 1000000
+			war_exhaustion = 50
+			war = yes
+		}
+		effect = {
+			money = -1000000
+			set_country_flag = war_def_used
+			add_country_modifier = {
+				name = war_test_def
+				duration = 100
+			}
+		}
 	}
-sanatoriy = {
-	alert = yes 
-	potential = {
-	year = 1870
-	is_greater_power = no
-	 not = {has_country_flag = sanatoriy_used}
-}
-allow = {
-year = 1880
-electric_gear = 10000
-money = 1000000
-  any_owned_province = {
-	 not = {total_pops = 300000}
-	units_in_province = 12
-	not = {units_in_province = 13}
-	is_colonial = no
+	sanatoriy = {
+		alert = yes
+		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
+			year = 1870
+			is_greater_power = no
+			not = { has_country_flag = sanatoriy_used }
+		}
+		allow = {
+			year = 1880
+			electric_gear = 10000
+			money = 1000000
+			any_owned_province = {
+				not = { total_pops = 300000 }
+				units_in_province = 12
+				not = { units_in_province = 13 }
+				is_colonial = no
+			}
+		}
+		effect = {
+			electric_gear = -10000
+			money = -1000000
+			set_country_flag = sanatoriy_used
+			random_owned = {
+				limit = {
+					not = { total_pops = 300000 }
+					units_in_province = 12
+					not = { units_in_province = 13 }
+				}
+				add_province_modifier = {
+					name = government_sanitarium2
+					duration = -1
+				}
+			}
+		}
 	}
-}
-effect = {
-electric_gear = -10000
-money = -1000000
-set_country_flag = sanatoriy_used
-random_owned = {	
-limit = {
-  not = {total_pops = 300000}
-units_in_province = 12
-not = {units_in_province = 13}
-}     
-	 add_province_modifier = {
-	 name = government_sanitarium2
-	 duration = -1
-	 }
-	 }
-}
-	}
- change_gov_type = {
- picture = palais_garnier
-	alert = yes 
-	potential = {
-		year = 1875
+	change_gov_type = {
+		picture = palais_garnier
+		alert = yes
+		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
+			year = 1875
 			NOT = {
 				year = 1905
 			}
-               }
-     allow = {
-	 	year = 1880
-		literacy = 0.7
-		NOT = {
+		}
+		allow = {
+			year = 1880
+			literacy = 0.7
+			NOT = {
 				has_country_modifier = gov_changed
 			}
-             }
-	effect = {
-	 add_country_modifier = {
-	 name = gov_changed
-	 duration = 3652
-	                        }
- country_event = { id=347105 days=0 }
-            }
-	                }
-change_gov_type2 = {
-picture = palais_garnier
-	alert = yes 
-	potential = {
-		year = 1900
-               }
-     allow = {
-	 	year = 1905
-		literacy = 0.8
-		NOT = {
-				has_country_modifier = gov_changed
+		}
+		effect = {
+			add_country_modifier = {
+				name = gov_changed
+				duration = 3652
 			}
-             }
-	effect = {
-	 add_country_modifier = {
-	 name = gov_changed
-	 duration = 3652
-	                        }
- country_event = { id=347005 days=0 }
-            }
-	                }
-		go_to_regular_focus = {
+			country_event = { id = 347105 days = 0 }
+		}
+	}
+	change_gov_type2 = {
 		picture = palais_garnier
-	alert = yes 
-	potential = {
-	year = 1870
-               }
-     allow = {
-	 	year = 1880
-	 ai = no
-		NOT = {
+		alert = yes
+		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
+			year = 1900
+		}
+		allow = {
+			year = 1905
+			literacy = 0.8
+			NOT = {
+				has_country_modifier = gov_changed
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = gov_changed
+				duration = 3652
+			}
+			country_event = { id = 347005 days = 0 }
+		}
+	}
+	go_to_regular_focus = {
+		picture = palais_garnier
+		alert = yes
+		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
+			year = 1870
+		}
+		allow = {
+			year = 1880
+			ai = no
+			NOT = {
 				has_country_flag = changed_army2
 			}
 			NOT = {
@@ -756,85 +785,89 @@ picture = palais_garnier
 			}
 			war = no
 			is_mobilised = no
-             }
-	effect = {
-	 add_country_modifier = {
-	 name = army_changed
-	 duration = -1
-	                        }
-  set_country_flag = changed_army
-            }
-	                }
-		go_back_to_mobile = {
+		}
+		effect = {
+			add_country_modifier = {
+				name = army_changed
+				duration = -1
+			}
+			set_country_flag = changed_army
+		}
+	}
+	go_back_to_mobile = {
 		picture = palais_garnier
-	alert = yes 
-	potential = {
-	has_country_flag = changed_army
-	year = 1865
-               }
-     allow = {
-	 	year = 1870
-		 ai = no
-		NOT = {
+		alert = yes
+		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
+			has_country_flag = changed_army
+			year = 1865
+		}
+		allow = {
+			year = 1870
+			ai = no
+			NOT = {
 				has_country_modifier = army_changed2
 			}
-             }
-	effect = {
-	remove_country_modifier = army_changed
-	 add_country_modifier = {
-	 name = army_changed2		
-	 duration = 1825
-	                        }
-							set_country_flag = changed_army2
- country_event = { id=99912115 days=1825 }
-  clr_country_flag = changed_army
-            }
-	                }
-experience = { 
-	picture = expand_motala_verkstad
+		}
+		effect = {
+			remove_country_modifier = army_changed
+			add_country_modifier = {
+				name = army_changed2
+				duration = 1825
+			}
+			set_country_flag = changed_army2
+			country_event = { id = 99912115 days = 1825 }
+			clr_country_flag = changed_army
+		}
+	}
+	experience = {
+		picture = expand_motala_verkstad
 		potential = {
-		year = 1845
-		THIS = {
-		NOT = { has_country_modifier = exp }
+			NOT = { has_country_flag = hide_others_decisions }
+			year = 1845
+			THIS = {
+				NOT = { has_country_modifier = exp }
 			}
 		}
 		allow = {
-		money = 1500000
-		army_decision_making = 1
+			money = 1500000
+			army_decision_making = 1
 		}
-		effect = { 
-		money = -1500000
-		 add_country_modifier = {
-		name = exp
-		duration = 1825
+		effect = {
+			money = -1500000
+			add_country_modifier = {
+				name = exp
+				duration = 1825
 			}
 		}
 	}
-	fabrics = { 
-	picture = the_grunderzeit
+	fabrics = {
+		picture = the_grunderzeit
 		potential = {
-		year = 1845
-		THIS = {
-		NOT = { has_country_modifier = fabrics }
+			NOT = { has_country_flag = hide_others_decisions }
+			year = 1845
+			THIS = {
+				NOT = { has_country_modifier = fabrics }
 			}
 		}
 		allow = {
-		money = 1500000
-		early_railroad = 1
+			money = 1500000
+			early_railroad = 1
 		}
-		effect = { 
-		money = -1500000
-		 add_country_modifier = {
-		name = fabrics
-		duration = 1095
+		effect = {
+			money = -1500000
+			add_country_modifier = {
+				name = fabrics
+				duration = 1095
 			}
 		}
 	}
 	build_kiel_canal = {
-	picture = build_kiel_canal
+		picture = build_kiel_canal
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			NOT = { is_canal_enabled = 1 }
-			owns = 369	
+			owns = 369
 		}
 		allow = {
 			mechanical_production = 1
@@ -849,7 +882,7 @@ experience = {
 			money = -600000
 			add_country_modifier = {
 				name = kiel
-				duration = 100000	
+				duration = 100000
 			}
 		}
 		ai_will_do = {
@@ -864,6 +897,7 @@ experience = {
 		picture = give_money
 		alert = no
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			NOT = { has_country_flag = hide_all_decs_flag }
 			ai = no
 		}
@@ -875,8 +909,9 @@ experience = {
 		}
 	}
 	enact_liquor_prohibition = {
-	picture = enact_liquor_prohibition
+		picture = enact_liquor_prohibition
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			has_country_modifier = temperance_league
 			NOT = {
 				OR = {
@@ -910,39 +945,41 @@ experience = {
 						liberal = 60
 					}
 				}
-			}		
+			}
 		}
 	}
 	abolish_prohibition = {
 		picture = abolish_prohibition
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			has_country_modifier = liquor_prohibition
 		}
 		allow = {
-				OR = {
-					government = proletarian_dictatorship
-					government = fascist_dictatorship
-					government = bourgeois_dictatorship
-					government = presidential_dictatorship
-					NOT = {	
-						liberal = 50 
-					}
-					NOT = { 
-						moralism = 20
-					}
+			OR = {
+				government = proletarian_dictatorship
+				government = fascist_dictatorship
+				government = bourgeois_dictatorship
+				government = presidential_dictatorship
+				NOT = {
+					liberal = 50
 				}
+				NOT = {
+					moralism = 20
+				}
+			}
 		}
 		effect = {
-		 	add_country_modifier = {
-			name = prohibition_cancelled
-			duration = 500
-		}
-		    remove_country_modifier = liquor_prohibition
+			add_country_modifier = {
+				name = prohibition_cancelled
+				duration = 500
+			}
+			remove_country_modifier = liquor_prohibition
 		}
 	}
 	institute_central_bank = {
-	picture = institute_central_bank
+		picture = institute_central_bank
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			NOT = {
 				has_country_modifier = central_bank_established
 			}
@@ -963,6 +1000,7 @@ experience = {
 	enact_female_suffrage = {
 		picture = enact_female_suffrage
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			year = 1870
 			civilized = yes
 			NOT = { has_country_modifier = female_suffrage }
@@ -974,7 +1012,7 @@ experience = {
 			OR = {
 				vote_franschise = universal_weighted_voting
 				vote_franschise = universal_voting
-			}	
+			}
 		}
 		allow = {
 			social_science = 1
@@ -1004,9 +1042,10 @@ experience = {
 		}
 	}
 	leave_soi = {
-	picture = leave_soi
+		picture = leave_soi
 		alert = no
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			part_of_sphere = yes
 		}
 		allow = {
@@ -1015,16 +1054,16 @@ experience = {
 				NOT = { relation = {
 					who = THIS
 					value = 0
-					}
-				truce_with = THIS
 				}
+				truce_with = THIS
+			}
 			}
 		}
 		effect = {
 			sphere_owner = {
 				diplomatic_influence = {
-				who = THIS
-				value = -200
+					who = THIS
+					value = -200
 				}
 			}
 		}
@@ -1033,16 +1072,17 @@ experience = {
 			modifier = {
 				factor = 0
 				sphere_owner = {
-						brigades_compare = 3
+					brigades_compare = 3
 				}
 			}
 		}
 	}
 	nationalize = {
-	picture = nationalize
+		picture = nationalize
 		alert = no
 		potential = {
-			can_nationalize = yes 
+			NOT = { has_country_flag = hide_others_decisions }
+			can_nationalize = yes
 		}
 		allow = {
 			NOT = { part_of_sphere = yes }
@@ -1055,8 +1095,9 @@ experience = {
 		}
 	}
 	egyptological_excavations = {
-	picture = egyptological_excavations
+		picture = egyptological_excavations
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			civilized = yes
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
@@ -1076,7 +1117,7 @@ experience = {
 		}
 		effect = {
 			EGY = {
-				country_event = { id=19040 days=0 }
+				country_event = { id = 19040 days = 0 }
 			}
 			add_country_modifier = {
 				name = international_negotiations
@@ -1085,8 +1126,9 @@ experience = {
 		}
 	}
 	egyptological_excavations1 = {
-	picture = egyptological_excavations1
+		picture = egyptological_excavations1
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			civilized = yes
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
@@ -1106,7 +1148,7 @@ experience = {
 		}
 		effect = {
 			ARA = {
-				country_event = { id=19040 days=0 }
+				country_event = { id = 19040 days = 0 }
 			}
 			add_country_modifier = {
 				name = international_negotiations
@@ -1115,8 +1157,9 @@ experience = {
 		}
 	}
 	forced_egyptological_excavations = {
-	picture = forced_egyptological_excavations
+		picture = forced_egyptological_excavations
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			civilized = yes
 			nationalism_n_imperialism = 1
 			OR = {
@@ -1144,8 +1187,9 @@ experience = {
 		}
 	}
 	troya_excavations = {
-	picture = troya_excavations
+		picture = troya_excavations
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			civilized = yes
 			is_greater_power = yes
 			nationalism_n_imperialism = 1
@@ -1159,13 +1203,13 @@ experience = {
 				has_country_modifier = troya1_excavations
 				has_country_modifier = international_negotiations1
 			}
-		}
+			}
 		allow = {
 			prestige = 25
 		}
 		effect = {
 			TUR = {
-				country_event = { id=19050 days=0 }
+				country_event = { id = 19050 days = 0 }
 			}
 			add_country_modifier = {
 				name = international_negotiations1
@@ -1174,8 +1218,9 @@ experience = {
 		}
 	}
 	forced_troya_excavations = {
-	picture = forced_troya_excavations
+		picture = forced_troya_excavations
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			civilized = yes
 			nationalism_n_imperialism = 1
 			OR = {
@@ -1203,8 +1248,9 @@ experience = {
 		}
 	}
 	call_geneva_convention = {
-	picture = call_geneva_convention
+		picture = call_geneva_convention
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			civilized = yes
 			owns = 607
 			NOT = {
@@ -1227,8 +1273,9 @@ experience = {
 		}
 	}
 	sign_the_geneva_convention = {
-	picture = sign_the_geneva_convention
+		picture = sign_the_geneva_convention
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			civilized = yes
 			has_global_flag = geneva_convention_held
 			NOT = {
@@ -1249,8 +1296,9 @@ experience = {
 		}
 	}
 	build_gotthard_tunnel = {
-	picture = build_gotthard_tunnel
+		picture = build_gotthard_tunnel
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			owns = 606
 			NOT = {
 				has_country_flag = gotthard_tunnel_built
@@ -1270,8 +1318,9 @@ experience = {
 		}
 	}
 	torching_of_the_summer_palace = {
-	picture = torching_of_the_summer_palace
+		picture = torching_of_the_summer_palace
 		potential = {
+			NOT = { has_country_flag = hide_others_decisions }
 			NOT = {
 				tag = CHI
 			}
@@ -1290,10 +1339,9 @@ experience = {
 			controls = 1612
 		}
 		effect = {
-		prestige = 10
+			prestige = 10
 			badboy = 3
 			set_global_flag = summer_palace_torched
 		}
 	}
 }
-

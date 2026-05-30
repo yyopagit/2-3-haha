@@ -40,6 +40,28 @@
 
 diplomatic_focus =
 {
+	ega_buffs = {
+		icon = 14
+		limit = {
+			has_country_modifier = England_population_buffs_egy
+		}
+		outliner_show_as_percent = yes
+		effect = {
+			soldiers = 0.3
+		}
+	}
+	egf_buffs = {
+		icon = 22
+		limit = {
+			has_country_modifier = England_population_buffs_egy
+		}
+		outliner_show_as_percent = yes
+		effect = {
+			craftsmen = 0.3
+		}
+	}
+
+
 	increase_tension =
 	{
 		icon = 4
