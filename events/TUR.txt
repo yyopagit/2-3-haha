@@ -1,50 +1,50 @@
-country_event = {
-	
-	id = 99912112
+#country_event = {
+#	
+#	id = 99912112
+#
+#	trigger = {
+#	tag = TUR
+#	NOT = {has_country_flag = bosfordone}
+#	}
+#	
+#	title = "EVTNAME99912112"
+#	desc = "EVTDESC99912112"
+#	picture = "Orthodox"
+#
+#	option = {
+#		name = "EVTOPTA99912112"
+#	 	enable_canal = 5
+#			enable_canal = 4
+#           add_country_modifier = {
+#				name = stambul
+#				duration = 100000
+#			}
+#			prestige = 20
+#	 
+#	  set_country_flag = bosfordone
+#	}
+#
+#}
 
-	trigger = {
-	tag = TUR
-	NOT = {has_country_flag = bosfordone}
-	}
-	
-	title = "EVTNAME99912112"
-	desc = "EVTDESC99912112"
-	picture = "Orthodox"
-
-	option = {
-		name = "EVTOPTA99912112"
-	 	enable_canal = 5
-			enable_canal = 4
-            add_country_modifier = {
-				name = stambul
-				duration = 100000
-			}
-			prestige = 20
-	 
-	  set_country_flag = bosfordone
-	}
-
-}
-
-country_event = {
-	
-	id = 99912116
-
-	trigger = {
-	tag = TUR
-	NOT = {has_country_flag = otranto1}
-	}
-	title = "EVTNAME99912113"
-	desc = "EVTDESC99912113"
-	picture = "Voting"
-
-	option = {
-		name = "EVTOPTA99912113"
-	 	enable_canal = 11
-	  set_country_flag = otranto1
-	}
-
-}
+#country_event = {
+#	
+#	id = 99912116
+#
+#	trigger = {
+#	tag = TUR
+#	NOT = {has_country_flag = otranto1}
+#	}
+#	title = "EVTNAME99912113"
+#	desc = "EVTDESC99912113"
+#	picture = "Voting"
+#
+#	option = {
+#		name = "EVTOPTA99912113"
+#	 	enable_canal = 11
+#	  set_country_flag = otranto1
+#	}
+#
+#}
 
 country_event = {
 

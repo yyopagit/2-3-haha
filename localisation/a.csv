@@ -23899,7 +23899,7 @@ tough_choice_made;Кд выбора пути развития;X;X;X;X;X;X
 CapSupply_Depot_EvtName;Снабжение в столице;X;X;X;X;X;X
 CapSupply_Depot_EvtDesc;Вы можете держать в столице $CAPITAL$ сколько угодно войск, и они не будут страдать от истощения.;X;X;X;X;X;X
 CapSupply_Depot_EvtOptA;Отлично.;X;X;X;X;X;X
-capital_supply_depot_pmodifier;Модификатор на снабжение в столице;X;X;X;X;X;X
+capital_supply_depot_pmodifier;Столичный склад снабжения;X;X;X;X;X;X
 EVTNAME1011076;Потеря бонусов;X;X;X;X;X;X
 EVTDESC1011076;Мы потеряли земли из-за чего народ в дизморальке и бонусы пропали;X;X;X;X;X;X
 EVTOPTA1011076;Блииииин, как жаль;X;X;X;X;X;X
@@ -24575,3 +24575,11 @@ conquest_africa_stage_two;Второй этап колонизации;X;X;X;X;X;X
 harsh_malaria_modifier;Провинции третьего этапа колонизации Африки;X;X;X;X;X;X
 conquest_africa_stage_three;Третий этап колонизации;X;X;X;X;X;X
 town_infrastructure;Городская инфраструктура;X;X;X;X;X;X
+Selector_EvtName;Селектор провинции;X;X;X;X;X;X
+Selector_EvtDesc;Выберите действие с провинцией/регионом;X;X;X;X;X;X
+Selector_EvtOptCancel;Отмена;X;X;X;X;X;X
+Selector_EvtOptRemAllSelectors;Удалить все селекторы;X;X;X;X;X;X
+META_1;Земля;X;X;X;X;X;X
+provincial_supply_depot_pmodifier;Провинциальный склад снабжения;X;X;X;X;X;X
+Selector_EvtOptSupplyDepot;Создать провинциальный склад снабжения;X;X;X;X;X;X
+urban;Город;X;X;X;X;X;X

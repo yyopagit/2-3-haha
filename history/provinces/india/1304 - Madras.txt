@@ -3,7 +3,5 @@ controller = HYD
 add_core = HYD
 trade_goods = grain
 life_rating = 40
-terrain = urban
-town_infrastructure = 3
 #colonial = 2
 fort = 1

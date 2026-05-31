@@ -61,10 +61,7 @@ country_event = {
 			capital_scope = {
 				NOT = { has_province_modifier = capital_supply_depot_pmodifier }
 			}
-			any_owned_province = {
-				is_capital = no
-				has_province_modifier = capital_supply_depot_pmodifier
-			}
+			
 		}
 	}
 
@@ -1303,23 +1300,23 @@ country_event = {
 # 		}
 # }
 
-country_event = {
-	id = 60937
-	title = "EVTNAME60912"
-	desc = "EVTDESC60912"
-	picture = "Upperhouse"
-	fire_only_once = yes
-
-	trigger = {
-		NOT = { has_global_flag = suez_canal_built }
-	}
-	mean_time_to_happen = { months = 100000 }
-	
-	option = {
-		name = "EVTOPTA60938"
-		prestige = -5
-	}
-}
+#country_event = {
+#	id = 60937
+#	title = "EVTNAME60912"
+#	desc = "EVTDESC60912"
+#	picture = "Upperhouse"
+#	fire_only_once = yes
+#
+#	trigger = {
+#		NOT = { has_global_flag = suez_canal_built }
+#	}
+#	mean_time_to_happen = { months = 100000 }
+#	
+#	option = {
+#		name = "EVTOPTA60938"
+#		prestige = -5
+#	}
+#}
 
 
 
@@ -12880,28 +12877,28 @@ country_event = {
 	}
 }
 
-country_event = {
-     
-	id = 101107 #Aden
-	trigger = {
-               owns = 1412
-			NOT = {
-			has_global_flag = Aden
-			is_canal_enabled = 8
-			}
-	}
-	option = {
-	 name = "EVTOPTA101107"
-	 enable_canal = 8 
-	 	add_country_modifier ={
-		name = aden
-		duration = 100000
-		}
-	}
-	title = "EVTNAME101107"
-	desc = "EVTDESC101107"
-	picture = "greek_osman"
- }
+#country_event = {
+#     
+#	id = 101107 #Aden
+#	trigger = {
+#               owns = 1412
+#			NOT = {
+#			has_global_flag = Aden
+#			is_canal_enabled = 8
+#			}
+#	}
+#	option = {
+#	 name = "EVTOPTA101107"
+#	 enable_canal = 8 
+#	 	add_country_modifier ={
+#		name = aden
+#		duration = 100000
+#		}
+#	}
+#	title = "EVTNAME101107"
+#	desc = "EVTDESC101107"
+#	picture = "greek_osman"
+#}
 
 country_event = {
 	id = 19050
@@ -37786,67 +37783,67 @@ country_event = {
 	}
 }
 
-country_event = {
+#country_event = {
+#
+#        id = 101109 #Singapore
+#    trigger = {
+#               owns = 1384
+#            NOT = {
+#            is_canal_enabled = 10
+#           }
+#    }
+#    option = {
+#     name = "EVTOPTA101109"
+#     enable_canal = 10
+#     add_country_modifier = {
+#        name = singopur
+#        duration = 100000
+#        }
+#    }
+#    title = "EVTNAME101109"
+#    desc = "EVTDESC101109"
+#    picture = "greek_osman"
+#}
 
-        id = 101109 #Singapore
-    trigger = {
-               owns = 1384
-            NOT = {
-            is_canal_enabled = 10
-            }
-    }
-    option = {
-     name = "EVTOPTA101109"
-     enable_canal = 10
-     add_country_modifier = {
-        name = singopur
-        duration = 100000
-        }
-    }
-    title = "EVTNAME101109"
-    desc = "EVTDESC101109"
-    picture = "greek_osman"
-}
+#country_event = {
+#    title = "EVTNAME101109"
+#    desc = "EVTDESC101109"
+#    picture = "greek_osman"
+#    id = 1011099
+#	trigger = {
+#	owns = 1384
+#	is_canal_enabled = 10
+#	NOT = {
+#	has_country_modifier = singopur
+#	}
+#   }
+#    option = {
+#	 name = "EVTOPTA101109"
+#     add_country_modifier = {
+#        name = singopur
+#        duration = 100000
+#        }
+#    }
+#}
 
-country_event = {
-    title = "EVTNAME101109"
-    desc = "EVTDESC101109"
-    picture = "greek_osman"
-    id = 1011099
-	trigger = {
-	owns = 1384
-	is_canal_enabled = 10
-	NOT = {
-	has_country_modifier = singopur
-	}
-    }
-    option = {
-	 name = "EVTOPTA101109"
-     add_country_modifier = {
-        name = singopur
-        duration = 100000
-        }
-    }
-}
-
-country_event = {
-    title = "EVTNAME101109"
-    desc = "EVTDESC101109"
-    picture = "greek_osman"
-    id = 10110999
-	trigger = {
-	has_country_modifier = singopur
-        1384 = {
-	        NOT = { 
-	            owned_by = THIS
-	            }
-	    }
-	}
-	 option = {
-	 name = "EVTOPTA101109"	
-		remove_country_modifier = singopur
-	    }
-}
+#country_event = {
+#    title = "EVTNAME101109"
+#    desc = "EVTDESC101109"
+#    picture = "greek_osman"
+#   id = 10110999
+#	trigger = {
+#	has_country_modifier = singopur
+#        1384 = {
+#	        NOT = { 
+#	            owned_by = THIS
+#	            }
+#	    }
+#	}
+#	 option = {
+#	 name = "EVTOPTA101109"	
+#		remove_country_modifier = singopur
+#	    }
+#}
 
 #country_event = {
 #	id = 101106 #Gibraltar
@@ -37916,237 +37913,6 @@ country_event = {
 #}
 #
 
-country_event = {
-	id = 101106
-	title = "EVTNAME101106"
-	desc = "EVTDESC101106"
-	picture = "greek_osman"
-	fire_only_once = yes
-	trigger = {
-		owns = 517
-		NOT = { is_canal_enabled = 7 }
-	}
-	mean_time_to_happen = { months = 0 }
-	option = {
-		name = "EVTOPTA101106"
-		enable_canal = 7
-	}
-}
-
-country_event = { 
-	id = 411001
-	title = "EVTNAME422032"
-	desc = "EVTDESC411001"
-	picture = "greatpowers"
-	trigger = {
-           1725 = {
-		    owned_by = this
-			THIS = { 
-			NOT = {
-	has_country_modifier = tunisik
-			}
-		}
-	}
-}
-	option = {
-	name = "EVTOPTA411001"
-		add_country_modifier = { 
-	     		name = tunisik
-	     		duration = -1
-	    }	
-	}
-}
-
-country_event = { 
-	id = 422032
-	title = "EVTNAME411001"
-	desc = "EVTDESC411001"
-	picture = "greatpowers"
-	trigger = {
-           343 = {
-		    owned_by = this
-			THIS = { 
-			NOT = {
-	has_country_modifier = finland
-			}
-		}
-	}
-}
-	option = {
-	name = "EVTOPTA411001"
-		add_country_modifier = { 
-	     		name = finland
-	     		duration = -1
-	    }	
-	}
-}
-
-country_event = { 
-	id = 422033
-	title = "EVTNAME422033"
-	desc = "EVTDESC411001"
-	picture = "greatpowers"
-	trigger = {
-           349 = {
-		    owned_by = this
-			THIS = { 
-			NOT = {
-	has_country_modifier = pribaltika
-			}
-		}
-	}
-}
-	option = {
-	name = "EVTOPTA411001"
-		add_country_modifier = { 
-	     		name = pribaltika
-	     		duration = -1
-	    }	
-	}
-}
-
-country_event = { 
-	id = 422037
-	title = "EVTNAME422037"
-	desc = "EVTDESC411001"
-	picture = "greatpowers"
-	trigger = {
-           1084 = {
-		    owned_by = this
-			THIS = { 
-			NOT = {
-	has_country_modifier = primorsk
-			}
-		}
-	}
-}
-	option = {
-	name = "EVTOPTA411001"
-		add_country_modifier = { 
-	     		name = primorsk
-	     		duration = -1
-	    }	
-	}
-}
-
-country_event = { 
-	id = 422040
-	title = "EVTNAME422040"
-	desc = "EVTDESC411001"
-	picture = "greatpowers"
-	trigger = {
-           1480 = {
-		    owned_by = this
-			THIS = { 
-			NOT = {
-	has_country_modifier = primorsk2
-			}
-		}
-	}
-}
-	option = {
-	name = "EVTOPTA411001"
-		add_country_modifier = { 
-	     		name = primorsk2
-	     		duration = -1
-	    }	
-	}
-}
-
-country_event = {
-    title = "EVTNAME422035"
-    desc = "EVTDESC411002"
-    picture = "greek_osman"
-    id = 422034
-	trigger = {
-	has_country_modifier = tunisik
-        1725 = {
-	        NOT = { 
-	            owned_by = THIS
-	            }
-	    }
-	}
-	 option = {
-	 name = "EVTOPTA411002"	
-		remove_country_modifier = tunisik
-	    }
-}
-
-country_event = {
-    title = "EVTNAME411002"
-    desc = "EVTDESC411002"
-    picture = "greek_osman"
-    id = 422035
-	trigger = {
-	has_country_modifier = finland
-        343 = {
-	        NOT = { 
-	            owned_by = THIS
-	            }
-	    }
-	}
-	 option = {
-	 name = "EVTOPTA411002"	
-		remove_country_modifier = finland
-	    }
-}
-
-country_event = {
-    title = "EVTNAME422034"
-    desc = "EVTDESC411002"
-    picture = "greek_osman"
-    id = 422036
-	trigger = {
-	has_country_modifier = pribaltika
-        349 = {
-	        NOT = { 
-	            owned_by = THIS
-	            }
-	    }
-	}
-	 option = {
-	 name = "EVTOPTA411002"	
-		remove_country_modifier = pribaltika
-	    }
-}
-
-country_event = {
-    title = "EVTNAME411002"
-    desc = "EVTDESC411002"
-    picture = "greek_osman"
-    id = 422038
-	trigger = {
-	has_country_modifier = primorsk
-        1084 = {
-	        NOT = { 
-	            owned_by = THIS
-	            }
-	    }
-	}
-	 option = {
-	 name = "EVTOPTA411002"	
-		remove_country_modifier = primorsk
-	    }
-}
-
-country_event = {
-    title = "EVTNAME422039"
-    desc = "EVTDESC411002"
-    picture = "greek_osman"
-    id = 422039
-	trigger = {
-	has_country_modifier = primorsk2
-        1480 = {
-	        NOT = { 
-	            owned_by = THIS
-	            }
-	    }
-	}
-	 option = {
-	 name = "EVTOPTA411002"	
-		remove_country_modifier = primorsk2
-	    }
-}
 
 country_event = {
 	title = "Exchange_EvtName"
@@ -38494,24 +38260,24 @@ country_event = {
 	picture = "Administration"
 	}
 
-country_event = {
-
-	id = 101125 
-	fire_only_once = yes
-	mean_time_to_happen = { months = 100000 }
-	trigger = { tag = ENG }
-	option = {
-		name = "EVTOPTA101125" 
-		add_country_modifier = {
-			name = british_helping_in_colonisation
-			duration = 1825
-		} 
-	
-	}
-	title = "EVTNAME101125"
-	desc = "EVTDESC101125"
-	picture = "Administration"
-}
+#country_event = {
+#
+#	id = 101125 
+#	fire_only_once = yes
+#	mean_time_to_happen = { months = 100000 }
+#	trigger = { tag = ENG }
+#	option = {
+#		name = "EVTOPTA101125" 
+#		add_country_modifier = {
+#			name = british_helping_in_colonisation
+#			duration = 1825
+#		} 
+#	
+#	}
+#	title = "EVTNAME101125"
+#	desc = "EVTDESC101125"
+#	picture = "Administration"
+#}
 
 country_event = {
 

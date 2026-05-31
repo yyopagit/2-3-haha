@@ -7,7 +7,7 @@ from pathlib import Path
 
 from PIL import Image
 
-MOD = Path(r"c:\Games\Vic2LV2\Victoria 2\mod\5")
+MOD = Path(r"C:\Victoria2\Victoria 2\mod\5")
 MAP = MOD / "map"
 HISTORY = MOD / "history" / "provinces"
 URBAN_INDEX = 56

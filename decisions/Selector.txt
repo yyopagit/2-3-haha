@@ -1,0 +1,37 @@
+political_decisions = {
+	select_prov = {
+		picture = build_kiel_canal
+			potential = {
+				tag = JAN
+				META_1 = {
+					owner = {
+						ai = no
+						any_owned_province = { has_building = province_selector }
+					}
+				}
+			}
+			allow = {
+				tag = JAN
+			}
+			effect = {
+				any_country = {
+					limit = {
+						ai = no
+						any_owned_province = { has_building = province_selector }
+					}
+					random_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_event = {
+							id = 144407
+							days = 0
+						}
+						province_selector = -1
+					}
+				}
+			}
+			
+			ai_will_do = { factor = 1 }
+		}
+}

@@ -1,65 +1,65 @@
-country_event = {
-	
-	id = 99912121
+#country_event = {
+#	
+#	id = 99912121
+#
+#	trigger = {
+#	tag = SPA
+#	NOT = {has_country_flag = yukatan}
+#	}
+#	title = "EVTNAME1011075"
+#	desc = "EVTDESC1011074"
+#	picture = "Parade"
+#
+#	option = {
+#		name = "EVTOPTA1011074"
+#	 	enable_canal = 12
+#		add_country_modifier = { name = yucatan duration = 100000 }
+#	  set_country_flag = yukatan
+#	}
+#
+#}
 
-	trigger = {
-	tag = SPA
-	NOT = {has_country_flag = yukatan}
-	}
-	title = "EVTNAME1011075"
-	desc = "EVTDESC1011074"
-	picture = "Parade"
+#country_event = {
+#	
+#	id = 99912122
+#
+#	trigger = {
+#	tag = SPA
+#	NOT = {has_country_flag = florida}
+#	}
+#	title = "EVTNAME1011074"
+#	desc = "EVTDESC1011074"
+#	picture = "Parade"
+#
+#	option = {
+#		name = "EVTOPTA1011075"
+#	 	enable_canal = 13
+#		add_country_modifier = { name = florida duration = 100000 }
+#	  set_country_flag = florida
+#	}
+#
+#}
 
-	option = {
-		name = "EVTOPTA1011074"
-	 	enable_canal = 12
-		add_country_modifier = { name = yucatan duration = 100000 }
-	  set_country_flag = yukatan
-	}
-
-}
-
-country_event = {
-	
-	id = 99912122
-
-	trigger = {
-	tag = SPA
-	NOT = {has_country_flag = florida}
-	}
-	title = "EVTNAME1011074"
-	desc = "EVTDESC1011074"
-	picture = "Parade"
-
-	option = {
-		name = "EVTOPTA1011075"
-	 	enable_canal = 13
-		add_country_modifier = { name = florida duration = 100000 }
-	  set_country_flag = florida
-	}
-
-}
-
-country_event = {
-	
-	id = 99912123
-
-	trigger = {
-	tag = SPA
-	NOT = {has_country_flag = florida2}
-	}
-	title = "EVTNAME1011074"
-	desc = "EVTDESC1011074"
-	picture = "Parade"
-
-	option = {
-		name = "EVTOPTA1011075"
-	 	enable_canal = 14
-		add_country_modifier = { name = florida2 duration = 100000 }
-	  set_country_flag = florida2
-	}
-
-}
+#country_event = {
+#	
+#	id = 99912123
+#
+#	trigger = {
+#	tag = SPA
+#	NOT = {has_country_flag = florida2}
+#	}
+#	title = "EVTNAME1011074"
+#	desc = "EVTDESC1011074"
+#	picture = "Parade"
+#
+#	option = {
+#		name = "EVTOPTA1011075"
+#	 	enable_canal = 14
+#		add_country_modifier = { name = florida2 duration = 100000 }
+#	  set_country_flag = florida2
+#	}
+#
+#}
 
 country_event = {
 

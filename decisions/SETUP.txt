@@ -1,5 +1,5 @@
 political_decisions = {
-#-------------------------------------------------------Проливы-------------------------------------------------------	
+#### Настройки первого дня от Ян-Майена
 
 	marker_jan = {
 		potential = {
@@ -13,6 +13,27 @@ political_decisions = {
 		effect = {
 			set_country_flag = marker_jan
 			country_event = 140400
+			any_country = {
+				limit = {
+					AND = {
+						ai = no
+						exists = yes
+					}
+				}
+				capital_scope = {
+					add_province_modifier = { name = capital_supply_depot_pmodifier duration = -1 }
+				}
+			}
+			enable_canal = 8
+			enable_canal = 10
+			enable_canal = 7
+			enable_canal = 12
+			enable_canal = 13
+			enable_canal = 14
+			enable_canal = 5
+			enable_canal = 4
+			enable_canal = 11
+			enable_canal = 9
 		}
 		ai_will_do = {
 			factor = 1

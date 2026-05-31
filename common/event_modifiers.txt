@@ -29,6 +29,7 @@ a_nation_of_shopkeepers = {
 }
 uk_navy_tradition = {
     local_ship_build = -0.20
+	icon = 9
 }
 uk_navy_tradition1 = {
 
@@ -730,42 +731,42 @@ icon = 9
 }
 #-------------------------------------------------------ПРОЛИВЫ-------------------------------------------------------
 suez = { 
-tax_efficiency = 0.04
+	tax_efficiency = 0.04
  }
 joint_suez = { 
-tax_efficiency = 0.04
+	tax_efficiency = 0.04
  }
 joint_suezs = {
  }
 joint_suezd = {
  }
 panama = { 
-tax_efficiency = 0.04
+	tax_efficiency = 0.04
  }
 kiel = { 
-tax_efficiency = 0.02
+	tax_efficiency = 0.02
  }
 stambul = { 
-tax_efficiency = 0.02
+	tax_efficiency = 0.02
  }
 kopengagen = {
-tax_efficiency = 0.02
+	tax_efficiency = 0.02
  }
-# aden = {
-# tax_efficiency = 0.02
-#  }
-# gibraltar = {
-# tax_efficiency = 0.02
-#  }
-# pers = {
-# tax_efficiency = 0.02
-#  }
+aden = {
+	tax_efficiency = 0.02
+}
+gibraltar = {
+	tax_efficiency = 0.02
+}
+pers = {
+	tax_efficiency = 0.02
+}
 singopur = {
-tax_efficiency = 0.02
+	tax_efficiency = 0.02
  }
-# otranto = {
-# tax_efficiency = 0.02
-#  }
+otranto = {
+	tax_efficiency = 0.02
+}
 elisabeth = {
 commerce_tech_research_bonus = 0.15
 }
@@ -1048,7 +1049,12 @@ mcl_happened_modifier = {
 capital_supply_depot_pmodifier = {
 		max_attrition = -100
 		icon = 17
-	}	 
+	}
+	
+provincial_supply_depot_pmodifier = {
+		max_attrition = -100
+		icon = 17
+	}
 	
 #-------------------------------------------------------ОПЫТ АРМИИ + БАФФ НА ФАБРИКИ + ИЗМЕНЕНИЕ МАКСИМАЛЬНОГО КОЛИЧЕСТВА СОЛДАТ + ОБРАЗОВАНИЕ-------------------------------------------------------
 exp = {

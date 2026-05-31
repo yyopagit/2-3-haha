@@ -137,6 +137,141 @@ country_event = {
 				}
 			}
 		}
+		
+		##### Провинциальные модификаторы для проливов и торговых центров
+		
+		any_country = {
+			517 = {
+				limit = { NOT = { has_province_modifier = gibraltar } }
+				add_province_modifier = {
+					name = gibraltar
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			1412 = {
+				limit = { NOT = { has_province_modifier = aden } }
+				add_province_modifier = {
+					name = aden
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			1384 = {
+				limit = { NOT = { has_province_modifier = singopur } }
+				add_province_modifier = {
+					name = singopur
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			1725 = {
+				limit = { NOT = { has_province_modifier = tunisik } }
+				add_province_modifier = {
+					name = tunisik
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			354 = {
+				limit = { NOT = { has_province_modifier = pribaltika } }
+				add_province_modifier = {
+					name = pribaltika
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			343 = {
+				limit = { NOT = { has_province_modifier = finland } }
+				add_province_modifier = {
+					name = finland
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			1084 = {
+				limit = { NOT = { has_province_modifier = primorsk} }
+				add_province_modifier = {
+					name = primorsk
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			1480 = {
+				limit = { NOT = { has_province_modifier = primorsk2 } }
+				add_province_modifier = {
+					name = primorsk2
+					duration = -1
+				}
+			}
+		}
+		
+		##### Модификатор на скорость постройки флота в метрополии вб
+		any_country = {
+			limit = {
+				AND = {
+					tag = ENG
+					NOT = {
+						has_country_modifier = uk_navy_tradition1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					is_coastal = yes
+					port = yes
+					continent = england
+				}
+				add_province_modifier = {
+					name = uk_navy_tradition
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+###### селектор
+
+province_event = {
+	title = "Selector_EvtName"
+	desc = "Selector_EvtDesc"
+	id = 144407
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Selector_EvtOptCancel"
+		province_selector = -1
+	}
+	option = {
+		name = "Selector_EvtOptSupplyDepot"
+		owner = {
+			money = -500000
+			any_owned = {
+				remove_province_modifier = provincial_supply_depot_pmodifier
+			}
+		}
+		add_province_modifier = {
+			name = provincial_supply_depot_pmodifier
+			duration = -1
+		}
+		province_selector = -1
+	}
+	option = {
+		name = "Selector_EvtOptRemAllSelectors"
+		owner = {
+			any_owned = {
+				province_selector = -1
+			}
+		}
 	}
 }
 
