@@ -252,7 +252,7 @@ political_decisions = {
 		}
 		allow = {
 			is_greater_power = yes
-			money = 500000
+			money = 150000
 			MCK = {
 					owns = 1082 }
 			OR = {
@@ -271,23 +271,10 @@ political_decisions = {
 				pop_type = farmers
 				}
 			}
-			1469 = {
-				add_core = RUS
-			}
-			1469 = {
-				secede_province = RUS
-			}
 			1481 = {
 				secede_province = RUS
 			}
-			1082 = { remove_core = CHI }
-			1083 = { remove_core = CHI }
-			1084 = { remove_core = CHI }
-			1085 = { remove_core = CHI }
-			2617 = { remove_core = CHI }
-			1469 = { remove_core = MGL }
-			1469 = { remove_core = CHI }
-			money = -500000
+			money = -150000
 			set_country_flag = peking_convention			
 			MCK = {
 				country_event = { id=80000 days=0 }

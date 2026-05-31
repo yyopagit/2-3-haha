@@ -72,6 +72,72 @@ country_event = {
 		remove_country_modifier = sanction_on_jap
 	}
 }
+##### Выбор пути Японии
+country_event = {
+	id = 18902
+	title = "EVTNAME18902"
+	desc = "EVTDESC18902"
+	picture = "Upperhouse"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA18902"
+		set_global_flag	 = peaceful_japan
+		prestige = 40
+		japan_choose_one = {}
+		
+	}
+	option = {
+		name = "EVTOPTB18902"
+		set_global_flag = militarized_japan
+		add_country_modifier = {
+			name = japan_economy_overheat_timer
+			duration = 3650
+		}
+		japan_choose_two = {}
+		
+	}
+}
+
+##### Перегрев экономики Японии
+
+country_event = {
+	id = 18903
+	title = "EVTNAME18903"
+	desc = "EVTDESC18903"
+	picture = "Upperhouse"
+
+	trigger = {
+		tag = JAP
+		NOT = { has_country_modifier = japan_economy_overheat_timer }
+		NOT = { has_country_modifier = japan_economy_overheated }
+		has_global_flag = militarized_japan
+		NOT = { has_country_flag = japanese_economy_has_been_overheated }
+		NOT = { 
+			AND = {
+				1455 = { owned_by = JAP }
+				1461 = { owned_by = JAP }
+				1462 = { owned_by = JAP }
+				1485 = { owned_by = JAP }
+				658 = { owned_by = JAP }
+			}
+		}
+	}
+	
+	immediate = {
+		add_country_modifier = {
+			name = japan_economy_overheated
+			duration = 7300
+		}
+		set_country_flag = japanese_economy_has_been_overheated
+	}
+	
+	option = {
+		name = "EVTOPTA18903"
+	}
+}
+
 #---------------------------------------
 # ==========================================
 # ИВЕНТ: Проверка 2 лет оккупации Филиппин
@@ -84,68 +150,105 @@ country_event = {
     
     trigger = {
         tag = JAP
-        war_with = SPA
         NOT = { has_global_flag = philippines_taken }
-        
-        # Проверю что ВСЕ ЭТИ ЕБУЧИЕ провинции оккупированы Японией
-        1456 = { controlled_by = JAP }
-        1455 = { controlled_by = JAP }
-        1457 = { controlled_by = JAP }
-        1458 = { controlled_by = JAP }
-        1459 = { controlled_by = JAP }
-        1460 = { controlled_by = JAP }
-        1461 = { controlled_by = JAP }
-        2565 = { controlled_by = JAP }
-        1464 = { controlled_by = JAP }
-        1463 = { controlled_by = JAP }
-        1462 = { controlled_by = JAP }
+        has_global_flag = filippines_occupied_by_japan
+        1456 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
+        1455 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
+        1457 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
+        1458 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
+        1459 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
+        1460 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
+        1461 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
+        2565 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
+        1464 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
+        1463 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
+        1462 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
     }
-    
-    # Ждём 2 ГОДА (24 месяца) после выполнения условий( тот кто читает это знайте я потратил на РУШИ 5 часов чтобы написать и проверить все как работает этА ЕБУЧАЯ ХУЕТЕНЬ!!!)
-    mean_time_to_happen = {
-        months = 24
-    }
-    
     option = {
         name = "EVTOPTA900100"
         prestige = 20
             
-            1456 = { secede_province = JAP }
-            1455 = { secede_province = JAP }
-            1457 = { secede_province = JAP }
-            1458 = { secede_province = JAP }
-            1459 = { secede_province = JAP }
-            1460 = { secede_province = JAP }
-            1461 = { secede_province = JAP }
-            2565 = { secede_province = JAP }
-            1464 = { secede_province = JAP }
-            1463 = { secede_province = JAP }
-            1462 = { secede_province = JAP }
-            
-            1456 = { remove_core = SPA }
-            1455 = { remove_core = SPA }
-            1457 = { remove_core = SPA }
-            1458 = { remove_core = SPA }
-            1459 = { remove_core = SPA }
-            1460 = { remove_core = SPA }
-            1461 = { remove_core = SPA }
-            2565 = { remove_core = SPA }
-            1464 = { remove_core = SPA }
-            1463 = { remove_core = SPA }
-            1462 = { remove_core = SPA }
-            
-            1456 = { add_core = JAP }
-            1455 = { add_core = JAP }
-            1457 = { add_core = JAP }
-            1458 = { add_core = JAP }
-            1459 = { add_core = JAP }
-            1460 = { add_core = JAP }
-            1461 = { add_core = JAP }
-            2565 = { add_core = JAP }
-            1464 = { add_core = JAP }
-            1463 = { add_core = JAP }
-            1462 = { add_core = JAP }
+            1456 = { secede_province = JAP add_core = JAP }
+            1455 = { secede_province = JAP add_core = JAP }
+            1457 = { secede_province = JAP add_core = JAP }
+            1458 = { secede_province = JAP add_core = JAP }
+            1459 = { secede_province = JAP add_core = JAP }
+            1460 = { secede_province = JAP add_core = JAP }
+            1461 = { secede_province = JAP add_core = JAP }
+            2565 = { secede_province = JAP add_core = JAP }
+            1464 = { secede_province = JAP add_core = JAP }
+            1463 = { secede_province = JAP add_core = JAP }
+            1462 = { secede_province = JAP add_core = JAP }
 			
+			
+			remove_country_modifier = japan_economy_overheat_timer
+			add_country_modifier = {
+				name = japan_economy_overheat_timer
+				duration = 3650
+			}
+			THIS = {
+				limit = {
+					has_country_modifier = japan_economy_overheated
+				}
+				remove_country_modifier = japan_economy_overheated
+			}
+			
+            
 			set_global_flag = philippines_taken
     }
 }
@@ -154,69 +257,120 @@ country_event = {
 # ==========================================
 country_event = {
     id = 900111
-    title = "qqq"
-    desc = "qqq"
+    title = "EVTNAME900111"
+    desc = "EVTDESC900111"
     picture = "default"
     
     trigger = {
         tag = JAP
-        war_with = CHI
-        NOT = { has_global_flag = tavans_taken }
+        NOT = { has_global_flag = taiwan_taken }
+		has_global_flag = taiwan_occupied_by_japan
         
-        # Проверю что ВСЕ ЭТИ ЕБУЧИЕ провинции оккупированы Японией
-        2562 = { controlled_by = JAP }
-        1485 = { controlled_by = JAP }
-            }
-    
-    # Ждём 2 ГОДА (24 месяца) после выполнения условий( тот кто читает это знайте я потратил на РУШИ 5 часов чтобы написать и проверить все как работает этА ЕБУЧАЯ ХУЕТЕНЬ!!!)
-    mean_time_to_happen = {
-        months = 24
+        2562 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
+        1485 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
     }
     
     option = {
         name = "EVTOPTA900111"
         prestige = 20
             
-            2562 = { secede_province = JAP }
-            1485 = { secede_province = JAP }
-                        
-            2562 = { remove_core = CHI }
-            1485 = { remove_core = CHI }
-                        
-            2562 = { add_core = JAP }
-            1485 = { add_core = JAP }
+            2562 = { secede_province = JAP add_core = JAP }
+            1485 = { secede_province = JAP add_core = JAP }
+			
+			remove_country_modifier = japan_economy_overheat_timer
+			add_country_modifier = {
+				name = japan_economy_overheat_timer
+				duration = 3650
+			}
+			
+			THIS = {
+				limit = {
+					has_country_modifier = japan_economy_overheated
+				}
+				remove_country_modifier = japan_economy_overheated
+			}
             			
-			set_global_flag = tavans_taken
+			set_global_flag = taiwan_taken
     }
 }
-# events/japan.txt
+
+# ==========================================
+# ИВЕНТ: Проверка 2 лет оккупации Гавайев
+# ==========================================
+country_event = {
+    id = 900112
+    title = "EVTNAME900112"
+    desc = "EVTDESC900112"
+    picture = "default"
+    
+    trigger = {
+        tag = JAP
+        NOT = { has_global_flag = hawaii_taken }
+		has_global_flag = hawaii_occupied_by_japan
+        
+        658 = {
+			AND = {
+				controlled_by = JAP
+				NOT = { has_province_modifier = japan_occupation }
+			}
+		}
+    }
+    
+    option = {
+        name = "EVTOPTA900112"
+        prestige = 20
+            
+            658 = { secede_province = JAP add_core = JAP }
+			
+			remove_country_modifier = japan_economy_overheat_timer
+			add_country_modifier = {
+				name = japan_economy_overheat_timer
+				duration = 3650
+			}
+			
+			THIS = {
+				limit = {
+					has_country_modifier = japan_economy_overheated
+				}
+				remove_country_modifier = japan_economy_overheated
+			}
+            			
+			set_global_flag = hawaii_taken
+    }
+}
 
 country_event = {
+	id = 999003
+	title = "EVTNAME999003"
+    desc = "EVTDESC999003"
+	picture = "japanese_power"
+	
+	is_triggered_only = yes
 
-	id = EVTP999001
- title = "EVTNAME999001"
-    desc = "EVTDESC999001"
-	trigger = {
-		tag = JAP
-		NOT = {
-			has_country_flag = jap_start_modifier
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	# ВОТ СЮДА ВСТАВЛЯЕТСЯ
 	option = {
-
-		name = "EVTOPTA999001"
-
-		set_country_flag = jap_start_modifier
-
-		add_country_modifier = {
-			name = japan_empty_modifier
-			duration = 365
+		name = "EVTOPTA999003"
+		years_of_research = 1
+        prestige = 10
+        badboy = 22
+        add_country_modifier = {
+            name = meiji_restoration_boost
+            duration = 7200
 		}
+        casus_belli = {
+			target = KOR
+			type = make_puppet
+			month = 60
+		}
+        set_country_flag = meiji_restoration_boost2
 	}
 }

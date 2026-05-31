@@ -110,53 +110,6 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = 347006
-	trigger = {
- tag = CHI
- year = 1860
- }
-	mean_time_to_happen = { # ���� ���� ���������� ����������� ������������ ������
- months = 1
-
- }
-	title = "EVTNAME347006"
-	desc = "EVTDESC347006"
-	picture = "greatpowers"
-
-	fire_only_once = yes
-
-	option = {
-		name = "EVTOPTA347006"
-		
-		#foreign_training = no_foreign_training
-		#foreign_weapons = no_foreign_weapons
-		#military_constructions = no_military_constructions
-		#foreign_officers = no_foreign_officers
-		inherit	= MGL	
-		inherit	= XBI
-		inherit	= XIN
-		inherit	= TIB
-		inherit	= YNN
-		inherit	= GXI
-		inherit	= MCK
-		prestige = 30
-		badboy = 20
-		years_of_research = -30
-		ai_chance = {
- factor = 1
- }
-	}
-
-	option = {
-		name = "EVTOPTB347006"
-		prestige = 30
-		ai_chance = {
- factor = 0
- }
-	}
-}
-
 province_event = {
 	id = 160502
 	title = "EVTNAME160502"

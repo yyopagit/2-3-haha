@@ -2,7 +2,7 @@ color = { 78 199 44 }
 graphical_culture = AfricanGC
 
 party = {
-	name = "Oio_conservative"
+	name = "OIO_conservative"
 	start_date = 1800.1.1
 	end_date = 2000.1.1
 
@@ -16,7 +16,7 @@ party = {
 }
 
 party = {
-	name = "Oio_liberal"
+	name = "OIO_liberal"
 	start_date = 1820.1.1
 	end_date = 1936.1.1
 
@@ -30,7 +30,7 @@ party = {
 }
 
 party = {
-	name = "Oio_reactionary"
+	name = "OIO_reactionary"
 	start_date = 1820.1.1
 	end_date = 2000.1.1
 
@@ -44,7 +44,7 @@ party = {
 }
 
 party = {
-	name = "Oio_anarcho_liberal"
+	name = "OIO_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -58,7 +58,7 @@ party = {
 }
 
 party = {
-	name = "Oio_socialist"
+	name = "OIO_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -72,7 +72,7 @@ party = {
 }
 
 party = {
-	name = "Oio_communist"
+	name = "OIO_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -86,7 +86,7 @@ party = {
 }
 
 party = {
-	name = "Oio_fascist"
+	name = "OIO_fascist"
 	start_date = 1905.1.1
 	end_date = 2000.1.1
 

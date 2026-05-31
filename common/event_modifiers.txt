@@ -289,7 +289,7 @@ korea_yes = {
 	icon = 9
 }
 toyota_corp_work = {
-	factory_throughput = 0.02
+	factory_throughput = 0.1
 	icon = 11
 }
 mitsubishi_corp_work = {
@@ -1600,20 +1600,20 @@ blockaded_marker_lvl3 = {
 }
 
 totally_blockaded = {
-	tax_efficiency = -0.10
+	tax_efficiency = -0.05
 	war_exhaustion = 0.5
 	prestige = -0.05
 }
 
 totally_blockaded_lvl2 = {
-	tax_efficiency = -0.15
-	war_exhaustion = 0.75
+	tax_efficiency = -0.10
+	war_exhaustion = 1.0
 	prestige = -0.1
 }
 
 totally_blockaded_lvl3 = {
-	tax_efficiency = -0.20
-	war_exhaustion = 1.0
+	tax_efficiency = -0.15
+	war_exhaustion = 1.5
 	prestige = -0.2
 }
 
@@ -1672,8 +1672,18 @@ rise_of_siam_1 = {
 	pop_consciousness_modifier = 0.05
 	icon = 4
 }
-japan_empty_modifier = {
+japan_occupation = {
        icon = 15                  # Иконка (опционально)
+}
+
+japan_economy_overheat_timer = {
+	icon = 15
+}
+japan_economy_overheated = {
+	RGO_output = -0.2
+	tax_efficiency = -0.05
+	factory_output = -0.1
+	icon = 16
 }
 
 malaria_modifier = {

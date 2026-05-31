@@ -9,6 +9,8 @@ literacy = 0.09
 non_state_culture_literacy = 0.09
 prestige = 15
 
+set_country_flag = human_yes
+
 ruling_party = SIA_conservative
 upper_house = {
 	fascist = 0
@@ -23,6 +25,14 @@ upper_house = {
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
+
+education_reform = yes_education_reform
+finance_reform = finance_reform_two
+foreign_weapons = yes_foreign_weapons
+admin_reform = yes_admin_reform
+economic_reform = yes_land_reform
+pre_indust = yes_pre_indust
+foreign_training = yes_foreign_training
 
 oob = "SIA_oob.txt"
 

@@ -10,6 +10,8 @@ non_state_culture_literacy = 0.10
 civilized = yes
 prestige = 10
 
+set_country_flag = human_yes
+
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = state_equal_weight

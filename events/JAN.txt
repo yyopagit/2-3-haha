@@ -235,6 +235,197 @@ country_event = {
 				}
 			}
 		}
+		#### Проверка оккупаций Японией Филлипин, Тайваня, Гавайев и Борнео
+		#### Филиппины
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_global_flag = filippines_occupied_by_japan }
+					has_global_flag = militarized_japan
+					1456 = { controlled_by = JAP }
+					1455 = { controlled_by = JAP }
+					1457 = { controlled_by = JAP }
+					1458 = { controlled_by = JAP }
+					1459 = { controlled_by = JAP }
+					1460 = { controlled_by = JAP }
+					1461 = { controlled_by = JAP }
+					2565 = { controlled_by = JAP }
+					1464 = { controlled_by = JAP }
+					1463 = { controlled_by = JAP }
+					1462 = { controlled_by = JAP }
+				}
+			}
+			1456 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1455 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1457 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1458 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1459 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1460 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1461 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			2565 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1464 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1463 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1462 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			set_global_flag = filippines_occupied_by_japan
+			
+		}
+		
+		any_country = {
+			limit = {
+				has_global_flag = filippines_occupied_by_japan
+				OR = {
+					1456 = { NOT = { controlled_by = JAP } }
+					1455 = { NOT = { controlled_by = JAP } }
+					1457 = { NOT = { controlled_by = JAP } }
+					1458 = { NOT = { controlled_by = JAP } }
+					1459 = { NOT = { controlled_by = JAP } }
+					1460 = { NOT = { controlled_by = JAP } }
+					1461 = { NOT = { controlled_by = JAP } }
+					2565 = { NOT = { controlled_by = JAP } }
+					1464 = { NOT = { controlled_by = JAP } }
+					1463 = { NOT = { controlled_by = JAP } }
+					1462 = { NOT = { controlled_by = JAP } }
+				}
+			}
+			1456 = { remove_province_modifier = japan_occupation }
+			1455 = { remove_province_modifier = japan_occupation }
+			1457 = { remove_province_modifier = japan_occupation }
+			1458 = { remove_province_modifier = japan_occupation }
+			1459 = { remove_province_modifier = japan_occupation }
+			1460 = { remove_province_modifier = japan_occupation }
+			1461 = { remove_province_modifier = japan_occupation }
+			2565 = { remove_province_modifier = japan_occupation }
+			1464 = { remove_province_modifier = japan_occupation }
+			1463 = { remove_province_modifier = japan_occupation }
+			1462 = { remove_province_modifier = japan_occupation }
+			clr_global_flag = filippines_occupied_by_japan
+		}
+		#### Тайвань
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_global_flag = taiwan_occupied_by_japan }
+					has_global_flag = militarized_japan
+					2562 = { controlled_by = JAP }
+					1485 = { controlled_by = JAP }
+				}
+			}
+			
+			2562 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1485 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			
+			set_global_flag = taiwan_occupied_by_japan
+			
+		}
+		
+		any_country = {
+			limit = {
+				has_global_flag = filippines_occupied_by_japan
+				OR = {
+					2562 = { NOT = { controlled_by = JAP } }
+					1485 = { NOT = { controlled_by = JAP } }
+				}
+			}
+			2562 = { remove_province_modifier = japan_occupation }
+			1485 = { remove_province_modifier = japan_occupation }
+			
+			clr_global_flag = taiwan_occupied_by_japan
+		}
+		#######Гавайи
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_global_flag = hawaii_occupied_by_japan }
+					has_global_flag = militarized_japan
+					658 = { controlled_by = JAP }
+				}
+			}
+			
+			658 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			
+			set_global_flag = hawaii_occupied_by_japan
+			
+		}
+		
+		any_country = {
+			limit = {
+				has_global_flag = hawaii_occupied_by_japan
+				658 = { NOT = { controlled_by = JAP } }
+			}
+			658 = { remove_province_modifier = japan_occupation }
+			
+			clr_global_flag = hawaii_occupied_by_japan
+		}
 	}
 }
 

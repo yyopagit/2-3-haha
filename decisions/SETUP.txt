@@ -34,6 +34,9 @@ political_decisions = {
 			enable_canal = 4
 			enable_canal = 11
 			enable_canal = 9
+			JAP = {
+				country_event = 999003
+			}
 		}
 		ai_will_do = {
 			factor = 1

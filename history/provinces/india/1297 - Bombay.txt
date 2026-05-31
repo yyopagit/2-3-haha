@@ -3,7 +3,7 @@ controller =  BIK # JOD
 add_core = BIK
 
 trade_goods = grain
-life_rating = 40
+life_rating = 35 
 terrain = urban
 town_infrastructure = 3
 #colonial = 2
