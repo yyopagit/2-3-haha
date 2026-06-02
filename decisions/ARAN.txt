@@ -17,6 +17,228 @@ political_decisions = {
             factor = 0
         }
     }
+# Пути захвата для Английского-Египта
+    expanse_from_egypteng = {
+        potential = {
+            tag = EGA
+            NOT = { has_country_flag = hide_others_decisions has_country_flag = expanse_from_egypteng }
+        }
+        allow = {
+            exists = HDJ
+            exists = YEM
+        }
+        effect = {
+            HDJ_1151 = {
+                add_core = THIS 
+                remove_core = HDJ
+            }
+            YEM_1173 = {
+                add_core = THIS
+                remove_core = YEM
+            }
+            set_country_flag = expanse_from_egypteng
+        }
+    }
+
+    final_conquest_egypteng = {
+        potential = {
+            tag = EGA
+            NOT = { has_country_flag = hide_others_decisions has_country_flag = final_conquest_egypteng }
+        }
+        allow = {
+            AND = {
+                NOT = {exists = HDJ}
+                NOT = {exists = YEM}
+            }
+        }
+        effect = {
+                HEJ_1157 = {
+                    add_core = EGA
+                    remove_core = HEJ
+                }
+                OMA_1166 = {
+                    add_core = EGA
+                    remove_core  = OMA
+                }
+                set_country_flag = final_conquest_egypteng
+            }
+    }
+
+    final_restovrate_egypt = {
+        potential = {
+            NOT = {has_country_flag = restovrate_egypt}
+            NOT = {has_country_flag = hide_others_decisions}
+            has_country_flag = final_conquest_egypteng
+        }
+        allow = {
+            civilized = yes
+            money = 150000
+        }
+        effect = {
+            money = -150000
+            set_country_flag = restovrate_egypt
+                any_pop = {
+                    literacy = 0.11
+                }
+        }
+    }
+    
+# Франция-Хуе
+    expanse_from_egyptfra = {
+        potential = {
+            tag = EGF
+            NOT = { has_country_flag = hide_others_decisions has_country_flag = expanse_from_egyptfra }
+        }
+        allow = {
+            exists = HDJ
+            exists = YEM
+        }
+        effect = {
+            HDJ_1151 = {
+                add_core = THIS 
+                remove_core = HDJ
+            }
+            YEM_1173 = {
+                add_core = THIS
+                remove_core = YEM
+            }
+            set_country_flag = expanse_from_egyptfra
+        }
+    }
+
+    final_conquest_egyptfra = {
+        potential = {
+            tag = EGF
+            NOT = { has_country_flag = hide_others_decisions has_country_flag = final_conquest_egyptfra }
+        }
+        allow = {
+            AND = {
+                NOT = {exists = HDJ}
+                NOT = {exists = YEM}
+            }
+        }
+        effect = {
+                HEJ_1157 = {
+                    add_core = EGF
+                    remove_core = HEJ
+                }
+                OMA_1166 = {
+                    add_core = EGF
+                    remove_core  = OMA
+                }
+                set_country_flag = final_conquest_egyptfra
+            }
+    }
+
+    final_restovrate_egypt = {
+        potential = {
+            NOT = {has_country_flag = hide_others_decisions}
+            NOT = {has_country_flag = restovrate_egypt}
+            has_country_flag = final_conquest_egyptfra
+        }
+        allow = {
+            civilized = yes
+            money = 150000
+        }
+        effect = {
+            money = -150000
+            set_country_flag = restovrate_egypt
+                any_pop = {
+                    limit = {
+                        is_primary_culture = yes
+                    }
+                    literacy = 0.25
+                }
+            any_owned_province = {
+                remove_core = EGY
+            }
+        }
+    }
+
+# Путь экспансии турецкого
+    expanse_from_egyptfra = {
+        potential = {
+            tag = EGT
+            NOT = { has_country_flag = hide_others_decisions has_country_flag = expanse_from_egypttur }
+        }
+        allow = {
+            exists = HDJ
+            exists = YEM
+        }
+        effect = {
+            HDJ_1151 = {
+                add_core = THIS 
+                remove_core = HDJ
+            }
+            YEM_1173 = {
+                add_core = THIS
+                remove_core = YEM
+            }
+            set_country_flag = expanse_from_egypttur
+        }
+    }
+
+    final_conquest_egyptfra = {
+        potential = {
+            tag = EGT
+            NOT = { has_country_flag = hide_others_decisions has_country_flag = final_conquest_egypttur }
+        }
+        allow = {
+            AND = {
+                NOT = {exists = HDJ}
+                NOT = {exists = YEM}
+            }
+        }
+        effect = {
+                HEJ_1157 = {
+                    add_core = EGF
+                    remove_core = HEJ
+                }
+                OMA_1166 = {
+                    add_core = EGF
+                    remove_core  = OMA
+                }
+                set_country_flag = final_conquest_egypttur
+            }
+        }
+    
+
+    final_restovrate_egypt = {
+        potential = {
+            NOT = {has_country_flag = restovrate_egypt}
+            NOT = {has_country_flag = hide_others_decisions}
+            has_country_flag = final_conquest_egypttur
+        }
+        allow = {
+            civilized = yes
+            money = 150000
+        }
+        effect = {
+            money = -150000
+            set_country_flag = restovrate_egypt
+                any_pop = {
+                    literacy = 0.10
+                }
+            any_owned_province = {
+                remove_core = EGY
+            }
+        }
+    }
+# Араб - Крутой
+    choose_way_arab_spring = {
+        potential = {
+            tag = ARA
+            has_country_flag = choosed_egy_form
+            NOT = {has_country_flag = hide_others_decisions has_country_flag = first_step_arab_spring}
+        }
+        allow = {
+            always = yes
+        }
+        effect = {
+            country_event = 109001
+            set_country_flag = first_step_arab_spring
+        }
+    }
 
 
 # Выбор баффов

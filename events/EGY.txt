@@ -143,6 +143,11 @@ country_event = {
 
 	option = {
 		name = "EVTOPTD101300"  # Стать ARA
+		change_tag = ARA
+		add_accepted_culture = bedouin
+		add_accepted_culture = sephardic
+		add_accepted_culture = maghrebi
+		add_accepted_culture = berber
 	}
 
 	title = "EVTNAME101300"
@@ -452,6 +457,55 @@ country_event = {
 	desc = "EVTDESC105005"
 	picture = "administration"
 	is_triggered_only = yes
+}
+
+# Арабские ивентики
+
+country_event = {
+	id = 109001
+
+	is_triggered_only = yes
+
+	option = {
+		inherit = HDJ
+		inherit = YEM
+		inherit = OMA
+		add_country_modifier = {name = culture_revolution_arab_spring duration = 3650}
+		set_country_flag = culture_revolution_arab_spring
+		name= "EVTOPTA109001"
+	}
+	option = {
+		HDJ_1151 = {
+			add_core = ARA
+		}
+		YEM_1173 = {
+			add_core = ARA
+		}
+		NEJ_1157 = {
+			add_core = ARA
+		}
+		OMA_1166 = {
+			add_core = ARA
+		}
+		create_vassal = SYR
+		any_owned_province = {
+			limit = {
+				TUR_876
+				EGY_915
+				EGY_903
+			}
+			secede_province = SYR
+		}
+		SYR = {
+			add_country_modifier = {name = syrian_mobilization duration = -1}
+		}
+		add_country_modifier = {name = djihad_arab_spring duration = 3650}
+		set_country_flag = djihad_arab_spring
+		name= "EVTOPTB109001"
+	}
+	title = "EVTNAME109001"
+	desc = "EVTDESC109001"
+	picture = "administration"
 }
 
 

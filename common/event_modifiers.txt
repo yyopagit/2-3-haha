@@ -858,6 +858,26 @@ Others_education_buffs_egy = {
 	research_points_modifier = 0.3
 }
 
+# путь араба Баффы
+culture_revolution_arab_spring = {
+	culture_tech_research_bonus = 0.3
+	education_efficiency_modifier = 0.8
+	research_points = 0.1
+	mobilisation_size = -0.01
+}
+djihad_arab_spring = {
+	mobilisation_size = 0.02
+	mobilization_impact = -0.5
+	land_organisation = 0.1
+	land_unit_start_experience = 10
+	supply_consumption = -0.05
+	reinforce_speed = 0.05
+	badboy = -0.05
+}
+syrian_mobilization = {
+	mobilization_size = 0.05
+}
+
 #-------------------------------------------------------КАНАДА И ЮАР-------------------------------------------------------
 # navy_bonus_by_can = {
 #     local_ship_build = -0.01
