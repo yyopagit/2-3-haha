@@ -6,7 +6,6 @@ country_event = {
 	id = 100101
 	trigger = {
 		tag = EIC
-		EIC = { in_sphere = ENG }
 		MYS = { in_sphere = ENG }
 		any_owned_province = {
 			any_neighbor_province = {
@@ -37,7 +36,6 @@ country_event = {
 	id = 100102
 	trigger = {
 		tag = EIC
-		EIC = { in_sphere = ENG }
 		TRA = { in_sphere = ENG }
 		any_owned_province = {
 			any_neighbor_province = {
@@ -70,7 +68,6 @@ country_event = {
 	id = 100103
 	trigger = {
 		tag = EIC
-		EIC = { in_sphere = ENG }
 		HYD = { in_sphere = ENG }
 		any_owned_province = {
 			any_neighbor_province = {
@@ -103,7 +100,6 @@ country_event = {
 	id = 100104
 	trigger = {
 		tag = EIC
-		EIC = { in_sphere = ENG }
 		BER = { in_sphere = ENG }
 		any_owned_province = {
 			any_neighbor_province = {
@@ -136,7 +132,6 @@ country_event = {
 	id = 100105
 	trigger = {
 		tag = EIC
-		EIC = { in_sphere = ENG }
 		BIK = { in_sphere = ENG }
 		any_owned_province = {
 			any_neighbor_province = {
@@ -169,7 +164,6 @@ country_event = {
 	id = 100106
 	trigger = {
 		tag = EIC
-		EIC = { in_sphere = ENG }
 		JOD = { in_sphere = ENG }
 		any_owned_province = {
 			any_neighbor_province = {
@@ -202,7 +196,6 @@ country_event = {
 	id = 100107
 	trigger = {
 		tag = EIC
-		EIC = { in_sphere = ENG }
 		BHO = { in_sphere = ENG }
 		any_owned_province = {
 			any_neighbor_province = {
@@ -235,7 +228,6 @@ country_event = {
 	id = 100108
 	trigger = {
 		tag = EIC
-		EIC = { in_sphere = ENG }
 		BUN = { in_sphere = ENG }
 		any_owned_province = {
 			any_neighbor_province = {
@@ -268,7 +260,6 @@ country_event = {
 	id = 100109
 	trigger = {
 		tag = EIC
-		EIC = { in_sphere = ENG }
 		IND = { in_sphere = ENG }
 		any_owned_province = {
 			any_neighbor_province = {
@@ -301,7 +292,6 @@ country_event = {
 	id = 100110
 	trigger = {
 		tag = EIC
-		EIC = { in_sphere = ENG }
 		MAK = { in_sphere = ENG }
 		any_owned_province = {
 			any_neighbor_province = {
@@ -334,7 +324,6 @@ country_event = {
 	id = 100111
 	trigger = {
 		tag = EIC
-		EIC = { in_sphere = ENG }
 		JAI = { in_sphere = ENG }
 		any_owned_province = {
 			any_neighbor_province = {
@@ -367,7 +356,6 @@ country_event = {
 	id = 100112
 	trigger = {
 		tag = EIC
-		EIC = { in_sphere = ENG }
 		KUT = { in_sphere = ENG }
 		any_owned_province = {
 			any_neighbor_province = {
@@ -404,17 +392,8 @@ country_event = {
 	id = 100201
 	trigger = {
 		OR = {
-			tag = RPC
-			tag = GPC
-			tag = TPC
-		}
-		OR = {
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = RPC
 				KUT = { in_sphere = RUS }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -423,11 +402,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = GPC
 				KUT = { in_sphere = GER }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -436,11 +411,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = TPC
 				KUT = { in_sphere = TUR }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -448,6 +419,7 @@ country_event = {
 					}
 				}
 			}
+			
 		}
 	}
 	
@@ -475,17 +447,8 @@ country_event = {
 	id = 100202
 	trigger = {
 		OR = {
-			tag = RPC
-			tag = GPC
-			tag = TPC
-		}
-		OR = {
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = RPC
 				JAI = { in_sphere = RUS }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -494,11 +457,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = GPC
 				JAI = { in_sphere = GER }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -507,11 +466,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = TPC
 				JAI = { in_sphere = TUR }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -519,6 +474,7 @@ country_event = {
 					}
 				}
 			}
+			
 		}
 	}
 	
@@ -546,17 +502,8 @@ country_event = {
 	id = 100203
 	trigger = {
 		OR = {
-			tag = RPC
-			tag = GPC
-			tag = TPC
-		}
-		OR = {
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = RPC
 				MAK = { in_sphere = RUS }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -565,11 +512,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = GPC
 				MAK = { in_sphere = GER }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -578,11 +521,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = TPC
 				MAK = { in_sphere = TUR }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -617,17 +556,8 @@ country_event = {
 	id = 100204
 	trigger = {
 		OR = {
-			tag = RPC
-			tag = GPC
-			tag = TPC
-		}
-		OR = {
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = RPC
 				JOD = { in_sphere = RUS }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -636,11 +566,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = GPC
 				JOD = { in_sphere = GER }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -649,11 +575,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = TPC
 				JOD = { in_sphere = TUR }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -661,6 +583,7 @@ country_event = {
 					}
 				}
 			}
+			
 		}
 	}
 	
@@ -688,17 +611,8 @@ country_event = {
 	id = 100205
 	trigger = {
 		OR = {
-			tag = RPC
-			tag = GPC
-			tag = TPC
-		}
-		OR = {
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = RPC
 				BUN = { in_sphere = RUS }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -707,11 +621,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = GPC
 				BUN = { in_sphere = GER }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -720,11 +630,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = TPC
 				BUN = { in_sphere = TUR }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -732,6 +638,7 @@ country_event = {
 					}
 				}
 			}
+			
 		}
 	}
 	
@@ -759,17 +666,8 @@ country_event = {
 	id = 100206
 	trigger = {
 		OR = {
-			tag = RPC
-			tag = GPC
-			tag = TPC
-		}
-		OR = {
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = RPC
 				BHO = { in_sphere = RUS }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -778,11 +676,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = GPC
 				BHO = { in_sphere = GER }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -791,11 +685,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = TPC
 				BHO = { in_sphere = TUR }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -803,6 +693,7 @@ country_event = {
 					}
 				}
 			}
+			
 		}
 	}
 	
@@ -830,17 +721,8 @@ country_event = {
 	id = 100207
 	trigger = {
 		OR = {
-			tag = RPC
-			tag = GPC
-			tag = TPC
-		}
-		OR = {
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = RPC
 				IND = { in_sphere = RUS }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -849,11 +731,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = GPC
 				IND = { in_sphere = GER }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -862,11 +740,7 @@ country_event = {
 				}
 			}
 			AND = {
-				OR = { 
-					RPC = { in_sphere = RUS }
-					GPC = { in_sphere = GER }
-					TPC = { in_sphere = TUR }
-				}
+				tag = TPC
 				IND = { in_sphere = TUR }
 				any_owned_province = {
 					any_neighbor_province = {
@@ -874,6 +748,7 @@ country_event = {
 					}
 				}
 			}
+			
 		}
 	}
 	
@@ -903,11 +778,7 @@ country_event = {
 
 country_event = {
 	
-	fire_only_once = yes
-
-	trigger = {
-		year = 2055
-	}
+	is_triggered_only = yes
 	
 	id = 100300
 	option = {
@@ -954,12 +825,8 @@ country_event = {
 }
 
 country_event = {
-	fire_only_once = yes
-	id = 100301
 	
-	trigger = {
-		year = 2055
-	}
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTA100301"
@@ -983,12 +850,8 @@ country_event = {
 }
 
 country_event = {
-	fire_only_once = yes
-	id = 100302
-	
-	trigger = {
-		year = 2055
-	}
+
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTA100302"
@@ -1012,12 +875,8 @@ country_event = {
 }
 
 country_event = {
-	fire_only_once = yes
-	id = 100303
-	
-	trigger = {
-		year = 2055
-	}
+
+	is_triggered_only = yes
 	
 	option = {
 		name = "EVTOPTA100303"

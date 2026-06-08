@@ -252,6 +252,14 @@ promote_to =
 				literacy = 1
 			}
 		}
+		modifier = {
+			factor = 20
+			state_scope = {
+				any_owned_province = {
+					has_building = town_infrastructure
+				}
+			}
+		}
 		group = {		
 			modifier = {
 				factor = 1
@@ -906,6 +914,14 @@ promote_to =
 					work_available = {
 						worker = craftsmen
 					}
+				}
+			}
+		}
+		modifier = {
+			factor = 20
+			state_scope = {
+				any_owned_province = {
+					has_building = town_infrastructure
 				}
 			}
 		}

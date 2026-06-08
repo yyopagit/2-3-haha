@@ -289,6 +289,14 @@ promote_to =
 				factor = -2
 				not = { literacy = 0.2 }
 			}
+		modifier = {
+			factor = 20
+			state_scope = {
+				any_owned_province = {
+					has_building = town_infrastructure
+				}
+			}
+		}
 		group = {
 			modifier = {
 				factor = 1

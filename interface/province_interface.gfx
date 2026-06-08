@@ -17,9 +17,9 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_town_infrastructure_strip"
-		texturefile = "gfx\\interface\\province_town_infra_strip.dds"
-		noOfFrames = 7
+		name = "GFX_town_strip"
+		texturefile = "gfx\\interface\\province_town_strip.dds"
+		noOfFrames = 2
 	}
 
 	spriteType = {

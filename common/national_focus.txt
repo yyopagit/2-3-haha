@@ -132,7 +132,7 @@ promotion_focus =
 
 	promote_craftsmen =
 	{
-		craftsmen = 0.2 #20% more likeley to become this type
+		craftsmen = 0.15 #20% more likeley to become this type
 		icon = 11
 		outliner_show_as_percent = yes
 		limit = { 

@@ -475,6 +475,7 @@ enlightenment_thought = {
 	cost = 3600
 
 	max_national_focus = 1
+	activate_building = town_infrastructure
 	
 	ai_chance = {
 		factor = 11

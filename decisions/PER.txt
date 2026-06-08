@@ -56,6 +56,7 @@ political_decisions = {
 					owns = 1229
 					owns = 1223
 					prestige = 60
+					nationalism_n_imperialism = 1
 				}
 				AND = {
 					prestige = 60

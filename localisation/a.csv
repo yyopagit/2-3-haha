@@ -3188,7 +3188,7 @@ EVTDESC90901;Новый статус династии Цин позволяет им требовать от нас признания и
 EVTOPTA90901;Мы снова едины!;X;X;X;X;X;X
 EVTOPTA90910;В фургоны и на Запад!;X;X;X;X;X;X
 SUPPRESSION_POINTS;Очки подавления;X;X;X;X;X;X
-school_reforms;Школьная система;X;X;X;X;X;X
+school_reforms;Школ. система;X;X;X;X;X;X
 no_schools;Нет школьной системы;X;X;X;X;X;X
 low_schools;Начальная школьная система;X;X;X;X;X;X
 acceptable_schools;Приемлемая школьная система;X;X;X;X;X;X
@@ -7699,7 +7699,7 @@ BUILDING_NO_TECH;Изучена технология §Y$TECH$§W;X;X;X;X;X;X
 BUILDING_AT_MAX;Уровень $CURR$/$MAX$;X;X;X;X;X;X
 BUILDING_PORT_PROVINCE;Прибрежная провинция;X;X;X;X;X;X
 BUILDING_BLOCKED_BY;Блокируется из-за $OTHER$;X;X;X;X;X;X
-BUILDING_MUST_HAVE;Требуется $OTHER$;X;X;X;X;X;X
+BUILDING_MUST_HAVE;Требуется городская инфраструктура;X;X;X;X;X;X
 BUILDING_NO_RAILWAYS;Экономическая политика позволяет строительство;X;X;X;X;X;X
 BUILDING_ANOTHER;Уже ведется другое строительство;X;X;X;X;X;X
 BUILDING_CONSTRUCTION_TOOLTIP;Сейчас строится §Y$NAME$§W, предполагаемая дата завершения: §Y$DATE$§W.;X;X;X;X;X;X
@@ -16400,7 +16400,7 @@ non_socialist;Не-социалисты;X;X;X;X;X;X
 non_socialist_desc;Разрешены только несоциалистические профсоюзы.;X;X;X;X;X;X
 all_trade_unions;Все разрешены;X;X;X;X;X;X
 all_trade_unions_desc;Разрешены все профсоюзы.;X;X;X;X;X;X
-political_parties;Политические партии;X;X;X;X;X;X
+political_parties;Полит. партии;X;X;X;X;X;X
 underground_parties;Только подпольные;X;X;X;X;X;X
 underground_parties_desc;Правительство активное препятствует другим партиям вести публичную борьбу за голоса избирателей.;X;X;X;X;X;X
 harassment;Притеснения;X;X;X;X;X;X
@@ -16412,7 +16412,7 @@ non_secret_ballots_desc;Проводимые в стране выборы являются открытыми. Правящая 
 secret_ballots;Тайное голосование;X;X;X;X;X;X
 secret_ballots_desc;Выбор избирателя является конфиденциальной информацией, дабы никто не мог повлиять на него посредством подкупа или угрозами. В результате правящая партия не может влиять на выбор населения.;X;X;X;X;X;X
 social_reforms;Социальные реформы;X;X;X;X;X;X
-wage_reform;Минимальная зарплата;X;X;X;X;X;X
+wage_reform;Мин. зарплата;X;X;X;X;X;X
 no_minimum_wage;Нет минимума;X;X;X;X;X;X
 no_minimum_wage_desc;Нет минимального уровня оплаты труда.;X;X;X;X;X;X
 REMOVE_trinket_wage;Крайне низкая зарплата;X;X;X;X;X;X
@@ -16423,7 +16423,7 @@ acceptable_minimum_wage;Приемлемая зарплата;X;X;X;X;X;X
 acceptable_minimum_wage_desc;Приемлемая оплата труда.;X;X;X;X;X;X
 good_minimum_wage;Хорошая зарплата;X;X;X;X;X;X
 good_minimum_wage_desc;Оплата труда выше обычного уровня.;X;X;X;X;X;X
-work_hours;Макс. рабочий день;X;X;X;X;X;X
+work_hours;Рабочий день;X;X;X;X;X;X
 no_work_hour_limit;Максимум не установлен;X;X;X;X;X;X
 no_work_hour_limit_desc;Нет ограничения рабочего дня.;X;X;X;X;X;X
 fourteen_hours;14-часовой рабочий день;X;X;X;X;X;X
@@ -16445,7 +16445,7 @@ acceptable_safety;Приемлемое обеспечение;X;X;X;X;X;X
 acceptable_safety_desc;Наличие правил безопасности, регулирующих случаи, связанные с физической работой.;X;X;X;X;X;X
 good_safety;Отличное обеспечение;X;X;X;X;X;X
 good_safety_desc;Наличие развитой системы правил безопасности.;X;X;X;X;X;X
-unemployment_subsidies;Пособия по безработице;X;X;X;X;X;X
+unemployment_subsidies;Пособия;X;X;X;X;X;X
 no_subsidies;Нет субсидий;X;X;X;X;X;X
 no_subsidies_desc;Нет пособий по безработице.;X;X;X;X;X;X
 trinket_subsidies;Минимум субсидий;X;X;X;X;X;X
@@ -16467,7 +16467,7 @@ acceptable_pensions;Приемлемый фонд;X;X;X;X;X;X
 acceptable_pensions_desc;Приемлемые государственные пенсии.;X;X;X;X;X;X
 good_pensions;Хороший фонд;X;X;X;X;X;X
 good_pensions_desc;Высокие государственные пенсии.;X;X;X;X;X;X
-health_care;Гражданские права;X;X;X;X;X;X
+health_care;Гр. права;X;X;X;X;X;X
 no_health_care;Отсутствует;X;X;X;X;X;X
 no_health_care_desc;Нет системы общественного здравоохранения.;X;X;X;X;X;X
 trinket_health_care;Минимальный уровень;X;X;X;X;X;X

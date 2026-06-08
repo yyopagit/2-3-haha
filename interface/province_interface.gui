@@ -1474,7 +1474,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "build_icon4"
-			spriteType = "GFX_town_infrastructure_strip"
+			spriteType = "GFX_town_strip"
 			position = { x= 23 y = -4 }
 			Orientation = "UPPER_LEFT"
 		}
