@@ -482,7 +482,6 @@ steel_factory = {
 		}
 		value = -0.7
 	}
-	can_build_in_province = { building = railroad }
 }
 
 steel_manufactory = {

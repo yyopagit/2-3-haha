@@ -5,26 +5,11 @@ add_core = GER
 trade_goods = iron
 life_rating = 45
 terrain = urban
-town_infrastructure = 3
+town_infrastructure = 0
 railroad = 1
 fort = 1
 state_building = {
 	level = 1
 	building = glass_factory
-	upgrade = yes
-}
-state_building = {
-	level = 1
-	building = ammunition_factory
-	upgrade = yes
-}
-state_building = {
-	level = 1
-	building = small_arms_factory
-	upgrade = yes
-}
-state_building = {
-	level = 1
-	building = paper_mill
 	upgrade = yes
 }

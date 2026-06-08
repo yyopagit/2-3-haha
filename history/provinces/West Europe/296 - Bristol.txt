@@ -4,15 +4,9 @@ add_core = ENG
 trade_goods = iron
 life_rating = 35
 terrain = urban
-town_infrastructure = 2
+town_infrastructure = 0
 state_building = {
 	level = 1
 	building = luxury_clothes_factory
 	upgrade = yes
 }
-state_building = {
-	level = 1
-	building = canned_food_factory
-	upgrade = yes
-}
-

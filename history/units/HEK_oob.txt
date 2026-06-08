@@ -33,9 +33,4 @@ army = {
 		type = infantry
 		home = 566
 	}
- regiment = {
-		name= "2-я пехотная бригада"
-		type = infantry
-		home = 566
-	}
 }

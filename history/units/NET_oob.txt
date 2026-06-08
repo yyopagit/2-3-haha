@@ -109,105 +109,85 @@ leader = {
 army = {
 	name = "1-� �������"
 	location = 375 
+
+
+
+
+
+
 	regiment = {
 		name= "1-� ������������� �������"
 		type = cuirassier
 		home = 375
 	}
-
 	regiment = {
 		name= "2-� ������������� �������"
 		type = cuirassier
 		home = 383
 	}
-
 	regiment = {
 		name= "3-� ������������� �������"
 		type = cuirassier
 		home = 380
 	}
-
 	regiment = {
 		name = "1-� �������� �������"
 		type = infantry
 		home = 376
 	}
-
 	regiment = {
 		name = "2-� �������� �������"
 		type = infantry
 		home = 381
 	}
-
 	regiment = {
 		name = "3-� �������� �������"
 		type = infantry
 		home = 377
 	}
-
 }
 
 army = {
 	name = "2-� �������"
 	location = 381
+
+
+
 	regiment = {
 		name = "4-� �������� �������"
 		type = infantry
 		home = 378
 	}
-
-	regiment = {
-		name = "5-� �������� �������"
-		type = infantry
-		home = 379
-	}
-
 	regiment = {
 		name = "6-� �������� �������"
 		type = infantry
 		home = 386
 	}
-
 }
 
 army = {
 	name = "3-� �������"
 	location = 375
+
+
+
 	regiment = {
 		name = "7-� �������� �������"
 		type = infantry
 		home = 383
 	}
-
 	regiment = {
 		name = "8-� �������� �������"
 		type = infantry
 		home = 384
 	}
-
 	regiment = {
 		name = "9-� �������� �������"
 		type = infantry
 		home = 385
 	}
-
 }
 
-army = {
-	name = "���-������� �����"
-	location = 1413
-	regiment = {
-		name = "1-� ��������� �������"
-		type = infantry
-		home = 1413
-	}
-
-	regiment = {
-		name = "2-� ��������� �������"
-		type = irregular
-		home = 1421
-	}
-}
 
 navy = {
 	name = "����������� ����"

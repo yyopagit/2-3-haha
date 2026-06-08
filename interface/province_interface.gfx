@@ -165,7 +165,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_province_recruit_bg_wide"
-		texturefile = "gfx\\interface\\province_recruit_bg_wide.dds"
+		texturefile = "gfx\\interface\\province_bg.dds"
 		norefcount = yes
 	}
 	spriteType = {

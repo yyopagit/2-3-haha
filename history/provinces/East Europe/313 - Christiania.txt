@@ -6,10 +6,4 @@ add_core = NOR
 trade_goods = grain
 life_rating = 35
 terrain = urban
-town_infrastructure = 2
-state_building = {
-level = 1
-building = furniture_factory
-upgrade = yes
-}
-
+town_infrastructure = 0

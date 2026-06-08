@@ -5,24 +5,4 @@ add_core = ITA
 trade_goods = grain
 life_rating = 45
 terrain = urban
-town_infrastructure = 2
-state_building = {
-	level = 1
-	building = steel_factory
-	upgrade = yes
-}
-#state_building = {
-#	level = 1
-#	building = fabric_factory
-#	upgrade = yes
-#}
-#state_building = {
-#	level = 1
-#	building = ammunition_factory
-#	upgrade = yes
-#}
-#state_building = {
-#	level = 1
-#	building = small_arms_factory
-#	upgrade = yes
-#}
+town_infrastructure = 0

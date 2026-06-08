@@ -4,11 +4,4 @@ add_core = SPA
 trade_goods = grain
 life_rating = 45
 terrain = urban
-town_infrastructure = 2
-state_building = {
-	level = 1
-	building = ammunition_factory
-	upgrade = yes
-}
-
-
+town_infrastructure = 0

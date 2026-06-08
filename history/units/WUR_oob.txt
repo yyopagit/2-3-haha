@@ -47,11 +47,6 @@ army = {
 		type = infantry
 		home = 589
 	}
-	regiment = {
-		name = "2-я пехотная бригада"
-		type = infantry
-		home = 589
-	}
 }
 
 army = {
@@ -60,11 +55,6 @@ army = {
 	regiment = {
 		name = "3-я пехотная бригада"
 		type = infantry
-		home = 593
-	}
-	regiment = {
-		name = "1-я артиллерийская бригада"
-		type = artillery
 		home = 593
 	}
 }

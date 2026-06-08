@@ -40,5 +40,5 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
-oob = "COL_oob.txt"
+# removed invalid oob: oob = "COL_oob.txt"
 

@@ -11,22 +11,12 @@ army = {
 	}
 	
 	location = 749
+
+
 	regiment = {
 		name= "1-я бригада зуавов"
 		type = infantry
 		home = 749
-	}
-
-	regiment = {
-		name= "2-я бригада зуавов"
-		type = infantry
-		home = 750
-	}
-
-	regiment = {
-		name= "4-я бригада зуавов"
-		type = artillery
-		home = 751
 	}
 }
 

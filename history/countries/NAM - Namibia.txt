@@ -40,4 +40,4 @@ school_reforms = no_schools
 consciousness = 0
 nonstate_consciousness = 0
 
-oob = "LIB_oob.txt"
+# removed invalid oob: oob = "LIB_oob.txt"

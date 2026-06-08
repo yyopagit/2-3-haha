@@ -1,0 +1,30 @@
+army = {
+	name = "Армия султана Маската"
+	location = 1166
+	regiment = {
+		name= "1-я бригада"
+		type = irregular
+		home = 1166
+	}
+}
+
+
+
+navy = {
+	name = "Флот Красного моря"
+	location = 1166
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+
+navy = {
+	name = "Индийский флот"
+	location = 2048
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+}

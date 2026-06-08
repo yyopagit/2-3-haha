@@ -1,0 +1,32 @@
+SOK = {
+	value = -10
+}
+
+army = {
+
+	name = "Армия Борну"
+
+	location = 1949
+
+	regiment = {
+
+		name= "1й полк воителей"
+	
+	type = irregular
+
+		home = 1949
+
+	}
+	regiment = {
+
+		name= "2й полк воителей"
+	
+	type = irregular
+
+		home = 1936
+
+	}
+
+}
+
+

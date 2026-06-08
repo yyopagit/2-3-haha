@@ -17,48 +17,33 @@ leader = {
 army = {
 	name = "Армия Дании"
 	location = 372
+
+
+	
+
+
+
+
 	regiment = {
 		name= "1-я пехотная бригада"
 		type = infantry
 		home = 372
 	}
-
 	regiment = {
 		name= "2-я пехотная бригада"
 		type = infantry
 		home = 372
 	}
-
-	regiment = {
-		name= "3-я пехотная бригада"
-		type = infantry
-		home = 372
-	}
-	
 	regiment = {
 		name= "4-я пехотная бригада"
 		type = infantry
 		home = 366
 	}
-
-	regiment = {
-		name= "5-я пехотная бригада"
-		type = infantry
-		home = 366
-	}
-
-	regiment = {
-		name= "6-я пехотная бригада"
-		type = infantry
-		home = 366
-	}
-
 	regiment = {
 		name= "1-я кавалерийская бригада"
 		type = dragoon
 		home = 373
 	}
-
 }
 
 navy = {

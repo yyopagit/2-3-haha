@@ -1,0 +1,110 @@
+army = {
+	name = "Army 1"
+	location = 1251
+	regiment = {
+		name= "1-Я бригада"
+		type = irregular
+		home = 1300
+	}
+
+	regiment = {
+		name= "2-Я бригада"
+		type = irregular
+		home = 1301
+	}
+
+	regiment = {
+		name= "3-Я бригада"
+		type = irregular
+		home = 1302
+	}
+	
+	regiment = {
+		name= "4-Я бригада"
+		type = irregular
+		home = 1303
+	}
+
+}
+army = {
+	name = "Army 2"
+	location = 1256
+	regiment = {
+		name= "5-Я бригада"
+		type = dragoon
+		home = 1256
+	}
+
+	regiment = {
+		name= "6-Я бригада"
+		type = cuirassier
+		home = 1256
+	}
+
+	regiment = {
+		name= "7-Я бригада"
+		type = artillery
+		home = 1255
+	}
+	
+	regiment = {
+		name= "8-Я бригада"
+		type = irregular
+		home = 1255
+	}
+	regiment = {
+		name= "9-Я бригада"
+		type = irregular
+		home = 1250
+	}
+	regiment = {
+		name= "10-Я бригада"
+		type = infantry
+		home = 1250
+	}
+	regiment = {
+		name= "11-Я бригада"
+		type = infantry
+		home = 1251
+	}
+
+}
+navy = {
+	name = "Торговый флот"
+	location = 1261
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+}
+
+leader = {
+	name = "Лорд Окленд"
+	date = 1836.1.1
+	type = land
+	personality = vainglorious
+	background = school_of_the_bayonet
+	prestige = 0.0
+}
+leader = {
+	name = "Сэр Генри Гардиндж"
+	date = 1836.1.1
+	type = land
+	personality = efficient
+	background = sycophant
+	prestige = 0.0
+}
+

@@ -21,7 +21,7 @@ upper_house = {
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
-oob = "HAR_oob.txt"
+# removed invalid oob: oob = "HAR_oob.txt"
 
 slavery = yes_slavery
 upper_house_composition = appointed

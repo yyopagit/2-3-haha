@@ -1,0 +1,11 @@
+army = {
+	name = "Армия Бали"
+	location = 1438
+
+	regiment = {
+		name= "1-я бригада ополчения"
+		type = irregular
+		home = 1438
+	}
+}
+

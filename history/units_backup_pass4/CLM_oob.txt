@@ -1,0 +1,103 @@
+leader = {
+	name = "Антонио Санта-Анна"
+	type = land
+	date="1836.1.1"
+	personality = pisspoor
+	background = warmonger
+	prestige = 0.2
+}
+
+leader = {
+	name = "Мартин де Кос"
+	type = land
+	date="1836.1.1"
+	personality = incapable
+	background = aristocrat
+	prestige = 0.1
+}
+
+leader = {
+	name = "Николас Браво"
+	type = land
+	date="1836.1.1"
+	personality = disorderly
+	background = politician
+}
+
+leader = {
+	name = "Мариано Ариста"
+	type = land
+	date="1836.1.1"
+	personality = skilled
+	background = immoral
+}
+
+leader = {
+	name = "Хуан Альварес"
+	type = land
+	date="1836.1.1"
+	personality = skilled
+	background = immoral
+}
+
+army = {
+	name = "Армия Колумбии"
+	location = 2247
+	regiment = {
+		name= "1-я пехотная бригада"
+		type = infantry
+		home = 2247
+	}
+
+	regiment = {
+		name= "2-я пехотная бригада"
+		type = infantry
+		home = 2247
+	}
+
+	regiment = {
+		name= "3-я пехотная бригада"
+		type = infantry
+		home = 2204
+	}
+
+	regiment = {
+		name= "1-я кавалерийская бригада"
+		type = cuirassier
+		home = 2204
+	}
+
+}
+navy = {
+	name = "Колумбиская транспортная эскадра"
+	location = 2258
+	ship = {
+		name= "1-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "4-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5-я транспортная флотилия"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6-я транспортная флотилия"
+		type = clipper_transport
+	}
+	}

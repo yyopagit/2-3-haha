@@ -221,6 +221,7 @@ request_help_sia = {
                 name = grant_kd1
                 duration = 730
             }
+        }
     }
 
     ai_will_do = {
@@ -228,5 +229,4 @@ request_help_sia = {
     }
 }
 
-}
 }

@@ -27,6 +27,7 @@
 #		set_country_flag = tn
 #	}
 #
+political_decisions = {
 	repeal_the_corn_laws = {
 	picture = repeal_the_corn_laws
 		potential = {

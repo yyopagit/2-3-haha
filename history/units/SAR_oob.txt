@@ -71,63 +71,43 @@ leader = {
 army = {
 	name = "јрми€ —ардинии"
 	location = 724
+
+
+
 	regiment = {
 		name= "1-€ пехотна€ бригада"
 		type = infantry
 		home = 724
 	}
-
 	regiment = {
 		name= "2-€ пехотна€ бригада"
 		type = infantry
 		home = 723
 	}
-
-	regiment = {
-		name= "3-€ пехотна€ бригада"
-		type = infantry
-		home = 725
-	}
-
 }
 
 army = {
 	name = "јрми€ карабинеров"
 	location = 720
+
+
+
 	regiment = {
 		name= "1-€ бригада карабинеров"
 		type = infantry
 		home = 720
-	}
-
-	regiment = {
-		name= "2-€ бригада карабинеров"
-		type = infantry
-		home = 722
-	}
-
-	regiment = {
-		name= "3-€ бригада карабинеров"
-		type = cuirassier
-		home = 720
-	}
-
-	regiment = {
-		name= "4-€ бригада карабинеров"
-		type = cuirassier
-		home = 472
 	}
 }
 
 army = {
 	name = "јрми€ гренадеров"
 	location = 765
+
 	regiment = {
 		name= "1-€ гренадерска€ бригада"
 		type = infantry
 		home = 765
 	}
-
 	regiment = {
 		name= "2-€ гренадерска€ бригада"
 		type = infantry
@@ -135,21 +115,6 @@ army = {
 	}
 }
 
-army = {
-	name = "јрми€ берсальеров"
-	location = 721
-	regiment = {
-		name= "1-€ бригада берсальеров"
-		type = guard
-		home = 466
-	}
-
-	regiment = {
-		name= "2-€ бригада берсальеров"
-		type = guard
-		home = 465
-	}
-}
 
 navy = {
 	name = "¬оенно-морской флот"

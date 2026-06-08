@@ -394,7 +394,7 @@ migration_brz = {
 #
 # }
 migration_cd = {
-
+	icon = 1
 }
 #-------------------------------------------------------АВСТРИЯ-------------------------------------------------------
 bonus5_1 = {
@@ -416,7 +416,7 @@ bohemia_buff = {
   immigrant_push = -0.2
 }
 tough_choice_made = {
-
+	icon = 1
 }
 #-------------------------------------------------------ИНДИЯ-------------------------------------------------------
 obrazovanue_for_India1 = {
@@ -690,13 +690,13 @@ can_buff2 = {
 }
 
 force_reform_modifier = {
-
+	icon = 1
 }
 force_reform_cooldown_modifier = {
-
+	icon = 1
 }
-can_cd = { #кд покупки Австралии
-
+can_cd = {
+	icon = 1
 }
 migracia_can = {
 	immigrant_attract = 3        #300%

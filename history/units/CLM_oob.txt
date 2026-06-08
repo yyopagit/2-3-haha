@@ -43,30 +43,20 @@ leader = {
 army = {
 	name = "Армия Колумбии"
 	location = 2247
+
+
+
+
 	regiment = {
 		name= "1-я пехотная бригада"
 		type = infantry
 		home = 2247
 	}
-
 	regiment = {
 		name= "2-я пехотная бригада"
 		type = infantry
 		home = 2247
 	}
-
-	regiment = {
-		name= "3-я пехотная бригада"
-		type = infantry
-		home = 2204
-	}
-
-	regiment = {
-		name= "1-я кавалерийская бригада"
-		type = cuirassier
-		home = 2204
-	}
-
 }
 navy = {
 	name = "Колумбиская транспортная эскадра"

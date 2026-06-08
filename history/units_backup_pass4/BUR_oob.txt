@@ -1,0 +1,53 @@
+#Relations
+
+SIA = {
+	value = -200		#relation
+}
+
+ENG = {
+	value = -5		#relation
+}
+
+
+
+army = {
+	name = "Армия Западной Бирмы"
+	location = 1339
+
+
+
+
+
+
+	regiment = {
+		name= "10-я бригада"
+		type = irregular
+		home = 1334
+	}
+	regiment = {
+		name= "11-я бригада"
+		type = irregular
+		home = 1334
+	}
+	regiment = {
+		name= "12-я бригада"
+		type = irregular
+		home = 1339
+	}
+	regiment = {
+		name= "13-я бригада"
+		type = irregular
+		home = 1336
+	}
+	regiment = {
+		name= "14-я бригада"
+		type = irregular
+		home = 1342
+	}
+	regiment = {
+		name= "15-я бригада"
+		type = irregular
+		home = 1342
+	}
+}
+

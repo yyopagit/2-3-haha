@@ -1,24 +1,19 @@
 army = {
 	name = "јрми€ «аиди"
 	location = 1178
+
+
+
 	regiment = {
 		name= "1-€ хашидска€ бригада"
 		type = irregular
 		home = 1178
 	}
-
 	regiment = {
 		name= "2-€ хашидска€ бригада"
 		type = irregular
 		home = 1179
 	}
-
-	regiment = {
-		name= "1-€ бакильска€ бригада"
-		type = irregular
-		home = 1178
-	}
-
 	regiment = {
 		name= "2-€ бакильска€ бригада"
 		type = irregular

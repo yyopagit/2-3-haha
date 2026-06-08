@@ -4,7 +4,7 @@
 
 country_event = {
 	id = 140401
-	name = "EVTNAME140401"
+	title = "EVTNAME140401"
 	desc = "EVTDESC140401"
 	picture = "Administration"
 	
@@ -50,7 +50,7 @@ country_event = {
 
 country_event = {
 	id = 140406
-	name = "EVTNAME140406"
+	title = "EVTNAME140406"
 	desc = "EVTDESC140406"
 	picture = "Administration"
 	
@@ -102,7 +102,7 @@ country_event = {
 
 country_event = {
 	id = 140407
-	name = "EVTNAME140407"
+	title = "EVTNAME140407"
 	desc = "EVTDESC140407"
 	picture = "Administration"
 	
@@ -152,7 +152,7 @@ country_event = {
 
 country_event = {
 	id = 140402
-	name = "EVTNAME140402"
+	title = "EVTNAME140402"
 	desc = "EVTDESC140402"
 	picture = "Administration"
 	
@@ -198,7 +198,7 @@ country_event = {
 #==================================
 country_event = {
 	id = 140403
-	name = "EVTNAME140401"
+	title = "EVTNAME140401"
 	desc = "EVTDESC140401"
 	picture = "Administration"
 	
@@ -249,7 +249,7 @@ country_event = {
 #==================================
 country_event = {
 	id = 140408
-	name = "EVTNAME140406"
+	title = "EVTNAME140406"
 	desc = "EVTDESC140406"
 	picture = "Administration"
 	
@@ -300,7 +300,7 @@ country_event = {
 #==================================
 country_event = {
 	id = 140409
-	name = "EVTNAME140407"
+	title = "EVTNAME140407"
 	desc = "EVTDESC140407"
 	picture = "Administration"
 	
@@ -350,7 +350,7 @@ country_event = {
 
 country_event = {
 	id = 140404
-	name = "EVTNAME140402"
+	title = "EVTNAME140402"
 	desc = "EVTDESC140402"
 	picture = "Administration"
 	
@@ -393,7 +393,7 @@ country_event = {
 
 country_event = {
 	id = 140405
-	name = "EVTNAME140402"
+	title = "EVTNAME140402"
 	desc = "EVTDESC140402"
 	picture = "Administration"
 	

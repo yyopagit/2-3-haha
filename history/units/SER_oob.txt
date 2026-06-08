@@ -6,21 +6,4 @@ leader = {
 	background = gifted_administrator
 }
 
-army = {
-	name = "Армия Сербии"
-	location = 794
-	regiment = {
-		name= "1-я пехотная бригада"
-		type = infantry
-		home = 794
-	}
-
-	regiment = {
-		name= "2-я пехотная бригада"
-		type = infantry
-		home = 795
-	}
-
-
-}
 

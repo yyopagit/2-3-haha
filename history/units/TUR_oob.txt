@@ -125,317 +125,56 @@ leader = {
 army = {
 	name = "Имперская гвардия"
 	location = 860
-	regiment = {
-		name= "1-я гвардейская бригада"
-		type = guard
-		home = 860
-	}
 
-	regiment = {
-		name= "2-я гвардейская бригада"
-		type = guard
-		home = 828
-	}
 
-	regiment = {
-		name= "3-я гвардейская бригада"
-		type = guard
-		home = 859
-	}
+
 
 	regiment = {
 		name= "4-я гвардейская бригада"
 		type = artillery
 		home = 861
 	}
-
 }
 
 army = {
 	name = "Дунайская армия"
 	location = 810
-	regiment = {
-		name= "1-я бригада сипахов"
-		type = cuirassier
-		home = 798
-	}
 
-	regiment = {
-		name= "2-я бригада сипахов"
-		type = cuirassier
-		home = 799
-	}
 
-	regiment = {
-		name= "3-я бригада сипахов"
-		type = cuirassier
-		home = 802
-	}
 
-	regiment = {
-		name= "1-я пехотная бригада"
-		type = infantry
-		home = 802
-	}
 
-	regiment = {
-		name= "2-я пехотная бригада"
-		type = infantry
-		home = 803
-	}
 
-	regiment = {
-		name= "3-я пехотная бригада"
-		type = infantry
-		home = 803
-	}
 
-	regiment = {
-		name= "4-я пехотная бригада"
-		type = artillery
-		home = 804
-	}
+
+
 
 	regiment = {
 		name= "1-я резервная бригада Измира"
 		type = irregular
 		home = 806
 	}
-
-	regiment = {
-		name= "2-я резервная бригада Измира"
-		type = irregular
-		home = 807
-	}
-
-	regiment = {
-		name= "3-я резервная бригада Измира"
-		type = irregular
-		home = 807
-	}
 }
 	
-army = {
-	name = "Дивизия Бурсы"
-	location = 849
-	
 
-	regiment = {
-		name= "1-я резервная бригада Бурсы"
-		type = irregular
-		home = 849
-	}
 
-	regiment = {
-		name= "2-я резервная бригада Бурсы"
-		type = irregular
-		home = 850
-	}
-
-	regiment = {
-		name= "3-я резервная бригада Бурсы"
-		type = irregular
-		home = 851
-	}
-
-}
-
-army = {
-	name = "Анатолийская армия"
-	location = 878
-	regiment = {
-		name= "5-я пехотная бригада"
-		type = infantry
-		home = 882
-	}
-
-	regiment = {
-		name= "6-я пехотная бригада"
-		type = infantry
-		home = 884
-	}
-
-	regiment = {
-		name= "7-я пехотная бригада"
-		type = infantry
-		home = 879
-	}
-
-	regiment = {
-		name= "8-я пехотная бригада"
-		type = artillery
-		home = 888
-	}
-
-	regiment = {
-		name= "1-я резервная бригада Карса"
-		type = irregular
-		home = 888
-	}
-
-	regiment = {
-		name= "2-я резервная бригада Карса"
-		type = irregular
-		home = 887
-	}
-
-	regiment = {
-		name= "3-я резервная бригада Карса"
-		type = irregular
-		home = 887
-	}
-
-	regiment = {
-		name= "1-я резервная бригада Трабзона"
-		type = irregular
-		home = 876
-	}
-
-	regiment = {
-		name= "2-я резервная бригада Трабзона"
-		type = irregular
-		home = 883
-	}
-
-	regiment = {
-		name= "3-я резервная бригада Трабзона"
-		type = irregular
-		home = 869
-	}
-
-}
-
-army = {
-	name = "Армия Силистрии"
-	location = 818
-	regiment = {
-		name= "4-я бригада сипахов"
-		type = cuirassier
-		home = 810
-	}
-
-	regiment = {
-		name= "5-я бригада сипахов"
-		type = cuirassier
-		home = 811
-	}
-
-	regiment = {
-		name= "6-я бригада сипахов"
-		type = cuirassier
-		home = 812
-	}
-
-	regiment = {
-		name= "9-я пехотная бригада"
-		type = infantry
-		home = 813
-	}
-
-	regiment = {
-		name= "10-я пехотная бригада"
-		type = infantry
-		home = 818
-	}
-
-	regiment = {
-		name= "11-я пехотная бригада"
-		type = infantry
-		home = 674
-	}
-
-	regiment = {
-		name= "1-я резервная бригада Диярбакыра"
-		type = irregular
-		home = 675
-	}
-
-	regiment = {
-		name= "2-я резервная бригада Диярбакыра"
-		type = irregular
-		home = 809
-	}
-
-	regiment = {
-		name= "3-я резервная бригада Диярбакыра"
-		type = irregular
-		home = 814
-	}
-
-}
 
 army = {
 	name = "Арабская армия"
 	location = 925
-	regiment = {
-		name= "12-я пехотная бригада"
-		type = infantry
-		home = 925
-	}
 
-	regiment = {
-		name= "13-я пехотная бригада"
-		type = infantry
-		home = 925
-	}
 
-	regiment = {
-		name= "14-я пехотная бригада"
-		type = infantry
-		home = 926
-	}
+
+
+
 
 	regiment = {
 		name= "1-я резервная бригада Халаба"
 		type = irregular
 		home = 923
 	}
-
-	regiment = {
-		name= "2-я резервная бригада Халаба"
-		type = irregular
-		home = 923
-	}
-
-	regiment = {
-		name= "3-я резервная бригада Халаба"
-		type = irregular
-		home = 923
-	}
-
 }
 
-army = {
-	name = "Армия Триполи"
-	location = 1733
-	regiment = {
-		name= "7-я бригада сипахов"
-		type = cavalry
-		home = 1733
-	}
 
-	regiment = {
-		name= "8-я бригада сипахов"
-		type = cavalry
-		home = 1731
-	}
-}
-
-army = {
-	name = "Армия бея Бенгази"
-	location = 1735
-	regiment = {
-		name= "1-я аскарийская бригада"
-		type = irregular
-		home = 1735
-	}
-
-	regiment = {
-		name= "2-я аскарийская бригада"
-		type = irregular
-		home = 1734
-	}
-}
 
 navy = {
 	name = "Османский флот"

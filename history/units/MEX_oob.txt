@@ -51,75 +51,50 @@ leader = {
 army = {
 	name = "Северная армия"
 	location = 2146
+
+
+
 	regiment = {
 		name= "1-я пехотная бригада"
 		type = infantry
 		home = 2174
 	}
-
-	regiment = {
-		name= "2-я пехотная бригада"
-		type = infantry
-		home = 2174
-	}
-
-	regiment = {
-		name= "3-я пехотная бригада"
-		type = infantry
-		home = 2174
-	}
-
 }
 
 army = {
 	name = "Армия Оаксаки"
 	location = 2177
+
+
+
 	regiment = {
 		name= "19-я пехотная бригада"
 		type = artillery
 		home = 2177
 	}
-
 	regiment = {
 		name= "20-я пехотная бригада"
 		type = cuirassier
 		home = 2177
 	}
-
-	regiment = {
-		name= "21-я пехотная бригада"
-		type = infantry
-		home = 2177
-	}
-
 }
 
 army = {
 	name = "Армия Сьюдад-де-Мексико"
 	location = 2172
+
+
+
 	regiment = {
 		name= "22-я пехотная бригада"
 		type = infantry
 		home = 2176
 	}
-
 	regiment = {
 		name= "23-я пехотная бригада"
 		type = infantry
 		home = 2176
 	}
-
-	regiment = {
-		name= "24-я пехотная бригада"
-		type = cuirassier
-		home = 2176
-	}
-	regiment = {
-		name= "25-я пехотная бригада"
-		type = infantry
-		home = 2176
-	}
-
 }
 
 navy = {

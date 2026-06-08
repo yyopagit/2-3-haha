@@ -24,22 +24,12 @@ navy = {
 army = {
 	name = "Армия Перу"
 	location = 2295
+
+
+
 	regiment = {
 		name= "1-я пехотная бригада"
 		type = infantry
 		home = 2295
 	}
-
-	regiment = {
-		name= "2-я пехотная бригада"
-		type = infantry
-		home = 2295
-	}
-
-	regiment = {
-		name= "3-я пехотная бригада"
-		type = infantry
-		home = 2302
-	}
-
 }

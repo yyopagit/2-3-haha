@@ -4,6 +4,6 @@ add_core = NET
 trade_goods = sulphur
 life_rating = 35
 terrain = urban
-town_infrastructure = 1
+town_infrastructure = 0
 colonial = 2
 naval_base = 2

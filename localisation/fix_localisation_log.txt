@@ -1,0 +1,14 @@
+Vanilla keys: 22929
+Mod lines parsed: 24596 unique keys
+Internal duplicate key occurrences: 8
+Empty keys before: 79
+Backup created: a.csv.bak
+Removed duplicate lines: ~8
+Filled empty keys: 32 (from vanilla: 0)
+Still empty: 47
+Sample still empty: #, ######################################################################, ##### military, ##### Industry, ##### Budget, ##### Technology, ##### Politics, ##### People, ##### Trade , ##### Diplomacy , ##### General, ##### Tutorial , ##### Miltary Medium, ##### Production Medium, ##### Budget Intermediary, # Meta Server, ###############################################################, # Unit Names, ##############################################################, # Abilities, ##################################################, # Naming Conventions, # Trait Tags, # Trait Names, xxxx, # Rebels, desc_fascist_welfare, desc_beer_hall_putsch, REMOVE_desc_immigrant_employment, REMOVE_desc_no_immigrant_employment, # Crime and Corruption Buildings, ###################################################################, # Mapmode Buttons, MESSAGE_SETTING_TRUE, # Actions, # Buliding Names, # Building Names, # Factory tech names, BATTLE_OF, SIEGE_OF, fast_manchu_desc, not_fast_manchu_desc, korea_yes_desc, jap_banzai_end_desc, ne_trogat, can_and_saf_content_end, exchange_settings_dec_desc2
+Pass 2: Filled: 45, Added keys: 3, Remaining empty: 2
+
+Pass 2: Filled: 2, Added keys: 0, Remaining empty: 0
+
+Pass 3: removed 663 identical vanilla keys, kept 23936 keys
