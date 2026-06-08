@@ -236,34 +236,3 @@ total_blockaded = {
 in_bankrupcy = {
 	tax_efficiency = 0.05
 }
-
-# Province modifiers referenced by has_province_modifier in poptypes
-migracia = {
-	immigrant_attract = 10
-	life_rating = 0.5
-}
-migration_brz = {
-	immigrant_attract = 3
-	life_rating = 0.1
-}
-tunis_yes = {
-	immigrant_attract = 3
-}
-gold_rush = {
-	immigrant_attract = 3
-	life_rating = 0.5
-}
-oil_migracia = {
-	immigrant_attract = 5
-	life_rating = 0.5
-}
-Investicii_v_region1 = {
-	tax_efficiency = -0.1
-}
-poderzka_regiona1 = {
-	tax_efficiency = -0.05
-}
-Vladivostok = {
-	immigrant_attract = 3
-	life_rating = 0.5
-}

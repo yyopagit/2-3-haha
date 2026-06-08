@@ -94,6 +94,7 @@ usafabrics = {
 migracia = {
 	immigrant_attract = 10        #300%
 	life_rating = 0.5
+	icon = 1
 }
 miskatonic_campus = {
 	research_points_modifier = 0.1
@@ -981,6 +982,7 @@ mine_RGO_eff = 0.4
 oil_migracia = {
 immigrant_attract = 3
 life_rating = 0.3
+icon = 1
 }
 
 war_test_attack = {
@@ -1457,11 +1459,6 @@ trek_boers = {
 boer_exodus = {
 	immigrant_push = 0.5
 	icon = 20
-}
-gold_rush = {
-	immigrant_attract = 3		#300%
-	life_rating = 0.5
-	icon = 11
 }
 witwatersrand_gold_rush = {
 	prestige = 0.01

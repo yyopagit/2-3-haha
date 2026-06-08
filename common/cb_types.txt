@@ -44,6 +44,7 @@ take_from_sphere
 status_quo 
 gunboat 
 conquest
+conquest2
 conquest_africa_stage_one
 conquest_africa_stage_two
 conquest_africa_stage_three
@@ -51,6 +52,7 @@ civil_war
 acquire_core_state 
 annex_core_country
 acquire_state 
+acquire_small_state
 acquire_substate_region
 place_in_the_sun
 colonial_competition
@@ -60,8 +62,11 @@ liberate_country
 release_puppet
 become_independent
 make_puppet
+make_puppet_first_stage
 dismantle_forts
 humiliate
+humiliate2
+humiliate3
 demand_concession_casus_belli
 establish_protectorate_casus_belli
 unification_humiliate_cb
@@ -124,7 +129,6 @@ status_quo = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		always = no
 	}
 
 	break_truce_prestige_factor = 5
@@ -930,18 +934,16 @@ acquire_small_state = {
 			not = {	is_core = THIS }
 			is_colonial = no
 		}
-		NOT = {total_pops = 550000}
 		not = { any_owned_province = { is_capital = yes } }
 	}
 	
 	allowed_states_in_crisis = {
-	NOT = {total_pops = 550000}
 		any_owned_province = {
 			any_neighbor_province = {
 				owner = { tag = THIS }
 			}
 		}
-	}		
+	}
 
 	po_demand_state = yes
 	
@@ -2042,11 +2044,9 @@ install_communist_gov_cb = {
 			
 			# If actor ruling party is communist
 			ruling_party_ideology = communist
-			# If reciever ruling party is not a communist
-			NOT = {
-				ruling_party_ideology = communist
-			}
-			
+		}
+		
+		AND = {
 			# There are some amount of communist already in the country
 			communist = 0.1
 				
@@ -2056,8 +2056,8 @@ install_communist_gov_cb = {
 			}
 			
 			# If reciever is not a great power
-			#is_greater_power = no
-			}
+			is_greater_power = no
+		}
 	}
 	
 	po_install_communist_gov_type = yes

@@ -205,38 +205,6 @@ migration_target =
 		terrain = arctic
 	}
 	modifier = {
-		factor = 10
-		has_province_modifier = migracia 
-	}
-	modifier = {
-		factor = 10
-		has_province_modifier = migration_brz
-	}
-	modifier = {
-		factor = 2	
-		has_province_modifier = tunis_yes 
-	}
-	modifier = {
-		factor = 10	
-		has_province_modifier = gold_rush
-	}
-	modifier = {
-		factor = 2	
-		has_province_modifier = oil_migracia
-	}
-	modifier = {
-		factor = 5	
-		has_province_modifier = Investicii_v_region1
-	}
-	modifier = {
-		factor = 5	
-		has_province_modifier = poderzka_regiona1
-	}
-	modifier = {
-		factor = 10	
-		has_province_modifier = Vladivostok
-	}
-	modifier = {
 		factor = 2
 		life_rating = 40
 	}
