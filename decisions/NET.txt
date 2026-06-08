@@ -296,23 +296,11 @@ political_decisions = {
  }
  allow = {
  industrial_score = 100
- liquor = 500
- wine = 500
- grain = 500
- fruit = 500
- fish = 500
- cattle = 500
- wool = 500
+ money = 500000
  }
  effect = { 
  set_country_flag = palais14
- liquor = -500
- wine = -500
- grain = -500
- fruit = -500
- fish = -500
- cattle = -500
- wool = -500
+ money = -500000
  1413 = {
 	any_pop = {
 		limit = {

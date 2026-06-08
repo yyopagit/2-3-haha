@@ -258,7 +258,7 @@ DEN = {
 }
 
 leader = {
-	name = "Эдмунд Хоффманн"
+	name = " "
 	date = 1813.1.1
 	type = land
 	personality = inefficient
@@ -267,7 +267,7 @@ leader = {
 }
 
 leader = {
-	name = "Герварт фон Биттельфельт"
+	name = "  "
 	date = 1814.1.1
 	type = land
 	personality = intelligent
@@ -276,7 +276,7 @@ leader = {
 }
 
 leader = {
-	name = "Хуго фон Альтен"
+	name = "  "
 	date = 1814.1.1
 	type = land
 	personality = persistant
@@ -285,7 +285,7 @@ leader = {
 }
 
 leader = {
-	name = "Барон фон Мефлинг"
+	name = "  "
 	date = 1813.1.1
 	type = land
 	personality = unfit
@@ -294,7 +294,7 @@ leader = {
 }
 
 leader = {
-	name = "Адольф фон Веттин"
+	name = "  "
 	date = 1829.1.1
 	type = land
 	personality = adventurer
@@ -303,7 +303,7 @@ leader = {
 }
 
 leader = {
-	name = "Карл фон Гролман"
+	name = "  "
 	date = 1816.1.1
 	type = land
 	personality = clueless
@@ -312,7 +312,7 @@ leader = {
 }
 
 leader = {
-	name = "Леопольд фон Фрицх"
+	name = "  "
 	date = 1819.1.1
 	type = land
 	personality = intelligent
@@ -321,7 +321,7 @@ leader = {
 }
 
 leader = {
-	name = "Гюнтер фон Кнорр"
+	name = "  "
 	date = 1820.1.1
 	type = land
 	personality = undisciplined
@@ -330,7 +330,7 @@ leader = {
 }
 
 leader = {
-	name = "Генрих фон Врангель"
+	name = "  "
 	date = 1823.1.1
 	type = land
 	personality = efficient
@@ -339,7 +339,7 @@ leader = {
 }
 
 leader = {
-	name = "Вильгельм фон Нойман-Коссель"
+	name = "  -"
 	date = 1836.1.1
 	type = land
 	personality = adventurer
@@ -348,7 +348,7 @@ leader = {
 }
 
 leader = {
-	name = "Карл фон Гогенхаузен"
+	name = "  "
 	date = 1836.1.1
 	type = land
 	personality = inept
@@ -357,7 +357,7 @@ leader = {
 }
 
 leader = {
-	name = "Максимилиан фон Клеефельд"
+	name = "  "
 	date = 1836.1.1
 	type = land
 	personality = incapable
@@ -369,7 +369,7 @@ leader = {
 
 
 army = {
-	name = "2-й корпус"
+	name = "2- "
 	location = 682
 
 
@@ -380,29 +380,29 @@ army = {
 
 
 	regiment = {
-		name= "7-я пехотная бригада"
+		name= "7-  "
 		type = infantry
 		home = 682
 	}
 	regiment = {
-		name= "8-я пехотная бригада"
+		name= "8-  "
 		type = infantry
 		home = 682
 	}
 	regiment = {
-		name= "2-я инженерная бригада"
+		name= "2-  "
 		type = engineer
 		home = 684
 	}
 	regiment = {
-		name= "12-я пехотная бригада"
+		name= "12-  "
 		type = infantry
 		home = 685
 	}
 }
 
 army = {
-	name = "3-й корпус"
+	name = "3- "
 	location = 695
 
 
@@ -413,19 +413,19 @@ army = {
 
 
 	regiment = {
-		name= "13-я пехотная бригада"
+		name= "13-  "
 		type = infantry
 		home = 696
 	}
 	regiment = {
-		name= "16-я пехотная бригада"
+		name= "16-  "
 		type = infantry
 		home = 695
 	}
 }
 
 army = {
-	name = "4-й корпус"
+	name = "4- "
 	location = 548
 
 
@@ -435,55 +435,55 @@ army = {
 
 
 	regiment = {
-		name= "20-я пехотная бригада"
+		name= "20-  "
 		type = infantry
 		home = 546
 	}
 	regiment = {
-		name= "22-я пехотная бригада"
+		name= "22-  "
 		type = infantry
 		home = 548
 	}
 	regiment = {
-		name= "4-я артиллерийская бригада"
+		name= "4-  "
 		type = artillery
 		home = 578
 	}
 }
 
 army = {
-	name = "5-й корпус"
+	name = "5- "
 	location = 580
 
 
 
 	regiment = {
-		name= "25-я пехотная бригада"
+		name= "25-  "
 		type = infantry
 		home = 580
 	}
 	regiment = {
-		name= "27-я пехотная бригада"
+		name= "27-  "
 		type = infantry
 		home = 581
 	}
 }
 
 army = {
-	name = "6-й корпус"
+	name = "6- "
 	location = 575
 
 
 
 	regiment = {
-		name= "28-я пехотная бригада"
+		name= "28-  "
 		type = infantry
 		home = 575
 	}
 }
 
 army = {
-	name = "7-й корпус"
+	name = "7- "
 	location = 546
 
 
@@ -495,44 +495,44 @@ army = {
 
 
 	regiment = {
-		name= "2-я кавалерийская бригада"
+		name= "2-  "
 		type = cuirassier
 		home = 549
 	}
 	regiment = {
-		name= "7-я кавалерийская бригада"
+		name= "7-  "
 		type = dragoon
 		home = 699
 	}
 }
 
 army = {
-	name = "8-й корпус"
+	name = "8- "
 	location = 573
 	
 
 	regiment = {
-		name= "11-я кавалерийская бригада"
+		name= "11-  "
 		type = dragoon
 		home = 701
 	}
 }
 
 navy = {
-	name = "Королевский флот"
+	name = " "
 	location = 690
 	ship = {
-		name= "1-я транспортная флотилия"
+		name= "1-  "
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "2-я транспортная флотилия"
+		name= "2-  "
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "3-я транспортная флотилия"
+		name= "3-  "
 		type = clipper_transport
 	}
 

@@ -1451,20 +1451,6 @@ international_negotiations1 = {
 	badboy = 0.01
 	icon = 17
 }
-##### Boer War #####
-trek_boers = {
-	immigrant_attract = 2		#200%
-	icon = 19
-}
-boer_exodus = {
-	immigrant_push = 0.5
-	icon = 20
-}
-witwatersrand_gold_rush = {
-	prestige = 0.01
-	icon = 11
-}
-
 #-------------------------------------------------------ПАНДЕМИЯ-------------------------------------------------------
 pandemic_influenza = {
 	global_population_growth = -0.001

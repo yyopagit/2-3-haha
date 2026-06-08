@@ -108,6 +108,12 @@
         size = 14662
     }
 
+    soldiers = {
+        culture = pashtun
+        religion = orthodox
+        size = 12500
+    }
+
 }
 
 #Balkh
@@ -388,6 +394,12 @@
         culture = hazara
         religion = orthodox
         size = 15612
+    }
+
+    soldiers = {
+        culture = pashtun
+        religion = orthodox
+        size = 3500
     }
 
 }

@@ -241,7 +241,7 @@ country_event = {
 				name = japan_economy_overheat_timer
 				duration = 3650
 			}
-			THIS = {
+			any_country = {
 				limit = {
 					has_country_modifier = japan_economy_overheated
 				}
@@ -292,8 +292,7 @@ country_event = {
 				name = japan_economy_overheat_timer
 				duration = 3650
 			}
-			
-			THIS = {
+			any_country = {
 				limit = {
 					has_country_modifier = japan_economy_overheated
 				}
@@ -337,8 +336,7 @@ country_event = {
 				name = japan_economy_overheat_timer
 				duration = 3650
 			}
-			
-			THIS = {
+			any_country = {
 				limit = {
 					has_country_modifier = japan_economy_overheated
 				}

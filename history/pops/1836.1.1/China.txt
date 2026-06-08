@@ -6382,6 +6382,12 @@
         size = 1675
     }
 
+    soldiers = {
+        culture = beifaren
+        religion = orthodox
+        size = 1400
+    }
+
     farmers = {
         culture = beifaren
         religion = orthodox

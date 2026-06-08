@@ -1494,11 +1494,6 @@ become_independent = {
 			to = pro_military
 			value = 0.25
 		}
-		add_war_goal = {
-			casus_belli = make_puppet
-		}
-		leave_alliance = FROM
-		release_vassal = THIS
 	}
 }
 
