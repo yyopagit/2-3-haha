@@ -8696,7 +8696,7 @@ country_event = {
  	}
  }
 
-country_event {
+country_event = {
 	id = 14090
 	title = "EVTNAME14090"
 	desc = "EVTDESC14090"

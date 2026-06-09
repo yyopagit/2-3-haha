@@ -2,6 +2,7 @@ country_event = {
 	title = "noloc"
 	desc = "noloc"
 	id = 140400
+	is_triggered_only = yes
 	
 	trigger = {
 		tag = JAN

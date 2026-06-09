@@ -104,14 +104,13 @@ country_event = {
     }
     option = {
         name = "EVTOPTAId67673"
-        prestige = 25
+        prestige = 30
         ENG_1384 = {
             add_province_modifier = {
                 name = help_malakka_SIA
                 duration = 7500
             }
         }
-        prestige = 5
     }
 }
 
