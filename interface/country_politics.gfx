@@ -30,6 +30,10 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\politics_movement_bg.dds"
 	}
 	spriteType = {
+		name = "GFX_fleet_doctrine"
+		texturefile = "gfx\\interface\\politics_naval_training.dds"
+	}
+	spriteType = {
 		name = "GFX_politics_movement_entry"
 		texturefile = "gfx\\interface\\politics_movement_entry.dds"
 	}

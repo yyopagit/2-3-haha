@@ -422,6 +422,31 @@ political_reforms = {
 			global_immigrant_attract = 0.05
 		}
 	}
+	
+	fleet_doctrine = {
+		fleet_mothballing = {
+			naval_organisation = 0.15
+			naval_unit_start_experience = 20
+			local_ship_build = -0.20
+		}
+		fleet_expansion = {
+			local_repair = 0.50
+			local_ship_build = -0.20
+			naval_organisation = -0.5
+			naval_attack_modifier = 0.10
+			naval_defense_modifier = 0.10
+			naval_attrition = 0.10
+			naval_base_build_speed_modifier = 0.10
+			naval_build_cost_modifier = 0.10
+			naval_forces_limit_modifier = 0.10
+			global_ship_recruit_speed = 0.10
+			reinforce_cost_modifier = 0.10
+			ship_power_modifier = 0.10
+		}
+		active_combat_fleet = {
+		
+		}
+	}
 }
 
 ##########################################
