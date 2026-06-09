@@ -828,6 +828,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	id = 100301
 	option = {
 		name = "EVTOPTA100301"
 		PER = {
@@ -853,6 +854,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
+	id = 100302
 	option = {
 		name = "EVTOPTA100302"
 		PER = {
@@ -878,6 +880,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
+	id = 100303
 	option = {
 		name = "EVTOPTA100303"
 		PER = {

@@ -24076,3 +24076,58 @@ EVTNAME18903;Цена Имперских амбиций;X;X;X;X;X;X
 EVTDESC18903;Годы непрерывной милитаризации истощили производственные мощности страны. Бесконечные военные заказы, расширение флота и гонка вооружений привели экономику к опасной черте. Если не принять меры, последствия для Империи могут оказаться крайне тяжёлыми.;X;X;X;X;X;X
 EVTOPTA18903;Мы пожинаем плоды собственной экспансии;X;X;X;X;X;X
 fleet_doctrine;Доктрина флота;X;X;X;X;X;X
+town_infrastructure_desc;Городская инфраструктура — улучшает развитие крупных городов.;X;X;X;X;X;X
+province_selector_desc;Выбор провинции для применения эффекта.;X;X;X;X;X;X
+conquest_africa_stage_two_desc;Второй этап завоевания Африки.;X;X;X;X;X;X
+conquest_africa_stage_three_desc;Третий этап завоевания Африки.;X;X;X;X;X;X
+select_prov_title;Выбор провинции;X;X;X;X;X;X
+select_prov_desc;Выберите провинцию для применения решения.;X;X;X;X;X;X
+marker_jan_title;Маркер JAN;X;X;X;X;X;X
+marker_jan_desc;Служебное решение для инициализации механики Jan Mayen.;X;X;X;X;X;X
+EVTOPTAId67673;Принять;X;X;X;X;X;X
+EVTOPTAId67674;Принять;X;X;X;X;X;X
+EVTOPTAId676761;Согласиться;X;X;X;X;X;X
+EVTNAMEId676782;Ответ Сиама;X;X;X;X;X;X
+EVTOPTA70002;OK;X;X;X;X;X;X
+FAQ1.T;FAQ;X;X;X;X;X;X
+active_combat_fleet;Боевой флот;X;X;X;X;X;X
+fleet_expansion;Расширение флота;X;X;X;X;X;X
+fleet_mothballing;Консервация флота;X;X;X;X;X;X
+active_combat_fleet_desc;Фокус на боевых кораблях.;X;X;X;X;X;X
+fleet_expansion_desc;Ускоренное строительство и расширение флота.;X;X;X;X;X;X
+fleet_mothballing_desc;Снижение расходов за счёт консервации кораблей.;X;X;X;X;X;X
+harsh_malaria_metarg;Регион с тяжёлым малярийным климатом;X;X;X;X;X;X
+malaria_metarg;Регион с малярийным климатом;X;X;X;X;X;X
+USA_non_blockaded;Неблокируемые порты США;X;X;X;X;X;X
+RUS_non_blockaded;Неблокируемые порты России;X;X;X;X;X;X
+grant_kd1;Грант;X;X;X;X;X;X
+grant_kd1_desc;Финансовая помощь.;X;X;X;X;X;X
+cb_speed;Ускорение casus belli;X;X;X;X;X;X
+cb_speed_desc;Ускоряет накопление casus belli.;X;X;X;X;X;X
+ai_min_spending_triggered;Минимальные расходы ИИ;X;X;X;X;X;X
+ai_min_spending_triggered_desc;ИИ поддерживает минимальные налоги и тарифы.;X;X;X;X;X;X
+desc_a_nation_of_shopkeepers;Нация лавочников.;X;X;X;X;X;X
+desc_british_helping_in_colonisation;Британская помощь в колонизации.;X;X;X;X;X;X
+desc_florida;Флорида.;X;X;X;X;X;X
+desc_florida2;Флорида (2).;X;X;X;X;X;X
+desc_Investicii_v_Ceylon;Инвестиции на Цейлоне.;X;X;X;X;X;X
+desc_joint_suez;Совместное управление Суэцким каналом.;X;X;X;X;X;X
+desc_not_fast_manchu;Замедление маньчжурской механики.;X;X;X;X;X;X
+desc_otranto;Отранто.;X;X;X;X;X;X
+desc_pers;Персия.;X;X;X;X;X;X
+desc_stambul;Стамбул.;X;X;X;X;X;X
+desc_Tea_need;Потребность в чае.;X;X;X;X;X;X
+desc_uk_navy_tradition1;Британские морские традиции.;X;X;X;X;X;X
+desc_yucatan;Юкатан.;X;X;X;X;X;X
+EVTNAME100301;Российская сфера влияния в Персии;X;X;X;X;X;X
+EVTDESC100301;Персия просит нас взять страну под российское покровительство. Согласиться?;X;X;X;X;X;X
+EVTOPTA100301;Согласиться — Персия станет Russian Persia.;X;X;X;X;X;X
+EVTOPTB100301;Отказать и вернуть выбор пути Персии.;X;X;X;X;X;X
+EVTNAME100302;Немецкая сфера влияния в Персии;X;X;X;X;X;X
+EVTDESC100302;Персия предлагает нам германское покровительство. Принять?;X;X;X;X;X;X
+EVTOPTA100302;Согласиться — Персия станет German Persia.;X;X;X;X;X;X
+EVTOPTB100302;Отказать и вернуть выбор пути Персии.;X;X;X;X;X;X
+EVTNAME100303;Турецкая сфера влияния в Персии;X;X;X;X;X;X
+EVTDESC100303;Персия просит османское покровительство. Согласиться?;X;X;X;X;X;X
+EVTOPTA100303;Согласиться — Персия станет Turkish Persia.;X;X;X;X;X;X
+EVTOPTB100303;Отказать и вернуть выбор пути Персии.;X;X;X;X;X;X
