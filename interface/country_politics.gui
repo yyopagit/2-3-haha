@@ -1704,7 +1704,7 @@ guiTypes = {
 	windowType = {
 		name = "reform_option_window"
 		backGround =""
-		size = { x=130 y=14 }
+		size = { x=134 y=14 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = "0"
@@ -1714,7 +1714,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "reform_option"
-			position = { x = 166 y = 9 }
+			position = { x = 16 y = 40 }
 			quadTextureSprite ="GFX_politics_reform_select"
 			buttonText = ""
 			buttonFont = "Arial14"
@@ -1723,17 +1723,17 @@ guiTypes = {
 		iconType = {
 			name = "selected"
 			spriteType = "GFX_politics_reform_selected"
-			position = { x = 148 y = 8 }
+			position = { x = 2 y = 39 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = { 
 			name = "reform_name"
-			position = { x = 169 y = 10 }
+			position = { x = 18 y = 40 }
 			font = "Arial12_black"
 			text = "REFORM_OPTION_NAME"	
-			maxWidth = 130
-			maxHeight = 16
+			maxWidth = 134
+			maxHeight = 14
 			fixedsize = yes
 		}
 		
