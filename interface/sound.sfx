@@ -3,6 +3,14 @@ click = {
 	file = "GI_ValidClick.wav"
 }
 
+start_game = {
+	file = "GI_ValidClick.wav"
+}
+
+close_window = {
+	file = "GI_ValidClick.wav"
+}
+
 army_move = {
 	file = "GI_InfantryMove.wav"
 }

@@ -319,14 +319,14 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_button_speedup"
-		texturefile = "gfx\\interface\\button_speedup.tga"
+		texturefile = "gfx\\interface\\button_speedup.dds"
 		noOfFrames = 1
 		effectFile = "gfx\\FX\\buttonstate.fx"
 		transparencecheck = yes
 	}
 	spriteType = {
 		name = "GFX_button_speeddown"
-		texturefile = "gfx\\interface\\button_speeddown.tga"
+		texturefile = "gfx\\interface\\button_speeddown.dds"
 		noOfFrames = 1
 		effectFile = "gfx\\FX\\buttonstate.fx"
 		transparencecheck = yes

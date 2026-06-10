@@ -11,10 +11,22 @@ sys.path.insert(0, os.path.dirname(__file__))
 from _dds_tools import decode_dxt1, read_header, save_dds
 
 MOD_GFX = os.path.join(os.path.dirname(os.path.dirname(__file__)), "gfx", "interface")
+MOD_ROOT = os.path.dirname(os.path.dirname(__file__))
 REF_BGRA = os.path.join(
     r"C:\Users\Антон\Desktop\BDSM_Mod-Victoria2-main\V2BDSM\mod\8\gfx\interface",
     "resources_small.dds",
 )
+
+
+def git_dds_bytes(name: str) -> bytes:
+    import subprocess
+
+    r = subprocess.run(
+        ["git", "-C", MOD_ROOT, "show", f"HEAD:gfx/interface/{name}"],
+        capture_output=True,
+        check=True,
+    )
+    return r.stdout
 
 
 def decode_dds_rgba(path: str) -> Image.Image:
@@ -47,12 +59,17 @@ def fix_resources_small() -> None:
 
 
 def fix_speed_button(name: str) -> None:
-    dds = os.path.join(MOD_GFX, f"{name}.dds")
+    """Кнопки +/-: ванильный DXT1 DDS (без TGA — PIL ломает загрузку в Clausewitz)."""
+    import shutil
+
+    van = os.path.join(os.path.dirname(MOD_ROOT), "gfx", "interface")
+    src = os.path.join(van, f"{name}.dds")
+    dst = os.path.join(MOD_GFX, f"{name}.dds")
     tga = os.path.join(MOD_GFX, f"{name}.tga")
-    img = decode_dds_rgba(dds)
-    save_dds(dds, img, "BGRA32", bgra_header_template())
-    img.save(tga, format="TGA")
-    print(f"{name}: DDS BGRA32 + TGA uncompressed {img.size}")
+    shutil.copy2(src, dst)
+    if os.path.exists(tga):
+        os.remove(tga)
+    print(f"{name}: vanilla DXT1 -> {dst}")
 
 
 def main() -> None:
