@@ -666,45 +666,46 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = 19501
-	title = "EVTNAME19501"
-	desc = "EVTDESC19501"
-	news = yes
-	news_desc_long = "EVTDESC19501_NEWS_LONG"
-	news_desc_medium = "EVTDESC19501_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC19501_NEWS_SHORT"
-	picture = "GOLDRUSH"
-	
-	trigger = {
-		is_greater_power = yes
-		any_neighbor_country = {
-			has_country_modifier = witwatersrand_gold_rush
-			is_greater_power = no
-			NOT = {
-				num_of_cities = 10
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 12
-	}
-	
-	option = {
-		name = "EVTOPTA19501"
-		any_country = {
-			limit = {
-				has_country_modifier = witwatersrand_gold_rush
-			}
-			add_casus_belli = {
-				target = THIS
-				type = conquest
-			}
-			remove_country_modifier = witwatersrand_gold_rush
-		}
-	}
-}
+# DISABLED: witwatersrand_gold_rush modifier missing from event_modifiers.txt
+#country_event = {
+#	id = 19501
+#	title = "EVTNAME19501"
+#	desc = "EVTDESC19501"
+#	news = yes
+#	news_desc_long = "EVTDESC19501_NEWS_LONG"
+#	news_desc_medium = "EVTDESC19501_NEWS_MEDIUM"
+#	news_desc_short = "EVTDESC19501_NEWS_SHORT"
+#	picture = "GOLDRUSH"
+#	
+#	trigger = {
+#		is_greater_power = yes
+#		any_neighbor_country = {
+#			has_country_modifier = witwatersrand_gold_rush
+#			is_greater_power = no
+#			NOT = {
+#				num_of_cities = 10
+#			}
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 12
+#	}
+#	
+#	option = {
+#		name = "EVTOPTA19501"
+#		any_country = {
+#			limit = {
+#				has_country_modifier = witwatersrand_gold_rush
+#			}
+#			add_casus_belli = {
+#				target = THIS
+#				type = conquest
+#			}
+#			remove_country_modifier = witwatersrand_gold_rush
+#		}
+#	}
+#}
 
 country_event = {
 
@@ -10516,40 +10517,41 @@ province_event = {
 	}
 }
 
-province_event = {
-	id = 1139
-	
-	trigger = {
-		year = 1886
-		province_id = 2106
-		NOT = {
-			trade_goods = precious_metal
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 12
-	}
-	
-	title = "EVTNAME1139"
-	desc = "EVTDESC1139"
-	
-	option = {
-		name = "EVTOPTA1139"
-		trade_goods = precious_metal
-		add_province_modifier = {
-			name = gold_rush
-			duration = 5475
-		}
-		change_province_name = "            "
-		owner = {
-			add_country_modifier = {
-				name = witwatersrand_gold_rush
-				duration = 1460
-			}
-		}
-	}
-}
+# DISABLED: witwatersrand_gold_rush modifier missing from event_modifiers.txt
+#province_event = {
+#	id = 1139
+#	
+#	trigger = {
+#		year = 1886
+#		province_id = 2106
+#		NOT = {
+#			trade_goods = precious_metal
+#		}
+#	}
+#	
+#	mean_time_to_happen = {
+#		months = 12
+#	}
+#	
+#	title = "EVTNAME1139"
+#	desc = "EVTDESC1139"
+#	
+#	option = {
+#		name = "EVTOPTA1139"
+#		trade_goods = precious_metal
+#		add_province_modifier = {
+#			name = gold_rush
+#			duration = 5475
+#		}
+#		change_province_name = "            "
+#		owner = {
+#			add_country_modifier = {
+#				name = witwatersrand_gold_rush
+#				duration = 1460
+#			}
+#		}
+#	}
+#}
 
 country_event = {
 	id = 1140

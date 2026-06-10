@@ -177,50 +177,51 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	die_groot_trek = {
-	picture = die_groot_trek
-		potential = {
-			OR = {
-				tag = ORA
-				tag = TRN
-			}
-			NOT = {
-				has_global_flag = the_great_trek
-			}
-		}
-		allow = {
-			prestige = 2
-		}
-		effect = {
-			set_global_flag = the_great_trek
-			any_owned = {
-				add_province_modifier = {
-					name = trek_boers
-					duration = 3650
-				}
-			}
-			ENG = {
-				any_owned = {
-					limit = {	
-						has_pop_culture = boer
-					}
-					any_pop = {
-						limit = {
-							culture = boer
-						}
-						consciousness = 6
-					}
-					add_province_modifier = {
-							name = boer_exodus
-							duration = 3650
-					}
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	# DISABLED: trek_boers / boer_exodus modifiers missing from event_modifiers.txt
+	#die_groot_trek = {
+	#picture = die_groot_trek
+	#	potential = {
+	#		OR = {
+	#			tag = ORA
+	#			tag = TRN
+	#		}
+	#		NOT = {
+	#			has_global_flag = the_great_trek
+	#		}
+	#	}
+	#	allow = {
+	#		prestige = 2
+	#	}
+	#	effect = {
+	#		set_global_flag = the_great_trek
+	#		any_owned = {
+	#			add_province_modifier = {
+	#				name = trek_boers
+	#				duration = 3650
+	#			}
+	#		}
+	#		ENG = {
+	#			any_owned = {
+	#				limit = {	
+	#					has_pop_culture = boer
+	#				}
+	#				any_pop = {
+	#					limit = {
+	#						culture = boer
+	#					}
+	#					consciousness = 6
+	#				}
+	#				add_province_modifier = {
+	#						name = boer_exodus
+	#						duration = 3650
+	#				}
+	#			}
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
 	leave_SER_ROM_ALB = {
 	picture = leave_soi
 		alert = no
