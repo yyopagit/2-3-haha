@@ -23,6 +23,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_province_bg"
+		texturefile = "gfx\\interface\\province_bg.dds"
+		norefcount = yes
+	}
+
+	spriteType = {
 		name = "GFX_close_province"
 		texturefile = "gfx\\interface\\close_province.dds"
 	}
@@ -93,12 +99,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_province_fort_strip"
 		textureFile = "gfx\\interface\\province_fort_strip.dds"
-		noOfFrames = 7
+		noOfFrames = 8
 	}
 	spriteType = {
 		name = "GFX_province_navalbase_strip"
 		textureFile = "gfx\\interface\\province_navalbase_strip.dds"
-		noOfFrames = 7
+		noOfFrames = 8
 	}
 	spriteType = {
 		name = "GFX_province_infra_strip"
