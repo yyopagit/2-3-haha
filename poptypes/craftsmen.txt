@@ -786,6 +786,18 @@ clerks = {
 				military_spending = 0.99
 			}
 		}
+		modifier = {
+			factor = 10
+			AND = {
+				state_scope = {
+					any_owned_province = {
+						has_building = town_infrastructure
+					}
+				}
+				colonial_politics = non_colonial
+				NOT = { soldiers = 0.07 }
+			}
+		}
 		group = {		
 			modifier = {
                 factor = 1
@@ -937,6 +949,11 @@ clerks = {
                         AND = { country = { NOT = { has_country_flag = changed_army } } soldiers = 0.042 }
                         AND = { country = { has_country_flag = changed_army } soldiers = 0.052 }
                     }
+					AND = {
+						colonial_politics = external_colonisation
+						soldiers = 0.04
+						state_scope = { is_colonial = no }
+					}
 					 AND    =    {
 					 country = {
 			has_country_flag = changed_army
@@ -949,7 +966,11 @@ clerks = {
 		}
 		modifier = {
 			factor = -20
-			state_scope = { is_colonial = yes }
+			AND = {
+				state_scope = { is_colonial = yes }
+				NOT = { colonial_politics = external_colonisation }
+				NOT = { soldiers = 0.042 }
+			}
 		}
 		modifier = {
 			factor = 2

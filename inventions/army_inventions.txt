@@ -852,6 +852,10 @@ colonial_negotiations = {
 				invention = colonial_negotiations
 			}
 		}
+		modifier = {
+			factor = -100
+			colonial_politics = non_colonial
+		}
 	}
 	effect = {
 		colonial_life_rating = -10 

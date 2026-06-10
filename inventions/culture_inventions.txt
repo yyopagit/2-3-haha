@@ -1362,6 +1362,10 @@ mission_to_civilize = {
 				invention = mission_to_civilize
 			}
 		}
+		modifier = {
+			factor = -100
+			colonial_politics = non_colonial
+		}
 	}
 	effect = {
 		colonial_prestige = 0.1
