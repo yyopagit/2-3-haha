@@ -270,6 +270,18 @@ soldiers =
 				recruited_percentage = 0.60
 			}
 		}
+		modifier = {
+			factor = 10
+			AND = {
+				state_scope = {
+					any_owned_province = {
+						has_building = town_infrastructure
+					}
+				}
+				colonial_politics = non_colonial
+				NOT = { soldiers = 0.07 }
+			}
+		}
 	
 		group = {
 			modifier = {

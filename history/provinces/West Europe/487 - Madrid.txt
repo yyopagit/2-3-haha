@@ -4,4 +4,4 @@ add_core = SPA
 trade_goods = grain
 life_rating = 45
 terrain = urban
-town_infrastructure = 0
+town_infrastructure = 1

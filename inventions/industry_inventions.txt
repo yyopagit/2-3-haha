@@ -916,8 +916,8 @@ vaccination = {
 		base = 2	
 	}
 	effect = {
-		land_attrition = -0.05 
-		soldier_to_pop_loss = 0.01
+		land_attrition = -0.1 
+		soldier_to_pop_loss = 0.02
 	}
 }
 chemotherapy = {
@@ -975,10 +975,12 @@ prophylaxis_against_malaria = {
 				invention = prophylaxis_against_malaria
 			}
 		}
+		modifier = {
+			factor = -100
+			colonial_politics = non_colonial
+		}
 	}
 	effect = {
-		land_attrition = -0.05 
-		soldier_to_pop_loss = 0.01
 		colonial_life_rating = -5
 	}
 }

@@ -5,4 +5,4 @@ add_core = IGM
 trade_goods = sulphur
 life_rating = 45
 terrain = urban
-town_infrastructure = 0
+town_infrastructure = 1
