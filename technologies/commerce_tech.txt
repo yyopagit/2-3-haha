@@ -787,31 +787,14 @@ scientific_management = {
 	area = tech_organization
 	year = 1870
 	cost = 10800
-    rgo_size = {
+	rgo_size = {
        timber = 0.2
-	}
-	rgo_size = {
-		grain = 0.2
-	}
-	rgo_size = {
-		grain = 0.3
-	}
-	rgo_size = {
+		grain = 0.5
 		fish = 0.2
-	}
-	rgo_size = {
 	    wool = 0.2
-	}
-	rgo_size = {
 	    tobacco = 0.2
-	}
-	rgo_size = {
 	    silk = 0.2
-	}
-	rgo_size = {
 	    opium = 0.1
-	}
-	rgo_size = {
 	    dye = 0.2
 	}
 	ai_chance = {
@@ -852,29 +835,12 @@ time_saving_measures = {
 	cost = 14400
     rgo_size = {
        timber = 0.2
-	}
-	rgo_size = {
-		grain = 0.2
-	}
-	rgo_size = {
-		grain = 0.3
-	}
-	rgo_size = {
+		grain = 0.5
 		fish = 0.2
-	}
-	rgo_size = {
 	    wool = 0.2
-	}
-	rgo_size = {
 	    tobacco = 0.2
-	}
-	rgo_size = {
 	    silk = 0.2
-	}
-	rgo_size = {
 	    opium = 0.1
-	}
-	rgo_size = {
 	    dye = 0.2
 	}
 	ai_chance = {
