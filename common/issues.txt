@@ -428,12 +428,18 @@ political_reforms = {
 			naval_organisation = -0.25
 			naval_attack_modifier = -0.20
 			naval_defense_modifier = -0.20
+			allow = {
+				always = no
+			}
 		}
 		fleet_expansion = {
 			local_repair = 0.50
 			local_ship_build = -0.20
 			naval_organisation = -0.05
 			naval_unit_start_experience = -10
+			allow = {
+				always = no
+			}
 		}
 		active_combat_fleet = {
 			naval_organisation = 0.05
@@ -441,19 +447,28 @@ political_reforms = {
 			naval_attack_modifier = 0.05
 			naval_defense_modifier = 0.05
 			naval_unit_start_experience = 50
+			allow = {
+				always = no
+			}
 			
 		}
 	}
 	
 	colonial_politics = {
 		non_colonial = {
-			factory_output = 0.1
+			allow = {
+				always = no
+			}
 		}
 		inner_colonisation = {
-			rgo_output = 0.2
+			allow = {
+				always = no
+			}
 		}
 		external_colonisation = {
-			factory_output = 0.2
+			allow = {
+				always = no
+			}
 		}
 	}
 }

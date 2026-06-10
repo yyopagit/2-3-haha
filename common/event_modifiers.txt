@@ -1684,3 +1684,23 @@ malaria_modifier = {
 harsh_malaria_modifier = {
 	icon = 16
 }
+
+external_colonisation_towns = {
+	local_factory_output = 0.1
+}
+
+external_colonisation_colonies = {
+	local_RGO_output = 0.15
+}
+
+internal_colonisation = {
+	local_RGO_output = 0.3
+}
+
+non_colonial_towns = {
+	local_factory_output = 0.2
+}
+
+non_colonial_penalty = {
+	local_RGO_output = -0.7
+}

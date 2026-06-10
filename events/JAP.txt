@@ -364,7 +364,7 @@ country_event = {
             name = meiji_restoration_boost
             duration = 7200
 		}
-        add_casus_belli = {
+        casus_belli = {
 			target = KOR
 			type = make_puppet
 			months = 60

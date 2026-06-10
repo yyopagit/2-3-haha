@@ -411,6 +411,113 @@ country_event = {
 			
 			clr_global_flag = hawaii_occupied_by_japan
 		}
+		
+		#######Бонусы от колониальных реформ
+		#######От реформы "Внешняя колонизация"
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = external_colonisation_towns }
+					has_building = town_infrastructure
+					THIS = { colonial_politics = external_colonisation }
+				}
+				add_province_modifier = {
+					name = external_colonisation_towns
+					duration = -1
+				}
+			}
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = external_colonisation_colonies }
+					state_scope = { is_colonial = yes }
+					THIS = { colonial_politics = external_colonisation }
+				}
+				add_province_modifier = {
+					name = external_colonisation_colonies
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					has_province_modifier = external_colonisation_towns
+					THIS = { NOT = { colonial_politics = external_colonisation } }
+				}
+				remove_province_modifier = external_colonisation_towns
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = external_colonisation_colonies
+					THIS = { NOT = { colonial_politics = external_colonisation } }
+				}
+				remove_province_modifier = external_colonisation_colonies
+			}
+		}
+		#######От реформы "Внутренняя колонизация"
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = inner_colonisation }
+					NOT = { has_building = town_infrastructure }
+					THIS = { colonial_politics = inner_colonisation }
+				}
+				add_province_modifier = {
+					name = internal_colonisation
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					has_province_modifier = internal_colonisation
+					THIS = { NOT = { colonial_politics = inner_colonisation } }
+				}
+				remove_province_modifier = internal_colonisation
+			}
+		}
+		#######От реформы "Нет колоний"
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = non_colonial_towns }
+					has_building = town_infrastructure
+					THIS = { colonial_politics = non_colonial }
+				}
+				add_province_modifier = {
+					name = non_colonial_towns
+					duration = -1
+				}
+			}
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = non_colonial_penalty }
+					THIS = { colonial_politics = non_colonial }
+					state_scope = { is_colonial = yes }
+				}
+				add_province_modifier = {
+					name = non_colonial_penalty
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					has_province_modifier = non_colonial_towns
+					THIS = { NOT = { colonial_politics = non_colonial } }
+				}
+				remove_province_modifier = non_colonial_towns
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = non_colonial_penalty
+					THIS = { NOT = { colonial_politics = non_colonial } }
+				}
+				remove_province_modifier = non_colonial_penalty
+			}
+		}
 	}
 }
 
