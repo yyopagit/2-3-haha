@@ -1,0 +1,319 @@
+# =========================================================
+# Контроль запасов флота — пульс только на JAN (Ян-Майен).
+# Скрытые noloc бомбят JAN; игроку — только 99514/99515.
+# Счётчик: флаги ns_m1…ns_m4, +1 ступень за тик (без каскада).
+# =========================================================
+
+country_event = {
+	id = 99501
+	title = "noloc"
+	desc = "noloc"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "noloc"
+		country_event = { id = 99501 days = 30 }
+		country_event = { id = 99510 days = 0 }
+		country_event = { id = 99511 days = 0 }
+		country_event = { id = 99512 days = 1 }
+	}
+}
+
+country_event = {
+	id = 99510
+	title = "noloc"
+	desc = "noloc"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "noloc"
+
+		# Склад пополнен — сброс счётчика и предупреждения, штраф НЕ снимаем
+		any_country = {
+			limit = {
+				num_of_ports = 1
+				NOT = { fleet_doctrine = fleet_mothballing }
+				ammunition = 500
+				artillery = 50
+				explosives = 500
+			}
+			clr_country_flag = ns_m1
+			clr_country_flag = ns_m2
+			clr_country_flag = ns_m3
+			clr_country_flag = ns_m4
+			remove_country_modifier = naval_supply_shortage_warning
+			clr_country_flag = naval_supply_warning_shown
+		}
+
+		# Штраф истёк — можно снова получить его в новом цикле дефицита
+		any_country = {
+			limit = {
+				num_of_ports = 1
+				NOT = { fleet_doctrine = fleet_mothballing }
+				ammunition = 500
+				artillery = 50
+				explosives = 500
+				NOT = { has_country_modifier = underfunded_fleet }
+			}
+			clr_country_flag = naval_supply_penalty_shown
+		}
+
+		# Консервация флота / нет портов — полный сброс
+		any_country = {
+			limit = {
+				OR = {
+					fleet_doctrine = fleet_mothballing
+					NOT = { num_of_ports = 1 }
+				}
+			}
+			clr_country_flag = ns_m1
+			clr_country_flag = ns_m2
+			clr_country_flag = ns_m3
+			clr_country_flag = ns_m4
+			remove_country_modifier = naval_supply_shortage_warning
+			remove_country_modifier = underfunded_fleet
+			clr_country_flag = naval_supply_warning_shown
+			clr_country_flag = naval_supply_penalty_shown
+		}
+	}
+}
+
+# +1 месяц дефицита: сверху вниз, срабатывает только одна ступень
+country_event = {
+	id = 99511
+	title = "noloc"
+	desc = "noloc"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "noloc"
+
+		any_country = {
+			limit = {
+				civilized = yes
+				num_of_ports = 1
+				NOT = { fleet_doctrine = fleet_mothballing }
+				OR = {
+					NOT = { ammunition = 500 }
+					NOT = { artillery = 50 }
+					NOT = { explosives = 500 }
+				}
+				has_country_flag = ns_m3
+				NOT = { has_country_flag = ns_m4 }
+			}
+			clr_country_flag = ns_m3
+			set_country_flag = ns_m4
+		}
+
+		any_country = {
+			limit = {
+				civilized = yes
+				num_of_ports = 1
+				NOT = { fleet_doctrine = fleet_mothballing }
+				OR = {
+					NOT = { ammunition = 500 }
+					NOT = { artillery = 50 }
+					NOT = { explosives = 500 }
+				}
+				has_country_flag = ns_m2
+				NOT = { has_country_flag = ns_m3 }
+				NOT = { has_country_flag = ns_m4 }
+			}
+			clr_country_flag = ns_m2
+			set_country_flag = ns_m3
+		}
+
+		any_country = {
+			limit = {
+				civilized = yes
+				num_of_ports = 1
+				NOT = { fleet_doctrine = fleet_mothballing }
+				OR = {
+					NOT = { ammunition = 500 }
+					NOT = { artillery = 50 }
+					NOT = { explosives = 500 }
+				}
+				has_country_flag = ns_m1
+				NOT = { has_country_flag = ns_m2 }
+				NOT = { has_country_flag = ns_m3 }
+				NOT = { has_country_flag = ns_m4 }
+			}
+			clr_country_flag = ns_m1
+			set_country_flag = ns_m2
+		}
+
+		any_country = {
+			limit = {
+				civilized = yes
+				num_of_ports = 1
+				NOT = { fleet_doctrine = fleet_mothballing }
+				OR = {
+					NOT = { ammunition = 500 }
+					NOT = { artillery = 50 }
+					NOT = { explosives = 500 }
+				}
+				NOT = { has_country_flag = ns_m1 }
+				NOT = { has_country_flag = ns_m2 }
+				NOT = { has_country_flag = ns_m3 }
+				NOT = { has_country_flag = ns_m4 }
+			}
+			set_country_flag = ns_m1
+		}
+	}
+}
+
+country_event = {
+	id = 99512
+	title = "noloc"
+	desc = "noloc"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "noloc"
+
+		any_country = {
+			limit = {
+				ai = no
+				civilized = yes
+				num_of_ports = 1
+				NOT = { fleet_doctrine = fleet_mothballing }
+				OR = {
+					has_country_flag = ns_m2
+					has_country_flag = ns_m3
+				}
+				NOT = { has_country_flag = ns_m4 }
+				NOT = { has_country_flag = naval_supply_warning_shown }
+			}
+			country_event = { id = 99514 days = 0 }
+		}
+
+		any_country = {
+			limit = {
+				ai = yes
+				civilized = yes
+				num_of_ports = 1
+				NOT = { fleet_doctrine = fleet_mothballing }
+				OR = {
+					has_country_flag = ns_m2
+					has_country_flag = ns_m3
+				}
+				NOT = { has_country_flag = ns_m4 }
+				NOT = { has_country_flag = naval_supply_warning_shown }
+			}
+			set_country_flag = naval_supply_warning_shown
+			remove_country_modifier = underfunded_fleet
+			add_country_modifier = {
+				name = naval_supply_shortage_warning
+				duration = -1
+			}
+		}
+
+		any_country = {
+			limit = {
+				civilized = yes
+				num_of_ports = 1
+				NOT = { fleet_doctrine = fleet_mothballing }
+				OR = {
+					has_country_flag = ns_m2
+					has_country_flag = ns_m3
+				}
+				NOT = { has_country_flag = ns_m4 }
+				has_country_flag = naval_supply_warning_shown
+			}
+			remove_country_modifier = underfunded_fleet
+			add_country_modifier = {
+				name = naval_supply_shortage_warning
+				duration = -1
+			}
+		}
+
+		any_country = {
+			limit = {
+				ai = no
+				civilized = yes
+				num_of_ports = 1
+				NOT = { fleet_doctrine = fleet_mothballing }
+				has_country_flag = ns_m4
+				NOT = { has_country_flag = naval_supply_penalty_shown }
+			}
+			country_event = { id = 99515 days = 0 }
+		}
+
+		any_country = {
+			limit = {
+				ai = yes
+				civilized = yes
+				num_of_ports = 1
+				NOT = { fleet_doctrine = fleet_mothballing }
+				has_country_flag = ns_m4
+				NOT = { has_country_flag = naval_supply_penalty_shown }
+			}
+			set_country_flag = naval_supply_penalty_shown
+			clr_country_flag = naval_supply_warning_shown
+			remove_country_modifier = naval_supply_shortage_warning
+			remove_country_modifier = underfunded_fleet
+			add_country_modifier = {
+				name = underfunded_fleet
+				duration = 180
+			}
+		}
+
+		any_country = {
+			limit = {
+				civilized = yes
+				num_of_ports = 1
+				NOT = { fleet_doctrine = fleet_mothballing }
+				has_country_flag = ns_m4
+				has_country_flag = naval_supply_penalty_shown
+			}
+			remove_country_modifier = naval_supply_shortage_warning
+			remove_country_modifier = underfunded_fleet
+			add_country_modifier = {
+				name = underfunded_fleet
+				duration = 180
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 99514
+	title = "EVTNAME99502"
+	desc = "EVTDESC99502"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA99502"
+		set_country_flag = naval_supply_warning_shown
+		remove_country_modifier = underfunded_fleet
+		add_country_modifier = {
+			name = naval_supply_shortage_warning
+			duration = -1
+		}
+	}
+}
+
+country_event = {
+	id = 99515
+	title = "EVTNAME99503"
+	desc = "EVTDESC99503"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA99503"
+		set_country_flag = naval_supply_penalty_shown
+		clr_country_flag = naval_supply_warning_shown
+		remove_country_modifier = naval_supply_shortage_warning
+		remove_country_modifier = underfunded_fleet
+		add_country_modifier = {
+			name = underfunded_fleet
+			duration = 180
+		}
+	}
+}

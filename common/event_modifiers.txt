@@ -1684,3 +1684,16 @@ malaria_modifier = {
 harsh_malaria_modifier = {
 	icon = 16
 }
+
+naval_supply_shortage_warning = {
+	icon = 15
+}
+
+underfunded_fleet = {
+	naval_organisation = -0.20
+	local_repair = -0.20
+	local_ship_build = 0.10
+	naval_attack_modifier = -0.05
+	tax_efficiency = -0.03
+	icon = 15
+}
