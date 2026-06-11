@@ -518,6 +518,202 @@ country_event = {
 				remove_province_modifier = non_colonial_penalty
 			}
 		}
+		#######Проверка заполненности стаканов для увеличения расходов на социалку
+		####Жизненные
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = poor_life_needs_satisfaction }
+				poor_life_need = 1.0
+			}
+			add_country_modifier = {
+				name = poor_life_needs_satisfaction
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = poor_life_needs_satisfaction
+				NOT = { poor_life_need = 1.0 }
+			}
+			remove_country_modifier = poor_life_needs_satisfaction
+		}
+		
+		####Ежедневные
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = poor_everyday_needs_satisfaction }
+				poor_everyday_need = 0.5
+			}
+			add_country_modifier = {
+				name = poor_everyday_needs_satisfaction
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = poor_everyday_needs_satisfaction
+				NOT = { poor_everyday_need = 0.5 }
+			}
+			remove_country_modifier = poor_everyday_needs_satisfaction
+		}
+		
+		####Роскоши
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = poor_luxury_needs_satisfaction }
+				poor_luxury_need = 0.25
+			}
+			add_country_modifier = {
+				name = poor_luxury_needs_satisfaction
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = poor_luxury_needs_satisfaction
+				NOT = { poor_luxury_need = 0.25 }
+			}
+			remove_country_modifier = poor_luxury_needs_satisfaction
+		}
+		#########Выдача медреформ
+
+		####ЛВЛ1 (20-39%)
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = med_ref_mp }
+				min_social_spending = 0.2
+				NOT = { min_social_spending = 0.4 }
+			}
+			add_country_modifier = {
+				name = med_ref_mp
+				duration = -1
+			}
+			remove_country_modifier = med_ref_mp1
+			remove_country_modifier = med_ref_mp2
+			remove_country_modifier = med_ref_mp3
+			remove_country_modifier = med_ref_mp4
+		}
+
+		####ЛВЛ2 (40-59%)
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = med_ref_mp1 }
+				min_social_spending = 0.4
+				NOT = { min_social_spending = 0.6 }
+			}
+			add_country_modifier = {
+				name = med_ref_mp1
+				duration = -1
+			}
+			remove_country_modifier = med_ref_mp
+			remove_country_modifier = med_ref_mp2
+			remove_country_modifier = med_ref_mp3
+			remove_country_modifier = med_ref_mp4
+		}
+
+		####ЛВЛ3 (60-79%)
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = med_ref_mp2 }
+				min_social_spending = 0.6
+				NOT = { min_social_spending = 0.8 }
+			}
+			add_country_modifier = {
+				name = med_ref_mp2
+				duration = -1
+			}
+			remove_country_modifier = med_ref_mp
+			remove_country_modifier = med_ref_mp1
+			remove_country_modifier = med_ref_mp3
+			remove_country_modifier = med_ref_mp4
+		}
+
+		####ЛВЛ4 (80-98%)
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = med_ref_mp3 }
+				min_social_spending = 0.8
+				NOT = { min_social_spending = 0.99 }
+			}
+			add_country_modifier = {
+				name = med_ref_mp3
+				duration = -1
+			}
+			remove_country_modifier = med_ref_mp
+			remove_country_modifier = med_ref_mp1
+			remove_country_modifier = med_ref_mp2
+			remove_country_modifier = med_ref_mp4
+		}
+
+		####ЛВЛ5 (99-100%)
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = med_ref_mp4 }
+				min_social_spending = 0.99
+			}
+			add_country_modifier = {
+				name = med_ref_mp4
+				duration = -1
+			}
+			remove_country_modifier = med_ref_mp
+			remove_country_modifier = med_ref_mp1
+			remove_country_modifier = med_ref_mp2
+			remove_country_modifier = med_ref_mp3
+		}
+
+		#########Снятие модификаторов
+
+		any_country = {
+			limit = {
+				has_country_modifier = med_ref_mp
+				NOT = {
+					min_social_spending = 0.2
+				}
+			}
+			remove_country_modifier = med_ref_mp
+		}
+
+		any_country = {
+			limit = {
+				has_country_modifier = med_ref_mp1
+				OR = {
+					NOT = { min_social_spending = 0.4 }
+					min_social_spending = 0.6
+				}
+			}
+			remove_country_modifier = med_ref_mp1
+		}
+
+		any_country = {
+			limit = {
+				has_country_modifier = med_ref_mp2
+				OR = {
+					NOT = { min_social_spending = 0.6 }
+					min_social_spending = 0.8
+				}
+			}
+			remove_country_modifier = med_ref_mp2
+		}
+
+		any_country = {
+			limit = {
+				has_country_modifier = med_ref_mp3
+				OR = {
+					NOT = { min_social_spending = 0.8 }
+					min_social_spending = 0.99
+				}
+			}
+			remove_country_modifier = med_ref_mp3
+		}
+
+		any_country = {
+			limit = {
+				has_country_modifier = med_ref_mp4
+				NOT = { min_social_spending = 0.99 }
+			}
+			remove_country_modifier = med_ref_mp4
+		}
+		
 	}
 }
 

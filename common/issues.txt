@@ -586,45 +586,55 @@ social_reforms = {
 	unemployment_subsidies = {
 		next_step_only = yes
 		no_subsidies = {
+			min_social_spending = 0.01
 		}
 		trinket_subsidies = {
 			unemployment_benefit = 1.5
 			global_immigrant_attract = 0.02
+			min_social_spending = 0.05
 		}
 		low_subsidies = {
 			unemployment_benefit = 2.1
 			global_immigrant_attract = 0.04
+			min_social_spending = 0.1
 		}
 		acceptable_subsidies = {
 			unemployment_benefit = 3.00
 			global_immigrant_attract = 0.06
+			min_social_spending = 0.15
 		}
 		good_subsidies = {
 			unemployment_benefit = 3.75
 			global_immigrant_attract = 0.08
 			non_accepted_pop_militancy_modifier = -0.01
+			min_social_spending = 0.2
 		}
 	}
 	pensions = {
 		next_step_only = yes
 		no_pensions = {
+			min_social_spending = 0.01
 		}
 		trinket_pensions = {
 			pension_level	= 0.35
 			global_immigrant_attract = 0.02
+			min_social_spending = 0.05
 		}
 		low_pensions = {
 			pension_level	= 0.52
 			global_immigrant_attract = 0.04
+			min_social_spending = 0.1
 		}
 		acceptable_pensions = {
 			pension_level	= 0.85
 			global_immigrant_attract = 0.06
+			min_social_spending = 0.15
 		}
 		good_pensions = {
 			pension_level	= 1.00
 			global_immigrant_attract = 0.08
 			non_accepted_pop_militancy_modifier = -0.01
+			main_social_spending = 0.2
 		}
 	}	
 	health_care = {
@@ -667,7 +677,22 @@ social_reforms = {
 			administrative_multiplier = 3
 			non_accepted_pop_militancy_modifier = -0.01
 		}
-	}	
+	}
+	medical_reforms = {
+		next_step_only = yes
+		no_medical_reforms = {
+			
+		}
+		bad_medical_reforms = {
+			min_social_spending = 0.1
+		}
+		medium_medical_reforms = {
+			min_social_spending = 0.15
+		}
+		good_medical_reforms = {
+			min_social_spending = 0.2
+		}
+	}
 }
 
 economic_reforms = {

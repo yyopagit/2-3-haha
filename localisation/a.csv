@@ -24144,3 +24144,27 @@ EVTOPTA99502;Понятно;X;X;X;X;X;X
 EVTNAME99503;Недофинансированный флот;X;X;X;X;X;X
 EVTDESC99503;Дефицит флотских припасов длится уже более четырёх месяцев. Флот получает серьёзные штрафы к организации, ремонту и боевой эффективности. Пополните склад, чтобы снять ограничения.;X;X;X;X;X;X
 EVTOPTA99503;Это катастрофа;X;X;X;X;X;X
+external_colonisation_towns;Городская экономика, завязанная на колониях;X;X;X;X;X;X
+external_colonisation_colonies;Поставки ресурсов из колоний;X;X;X;X;X;X
+internal_colonisation;Развитие внутренних земель;X;X;X;X;X;X
+non_colonial_towns;Ставка на города;X;X;X;X;X;X
+non_colonial_penalty;Наша страна не рассчитывает на колонии!;X;X;X;X;X;X
+poor_life_needs_satisfaction;Удовлетворение жизненных потребностей;X;X;X;X;X;X
+poor_everyday_needs_satisfaction;Удовлетворение ежедневных потребностей;X;X;X;X;X;X
+poor_luxury_needs_satisfaction;Удовлетворение потребностей в предметах роскоши;X;X;X;X;X;X
+non_colonial;Отсутствие колоний;X;X;X;X;X;X
+non_colonial_desc;Государство ориентируется на развитие метрополии.\n\nВыпуск фабрик в городах: §G+20%§!\nВыпуск ДП в колониях: §R-70%§!\nМаксимум солдат в городах: §G7%§!;X;X;X;X;X;X
+inner_colonisation;Освоение внутренних территорий;X;X;X;X;X;X
+inner_colonisation_desc;Государство ориентируется на развитие глубинки.\n\nВыпуск ДП в деревнях: §G+30%§!\nСокращение штрафа к фабрикам в деревнях: §G-40%§!;X;X;X;X;X;X
+external_colonisation;Заморская колонизация;X;X;X;X;X;X
+external_colonisation_desc;Государство ориентируется на развитие метрополии за счет колоний.\n\nВыпуск фабрик в городах: §G+10%§!\nВыпуск ДП в колониях: §G+15%§!\nМаксимум солдат в метрополии: §G4%§!\nМаксимум солдат в колониях: §G4.2%§!;X;X;X;X;X;X
+colonial_politics;Колон. политика;X;X;X;X;X;X
+medical_reforms;Здравоохранение;X;X;X;X;X;X
+no_medical_reforms;Отсутствие здравоохранения;X;X;X;X;X;X
+no_medical_reforms_desc;Отсутствие здравоохранения;X;X;X;X;X;X
+bad_medical_reforms;Плохое здравоохранение;X;X;X;X;X;X
+bad_medical_reforms_desc;В нашей стране плохо развит институт здравоохранения;X;X;X;X;X;X
+medium_medical_reforms;Среднее здравоохранение;X;X;X;X;X;X
+medium_medical_reforms_desc;В нашей стране средне развит институт здравоохранения;X;X;X;X;X;X
+good_medical_reforms;Хорошее здравоохранение;X;X;X;X;X;X
+good_medical_reforms_desc;В нашей стране хорошо развит институт здравоохранения;X;X;X;X;X;X

@@ -16,165 +16,165 @@ political_decisions = {
 			set_country_flag = gon_kong
 		}
 	}
-	dip_med = {
-	picture = dip_med
-		potential = {
- civilized = yes
-			NOT = {
-				has_country_flag = dip_med
-			}
-		}
-		allow = {
-			money = 30000
-			year = 1836
-		}
-		effect = {
-			set_country_flag = dip_med
-			add_country_modifier = {
-				name = med_ref_mp
-				duration = 100000
-			}
-			prestige = 5
-			money = -30000
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	dip_med1 = {
-	picture = dip_med
-		potential = {
-		has_country_flag = dip_med
-			NOT = {
-				has_country_flag = dip_med1
-			}
-		}
-		allow = {
-			money = 100000
-			year = 1840
-		}
-		effect = {
-			set_country_flag = dip_med1
-			remove_country_modifier = med_ref_mp
-			add_country_modifier = {
-				name = med_ref_mp1
-				duration = 100000
-			}
-			prestige = 5
-			money = -100000
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	dip_med2 = {
-	picture = dip_med
-		potential = {
-			prestige = 10
-		has_country_flag = dip_med1
-			NOT = {
-				has_country_flag = dip_med2
-			}
-		}
-		allow = {
-			money = 375000
-			year = 1844
-		}
-		effect = {
-			set_country_flag = dip_med2
-			remove_country_modifier = med_ref_mp1
-			add_country_modifier = {
-				name = med_ref_mp2
-				duration = 100000
-			}
-			prestige = 5
-			money = -375000
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	dip_med3 = {
-	picture = dip_med
-		potential = {
-			prestige = 10
-		has_country_flag = dip_med2
-			NOT = {
-				has_country_flag = dip_med3
-			}
-		}
-		allow = {
-			money = 625000
-			year = 1848
-		}
-		effect = {
-			set_country_flag = dip_med3
-			remove_country_modifier = med_ref_mp2
-			add_country_modifier = {
-				name = med_ref_mp3
-				duration = 100000
-			}
-			prestige = 10
-			money = -625000
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	dip_med4 = {
-	picture = dip_med
-		potential = {
-			prestige = 15
-		has_country_flag = dip_med3
-			NOT = {
-				has_country_flag = dip_med4
-			}
-		}
-		allow = {
-			money = 1500000
-			year = 1852
-		}
-		effect = {
-			set_country_flag = dip_med4
-			remove_country_modifier = med_ref_mp3
-			add_country_modifier = {
-				name = med_ref_mp4
-				duration = 100000
-			}
-			prestige = 20
-			money = -1500000
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	dip_med5 = {
-	picture = dip_med
-		potential = {
-			prestige = 30
-		has_country_flag = dip_med4
-			NOT = {
-				has_country_flag = dip_med5
-			}
-		}
-		allow = {
-			money = 5000000
-			year = 1900
-		}
-		effect = {
-			set_country_flag = dip_med5
-			remove_country_modifier = med_ref_mp4
-			add_country_modifier = {		
-				name = med_ref_mp5
-				duration = 100000
-			}
-			prestige = 30
-			money = -5000000
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+#	dip_med = {
+#	picture = dip_med
+#		potential = {
+# civilized = yes
+#			NOT = {
+#				has_country_flag = dip_med
+#			}
+#		}
+#		allow = {
+#			money = 30000
+#			year = 1836
+#		}
+#		effect = {
+#			set_country_flag = dip_med
+#			add_country_modifier = {
+#				name = med_ref_mp
+#				duration = 100000
+#			}
+#			prestige = 5
+#			money = -30000
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
+#	dip_med1 = {
+#	picture = dip_med
+#		potential = {
+#		has_country_flag = dip_med
+#			NOT = {
+#				has_country_flag = dip_med1
+#			}
+#		}
+#		allow = {
+#			money = 100000
+#			year = 1840
+#		}
+#		effect = {
+#			set_country_flag = dip_med1
+#			remove_country_modifier = med_ref_mp
+#			add_country_modifier = {
+#				name = med_ref_mp1
+#				duration = 100000
+#			}
+#			prestige = 5
+#			money = -100000
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
+#	dip_med2 = {
+#	picture = dip_med
+#		potential = {
+#			prestige = 10
+#		has_country_flag = dip_med1
+#			NOT = {
+#				has_country_flag = dip_med2
+#			}
+#		}
+#		allow = {
+#			money = 375000
+#			year = 1844
+#		}
+#		effect = {
+#			set_country_flag = dip_med2
+#			remove_country_modifier = med_ref_mp1
+#			add_country_modifier = {
+#				name = med_ref_mp2
+#				duration = 100000
+#			}
+#			prestige = 5
+#			money = -375000
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
+#	dip_med3 = {
+#	picture = dip_med
+#		potential = {
+#			prestige = 10
+#		has_country_flag = dip_med2
+#			NOT = {
+#				has_country_flag = dip_med3
+#			}
+#		}
+#		allow = {
+#			money = 625000
+#			year = 1848
+#		}
+#		effect = {
+#			set_country_flag = dip_med3
+#			remove_country_modifier = med_ref_mp2
+#			add_country_modifier = {
+#				name = med_ref_mp3
+#				duration = 100000
+#			}
+#			prestige = 10
+#			money = -625000
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
+#	dip_med4 = {
+#	picture = dip_med
+#		potential = {
+#			prestige = 15
+#		has_country_flag = dip_med3
+#			NOT = {
+#				has_country_flag = dip_med4
+#			}
+#		}
+#		allow = {
+#			money = 1500000
+#			year = 1852
+#		}
+#		effect = {
+#			set_country_flag = dip_med4
+#			remove_country_modifier = med_ref_mp3
+#			add_country_modifier = {
+#				name = med_ref_mp4
+#				duration = 100000
+#			}
+#			prestige = 20
+#			money = -1500000
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
+#	dip_med5 = {
+#	picture = dip_med
+#		potential = {
+#			prestige = 30
+#		has_country_flag = dip_med4
+#			NOT = {
+#				has_country_flag = dip_med5
+#			}
+#		}
+#		allow = {
+#			money = 5000000
+#			year = 1900
+#		}
+#		effect = {
+#			set_country_flag = dip_med5
+#			remove_country_modifier = med_ref_mp4
+#			add_country_modifier = {		
+#				name = med_ref_mp5
+#				duration = 100000
+#			}
+#			prestige = 30
+#			money = -5000000
+#		}
+#		ai_will_do = {
+#			factor = 1
+#		}
+#	}
 	form_republic_a = {
 		potential = {
 		year = 1870

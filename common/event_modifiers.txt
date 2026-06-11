@@ -855,32 +855,26 @@ factory_output = -0.02
 #-------------------------------------------------------МЕДЫ/МЕДИЦИНА-------------------------------------------------------
 med_ref_mp = {
  global_population_growth = 0.001
- tax_efficiency = -0.04
 	icon = 17
 }
 med_ref_mp1 = {
- global_population_growth = 0.002
- tax_efficiency = -0.07
+ global_population_growth = 0.0015
 	icon = 17
 }
 med_ref_mp2 = {
- global_population_growth = 0.003
- tax_efficiency = -0.10
+ global_population_growth = 0.002
 	icon = 17
 }
 med_ref_mp3 = {
- global_population_growth = 0.004
- tax_efficiency = -0.14
+ global_population_growth = 0.0025
 	icon = 17
 }
 med_ref_mp4 = {
- global_population_growth = 0.005
-tax_efficiency = -0.20
+ global_population_growth = 0.003
 	icon = 17
 }
 med_ref_mp5 = {
- global_population_growth = 0.007
- tax_efficiency = -0.25
+ global_population_growth = 0.0035
 	icon = 17
 }
 #-------------------------------------------------------ФОРМЫ ПРАВЛЕНИЯ-------------------------------------------------------
@@ -1715,4 +1709,16 @@ underfunded_fleet = {
 	naval_attack_modifier = -0.05
 	tax_efficiency = -0.03
 	icon = 15
+}
+
+poor_life_needs_satisfaction = {
+	min_social_spending = 0.05
+}
+
+poor_everyday_needs_satisfaction = {
+	min_social_spending = 0.05
+}
+
+poor_luxury_needs_satisfaction = {
+	min_social_spending = 0.1
 }
