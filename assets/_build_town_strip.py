@@ -16,7 +16,7 @@ MOD8 = r"C:\Users\Антон\Desktop\BDSM_Mod-Victoria2-main\V2BDSM\mod\8\gfx\in
 
 
 ART_W, ART_H = 36, 26
-ART_X, ART_Y = 2, 4
+ART_X, ART_Y = 2, 0
 
 
 def downscale_art(img: Image.Image) -> Image.Image:

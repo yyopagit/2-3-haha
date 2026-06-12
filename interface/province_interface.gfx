@@ -204,7 +204,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_province_other_bg"
-		texturefile = "gfx\\interface\\province_other_bg.tga"
+		texturefile = "gfx\\interface\\province_other_bg.dds"
 	}
 
 	spriteType = {

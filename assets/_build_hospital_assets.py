@@ -21,7 +21,6 @@ from _patch_strips import (
     downscale_art,
     empty_frame_from_fort,
     fit_art_in_frame,
-    fort_f0_dim,
     naval_f0_from_bg,
     write_bgra32,
 )
@@ -32,6 +31,7 @@ ASSETS = os.path.dirname(__file__)
 MOD = os.path.dirname(ASSETS)
 MOD_GFX = os.path.join(MOD, "gfx", "interface")
 BASE_GFX = os.path.join(os.path.dirname(MOD), "gfx", "interface")
+MOD8_GFX = r"C:\Users\Антон\Desktop\BDSM_Mod-Victoria2-main\V2BDSM\mod\8\gfx\interface"
 SOURCE = os.path.join(ASSETS, "hospital_levels_source.png")
 
 ICON_X = 23
@@ -40,7 +40,7 @@ ROW_H = 34  # высота строки здания в province_bg (между 
 # town  (i=4): 358+140=498; hospital (i=5): 358+175=533
 TOWN_ICON_Y = 498
 HOSPITAL_ROW_Y = 529  # сразу под городом; в git здесь начинался военный блок
-ICON_Y = 533  # = 358 + 35*5
+ICON_Y = HOSPITAL_ROW_Y   # иконка у всех строк вставляется с y=row_y (0px offset)
 TOWN_LEVEL0_SRC = os.path.join(ASSETS, "city_town_level2.png")  # тот же арт что и strip f1 → плавный переход
 
 
@@ -177,7 +177,7 @@ def panel_to_frame(panel: Image.Image, digit: str | None) -> Image.Image:
 
 
 def level0_from_panel(panel: Image.Image) -> Image.Image:
-    """Уровень 0 на фоне — тот же пайплайн и позиция (2,4), что у уровня 1 в стрипе."""
+    """Уровень 0 на фоне — тот же пайплайн и позиция, что у уровня 1 в стрипе."""
     return panel_to_frame(panel, "0")
 
 
@@ -215,11 +215,10 @@ def build_hospital_strip() -> None:
     print(f"province_hospital_strip.dds: {strip.size}, 7 frames")
 
 
-def load_git_province_bg() -> Image.Image:
-    """Чистый province_bg из git (до кривой вставки госпиталя)."""
-    mod_root = MOD
+def load_base_province_bg(sha: str = "dbeef77") -> Image.Image:
+    """province_bg до строки госпиталя (615 px) — без дублей и артефактов."""
     data = subprocess.run(
-        ["git", "-C", mod_root, "show", "HEAD:gfx/interface/province_bg.dds"],
+        ["git", "-C", MOD, "show", f"{sha}:gfx/interface/province_bg.dds"],
         capture_output=True,
         check=True,
     ).stdout
@@ -235,50 +234,72 @@ def make_empty_building_row(bg: Image.Image, template_row_y: int = 495) -> Image
     return row
 
 
-def extend_province_bg_for_hospital(bg_git: Image.Image) -> Image.Image:
+def extend_province_bg_for_hospital(bg_base: Image.Image) -> Image.Image:
     """Вставить строку госпиталя между городом и военным блоком (+34 px)."""
-    w, h = bg_git.size
+    w, h = bg_base.size
     if h != 615:
-        # Уже расширенный фон (649+) — не дублировать строку
-        return bg_git.copy()
+        raise ValueError(f"Ожидался province_bg 615px, получен {h}px — используйте dbeef77")
     mil_top = HOSPITAL_ROW_Y
     out_h = h + ROW_H
     out = Image.new("RGBA", (w, out_h), (0, 0, 0, 0))
-    out.paste(bg_git.crop((0, 0, w, mil_top)), (0, 0))
-    out.paste(make_empty_building_row(bg_git), (0, mil_top))
-    out.paste(bg_git.crop((0, mil_top, w, h)), (0, mil_top + ROW_H))
+    out.paste(bg_base.crop((0, 0, w, mil_top)), (0, 0))
+    out.paste(make_empty_building_row(bg_base), (0, mil_top))
+    out.paste(bg_base.crop((0, mil_top, w, h)), (0, mil_top + ROW_H))
     return out
 
 
 FORT_ROW_Y = 463   # строка i=3: 358+35*3
 NAVAL_ROW_Y = 393  # строка i=1: 358+35*1
+BUILDING_ICON_ROWS = (358, 393, 428, 463, 498, 529)  # selector..hospital
+
+
+def mask_bg_icon_slots(bg: Image.Image) -> None:
+    """Маска слотов как у strip-кадров (прозрачные строки 0 и 31) — выравнивание ур.0 и ур.1+."""
+    for row_y in BUILDING_ICON_ROWS:
+        slot = bg.crop((ICON_X, row_y, ICON_X + FRAME_W, row_y + FRAME_H))
+        bg.paste(apply_fort_alpha_mask(slot), (ICON_X, row_y))
+
+
+def slots_from_ref_commit(sha: str = "dbeef77") -> dict:
+    """Слоты из коммита dbeef77 (до больницы) — там правильный арт форта и города ур.0."""
+    mod_root = MOD
+    data = subprocess.run(
+        ["git", "-C", mod_root, "show", f"{sha}:gfx/interface/province_bg.dds"],
+        capture_output=True, check=True,
+    ).stdout
+    ref_bg = load_dds_rgba_bytes(data).convert("RGBA")
+    return {
+        "fort": ref_bg.crop((ICON_X, FORT_ROW_Y, ICON_X + FRAME_W, FORT_ROW_Y + FRAME_H)),
+        "town": ref_bg.crop((ICON_X, TOWN_ICON_Y, ICON_X + FRAME_W, TOWN_ICON_Y + FRAME_H)),
+    }
 
 
 def update_bg_hospital_icon() -> None:
-    """Расширить province_bg из git и вставить иконки нулевого уровня."""
+    """Собрать province_bg с нуля: dbeef77 → +строка больницы → иконки ур.0."""
     path = os.path.join(MOD_GFX, "province_bg.dds")
-    bg_git = load_git_province_bg()
-    bg = extend_province_bg_for_hospital(bg_git)
+    bg_base = load_base_province_bg("dbeef77")
+    bg = extend_province_bg_for_hospital(bg_base)
 
+    ref = slots_from_ref_commit("dbeef77")
     panels = slice_source_levels()
-    town_icon = town_level0_frame()
     hospital_icon = level0_from_panel(panels[0])
-    fort_icon = fort_f0_dim()          # dim (50%) версия f1 → плавный переход 0→1
-    naval_icon = naval_f0_from_bg()    # оригинальный маяк из base game
 
-    bg.paste(naval_icon, (ICON_X, NAVAL_ROW_Y), naval_icon)
-    bg.paste(fort_icon, (ICON_X, FORT_ROW_Y), fort_icon)
-    bg.paste(town_icon, (ICON_X, TOWN_ICON_Y), town_icon)
+    bg.paste(ref["fort"], (ICON_X, FORT_ROW_Y))
+    bg.paste(ref["town"], (ICON_X, TOWN_ICON_Y))
+    # Очистить слот больницы перед вставкой (без «больница поверх больницы»)
+    empty_slot = make_empty_building_row(bg_base).crop(
+        (ICON_X, 0, ICON_X + FRAME_W, FRAME_H)
+    )
+    bg.paste(empty_slot, (ICON_X, ICON_Y))
     bg.paste(hospital_icon, (ICON_X, ICON_Y), hospital_icon)
+    mask_bg_icon_slots(bg)
 
     write_bgra32(path, bg)
     shutil.copy2(path, os.path.join(BASE_GFX, "province_bg.dds"))
 
     bg.crop((0, 360, 280, 580)).save(os.path.join(ASSETS, "_preview_province_bg_buildings.png"))
-    town_icon.save(os.path.join(ASSETS, "town_bg_lvl0.png"))
     hospital_icon.save(os.path.join(ASSETS, "hospital_bg_lvl0.png"))
-    fort_icon.save(os.path.join(ASSETS, "fort_bg_lvl0.png"))
-    print(f"province_bg: {bg.size}, naval@{NAVAL_ROW_Y} fort@{FORT_ROW_Y} town@{TOWN_ICON_Y} hosp@{ICON_Y}")
+    print(f"province_bg: {bg.size}, fort@{FORT_ROW_Y}(ref) town@{TOWN_ICON_Y}(ref) hosp@{ICON_Y}")
 
 
 def main() -> None:

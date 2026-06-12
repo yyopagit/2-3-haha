@@ -136,7 +136,9 @@ def patch_infra_strip() -> None:
     f0 = infra_f0_from_bg()
     frames = [f0]
     for i in range(1, n):
-        frames.append(apply_fort_alpha_mask(get_frame(git_img, i)))
+        frames.append(
+            align_frame_to_bg_top(apply_fort_alpha_mask(get_frame(git_img, i)))
+        )
 
     strip = Image.new("RGBA", (FRAME_W * len(frames), FRAME_H), (0, 0, 0, 0))
     for i, fr in enumerate(frames):
@@ -161,7 +163,10 @@ def _patch_strip_with_f0_from_bg(strip_name: str, f0_fn) -> None:
     git_img = Image.frombytes("RGBA", (w, FRAME_H), data[128:], "raw", "BGRA")
     n = git_img.width // FRAME_W
     f0 = f0_fn()
-    frames = [f0] + [apply_fort_alpha_mask(get_frame(git_img, i)) for i in range(1, n)]
+    frames = [f0] + [
+        align_frame_to_bg_top(apply_fort_alpha_mask(get_frame(git_img, i)))
+        for i in range(1, n)
+    ]
     strip = Image.new("RGBA", (FRAME_W * len(frames), FRAME_H), (0, 0, 0, 0))
     for i, fr in enumerate(frames):
         strip.paste(fr, (i * FRAME_W, 0), fr)
@@ -171,9 +176,8 @@ def _patch_strip_with_f0_from_bg(strip_name: str, f0_fn) -> None:
 
 
 def patch_fort_strip_f0() -> None:
-    """fort_strip: f0 = dim (50%) версия f1 для плавного перехода 0→1.
-    В province_bg (row i=3, y=463) тоже обновляется через update_bg_fort_icon()."""
-    _patch_strip_with_f0_from_bg("province_fort_strip.dds", fort_f0_dim)
+    """fort_strip: f0 прозрачный — ур.0 на своей провинции из province_bg."""
+    _patch_strip_with_f0_from_bg("province_fort_strip.dds", empty_frame_from_fort)
 
 
 def patch_navalbase_strip_f0() -> None:
@@ -199,9 +203,26 @@ def patch_selector_strip() -> None:
     print(f"  -> {strip.size}, f0 transparent={trans}/{FRAME_W * FRAME_H}")
 
 
-# Внутренний размер арта и смещение — как у оригинального town bak f1 (не на весь 40x32)
+# Внутренний размер арта; ART_Y=0 — выравнивание с province_bg (слоты начинаются с y=0)
 ART_W, ART_H = 36, 26
-ART_X, ART_Y = 2, 4
+ART_X, ART_Y = 2, 0
+
+
+def align_frame_to_bg_top(frame: Image.Image, target_top: int = 0) -> Image.Image:
+    """Поднять непрозрачное содержимое кадра к верху слота (как иконки на province_bg)."""
+    arr = np.array(frame.convert("RGBA"))
+    m = arr[:, :, 3] > 10
+    if not m.any():
+        return frame
+    ys, xs = np.where(m)
+    y0, y1, x0, x1 = int(ys.min()), int(ys.max()), int(xs.min()), int(xs.max())
+    if y0 <= target_top:
+        return apply_fort_alpha_mask(frame)
+    shift = y0 - target_top
+    out = np.zeros_like(arr)
+    ny0, ny1 = y0 - shift, y1 - shift
+    out[ny0 : ny1 + 1, x0 : x1 + 1] = arr[y0 : y1 + 1, x0 : x1 + 1]
+    return apply_fort_alpha_mask(Image.fromarray(out, "RGBA"))
 
 
 def downscale_art(img: Image.Image) -> Image.Image:

@@ -712,7 +712,7 @@ guiTypes = {
 			name = "province_other"
 			backGround=""
 			position = { x=9 y=170 }	
-			size = { x=380 y=230 }
+			size = { x=380 y=380 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder= ""
