@@ -194,6 +194,38 @@ aeroplane_factory = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.25
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 barrel_factory = { 
@@ -219,6 +251,38 @@ barrel_factory = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.05
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 automobile_factory = { 
@@ -244,6 +308,38 @@ automobile_factory = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.05
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 radio_factory = { 
@@ -262,6 +358,38 @@ radio_factory = {
 		trigger = { has_building = glass_factory }
 		value = 0.1
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 telephone_factory = { 
@@ -280,6 +408,38 @@ telephone_factory = {
 		trigger = { has_building = glass_factory }
 		value = 0.1
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 ############# STRATEGIC FACTORIES
@@ -310,6 +470,38 @@ electric_gear_factory = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 machine_parts_factory = { 
@@ -328,6 +520,38 @@ machine_parts_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.125
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 synthetic_oil_factory = { 
@@ -341,6 +565,38 @@ synthetic_oil_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 synthetic_rubber_factory = { 
@@ -359,6 +615,38 @@ synthetic_rubber_factory = {
 			}
 		value = 0.25
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 synthetic_sulphur_factory = { 
@@ -372,6 +660,38 @@ synthetic_sulphur_factory = {
 		trigger = { trade_goods_in_state = cotton }
 		value = 0.25
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 ############# ADVANCED FACTORIES
@@ -392,6 +712,38 @@ fuel_refinery = {
 			}
 		value = 0.25
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 steamer_shipyard = { 
@@ -411,6 +763,38 @@ steamer_shipyard = {
 		trigger = { has_building = clipper_shipyard }
 		value = 0.125
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 ############# LUXURY GOODS FACTORIES
@@ -431,6 +815,38 @@ luxury_clothes_factory = {
 		trigger = { trade_goods_in_state = silk }
 		value = 0.05
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 luxury_furniture_factory = { 
@@ -449,6 +865,38 @@ luxury_furniture_factory = {
 		trigger = { trade_goods_in_state = tropical_wood }
 		value = 0.05
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 ############# MEDIUM FACTORIES
@@ -470,18 +918,38 @@ steel_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.2
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
 	bonus = {
 		trigger = {
-			NOT = {
-				state_scope = {
-					any_owned_province = {
-						has_building = town_infrastructure
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
 	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 steel_manufactory = {
@@ -521,6 +989,38 @@ artillery_factory = {
 		trigger = { has_building = machine_parts_factory }
 		value = 0.1
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 clipper_shipyard = { 
@@ -550,6 +1050,38 @@ clipper_shipyard = {
 		trigger = { has_building = lumber_mill }
 		value = 0.1
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 small_arms_factory = { 
@@ -574,6 +1106,38 @@ small_arms_factory = {
 		trigger = { has_building = lumber_mill }
 		value = 0.1
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 ############# COMMON FACTORIES
@@ -620,6 +1184,38 @@ regular_clothes_factory = {
 		trigger = { has_building = fabric_factory }
 		value = 0.25
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
  
 explosives_factory = { 
@@ -638,6 +1234,38 @@ explosives_factory = {
 		trigger = { has_building = ammunition_factory }
 		value = 0.1
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 ############# CHEAP FACTORIES
@@ -663,6 +1291,38 @@ ammunition_factory = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.1
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 #canned_food_factory = { 
@@ -713,6 +1373,38 @@ canned_food_factory = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 canned_food_factory_fish = { 
 	template = cheap_factory_template
@@ -733,6 +1425,38 @@ canned_food_factory_fish = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 canned_food_factory_cattle = { 
 	template = cheap_factory_template
@@ -752,6 +1476,38 @@ canned_food_factory_cattle = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 canned_food_factory_fruit = { 
 	template = cheap_factory_template
@@ -771,6 +1527,38 @@ canned_food_factory_fruit = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
  
 dye_factory = { 
@@ -789,6 +1577,38 @@ dye_factory = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.25
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
  
 
@@ -808,6 +1628,38 @@ liquor_distillery = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.1
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 winery = { 
@@ -826,6 +1678,38 @@ winery = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.1
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 ############# BASIC FACTORIES 
@@ -934,6 +1818,38 @@ cement_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 glass_factory = { 
@@ -965,6 +1881,38 @@ fertilizer_factory = {
 			}
 		value = 0.25
 	}
+# town_penalty_bonus — в штате нет города (town_infrastructure)
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.15
+	}
+
 }
 
 

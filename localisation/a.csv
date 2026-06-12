@@ -21121,43 +21121,43 @@ bakelite;Бакелит;X;X;X;X;X;X
 bakelite_desc;Этот первый в мире пластик был создан бельгийским химиком Лео Хендриком Бакеландом и в 1920-е гг. и быстро стал важным материалом для производства различных товаров. Среди достоинств бакелита были прочность, огнестойкость и дешевизна. Бакелит удерживал главенствующую позицию на рынке пластмасс до середины 1950-х гг.;X;X;X;X;X;X
 employ_from_tech;От технологии: ;X;X;X;X;X;X
 # Building Names;—;X;X;X;X;X;X
-steel_factory;Сталелитейный завод;X;X;X;X;X;X
+steel_factory;Сталелитейный завод (Г);X;X;X;X;X;X
 steel_manufactory;Сталелитейная мануфактура;X;X;X;X;X;X
-cement_factory;Цементный завод;X;X;X;X;X;X
+cement_factory;Цементный завод (Г);X;X;X;X;X;X
 glass_factory;Стеклозавод;X;X;X;X;X;X
-fuel_refinery;Топливный завод;X;X;X;X;X;X
-ammunition_factory;Завод боеприпасов;X;X;X;X;X;X
-small_arms_factory;Завод стрелкового оружия;X;X;X;X;X;X
-artillery_factory;Артиллерийский завод;X;X;X;X;X;X
-barrel_factory;Танковый завод;X;X;X;X;X;X
-fertilizer_factory;Завод удобрений;X;X;X;X;X;X
-explosives_factory;Завод взрывчатки;X;X;X;X;X;X
-dye_factory;Завод красильных веществ;X;X;X;X;X;X
-clipper_shipyard;Верфь клиперов;X;X;X;X;X;X
-steamer_shipyard;Верфь пароходов;X;X;X;X;X;X
-machine_parts_factory;Машиностроительный завод;X;X;X;X;X;X
-automobile_factory;Автозавод;X;X;X;X;X;X
-aeroplane_factory;Авиазавод;X;X;X;X;X;X
-electric_gear_factory;Завод электроприборов;X;X;X;X;X;X
-telephone_factory;Телефонный завод;X;X;X;X;X;X
-radio_factory;Радиозавод;X;X;X;X;X;X
-winery;Завод вин;X;X;X;X;X;X
-liquor_distillery;Спиртзавод;X;X;X;X;X;X
-canned_food_factory;Консервный завод;X;X;X;X;X;X
-canned_food_factory_b;Завод фруктовых консерв;X;X;X;X;X;X
-canned_food_factory_c;Завод вегетерианских консерв;X;X;X;X;X;X
-canned_food_factory_d;Завод рыбных консерв;X;X;X;X;X;X
+fuel_refinery;Топливный завод (Г);X;X;X;X;X;X
+ammunition_factory;Завод боеприпасов (Г);X;X;X;X;X;X
+small_arms_factory;Завод стрелкового оружия (Г);X;X;X;X;X;X
+artillery_factory;Артиллерийский завод (Г);X;X;X;X;X;X
+barrel_factory;Танковый завод (Г);X;X;X;X;X;X
+fertilizer_factory;Завод удобрений (Г);X;X;X;X;X;X
+explosives_factory;Завод взрывчатки (Г);X;X;X;X;X;X
+dye_factory;Завод красильных веществ (Г);X;X;X;X;X;X
+clipper_shipyard;Верфь клиперов (Г);X;X;X;X;X;X
+steamer_shipyard;Верфь пароходов (Г);X;X;X;X;X;X
+machine_parts_factory;Машиностроительный завод (Г);X;X;X;X;X;X
+automobile_factory;Автозавод (Г);X;X;X;X;X;X
+aeroplane_factory;Авиазавод (Г);X;X;X;X;X;X
+electric_gear_factory;Завод электроприборов (Г);X;X;X;X;X;X
+telephone_factory;Телефонный завод (Г);X;X;X;X;X;X
+radio_factory;Радиозавод (Г);X;X;X;X;X;X
+winery;Завод вин (Г);X;X;X;X;X;X
+liquor_distillery;Спиртзавод (Г);X;X;X;X;X;X
+canned_food_factory;Консервный завод (Г);X;X;X;X;X;X
+canned_food_factory_b;Завод фруктовых консерв (Г);X;X;X;X;X;X
+canned_food_factory_c;Завод вегетерианских консерв (Г);X;X;X;X;X;X
+canned_food_factory_d;Завод рыбных консерв (Г);X;X;X;X;X;X
 fabric_factory;Хлопчатобумажная фабрика;X;X;X;X;X;X
 fabric_factory_b;Фабрика шерстяной ткани;X;X;X;X;X;X
-regular_clothes_factory;Фабрика повседневной одежды;X;X;X;X;X;X
-luxury_clothes_factory;Фабрика дорогой одежды;X;X;X;X;X;X
+regular_clothes_factory;Фабрика одежды (Г);X;X;X;X;X;X
+luxury_clothes_factory;Фабрика дорогой одежды (Г);X;X;X;X;X;X
 lumber_mill;Фабрика пиломатериалов;X;X;X;X;X;X
 paper_mill;Бумажная фабрика;X;X;X;X;X;X
-furniture_factory;Мебельная фабрика;X;X;X;X;X;X
-luxury_furniture_factory;Фабрика роскошной мебели;X;X;X;X;X;X
-synthetic_oil_factory;Завод синтетической нефти;X;X;X;X;X;X
-synthetic_rubber_factory;Завод синтетической резины;X;X;X;X;X;X
-synthetic_sulphur_factory;Завод искусственной серы;X;X;X;X;X;X
+furniture_factory;Мебельная фабрика (Г);X;X;X;X;X;X
+luxury_furniture_factory;Фабрика роскошной мебели (Г);X;X;X;X;X;X
+synthetic_oil_factory;Завод синтетической нефти (Г);X;X;X;X;X;X
+synthetic_rubber_factory;Завод синтетической резины (Г);X;X;X;X;X;X
+synthetic_sulphur_factory;Завод искусственной серы (Г);X;X;X;X;X;X
 # Factory tech names;—;X;X;X;X;X;X
 RGO_INPUT_TECH;Тех. эффек-сть затрат ДП;X;X;X;X;X;X
 RGO_OUTPUT_TECH;Тех. эффек-сть выпуска ДП;X;X;X;X;X;X
@@ -24153,9 +24153,9 @@ poor_life_needs_satisfaction;Удовлетворение жизненных потребностей;X;X;X;X;X;X
 poor_everyday_needs_satisfaction;Удовлетворение ежедневных потребностей;X;X;X;X;X;X
 poor_luxury_needs_satisfaction;Удовлетворение потребностей в предметах роскоши;X;X;X;X;X;X
 non_colonial;Отсутствие колоний;X;X;X;X;X;X
-non_colonial_desc;Государство ориентируется на развитие метрополии.\n\nВыпуск фабрик в городах: §G+20%§!\nВыпуск ДП в колониях: §R-70%§!\nМаксимум солдат в городах: §G7%§!;X;X;X;X;X;X
+non_colonial_desc;Государство ориентируется на развитие метрополии.\n\nВыпуск фабрик в городах: §G+20%§!\nШтраф к выпуску фабрик без города: §R-70%§!\nВыпуск ДП в колониях: §R-70%§!\nМаксимум солдат в городах: §G7%§!;X;X;X;X;X;X
 inner_colonisation;Освоение внутренних территорий;X;X;X;X;X;X
-inner_colonisation_desc;Государство ориентируется на развитие глубинки.\n\nВыпуск ДП в деревнях: §G+30%§!\nСокращение штрафа к фабрикам в деревнях: §G-55%§!;X;X;X;X;X;X
+inner_colonisation_desc;Государство ориентируется на развитие глубинки.\n\nВыпуск ДП в деревнях: §G+30%§!\nШтраф к выпуску фабрик без города: §R-15%§! (вместо §R-70%§!);X;X;X;X;X;X
 external_colonisation;Заморская колонизация;X;X;X;X;X;X
 external_colonisation_desc;Государство ориентируется на развитие метрополии за счет колоний.\n\nВыпуск фабрик в городах: §G+10%§!\nВыпуск ДП в колониях: §G+15%§!\nМаксимум солдат в метрополии: §G4%§!\nМаксимум солдат в колониях: §G4.2%§!;X;X;X;X;X;X
 colonial_politics;Колон. политика;X;X;X;X;X;X
