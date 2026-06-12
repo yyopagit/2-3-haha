@@ -854,27 +854,27 @@ factory_output = -0.02
 # }
 #-------------------------------------------------------МЕДЫ/МЕДИЦИНА-------------------------------------------------------
 med_ref_mp = {
- global_population_growth = 0.001
+ global_population_growth = 0.0001
 	icon = 17
 }
 med_ref_mp1 = {
- global_population_growth = 0.0015
+ global_population_growth = 0.0002
 	icon = 17
 }
 med_ref_mp2 = {
- global_population_growth = 0.002
+ global_population_growth = 0.0003
 	icon = 17
 }
 med_ref_mp3 = {
- global_population_growth = 0.0025
+ global_population_growth = 0.0004
 	icon = 17
 }
 med_ref_mp4 = {
- global_population_growth = 0.003
+ global_population_growth = 0.0005
 	icon = 17
 }
 med_ref_mp5 = {
- global_population_growth = 0.0035
+ global_population_growth = 0.0006
 	icon = 17
 }
 #-------------------------------------------------------ФОРМЫ ПРАВЛЕНИЯ-------------------------------------------------------
