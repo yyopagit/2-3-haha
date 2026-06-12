@@ -818,3 +818,19 @@ town_infrastructure = {
 	province = yes
 	one_per_state = yes
 }
+
+hospital = {
+	type = hospital
+	cost = 200000
+	prerequisites = { town_infrastructure }
+	goods_cost = {
+		opium = 1000
+		cement = 5000
+		steel = 2000
+	}
+	time = 230
+	visibility = yes
+	max_level = 6
+	province = yes
+	population_growth = 0.002
+}

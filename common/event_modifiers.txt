@@ -1177,10 +1177,7 @@ global_liberal_agitation = {
 # 	icon = 15
 # }
 #-------------------------------------------------------ГНИЛАЯ КАРТОШКА-------------------------------------------------------
-potato_blight = {
-	population_growth = -0.001
-	icon = 20
-}
+
 
 #-------------------------------------------------------АНТИ-ЯКОБИНСКИЙ ЧЁТ ТАМ-------------------------------------------------------
 anti_jacobin_tract = {
@@ -1712,13 +1709,17 @@ underfunded_fleet = {
 }
 
 poor_life_needs_satisfaction = {
-	min_social_spending = 0.05
+	max_social_spending = 0.05
 }
 
 poor_everyday_needs_satisfaction = {
-	min_social_spending = 0.05
+	max_social_spending = 0.05
 }
 
 poor_luxury_needs_satisfaction = {
-	min_social_spending = 0.1
+	max_social_spending = 0.1
+}
+
+healthcare_fix = {
+	max_social_spending = -1.0
 }

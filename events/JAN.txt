@@ -575,145 +575,6 @@ country_event = {
 			}
 			remove_country_modifier = poor_luxury_needs_satisfaction
 		}
-		#########Выдача медреформ
-
-		####ЛВЛ1 (20-39%)
-		any_country = {
-			limit = {
-				NOT = { has_country_modifier = med_ref_mp }
-				min_social_spending = 0.2
-				NOT = { min_social_spending = 0.4 }
-			}
-			add_country_modifier = {
-				name = med_ref_mp
-				duration = -1
-			}
-			remove_country_modifier = med_ref_mp1
-			remove_country_modifier = med_ref_mp2
-			remove_country_modifier = med_ref_mp3
-			remove_country_modifier = med_ref_mp4
-		}
-
-		####ЛВЛ2 (40-59%)
-		any_country = {
-			limit = {
-				NOT = { has_country_modifier = med_ref_mp1 }
-				min_social_spending = 0.4
-				NOT = { min_social_spending = 0.6 }
-			}
-			add_country_modifier = {
-				name = med_ref_mp1
-				duration = -1
-			}
-			remove_country_modifier = med_ref_mp
-			remove_country_modifier = med_ref_mp2
-			remove_country_modifier = med_ref_mp3
-			remove_country_modifier = med_ref_mp4
-		}
-
-		####ЛВЛ3 (60-79%)
-		any_country = {
-			limit = {
-				NOT = { has_country_modifier = med_ref_mp2 }
-				min_social_spending = 0.6
-				NOT = { min_social_spending = 0.8 }
-			}
-			add_country_modifier = {
-				name = med_ref_mp2
-				duration = -1
-			}
-			remove_country_modifier = med_ref_mp
-			remove_country_modifier = med_ref_mp1
-			remove_country_modifier = med_ref_mp3
-			remove_country_modifier = med_ref_mp4
-		}
-
-		####ЛВЛ4 (80-98%)
-		any_country = {
-			limit = {
-				NOT = { has_country_modifier = med_ref_mp3 }
-				min_social_spending = 0.8
-				NOT = { min_social_spending = 0.99 }
-			}
-			add_country_modifier = {
-				name = med_ref_mp3
-				duration = -1
-			}
-			remove_country_modifier = med_ref_mp
-			remove_country_modifier = med_ref_mp1
-			remove_country_modifier = med_ref_mp2
-			remove_country_modifier = med_ref_mp4
-		}
-
-		####ЛВЛ5 (99-100%)
-		any_country = {
-			limit = {
-				NOT = { has_country_modifier = med_ref_mp4 }
-				min_social_spending = 0.99
-			}
-			add_country_modifier = {
-				name = med_ref_mp4
-				duration = -1
-			}
-			remove_country_modifier = med_ref_mp
-			remove_country_modifier = med_ref_mp1
-			remove_country_modifier = med_ref_mp2
-			remove_country_modifier = med_ref_mp3
-		}
-
-		#########Снятие модификаторов
-
-		any_country = {
-			limit = {
-				has_country_modifier = med_ref_mp
-				NOT = {
-					min_social_spending = 0.2
-				}
-			}
-			remove_country_modifier = med_ref_mp
-		}
-
-		any_country = {
-			limit = {
-				has_country_modifier = med_ref_mp1
-				OR = {
-					NOT = { min_social_spending = 0.4 }
-					min_social_spending = 0.6
-				}
-			}
-			remove_country_modifier = med_ref_mp1
-		}
-
-		any_country = {
-			limit = {
-				has_country_modifier = med_ref_mp2
-				OR = {
-					NOT = { min_social_spending = 0.6 }
-					min_social_spending = 0.8
-				}
-			}
-			remove_country_modifier = med_ref_mp2
-		}
-
-		any_country = {
-			limit = {
-				has_country_modifier = med_ref_mp3
-				OR = {
-					NOT = { min_social_spending = 0.8 }
-					min_social_spending = 0.99
-				}
-			}
-			remove_country_modifier = med_ref_mp3
-		}
-
-		any_country = {
-			limit = {
-				has_country_modifier = med_ref_mp4
-				NOT = { min_social_spending = 0.99 }
-			}
-			remove_country_modifier = med_ref_mp4
-		}
-		
 	}
 }
 
@@ -791,3 +652,15 @@ country_event = {
 }
 
 
+country_event = {
+	id = 99851
+	is_triggered_only = yes
+	
+	option = {
+		any_country = {
+			social_reform = no_subsidies
+			social_reform = no_pensions
+			social_reform = no_medical_reforms
+		}
+	}
+}

@@ -81,7 +81,17 @@ political_decisions = {
 				country_event = 999003
 
 			}
-
+			any_country = {
+				social_reform = good_subsidies
+				social_reform = good_pensions
+				social_reform = good_medical_reforms
+				add_country_modifier = {
+					name = healthcare_fix
+					duration = 1
+				}
+			}
+			JAN = { country_event = { id = 99851 days = 1 } }
+			
 		}
 
 		ai_will_do = {

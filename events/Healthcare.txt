@@ -1,0 +1,186 @@
+####ЛВЛ1 (20-39%)
+		country_event = {
+			trigger = {
+				NOT = { has_country_modifier = med_ref_mp }
+				social_spending = 0.2
+				NOT = { social_spending = 0.4 }
+			}
+			immediate = {
+				add_country_modifier = {
+					name = med_ref_mp
+					duration = -1
+				}
+				remove_country_modifier = med_ref_mp1
+				remove_country_modifier = med_ref_mp2
+				remove_country_modifier = med_ref_mp3
+				remove_country_modifier = med_ref_mp4
+			}
+			option = {
+				name = "OK"
+			}
+		}
+
+####ЛВЛ2 (40-59%)
+country_event = {
+	trigger = {
+		NOT = { has_country_modifier = med_ref_mp1 }
+		social_spending = 0.4
+		NOT = { social_spending = 0.6 }
+	}
+	immediate = {
+		add_country_modifier = {
+			name = med_ref_mp1
+			duration = -1
+		}
+		remove_country_modifier = med_ref_mp
+		remove_country_modifier = med_ref_mp2
+		remove_country_modifier = med_ref_mp3
+		remove_country_modifier = med_ref_mp4
+	}
+	option = {
+		name = "OK"
+	}
+}
+
+####ЛВЛ3 (60-79%)
+country_event = {
+	trigger = {
+		NOT = { has_country_modifier = med_ref_mp2 }
+		social_spending = 0.6
+		NOT = { social_spending = 0.8 }
+	}
+	immediate = {
+		add_country_modifier = {
+			name = med_ref_mp2
+			duration = -1
+		}
+		remove_country_modifier = med_ref_mp
+		remove_country_modifier = med_ref_mp1
+		remove_country_modifier = med_ref_mp3
+		remove_country_modifier = med_ref_mp4
+	}
+	option = {
+		name = "OK"
+	}
+}
+
+####ЛВЛ4 (80-98%)
+country_event = {
+	trigger = {
+		NOT = { has_country_modifier = med_ref_mp3 }
+		social_spending = 0.8
+		NOT = { social_spending = 0.99 }
+	}
+	immediate = {
+		add_country_modifier = {
+			name = med_ref_mp3
+			duration = -1
+		}
+		remove_country_modifier = med_ref_mp
+		remove_country_modifier = med_ref_mp1
+		remove_country_modifier = med_ref_mp2
+		remove_country_modifier = med_ref_mp4
+	}
+	option = {
+		name = "OK"
+	}
+}
+
+####ЛВЛ5 (99-100%)
+country_event = {
+	trigger = {
+		NOT = { has_country_modifier = med_ref_mp4 }
+		social_spending = 0.99
+	}
+	immediate = {
+		add_country_modifier = {
+			name = med_ref_mp4
+			duration = -1
+		}
+		remove_country_modifier = med_ref_mp
+		remove_country_modifier = med_ref_mp1
+		remove_country_modifier = med_ref_mp2
+		remove_country_modifier = med_ref_mp3
+	}
+	option = {
+		name = "OK"
+	}
+}
+
+#########Снятие модификаторов
+
+country_event = {
+	trigger = {
+		has_country_modifier = med_ref_mp
+		NOT = {
+			social_spending = 0.2
+		}
+	}
+	immediate = {
+		remove_country_modifier = med_ref_mp
+	}
+	option = {
+		name = "OK"
+	}
+}
+
+country_event = {
+	trigger = {
+		has_country_modifier = med_ref_mp1
+		OR = {
+			NOT = { social_spending = 0.4 }
+			social_spending = 0.6
+		}
+	}
+	immediate = {
+		remove_country_modifier = med_ref_mp1
+	}
+	option = {
+		name = "OK"
+	}
+}
+
+country_event = {
+	trigger = {
+		has_country_modifier = med_ref_mp2
+		OR = {
+			NOT = { social_spending = 0.6 }
+			social_spending = 0.8
+		}
+	}
+	immediate = {
+		remove_country_modifier = med_ref_mp2
+	}
+	option = {
+		name = "OK"
+	}
+}
+
+country_event = {
+	trigger = {
+		has_country_modifier = med_ref_mp3
+		OR = {
+			NOT = { social_spending = 0.8 }
+			social_spending = 0.99
+		}
+	}
+	immediate = {
+		remove_country_modifier = med_ref_mp3
+	}
+	option = {
+		name = "OK"
+	}
+}
+
+country_event = {
+	trigger = {
+		has_country_modifier = med_ref_mp4
+		NOT = { social_spending = 0.99 }
+	}
+	immediate = {
+		remove_country_modifier = med_ref_mp4
+	}
+	option = {
+		name = "OK"
+	}
+}

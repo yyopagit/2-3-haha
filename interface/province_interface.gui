@@ -13,7 +13,7 @@ guiTypes = {
 		
 		iconType = {
 			name ="background"
-			spriteType = "GFX_province_bg"
+			spriteType = "GFX_provinceview_bg"
 			position = { x= 0 y = -19 }
 			Orientation = "UPPER_LEFT"
 		}
@@ -1472,6 +1472,12 @@ guiTypes = {
 		fullScreen = no	
 		Orientation = "UPPER_LEFT"
 		
+		iconType = {
+			name = "build_icon5"
+			spriteType = "GFX_hospital_strip"
+			position = { x= 23 y = -4 }
+			Orientation = "UPPER_LEFT"
+		}
 		iconType = {
 			name = "build_icon4"
 			spriteType = "GFX_town_strip"

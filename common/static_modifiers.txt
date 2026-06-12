@@ -214,7 +214,7 @@ average_literacy = {
 	leadership = 0.5
 	self_unciv_economic_modifier = -0.5
 	self_unciv_military_modifier = -0.5
-	min_social_spending = 0.2
+	max_social_spending = 0.2
 }
 
 plurality = { 
