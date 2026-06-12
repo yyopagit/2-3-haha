@@ -1694,6 +1694,7 @@ non_colonial_towns = {
 
 non_colonial_penalty = {
 	local_RGO_output = -0.7
+}
 
 naval_supply_shortage_warning = {
 	icon = 15
