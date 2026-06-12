@@ -1,101 +1,377 @@
+# Смена политических реформ через меню.
+# Роутеры 55554/555560/555570 убраны — логика встроена в decision и option-эффекты.
+# Маршрутизация через random_owned в столице.
+
+# =============================================
+# ВСПОМОГАТЕЛЬНЫЙ БЛОК: встраивается в option-эффекты через copy-paste
+# fleet_route:  → 555562/555563/555564 по текущей доктрине
+# back_route:   → 55555/555551/555552 по кулдаунам
+# =============================================
+
+# --- ГЛАВНОЕ МЕНЮ: обе ветки доступны ---
 country_event = {
 	id = 55555
 	title = "EVTNAME55555"
 	desc = "EVTDESC55555"
-	
+	picture = "Administration"
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTOPTA55555"
-		limit = { NOT = { has_country_modifier = fleet_reform_change_cd } }
-		country_event = { id = 55556 days = 0 }
-		
+		# Роутер флота — встроен
+		random_owned = {
+			limit = { is_capital = yes owner = { fleet_doctrine = fleet_mothballing } }
+			owner = { country_event = { id = 555564 days = 0 } }
+		}
+		random_owned = {
+			limit = { is_capital = yes owner = { fleet_doctrine = fleet_expansion } }
+			owner = { country_event = { id = 555563 days = 0 } }
+		}
+		random_owned = {
+			limit = { is_capital = yes owner = { fleet_doctrine = active_combat_fleet } }
+			owner = { country_event = { id = 555562 days = 0 } }
+		}
 	}
 	option = {
 		name = "EVTOPTB55555"
-		limit = { NOT = { has_country_modifier = colonial_reform_change_cd } }
-		THIS = { country_event = { id = 55557 days = 0 } }
+		# Роутер колоний — встроен
+		random_owned = {
+			limit = { is_capital = yes owner = { colonial_politics = non_colonial } }
+			owner = { country_event = { id = 555574 days = 0 } }
+		}
+		random_owned = {
+			limit = { is_capital = yes owner = { colonial_politics = inner_colonisation } }
+			owner = { country_event = { id = 555573 days = 0 } }
+		}
+		random_owned = {
+			limit = { is_capital = yes owner = { colonial_politics = external_colonisation } }
+			owner = { country_event = { id = 555572 days = 0 } }
+		}
 	}
 	option = {
 		name = "EVTOPTC55555"
 	}
-	
 }
 
+# --- ГЛАВНОЕ МЕНЮ: только флот (колонии на кд) ---
 country_event = {
-	id = 55556
-	title = "EVTNAME55556"
-	desc = "EVTDESC55556"
-	
+	id = 555551
+	title = "EVTNAME55555"
+	desc = "EVTDESC55555"
+	picture = "Administration"
 	is_triggered_only = yes
-	
+
+	option = {
+		name = "EVTOPTA55555"
+		random_owned = {
+			limit = { is_capital = yes owner = { fleet_doctrine = fleet_mothballing } }
+			owner = { country_event = { id = 555564 days = 0 } }
+		}
+		random_owned = {
+			limit = { is_capital = yes owner = { fleet_doctrine = fleet_expansion } }
+			owner = { country_event = { id = 555563 days = 0 } }
+		}
+		random_owned = {
+			limit = { is_capital = yes owner = { fleet_doctrine = active_combat_fleet } }
+			owner = { country_event = { id = 555562 days = 0 } }
+		}
+	}
+	option = {
+		name = "EVTOPTC55555"
+	}
+}
+
+# --- ГЛАВНОЕ МЕНЮ: только колонии (флот на кд) ---
+country_event = {
+	id = 555552
+	title = "EVTNAME55555"
+	desc = "EVTDESC55555"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTB55555"
+		random_owned = {
+			limit = { is_capital = yes owner = { colonial_politics = non_colonial } }
+			owner = { country_event = { id = 555574 days = 0 } }
+		}
+		random_owned = {
+			limit = { is_capital = yes owner = { colonial_politics = inner_colonisation } }
+			owner = { country_event = { id = 555573 days = 0 } }
+		}
+		random_owned = {
+			limit = { is_capital = yes owner = { colonial_politics = external_colonisation } }
+			owner = { country_event = { id = 555572 days = 0 } }
+		}
+	}
+	option = {
+		name = "EVTOPTC55555"
+	}
+}
+
+# =============================================
+# ФЛОТ: выбор новой доктрины
+# =============================================
+
+# Текущая: active_combat_fleet → показываем mothballing + expansion
+country_event = {
+	id = 555562
+	title = "EVTNAME55556"
+	desc = "EVTDESC555562"
+	picture = "Administration"
+	is_triggered_only = yes
+
 	option = {
 		name = "EVTOPTA55556"
 		political_reform = fleet_mothballing
-		add_country_modifier = {
-			name = fleet_reform_change_cd
-			duration = 3650
-		}
-		
+		add_country_modifier = { name = fleet_reform_change_cd duration = 3650 }
 	}
 	option = {
 		name = "EVTOPTB55556"
 		political_reform = fleet_expansion
-		add_country_modifier = {
-			name = fleet_reform_change_cd
-			duration = 3650
+		add_country_modifier = { name = fleet_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTD55556"
+		# Назад — роутер к главному меню
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					NOT = { has_country_modifier = fleet_reform_change_cd }
+					NOT = { has_country_modifier = colonial_reform_change_cd }
+				}
+			}
+			owner = { country_event = { id = 55555 days = 0 } }
 		}
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					NOT = { has_country_modifier = fleet_reform_change_cd }
+					has_country_modifier = colonial_reform_change_cd
+				}
+			}
+			owner = { country_event = { id = 555551 days = 0 } }
+		}
+	}
+}
+
+# Текущая: fleet_expansion → показываем mothballing + active_combat_fleet
+country_event = {
+	id = 555563
+	title = "EVTNAME55556"
+	desc = "EVTDESC555563"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA55556"
+		political_reform = fleet_mothballing
+		add_country_modifier = { name = fleet_reform_change_cd duration = 3650 }
 	}
 	option = {
 		name = "EVTOPTC55556"
 		political_reform = active_combat_fleet
-		add_country_modifier = {
-			name = fleet_reform_change_cd
-			duration = 3650
-		}
+		add_country_modifier = { name = fleet_reform_change_cd duration = 3650 }
 	}
 	option = {
 		name = "EVTOPTD55556"
-		THIS = { country_event = { id = 55555 days = 0 } }
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					NOT = { has_country_modifier = fleet_reform_change_cd }
+					NOT = { has_country_modifier = colonial_reform_change_cd }
+				}
+			}
+			owner = { country_event = { id = 55555 days = 0 } }
+		}
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					NOT = { has_country_modifier = fleet_reform_change_cd }
+					has_country_modifier = colonial_reform_change_cd
+				}
+			}
+			owner = { country_event = { id = 555551 days = 0 } }
+		}
 	}
-	
 }
 
+# Текущая: fleet_mothballing → показываем expansion + active_combat_fleet
 country_event = {
-	id = 55557
-	title = "EVTNAME55557"
-	desc = "EVTDESC55557"
-	
+	id = 555564
+	title = "EVTNAME55556"
+	desc = "EVTDESC555564"
+	picture = "Administration"
 	is_triggered_only = yes
-	
+
+	option = {
+		name = "EVTOPTB55556"
+		political_reform = fleet_expansion
+		add_country_modifier = { name = fleet_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTC55556"
+		political_reform = active_combat_fleet
+		add_country_modifier = { name = fleet_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTD55556"
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					NOT = { has_country_modifier = fleet_reform_change_cd }
+					NOT = { has_country_modifier = colonial_reform_change_cd }
+				}
+			}
+			owner = { country_event = { id = 55555 days = 0 } }
+		}
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					NOT = { has_country_modifier = fleet_reform_change_cd }
+					has_country_modifier = colonial_reform_change_cd
+				}
+			}
+			owner = { country_event = { id = 555551 days = 0 } }
+		}
+	}
+}
+
+# =============================================
+# КОЛОНИИ: выбор новой политики
+# =============================================
+
+# Текущая: external_colonisation → показываем non_colonial + inner_colonisation
+country_event = {
+	id = 555572
+	title = "EVTNAME55557"
+	desc = "EVTDESC555572"
+	picture = "Administration"
+	is_triggered_only = yes
+
 	option = {
 		name = "EVTOPTA55557"
 		political_reform = non_colonial
-		add_country_modifier = {
-			name = colonial_reform_change_cd
-			duration = 3650
-		}
-		
+		add_country_modifier = { name = colonial_reform_change_cd duration = 3650 }
 	}
 	option = {
 		name = "EVTOPTB55557"
 		political_reform = inner_colonisation
-		add_country_modifier = {
-			name = fleet_reform_change_cd
-			duration = 3650
+		add_country_modifier = { name = colonial_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTD55557"
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					NOT = { has_country_modifier = fleet_reform_change_cd }
+					NOT = { has_country_modifier = colonial_reform_change_cd }
+				}
+			}
+			owner = { country_event = { id = 55555 days = 0 } }
 		}
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_modifier = fleet_reform_change_cd
+					NOT = { has_country_modifier = colonial_reform_change_cd }
+				}
+			}
+			owner = { country_event = { id = 555552 days = 0 } }
+		}
+	}
+}
+
+# Текущая: inner_colonisation → показываем non_colonial + external_colonisation
+country_event = {
+	id = 555573
+	title = "EVTNAME55557"
+	desc = "EVTDESC555573"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA55557"
+		political_reform = non_colonial
+		add_country_modifier = { name = colonial_reform_change_cd duration = 3650 }
 	}
 	option = {
 		name = "EVTOPTC55557"
 		political_reform = external_colonisation
-		add_country_modifier = {
-			name = fleet_reform_change_cd
-			duration = 3650
-		}
+		add_country_modifier = { name = colonial_reform_change_cd duration = 3650 }
 	}
 	option = {
 		name = "EVTOPTD55557"
-		THIS = { country_event = { id = 55555 days = 0 } }
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					NOT = { has_country_modifier = fleet_reform_change_cd }
+					NOT = { has_country_modifier = colonial_reform_change_cd }
+				}
+			}
+			owner = { country_event = { id = 55555 days = 0 } }
+		}
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_modifier = fleet_reform_change_cd
+					NOT = { has_country_modifier = colonial_reform_change_cd }
+				}
+			}
+			owner = { country_event = { id = 555552 days = 0 } }
+		}
 	}
-	
+}
+
+# Текущая: non_colonial → показываем inner_colonisation + external_colonisation
+country_event = {
+	id = 555574
+	title = "EVTNAME55557"
+	desc = "EVTDESC555574"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTB55557"
+		political_reform = inner_colonisation
+		add_country_modifier = { name = colonial_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTC55557"
+		political_reform = external_colonisation
+		add_country_modifier = { name = colonial_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTD55557"
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					NOT = { has_country_modifier = fleet_reform_change_cd }
+					NOT = { has_country_modifier = colonial_reform_change_cd }
+				}
+			}
+			owner = { country_event = { id = 55555 days = 0 } }
+		}
+		random_owned = {
+			limit = {
+				is_capital = yes
+				owner = {
+					has_country_modifier = fleet_reform_change_cd
+					NOT = { has_country_modifier = colonial_reform_change_cd }
+				}
+			}
+			owner = { country_event = { id = 555552 days = 0 } }
+		}
+	}
 }

@@ -11,6 +11,7 @@ import subprocess
 import sys
 
 import imagecodecs
+import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageFont
 
 sys.path.insert(0, os.path.dirname(__file__))
@@ -20,6 +21,8 @@ from _patch_strips import (
     downscale_art,
     empty_frame_from_fort,
     fit_art_in_frame,
+    fort_f0_dim,
+    naval_f0_from_bg,
     write_bgra32,
 )
 
@@ -33,10 +36,12 @@ SOURCE = os.path.join(ASSETS, "hospital_levels_source.png")
 
 ICON_X = 23
 ROW_H = 34  # высота строки здания в province_bg (между разделителями)
-TOWN_ICON_Y = 496
+# Позиция вставки кадра 40x32: bg_Y_paste = 358 + 35*i
+# town  (i=4): 358+140=498; hospital (i=5): 358+175=533
+TOWN_ICON_Y = 498
 HOSPITAL_ROW_Y = 529  # сразу под городом; в git здесь начинался военный блок
-ICON_Y = HOSPITAL_ROW_Y + 1  # как у остальных: row_y + 1
-TOWN_LEVEL0_SRC = os.path.join(ASSETS, "city_town_level1.png")
+ICON_Y = 533  # = 358 + 35*5
+TOWN_LEVEL0_SRC = os.path.join(ASSETS, "city_town_level2.png")  # тот же арт что и strip f1 → плавный переход
 
 
 def load_dds_rgba_bytes(data: bytes) -> Image.Image:
@@ -52,17 +57,95 @@ def load_dds_rgba_bytes(data: bytes) -> Image.Image:
     return Image.fromarray(arr[:h, :w, :], "RGBA")
 
 
+def trim_panel_borders(panel: Image.Image, rgb_threshold: int = 28, sep_threshold: int = 10) -> Image.Image:
+    """Убрать чёрные поля, разделители и тёмный хвост с краёв панели.
+
+    Сначала находит bounding box по пикселям ярче rgb_threshold.
+    Затем срезает «тёмный хвост» со всех сторон — колонки/строки, где среднее
+    значение по всем пикселям ниже sep_threshold (≈чёрный разделитель).
+    """
+    arr = np.array(panel.convert("RGBA"))
+    alpha = arr[:, :, 3]
+    rgb_max = arr[:, :, :3].max(axis=2)
+    mask = (alpha > 64) & (rgb_max > rgb_threshold)
+    ys, xs = np.where(mask)
+    if len(xs) == 0:
+        return panel
+    x1, x2 = int(xs.min()), int(xs.max()) + 1
+    y1, y2 = int(ys.min()), int(ys.max()) + 1
+
+    col_avg = arr[:, :, :3].mean(axis=2).mean(axis=0)
+    row_avg = arr[:, :, :3].mean(axis=2).mean(axis=1)
+
+    # Срезаем с правого края — тёмный хвост (разделитель + виньетка)
+    while x2 > x1 + 10 and col_avg[x2 - 1] < sep_threshold:
+        x2 -= 1
+    # Срезаем с левого края
+    while x1 < x2 - 10 and col_avg[x1] < sep_threshold:
+        x1 += 1
+    # Срезаем снизу
+    while y2 > y1 + 10 and row_avg[y2 - 1] < sep_threshold:
+        y2 -= 1
+    # Срезаем сверху
+    while y1 < y2 - 10 and row_avg[y1] < sep_threshold:
+        y1 += 1
+
+    return panel.crop((x1, y1, x2, y2))
+
+
+def find_content_regions(arr: np.ndarray, sep_threshold: int = 8) -> list[tuple[int, int]]:
+    """Найти x-диапазоны контента в исходнике, разделённые чёрными полосами."""
+    col_avg = arr[:, :, :3].mean(axis=2).mean(axis=0)
+    W = arr.shape[1]
+    in_sep = False
+    seps: list[tuple[int, int]] = []
+    for x in range(W):
+        if col_avg[x] < sep_threshold:
+            if not in_sep:
+                in_sep = True
+                sep_start = x
+        else:
+            if in_sep:
+                in_sep = False
+                seps.append((sep_start, x - 1))
+    if in_sep:
+        seps.append((sep_start, W - 1))
+    regions: list[tuple[int, int]] = []
+    prev_end = 0
+    for s, e in seps:
+        if s > prev_end:
+            regions.append((prev_end, s - 1))
+        prev_end = e + 1
+    if prev_end < W:
+        regions.append((prev_end, W - 1))
+    return regions
+
+
 def slice_source_levels() -> list[Image.Image]:
-    """6 панелей из горизонтального исходника."""
+    """6 панелей из горизонтального исходника, извлечённых по позициям чёрных разделителей."""
     src = Image.open(SOURCE).convert("RGBA")
-    w, h = src.size
-    panel_w = w // 6
+    arr = np.array(src)
+    h = src.height
+    regions = find_content_regions(arr)
+    if len(regions) != 6:
+        raise ValueError(f"Ожидалось 6 контент-регионов, найдено {len(regions)}: {regions}")
     levels: list[Image.Image] = []
-    for i in range(6):
-        panel = src.crop((i * panel_w, 0, (i + 1) * panel_w, h))
+    for i, (x1, x2) in enumerate(regions):
+        raw = src.crop((x1, 0, x2 + 1, h))
+        panel = trim_panel_borders(raw)
         levels.append(panel)
         panel.save(os.path.join(ASSETS, f"hospital_source_lvl{i + 1}.png"))
     return levels
+
+
+def apply_strip_frame_mask(frame: Image.Image) -> Image.Image:
+    """Прозрачные края кадра 40x32 — верх/низ как у форта, бока без чёрной рамки."""
+    out = apply_fort_alpha_mask(frame)
+    px = out.load()
+    for y in range(FRAME_H):
+        px[0, y] = (0, 0, 0, 0)
+        px[FRAME_W - 1, y] = (0, 0, 0, 0)
+    return out
 
 
 def draw_digit(frame: Image.Image, digit: str) -> Image.Image:
@@ -87,7 +170,7 @@ def panel_to_frame(panel: Image.Image, digit: str | None) -> Image.Image:
     art = ImageEnhance.Color(art).enhance(1.12)
     art = ImageEnhance.Contrast(art).enhance(1.06)
     frame = fit_art_in_frame(art)
-    frame = apply_fort_alpha_mask(frame)
+    frame = apply_strip_frame_mask(frame)
     if digit is not None:
         frame = draw_digit(frame, digit)
     return frame
@@ -103,7 +186,7 @@ def town_level0_frame() -> Image.Image:
     if not os.path.exists(TOWN_LEVEL0_SRC):
         raise FileNotFoundError(TOWN_LEVEL0_SRC)
     art = downscale_art(Image.open(TOWN_LEVEL0_SRC).convert("RGBA"))
-    frame = apply_fort_alpha_mask(fit_art_in_frame(art))
+    frame = apply_strip_frame_mask(fit_art_in_frame(art))
     return draw_digit(frame, "0")
 
 
@@ -155,6 +238,9 @@ def make_empty_building_row(bg: Image.Image, template_row_y: int = 495) -> Image
 def extend_province_bg_for_hospital(bg_git: Image.Image) -> Image.Image:
     """Вставить строку госпиталя между городом и военным блоком (+34 px)."""
     w, h = bg_git.size
+    if h != 615:
+        # Уже расширенный фон (649+) — не дублировать строку
+        return bg_git.copy()
     mil_top = HOSPITAL_ROW_Y
     out_h = h + ROW_H
     out = Image.new("RGBA", (w, out_h), (0, 0, 0, 0))
@@ -164,8 +250,12 @@ def extend_province_bg_for_hospital(bg_git: Image.Image) -> Image.Image:
     return out
 
 
+FORT_ROW_Y = 463   # строка i=3: 358+35*3
+NAVAL_ROW_Y = 393  # строка i=1: 358+35*1
+
+
 def update_bg_hospital_icon() -> None:
-    """Расширить province_bg из git и вставить иконку госпиталя в правильную строку."""
+    """Расширить province_bg из git и вставить иконки нулевого уровня."""
     path = os.path.join(MOD_GFX, "province_bg.dds")
     bg_git = load_git_province_bg()
     bg = extend_province_bg_for_hospital(bg_git)
@@ -173,16 +263,22 @@ def update_bg_hospital_icon() -> None:
     panels = slice_source_levels()
     town_icon = town_level0_frame()
     hospital_icon = level0_from_panel(panels[0])
+    fort_icon = fort_f0_dim()          # dim (50%) версия f1 → плавный переход 0→1
+    naval_icon = naval_f0_from_bg()    # оригинальный маяк из base game
+
+    bg.paste(naval_icon, (ICON_X, NAVAL_ROW_Y), naval_icon)
+    bg.paste(fort_icon, (ICON_X, FORT_ROW_Y), fort_icon)
     bg.paste(town_icon, (ICON_X, TOWN_ICON_Y), town_icon)
     bg.paste(hospital_icon, (ICON_X, ICON_Y), hospital_icon)
 
     write_bgra32(path, bg)
     shutil.copy2(path, os.path.join(BASE_GFX, "province_bg.dds"))
 
-    bg.crop((0, 480, 280, 600)).save(os.path.join(ASSETS, "_preview_province_bg_hospital.png"))
+    bg.crop((0, 360, 280, 580)).save(os.path.join(ASSETS, "_preview_province_bg_buildings.png"))
     town_icon.save(os.path.join(ASSETS, "town_bg_lvl0.png"))
     hospital_icon.save(os.path.join(ASSETS, "hospital_bg_lvl0.png"))
-    print(f"province_bg: {bg.size}, town @ ({ICON_X},{TOWN_ICON_Y}), hospital @ ({ICON_X},{ICON_Y})")
+    fort_icon.save(os.path.join(ASSETS, "fort_bg_lvl0.png"))
+    print(f"province_bg: {bg.size}, naval@{NAVAL_ROW_Y} fort@{FORT_ROW_Y} town@{TOWN_ICON_Y} hosp@{ICON_Y}")
 
 
 def main() -> None:

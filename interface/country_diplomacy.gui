@@ -61,8 +61,8 @@ guiTypes = {
 	windowType = {
 		name = "country_diplomacy"
 		backGround =""
-		position = { x=-512 y=-250 }	
-		size = { x=1024 y=632 }
+		position = { x=-512 y=-265 }	
+		size = { x=1024 y=662 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = "0"
@@ -680,7 +680,7 @@ guiTypes = {
 			name ="country_listbox"
 			position = { x = 27 y = 369 }
 			backGround=""
-			size = { x=620 y = 240 }
+			size = { x=620 y = 270 }
 			Orientation = "UPPER_LEFT"
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
@@ -695,7 +695,7 @@ guiTypes = {
 			name = "diplomacy_country_facts"
 			backGround =""
 			position = { x=640 y=20 }	
-			size = { x=300 y=500 }
+			size = { x=300 y=560 }
 			moveable = 0
 			dontRender = ""
 			horizontalBorder = "0"
@@ -1282,7 +1282,7 @@ guiTypes = {
 	windowType = {
 		name = "diplomacy_country_info"
 		backGround =""
-		position = { x=14 y=524 }	
+		position = { x=14 y=554 }	
 		size = { x=540 y=24 }
 		moveable = 0
 		dontRender = ""
