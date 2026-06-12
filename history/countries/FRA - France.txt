@@ -24,6 +24,7 @@ voting_system = first_past_the_post
 political_parties = non_secret_ballots
 fleet_doctrine = active_combat_fleet
 colonial_politics = external_colonisation
+fleet_doctrine = active_combat_fleet
 # Social Reforms
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
