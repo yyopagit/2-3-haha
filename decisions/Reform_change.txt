@@ -1,15 +1,48 @@
 political_decisions = {
 	reform_change = {
 		potential = {
-			NOT = { has_country_modifier = reform_change_cd }
 			NOT = { tag = JAN }
 			civilized = yes
+			# Видно, пока хотя бы одна ветка не на кулдауне
+			OR = {
+				NOT = { has_country_modifier = fleet_reform_change_cd }
+				NOT = { has_country_modifier = colonial_reform_change_cd }
+			}
 		}
 		allow = {
-		
 		}
 		effect = {
-			THIS = { country_event = { id = 55555 days = 0} }
+			# Роутер встроен: открываем нужное меню без промежуточного окна
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = fleet_reform_change_cd }
+						NOT = { has_country_modifier = colonial_reform_change_cd }
+					}
+				}
+				owner = { country_event = { id = 55555 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = fleet_reform_change_cd }
+						has_country_modifier = colonial_reform_change_cd
+					}
+				}
+				owner = { country_event = { id = 555551 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_modifier = fleet_reform_change_cd
+						NOT = { has_country_modifier = colonial_reform_change_cd }
+					}
+				}
+				owner = { country_event = { id = 555552 days = 0 } }
+			}
 		}
 	}
 }
