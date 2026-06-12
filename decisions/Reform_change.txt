@@ -1,0 +1,15 @@
+political_decisions = {
+	reform_change = {
+		potential = {
+			NOT = { has_country_modifier = reform_change_cd }
+			NOT = { tag = JAN }
+			civilized = yes
+		}
+		allow = {
+		
+		}
+		effect = {
+			THIS = { country_event = { id = 55555 days = 0} }
+		}
+	}
+}

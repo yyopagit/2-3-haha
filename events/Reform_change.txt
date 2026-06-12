@@ -1,0 +1,101 @@
+country_event = {
+	id = 55555
+	title = "EVTNAME55555"
+	desc = "EVTDESC55555"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA55555"
+		limit = { NOT = { has_country_modifier = fleet_reform_change_cd } }
+		country_event = { id = 55556 days = 0 }
+		
+	}
+	option = {
+		name = "EVTOPTB55555"
+		limit = { NOT = { has_country_modifier = colonial_reform_change_cd } }
+		THIS = { country_event = { id = 55557 days = 0 } }
+	}
+	option = {
+		name = "EVTOPTC55555"
+	}
+	
+}
+
+country_event = {
+	id = 55556
+	title = "EVTNAME55556"
+	desc = "EVTDESC55556"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA55556"
+		political_reform = fleet_mothballing
+		add_country_modifier = {
+			name = fleet_reform_change_cd
+			duration = 3650
+		}
+		
+	}
+	option = {
+		name = "EVTOPTB55556"
+		political_reform = fleet_expansion
+		add_country_modifier = {
+			name = fleet_reform_change_cd
+			duration = 3650
+		}
+	}
+	option = {
+		name = "EVTOPTC55556"
+		political_reform = active_combat_fleet
+		add_country_modifier = {
+			name = fleet_reform_change_cd
+			duration = 3650
+		}
+	}
+	option = {
+		name = "EVTOPTD55556"
+		THIS = { country_event = { id = 55555 days = 0 } }
+	}
+	
+}
+
+country_event = {
+	id = 55557
+	title = "EVTNAME55557"
+	desc = "EVTDESC55557"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA55557"
+		political_reform = non_colonial
+		add_country_modifier = {
+			name = colonial_reform_change_cd
+			duration = 3650
+		}
+		
+	}
+	option = {
+		name = "EVTOPTB55557"
+		political_reform = inner_colonisation
+		add_country_modifier = {
+			name = fleet_reform_change_cd
+			duration = 3650
+		}
+	}
+	option = {
+		name = "EVTOPTC55557"
+		political_reform = external_colonisation
+		add_country_modifier = {
+			name = fleet_reform_change_cd
+			duration = 3650
+		}
+	}
+	option = {
+		name = "EVTOPTD55557"
+		THIS = { country_event = { id = 55555 days = 0 } }
+	}
+	
+}

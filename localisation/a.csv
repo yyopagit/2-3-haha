@@ -24170,3 +24170,22 @@ good_medical_reforms;Хорошее здравоохранение;X;X;X;X;X;X
 good_medical_reforms_desc;В нашей стране хорошо развит институт здравоохранения;X;X;X;X;X;X
 healthcare_fix;Фикс соц.расходов;X;X;X;X;X;X
 hospital;Больницы;X;X;X;X;X;X
+reform_change_title;Смена реформы;X;X;X;X;X;X
+reform_change_desc;Выбор политики флота и колоний;X;X;X;X;X;X
+EVTNAME55555;Смена реформы;X;X;X;X;X;X
+EVTDESC55555;Мы можем выбрать как реформировать наше государство;X;X;X;X;X;X
+EVTOPTA55555;Реформы флота;X;X;X;X;X;X
+EVTOPTB55555;Колониальные политики;X;X;X;X;X;X
+EVTOPTC55555;Отмена;X;X;X;X;X;X
+EVTNAME55556;Смена реформы флота;X;X;X;X;X;X
+EVTDESC55556;Мы можем выбрать как реформировать наш флот;X;X;X;X;X;X
+EVTOPTA55556;Консервация флота;X;X;X;X;X;X
+EVTOPTB55556;Ускоренное строительство флота;X;X;X;X;X;X
+EVTOPTC55556;Постоянный флот;X;X;X;X;X;X
+EVTOPTD55556;Вернуться назад;X;X;X;X;X;X
+EVTNAME55557;Смена колониальной политики;X;X;X;X;X;X
+EVTDESC55557;Мы можем выбрать как реформировать нашу политику в отношении колоний;X;X;X;X;X;X
+EVTOPTA55557;Отсутствие колоний;X;X;X;X;X;X
+EVTOPTB55557;Освоение внутренних земель;X;X;X;X;X;X
+EVTOPTC55557;Заморская колонизация;X;X;X;X;X;X
+EVTOPTD55557;Вернуться назад;X;X;X;X;X;X
