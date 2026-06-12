@@ -25,6 +25,7 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 2
 		min_build_railroad = 0
+		min_build_town_infrastructure = 1
 	}
 
 	farmlands = {
@@ -37,6 +38,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 15
+		min_build_town_infrastructure = 1
 	}
 	
 	forest = {
@@ -50,6 +52,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 9
 		combat_width = -0.10
+		min_build_town_infrastructure = 1
 	}
 	hills = {
 		movement_cost = 1.2
@@ -63,6 +66,7 @@ categories =  {
 		supply_limit = 9
 		min_build_railroad = 0
 		combat_width = -0.10
+		min_build_town_infrastructure = 1
 	}
 	
 	woods = {
@@ -75,6 +79,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 9
 		combat_width = -0.10
+		min_build_town_infrastructure = 1
 	}
 	
 	mountain = {
@@ -90,6 +95,7 @@ categories =  {
 		combat_width = -0.3
 		
 		min_build_railroad = 1
+		min_build_town_infrastructure = 1
 	}
 
 
@@ -102,6 +108,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 11
+		min_build_town_infrastructure = 1
 
 	}
 	plains = {
@@ -113,7 +120,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 15
-
+		min_build_town_infrastructure = 1
 	}
 
 	jungle = {
@@ -127,6 +134,7 @@ categories =  {
 		supply_limit = 8
 		min_build_railroad = 1
 		combat_width = -0.10
+		min_build_town_infrastructure = 1
 	}	
 	
 	marsh = {
@@ -140,6 +148,7 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 5
 		min_build_railroad = 1
+		min_build_town_infrastructure = 1
 		combat_width = -0.25
 	}
 	
@@ -152,6 +161,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 7
+		min_build_town_infrastructure = 1
 	}
 	
 	coastal_desert = {
@@ -162,6 +172,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 6
+		min_build_town_infrastructure = 1
 	}	
 }
 
