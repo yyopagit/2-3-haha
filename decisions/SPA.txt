@@ -87,40 +87,122 @@ political_decisions = {
 			set_country_flag = spa_colony
 		}
 	}
-	spa_convention = {
-        picture = annex_portugal
- 		potential = {
+	spa_colonial_empire = {
+		picture = brazzas_expedition
+		alert = yes
+		potential = {
 			tag = SPA
-			exists = POR
-			NOT = {
-				has_country_flag = spa_convention
-				war_with = POR
-			}
+			exists = CLM
+			exists = ECU
+			exists = VNZ
+			NOT = { has_country_flag = spa_colonial_empire_done }
 		}
 		allow = {
-			is_sphere_leader_of = POR
-			is_greater_power = yes
+			money = 1000000
+			CLM = { vassal_of = THIS }
+			ECU = { vassal_of = THIS }
+			VNZ = { vassal_of = THIS }
+			war = no
 		}
 		effect = {
-			set_country_flag = spa_convention			
-			POR = {
-				country_event = { id=3471001 days=0 }
+			money = -1000000
+			inherit = CLM
+			inherit = ECU
+			inherit = VNZ
+			set_country_flag = spa_colonial_empire_done
+			add_country_modifier = {
+				name = spa_colonial_recent_annex
+				duration = -1
 			}
-			521 = {
-				add_core = SPA
-			}
-			526 = {
-				add_core = SPA
-			}
-			2135 = {
-				add_core = SPA
-			}
-			add_accepted_culture = portuguese
-			prestige = 30
-			badboy = 12
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 0
+		}
+	}
+	spa_colonial_integration = {
+		picture = give_money
+		alert = yes
+		potential = {
+			tag = SPA
+			has_country_flag = spa_colonial_empire_done
+			has_country_modifier = spa_colonial_recent_annex
+			NOT = { has_country_flag = spa_colonial_integration_done }
+		}
+		allow = {
+			paper = 3000
+		}
+		effect = {
+			paper = -3000
+			remove_country_modifier = spa_colonial_recent_annex
+			add_country_modifier = {
+				name = spa_colonial_integration_tax
+				duration = 1095
+			}
+			set_country_flag = spa_colonial_integration_done
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	spa_por_iberian_south_america = {
+		picture = restore_brz
+		alert = yes
+		potential = {
+			OR = {
+				tag = SPA
+				tag = POR
+			}
+			exists = SPA
+			exists = POR
+			NOT = { has_global_flag = iberian_south_america_control }
+		}
+		allow = {
+			OR = {
+				AND = {
+					NOT = { exists = CLM }
+					2247 = { owned_by = SPA }
+				}
+				CLM = { vassal_of = SPA }
+			}
+			OR = {
+				AND = {
+					NOT = { exists = ECU }
+					2279 = { owned_by = SPA }
+				}
+				ECU = { vassal_of = SPA }
+			}
+			OR = {
+				AND = {
+					NOT = { exists = VNZ }
+					2264 = { owned_by = SPA }
+				}
+				VNZ = { vassal_of = SPA }
+			}
+			OR = {
+				AND = {
+					NOT = { exists = BRZ }
+					2447 = { owned_by = POR }
+				}
+				BRZ = { vassal_of = POR }
+			}
+		}
+		effect = {
+			SPA = {
+				add_country_modifier = {
+					name = spa_por_iberian_south_america
+					duration = -1
+				}
+			}
+			POR = {
+				add_country_modifier = {
+					name = spa_por_iberian_south_america
+					duration = -1
+				}
+			}
+			set_global_flag = iberian_south_america_control
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 	spa_convention2 = {

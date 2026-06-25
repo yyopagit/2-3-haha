@@ -1,0 +1,87 @@
+political_decisions = {
+	por_war_brz_satellite = {
+		picture = annex_portugal
+		alert = yes
+		potential = {
+			tag = POR
+			exists = BRZ
+			NOT = { has_country_flag = por_brz_satellite_cb_issued }
+			NOT = { war_with = BRZ }
+			BRZ = {
+				NOT = { vassal_of = POR }
+				is_vassal = no
+			}
+		}
+		allow = {
+			BRZ = { exists = yes }
+		}
+		effect = {
+			badboy = 15
+			add_casus_belli = {
+				target = BRZ
+				type = make_puppet
+				months = 24
+			}
+			set_country_flag = por_brz_satellite_cb_issued
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	por_annex_brazil = {
+		picture = restore_brz
+		alert = yes
+		potential = {
+			tag = POR
+			exists = BRZ
+			NOT = { has_country_flag = por_annexed_brazil }
+		}
+		allow = {
+			industrial_score = 300
+			total_amount_of_ships = 100
+			money = 2000000
+			NOT = { war_with = BRZ }
+		}
+		effect = {
+			money = -2000000
+			inherit = BRZ
+			set_country_flag = por_annexed_brazil
+			add_country_modifier = {
+				name = por_brazil_recent_annex
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	por_brazil_admin_reforms = {
+		picture = give_money
+		alert = yes
+		potential = {
+			tag = POR
+			has_country_flag = por_annexed_brazil
+			has_country_modifier = por_brazil_recent_annex
+			NOT = { has_country_flag = por_brazil_admin_reform_done }
+		}
+		allow = {
+			money = 1000000
+			lumber = 4000
+		}
+		effect = {
+			money = -1000000
+			lumber = -4000
+			remove_country_modifier = por_brazil_recent_annex
+			add_country_modifier = {
+				name = por_brazil_admin_tax_burden
+				duration = 1095
+			}
+			set_country_flag = por_brazil_admin_reform_done
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

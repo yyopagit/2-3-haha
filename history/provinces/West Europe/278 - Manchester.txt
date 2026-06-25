@@ -6,4 +6,14 @@ life_rating = 35
 terrain = urban
 town_infrastructure = 1
 railroad = 1
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}
 

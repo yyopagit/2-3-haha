@@ -1,0 +1,14 @@
+size=12294656
+string b'investment_score_factor' file_offset=-0x1
+string b'industrial_score' file_offset=0xa1ce48
+  va=0xe1e848
+  code_refs=1 ['0x84e3fb']
+string b'INDUSTRIAL_SCORE' file_offset=0x9fd640
+  va=0xdff040
+  code_refs=1 ['0x12ff81']
+float 0.001: 1 hits, first=['0xa43f9c']
+float 0.001: 1 hits, first=['0xa43f9c']
+float 0.005: 1 hits, first=['0xa43fa0']
+float 4.0: 5 hits, first=['0x9deee8', '0xa5267a', '0xae506a', '0xb15558', '0xb370ff']
+float 2500.0: 0 hits, first=[]
+int 2500: 6 hits, first=['0x2ed319', '0x3ebe0c', '0x40fdb1', '0x650a4a', '0x852009', '0xaf70c0']

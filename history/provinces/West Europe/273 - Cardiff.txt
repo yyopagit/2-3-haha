@@ -6,8 +6,3 @@ town_infrastructure = 0
 naval_base = 2
 life_rating = 45
 terrain = urban
-state_building = {
-	level = 1
-	building = steel_factory
-	upgrade = yes
-}

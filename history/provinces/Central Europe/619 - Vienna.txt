@@ -6,13 +6,8 @@ life_rating = 45
 terrain = urban
 town_infrastructure = 1
 fort = 1
-#state_building = {
-#	level = 1
-#	building = regular_clothes_factory
-#	upgrade = yes
-#}
-#state_building = {
-#	level = 1
-#	building = small_arms_factory
-#	upgrade = yes
-#}
+state_building = {
+	level = 1
+	building = steel_manufactory
+	upgrade = yes
+}

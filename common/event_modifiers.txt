@@ -1732,3 +1732,31 @@ fleet_reform_change_cd = {
 colonial_reform_change_cd = {
 	
 }
+
+por_brazil_recent_annex = {
+	administrative_efficiency_modifier = -0.2
+	icon = 15
+}
+
+por_brazil_admin_tax_burden = {
+	tax_efficiency = -0.05
+	icon = 15
+}
+
+spa_colonial_recent_annex = {
+	administrative_efficiency_modifier = -0.1
+	icon = 15
+}
+
+spa_colonial_integration_tax = {
+	tax_efficiency = -0.03
+	icon = 15
+}
+
+spa_por_iberian_south_america = {
+	max_social_spending = 0.10
+	tax_efficiency = 0.03
+	poor_life_needs = -0.10
+	population_growth = 0.02
+	icon = 5
+}
