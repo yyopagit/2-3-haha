@@ -458,7 +458,7 @@ country_event = {
 		any_country = {
 			any_owned = {
 				limit = {
-					NOT = { has_province_modifier = inner_colonisation }
+					NOT = { has_province_modifier = internal_colonisation }
 					NOT = { has_building = town_infrastructure }
 					THIS = { colonial_politics = inner_colonisation }
 				}
