@@ -802,8 +802,11 @@ fort = {
 	fort_level = 1
 }
 
+# Audax Validator "." Ignore_BLOCK
 town_infrastructure = { 
+	# Audax Validator "." Ignore_NEXT
 	type = town_infrastructure
+	# Audax Validator "." Ignore_NEXT
 	cost = 500000		 
 	goods_cost =
 	{
@@ -814,14 +817,19 @@ town_infrastructure = {
 	}
 	time = 230 
 	visibility = yes
+	onmap = no
 	max_level = 2
 	province = yes
 	one_per_state = yes
 }
 
+# Audax Validator "." Ignore_BLOCK
 hospital = {
+	# Audax Validator "." Ignore_NEXT
 	type = hospital
+	# Audax Validator "." Ignore_NEXT
 	cost = 200000
+	# Audax Validator "." Ignore_NEXT
 	prerequisites = { town_infrastructure }
 	goods_cost = {
 		opium = 1000
@@ -830,7 +838,9 @@ hospital = {
 	}
 	time = 230
 	visibility = yes
+	onmap = no
 	max_level = 6
 	province = yes
+	# Audax Validator "." Ignore_NEXT
 	population_growth = 0.0001
 }

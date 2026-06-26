@@ -1,27 +1,33 @@
 ####ЛВЛ1 (20-39%)
-		country_event = {
-			trigger = {
-				NOT = { has_country_modifier = med_ref_mp }
-				social_spending = 0.2
-				NOT = { social_spending = 0.4 }
-			}
-			immediate = {
-				add_country_modifier = {
-					name = med_ref_mp
-					duration = -1
-				}
-				remove_country_modifier = med_ref_mp1
-				remove_country_modifier = med_ref_mp2
-				remove_country_modifier = med_ref_mp3
-				remove_country_modifier = med_ref_mp4
-			}
-			option = {
-				name = "OK"
-			}
+country_event = {
+	id = 988001
+	title = "noloc"
+	desc = "noloc"
+	trigger = {
+		NOT = { has_country_modifier = med_ref_mp }
+		social_spending = 0.2
+		NOT = { social_spending = 0.4 }
+	}
+	immediate = {
+		add_country_modifier = {
+			name = med_ref_mp
+			duration = -1
 		}
+		remove_country_modifier = med_ref_mp1
+		remove_country_modifier = med_ref_mp2
+		remove_country_modifier = med_ref_mp3
+		remove_country_modifier = med_ref_mp4
+	}
+	option = {
+		name = "OK"
+	}
+}
 
 ####ЛВЛ2 (40-59%)
 country_event = {
+	id = 988002
+	title = "noloc"
+	desc = "noloc"
 	trigger = {
 		NOT = { has_country_modifier = med_ref_mp1 }
 		social_spending = 0.4
@@ -44,6 +50,9 @@ country_event = {
 
 ####ЛВЛ3 (60-79%)
 country_event = {
+	id = 988003
+	title = "noloc"
+	desc = "noloc"
 	trigger = {
 		NOT = { has_country_modifier = med_ref_mp2 }
 		social_spending = 0.6
@@ -66,6 +75,9 @@ country_event = {
 
 ####ЛВЛ4 (80-98%)
 country_event = {
+	id = 988004
+	title = "noloc"
+	desc = "noloc"
 	trigger = {
 		NOT = { has_country_modifier = med_ref_mp3 }
 		social_spending = 0.8
@@ -88,6 +100,9 @@ country_event = {
 
 ####ЛВЛ5 (99-100%)
 country_event = {
+	id = 988005
+	title = "noloc"
+	desc = "noloc"
 	trigger = {
 		NOT = { has_country_modifier = med_ref_mp4 }
 		social_spending = 0.99
@@ -110,6 +125,9 @@ country_event = {
 #########Снятие модификаторов
 
 country_event = {
+	id = 988006
+	title = "noloc"
+	desc = "noloc"
 	trigger = {
 		has_country_modifier = med_ref_mp
 		NOT = {
@@ -125,6 +143,9 @@ country_event = {
 }
 
 country_event = {
+	id = 988007
+	title = "noloc"
+	desc = "noloc"
 	trigger = {
 		has_country_modifier = med_ref_mp1
 		OR = {
@@ -141,6 +162,9 @@ country_event = {
 }
 
 country_event = {
+	id = 988008
+	title = "noloc"
+	desc = "noloc"
 	trigger = {
 		has_country_modifier = med_ref_mp2
 		OR = {
@@ -157,6 +181,9 @@ country_event = {
 }
 
 country_event = {
+	id = 988009
+	title = "noloc"
+	desc = "noloc"
 	trigger = {
 		has_country_modifier = med_ref_mp3
 		OR = {
@@ -173,6 +200,9 @@ country_event = {
 }
 
 country_event = {
+	id = 988010
+	title = "noloc"
+	desc = "noloc"
 	trigger = {
 		has_country_modifier = med_ref_mp4
 		NOT = { social_spending = 0.99 }

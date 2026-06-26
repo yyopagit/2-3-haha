@@ -157,7 +157,7 @@
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 151650
+		size = 165616
 	}
 
 	slaves = {
@@ -166,88 +166,30 @@
 		size = 30000
 	}
 
-	2087 = {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	farmers = {
 		culture = boer
 		religion = orthodox
-		size = 1400
+		size = 2148
 	}
 
-	2088 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2069
-	}
-
-	2089 = {
+	farmers = {
 		culture = british
 		religion = orthodox
-		size = 21
-	}
-
-	2090 = {
-		culture = british
-		religion = orthodox
-		size = 21
-	}
-
-	2091 = {
-		culture = african_minor
-		religion = orthodox
-		size = 255
-	}
-
-	2092 = {
-		culture = african_minor
-		religion = orthodox
-		size = 637
-	}
-
-	2093 = {
-		culture = african_minor
-		religion = orthodox
-		size = 597
-	}
-
-	2096 = {
-		culture = african_minor
-		religion = orthodox
-		size = 923
-	}
-
-	2097 = {
-		culture = african_minor
-		religion = orthodox
-		size = 255
-	}
-
-	2098 = {
-		culture = african_minor
-		religion = orthodox
-		size = 1910
-	}
-
-	2099 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2228
-	}
-
-	2100 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2228
-	}
-
-	2104 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2864
-	}
-
-	2558 = {
-		culture = boer
-		religion = orthodox
-		size = 748
+		size = 42
 	}
 }
 #Kintampo (148000/37000 POPS) 
@@ -279,7 +221,7 @@
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 97025
+		size = 110990
 	}
 
 	slaves = {
@@ -288,88 +230,30 @@
 		size = 57000
 	}
 
-	2087 = {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	farmers = {
 		culture = boer
 		religion = orthodox
-		size = 1400
+		size = 2148
 	}
 
-	2088 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2069
-	}
-
-	2089 = {
+	farmers = {
 		culture = british
 		religion = orthodox
-		size = 21
-	}
-
-	2090 = {
-		culture = british
-		religion = orthodox
-		size = 21
-	}
-
-	2091 = {
-		culture = african_minor
-		religion = orthodox
-		size = 255
-	}
-
-	2092 = {
-		culture = african_minor
-		religion = orthodox
-		size = 637
-	}
-
-	2093 = {
-		culture = african_minor
-		religion = orthodox
-		size = 597
-	}
-
-	2096 = {
-		culture = african_minor
-		religion = orthodox
-		size = 923
-	}
-
-	2097 = {
-		culture = african_minor
-		religion = orthodox
-		size = 255
-	}
-
-	2098 = {
-		culture = african_minor
-		religion = orthodox
-		size = 1909
-	}
-
-	2099 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2228
-	}
-
-	2100 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2228
-	}
-
-	2104 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2864
-	}
-
-	2558 = {
-		culture = boer
-		religion = orthodox
-		size = 748
+		size = 42
 	}
 }
 #Wa (160000/40000 POPS) 
@@ -401,7 +285,7 @@
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 88250
+		size = 102214
 	}
 
 	aristocrats = {
@@ -470,88 +354,30 @@
 		size = 44250
 	}
 
-	2087 = {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	farmers = {
 		culture = boer
 		religion = orthodox
-		size = 1400
+		size = 2148
 	}
 
-	2088 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2068
-	}
-
-	2089 = {
+	farmers = {
 		culture = british
 		religion = orthodox
-		size = 21
-	}
-
-	2090 = {
-		culture = british
-		religion = orthodox
-		size = 21
-	}
-
-	2091 = {
-		culture = african_minor
-		religion = orthodox
-		size = 255
-	}
-
-	2092 = {
-		culture = african_minor
-		religion = orthodox
-		size = 637
-	}
-
-	2093 = {
-		culture = african_minor
-		religion = orthodox
-		size = 597
-	}
-
-	2096 = {
-		culture = african_minor
-		religion = orthodox
-		size = 923
-	}
-
-	2097 = {
-		culture = african_minor
-		religion = orthodox
-		size = 255
-	}
-
-	2098 = {
-		culture = african_minor
-		religion = orthodox
-		size = 1909
-	}
-
-	2099 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2228
-	}
-
-	2100 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2228
-	}
-
-	2104 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2864
-	}
-
-	2558 = {
-		culture = boer
-		religion = orthodox
-		size = 748
+		size = 42
 	}
 }
 #Tamale (60000/15000 POPS) 
@@ -583,7 +409,7 @@
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 54750
+		size = 68712
 	}
 
 	slaves = {
@@ -622,88 +448,30 @@
 		size = 82500
 	}
 
-	2087 = {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	farmers = {
 		culture = boer
 		religion = orthodox
-		size = 1400
+		size = 2148
 	}
 
-	2088 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2068
-	}
-
-	2089 = {
+	farmers = {
 		culture = british
 		religion = orthodox
-		size = 21
-	}
-
-	2090 = {
-		culture = british
-		religion = orthodox
-		size = 21
-	}
-
-	2091 = {
-		culture = african_minor
-		religion = orthodox
-		size = 255
-	}
-
-	2092 = {
-		culture = african_minor
-		religion = orthodox
-		size = 637
-	}
-
-	2093 = {
-		culture = african_minor
-		religion = orthodox
-		size = 597
-	}
-
-	2096 = {
-		culture = african_minor
-		religion = orthodox
-		size = 923
-	}
-
-	2097 = {
-		culture = african_minor
-		religion = orthodox
-		size = 255
-	}
-
-	2098 = {
-		culture = african_minor
-		religion = orthodox
-		size = 1909
-	}
-
-	2099 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2227
-	}
-
-	2100 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2227
-	}
-
-	2104 = {
-		culture = african_minor
-		religion = orthodox
-		size = 2864
-	}
-
-	2558 = {
-		culture = boer
-		religion = orthodox
-		size = 748
+		size = 42
 	}
 }
 #Togo Region (136000) #see Togo.txt for balance of region
