@@ -448,6 +448,7 @@ money = 5000000
 			tag = PER
 			tag = ARA
 			tag = EGY
+			tag = SIA
 		}
 		   NOT = { has_country_flag = tech_shkola1 
 		   has_country_flag = tech_shkola2
@@ -476,6 +477,7 @@ vibor_techshkol2 = {
 			tag = PER
 			tag = ARA
 			tag = EGY
+			tag = SIA
 		}
 		   NOT = { has_country_flag = tech_shkola1 
 		   has_country_flag = tech_shkola2
@@ -504,6 +506,7 @@ vibor_techshkol3 = {
 			tag = PER
 			tag = ARA
 			tag = EGY
+			tag = SIA
 		}
 		   NOT = { has_country_flag = tech_shkola1 
 		   has_country_flag = tech_shkola2

@@ -1615,7 +1615,8 @@ help_malakka_SIA = {
 }
 
 help_france_sia = {
-	badboy = -0.2
+	research_points = 0.5
+	badboy = -0.3
 	cb_generation_speed_modifier = 0.2
 	diplomatic_points_modifier = 0.5
 	administrative_efficiency_modifier = 0.1
@@ -1625,7 +1626,7 @@ help_france_sia = {
 
 help_usa_sia = {
 	badboy = -0.05
-	research_points = 3
+	research_points = 1.5
 	global_population_growth = 0.0001
 	global_assimilation_rate = 0.5
 	RGO_output = 0.25
@@ -1681,11 +1682,11 @@ external_colonisation_towns = {
 }
 
 external_colonisation_colonies = {
-	local_RGO_output = 0.15
+	local_RGO_output = 0.35
 }
 
 internal_colonisation = {
-	local_RGO_output = 0.3
+	local_RGO_output = 0.2
 }
 
 non_colonial_towns = {
@@ -1705,7 +1706,7 @@ underfunded_fleet = {
 	local_repair = -0.20
 	local_ship_build = 0.10
 	naval_attack_modifier = -0.05
-	tax_efficiency = -0.03
+	tax_efficiency = -0.01
 	icon = 15
 }
 
@@ -1733,30 +1734,9 @@ colonial_reform_change_cd = {
 	
 }
 
-por_brazil_recent_annex = {
-	administrative_efficiency_modifier = -0.2
-	icon = 15
-}
-
-por_brazil_admin_tax_burden = {
-	tax_efficiency = -0.05
-	icon = 15
-}
-
-spa_colonial_recent_annex = {
-	administrative_efficiency_modifier = -0.1
-	icon = 15
-}
-
-spa_colonial_integration_tax = {
-	tax_efficiency = -0.03
-	icon = 15
-}
-
 spa_por_iberian_south_america = {
 	max_social_spending = 0.10
 	tax_efficiency = 0.03
 	poor_life_needs = -0.10
-	population_growth = 0.02
 	icon = 5
 }

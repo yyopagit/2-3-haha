@@ -1,33 +1,4 @@
 political_decisions = {
-	por_war_brz_satellite = {
-		picture = annex_portugal
-		alert = yes
-		potential = {
-			tag = POR
-			exists = BRZ
-			NOT = { has_country_flag = por_brz_satellite_cb_issued }
-			NOT = { war_with = BRZ }
-			BRZ = {
-				NOT = { vassal_of = POR }
-				is_vassal = no
-			}
-		}
-		allow = {
-			BRZ = { exists = yes }
-		}
-		effect = {
-			badboy = 15
-			add_casus_belli = {
-				target = BRZ
-				type = make_puppet
-				months = 24
-			}
-			set_country_flag = por_brz_satellite_cb_issued
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 
 	por_annex_brazil = {
 		picture = restore_brz
@@ -38,50 +9,142 @@ political_decisions = {
 			NOT = { has_country_flag = por_annexed_brazil }
 		}
 		allow = {
-			industrial_score = 300
-			total_amount_of_ships = 100
-			money = 2000000
-			NOT = { war_with = BRZ }
+			year = 1840
+			money = 1000000
+			BRZ = {
+				is_vassal = yes
+			}
 		}
 		effect = {
-			money = -2000000
+			money = -1000000
 			inherit = BRZ
-			set_country_flag = por_annexed_brazil
-			add_country_modifier = {
-				name = por_brazil_recent_annex
-				duration = -1
+			BRZ = {
+				all_core = {
+					add_core = POR
+				}
 			}
+			URU = {
+				all_core = {
+					add_core = POR
+				}
+			}
+			add_accepted_culture = brazilian
+			set_country_flag = por_annexed_brazil
+			badboy = 15
 		}
 		ai_will_do = {
 			factor = 0
 		}
 	}
-
-	por_brazil_admin_reforms = {
-		picture = give_money
+	
+	por_integrate_amazonia = {
+		picture = restore_brz
 		alert = yes
 		potential = {
 			tag = POR
-			has_country_flag = por_annexed_brazil
-			has_country_modifier = por_brazil_recent_annex
-			NOT = { has_country_flag = por_brazil_admin_reform_done }
+			NOT = { has_country_flag = amazonia_integrated }
 		}
 		allow = {
-			money = 1000000
-			lumber = 4000
+			invention = mission_to_civilize
+			NOT = { exists = BRZ }
+			has_country_flag = por_annexed_brazil
 		}
 		effect = {
-			money = -1000000
-			lumber = -4000
-			remove_country_modifier = por_brazil_recent_annex
-			add_country_modifier = {
-				name = por_brazil_admin_tax_burden
-				duration = 1095
+			BRZ_2428 = {
+				any_province = {
+					secede_province = POR
+					add_core = POR
+					life_rating = 34
+				}
 			}
-			set_country_flag = por_brazil_admin_reform_done
+			set_country_flag = amazonia_integrated
+			badboy = 5
 		}
-		ai_will_do = {
-			factor = 0
+	}
+	
+	por_integrate_colonies = {
+		picture = restore_brz
+		alert = yes
+		potential = {
+			tag = POR
+			NOT = { has_country_flag = por_has_integrated_colonies }
+		}
+		allow = {
+			invention = colonial_negotiations
+			AND = {
+				owns = 2000
+				owns = 2001
+				owns = 1999
+				owns = 2003
+				owns = 2004
+				owns = 2005
+				owns = 2008
+				owns = 2006
+				owns = 2002
+				owns = 2009
+				owns = 2010
+				owns = 2011
+				owns = 2007
+				owns = 2049
+				owns = 2050
+				owns = 2051
+				owns = 2052
+				owns = 2057
+				owns = 2058
+				owns = 2053
+				owns = 2055
+				owns = 2056
+				owns = 2054
+				owns = 2065
+				owns = 2066
+				owns = 2581
+				owns = 2063
+				owns = 2064
+				owns = 2060
+				owns = 2061
+			}
+		}
+		effect = {
+			POR_2003 = {
+				life_rating = 10
+			}
+			POR_1999 = {
+				life_rating = 10
+			}
+			POR_2049 = {
+				life_rating = 10
+			}
+			POR_2053 = {
+				life_rating = 10
+			}
+			POR_2060 = {
+				life_rating = 10
+			}
+			badboy = 5
+		}
+	}
+	
+	por_integrate_galicia = {
+		picture = restore_brz
+		alert = yes
+		potential = {
+			tag = POR
+			NOT = { has_country_flag = galicia_integrated }
+		}
+		allow = {
+			owns = 474
+			owns = 476
+		}
+		effect = {
+			474 = {
+				add_core = POR
+				remove_core = SPA
+			}
+			476 = {
+				add_core = POR
+				remove_core = SPA
+			}
+			badboy = 5
 		}
 	}
 }

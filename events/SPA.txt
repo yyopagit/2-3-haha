@@ -561,15 +561,14 @@ country_event = {
 		ECU_2279 = { add_core = SPA }
 		CLM_1723 = { add_core = SPA }
 		PEU_2289 = { add_core = SPA }
+		PEU = { all_core = { add_core = SPA } }
+		CHL = { all_core = { add_core = SPA } }
+		BOL = { all_core = { add_core = SPA } }
+		PRG = { all_core = { add_core = SPA } }
+		ARG = { all_core = { add_core = SPA } }
+		UCA = { all_core = { add_core = SPA } }
+		MEX = { all_core = { add_core = SPA } }
 		badboy = 15
-		any_country = {
-			limit = {
-				primary_culture = north_andean
-				in_sphere = THIS
-				NOT = { tag = THIS }
-			}
-			annex_to = THIS
-		}
 	}
 	option = {
 		name = "EVTOPTB37702"

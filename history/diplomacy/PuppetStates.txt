@@ -111,8 +111,8 @@ vassal = {
 vassal = {
 	first = SIA
 	second = CAM
-	start_date = 1861.1.1
-	end_date = 1936.1.1
+	start_date = 1836.1.1
+	end_date = 1937.1.1
 }
 
 # UK - KAS
@@ -130,10 +130,18 @@ vassal = {
 	start_date = 1861.1.1
 	end_date = 1936.1.1
 }
-#Камбоджа вассал Сиама
+#Дайнам вассал Сиама
 vassal = {
 	first = SIA
-	second = CAM
+	second = DAI
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#Бразилия вассал Португалии
+vassal = {
+	first = POR
+	second = BRZ
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }

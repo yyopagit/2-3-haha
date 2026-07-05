@@ -1,35 +1,35 @@
-country_event = {
-    id = 67671
-    title = "EVTNAMEId67671"
-    desc = "EVTDESCId67671"
-    picture = Anaconda
-    is_triggered_only = yes
-    
-    trigger = {
-        tag = SIA
-    }
-    
-    mean_time_to_happen = {
-        days = 1
-        
-    }
-    option = {
-        name = "EVTOPTAId67671"
-        BUR_1339 = { add_core = SIA }
-        BUR_1330 = { add_core = SIA }
-        badboy = 7
-        set_country_flag = burma_annex
-    }
-    
-    option = {
-        name = "EVTOPTBId67671"
-        BUR_1339 = { add_core = THIS }
-        BUR_1330 = { add_core = THIS }
-        add_accepted_culture = burmese
-        badboy = 14
-        set_country_flag = burma_union
-    }
-}
+#country_event = {
+#    id = 67671
+#    title = "EVTNAMEId67671"
+#    desc = "EVTDESCId67671"
+#    picture = Anaconda
+#    is_triggered_only = yes
+#    
+#    trigger = {
+#        tag = SIA
+#    }
+#    
+#    mean_time_to_happen = {
+#        days = 1
+#        
+#    }
+#    option = {
+#        name = "EVTOPTAId67671"
+#        BUR_1339 = { add_core = SIA }
+#        BUR_1330 = { add_core = SIA }
+#        badboy = 7
+#        set_country_flag = burma_annex
+#    }
+#    
+#    option = {
+#        name = "EVTOPTBId67671"
+#        BUR_1339 = { add_core = THIS }
+#        BUR_1330 = { add_core = THIS }
+#        add_accepted_culture = burmese
+#        badboy = 14
+#        set_country_flag = burma_union
+#    }
+#}
 
 country_event = {
     id = 676721
@@ -181,8 +181,8 @@ country_event = {
             country_event = 676761
         }
         FRA = {
-            prestige = 50
-    }
+            prestige = 10
+		}
     }
     
     option = {
@@ -265,8 +265,8 @@ country_event = {
             set_country_flag = help_granted1
         }
         JAP = {
-            prestige = 50
-    }
+            prestige = 10
+		}
     }
     
     option = {
@@ -349,8 +349,8 @@ country_event = {
             set_country_flag = help_granted1
         }
         USA = {
-            prestige = 50
-    }
+            prestige = 10
+		}
     }
     
     option = {

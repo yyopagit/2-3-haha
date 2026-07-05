@@ -1,7 +1,5 @@
 owner = UCA
-controller = UCA
-add_core = UCA
-add_core = NIC
-add_core = MEX
+controller = UCA
+add_core = UCA
 trade_goods = dye
 life_rating = 35 

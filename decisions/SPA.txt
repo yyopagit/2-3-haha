@@ -99,9 +99,24 @@ political_decisions = {
 		}
 		allow = {
 			money = 1000000
-			CLM = { vassal_of = THIS }
-			ECU = { vassal_of = THIS }
-			VNZ = { vassal_of = THIS }
+			CLM = { 
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+				}
+			}
+			ECU = { 
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+				}
+			}
+			VNZ = { 
+				OR = {
+					vassal_of = THIS
+					in_sphere = THIS
+				}
+			}
 			war = no
 		}
 		effect = {
@@ -109,41 +124,16 @@ political_decisions = {
 			inherit = CLM
 			inherit = ECU
 			inherit = VNZ
+			add_accepted_culture = north_andean
 			set_country_flag = spa_colonial_empire_done
-			add_country_modifier = {
-				name = spa_colonial_recent_annex
-				duration = -1
-			}
+			badboy = 5
+			
 		}
 		ai_will_do = {
 			factor = 0
 		}
 	}
-	spa_colonial_integration = {
-		picture = give_money
-		alert = yes
-		potential = {
-			tag = SPA
-			has_country_flag = spa_colonial_empire_done
-			has_country_modifier = spa_colonial_recent_annex
-			NOT = { has_country_flag = spa_colonial_integration_done }
-		}
-		allow = {
-			paper = 3000
-		}
-		effect = {
-			paper = -3000
-			remove_country_modifier = spa_colonial_recent_annex
-			add_country_modifier = {
-				name = spa_colonial_integration_tax
-				duration = 1095
-			}
-			set_country_flag = spa_colonial_integration_done
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	
 	spa_por_iberian_south_america = {
 		picture = restore_brz
 		alert = yes
@@ -224,7 +214,7 @@ political_decisions = {
 			set_country_flag = spa_convention2			
 	         inherit =MOR
 			prestige = 20
-			badboy = 7
+			badboy = 16
 		}
 		ai_will_do = {
 			factor = 1
@@ -250,6 +240,66 @@ political_decisions = {
 			name = spa23
 			duration = 18250
 			}
+		}
+	}
+	
+	spa_integrate_argentina = {
+		picture = restore_brz
+		alert = yes
+		potential = {
+			NOT = { exists = ARG }
+			NOT = { has_global_flag = argentina_integrated }
+			owns = 2348
+			owns = 2373
+		}
+		allow = {
+			invention = mission_to_civilize
+			owns = 2348
+			owns = 2373
+		}
+		effect = {
+			2400 = { secede_province = THIS life_rating = 34 }
+			2399 = { secede_province = THIS life_rating = 34 }
+			2398 = { secede_province = THIS life_rating = 34 }
+			2397 = { secede_province = THIS life_rating = 34 }
+			2396 = { secede_province = THIS life_rating = 34 }
+			2394 = { secede_province = THIS life_rating = 34 }
+			2392 = { secede_province = THIS life_rating = 34 }
+			2391 = { secede_province = THIS life_rating = 34 }
+			2395 = { secede_province = THIS life_rating = 34 }
+			2393 = { secede_province = THIS life_rating = 34 }
+			2377 = { secede_province = THIS life_rating = 34 }
+			2365 = { secede_province = THIS life_rating = 34 }
+			2364 = { secede_province = THIS life_rating = 34 }
+			2366 = { secede_province = THIS life_rating = 34 }
+			2367 = { secede_province = THIS life_rating = 34 }
+			2337 = { secede_province = THIS life_rating = 34 }
+			2338 = { secede_province = THIS life_rating = 34 }
+			badboy = 2
+			prestige = 25
+			set_global_flag = argentina_integrated
+		}
+	}
+	
+	spa_integrate_chili = {
+		picture = restore_brz
+		alert = yes
+		potential = {
+			NOT = { exists = CHL }
+			NOT = { has_global_flag = chili_integrated }
+			owns = 2324
+		}
+		allow = {
+			invention = mission_to_civilize
+			owns = 2324
+		}
+		effect = {
+			2333 = { secede_province = THIS life_rating = 34 }
+			2334 = { secede_province = THIS life_rating = 34 }
+			2335 = { secede_province = THIS life_rating = 34 }
+			badboy = 1
+			prestige = 25
+			set_global_flag = chili_integrated
 		}
 	}
 }

@@ -419,7 +419,7 @@ country_event = {
 				limit = {
 					NOT = { has_province_modifier = external_colonisation_towns }
 					has_building = town_infrastructure
-					THIS = { colonial_politics = external_colonisation }
+					owner = { colonial_politics = external_colonisation }
 				}
 				add_province_modifier = {
 					name = external_colonisation_towns
@@ -429,8 +429,8 @@ country_event = {
 			any_owned = {
 				limit = {
 					NOT = { has_province_modifier = external_colonisation_colonies }
-					state_scope = { is_colonial = yes }
-					THIS = { colonial_politics = external_colonisation }
+					is_overseas = yes
+					owner = { colonial_politics = external_colonisation }
 				}
 				add_province_modifier = {
 					name = external_colonisation_colonies
@@ -442,14 +442,14 @@ country_event = {
 			any_owned = {
 				limit = {
 					has_province_modifier = external_colonisation_towns
-					THIS = { NOT = { colonial_politics = external_colonisation } }
+					owner = { NOT = { colonial_politics = external_colonisation } }
 				}
 				remove_province_modifier = external_colonisation_towns
 			}
 			any_owned = {
 				limit = {
 					has_province_modifier = external_colonisation_colonies
-					THIS = { NOT = { colonial_politics = external_colonisation } }
+					owner = { NOT = { colonial_politics = external_colonisation } }
 				}
 				remove_province_modifier = external_colonisation_colonies
 			}
@@ -460,7 +460,7 @@ country_event = {
 				limit = {
 					NOT = { has_province_modifier = internal_colonisation }
 					NOT = { has_building = town_infrastructure }
-					THIS = { colonial_politics = inner_colonisation }
+					owner = { colonial_politics = inner_colonisation }
 				}
 				add_province_modifier = {
 					name = internal_colonisation
@@ -472,7 +472,7 @@ country_event = {
 			any_owned = {
 				limit = {
 					has_province_modifier = internal_colonisation
-					THIS = { NOT = { colonial_politics = inner_colonisation } }
+					owner = { NOT = { colonial_politics = inner_colonisation } }
 				}
 				remove_province_modifier = internal_colonisation
 			}
@@ -483,7 +483,7 @@ country_event = {
 				limit = {
 					NOT = { has_province_modifier = non_colonial_towns }
 					has_building = town_infrastructure
-					THIS = { colonial_politics = non_colonial }
+					owner = { colonial_politics = non_colonial }
 				}
 				add_province_modifier = {
 					name = non_colonial_towns
@@ -493,7 +493,7 @@ country_event = {
 			any_owned = {
 				limit = {
 					NOT = { has_province_modifier = non_colonial_penalty }
-					THIS = { colonial_politics = non_colonial }
+					owner = { colonial_politics = non_colonial }
 					state_scope = { is_colonial = yes }
 				}
 				add_province_modifier = {
@@ -506,14 +506,14 @@ country_event = {
 			any_owned = {
 				limit = {
 					has_province_modifier = non_colonial_towns
-					THIS = { NOT = { colonial_politics = non_colonial } }
+					owner = { NOT = { colonial_politics = non_colonial } }
 				}
 				remove_province_modifier = non_colonial_towns
 			}
 			any_owned = {
 				limit = {
 					has_province_modifier = non_colonial_penalty
-					THIS = { NOT = { colonial_politics = non_colonial } }
+					owner = { NOT = { colonial_politics = non_colonial } }
 				}
 				remove_province_modifier = non_colonial_penalty
 			}
@@ -523,7 +523,7 @@ country_event = {
 		any_country = {
 			limit = {
 				NOT = { has_country_modifier = poor_life_needs_satisfaction }
-				poor_life_need = 1.0
+				poor_life_need = 0.8
 			}
 			add_country_modifier = {
 				name = poor_life_needs_satisfaction
@@ -533,7 +533,7 @@ country_event = {
 		any_country = {
 			limit = {
 				has_country_modifier = poor_life_needs_satisfaction
-				NOT = { poor_life_need = 1.0 }
+				NOT = { poor_life_need = 0.8 }
 			}
 			remove_country_modifier = poor_life_needs_satisfaction
 		}
@@ -542,7 +542,7 @@ country_event = {
 		any_country = {
 			limit = {
 				NOT = { has_country_modifier = poor_everyday_needs_satisfaction }
-				poor_everyday_need = 0.5
+				poor_everyday_need = 0.35
 			}
 			add_country_modifier = {
 				name = poor_everyday_needs_satisfaction
@@ -552,7 +552,7 @@ country_event = {
 		any_country = {
 			limit = {
 				has_country_modifier = poor_everyday_needs_satisfaction
-				NOT = { poor_everyday_need = 0.5 }
+				NOT = { poor_everyday_need = 0.35 }
 			}
 			remove_country_modifier = poor_everyday_needs_satisfaction
 		}
@@ -561,7 +561,7 @@ country_event = {
 		any_country = {
 			limit = {
 				NOT = { has_country_modifier = poor_luxury_needs_satisfaction }
-				poor_luxury_need = 0.25
+				poor_luxury_need = 0.15
 			}
 			add_country_modifier = {
 				name = poor_luxury_needs_satisfaction
@@ -571,7 +571,7 @@ country_event = {
 		any_country = {
 			limit = {
 				has_country_modifier = poor_luxury_needs_satisfaction
-				NOT = { poor_luxury_need = 0.25 }
+				NOT = { poor_luxury_need = 0.15 }
 			}
 			remove_country_modifier = poor_luxury_needs_satisfaction
 		}
