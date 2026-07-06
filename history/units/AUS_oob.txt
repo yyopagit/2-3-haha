@@ -220,3 +220,53 @@ navy = {
 
 }
 
+army = {
+	name = "2-я резервная армия"
+	location = 619
+
+	regiment = {
+		name = "2-й драгунский полк"
+		type = dragoon
+		home = 619
+	}
+	regiment = {
+		name = "2-й пехотный полк 1"
+		type = infantry
+		home = 619
+	}
+	regiment = {
+		name = "2-й пехотный полк 2"
+		type = infantry
+		home = 619
+	}
+	regiment = {
+		name = "2-й пехотный полк 3"
+		type = infantry
+		home = 619
+	}
+	regiment = {
+		name = "2-й пехотный полк 4"
+		type = infantry
+		home = 619
+	}
+	regiment = {
+		name = "2-й артиллерийский полк 1"
+		type = artillery
+		home = 619
+	}
+	regiment = {
+		name = "2-й артиллерийский полк 2"
+		type = artillery
+		home = 619
+	}
+	regiment = {
+		name = "2-й артиллерийский полк 3"
+		type = artillery
+		home = 619
+	}
+	regiment = {
+		name = "2-й артиллерийский полк 4"
+		type = artillery
+		home = 619
+	}
+}

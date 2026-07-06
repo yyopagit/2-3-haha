@@ -689,7 +689,7 @@
 	soldiers = {
 		culture = spanish
 		religion = orthodox
-		size = 200
+		size = 340
 	}
 
 	clergymen = {
@@ -707,7 +707,7 @@
 	soldiers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 150
+		size = 255
 	}
 
 	farmers = {
@@ -731,7 +731,7 @@
 	soldiers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 125
+		size = 212
 	}
 
 	farmers = {

@@ -1481,3 +1481,53 @@ navy = {
 
 }
 
+army = {
+	name = "7-я резервная армия"
+	location = 300
+
+	regiment = {
+		name = "7-й драгунский полк"
+		type = dragoon
+		home = 300
+	}
+	regiment = {
+		name = "7-й пехотный полк 1"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name = "7-й пехотный полк 2"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name = "7-й пехотный полк 3"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name = "7-й пехотный полк 4"
+		type = infantry
+		home = 300
+	}
+	regiment = {
+		name = "7-й артиллерийский полк 1"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name = "7-й артиллерийский полк 2"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name = "7-й артиллерийский полк 3"
+		type = artillery
+		home = 300
+	}
+	regiment = {
+		name = "7-й артиллерийский полк 4"
+		type = artillery
+		home = 300
+	}
+}

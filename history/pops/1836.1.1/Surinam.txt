@@ -23,7 +23,7 @@
 	soldiers = {
 		culture = dutch
 		religion = orthodox
-		size = 75
+		size = 128
 	}
 
 	clergymen = {
@@ -47,7 +47,7 @@
 	soldiers = {
 		culture = caribeno
 		religion = orthodox
-		size = 250
+		size = 425
 	}
 
 	slaves = {
@@ -79,7 +79,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = orthodox
-		size = 250
+		size = 425
 	}
 
 	farmers = {

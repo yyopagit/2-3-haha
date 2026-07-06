@@ -218,7 +218,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 5
+		size = 6
 	}
 
 	farmers = {
@@ -282,7 +282,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 5
+		size = 6
 	}
 
 	farmers = {
@@ -314,7 +314,7 @@
 	soldiers = {
 		culture = inuit
 		religion = orthodox
-		size = 10
+		size = 13
 	}
 
 	farmers = {
@@ -346,7 +346,7 @@
 	soldiers = {
 		culture = inuit
 		religion = orthodox
-		size = 5
+		size = 6
 	}
 
 	farmers = {
@@ -411,7 +411,7 @@
 	soldiers = {
 		culture = inuit
 		religion = orthodox
-		size = 10
+		size = 13
 	}
 
 	farmers = {
@@ -479,7 +479,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 25
+		size = 32
 	}
 
 	farmers = {
@@ -639,7 +639,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 25
+		size = 32
 	}
 
 	farmers = {
@@ -671,7 +671,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 25
+		size = 32
 	}
 
 	farmers = {
@@ -703,7 +703,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 25
+		size = 32
 	}
 
 	farmers = {
@@ -736,7 +736,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 5
+		size = 8
 	}
 
 	farmers = {
@@ -764,7 +764,7 @@
 	soldiers = {
 		culture = metis
 		religion = orthodox
-		size = 15
+		size = 20
 	}
 
 	farmers = {
@@ -794,7 +794,7 @@
 	soldiers = {
 		culture = cree
 		religion = orthodox
-		size = 15
+		size = 20
 	}
 
 	farmers = {
@@ -824,7 +824,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 25
+		size = 32
 	}
 
 	farmers = {
@@ -856,7 +856,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 15
+		size = 20
 	}
 
 	farmers = {
@@ -920,7 +920,7 @@
 	soldiers = {
 		culture = cree
 		religion = orthodox
-		size = 15
+		size = 26
 	}
 
 	farmers = {
@@ -1002,7 +1002,7 @@
 	soldiers = {
 		culture = metis
 		religion = orthodox
-		size = 15
+		size = 26
 	}
 
 	farmers = {
@@ -1032,7 +1032,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 15
+		size = 26
 	}
 
 	farmers = {
@@ -1153,7 +1153,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 10
+		size = 13
 	}
 
 	farmers = {
@@ -1187,7 +1187,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 25
+		size = 32
 	}
 
 	farmers = {
@@ -1211,7 +1211,7 @@
 	soldiers = {
 		culture = metis
 		religion = orthodox
-		size = 15
+		size = 20
 	}
 
 	farmers = {
@@ -1243,7 +1243,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 15
+		size = 26
 	}
 
 	farmers = {
@@ -1590,7 +1590,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 15
+		size = 26
 	}
 
 	farmers = {
@@ -1622,7 +1622,7 @@
 	soldiers = {
 		culture = cree
 		religion = orthodox
-		size = 15
+		size = 26
 	}
 
 	farmers = {
@@ -1646,7 +1646,7 @@
 	soldiers = {
 		culture = metis
 		religion = orthodox
-		size = 15
+		size = 26
 	}
 
 	farmers = {
@@ -1849,7 +1849,7 @@
 	soldiers = {
 		culture = cree
 		religion = orthodox
-		size = 10
+		size = 13
 	}
 
 	farmers = {
@@ -1881,7 +1881,7 @@
 	soldiers = {
 		culture = cree
 		religion = orthodox
-		size = 20
+		size = 26
 	}
 
 	farmers = {
@@ -1913,7 +1913,7 @@
 	soldiers = {
 		culture = cree
 		religion = orthodox
-		size = 25
+		size = 32
 	}
 
 	farmers = {
@@ -1937,7 +1937,7 @@
 	soldiers = {
 		culture = metis
 		religion = orthodox
-		size = 15
+		size = 20
 	}
 
 	farmers = {
@@ -1969,7 +1969,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 25
+		size = 32
 	}
 
 	farmers = {
@@ -2161,7 +2161,7 @@
 	soldiers = {
 		culture = cree
 		religion = orthodox
-		size = 15
+		size = 26
 	}
 
 	farmers = {
@@ -2221,7 +2221,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = orthodox
-		size = 100
+		size = 130
 	}
 
 	labourers = {
@@ -2247,7 +2247,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = orthodox
-		size = 200
+		size = 260
 	}
 
 	farmers = {
@@ -2273,7 +2273,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = orthodox
-		size = 175
+		size = 228
 	}
 
 	farmers = {
@@ -2297,7 +2297,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = orthodox
-		size = 25
+		size = 32
 	}
 
 	farmers = {
@@ -2382,7 +2382,7 @@
 	soldiers = {
 		culture = cree
 		religion = orthodox
-		size = 10
+		size = 13
 	}
 
 	farmers = {
@@ -2634,7 +2634,7 @@
 	soldiers = {
 		culture = cree
 		religion = orthodox
-		size = 5
+		size = 6
 	}
 
 	farmers = {
@@ -2729,7 +2729,7 @@
 	soldiers = {
 		culture = cree
 		religion = orthodox
-		size = 10
+		size = 13
 	}
 
 	farmers = {
@@ -2753,7 +2753,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = orthodox
-		size = 25
+		size = 32
 	}
 
 	farmers = {
@@ -2785,7 +2785,7 @@
 	soldiers = {
 		culture = cree
 		religion = orthodox
-		size = 15
+		size = 20
 	}
 
 	farmers = {
@@ -2809,7 +2809,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = orthodox
-		size = 10
+		size = 13
 	}
 
 	farmers = {
@@ -2891,7 +2891,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = orthodox
-		size = 150
+		size = 255
 	}
 
 	labourers = {
@@ -2917,7 +2917,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = orthodox
-		size = 500
+		size = 850
 	}
 
 	farmers = {
@@ -2943,7 +2943,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = orthodox
-		size = 100
+		size = 130
 	}
 
 	farmers = {
@@ -2967,7 +2967,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = orthodox
-		size = 150
+		size = 195
 	}
 
 	farmers = {
@@ -2993,7 +2993,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = orthodox
-		size = 150
+		size = 195
 	}
 
 	labourers = {
@@ -3078,7 +3078,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = orthodox
-		size = 150
+		size = 195
 	}
 
 	labourers = {
@@ -3102,7 +3102,7 @@
 	soldiers = {
 		culture = french_canadian
 		religion = orthodox
-		size = 25
+		size = 32
 	}
 
 	farmers = {
@@ -3131,7 +3131,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = orthodox
-		size = 100
+		size = 130
 	}
 
 	farmers = {
@@ -3165,7 +3165,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = orthodox
-		size = 200
+		size = 340
 	}
 
 	farmers = {
@@ -3235,7 +3235,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = orthodox
-		size = 50
+		size = 65
 	}
 
 	farmers = {
@@ -3270,7 +3270,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = orthodox
-		size = 50
+		size = 85
 	}
 
 	farmers = {
@@ -3314,7 +3314,7 @@
 	soldiers = {
 		culture = anglo_canadian
 		religion = orthodox
-		size = 50
+		size = 85
 	}
 
 	farmers = {
@@ -3364,7 +3364,7 @@
 	soldiers = {
 		culture = inuit
 		religion = orthodox
-		size = 5
+		size = 6
 	}
 
 	farmers = {

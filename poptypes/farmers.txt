@@ -804,17 +804,17 @@ promote_to =
 				}
 			}
 		}
-		modifier = {
-			factor = 5
-			AND = {
-				state_scope = {
-					any_owned_province = {
-						has_building = town_infrastructure
-					}
-				}
-				colonial_politics = non_colonial
-			}
-		}
+#		modifier = {
+#			factor = 5
+#			AND = {
+#				state_scope = {
+#					any_owned_province = {
+#						has_building = town_infrastructure
+#					}
+#				}
+#				colonial_politics = non_colonial
+#			}
+#		}
 		group = {
 			modifier = {
 				factor = 1.5

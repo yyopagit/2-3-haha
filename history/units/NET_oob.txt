@@ -362,3 +362,54 @@ navy = {
 		type = clipper_transport
 	}
 }
+
+army = {
+	name = "4-я резервная армия"
+	location = 375
+
+	regiment = {
+		name = "4-й драгунский полк"
+		type = dragoon
+		home = 375
+	}
+	regiment = {
+		name = "4-й пехотный полк 1"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name = "4-й пехотный полк 2"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name = "4-й пехотный полк 3"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name = "4-й пехотный полк 4"
+		type = infantry
+		home = 375
+	}
+	regiment = {
+		name = "4-й артиллерийский полк 1"
+		type = artillery
+		home = 375
+	}
+	regiment = {
+		name = "4-й артиллерийский полк 2"
+		type = artillery
+		home = 375
+	}
+	regiment = {
+		name = "4-й артиллерийский полк 3"
+		type = artillery
+		home = 375
+	}
+	regiment = {
+		name = "4-й артиллерийский полк 4"
+		type = artillery
+		home = 375
+	}
+}

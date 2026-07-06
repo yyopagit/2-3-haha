@@ -85,7 +85,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = orthodox
-		size = 150
+		size = 255
 	}
 
 	farmers = {
@@ -117,7 +117,7 @@
 	soldiers = {
 		culture = british
 		religion = orthodox
-		size = 250
+		size = 325
 	}
 
 	farmers = {
@@ -141,7 +141,7 @@
 	soldiers = {
 		culture = caribeno
 		religion = orthodox
-		size = 750
+		size = 975
 	}
 
 	farmers = {
@@ -173,7 +173,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = orthodox
-		size = 150
+		size = 255
 	}
 
 	farmers = {

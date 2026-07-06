@@ -23,7 +23,7 @@
 	soldiers = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 32
 	}
 
 	aristocrats = {
@@ -53,7 +53,7 @@
 	soldiers = {
 		culture = french
 		religion = orthodox
-		size = 20
+		size = 26
 	}
 
 	farmers = {
@@ -77,7 +77,7 @@
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 250
+		size = 325
 	}
 
 	farmers = {
