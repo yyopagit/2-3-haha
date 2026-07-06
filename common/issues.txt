@@ -466,6 +466,7 @@ political_reforms = {
 			}
 		}
 		external_colonisation = {
+			administrative_efficiency_modifier = 0.075
 			allow = {
 				always = no
 			}

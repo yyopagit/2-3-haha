@@ -1,4 +1,4 @@
-"""Штраф фабрик в штате без города: −70% или −15% при inner_colonisation."""
+"""Штраф фабрик: −70% без города, −25% при urban в штате, 0% при town_infrastructure."""
 import re
 from pathlib import Path
 
@@ -48,7 +48,7 @@ FACTORIES = {
 }
 
 PENALTY_BLOCK = """
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 \tbonus = {
 \t\ttrigger = {
 \t\t\tAND = {
@@ -56,6 +56,13 @@ PENALTY_BLOCK = """
 \t\t\t\t\tstate_scope = {
 \t\t\t\t\t\tany_owned_province = {
 \t\t\t\t\t\t\thas_building = town_infrastructure
+\t\t\t\t\t\t}
+\t\t\t\t\t}
+\t\t\t\t}
+\t\t\t\tNOT = {
+\t\t\t\t\tstate_scope = {
+\t\t\t\t\t\tany_owned_province = {
+\t\t\t\t\t\t\tterrain = urban
 \t\t\t\t\t\t}
 \t\t\t\t\t}
 \t\t\t\t}
@@ -74,17 +81,62 @@ PENALTY_BLOCK = """
 \t\t\t\t\t\t}
 \t\t\t\t\t}
 \t\t\t\t}
+\t\t\t\tstate_scope = {
+\t\t\t\t\tany_owned_province = {
+\t\t\t\t\t\tterrain = urban
+\t\t\t\t\t}
+\t\t\t\t}
+\t\t\t\tNOT = { colonial_politics = inner_colonisation }
+\t\t\t\tNOT = { colonial_politics = non_colonial }
+\t\t\t}
+\t\t}
+\t\tvalue = -0.25
+\t}
+\tbonus = {
+\t\ttrigger = {
+\t\t\tAND = {
+\t\t\t\tNOT = {
+\t\t\t\t\tstate_scope = {
+\t\t\t\t\t\tany_owned_province = {
+\t\t\t\t\t\t\thas_building = town_infrastructure
+\t\t\t\t\t\t}
+\t\t\t\t\t}
+\t\t\t\t}
+\t\t\t\tstate_scope = {
+\t\t\t\t\tany_owned_province = {
+\t\t\t\t\t\tterrain = urban
+\t\t\t\t\t}
+\t\t\t\t}
 \t\t\t\tcolonial_politics = inner_colonisation
 \t\t\t}
 \t\t}
-\t\tvalue = -0.15
+\t\tvalue = -0.10
+\t}
+\tbonus = {
+\t\ttrigger = {
+\t\t\tAND = {
+\t\t\t\tNOT = {
+\t\t\t\t\tstate_scope = {
+\t\t\t\t\t\tany_owned_province = {
+\t\t\t\t\t\t\thas_building = town_infrastructure
+\t\t\t\t\t\t}
+\t\t\t\t\t}
+\t\t\t\t}
+\t\t\t\tNOT = {
+\t\t\t\t\tstate_scope = {
+\t\t\t\t\t\tany_owned_province = {
+\t\t\t\t\t\t\tterrain = urban
+\t\t\t\t\t\t}
+\t\t\t\t\t}
+\t\t\t\t}
+\t\t\t\tcolonial_politics = inner_colonisation
+\t\t\t}
+\t\t}
+\t\tvalue = -0.20
 \t}"""
 
 MARKER = "# town_penalty_bonus"
-OLD = re.compile(
-    MARKER + r".*?\n\tbonus = \{.*?\n\t\}\n\tbonus = \{.*?\n\t\}\n",
-    re.DOTALL,
-)
+OLD = re.compile(MARKER + r"(?:\n\tbonus = \{.*?\n\t\})+", re.DOTALL)
 
 
 def patch() -> None:

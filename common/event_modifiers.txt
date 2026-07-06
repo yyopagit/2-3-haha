@@ -1683,6 +1683,7 @@ external_colonisation_towns = {
 
 external_colonisation_colonies = {
 	local_RGO_output = 0.35
+	life_rating = -0.05
 }
 
 internal_colonisation = {
@@ -1691,6 +1692,13 @@ internal_colonisation = {
 
 non_colonial_towns = {
 	local_factory_output = 0.2
+	local_factory_input = -0.04
+	local_RGO_output = -0.15
+}
+
+non_colonial_urban = {
+	local_factory_input = -0.01
+	local_RGO_output = -0.2
 }
 
 non_colonial_penalty = {

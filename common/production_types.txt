@@ -194,7 +194,7 @@ aeroplane_factory = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.25
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -202,6 +202,13 @@ aeroplane_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -220,12 +227,59 @@ aeroplane_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
 	}
-	
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
+	}
 
 }
 
@@ -252,7 +306,7 @@ barrel_factory = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.05
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -260,6 +314,13 @@ barrel_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -278,10 +339,58 @@ barrel_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -309,7 +418,7 @@ automobile_factory = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.05
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -317,6 +426,13 @@ automobile_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -335,10 +451,58 @@ automobile_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -359,7 +523,7 @@ radio_factory = {
 		trigger = { has_building = glass_factory }
 		value = 0.1
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -367,6 +531,13 @@ radio_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -385,10 +556,58 @@ radio_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -409,7 +628,7 @@ telephone_factory = {
 		trigger = { has_building = glass_factory }
 		value = 0.1
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -417,6 +636,13 @@ telephone_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -435,10 +661,58 @@ telephone_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -471,7 +745,7 @@ electric_gear_factory = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -479,6 +753,13 @@ electric_gear_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -497,10 +778,58 @@ electric_gear_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -521,7 +850,7 @@ machine_parts_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.125
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -529,6 +858,13 @@ machine_parts_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -547,10 +883,58 @@ machine_parts_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -566,7 +950,7 @@ synthetic_oil_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -574,6 +958,13 @@ synthetic_oil_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -592,10 +983,58 @@ synthetic_oil_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -616,7 +1055,7 @@ synthetic_rubber_factory = {
 			}
 		value = 0.25
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -624,6 +1063,13 @@ synthetic_rubber_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -642,10 +1088,58 @@ synthetic_rubber_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -661,7 +1155,7 @@ synthetic_sulphur_factory = {
 		trigger = { trade_goods_in_state = cotton }
 		value = 0.25
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -669,6 +1163,13 @@ synthetic_sulphur_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -687,10 +1188,58 @@ synthetic_sulphur_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -713,7 +1262,7 @@ fuel_refinery = {
 			}
 		value = 0.25
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -721,6 +1270,13 @@ fuel_refinery = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -739,10 +1295,58 @@ fuel_refinery = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -764,7 +1368,7 @@ steamer_shipyard = {
 		trigger = { has_building = clipper_shipyard }
 		value = 0.125
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -772,6 +1376,13 @@ steamer_shipyard = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -790,10 +1401,58 @@ steamer_shipyard = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -816,7 +1475,7 @@ luxury_clothes_factory = {
 		trigger = { trade_goods_in_state = silk }
 		value = 0.05
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -824,6 +1483,13 @@ luxury_clothes_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -842,10 +1508,58 @@ luxury_clothes_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -866,7 +1580,7 @@ luxury_furniture_factory = {
 		trigger = { trade_goods_in_state = tropical_wood }
 		value = 0.05
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -874,6 +1588,13 @@ luxury_furniture_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -892,10 +1613,58 @@ luxury_furniture_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -919,7 +1688,7 @@ steel_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.2
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -927,6 +1696,13 @@ steel_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -945,10 +1721,58 @@ steel_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -990,7 +1814,7 @@ artillery_factory = {
 		trigger = { has_building = machine_parts_factory }
 		value = 0.1
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -998,6 +1822,13 @@ artillery_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1016,10 +1847,58 @@ artillery_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1051,7 +1930,7 @@ clipper_shipyard = {
 		trigger = { has_building = lumber_mill }
 		value = 0.1
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1059,6 +1938,13 @@ clipper_shipyard = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1077,10 +1963,58 @@ clipper_shipyard = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1107,7 +2041,7 @@ small_arms_factory = {
 		trigger = { has_building = lumber_mill }
 		value = 0.1
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1115,6 +2049,13 @@ small_arms_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1133,10 +2074,58 @@ small_arms_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1185,7 +2174,7 @@ regular_clothes_factory = {
 		trigger = { has_building = fabric_factory }
 		value = 0.25
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1193,6 +2182,13 @@ regular_clothes_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1211,10 +2207,58 @@ regular_clothes_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1235,7 +2279,7 @@ explosives_factory = {
 		trigger = { has_building = ammunition_factory }
 		value = 0.1
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1243,6 +2287,13 @@ explosives_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1261,10 +2312,58 @@ explosives_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1292,7 +2391,7 @@ ammunition_factory = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.1
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1300,6 +2399,13 @@ ammunition_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1318,10 +2424,58 @@ ammunition_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1374,7 +2528,7 @@ canned_food_factory = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1382,6 +2536,13 @@ canned_food_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1400,10 +2561,58 @@ canned_food_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1426,7 +2635,7 @@ canned_food_factory_fish = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1434,6 +2643,13 @@ canned_food_factory_fish = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1452,10 +2668,58 @@ canned_food_factory_fish = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1477,7 +2741,7 @@ canned_food_factory_cattle = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1485,6 +2749,13 @@ canned_food_factory_cattle = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1503,10 +2774,58 @@ canned_food_factory_cattle = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1528,7 +2847,7 @@ canned_food_factory_fruit = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1536,6 +2855,13 @@ canned_food_factory_fruit = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1554,10 +2880,58 @@ canned_food_factory_fruit = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1578,7 +2952,7 @@ dye_factory = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.25
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1586,6 +2960,13 @@ dye_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1604,10 +2985,58 @@ dye_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1629,7 +3058,7 @@ liquor_distillery = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.1
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1637,6 +3066,13 @@ liquor_distillery = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1655,10 +3091,58 @@ liquor_distillery = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1679,7 +3163,7 @@ winery = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.1
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1687,6 +3171,13 @@ winery = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1705,10 +3196,58 @@ winery = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1819,7 +3358,7 @@ cement_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1827,6 +3366,13 @@ cement_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1845,10 +3391,58 @@ cement_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }
@@ -1882,7 +3476,7 @@ fertilizer_factory = {
 			}
 		value = 0.25
 	}
-# town_penalty_bonus — в штате нет города (town_infrastructure)
+# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
 	bonus = {
 		trigger = {
 			AND = {
@@ -1890,6 +3484,13 @@ fertilizer_factory = {
 					state_scope = {
 						any_owned_province = {
 							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
 						}
 					}
 				}
@@ -1908,10 +3509,58 @@ fertilizer_factory = {
 						}
 					}
 				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
+			}
+		}
+		value = -0.25
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				state_scope = {
+					any_owned_province = {
+						terrain = urban
+					}
+				}
 				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.15
+		value = -0.10
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					state_scope = {
+						any_owned_province = {
+							terrain = urban
+						}
+					}
+				}
+				colonial_politics = inner_colonisation
+			}
+		}
+		value = -0.20
 	}
 
 }

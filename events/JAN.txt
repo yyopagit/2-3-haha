@@ -501,6 +501,18 @@ country_event = {
 					duration = -1
 				}
 			}
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = non_colonial_urban }
+					NOT = { has_building = town_infrastructure }
+					terrain = urban
+					owner = { colonial_politics = non_colonial }
+				}
+				add_province_modifier = {
+					name = non_colonial_urban
+					duration = -1
+				}
+			}
 		}
 		any_country = {
 			any_owned = {
@@ -516,6 +528,17 @@ country_event = {
 					owner = { NOT = { colonial_politics = non_colonial } }
 				}
 				remove_province_modifier = non_colonial_penalty
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = non_colonial_urban
+					OR = {
+						owner = { NOT = { colonial_politics = non_colonial } }
+						has_building = town_infrastructure
+						NOT = { terrain = urban }
+					}
+				}
+				remove_province_modifier = non_colonial_urban
 			}
 		}
 		#######Проверка заполненности стаканов для увеличения расходов на социалку

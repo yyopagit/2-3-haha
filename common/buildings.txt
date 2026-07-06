@@ -818,7 +818,7 @@ town_infrastructure = {
 	time = 230 
 	visibility = yes
 	onmap = no
-	max_level = 2
+	max_level = 1
 	province = yes
 	one_per_state = yes
 }
