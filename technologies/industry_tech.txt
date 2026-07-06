@@ -1041,7 +1041,6 @@ inorganic_chemistry = {
 	cost = 10800
 
 	supply_limit = 0.25
-	max_hospital = 1
 	
 	ai_chance = {
 		factor = 1.1
@@ -1115,7 +1114,6 @@ electricity = {
 	cost = 19800
 	
 	supply_limit = 0.50
-	max_hospital = 1
 	
 	ai_chance = {
 		factor = 2
@@ -1153,7 +1151,6 @@ synthetic_polymers = {
 	cost = 25200
 
 	supply_limit = 0.50
-	max_hospital = 1
 	
 	ai_chance = {
 		factor = 1.1
