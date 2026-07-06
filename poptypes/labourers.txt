@@ -438,27 +438,6 @@ promote_to =
 #			}
 		}
 		
-		modifier = {
-			factor = 16
-			health_care = all_voting_pops 
-		}	
-		modifier = {
-			factor = 12
-			school_reforms = good_schools 
-		}	
-		modifier = {
-			factor = 16
-			safety_regulations = good_safety
-		}
-		modifier = {
-			factor = 16
-			work_hours = eight_hours
-		}
-		modifier = {
-			factor = 16
-			wage_reform = good_minimum_wage
-		}
-		
 		group = {
 			modifier = {
 				factor = 2

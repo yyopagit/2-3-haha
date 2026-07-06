@@ -147,7 +147,7 @@ country_event = {
     title = "EVTNAME900100"
     desc = "EVTDESC900100"
     picture = "default"
-    
+	
     trigger = {
         tag = JAP
         NOT = { has_global_flag = philippines_taken }
