@@ -21,7 +21,7 @@ leader = {
 	date = 1836.1.1
 	type = land
 	personality = soldierly
-	background = school_of_defense
+	background = school_of_firepower
 	prestige = 0.0
 }
 
@@ -107,308 +107,328 @@ leader = {
 }
 
 army = {
-	name = "1-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+	name = "1-я дивизия"
 	location = 375 
-
-
-
-
-
-
 	regiment = {
-		name= "1-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "1-я кавалерийская бригада"
 		type = cuirassier
 		home = 375
 	}
+
 	regiment = {
-		name= "2-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "2-я кавалерийская бригада"
 		type = cuirassier
 		home = 383
 	}
+
 	regiment = {
-		name= "3-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "3-я кавалерийская бригада"
 		type = cuirassier
 		home = 380
 	}
+
 	regiment = {
-		name = "1-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name = "1-я пехотная бригада"
 		type = infantry
 		home = 376
 	}
+
 	regiment = {
-		name = "2-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name = "2-я пехотная бригада"
 		type = infantry
 		home = 381
 	}
+
 	regiment = {
-		name = "3-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name = "3-я пехотная бригада"
 		type = infantry
 		home = 377
 	}
+
 }
 
 army = {
-	name = "2-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+	name = "2-я дивизия"
 	location = 381
-
-
-
 	regiment = {
-		name = "4-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name = "4-я пехотная бригада"
 		type = infantry
 		home = 378
 	}
+
 	regiment = {
-		name = "6-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name = "5-я пехотная бригада"
+		type = infantry
+		home = 379
+	}
+
+	regiment = {
+		name = "6-я пехотная бригада"
 		type = infantry
 		home = 386
 	}
+
 }
 
 army = {
-	name = "3-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+	name = "3-я дивизия"
 	location = 375
-
-
-
 	regiment = {
-		name = "7-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name = "7-я пехотная бригада"
 		type = infantry
 		home = 383
 	}
+
 	regiment = {
-		name = "8-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name = "8-я пехотная бригада"
 		type = infantry
 		home = 384
 	}
+
 	regiment = {
-		name = "9-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name = "9-я пехотная бригада"
 		type = infantry
 		home = 385
 	}
+
 }
 
+army = {
+	name = "Ост-Индская армия"
+	location = 1413
+	regiment = {
+		name = "1-я индийская бригада"
+		type = infantry
+		home = 1413
+	}
+
+	regiment = {
+		name = "2-я индийская бригада"
+		type = irregular
+		home = 1421
+	}
+}
 
 navy = {
-	name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+	name = "Королевский флот"
 	location = 375 #Amsterdam
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "Доггерсбанк"
 		type = manowar
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "Амстердам"
 		type = manowar
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "Мария Регенсберген"
 		type = frigate
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "Паллада"
 		type = frigate
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "Прозерпина"
 		type = frigate
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅ"
+		name= "Дафна"
 		type = frigate
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "Эпиона"
 		type = frigate
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "Зеепард"
 		type = frigate
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅ"
+		name= "Ирена"
 		type = frigate
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅ"
+		name= "Орфей"
 		type = frigate
 	}
 
 
 	ship = {
-		name= "1-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "1-я транспортная флотилия"
 		type = clipper_transport
 	}
 }
 
 navy = {
-	name = "пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+	name = "Ост-Индская эскадра"
 	location = 1413 #Batavia
 	ship = {
-		name= "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "Де Рюйтер"
 		type = manowar
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "Вервахтинг"
 		type = manowar
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "Аврора"
 		type = frigate
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅ"
+		name= "Ирида"
 		type = frigate
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "Феникс"
 		type = frigate
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "Эндрахт"
 		type = frigate
 	}
 
 	ship = {
-		name= "2-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "2-я транспортная флотилия"
 		type = clipper_transport
 	}
 }
 
 navy = {
-	name = "пїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+	name = "Вест-Индская эскадра"
 	location = 2234 #Curacao
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "Адмирал-генерал"
 		type = manowar
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅпїЅ"
+		name= "Диана"
 		type = frigate
 	}
 
 	ship = {
-		name= "пїЅпїЅпїЅпїЅ"
+		name= "Хооп"
 		type = frigate
 	}
 
 	ship = {
-		name= "3-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "3-я транспортная флотилия"
 		type = clipper_transport
 	}
 
 }
 
 navy = {
-    name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ"
+    name = "Королевский транспортный Флот"
 	location = 375 #Amsterdam
 	ship = {
-		name= "1-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "1-ый транспортный клипер"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "2-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "2-ый транспортный клипер"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "3-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "3-ый транспортный клипер"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "4-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "4-ый транспортный клипер"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "5-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "5-ый транспортный клипер"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "6-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "6-ый транспортный клипер"
 		type = clipper_transport
 	}
 	
 	ship = {
-		name= "7-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "7-ый транспортный клипер"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "8-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "8-ый транспортный клипер"
 		type = clipper_transport
 	}
 
 	ship = {
-		name= "9-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ"
+		name= "9-ый транспортный клипер"
 		type = clipper_transport
 	}
 }
 
 army = {
-	name = "4-я резервная армия"
+	name = "5-я резервная армия"
 	location = 375
 
 	regiment = {
-		name = "4-й драгунский полк"
+		name = "5-й драгунский полк"
 		type = dragoon
 		home = 375
 	}
 	regiment = {
-		name = "4-й пехотный полк 1"
+		name = "5-й пехотный полк 1"
 		type = infantry
 		home = 375
 	}
 	regiment = {
-		name = "4-й пехотный полк 2"
+		name = "5-й пехотный полк 2"
 		type = infantry
 		home = 375
 	}
 	regiment = {
-		name = "4-й пехотный полк 3"
+		name = "5-й пехотный полк 3"
 		type = infantry
 		home = 375
 	}
 	regiment = {
-		name = "4-й пехотный полк 4"
+		name = "5-й пехотный полк 4"
 		type = infantry
 		home = 375
 	}
 	regiment = {
-		name = "4-й артиллерийский полк 1"
+		name = "5-й артиллерийский полк 1"
 		type = artillery
 		home = 375
 	}
 	regiment = {
-		name = "4-й артиллерийский полк 2"
+		name = "5-й артиллерийский полк 2"
 		type = artillery
 		home = 375
 	}
 	regiment = {
-		name = "4-й артиллерийский полк 3"
+		name = "5-й артиллерийский полк 3"
 		type = artillery
 		home = 375
 	}
 	regiment = {
-		name = "4-й артиллерийский полк 4"
+		name = "5-й артиллерийский полк 4"
 		type = artillery
 		home = 375
 	}

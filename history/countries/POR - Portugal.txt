@@ -13,7 +13,7 @@ prestige = 10
 set_country_flag = human_yes
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = state_equal_weight
 vote_franschise = wealth_voting
 public_meetings = yes_meeting
@@ -68,7 +68,6 @@ water_wheel_power = 1
 publishing_industry = 1
 mechanized_mining = 1
 basic_chemistry = 1
-medicine = 1
 
 #Inventions
 #corvettes = yes

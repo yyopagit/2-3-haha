@@ -35,7 +35,7 @@
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 100 
+		size = 150 
 	}
 
 	farmers = {
@@ -77,7 +77,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 125 
+		size = 188 
 	}
 
 	farmers = {
@@ -101,7 +101,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 200 
+		size = 300 
 	}
 
 	farmers = {
@@ -139,7 +139,7 @@
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 510 
+		size = 765 
 	}
 
 	farmers = {
@@ -169,7 +169,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 2125 
+		size = 3188 
 	}
 
 	farmers = {
@@ -199,7 +199,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 510 
+		size = 765 
 	}
 
 	farmers = {
@@ -223,7 +223,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 85 
+		size = 128 
 	}
 
 	farmers = {
@@ -247,7 +247,7 @@
 	soldiers = {
 		culture = czech
 		religion = orthodox
-		size = 255 
+		size = 382 
 	}
 
 	farmers = {
@@ -271,7 +271,7 @@
 	soldiers = {
 		culture = croat
 		religion = orthodox
-		size = 128 
+		size = 192 
 	}
 
 	farmers = {
@@ -317,7 +317,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 1100 
+		size = 1650 
 	}
 
 	farmers = {
@@ -341,7 +341,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 50 
+		size = 75 
 	}
 
 	farmers = {
@@ -383,7 +383,7 @@
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 250 
+		size = 375 
 	}
 
 	farmers = {
@@ -413,7 +413,7 @@
 	soldiers = {
 		culture = croat
 		religion = orthodox
-		size = 75 
+		size = 112 
 	}
 
 	farmers = {
@@ -465,7 +465,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 1430 
+		size = 2145 
 	}
 
 	farmers = {
@@ -495,7 +495,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 650 
+		size = 975 
 	}
 
 	farmers = {
@@ -519,7 +519,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 98 
+		size = 147 
 	}
 
 	farmers = {
@@ -561,7 +561,7 @@
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 358 
+		size = 537 
 	}
 
 	farmers = {
@@ -593,7 +593,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 1100 
+		size = 1650 
 	}
 
 	farmers = {
@@ -617,7 +617,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 50 
+		size = 75 
 	}
 
 	farmers = {
@@ -641,7 +641,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 25 
+		size = 38 
 	}
 
 	farmers = {
@@ -665,7 +665,7 @@
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 25 
+		size = 38 
 	}
 
 	farmers = {
@@ -689,7 +689,7 @@
 	soldiers = {
 		culture = czech
 		religion = orthodox
-		size = 300 
+		size = 450 
 	}
 
 	farmers = {
@@ -721,7 +721,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 1100 
+		size = 1650 
 	}
 
 	farmers = {
@@ -751,7 +751,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 175 
+		size = 262 
 	}
 
 	farmers = {
@@ -781,7 +781,7 @@
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 275 
+		size = 412 
 	}
 
 	farmers = {
@@ -813,7 +813,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 1430 
+		size = 2145 
 	}
 
 	farmers = {
@@ -843,7 +843,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 195 
+		size = 292 
 	}
 
 	farmers = {
@@ -867,7 +867,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 32 
+		size = 48 
 	}
 
 	farmers = {
@@ -891,7 +891,7 @@
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 98 
+		size = 147 
 	}
 
 	farmers = {
@@ -923,7 +923,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 195 
+		size = 292 
 	}
 
 	farmers = {
@@ -953,7 +953,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 130 
+		size = 195 
 	}
 
 	farmers = {
@@ -977,7 +977,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 32 
+		size = 48 
 	}
 
 	farmers = {
@@ -1001,7 +1001,7 @@
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 32 
+		size = 48 
 	}
 
 	farmers = {
@@ -1041,7 +1041,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 765 
+		size = 1148 
 	}
 
 	farmers = {
@@ -1065,7 +1065,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 468 
+		size = 702 
 	}
 
 	farmers = {
@@ -1089,7 +1089,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 42 
+		size = 63 
 	}
 
 	farmers = {
@@ -1113,7 +1113,7 @@
 	soldiers = {
 		culture = czech
 		religion = orthodox
-		size = 85 
+		size = 128 
 	}
 
 	farmers = {
@@ -1153,7 +1153,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 1100
+		size = 1650
 	}
 
 	farmers = {
@@ -1183,7 +1183,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 125 
+		size = 188 
 	}
 
 	farmers = {
@@ -1207,7 +1207,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 25 
+		size = 38 
 	}
 
 	farmers = {
@@ -1231,7 +1231,7 @@
 	soldiers = {
 		culture = czech
 		religion = orthodox
-		size = 25 
+		size = 38 
 	}
 
 	farmers = {
@@ -1269,7 +1269,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 1430 
+		size = 2145 
 	}
 
 	farmers = {
@@ -1299,7 +1299,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 1170 
+		size = 1755 
 	}
 
 	farmers = {
@@ -1323,7 +1323,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 32 
+		size = 48 
 	}
 
 	farmers = {
@@ -1347,7 +1347,7 @@
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 98 
+		size = 147 
 	}
 
 	farmers = {
@@ -1385,7 +1385,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 552 
+		size = 828 
 	}
 
 	farmers = {
@@ -1415,7 +1415,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 765 
+		size = 1148 
 	}
 
 	farmers = {
@@ -1439,7 +1439,7 @@
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 42 
+		size = 63 
 	}
 
 	farmers = {
@@ -1463,7 +1463,7 @@
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 42 
+		size = 63 
 	}
 
 	farmers = {

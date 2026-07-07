@@ -8,10 +8,12 @@ political_decisions = {
 				has_country_flag = voule_ton_ellinon
 			}
 		}
+	
 		allow = {
 			plurality = 3
 			prestige = 1
 		}
+		
 		effect = {
 			set_country_flag = voule_ton_ellinon
 			political_reform = wealth_weighted_voting
@@ -21,6 +23,7 @@ political_decisions = {
 			}
 		}
 	}
+	
 	megali_idea = {
 	picture = megali_idea
 		potential = {
@@ -29,6 +32,7 @@ political_decisions = {
 				has_country_flag = greece_has_got_a_brand_new_bag
 			}
 		}
+		
 		allow = {
 			invention = national_fraternity
 			owns = 832
@@ -48,6 +52,7 @@ political_decisions = {
 			owns = 843
 			owns = 846
 		}
+		
 		effect = {
 			prestige = 20
 			badboy = -5
@@ -63,6 +68,7 @@ political_decisions = {
 			set_country_flag = greece_has_got_a_brand_new_bag
 		}
 	}
+	
 	form_byzantine_empire = {
 	picture = form_byzantine_empire
 		potential = {
@@ -74,6 +80,7 @@ political_decisions = {
 			}
 			is_greater_power = yes			
 		}
+		
 		allow = {
 			owns = 825
 			owns = 828
@@ -116,11 +123,12 @@ political_decisions = {
 			owns = 874
 			owns = 875			
 		}
+		
 		effect = {
 			change_tag = BYZ
 			capital = 860
 			860 = {
-				change_province_name = "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
+				change_province_name = "Константинополь"
 			}
 			any_owned = {
 				limit = {
@@ -137,4 +145,3 @@ political_decisions = {
 		}
 	}
 }
-

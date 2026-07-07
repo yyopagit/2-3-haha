@@ -23,7 +23,7 @@
 	soldiers = {
 		culture = dutch
 		religion = orthodox
-		size = 75
+		size = 225
 	}
 
 	clergymen = {
@@ -47,7 +47,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 250
+		size = 750
 	}
 
 	slaves = {
@@ -79,7 +79,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 250
+		size = 750
 	}
 
 	farmers = {

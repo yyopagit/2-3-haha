@@ -29,7 +29,7 @@
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 50 
+		size = 75 
 	}
 
 	farmers = {
@@ -53,7 +53,7 @@
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 450 
+		size = 675 
 	}
 
 	farmers = {
@@ -99,7 +99,7 @@
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 1100
+		size = 1650
 	}
 
 	farmers = {
@@ -131,7 +131,7 @@
 	soldiers = {
 		culture = south_italian
 		religion = orthodox
-		size = 425
+		size = 638
 	}
 
 	farmers = {

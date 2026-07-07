@@ -23,7 +23,7 @@
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 100
+		size = 150
 	}
 
 	aristocrats = {
@@ -47,7 +47,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 250
+		size = 375
 	}
 
 	farmers = {
@@ -79,7 +79,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 150
+		size = 225
 	}
 
 	farmers = {
@@ -111,7 +111,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 100
+		size = 150
 	}
 
 	farmers = {
@@ -143,7 +143,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 50
+		size = 75
 	}
 
 	farmers = {
@@ -175,7 +175,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 50
+		size = 75
 	}
 
 	farmers = {
@@ -205,7 +205,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 50
+		size = 75
 	}
 
 	farmers = {
@@ -237,7 +237,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 5
+		size = 8
 	}
 
 	farmers = {
@@ -269,7 +269,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 5
+		size = 8
 	}
 
 	farmers = {
@@ -301,7 +301,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 5
+		size = 8
 	}
 
 	farmers = {
@@ -331,7 +331,7 @@
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 5
+		size = 8
 	}
 
 	farmers = {
@@ -8050,11 +8050,6 @@
 		size = 1425
 	}
 
-	slaves = {
-		culture = afro_american
-		religion = orthodox
-		size = 8000
-	}
 }
 #Huntington (100000/25000 POPS)
 218 = {
@@ -8136,11 +8131,6 @@
 		size = 2425
 	}
 
-	slaves = {
-		culture = afro_american
-		religion = orthodox
-		size = 7000
-	}
 }
 #Maryland Region (452000)
 #ruled by the USA
@@ -8212,11 +8202,6 @@
 		size = 1875
 	}
 
-	slaves = {
-		culture = afro_american
-		religion = orthodox
-		size = 22600
-	}
 }
 #Washington (184000/46000 POPS)
 220 = {
@@ -8274,11 +8259,6 @@
 		size = 1900
 	}
 
-	slaves = {
-		culture = afro_american
-		religion = orthodox
-		size = 36000
-	}
 }
 #Hagerstown (56000/14000 POPS)
 221 = {
@@ -8330,11 +8310,6 @@
 		size = 2650
 	}
 
-	slaves = {
-		culture = afro_american
-		religion = orthodox
-		size = 6000
-	}
 }
 #Delaware Region (76000) 
 #ruled by the USA
@@ -8400,11 +8375,6 @@
 		size = 5150
 	}
 
-	slaves = {
-		culture = afro_american
-		religion = orthodox
-		size = 500
-	}
 }
 #Pennsylvania Region (1536000) 
 #ruled by the USA
