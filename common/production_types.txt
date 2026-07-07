@@ -194,25 +194,70 @@ aeroplane_factory = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.25
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -222,63 +267,96 @@ aeroplane_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -306,25 +384,70 @@ barrel_factory = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.05
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -334,63 +457,96 @@ barrel_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -418,25 +574,70 @@ automobile_factory = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.05
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -446,63 +647,96 @@ automobile_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -523,25 +757,70 @@ radio_factory = {
 		trigger = { has_building = glass_factory }
 		value = 0.1
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -551,63 +830,96 @@ radio_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -628,25 +940,70 @@ telephone_factory = {
 		trigger = { has_building = glass_factory }
 		value = 0.1
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -656,63 +1013,96 @@ telephone_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -745,25 +1135,70 @@ electric_gear_factory = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -773,63 +1208,96 @@ electric_gear_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -850,25 +1318,70 @@ machine_parts_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.125
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -878,63 +1391,96 @@ machine_parts_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -950,25 +1496,70 @@ synthetic_oil_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -978,63 +1569,96 @@ synthetic_oil_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -1055,25 +1679,70 @@ synthetic_rubber_factory = {
 			}
 		value = 0.25
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -1083,63 +1752,96 @@ synthetic_rubber_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -1155,25 +1857,70 @@ synthetic_sulphur_factory = {
 		trigger = { trade_goods_in_state = cotton }
 		value = 0.25
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -1183,63 +1930,96 @@ synthetic_sulphur_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -1262,25 +2042,70 @@ fuel_refinery = {
 			}
 		value = 0.25
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -1290,63 +2115,96 @@ fuel_refinery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -1368,25 +2226,70 @@ steamer_shipyard = {
 		trigger = { has_building = clipper_shipyard }
 		value = 0.125
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -1396,63 +2299,96 @@ steamer_shipyard = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -1475,25 +2411,70 @@ luxury_clothes_factory = {
 		trigger = { trade_goods_in_state = silk }
 		value = 0.05
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -1503,63 +2484,96 @@ luxury_clothes_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -1580,25 +2594,70 @@ luxury_furniture_factory = {
 		trigger = { trade_goods_in_state = tropical_wood }
 		value = 0.05
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -1608,63 +2667,260 @@ luxury_furniture_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
+	}
+# town_penalty — нет города в штате; non_colonial+urban = 0%
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
+			}
+		}
+		value = -0.7
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+			}
+		}
+		value = 0.45
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+			}
+		}
+		value = 0.6
+	}
+	bonus = {
+		trigger = {
+			AND = {
+				NOT = {
+					state_scope = {
+						any_owned = {
+							has_building = town_infrastructure
+						}
+					}
+				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+			}
+		}
+		value = 0.5
 	}
 
 }
@@ -1688,25 +2944,70 @@ steel_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.2
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -1716,63 +3017,96 @@ steel_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -1814,25 +3148,70 @@ artillery_factory = {
 		trigger = { has_building = machine_parts_factory }
 		value = 0.1
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -1842,63 +3221,96 @@ artillery_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -1930,25 +3342,70 @@ clipper_shipyard = {
 		trigger = { has_building = lumber_mill }
 		value = 0.1
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -1958,63 +3415,96 @@ clipper_shipyard = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -2041,25 +3531,70 @@ small_arms_factory = {
 		trigger = { has_building = lumber_mill }
 		value = 0.1
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -2069,63 +3604,96 @@ small_arms_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -2174,25 +3742,70 @@ regular_clothes_factory = {
 		trigger = { has_building = fabric_factory }
 		value = 0.25
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -2202,63 +3815,96 @@ regular_clothes_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -2279,25 +3925,70 @@ explosives_factory = {
 		trigger = { has_building = ammunition_factory }
 		value = 0.1
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -2307,63 +3998,96 @@ explosives_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -2391,25 +4115,70 @@ ammunition_factory = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.1
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -2419,63 +4188,96 @@ ammunition_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -2528,25 +4330,70 @@ canned_food_factory = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -2556,63 +4403,96 @@ canned_food_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -2635,25 +4515,70 @@ canned_food_factory_fish = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -2663,63 +4588,96 @@ canned_food_factory_fish = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -2741,25 +4699,70 @@ canned_food_factory_cattle = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -2769,63 +4772,96 @@ canned_food_factory_cattle = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -2847,25 +4883,70 @@ canned_food_factory_fruit = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -2875,63 +4956,96 @@ canned_food_factory_fruit = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -2952,25 +5066,70 @@ dye_factory = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.25
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -2980,63 +5139,96 @@ dye_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -3058,25 +5250,70 @@ liquor_distillery = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.1
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -3086,63 +5323,96 @@ liquor_distillery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -3163,25 +5433,70 @@ winery = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.1
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -3191,63 +5506,96 @@ winery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -3358,25 +5706,70 @@ cement_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -3386,63 +5779,96 @@ cement_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }
@@ -3476,25 +5902,70 @@ fertilizer_factory = {
 			}
 		value = 0.25
 	}
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
+# town_penalty — нет города в штате; non_colonial+urban = 0%
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				OR = {
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
+					}
+					AND = {
+						owner = { NOT = { colonial_politics = inner_colonisation } }
+						owner = { NOT = { colonial_politics = non_colonial } }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				state_scope = {
+					any_owned = {
+						terrain = urban
+					}
+				}
+					}
+					AND = {
+						owner = { colonial_politics = inner_colonisation }
+						
+				NOT = {
+					state_scope = {
+						any_owned = {
+							terrain = urban
+						}
+					}
+				}
+					}
+				}
 			}
 		}
 		value = -0.7
@@ -3504,63 +5975,96 @@ fertilizer_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { NOT = { colonial_politics = inner_colonisation } }
+				owner = { NOT = { colonial_politics = non_colonial } }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				NOT = { colonial_politics = inner_colonisation }
-				NOT = { colonial_politics = non_colonial }
 			}
 		}
-		value = -0.25
+		value = 0.45
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
+				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
 				state_scope = {
-					any_owned_province = {
+					any_owned = {
 						terrain = urban
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.10
+		value = 0.6
 	}
 	bonus = {
 		trigger = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
+					AND = {
+						owner = { colonial_politics = non_colonial }
+						state_scope = {
+							any_owned = {
+								terrain = urban
+							}
+						}
+					}
+				}
+				owner = { colonial_politics = inner_colonisation }
+				
+				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_owned = {
 							terrain = urban
 						}
 					}
 				}
-				colonial_politics = inner_colonisation
 			}
 		}
-		value = -0.20
+		value = 0.5
 	}
 
 }

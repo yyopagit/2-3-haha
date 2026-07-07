@@ -1,4 +1,4 @@
-"""Штраф фабрик: −70% без города, −25% при urban в штате, 0% при town_infrastructure."""
+"""Штраф фабрик без города в штате — production_types.txt, без ивентов."""
 import re
 from pathlib import Path
 
@@ -47,101 +47,109 @@ FACTORIES = {
     "fertilizer_factory",
 }
 
-PENALTY_BLOCK = """
-# town_penalty_bonus — нет города: −70% (no urban) / −25% (urban, не non_colonial) / inner_colonisation −10% (urban) / −20% (no urban); non_colonial без города на urban — штраф не работает
-\tbonus = {
-\t\ttrigger = {
-\t\t\tAND = {
+NO_TOWN = """
 \t\t\t\tNOT = {
 \t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_owned_province = {
+\t\t\t\t\t\tany_owned = {
 \t\t\t\t\t\t\thas_building = town_infrastructure
 \t\t\t\t\t\t}
 \t\t\t\t\t}
-\t\t\t\t}
-\t\t\t\tNOT = {
-\t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_owned_province = {
-\t\t\t\t\t\t\tterrain = urban
-\t\t\t\t\t\t}
-\t\t\t\t\t}
-\t\t\t\t}
-\t\t\t\tNOT = { colonial_politics = inner_colonisation }
-\t\t\t}
-\t\t}
-\t\tvalue = -0.7
-\t}
-\tbonus = {
-\t\ttrigger = {
-\t\t\tAND = {
-\t\t\t\tNOT = {
-\t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_owned_province = {
-\t\t\t\t\t\t\thas_building = town_infrastructure
-\t\t\t\t\t\t}
-\t\t\t\t\t}
-\t\t\t\t}
-\t\t\t\tstate_scope = {
-\t\t\t\t\tany_owned_province = {
-\t\t\t\t\t\tterrain = urban
-\t\t\t\t\t}
-\t\t\t\t}
-\t\t\t\tNOT = { colonial_politics = inner_colonisation }
-\t\t\t\tNOT = { colonial_politics = non_colonial }
-\t\t\t}
-\t\t}
-\t\tvalue = -0.25
-\t}
-\tbonus = {
-\t\ttrigger = {
-\t\t\tAND = {
-\t\t\t\tNOT = {
-\t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_owned_province = {
-\t\t\t\t\t\t\thas_building = town_infrastructure
-\t\t\t\t\t\t}
-\t\t\t\t\t}
-\t\t\t\t}
-\t\t\t\tstate_scope = {
-\t\t\t\t\tany_owned_province = {
-\t\t\t\t\t\tterrain = urban
-\t\t\t\t\t}
-\t\t\t\t}
-\t\t\t\tcolonial_politics = inner_colonisation
-\t\t\t}
-\t\t}
-\t\tvalue = -0.10
-\t}
-\tbonus = {
-\t\ttrigger = {
-\t\t\tAND = {
-\t\t\t\tNOT = {
-\t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_owned_province = {
-\t\t\t\t\t\t\thas_building = town_infrastructure
-\t\t\t\t\t\t}
-\t\t\t\t\t}
-\t\t\t\t}
-\t\t\t\tNOT = {
-\t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_owned_province = {
-\t\t\t\t\t\t\tterrain = urban
-\t\t\t\t\t\t}
-\t\t\t\t\t}
-\t\t\t\t}
-\t\t\t\tcolonial_politics = inner_colonisation
-\t\t\t}
-\t\t}
-\t\tvalue = -0.20
-\t}"""
+\t\t\t\t}"""
 
-MARKER = "# town_penalty_bonus"
-OLD = re.compile(MARKER + r"(?:\n\tbonus = \{.*?\n\t\})+", re.DOTALL)
+NON_COLONIAL_URBAN_EXEMPT = """
+\t\t\t\tNOT = {
+\t\t\t\t\tAND = {
+\t\t\t\t\t\towner = { colonial_politics = non_colonial }
+\t\t\t\t\t\tstate_scope = {
+\t\t\t\t\t\t\tany_owned = {
+\t\t\t\t\t\t\t\tterrain = urban
+\t\t\t\t\t\t\t}
+\t\t\t\t\t\t}
+\t\t\t\t\t}
+\t\t\t\t}"""
+
+HAS_URBAN = """
+\t\t\t\tstate_scope = {
+\t\t\t\t\tany_owned = {
+\t\t\t\t\t\tterrain = urban
+\t\t\t\t\t}
+\t\t\t\t}"""
+
+NO_URBAN = """
+\t\t\t\tNOT = {
+\t\t\t\t\tstate_scope = {
+\t\t\t\t\t\tany_owned = {
+\t\t\t\t\t\t\tterrain = urban
+\t\t\t\t\t\t}
+\t\t\t\t\t}
+\t\t\t\t}"""
+
+# Один bonus с OR: 4 взаимоисключающие AND-ветки, разный value через стекинг (база −70% + поправка).
+PENALTY_BLOCK = f"""
+# town_penalty — нет города в штате; non_colonial+urban = 0%
+\tbonus = {{
+\t\ttrigger = {{
+\t\t\tAND = {{{NO_TOWN}{NON_COLONIAL_URBAN_EXEMPT}
+\t\t\t\tOR = {{
+\t\t\t\t\tAND = {{
+\t\t\t\t\t\towner = {{ NOT = {{ colonial_politics = inner_colonisation }} }}
+\t\t\t\t\t\t{NO_URBAN}
+\t\t\t\t\t}}
+\t\t\t\t\tAND = {{
+\t\t\t\t\t\towner = {{ NOT = {{ colonial_politics = inner_colonisation }} }}
+\t\t\t\t\t\towner = {{ NOT = {{ colonial_politics = non_colonial }} }}
+\t\t\t\t\t\t{HAS_URBAN}
+\t\t\t\t\t}}
+\t\t\t\t\tAND = {{
+\t\t\t\t\t\towner = {{ colonial_politics = inner_colonisation }}
+\t\t\t\t\t\t{HAS_URBAN}
+\t\t\t\t\t}}
+\t\t\t\t\tAND = {{
+\t\t\t\t\t\towner = {{ colonial_politics = inner_colonisation }}
+\t\t\t\t\t\t{NO_URBAN}
+\t\t\t\t\t}}
+\t\t\t\t}}
+\t\t\t}}
+\t\t}}
+\t\tvalue = -0.7
+\t}}
+\tbonus = {{
+\t\ttrigger = {{
+\t\t\tAND = {{{NO_TOWN}{NON_COLONIAL_URBAN_EXEMPT}
+\t\t\t\towner = {{ NOT = {{ colonial_politics = inner_colonisation }} }}
+\t\t\t\towner = {{ NOT = {{ colonial_politics = non_colonial }} }}
+\t\t\t\t{HAS_URBAN}
+\t\t\t}}
+\t\t}}
+\t\tvalue = 0.45
+\t}}
+\tbonus = {{
+\t\ttrigger = {{
+\t\t\tAND = {{{NO_TOWN}{NON_COLONIAL_URBAN_EXEMPT}
+\t\t\t\towner = {{ colonial_politics = inner_colonisation }}
+\t\t\t\t{HAS_URBAN}
+\t\t\t}}
+\t\t}}
+\t\tvalue = 0.6
+\t}}
+\tbonus = {{
+\t\ttrigger = {{
+\t\t\tAND = {{{NO_TOWN}{NON_COLONIAL_URBAN_EXEMPT}
+\t\t\t\towner = {{ colonial_politics = inner_colonisation }}
+\t\t\t\t{NO_URBAN}
+\t\t\t}}
+\t\t}}
+\t\tvalue = 0.5
+\t}}"""
+
+MARKER = "# town_penalty"
 
 
 def patch() -> None:
     text = PROD.read_text(encoding="utf-8")
-    text = OLD.sub("", text)
+    if MARKER in text:
+        print("town_penalty already present, skip")
+        return
 
     for name in sorted(FACTORIES - EXCLUDED):
         block_re = re.compile(
@@ -152,8 +160,6 @@ def patch() -> None:
         if not match:
             raise SystemExit(f"not found: {name}")
         body = match.group(2).rstrip()
-        if MARKER in body:
-            body = body[: body.index(MARKER)].rstrip()
         new_body = body + PENALTY_BLOCK + "\n"
         text = text[: match.start()] + match.group(1) + new_body + match.group(3) + text[match.end() :]
 
