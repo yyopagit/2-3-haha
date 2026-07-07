@@ -50,7 +50,7 @@ FACTORIES = {
 NO_TOWN = """
 \t\t\t\tNOT = {
 \t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_owned = {
+\t\t\t\t\t\tany_owned_province = {
 \t\t\t\t\t\t\thas_building = town_infrastructure
 \t\t\t\t\t\t}
 \t\t\t\t\t}
@@ -61,7 +61,7 @@ NON_COLONIAL_URBAN_EXEMPT = """
 \t\t\t\t\tAND = {
 \t\t\t\t\t\towner = { colonial_politics = non_colonial }
 \t\t\t\t\t\tstate_scope = {
-\t\t\t\t\t\t\tany_owned = {
+\t\t\t\t\t\t\tany_owned_province = {
 \t\t\t\t\t\t\t\tterrain = urban
 \t\t\t\t\t\t\t}
 \t\t\t\t\t\t}
@@ -70,7 +70,7 @@ NON_COLONIAL_URBAN_EXEMPT = """
 
 HAS_URBAN = """
 \t\t\t\tstate_scope = {
-\t\t\t\t\tany_owned = {
+\t\t\t\t\tany_owned_province = {
 \t\t\t\t\t\tterrain = urban
 \t\t\t\t\t}
 \t\t\t\t}"""
@@ -78,7 +78,7 @@ HAS_URBAN = """
 NO_URBAN = """
 \t\t\t\tNOT = {
 \t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_owned = {
+\t\t\t\t\t\tany_owned_province = {
 \t\t\t\t\t\t\tterrain = urban
 \t\t\t\t\t\t}
 \t\t\t\t\t}
@@ -159,7 +159,7 @@ def patch() -> None:
 
     for name in sorted(FACTORIES - EXCLUDED):
         block_re = re.compile(
-            rf"({re.escape(name)} = \{{)(.*?)(\n\}})",
+            rf"(?m)(^{re.escape(name)} = \{{)(.*?)(\n\}})",
             re.DOTALL,
         )
         match = block_re.search(text)
