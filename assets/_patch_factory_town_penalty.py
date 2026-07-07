@@ -54,14 +54,14 @@ PENALTY_BLOCK = """
 \t\t\tAND = {
 \t\t\t\tNOT = {
 \t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_state_province = {
+\t\t\t\t\t\tany_owned_province = {
 \t\t\t\t\t\t\thas_building = town_infrastructure
 \t\t\t\t\t\t}
 \t\t\t\t\t}
 \t\t\t\t}
 \t\t\t\tNOT = {
 \t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_state_province = {
+\t\t\t\t\t\tany_owned_province = {
 \t\t\t\t\t\t\tterrain = urban
 \t\t\t\t\t\t}
 \t\t\t\t\t}
@@ -76,13 +76,13 @@ PENALTY_BLOCK = """
 \t\t\tAND = {
 \t\t\t\tNOT = {
 \t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_state_province = {
+\t\t\t\t\t\tany_owned_province = {
 \t\t\t\t\t\t\thas_building = town_infrastructure
 \t\t\t\t\t\t}
 \t\t\t\t\t}
 \t\t\t\t}
 \t\t\t\tstate_scope = {
-\t\t\t\t\tany_state_province = {
+\t\t\t\t\tany_owned_province = {
 \t\t\t\t\t\tterrain = urban
 \t\t\t\t\t}
 \t\t\t\t}
@@ -97,13 +97,13 @@ PENALTY_BLOCK = """
 \t\t\tAND = {
 \t\t\t\tNOT = {
 \t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_state_province = {
+\t\t\t\t\t\tany_owned_province = {
 \t\t\t\t\t\t\thas_building = town_infrastructure
 \t\t\t\t\t\t}
 \t\t\t\t\t}
 \t\t\t\t}
 \t\t\t\tstate_scope = {
-\t\t\t\t\tany_state_province = {
+\t\t\t\t\tany_owned_province = {
 \t\t\t\t\t\tterrain = urban
 \t\t\t\t\t}
 \t\t\t\t}
@@ -117,14 +117,14 @@ PENALTY_BLOCK = """
 \t\t\tAND = {
 \t\t\t\tNOT = {
 \t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_state_province = {
+\t\t\t\t\t\tany_owned_province = {
 \t\t\t\t\t\t\thas_building = town_infrastructure
 \t\t\t\t\t\t}
 \t\t\t\t\t}
 \t\t\t\t}
 \t\t\t\tNOT = {
 \t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_state_province = {
+\t\t\t\t\t\tany_owned_province = {
 \t\t\t\t\t\t\tterrain = urban
 \t\t\t\t\t\t}
 \t\t\t\t\t}
