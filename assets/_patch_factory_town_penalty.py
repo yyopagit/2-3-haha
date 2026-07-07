@@ -1,4 +1,4 @@
-"""Штраф фабрик без города в штате — production_types.txt, без ивентов."""
+"""Штраф фабрик (Г) без города в штате — production_types.txt."""
 import re
 from pathlib import Path
 
@@ -84,31 +84,14 @@ NO_URBAN = """
 \t\t\t\t\t}
 \t\t\t\t}"""
 
-# Один bonus с OR: 4 взаимоисключающие AND-ветки, разный value через стекинг (база −70% + поправка).
+# 4 взаимоисключающих bonus — в тултипе один итоговый штраф, без «−70% + поправка».
 PENALTY_BLOCK = f"""
-# town_penalty — нет города в штате; non_colonial+urban = 0%
+# town_penalty (Г) — см. non_colonial_desc / inner_colonisation_desc / external_colonisation_desc
 \tbonus = {{
 \t\ttrigger = {{
 \t\t\tAND = {{{NO_TOWN}{NON_COLONIAL_URBAN_EXEMPT}
-\t\t\t\tOR = {{
-\t\t\t\t\tAND = {{
-\t\t\t\t\t\towner = {{ NOT = {{ colonial_politics = inner_colonisation }} }}
-\t\t\t\t\t\t{NO_URBAN}
-\t\t\t\t\t}}
-\t\t\t\t\tAND = {{
-\t\t\t\t\t\towner = {{ NOT = {{ colonial_politics = inner_colonisation }} }}
-\t\t\t\t\t\towner = {{ NOT = {{ colonial_politics = non_colonial }} }}
-\t\t\t\t\t\t{HAS_URBAN}
-\t\t\t\t\t}}
-\t\t\t\t\tAND = {{
-\t\t\t\t\t\towner = {{ colonial_politics = inner_colonisation }}
-\t\t\t\t\t\t{HAS_URBAN}
-\t\t\t\t\t}}
-\t\t\t\t\tAND = {{
-\t\t\t\t\t\towner = {{ colonial_politics = inner_colonisation }}
-\t\t\t\t\t\t{NO_URBAN}
-\t\t\t\t\t}}
-\t\t\t\t}}
+\t\t\t\towner = {{ NOT = {{ colonial_politics = inner_colonisation }} }}
+\t\t\t\t{NO_URBAN}
 \t\t\t}}
 \t\t}}
 \t\tvalue = -0.7
@@ -121,7 +104,7 @@ PENALTY_BLOCK = f"""
 \t\t\t\t{HAS_URBAN}
 \t\t\t}}
 \t\t}}
-\t\tvalue = 0.45
+\t\tvalue = -0.25
 \t}}
 \tbonus = {{
 \t\ttrigger = {{
@@ -130,7 +113,7 @@ PENALTY_BLOCK = f"""
 \t\t\t\t{HAS_URBAN}
 \t\t\t}}
 \t\t}}
-\t\tvalue = 0.6
+\t\tvalue = -0.10
 \t}}
 \tbonus = {{
 \t\ttrigger = {{
@@ -139,17 +122,40 @@ PENALTY_BLOCK = f"""
 \t\t\t\t{NO_URBAN}
 \t\t\t}}
 \t\t}}
-\t\tvalue = 0.5
+\t\tvalue = -0.20
 \t}}"""
 
 MARKER = "# town_penalty"
 
 
+def remove_penalty_blocks(text: str) -> str:
+    while MARKER in text:
+        idx = text.index(MARKER)
+        line_start = text.rfind("\n", 0, idx) + 1
+        pos = text.find("\n", idx) + 1
+        while pos < len(text) and text[pos : pos + 10].lstrip().startswith("bonus"):
+            start = text.find("bonus", pos)
+            depth = 0
+            started = False
+            i = start
+            while i < len(text):
+                if text[i] == "{":
+                    depth += 1
+                    started = True
+                elif text[i] == "}":
+                    depth -= 1
+                    if started and depth == 0:
+                        pos = i + 1
+                        break
+                i += 1
+            else:
+                break
+        text = text[:line_start] + text[pos:].lstrip("\n")
+    return text
+
+
 def patch() -> None:
-    text = PROD.read_text(encoding="utf-8")
-    if MARKER in text:
-        print("town_penalty already present, skip")
-        return
+    text = remove_penalty_blocks(PROD.read_text(encoding="utf-8"))
 
     for name in sorted(FACTORIES - EXCLUDED):
         block_re = re.compile(
@@ -160,6 +166,8 @@ def patch() -> None:
         if not match:
             raise SystemExit(f"not found: {name}")
         body = match.group(2).rstrip()
+        if MARKER in body:
+            body = body[: body.index(MARKER)].rstrip()
         new_body = body + PENALTY_BLOCK + "\n"
         text = text[: match.start()] + match.group(1) + new_body + match.group(3) + text[match.end() :]
 
