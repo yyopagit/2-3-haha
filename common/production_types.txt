@@ -205,6 +205,10 @@ aeroplane_factory = {
 						}
 					}
 				}
+<<<<<<< HEAD
+				
+=======
+>>>>>>> 050204f73dca3e5ef08520e73266925e79e21bf6
 				NOT = {
 					state_scope = {
 						any_owned_province = {
@@ -227,6 +231,10 @@ aeroplane_factory = {
 						}
 					}
 				}
+<<<<<<< HEAD
+				
+=======
+>>>>>>> 050204f73dca3e5ef08520e73266925e79e21bf6
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
@@ -248,6 +256,10 @@ aeroplane_factory = {
 						}
 					}
 				}
+<<<<<<< HEAD
+				
+=======
+>>>>>>> 050204f73dca3e5ef08520e73266925e79e21bf6
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
@@ -268,6 +280,10 @@ aeroplane_factory = {
 						}
 					}
 				}
+<<<<<<< HEAD
+				
+=======
+>>>>>>> 050204f73dca3e5ef08520e73266925e79e21bf6
 				NOT = {
 					state_scope = {
 						any_owned_province = {
@@ -317,17 +333,6 @@ barrel_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -336,6 +341,7 @@ barrel_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -350,24 +356,14 @@ barrel_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -382,23 +378,13 @@ barrel_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -413,17 +399,6 @@ barrel_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -432,6 +407,7 @@ barrel_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -473,17 +449,6 @@ automobile_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -492,6 +457,7 @@ automobile_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -506,24 +472,14 @@ automobile_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -538,23 +494,13 @@ automobile_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -569,17 +515,6 @@ automobile_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -588,6 +523,7 @@ automobile_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -622,17 +558,6 @@ radio_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -641,6 +566,7 @@ radio_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -655,24 +581,14 @@ radio_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -687,23 +603,13 @@ radio_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -718,17 +624,6 @@ radio_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -737,6 +632,7 @@ radio_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -771,17 +667,6 @@ telephone_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -790,6 +675,7 @@ telephone_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -804,24 +690,14 @@ telephone_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -836,23 +712,13 @@ telephone_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -867,17 +733,6 @@ telephone_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -886,6 +741,7 @@ telephone_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -932,17 +788,6 @@ electric_gear_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -951,6 +796,7 @@ electric_gear_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -965,24 +811,14 @@ electric_gear_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -997,23 +833,13 @@ electric_gear_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -1028,17 +854,6 @@ electric_gear_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -1047,6 +862,7 @@ electric_gear_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -1081,17 +897,6 @@ machine_parts_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -1100,6 +905,7 @@ machine_parts_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -1114,24 +920,14 @@ machine_parts_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -1146,23 +942,13 @@ machine_parts_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -1177,17 +963,6 @@ machine_parts_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -1196,6 +971,7 @@ machine_parts_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -1225,17 +1001,6 @@ synthetic_oil_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -1244,6 +1009,7 @@ synthetic_oil_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -1258,24 +1024,14 @@ synthetic_oil_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -1290,23 +1046,13 @@ synthetic_oil_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -1321,17 +1067,6 @@ synthetic_oil_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -1340,6 +1075,7 @@ synthetic_oil_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -1374,17 +1110,6 @@ synthetic_rubber_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -1393,6 +1118,7 @@ synthetic_rubber_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -1407,24 +1133,14 @@ synthetic_rubber_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -1439,23 +1155,13 @@ synthetic_rubber_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -1470,17 +1176,6 @@ synthetic_rubber_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -1489,6 +1184,7 @@ synthetic_rubber_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -1518,17 +1214,6 @@ synthetic_sulphur_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -1537,6 +1222,7 @@ synthetic_sulphur_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -1551,24 +1237,14 @@ synthetic_sulphur_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -1583,23 +1259,13 @@ synthetic_sulphur_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -1614,17 +1280,6 @@ synthetic_sulphur_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -1633,6 +1288,7 @@ synthetic_sulphur_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -1669,17 +1325,6 @@ fuel_refinery = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -1688,6 +1333,7 @@ fuel_refinery = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -1702,24 +1348,14 @@ fuel_refinery = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -1734,23 +1370,13 @@ fuel_refinery = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -1765,17 +1391,6 @@ fuel_refinery = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -1784,6 +1399,7 @@ fuel_refinery = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -1819,17 +1435,6 @@ steamer_shipyard = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -1838,6 +1443,7 @@ steamer_shipyard = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -1852,24 +1458,14 @@ steamer_shipyard = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -1884,23 +1480,13 @@ steamer_shipyard = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -1915,17 +1501,6 @@ steamer_shipyard = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -1934,6 +1509,7 @@ steamer_shipyard = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -1970,17 +1546,6 @@ luxury_clothes_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -1989,6 +1554,7 @@ luxury_clothes_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -2003,24 +1569,14 @@ luxury_clothes_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -2035,23 +1591,13 @@ luxury_clothes_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -2066,17 +1612,6 @@ luxury_clothes_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -2085,6 +1620,7 @@ luxury_clothes_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -2119,17 +1655,6 @@ luxury_furniture_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -2138,6 +1663,7 @@ luxury_furniture_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -2152,24 +1678,14 @@ luxury_furniture_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -2184,23 +1700,13 @@ luxury_furniture_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -2215,17 +1721,6 @@ luxury_furniture_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -2234,6 +1729,7 @@ luxury_furniture_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -2271,17 +1767,6 @@ steel_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -2290,6 +1775,7 @@ steel_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -2304,24 +1790,14 @@ steel_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -2336,23 +1812,13 @@ steel_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -2367,17 +1833,6 @@ steel_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -2386,6 +1841,7 @@ steel_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -2441,17 +1897,6 @@ artillery_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -2460,6 +1905,7 @@ artillery_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -2474,24 +1920,14 @@ artillery_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -2506,23 +1942,13 @@ artillery_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -2537,17 +1963,6 @@ artillery_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -2556,6 +1971,7 @@ artillery_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -2601,17 +2017,6 @@ clipper_shipyard = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -2620,6 +2025,7 @@ clipper_shipyard = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -2634,24 +2040,14 @@ clipper_shipyard = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -2666,23 +2062,13 @@ clipper_shipyard = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -2697,17 +2083,6 @@ clipper_shipyard = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -2716,6 +2091,7 @@ clipper_shipyard = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -2756,17 +2132,6 @@ small_arms_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -2775,6 +2140,7 @@ small_arms_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -2789,24 +2155,14 @@ small_arms_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -2821,23 +2177,13 @@ small_arms_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -2852,17 +2198,6 @@ small_arms_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -2871,6 +2206,7 @@ small_arms_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -2907,17 +2243,6 @@ furniture_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -2926,6 +2251,7 @@ furniture_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -2940,24 +2266,14 @@ furniture_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -2972,23 +2288,13 @@ furniture_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -3003,17 +2309,6 @@ furniture_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -3022,6 +2317,7 @@ furniture_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -3064,17 +2360,6 @@ regular_clothes_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -3083,6 +2368,7 @@ regular_clothes_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -3097,24 +2383,14 @@ regular_clothes_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -3129,23 +2405,13 @@ regular_clothes_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -3160,17 +2426,6 @@ regular_clothes_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -3179,6 +2434,7 @@ regular_clothes_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -3213,17 +2469,6 @@ explosives_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -3232,6 +2477,7 @@ explosives_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -3246,24 +2492,14 @@ explosives_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -3278,23 +2514,13 @@ explosives_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -3309,17 +2535,6 @@ explosives_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -3328,6 +2543,7 @@ explosives_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -3369,17 +2585,6 @@ ammunition_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -3388,6 +2593,7 @@ ammunition_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -3402,24 +2608,14 @@ ammunition_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -3434,23 +2630,13 @@ ammunition_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -3465,17 +2651,6 @@ ammunition_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -3484,6 +2659,7 @@ ammunition_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -3550,17 +2726,6 @@ canned_food_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -3569,6 +2734,7 @@ canned_food_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -3583,24 +2749,14 @@ canned_food_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -3615,23 +2771,13 @@ canned_food_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -3646,17 +2792,6 @@ canned_food_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -3665,6 +2800,7 @@ canned_food_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -3701,17 +2837,6 @@ canned_food_factory_fish = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -3720,6 +2845,7 @@ canned_food_factory_fish = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -3734,24 +2860,14 @@ canned_food_factory_fish = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -3766,23 +2882,13 @@ canned_food_factory_fish = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -3797,17 +2903,6 @@ canned_food_factory_fish = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -3816,6 +2911,7 @@ canned_food_factory_fish = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -3851,17 +2947,6 @@ canned_food_factory_cattle = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -3870,6 +2955,7 @@ canned_food_factory_cattle = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -3884,24 +2970,14 @@ canned_food_factory_cattle = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -3916,23 +2992,13 @@ canned_food_factory_cattle = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -3947,17 +3013,6 @@ canned_food_factory_cattle = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -3966,6 +3021,7 @@ canned_food_factory_cattle = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -4001,17 +3057,6 @@ canned_food_factory_fruit = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -4020,6 +3065,7 @@ canned_food_factory_fruit = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -4034,24 +3080,14 @@ canned_food_factory_fruit = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -4066,23 +3102,13 @@ canned_food_factory_fruit = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -4097,17 +3123,6 @@ canned_food_factory_fruit = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -4116,6 +3131,7 @@ canned_food_factory_fruit = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -4150,17 +3166,6 @@ dye_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -4169,6 +3174,7 @@ dye_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -4183,24 +3189,14 @@ dye_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -4215,23 +3211,13 @@ dye_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -4246,17 +3232,6 @@ dye_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -4265,6 +3240,7 @@ dye_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -4300,17 +3276,6 @@ liquor_distillery = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -4319,6 +3284,7 @@ liquor_distillery = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -4333,24 +3299,14 @@ liquor_distillery = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -4365,23 +3321,13 @@ liquor_distillery = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -4396,17 +3342,6 @@ liquor_distillery = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -4415,6 +3350,7 @@ liquor_distillery = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -4449,17 +3385,6 @@ winery = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -4468,6 +3393,7 @@ winery = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -4482,24 +3408,14 @@ winery = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -4514,23 +3430,13 @@ winery = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -4545,17 +3451,6 @@ winery = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -4564,6 +3459,7 @@ winery = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -4688,17 +3584,6 @@ cement_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -4707,6 +3592,7 @@ cement_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -4721,24 +3607,14 @@ cement_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -4753,23 +3629,13 @@ cement_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -4784,17 +3650,6 @@ cement_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -4803,6 +3658,7 @@ cement_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
@@ -4850,17 +3706,6 @@ fertilizer_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
 				
 				NOT = {
 					state_scope = {
@@ -4869,6 +3714,7 @@ fertilizer_factory = {
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -4883,24 +3729,14 @@ fertilizer_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -4915,23 +3751,13 @@ fertilizer_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -4946,17 +3772,6 @@ fertilizer_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
 				
 				NOT = {
 					state_scope = {
@@ -4965,6 +3780,7 @@ fertilizer_factory = {
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
