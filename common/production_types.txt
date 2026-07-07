@@ -206,24 +206,13 @@ aeroplane_factory = {
 					}
 				}
 				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				
-				NOT = {
 					state_scope = {
 						any_owned_province = {
 							terrain = urban
 						}
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
 			}
 		}
 		value = -0.7
@@ -238,24 +227,13 @@ aeroplane_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				NOT = { colonial_politics = inner_colonisation }
+				NOT = { colonial_politics = non_colonial }
 			}
 		}
 		value = -0.25
@@ -270,23 +248,12 @@ aeroplane_factory = {
 						}
 					}
 				}
-				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
-				
 				state_scope = {
 					any_owned_province = {
 						terrain = urban
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.10
@@ -302,24 +269,13 @@ aeroplane_factory = {
 					}
 				}
 				NOT = {
-					AND = {
-						owner = { colonial_politics = non_colonial }
-						state_scope = {
-							any_owned_province = {
-								terrain = urban
-							}
-						}
-					}
-				}
-				owner = { colonial_politics = inner_colonisation }
-				
-				NOT = {
 					state_scope = {
 						any_owned_province = {
 							terrain = urban
 						}
 					}
 				}
+				colonial_politics = inner_colonisation
 			}
 		}
 		value = -0.20
