@@ -200,14 +200,14 @@ aeroplane_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -222,13 +222,13 @@ aeroplane_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -243,13 +243,13 @@ aeroplane_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -263,14 +263,14 @@ aeroplane_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -312,14 +312,14 @@ barrel_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -334,13 +334,13 @@ barrel_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -355,13 +355,13 @@ barrel_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -375,14 +375,14 @@ barrel_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -424,14 +424,14 @@ automobile_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -446,13 +446,13 @@ automobile_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -467,13 +467,13 @@ automobile_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -487,14 +487,14 @@ automobile_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -529,14 +529,14 @@ radio_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -551,13 +551,13 @@ radio_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -572,13 +572,13 @@ radio_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -592,14 +592,14 @@ radio_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -634,14 +634,14 @@ telephone_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -656,13 +656,13 @@ telephone_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -677,13 +677,13 @@ telephone_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -697,14 +697,14 @@ telephone_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -751,14 +751,14 @@ electric_gear_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -773,13 +773,13 @@ electric_gear_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -794,13 +794,13 @@ electric_gear_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -814,14 +814,14 @@ electric_gear_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -856,14 +856,14 @@ machine_parts_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -878,13 +878,13 @@ machine_parts_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -899,13 +899,13 @@ machine_parts_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -919,14 +919,14 @@ machine_parts_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -956,14 +956,14 @@ synthetic_oil_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -978,13 +978,13 @@ synthetic_oil_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -999,13 +999,13 @@ synthetic_oil_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1019,14 +1019,14 @@ synthetic_oil_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1061,14 +1061,14 @@ synthetic_rubber_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1083,13 +1083,13 @@ synthetic_rubber_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1104,13 +1104,13 @@ synthetic_rubber_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1124,14 +1124,14 @@ synthetic_rubber_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1161,14 +1161,14 @@ synthetic_sulphur_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1183,13 +1183,13 @@ synthetic_sulphur_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1204,13 +1204,13 @@ synthetic_sulphur_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1224,14 +1224,14 @@ synthetic_sulphur_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1268,14 +1268,14 @@ fuel_refinery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1290,13 +1290,13 @@ fuel_refinery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1311,13 +1311,13 @@ fuel_refinery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1331,14 +1331,14 @@ fuel_refinery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1374,14 +1374,14 @@ steamer_shipyard = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1396,13 +1396,13 @@ steamer_shipyard = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1417,13 +1417,13 @@ steamer_shipyard = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1437,14 +1437,14 @@ steamer_shipyard = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1481,14 +1481,14 @@ luxury_clothes_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1503,13 +1503,13 @@ luxury_clothes_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1524,13 +1524,13 @@ luxury_clothes_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1544,14 +1544,14 @@ luxury_clothes_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1586,14 +1586,14 @@ luxury_furniture_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1608,13 +1608,13 @@ luxury_furniture_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1629,13 +1629,13 @@ luxury_furniture_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1649,14 +1649,14 @@ luxury_furniture_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1694,14 +1694,14 @@ steel_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1716,13 +1716,13 @@ steel_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1737,13 +1737,13 @@ steel_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1757,14 +1757,14 @@ steel_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1820,14 +1820,14 @@ artillery_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1842,13 +1842,13 @@ artillery_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1863,13 +1863,13 @@ artillery_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1883,14 +1883,14 @@ artillery_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1936,14 +1936,14 @@ clipper_shipyard = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -1958,13 +1958,13 @@ clipper_shipyard = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1979,13 +1979,13 @@ clipper_shipyard = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -1999,14 +1999,14 @@ clipper_shipyard = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2047,14 +2047,14 @@ small_arms_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2069,13 +2069,13 @@ small_arms_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2090,13 +2090,13 @@ small_arms_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2110,14 +2110,14 @@ small_arms_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2180,14 +2180,14 @@ regular_clothes_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2202,13 +2202,13 @@ regular_clothes_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2223,13 +2223,13 @@ regular_clothes_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2243,14 +2243,14 @@ regular_clothes_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2285,14 +2285,14 @@ explosives_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2307,13 +2307,13 @@ explosives_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2328,13 +2328,13 @@ explosives_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2348,14 +2348,14 @@ explosives_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2397,14 +2397,14 @@ ammunition_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2419,13 +2419,13 @@ ammunition_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2440,13 +2440,13 @@ ammunition_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2460,14 +2460,14 @@ ammunition_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2534,14 +2534,14 @@ canned_food_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2556,13 +2556,13 @@ canned_food_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2577,13 +2577,13 @@ canned_food_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2597,14 +2597,14 @@ canned_food_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2641,14 +2641,14 @@ canned_food_factory_fish = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2663,13 +2663,13 @@ canned_food_factory_fish = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2684,13 +2684,13 @@ canned_food_factory_fish = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2704,14 +2704,14 @@ canned_food_factory_fish = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2747,14 +2747,14 @@ canned_food_factory_cattle = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2769,13 +2769,13 @@ canned_food_factory_cattle = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2790,13 +2790,13 @@ canned_food_factory_cattle = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2810,14 +2810,14 @@ canned_food_factory_cattle = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2853,14 +2853,14 @@ canned_food_factory_fruit = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2875,13 +2875,13 @@ canned_food_factory_fruit = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2896,13 +2896,13 @@ canned_food_factory_fruit = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -2916,14 +2916,14 @@ canned_food_factory_fruit = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2958,14 +2958,14 @@ dye_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -2980,13 +2980,13 @@ dye_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -3001,13 +3001,13 @@ dye_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -3021,14 +3021,14 @@ dye_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -3064,14 +3064,14 @@ liquor_distillery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -3086,13 +3086,13 @@ liquor_distillery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -3107,13 +3107,13 @@ liquor_distillery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -3127,14 +3127,14 @@ liquor_distillery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -3169,14 +3169,14 @@ winery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -3191,13 +3191,13 @@ winery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -3212,13 +3212,13 @@ winery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -3232,14 +3232,14 @@ winery = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -3364,14 +3364,14 @@ cement_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -3386,13 +3386,13 @@ cement_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -3407,13 +3407,13 @@ cement_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -3427,14 +3427,14 @@ cement_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -3482,14 +3482,14 @@ fertilizer_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}
@@ -3504,13 +3504,13 @@ fertilizer_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -3525,13 +3525,13 @@ fertilizer_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				state_scope = {
-					any_owned_province = {
+					any_state_province = {
 						terrain = urban
 					}
 				}
@@ -3545,14 +3545,14 @@ fertilizer_factory = {
 			AND = {
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							has_building = town_infrastructure
 						}
 					}
 				}
 				NOT = {
 					state_scope = {
-						any_owned_province = {
+						any_state_province = {
 							terrain = urban
 						}
 					}

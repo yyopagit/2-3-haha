@@ -17,6 +17,12 @@ MULTIPLIERS = {
     "RUS": 1.5,
     "TUR": 1.8,
     "SPA": 1.5,
+    "ARA": 1.5,
+    "NEJ": 1.5,
+    "OMA": 1.5,
+    "YEM": 1.5,
+    "ABU": 1.5,
+    "HDJ": 1.5,
 }
 
 OWNER_RE = re.compile(r"^owner\s*=\s*(\w+)", re.MULTILINE)
