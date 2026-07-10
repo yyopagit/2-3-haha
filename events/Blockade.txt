@@ -27,6 +27,10 @@ country_event = {
 			}
 		}
 	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
 	
 	immediate = {
 		add_country_modifier = {
@@ -72,6 +76,10 @@ country_event = {
 				is_blockaded = no
 			}
 		}
+	}
+
+	mean_time_to_happen = {
+		days = 7
 	}
 	
 	immediate = {
@@ -123,6 +131,10 @@ country_event = {
 			}
 		}
 	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
 	
 	immediate = {
 		add_country_modifier = {
@@ -171,6 +183,10 @@ country_event = {
 			is_coastal = yes
 			is_blockaded = no
 		}
+	}
+
+	mean_time_to_happen = {
+		days = 7
 	}
 	
 	immediate = {
@@ -224,6 +240,10 @@ country_event = {
 			}
 		}
 	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
 	
 	immediate = {
 		add_country_modifier = {
@@ -272,6 +292,10 @@ country_event = {
 				NOT = { has_province_modifier = non_blockadable_ports }
 			}
 		}
+	}
+
+	mean_time_to_happen = {
+		days = 7
 	}
 	
 	immediate = {
@@ -322,6 +346,10 @@ country_event = {
 			}
 		}
 	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
 	
 	immediate = {
 		add_country_modifier = {
@@ -370,6 +398,10 @@ country_event = {
 			is_blockaded = no
 			NOT = { has_province_modifier = non_blockadable_ports }
 		}
+	}
+
+	mean_time_to_happen = {
+		days = 7
 	}
 	
 	immediate = {

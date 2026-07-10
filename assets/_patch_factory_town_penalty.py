@@ -55,7 +55,6 @@ NO_TOWN = "\n\t\t\t\tNOT = { has_province_modifier = state_has_town }"
 HAS_URBAN = "\n\t\t\t\thas_province_modifier = state_has_urban"
 NO_URBAN = "\n\t\t\t\tNOT = { has_province_modifier = state_has_urban }"
 
-# 4 взаимоисключающих bonus. colonial_politics — через owner; town/urban — кэш O(1).
 PENALTY_BLOCK = f"""
 # town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
 	bonus = {{
@@ -92,32 +91,41 @@ PENALTY_BLOCK = f"""
 		value = -0.20
 	}}"""
 
-MARKER = "# town_penalty"
+# Старые и новые маркеры — оба надо вычищать перед вставкой.
+MARKERS = (
+    "# town_penalty",
+    "# порядок:",
+)
 
 
 def remove_penalty_blocks(text: str) -> str:
-    while MARKER in text:
-        idx = text.index(MARKER)
-        line_start = text.rfind("\n", 0, idx) + 1
-        pos = text.find("\n", idx) + 1
-        while pos < len(text) and text[pos : pos + 10].lstrip().startswith("bonus"):
-            start = text.find("bonus", pos)
-            depth = 0
-            started = False
-            i = start
-            while i < len(text):
-                if text[i] == "{":
-                    depth += 1
-                    started = True
-                elif text[i] == "}":
-                    depth -= 1
-                    if started and depth == 0:
-                        pos = i + 1
+    changed = True
+    while changed:
+        changed = False
+        for marker in MARKERS:
+            while marker in text:
+                idx = text.index(marker)
+                line_start = text.rfind("\n", 0, idx) + 1
+                pos = text.find("\n", idx) + 1
+                while pos < len(text) and text[pos : pos + 10].lstrip().startswith("bonus"):
+                    start = text.find("bonus", pos)
+                    depth = 0
+                    started = False
+                    i = start
+                    while i < len(text):
+                        if text[i] == "{":
+                            depth += 1
+                            started = True
+                        elif text[i] == "}":
+                            depth -= 1
+                            if started and depth == 0:
+                                pos = i + 1
+                                break
+                        i += 1
+                    else:
                         break
-                i += 1
-            else:
-                break
-        text = text[:line_start] + text[pos:].lstrip("\n")
+                text = text[:line_start] + text[pos:].lstrip("\n")
+                changed = True
     return text
 
 
@@ -133,8 +141,9 @@ def patch() -> None:
         if not match:
             raise SystemExit(f"not found: {name}")
         body = match.group(2).rstrip()
-        if MARKER in body:
-            body = body[: body.index(MARKER)].rstrip()
+        for marker in MARKERS:
+            if marker in body:
+                body = body[: body.index(marker)].rstrip()
         new_body = body + PENALTY_BLOCK + "\n"
         text = text[: match.start()] + match.group(1) + new_body + match.group(3) + text[match.end() :]
 

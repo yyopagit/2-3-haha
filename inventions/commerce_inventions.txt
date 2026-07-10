@@ -553,6 +553,85 @@ john_stuart_mill = {
 		shared_prestige = 10 
 	}
 }
+# moved from market_structure → late_classical_theory
+polypoly_structure = {
+	news = no
+	limit = { 
+		late_classical_theory = 1 
+		NOT = {
+				OR = {
+					invention = oligopoly_structure
+					invention = monopoly_structure
+				}
+		}	
+	}
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			ruling_party_ideology = liberal
+		}
+		modifier = {
+			factor = 2
+			nationalvalue = nv_liberty
+		}
+	}
+	effect = {
+		factory_input = -0.02
+	}
+}
+oligopoly_structure = {
+	news = no
+	limit = { 
+		late_classical_theory = 1 
+		NOT = {
+			OR = {
+				invention = polypoly_structure
+				invention = monopoly_structure
+			}
+		}		
+	}
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 2
+			ruling_party_ideology = conservative
+		}
+	}
+	effect = {
+		factory_output = 0.02
+	}
+}
+monopoly_structure = {
+	news = no
+	limit = { 
+		late_classical_theory = 1 
+		NOT = {
+			OR = {
+				invention = polypoly_structure
+				invention = oligopoly_structure
+			}
+		}	
+	}
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 2
+			economic_policy = state_capitalism
+		}
+	}
+	effect = {
+		factory_throughput = 0.05
+	}
+}
 #collectivist_theory
 pierre_joseph_proudhon = {
 	limit = { collectivist_theory = 1 }
@@ -615,6 +694,105 @@ friedrich_engels = {
 		shared_prestige = 10
 	}
 }
+patent = {
+	limit = { collectivist_theory = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			nationalvalue = nv_order
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 2
+			ruling_party_ideology = liberal
+		}
+	}
+	effect = {
+		factory_cost = -0.03
+	}
+}
+trademark = {
+	limit = { collectivist_theory = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			economic_policy = interventionism
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 2
+			prestige = 10
+		}
+	}
+	effect = {
+		factory_cost = -0.02 
+	}
+}
+sequence_planning = {
+	limit = { collectivist_theory = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			economic_policy = interventionism
+		}
+		modifier = {
+			factor = 2
+			ruling_party_ideology = conservative
+		}
+	}
+	effect = {
+		factory_output = 0.01
+	}
+}
+inventory_planning = {
+	limit = { collectivist_theory = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 2
+			trade_policy = free_trade
+		}
+	}
+	effect = {
+		factory_output = 0.01
+	}
+}
+quality_assurance_procedure = {
+	limit = { collectivist_theory = 1 }
+	news = no
+	chance = {
+		base = 2
+		modifier = {
+			factor = 2
+			economic_policy = laissez_faire
+		}
+		modifier = {
+			factor = 2
+			average_consciousness = 4
+		}
+	}
+	effect = {
+		factory_output = 0.01
+	}
+}
+
 eduard_bernstein = {
 	limit = { collectivist_theory = 1 }
 	news = no
@@ -1175,84 +1353,7 @@ friedrich_hayek = {
 	}
 }
 #market_structure
-polypoly_structure = {
-	news = no
-	limit = { 
-		market_structure = 1 
-		NOT = {
-				OR = {
-					invention = oligopoly_structure
-					invention = monopoly_structure
-				}
-		}	
-	}
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			ruling_party_ideology = liberal
-		}
-		modifier = {
-			factor = 2
-			nationalvalue = nv_liberty
-		}
-	}
-	effect = {
-		factory_input = -0.02
-	}
-}
-oligopoly_structure = {
-	news = no
-	limit = { 
-		market_structure = 1 
-		NOT = {
-			OR = {
-				invention = polypoly_structure
-				invention = monopoly_structure
-			}
-		}		
-	}
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
-		modifier = {
-			factor = 2
-			ruling_party_ideology = conservative
-		}
-	}
-	effect = {
-		factory_output = 0.02
-	}
-}
-monopoly_structure = {
-	news = no
-	limit = { 
-		market_structure = 1 
-		NOT = {
-			OR = {
-				invention = polypoly_structure
-				invention = oligopoly_structure
-			}
-		}	
-	}
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_equality
-		}
-		modifier = {
-			factor = 2
-			economic_policy = state_capitalism
-		}
-	}
-	effect = {
-		factory_throughput = 0.05
-	}
-}
+# (polypoly/oligopoly/monopoly_structure перенесены в late_classical_theory)
 #business_regulations
 joint_stock_company = {
 	limit = { business_regulations = 1 }
@@ -1270,50 +1371,6 @@ joint_stock_company = {
 	}
 	effect = {
 		tax_eff = 1 
-	}
-}
-patent = {
-	limit = { business_regulations = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			nationalvalue = nv_order
-		}
-		modifier = {
-			factor = 2
-			is_greater_power = yes
-		}
-		modifier = {
-			factor = 2
-			ruling_party_ideology = liberal
-		}
-	}
-	effect = {
-		factory_cost = -0.03
-	}
-}
-trademark = {
-	limit = { business_regulations = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = interventionism
-		}
-		modifier = {
-			factor = 2
-			is_greater_power = yes
-		}
-		modifier = {
-			factor = 2
-			prestige = 10
-		}
-	}
-	effect = {
-		factory_cost = -0.02 
 	}
 }
 #market_regulations
@@ -1605,60 +1662,7 @@ work_control_and_hierarchy = {
 	}
 }
 #scientific_management
-sequence_planning = {
-	limit = { business_regulations = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = interventionism
-		}
-		modifier = {
-			factor = 2
-			ruling_party_ideology = conservative
-		}
-	}
-	effect = {
-		factory_output = 0.01
-	}
-}
-inventory_planning = {
-	limit = { business_regulations = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = laissez_faire
-		}
-		modifier = {
-			factor = 2
-			trade_policy = free_trade
-		}
-	}
-	effect = {
-		factory_output = 0.01
-	}
-}
-quality_assurance_procedure = {
-	limit = { business_regulations = 1 }
-	news = no
-	chance = {
-		base = 2
-		modifier = {
-			factor = 2
-			economic_policy = laissez_faire
-		}
-		modifier = {
-			factor = 2
-			average_consciousness = 4
-		}
-	}
-	effect = {
-		factory_output = 0.01
-	}
-}
+# (sequence/inventory/quality moved to collectivist_theory)
 #time_saving_measures
 time_studies = {
 	limit = { management_strategy = 1 }

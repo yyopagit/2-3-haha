@@ -5,7 +5,7 @@ private_banks = {
 	cost = 3600
 
 	activate_building = cement_factory 
-	tax_eff = 2
+	tax_eff = 3
 	farm_RGO_eff = 0.20
 	
 	ai_chance = {
@@ -37,7 +37,7 @@ stock_exchange = {
 	year = 1836
 	cost = 7200
 
-	tax_eff = 4
+	tax_eff = 3
 	
 	ai_chance = {
 		factor = 1.1
@@ -68,7 +68,7 @@ business_banks = {
 	year = 1850
 	cost = 10800
 
-	tax_eff = 4
+	tax_eff = 3
 	
 	ai_chance = {
 		factor = 1.1
