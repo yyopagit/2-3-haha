@@ -104,7 +104,7 @@ economy = {
 	GUNBOAT_HIGH_TAX_CAP = 1.0,
 	GUNBOAT_FLEET_SIZE_FACTOR = 100,
 	PROVINCE_SIZE_DIVIDER = 50,
-	CAPITALIST_BUILD_FACTORY_STATE_EMPLOYMENT_PERCENT = 0.65, -- Capis don't build factories if less than this percent is employed (lower = AI/capis build more often)
+	CAPITALIST_BUILD_FACTORY_STATE_EMPLOYMENT_PERCENT = 0.20, -- Capis don't build factories if less than this percent is employed (lower = factories preferred over railroads)
 	GOODS_FOCUS_SWAP_CHANCE = 8, -- Percent chance artisan changes goods (lower = more stability)
 	NUM_CLOSED_FACTORIES_PER_STATE_LASSIEZ_FAIRE = 2, -- Closed factories allowed per state under Laissez Faire (higher = AI keeps more factories)
 	MIN_NUM_FACTORIES_PER_STATE_BEFORE_DELETING_LASSIEZ_FAIRE = 3, -- Min factories per state before deleting under LF (higher = AI preserves industry)
@@ -115,7 +115,7 @@ economy = {
 	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.75, -- % of how much we pay to the pops and capitalists, from the leftovers.
 	MAX_FACTORY_MONEY_SAVE = 7500,	-- how much money is stored maximum in a factory (higher = factories survive downturns better)
 	SMALL_DEBT_LIMIT = 3500, -- threshold for "small debt" (higher = less panic, AI/countries tolerate more debt)
-	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.72, -- how close to employee limit before upgrade/expand (lower = expand earlier)
+	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.45, -- how close to employee limit before upgrade/expand (lower = expand earlier; factories before infra)
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.28,	-- how fast pops are Hired when there is a high demand
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_LO = 0.03,	-- how fast pops are Hired when there is a medium demand
 	RGO_SUPPLY_DEMAND_FACTOR_FIRE = 0.4,		-- how fast pops are Fired when there is a low demand
