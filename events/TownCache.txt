@@ -1,0 +1,107 @@
+# Синхронизация кэша штата: state_has_town / state_has_urban
+# town_infrastructure = one_per_state — достаточно штамповать весь штат от провинции с городом.
+# Событие молчаливое для ИИ; у игрока — один клик при рассинхроне (стройка города / старт).
+
+country_event = {
+	id = 910001
+	title = "EVTNAME910001"
+	desc = "EVTDESC910001"
+	picture = "administration"
+
+	trigger = {
+		OR = {
+			any_owned = {
+				has_building = town_infrastructure
+				NOT = { has_province_modifier = state_has_town }
+			}
+			any_owned = {
+				has_province_modifier = state_has_town
+				NOT = {
+					state_scope = {
+						any_owned = { has_building = town_infrastructure }
+					}
+				}
+			}
+			any_owned = {
+				terrain = urban
+				NOT = { has_province_modifier = state_has_urban }
+			}
+			any_owned = {
+				has_province_modifier = state_has_urban
+				NOT = {
+					state_scope = {
+						any_owned = { terrain = urban }
+					}
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	immediate = {
+		# --- town: добавить штамп на штат ---
+		any_owned = {
+			limit = {
+				has_building = town_infrastructure
+				NOT = { has_province_modifier = state_has_town }
+			}
+			state_scope = {
+				any_owned = {
+					limit = { NOT = { has_province_modifier = state_has_town } }
+					add_province_modifier = {
+						name = state_has_town
+						duration = -1
+					}
+				}
+			}
+		}
+		# --- town: снять штамп, если города в штате больше нет ---
+		any_owned = {
+			limit = {
+				has_province_modifier = state_has_town
+				NOT = {
+					state_scope = {
+						any_owned = { has_building = town_infrastructure }
+					}
+				}
+			}
+			remove_province_modifier = state_has_town
+		}
+		# --- urban: добавить штамп на штат ---
+		any_owned = {
+			limit = {
+				terrain = urban
+				NOT = { has_province_modifier = state_has_urban }
+			}
+			state_scope = {
+				any_owned = {
+					limit = { NOT = { has_province_modifier = state_has_urban } }
+					add_province_modifier = {
+						name = state_has_urban
+						duration = -1
+					}
+				}
+			}
+		}
+		# --- urban: снять штамп ---
+		any_owned = {
+			limit = {
+				has_province_modifier = state_has_urban
+				NOT = {
+					state_scope = {
+						any_owned = { terrain = urban }
+					}
+				}
+			}
+			remove_province_modifier = state_has_urban
+		}
+	}
+
+	option = {
+		name = "EVTOPTA910001"
+		ai_chance = { factor = 100 }
+	}
+}

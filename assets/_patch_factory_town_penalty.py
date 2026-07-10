@@ -1,4 +1,8 @@
-"""Штраф фабрик (Г) без города в штате — production_types.txt."""
+"""Штраф фабрик (Г) без города в штате — production_types.txt.
+
+Кэш: has_province_modifier = state_has_town / state_has_urban
+(штамп на все провинции штата, см. events/TownCache.txt).
+"""
 import re
 from pathlib import Path
 
@@ -47,83 +51,46 @@ FACTORIES = {
     "fertilizer_factory",
 }
 
-NO_TOWN = """
-\t\t\t\tNOT = {
-\t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_owned_province = {
-\t\t\t\t\t\t\thas_building = town_infrastructure
-\t\t\t\t\t\t}
-\t\t\t\t\t}
-\t\t\t\t}"""
+NO_TOWN = "\n\t\t\t\tNOT = { has_province_modifier = state_has_town }"
+HAS_URBAN = "\n\t\t\t\thas_province_modifier = state_has_urban"
+NO_URBAN = "\n\t\t\t\tNOT = { has_province_modifier = state_has_urban }"
 
-NON_COLONIAL_URBAN_EXEMPT = """
-\t\t\t\tNOT = {
-\t\t\t\t\tAND = {
-\t\t\t\t\t\towner = { colonial_politics = non_colonial }
-\t\t\t\t\t\tstate_scope = {
-\t\t\t\t\t\t\tany_owned_province = {
-\t\t\t\t\t\t\t\tterrain = urban
-\t\t\t\t\t\t\t}
-\t\t\t\t\t\t}
-\t\t\t\t\t}
-\t\t\t\t}"""
-
-HAS_URBAN = """
-\t\t\t\tstate_scope = {
-\t\t\t\t\tany_owned_province = {
-\t\t\t\t\t\tterrain = urban
-\t\t\t\t\t}
-\t\t\t\t}"""
-
-NO_URBAN = """
-\t\t\t\tNOT = {
-\t\t\t\t\tstate_scope = {
-\t\t\t\t\t\tany_owned_province = {
-\t\t\t\t\t\t\tterrain = urban
-\t\t\t\t\t\t}
-\t\t\t\t\t}
-\t\t\t\t}"""
-
-# 4 взаимоисключающих bonus — в тултипе один итоговый штраф, без «−70% + поправка».
+# 4 взаимоисключающих bonus. colonial_politics — через owner; town/urban — кэш O(1).
 PENALTY_BLOCK = f"""
-# town_penalty (Г) — см. non_colonial_desc / inner_colonisation_desc / external_colonisation_desc
-\tbonus = {{
-\t\ttrigger = {{
-\t\t\tAND = {{{NO_TOWN}{NON_COLONIAL_URBAN_EXEMPT}
-\t\t\t\towner = {{ NOT = {{ colonial_politics = inner_colonisation }} }}
-\t\t\t\t{NO_URBAN}
-\t\t\t}}
-\t\t}}
-\t\tvalue = -0.7
-\t}}
-\tbonus = {{
-\t\ttrigger = {{
-\t\t\tAND = {{{NO_TOWN}{NON_COLONIAL_URBAN_EXEMPT}
-\t\t\t\towner = {{ NOT = {{ colonial_politics = inner_colonisation }} }}
-\t\t\t\towner = {{ NOT = {{ colonial_politics = non_colonial }} }}
-\t\t\t\t{HAS_URBAN}
-\t\t\t}}
-\t\t}}
-\t\tvalue = -0.25
-\t}}
-\tbonus = {{
-\t\ttrigger = {{
-\t\t\tAND = {{{NO_TOWN}{NON_COLONIAL_URBAN_EXEMPT}
-\t\t\t\towner = {{ colonial_politics = inner_colonisation }}
-\t\t\t\t{HAS_URBAN}
-\t\t\t}}
-\t\t}}
-\t\tvalue = -0.10
-\t}}
-\tbonus = {{
-\t\ttrigger = {{
-\t\t\tAND = {{{NO_TOWN}{NON_COLONIAL_URBAN_EXEMPT}
-\t\t\t\towner = {{ colonial_politics = inner_colonisation }}
-\t\t\t\t{NO_URBAN}
-\t\t\t}}
-\t\t}}
-\t\tvalue = -0.20
-\t}}"""
+# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+	bonus = {{
+		trigger = {{
+			AND = {{
+				owner = {{ NOT = {{ colonial_politics = inner_colonisation }} }}{NO_TOWN}{NO_URBAN}
+			}}
+		}}
+		value = -0.7
+	}}
+	bonus = {{
+		trigger = {{
+			AND = {{
+				owner = {{ NOT = {{ colonial_politics = inner_colonisation }} }}
+				owner = {{ NOT = {{ colonial_politics = non_colonial }} }}{NO_TOWN}{HAS_URBAN}
+			}}
+		}}
+		value = -0.25
+	}}
+	bonus = {{
+		trigger = {{
+			AND = {{
+				owner = {{ colonial_politics = inner_colonisation }}{NO_TOWN}{HAS_URBAN}
+			}}
+		}}
+		value = -0.10
+	}}
+	bonus = {{
+		trigger = {{
+			AND = {{
+				owner = {{ colonial_politics = inner_colonisation }}{NO_TOWN}{NO_URBAN}
+			}}
+		}}
+		value = -0.20
+	}}"""
 
 MARKER = "# town_penalty"
 

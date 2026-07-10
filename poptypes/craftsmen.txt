@@ -234,11 +234,7 @@ clerks = {
 			}
 		modifier = {
 			factor = 20
-			state_scope = {
-				any_owned_province = {
-					has_building = town_infrastructure
-				}
-			}
+			has_building = town_infrastructure
 		}
 		group = {
 			modifier = {
@@ -711,31 +707,19 @@ clerks = {
 		modifier = {
 			factor = 10
 			AND = {
-				state_scope = {
-					any_owned_province = {
-						has_building = town_infrastructure
-					}
-				}
-				colonial_politics = non_colonial
+				has_building = town_infrastructure
+				country = { colonial_politics = non_colonial }
+
 				NOT = { soldiers = 0.10 }
 			}
 		}
 		modifier = {
 			factor = 10
 			AND = {
-				NOT = {
-					state_scope = {
-						any_owned_province = {
-							has_building = town_infrastructure
-						}
-					}
-				}
-				state_scope = {
-					any_owned_province = {
-						terrain = urban
-					}
-				}
-				colonial_politics = non_colonial
+				NOT = { has_building = town_infrastructure }
+				terrain = urban
+				country = { colonial_politics = non_colonial }
+
 				NOT = { soldiers = 0.06 }
 			}
 		}
@@ -891,12 +875,14 @@ clerks = {
                         AND = { country = { has_country_flag = changed_army } soldiers = 0.052 }
                     }
 					AND = {
-						colonial_politics = external_colonisation
+						country = { colonial_politics = external_colonisation }
+
 						soldiers = 0.035
 						NOT = { is_overseas = yes }
 					}
 					AND = {
-						colonial_politics = external_colonisation
+						country = { colonial_politics = external_colonisation }
+
 						soldiers = 0.06
 						is_overseas = yes
 					}
@@ -914,7 +900,8 @@ clerks = {
 			factor = -20
 			AND = {
 				state_scope = { is_colonial = yes }
-				NOT = { colonial_politics = external_colonisation }
+				NOT = { country = { colonial_politics = external_colonisation } }
+
 				NOT = { soldiers = 0.042 }
 			}
 		}

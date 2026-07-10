@@ -291,11 +291,7 @@ promote_to =
 			}
 		modifier = {
 			factor = 20
-			state_scope = {
-				any_owned_province = {
-					has_building = town_infrastructure
-				}
-			}
+			has_building = town_infrastructure
 		}
 		group = {
 			modifier = {

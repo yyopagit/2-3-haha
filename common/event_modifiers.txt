@@ -1748,3 +1748,12 @@ spa_por_iberian_south_america = {
 	poor_life_needs = -0.10
 	icon = 5
 }
+
+# Кэш для town_penalty / фабрик: штамп на все провинции штата.
+# Проверка has_province_modifier = O(1), без any_owned_province каждый день.
+state_has_town = {
+	icon = 15
+}
+state_has_urban = {
+	icon = 15
+}
