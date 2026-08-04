@@ -50,13 +50,22 @@ political_decisions = {
 			has_country_flag = por_annexed_brazil
 		}
 		effect = {
-			BRZ_2428 = {
-				any_province = {
-					secede_province = POR
-					add_core = POR
-					life_rating = 34
-				}
-			}
+			2421 = { secede_province = THIS life_rating = 34 }
+			2422 = { secede_province = THIS life_rating = 34 }
+			2418 = { secede_province = THIS life_rating = 34 }
+			2423 = { secede_province = THIS life_rating = 34 }
+			2413 = { secede_province = THIS life_rating = 34 }
+			2417 = { secede_province = THIS life_rating = 34 }
+			2600 = { secede_province = THIS life_rating = 34 }
+			2550 = { secede_province = THIS life_rating = 34 }
+			2405 = { secede_province = THIS life_rating = 34 }
+			2404 = { secede_province = THIS life_rating = 34 }
+			2407 = { secede_province = THIS life_rating = 34 }
+			2549 = { secede_province = THIS life_rating = 34 }
+			2286 = { secede_province = THIS life_rating = 34 }
+			2401 = { secede_province = THIS life_rating = 34 }
+			2403 = { secede_province = THIS life_rating = 34 }
+			2411 = { secede_province = THIS life_rating = 34 }
 			set_country_flag = amazonia_integrated
 			badboy = 5
 		}
