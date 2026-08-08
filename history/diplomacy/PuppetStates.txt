@@ -167,3 +167,47 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
+#Вассалы Сёгуната
+
+vassal = {
+	first = TKG
+	second = SMZ
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = TKG
+	second = AVA
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = TKG
+	second = ASA
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = TKG
+	second = YMT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = TKG
+	second = DAT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = TKG
+	second = EDZ
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
