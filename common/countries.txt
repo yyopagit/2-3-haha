@@ -15,7 +15,15 @@ JAP		= "countries/Japan.txt"
 ITA		= "countries/Italy.txt"
 KUK		= "countries/Austria-Hungary.txt"
 
-
+#Japan
+TKG		= "countries/Tokugawa Shogunate.txt"
+YMT		= "countries/Yamato.txt"
+SMZ		= "countries/Shimazu.txt"
+AVA		= "countries/Ava.txt"
+ASA		= "countries/Asano.txt"
+DAT		= "countries/Date.txt"
+EDZ		= "countries/Edzo.txt"
+RYK		= "countries/Ryukyu.txt"
 
 # Scandinavia
 DEN		= "countries/Denmark.txt"

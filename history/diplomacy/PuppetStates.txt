@@ -145,3 +145,25 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
+
+#Тибет, Маньчжурия и Монголия вассалы Китая
+vassal = {
+	first = CHI
+	second = TIB
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = CHI
+	second = MGL
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+vassal = {
+	first = CHI
+	second = MCK
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
