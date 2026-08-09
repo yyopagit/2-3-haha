@@ -598,6 +598,147 @@ country_event = {
 			}
 			remove_country_modifier = poor_luxury_needs_satisfaction
 		}
+		
+		##########Договорные порты Китая###########
+		####Дебаффы на Китай
+		###Гонконг
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = honkong_lost }
+				tag = CHI
+				NOT = { 
+					1496 = { owned_by = CHI }
+				}
+			}
+			add_country_modifier = {
+				name = honkong_lost
+				duration = -1
+			}
+		}
+		###Макао
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = macao_lost }
+				tag = CHI
+				NOT = { 
+					1498 = { owned_by = CHI }
+				}
+			}
+			add_country_modifier = {
+				name = macao_lost
+				duration = -1
+			}
+		}
+		###Шанхай
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = shankhai_lost }
+				tag = CHI
+				NOT = { 
+					1538 = { owned_by = CHI }
+				}
+			}
+			add_country_modifier = {
+				name = shankhai_lost
+				duration = -1
+			}
+		}
+		###Циндао
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = zindao_lost }
+				tag = CHI
+				NOT = { 
+					1566 = { owned_by = CHI }
+				}
+			}
+			add_country_modifier = {
+				name = zindao_lost
+				duration = -1
+			}
+		}
+		###Порт-Артур
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = port_arthur_lost }
+				tag = CHI
+				NOT = { 
+					1481 = { owned_by = CHI }
+				}
+			}
+			add_country_modifier = {
+				name = port_arthur_lost
+				duration = -1
+			}
+		}
+		####Баффы за договорные порты
+		###Гонконг
+		any_country = {
+			limit = {
+				NOT = { 1496 = { has_province_modifier = honkong_captured } }
+				NOT = { tag = CHI }
+				owns = 1496
+			}
+			1496 = {
+				add_province_modifier = {
+					name = honkong_captured
+					duration = -1
+				}
+			}
+		}
+		### Макао
+		any_country = {
+			limit = {
+				NOT = { 1498 = { has_province_modifier = macao_captured } }
+				NOT = { tag = CHI }
+				owns = 1498
+			}
+			1498 = {
+				add_province_modifier = {
+					name = macao_captured
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = { 1538 = { has_province_modifier = shankhai_captured } }
+				NOT = { tag = CHI }
+				owns = 1538
+			}
+			1538 = {
+				add_province_modifier = {
+					name = shankhai_captured
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = { 1566 = { has_province_modifier = zindao_captured } }
+				NOT = { tag = CHI }
+				owns = 1566
+			}
+			1566 = {
+				add_province_modifier = {
+					name = zindao_captured
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = { 1481 = { has_province_modifier = port_arthur_captured } }
+				NOT = { tag = CHI }
+				owns = 1481
+			}
+			1481 = {
+				add_province_modifier = {
+					name = port_arthur_captured
+					duration = -1
+				}
+			}
+		}
 	}
 }
 

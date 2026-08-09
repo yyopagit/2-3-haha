@@ -1023,7 +1023,10 @@ PRODUCTION_REQUIRED_DAILY_INPUTS;Ежедневные затраты на производство:;X;X;X;X;X;X
 PRODUCTION_DAILY_OUTPUT;Выпуск в день:;X;X;X;X;X;X
 COUNTRYALERT_NO_HasClosedFactories;В данный момент у нас нет обанкротившихся фабрик.;X;X;X;X;X;X
 COUNTRYALERT_HasClosedFactories;У нас есть обанкротившиеся фабрики в следующих регионах:;X;X;X;X;X;X
-CHI_1496;Гонконг и Макао;X;X;X;X;X;X
+CHI_1496;Гонконг;X;X;X;X;X;X
+CHI_1498;Макао;X;X;X;X;X;X
+CHI_1538;Шанхай;X;X;X;X;X;X
+CHI_1566;Циндао;X;X;X;X;X;X
 ANY_STATE_STARTS;Любой регион;X;X;X;X;X;X
 indian_sepoys_title;Сипаи;X;X;X;X;X;X
 indian_sepoys_name;Индийские сипаи;X;X;X;X;X;X
@@ -24247,3 +24250,24 @@ EDZ;Эдзо;X;X;X;X;X;X
 EDZ_ADJ;Эдзоск.;X;X;X;X;X;X
 RYK;Рюкю;X;X;X;X;X;X
 RYK_ADJ;Рюкюск.;X;X;X;X;X;X
+NORMAL_WAR_TREATY_PORT_NAME;$ORDER$$FIRST$ опиумная война за $STATE$;X;X;X;X;X;X
+treaty_port_cb;Опиумная война;X;X;X;X;X;X
+treaty_port_cb_desc;Получение договорного порта у Китая;X;X;X;X;X;X
+treaty_port_cb_setup;Потребовать у державы $RECIPIENT$ передачи региона $STATE$ в качестве договорного порта;X;X;X;X;X;X
+treaty_port_cb_short;Получить договорный порт $STATE$;X;X;X;X;X;X
+treaty_port;Китайский порт;X;X;X;X;X;X
+honkong_captured;Договорный порт в Гонконге;X;X;X;X;X;X
+macao_captured;Договорный порт в Макао;X;X;X;X;X;X
+shankhai_captured;Договорный порт в Шанхае;X;X;X;X;X;X
+zindao_captured;Договорный порт в Циндао;X;X;X;X;X;X
+port_arthur_captured;Договорный порт в Порт-Артуре;X;X;X;X;X;X
+honkong_lost;Потеря договорного порта в Гонконге;X;X;X;X;X;X
+macao_lost;Потеря договорного порта в Макао;X;X;X;X;X;X
+shankhai_lost;Потеря договорного порта в Шанхае;X;X;X;X;X;X
+zindao_lost;Потеря договорного порта в Циндао;X;X;X;X;X;X
+port_arthur_lost;Потеря договорного порта в Порт-Артуре;X;X;X;X;X;X
+honkong_lost_desc;Договорный порт в Гонконге перешёл под контроль иностранной державы, что подрывает доходы и престиж Китайской империи.;X;X;X;X;X;X
+macao_lost_desc;Договорный порт в Макао перешёл под контроль иностранной державы, что подрывает доходы и престиж Китайской империи.;X;X;X;X;X;X
+shankhai_lost_desc;Договорный порт в Шанхае перешёл под контроль иностранной державы, что подрывает доходы и престиж Китайской империи.;X;X;X;X;X;X
+zindao_lost_desc;Договорный порт в Циндао перешёл под контроль иностранной державы, что подрывает доходы и престиж Китайской империи.;X;X;X;X;X;X
+port_arthur_lost_desc;Договорный порт в Порт-Артуре перешёл под контроль иностранной державы, что подрывает доходы и престиж Китайской империи.;X;X;X;X;X;X
