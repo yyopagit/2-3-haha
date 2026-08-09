@@ -1,7 +1,6 @@
 political_decisions = {
 
 	por_annex_brazil = {
-		picture = restore_brz
 		alert = yes
 		potential = {
 			tag = POR
@@ -38,7 +37,7 @@ political_decisions = {
 	}
 	
 	por_integrate_amazonia = {
-		picture = restore_brz
+		
 		alert = yes
 		potential = {
 			tag = POR
@@ -72,7 +71,6 @@ political_decisions = {
 	}
 	
 	por_integrate_colonies = {
-		picture = restore_brz
 		alert = yes
 		potential = {
 			tag = POR
@@ -134,7 +132,6 @@ political_decisions = {
 	}
 	
 	por_integrate_galicia = {
-		picture = restore_brz
 		alert = yes
 		potential = {
 			tag = POR
