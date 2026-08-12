@@ -472,6 +472,29 @@ political_reforms = {
 			}
 		}
 	}
+	
+	citizenship_politics = {
+		accepted_culture_only = {
+			allow = {
+				always = no
+			}
+			non_accepted_pop_militancy_modifier = 0.01
+		}
+		faster_assimilation = {
+			allow = {
+				always = no
+			}
+			global_assimilation_rate = 0.10
+		}
+		multiculturalism = {
+			allow = {
+				always = no
+			}
+		}
+	}
+	military_politics = {
+		
+	}
 }
 
 ##########################################

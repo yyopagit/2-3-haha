@@ -101,8 +101,17 @@ promotion_chance =
 		state_scope = { is_colonial = yes }
 	}
 	modifier = {
-		factor = -0.1
+		factor = 0.1
+		culture = this
+		citizenship_politics = accepted_culture_only
+	}
+	modifier = {
+		factor = -0.3
 		not = { culture = this }
+		OR = {
+			citizenship_politics = accepted_culture_only
+			citizenship_politics = faster_assimilation
+		}
 	}
 	modifier = {
 		factor = -0.05
@@ -188,9 +197,17 @@ demotion_chance =
 			}
 	}
 	modifier = {
-		factor = -0.1
+		factor = 0.1
+		culture = this
+		citizenship_politics = accepted_culture_only
+	}
+	modifier = {
+		factor = -0.3
 		not = { culture = this }
-		strata = poor
+		OR = {
+			citizenship_politics = accepted_culture_only
+			citizenship_politics = faster_assimilation
+		}
 	}
 		modifier = {
 			factor = -0.02
@@ -691,6 +708,13 @@ assimilation_chance =
 			  has_country_flag = assimilation_spread
 		    }
 	    }
+	}
+	modifier = {
+		factor = 15
+		has_culture_core = yes
+		country = {
+			citizenship_politics = faster_assimilation
+		}
 	}
 	 modifier = {
 	 factor = 0.5
