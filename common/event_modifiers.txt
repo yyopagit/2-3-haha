@@ -72,6 +72,33 @@ port_arthur_captured = {
 	mine_RGO_eff = 0.1
 	factory_output = 0.05
 }
+CHI_corruption_high = {
+	
+}
+CHI_corruption_medium = {
+	
+}
+CHI_corruption_low = {
+	
+}
+CHI_corruption_no = {
+	
+}
+
+CHI_MGL_separatism = {
+	prestige = -0.025
+	land_organisation = -0.05
+}
+
+CHI_TIB_separatism = {
+	prestige = -0.025
+	land_organisation = -0.05
+}
+
+CHI_MCK_separatism = {
+	prestige = -0.025
+	land_organisation = -0.05
+}
 #-------------------------------------------------------ВЕЛИКОБРИТАНИЯ АНГЛИЯ ВБ-------------------------------------------------------
 Tea_need = {
 	farm_RGO_eff = 2

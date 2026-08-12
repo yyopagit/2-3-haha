@@ -661,6 +661,34 @@ guiTypes = {
 			}
 			
 			windowType = {
+				name = "citizenship_politics"
+				backGround =""
+				position = { x = 843 y = 532 }
+				size = { x=310 y=100 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder = "0"
+				verticalBorder = ""
+				fullScreen = no
+				
+				iconType = {
+				 name = "politics_citizenship_politics"
+				 spriteType = "GFX_citizenship_politics"
+				 position = { x= 5 y = 12 }
+				 Orientation = "UPPER_LEFT"
+			 }
+				
+				instantTextBoxType = { 
+					name = "reform_name"
+					position = { x = 39 y = 20 }
+					font = "vic_18"
+					text = "REFORM_NAME"	
+					maxWidth = 100
+					maxHeight = 20	
+				}
+			}
+			
+			windowType = {
 				name = "medical_reforms"
 				backGround =""
 				position = {  x = 843 y = 402 }

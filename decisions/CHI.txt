@@ -1,77 +1,207 @@
 political_decisions = {
-	clear_out_the_manchu_elite = {
-	picture = clear_out_the_manchu_elite
+	###Коррупция
+	CHI_cut_down_high_corruption = {
 		potential = {
 			tag = CHI
-			government = absolute_monarchy
-			is_greater_power = no
-			civilized = no
-			year = 1860
-			NOT = {
-				has_country_flag = manchu_elite_cleared_out
-			}
+			NOT = { has_country_flag = CHI_high_corruption_lost }
+			has_country_flag = CHI_corrupt_high
 		}
 		allow = {
-			average_consciousness = 3
+			prestige = 1
 		}
 		effect = {
-			years_of_research = 0.1
-			any_pop = {
-				limit = {
-					has_pop_culture = manchu
-				}
-				militancy = 2
-				consciousness = 1
-			}
-			set_country_flag = manchu_elite_cleared_out
+			clr_country_flag = CHI_corrupt_high
+			set_country_flag = CHI_corrupt_medium
+			set_country_flag = CHI_high_corruption_lost
+			CHI_corruption_high = {}
 		}
 	}
-	support_boxers = {
-	picture = support_boxers
+	CHI_cut_down_medium_corruption = {
 		potential = {
 			tag = CHI
-			NOT = {
-				has_country_flag = supported_boxers
-			}
-			government = absolute_monarchy
-			is_greater_power = no
-			civilized = no
-			year = 1860
-			is_independant = no
-			any_owned_province = {
-				OR = {
-					has_province_modifier = western_presence
-					has_province_modifier = foreign_smugglers
-					has_province_modifier = foreign_trading_post
-					has_province_modifier = local_opium_habit
-					has_province_modifier = european_military_mission
-				}
-			}
+			NOT = { has_country_flag = CHI_medium_corruption_lost }
+			has_country_flag = CHI_corrupt_medium
 		}
 		allow = {
-			is_independant = no
+			prestige = 1
 		}
 		effect = {
-			any_owned = {
-				limit = {
-					OR = {
-						has_province_modifier = western_presence
-						has_province_modifier = foreign_smugglers
-						has_province_modifier = foreign_trading_post
-						has_province_modifier = local_opium_habit
-						has_province_modifier = european_military_mission
-					}
-				}
-				any_pop = {
-					militancy = 8
-					ideology = {
-						value = reactionary
-						factor = 0.3
-					}
-				}
-			}
-			prestige = 5
-			set_country_flag = supported_boxers
+			clr_country_flag = CHI_corrupt_medium
+			set_country_flag = CHI_corrupt_low
+			set_country_flag = CHI_medium_corruption_lost
+			CHI_corruption_medium = {}
+		}
+	}
+	CHI_cut_down_low_corruption = {
+		potential = {
+			tag = CHI
+			NOT = { has_country_flag = CHI_low_corruption_lost }
+			has_country_flag = CHI_corrupt_low
+		}
+		allow = {
+			prestige = 1
+		}
+		effect = {
+			clr_country_flag = CHI_corrupt_low
+			set_country_flag = CHI_corrupt_no
+			set_country_flag = CHI_corruption_lost
+			CHI_corruption_low = {}
+		}
+	}
+	###Аннексия Вассалов
+	annex_TIB = {
+		potential = {
+			tag = CHI
+			has_country_flag = TIB_not_annexed
+			NOT = { has_country_flag = TIB_annexed }
+			TIB = { vassal_of = CHI }
+		}
+		allow = {
+			TIB = { vassal_of = CHI }
+			state_n_government = 1
+		}
+		effect = {
+			inherit = TIB
+			badboy = 6
+			TIB = { all_core = { add_core = CHI } }
+			remove_country_modifier = CHI_TIB_separatism
+			clr_country_flag = TIB_not_annexed
+			set_country_flag = TIB_annexed
+		}
+	}
+	remove_TIB_debuff = {
+		potential = {
+			tag = CHI
+			has_country_flag = TIB_not_annexed
+			NOT = { has_country_flag = TIB_removed }
+			NOT = { TIB = { vassal_of = CHI } }
+		}
+		allow = {
+			TIB = { vassal_of = CHI }
+			state_n_government = 1
+		}
+		effect = {
+			badboy = 6
+			remove_country_modifier = CHI_TIB_separatism
+			set_country_flag = TIB_removed
+		}
+	}
+	annex_MGL = {
+		potential = {
+			tag = CHI
+			has_country_flag = MGL_not_annexed
+			NOT = { has_country_flag = MGL_annexed }
+			MGL = { vassal_of = CHI }
+		}
+		allow = {
+			ideological_thought = 1
+		}
+		effect = {
+			inherit = MGL
+			badboy = 5
+			MGL = { all_core = { add_core = CHI } }
+			remove_country_modifier = CHI_MGL_separatism
+			clr_country_flag = MGL_not_annexed
+			set_country_flag = MGL_annexed
+		}
+	}
+	remove_MGL_debuff = {
+		potential = {
+			tag = CHI
+			has_country_flag = MGL_not_annexed
+			NOT = { has_country_flag = MGL_removed }
+			NOT = { MGL = { vassal_of = CHI } }
+		}
+		allow = {
+			ideological_thought = 1
+		}
+		effect = {
+			badboy = 5
+			remove_country_modifier = CHI_MGL_separatism
+			set_country_flag = MGL_removed
+		}
+	}
+	annex_MCK = {
+		potential = {
+			tag = CHI
+			has_country_flag = MCK_not_annexed
+			NOT = { has_country_flag = MCK_annexed }
+			MCK = { vassal_of = CHI }
+		}
+		allow = {
+			MCK = { vassal_of = CHI }
+			nationalism_n_imperialism = 1
+		}
+		effect = {
+			inherit = MCK
+			badboy = 7
+			MCK = { all_core = { add_core = CHI } }
+			remove_country_modifier = CHI_MCK_separatism
+			clr_country_flag = MCK_not_annexed
+			set_country_flag = MCK_annexed
+		}
+	}
+	remove_MCK_debuff = {
+		potential = {
+			tag = CHI
+			has_country_flag = MCK_not_annexed
+			NOT = { has_country_flag = MCK_removed }
+			NOT = { MCK = { vassal_of = CHI } }
+		}
+		allow = {
+			ideological_thought = 1
+		}
+		effect = {
+			badboy = 7
+			remove_country_modifier = CHI_MCK_separatism
+			set_country_flag = MCK_removed
+		}
+	}
+	####Снятие дебаффов с регионов
+	###Экономическая зона желтого моря
+	CHI_yellowSea_zone_reduce_high = {
+		potential = {
+			tag = CHI
+			has_country_flag = yellowSea_zone_high
+			NOT = { has_country_flag = CHI_yellowSea_zone_reduce_high_done }
+		}
+		allow = {
+			
+		}
+		effect = {
+			prestige = 25
+			set_country_flag = CHI_yellowSea_zone_reduce_high_done
+			clr_country_flag = yellowSea_zone_high
+			set_country_flag = yellowSea_zone_medium
+		}
+	}
+	CHI_yellowSea_zone_reduce_medium = {
+		potential = {
+			tag = CHI
+			has_country_flag = yellowSea_zone_medium
+			NOT = { has_country_flag = CHI_yellowSea_zone_reduce_medium_done }
+		}
+		allow = {
+			
+		}
+		effect = {
+			set_country_flag = CHI_yellowSea_zone_reduce_medium_done
+			clr_country_flag = yellowSea_zone_medium
+			set_country_flag = yellowSea_zone_low
+		}
+	}
+	CHI_yellowSea_zone_reduce_low = {
+		potential = {
+			tag = CHI
+			has_country_flag = yellowSea_zone_low
+			NOT = { has_country_flag = CHI_yellowSea_zone_reduce_low_done }
+		}
+		allow = {
+			
+		}
+		effect = {
+			set_country_flag = CHI_yellowSea_zone_reduce_low_done
+			clr_country_flag = yellowSea_zone_low
 		}
 	}
 }

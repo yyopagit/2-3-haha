@@ -81,6 +81,22 @@ political_decisions = {
 				country_event = 999003
 
 			}
+			
+			CHI = { 
+				add_country_modifier = {
+					name = CHI_MGL_separatism
+					duration = -1
+				}
+				add_country_modifier = {
+					name = CHI_TIB_separatism
+					duration = -1
+				}
+				add_country_modifier = {
+					name = CHI_MCK_separatism
+					duration = -1
+				}
+			}
+			
 			any_country = {
 				social_reform = good_subsidies
 				social_reform = good_pensions

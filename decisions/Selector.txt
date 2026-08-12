@@ -6,6 +6,7 @@ political_decisions = {
 				META_1 = {
 					owner = {
 						ai = no
+						NOT = { tag = CHI }
 						any_owned_province = { has_building = province_selector }
 					}
 				}
@@ -25,6 +26,43 @@ political_decisions = {
 						}
 						province_event = {
 							id = 144407
+							days = 0
+						}
+						province_selector = -1
+					}
+				}
+			}
+			
+			ai_will_do = { factor = 1 }
+		}
+		
+	select_prov_CHI = {
+		picture = build_kiel_canal
+			potential = {
+				tag = JAN
+				META_1 = {
+					owner = {
+						ai = no
+						any_owned_province = { has_building = province_selector }
+					}
+				}
+			}
+			allow = {
+				tag = JAN
+			}
+			effect = {
+				any_country = {
+					limit = {
+						ai = no
+						tag = CHI
+						any_owned_province = { has_building = province_selector }
+					}
+					random_owned = {
+						limit = {
+							has_building = province_selector
+						}
+						province_event = {
+							id = 144408
 							days = 0
 						}
 						province_selector = -1

@@ -779,6 +779,44 @@ province_event = {
 	}
 }
 
+province_event = {
+	title = "Selector_EvtName"
+	desc = "Selector_EvtDesc"
+	id = 144408
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Selector_EvtOptCancel"
+		province_selector = -1
+	}
+	option = {
+		name = "Selector_EvtOptSupplyDepot"
+		owner = {
+			money = -500000
+			any_owned = {
+				remove_province_modifier = provincial_supply_depot_pmodifier
+			}
+		}
+		add_province_modifier = {
+			name = provincial_supply_depot_pmodifier
+			duration = -1
+		}
+		province_selector = -1
+	}
+	option = {
+		name = "CHINA"
+	}
+	option = {
+		name = "Selector_EvtOptRemAllSelectors"
+		owner = {
+			any_owned = {
+				province_selector = -1
+			}
+		}
+	}
+}
+
 ####Снятие доп уровня жизни в Германии
 
 country_event = {
