@@ -493,7 +493,51 @@ political_reforms = {
 		}
 	}
 	military_politics = {
-		
+		regular_army = {
+			allow = {
+				always = no
+			}
+		}
+		mass_army = {
+			allow = {
+				always = no
+			}
+		}
+		more_mobilisation = {
+			allow = {
+				always = no
+			}
+		}
+		faster_reinforsements = {
+			allow = {
+				always = no
+			}
+		}
+		small_and_quality_army = {
+			allow = {
+				always = no
+			}
+		}
+		prussian_academy = {
+			allow = {
+				always = no
+			}
+		}
+		kwantung_army = {
+			allow = {
+				always = no
+			}
+		}
+		red_army = {
+			allow = {
+				always = no
+			}
+		}
+		blitzkrieg_doctrine = {
+			allow = {
+				always = no
+			}
+		}
 	}
 }
 

@@ -2793,31 +2793,31 @@
 	}
 
 	bureaucrats = {
-		culture = nanfaren
+		culture = beifaren
 		religion = orthodox
 		size = 5
 	}
 
 	clergymen = {
-		culture = nanfaren
+		culture = beifaren
 		religion = orthodox
 		size = 75
 	}
 
 	artisans = {
-		culture = nanfaren
+		culture = beifaren
 		religion = orthodox
 		size = 200
 	}
 
 	soldiers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = orthodox
 		size = 50
 	}
 
 	farmers = {
-		culture = nanfaren
+		culture = beifaren
 		religion = orthodox
 		size = 3670
 	}
