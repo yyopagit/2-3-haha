@@ -1,217 +1,328 @@
 political_decisions = {
-
-	rise_of_siam_start = {
-		potential = { 
+rise_of_siam_start = {
+	potential = { 
+		OR = {
 			tag = SIA
-			NOT = {
-				has_country_flag = first_reform_started
-			}
+			tag = INC
 		}
-	
-		allow = {
-			tag = SIA
-		}
-	
-		effect = {
-			set_country_flag = first_reform_started
-			add_country_modifier = { name = rise_of_siam_1 duration = 7300}
-		}
-	
-	}
-
-	fate_of_burma = {
-		potential = { 
-			tag = SIA
-			NOT = {
-				has_country_flag = fate_of_burma_sealed
-			}
-			
-		}
-	
-		allow = {
-			SIA = {
-				owns = 1334
-			}
-		}
-	
-		effect = {
-			set_country_flag = fate_of_burma_sealed
-			BUR_1339 = { add_core = THIS }
-			BUR_1330 = { add_core = THIS }
-			add_accepted_culture = burmese
-			badboy = 14
-		}
-	
-	}
-
-	#otkaz_birma = {
-	#    potential = { 
-	#        tag = SIA
-	#        NOT = {
-	#            has_country_flag = fate_of_burma_sealed
-	#        }
-	#    }
-	#
-	#    allow = {
-	#        
-	#    }
-	#
-	#    effect = {
-	#        set_country_flag = fate_of_burma_sealed
-	#    }
-	#
-	#    ai_will_do = {
-	#        factor = 1
-	#    }
-	#}
-
-	malakka_king = {
-		potential = {
-			tag = SIA
-			NOT = {
-				has_country_flag = malakka_king
-			} 
-		}
-	
-		allow = {
-			prestige = 10
-			THIS = {
-				owns = 1385
-			}
-		}
-	
-		effect = {
-			ENG_1384 = { add_core = THIS }
-			prestige = 30
-			badboy = 3
-			ENG_1384 = { remove_core = JOH }
-			set_country_flag = malakka_king
-		}
-	
-		ai_will_do = {
-			factor = 1
+		NOT = {
+			has_country_flag = first_reform_started
 		}
 	}
 
-	malakka_boost = {
-		potential = { 
+	allow = {
+		OR = {
 			tag = SIA
-			NOT = {
-				has_country_flag = malakka_boosted
-			}
+			tag = INC
 		}
-	
-		allow = {
+	}
+
+	effect = {
+		set_country_flag = first_reform_started
+		add_country_modifier = { name = rise_of_siam_1 duration = 7300}
+	}
+}
+
+fate_of_burma = {
+	potential = { 
+		OR = {
+			tag = SIA
+			tag = INC
+		}
+		NOT = {
+			has_country_flag = fate_of_burma_sealed
+		}
+	}
+
+	allow = {
+		SIA = {
+			owns = 1334
+		}
+	}
+
+	effect = {
+		set_country_flag = fate_of_burma_sealed
+		BUR_1339 = { add_core = THIS }
+		BUR_1330 = { add_core = THIS }
+		add_accepted_culture = burmese
+		badboy = 14
+	}
+}
+
+malakka_king = {
+	potential = {
+		OR = {
+			tag = SIA
+			tag = INC
+		}
+		NOT = {
 			has_country_flag = malakka_king
-			money = 1500000
-			alliance_with = ENG
-		}
-	
-		effect = {
-			money = -1500000
-			ENG = {
-				country_event = 676721
-			}
-			set_country_flag = malakka_boosted
-		}
-	
-		ai_will_do = {
-			factor = 1
 		}
 	}
 
-	dainam_offensive = {
-		potential = { 
-			tag = SIA
-			NOT = {
-				has_country_flag = dainam_conquered
-			}
+	allow = {
+		prestige = 10
+		THIS = {
+			owns = 1385
 		}
-	
-		allow = {
-			prestige = 30
-			year = 1841
+	}
+
+	effect = {
+		ENG_1384 = { add_core = THIS }
+		prestige = 30
+		badboy = 3
+		ENG_1384 = { remove_core = JOH }
+		set_country_flag = malakka_king
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+malakka_boost = {
+	potential = { 
+		OR = {
+			tag = SIA
+			tag = INC
+		}
+		NOT = {
+			has_country_flag = malakka_boosted
+		}
+	}
+
+	allow = {
+		has_country_flag = malakka_king
+		money = 1500000
+		alliance_with = ENG
+	}
+
+	effect = {
+		money = -1500000
+		ENG = {
+			country_event = 676721
+		}
+		set_country_flag = malakka_boosted
+	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
+
+dainam_offensive = {
+	potential = { 
+		OR = {
+			tag = SIA
+			tag = INC
+		}
+		NOT = {
+			has_country_flag = dainam_conquered
+		}
+	}
+
+	allow = {
+		prestige = 30
+		year = 1841
+		civilized = yes
+		exists = DAI
+	}
+
+	effect = {
+		set_country_flag = dainam_conquered
+		badboy = 10
+		ANN_1371 = {
+			add_core = SIA
+		}
+		ANN_1374 = {
+			add_core = SIA
+		}
+		ANN_1383 = {
+			add_core = SIA
+		}
+		DAI = {
 			civilized = yes
-			exists = DAI
+			annex_to = SIA
+		} 
+	}
+}
+
+annex_cambodia = {
+	potential = {
+		OR = {
+			tag = SIA
+			tag = INC
 		}
-	
-		effect = {
-			set_country_flag = dainam_conquered
-			badboy = 10
-			ANN_1371 = {
-				add_core = SIA
-			}
-			ANN_1374 = {
-				add_core = SIA
-			}
-			ANN_1383 = {
-				add_core = SIA
-			}
-			DAI = {
-				civilized = yes
-				annex_to = SIA
-			} 
-		}
-	
+		NOT = {
+			has_country_flag = cambodia_annexed
+		} 
+		exists = CAM
 	}
 
-	annex_cambodia = {
-		potential = {
-			NOT = {
-				has_country_flag = cambodia_annexed
-			} 
-			tag = SIA
-			exists = CAM
-		}
-	
-		allow = {
-			prestige = 30
-			year = 1841
-			exists = CAM
-		}
-	
-		effect = {
-			badboy = 5
-			CAM = {
-				civilized = yes
-				all_core = {
-					add_core = SIA
-				}
-			}
-			CAM = {
-				annex_to = SIA
-			}    
-		}
-	
+	allow = {
+		prestige = 30
+		year = 1841
+		exists = CAM
 	}
 
-	request_help_sia = {
-		potential = { 
+	effect = {
+		badboy = 5
+		CAM = {
+			civilized = yes
+			all_core = {
+				add_core = SIA
+			}
+		}
+		CAM = {
+			annex_to = SIA
+		}    
+	}
+}
+
+request_help_sia = {
+	potential = { 
+		OR = {
 			tag = SIA
-			NOT = {
-				has_country_flag = help_granted1
+			tag = INC
+		}
+		NOT = {
+			has_country_flag = help_granted1
+		}
+	}
+
+	allow = {
+		NOT = {
+			has_country_modifier = grant_kd1
+		}
+	}
+
+	effect = {
+		SIA = {
+			country_event = 67675
+		}
+		SIA = {
+			add_country_modifier = {
+				name = grant_kd1
+				duration = 730
 			}
 		}
-	
-		allow = {
-			NOT = {
-				has_country_modifier = grant_kd1
-			}
+	}
+}
+
+form_indochina = {
+
+	potential = {
+		tag = SIA
+		NOT = {
+			exists = INC
 		}
-	
-		effect = {
-			SIA = {
-				country_event = 67675
-			}
-			SIA = {
-				add_country_modifier = {
-					name = grant_kd1
-					duration = 730
+	}
+
+	allow = {
+		war = no
+
+		BUR = {
+			all_core = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
 				}
 			}
 		}
-	
+
+		DAI = {
+			all_core = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+		}
+
+		JOH = {
+			all_core = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+		}
+
+		CAM = {
+			all_core = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						in_sphere = THIS
+					}
+				}
+			}
+		}
+	}
+
+	effect = {
+		change_tag = INC
+
+		prestige = 50
+
+		add_accepted_culture = vietnamese
+		add_accepted_culture = burmese
+		add_accepted_culture = malay
+
+		BUR = {
+			all_core = {
+				add_core = INC
+			}
+		}
+
+		DAI = {
+			all_core = {
+				add_core = INC
+			}
+		}
+
+		JOH = {
+			all_core = {
+				add_core = INC
+			}
+		}
+
+		CAM = {
+			all_core = {
+				add_core = INC
+			}
+		}
+
+		any_country = {
+			limit = {
+				OR = {
+					tag = BUR
+					tag = DAI
+					tag = JOH
+					tag = CAM
+				}
+
+				in_sphere = THIS
+			}
+
+			country_event = {
+				id = 11101
+				days = 0
+			}
+		}
+
 		
 	}
+
+	ai_will_do = {
+		factor = 1
+	}
+}
 
 }
