@@ -484,6 +484,10 @@ promote_to =
 	soldiers =
 	{
 		factor = 0.01
+		modifier = {
+			factor = 5
+			country = { military_politics = faster_reinforsements }
+		}
 		group = {
 			modifier = {
 				factor = -4
@@ -700,36 +704,85 @@ promote_to =
 			modifier = {
                 factor = -100
                 OR    =    {
-				    AND    =    {
-					country = {
-					NOT = {has_country_flag = changed_army}}
-                    soldiers = 0.05}
                     AND    =    {
-					country = {
-					NOT = {has_country_flag = changed_army}}
+                        country = {
+                            NOT = {
+                                OR = {
+                                    military_politics = mass_army
+                                    military_politics = prussian_academy
+                                    military_politics = red_army
+                                    military_politics = small_and_quality_army
+                                }
+                            }
+                        }
+                        soldiers = 0.05}
+                    AND    =    {
+                        country = {
+                            NOT = {
+                                OR = {
+                                    military_politics = mass_army
+                                    military_politics = prussian_academy
+                                    military_politics = red_army
+                                    military_politics = small_and_quality_army
+                                }
+                            }
+                        }
                         soldiers = 0.046
                     }
                     AND    =    {
-										country = {
-					NOT = {has_country_flag = changed_army}}
+                        country = {
+                            NOT = {
+                                OR = {
+                                    military_politics = mass_army
+                                    military_politics = prussian_academy
+                                    military_politics = red_army
+                                    military_politics = small_and_quality_army
+                                }
+                            }
+                        }
                         soldiers = 0.042
                     }
-					AND    =    {
-										country = {
-					 has_country_flag = changed_army}
+                    AND    =    {
+                        country = {
+                            OR = {
+                                military_politics = mass_army
+                                military_politics = prussian_academy
+                                military_politics = red_army
+                            }
+                        }
                         soldiers = 0.056
                     }
-					 AND    =    {
-										country = {
-					 has_country_flag = changed_army}
+                    AND    =    {
+                        country = {
+                            OR = {
+                                military_politics = mass_army
+                                military_politics = prussian_academy
+                                military_politics = red_army
+                            }
+                        }
                         soldiers = 0.052
                     }
-					 AND    =    {
-					 country = {
-			has_country_flag = changed_army
-		                      }
-                         
+                    AND    =    {
+                        country = {
+                            OR = {
+                                military_politics = mass_army
+                                military_politics = prussian_academy
+                                military_politics = red_army
+                            }
+                        }
                         soldiers = 0.06
+                    }
+                    AND    =    {
+                        country = { military_politics = small_and_quality_army }
+                        soldiers = 0.032
+                    }
+                    AND    =    {
+                        country = { military_politics = small_and_quality_army }
+                        soldiers = 0.026
+                    }
+                    AND    =    {
+                        country = { military_politics = small_and_quality_army }
+                        soldiers = 0.022
                     }
 					AND = {
 						country = { colonial_politics = external_colonisation }
@@ -753,12 +806,6 @@ promote_to =
 				NOT = { country = { colonial_politics = external_colonisation } }
 
 				NOT = { soldiers = 0.042 }
-			}
-		}
-		group = {
-			modifier = {
-				factor = 6
-				country = { has_country_flag = changed_army }
 			}
 		}
 	}

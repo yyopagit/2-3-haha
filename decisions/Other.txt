@@ -678,57 +678,6 @@ picture = palais_garnier
  country_event = { id=347005 days=0 }
             }
 	                }
-		go_to_regular_focus = {
-		picture = palais_garnier
-	alert = yes 
-	potential = {
-	year = 1870
-               }
-     allow = {
-	 	year = 1880
-	 ai = no
-		NOT = {
-				has_country_flag = changed_army2
-			}
-			NOT = {
-				has_country_flag = changed_army
-			}
-			war = no
-			is_mobilised = no
-             }
-	effect = {
-	 add_country_modifier = {
-	 name = army_changed
-	 duration = -1
-	                        }
-  set_country_flag = changed_army
-            }
-	                }
-		go_back_to_mobile = {
-		picture = palais_garnier
-	alert = yes 
-	potential = {
-	has_country_flag = changed_army
-	year = 1865
-               }
-     allow = {
-	 	year = 1870
-		 ai = no
-		NOT = {
-				has_country_modifier = army_changed2
-			}
-             }
-	effect = {
-	remove_country_modifier = army_changed
-	 add_country_modifier = {
-	 name = army_changed2		
-	 duration = 1825
-	                        }
-							set_country_flag = changed_army2
- country_event = { id=99912115 days=1825 }
-  clr_country_flag = changed_army
-            }
-	                }
 experience = { 
 	picture = expand_motala_verkstad
 		potential = {

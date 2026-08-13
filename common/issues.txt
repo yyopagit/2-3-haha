@@ -494,46 +494,78 @@ political_reforms = {
 	}
 	military_politics = {
 		regular_army = {
+			land_organisation = 0.1
+			mobilisation_size = -0.02
+			supply_consumption = -0.1
 			allow = {
 				always = no
 			}
 		}
 		mass_army = {
+			land_organisation = -0.05
+			land_unit_start_experience = -5
 			allow = {
 				always = no
 			}
 		}
 		more_mobilisation = {
+			mobilisation_size = 0.02
+			land_unit_start_experience = -5
 			allow = {
 				always = no
 			}
 		}
 		faster_reinforsements = {
+			reinforce_speed = 0.3
+			org_regain = 0.05
+			supply_consumption = 0.1
 			allow = {
 				always = no
 			}
 		}
 		small_and_quality_army = {
+			land_unit_start_experience = 20
+			mobilisation_size = -0.05
+			land_organisation = 0.3
+			leadership_modifier = 0.1
+			supply_consumption = -0.3
 			allow = {
 				always = no
 			}
 		}
 		prussian_academy = {
+			land_organisation = 0.1
+			leadership_modifier = 0.15
+			land_unit_start_experience = 10
+			mobilisation_size = -0.04
 			allow = {
 				always = no
 			}
 		}
 		kwantung_army = {
+			land_organisation = 0.1
+			org_regain = 0.1
+			supply_consumption = -0.1
+			reinforce_speed = 0.1
+			war_exhaustion = -0.05
 			allow = {
 				always = no
 			}
 		}
 		red_army = {
+			mobilisation_size = 0.02
+			supply_consumption = -0.2
+			land_organisation = -0.1
+			land_unit_start_experience = 10
 			allow = {
 				always = no
 			}
 		}
 		blitzkrieg_doctrine = {
+			org_regain = 0.2
+			supply_consumption = -0.1
+			land_organisation = 0.15
+			reinforce_speed = 0.2
 			allow = {
 				always = no
 			}

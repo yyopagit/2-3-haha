@@ -1166,13 +1166,6 @@ exp = {
 fabrics = {
 	factory_owner_cost = -0.20
 }
-army_changed = {
-	leadership_modifier = 0.15
-	mobilisation_size = -0.06
-}
-army_changed2 = {
-	mobilisation_size = -0.03
-}
 obrazovanue_cost = {
 	education_efficiency_modifier = 0.35
 	tax_efficiency = -0.10

@@ -23120,16 +23120,6 @@ statue_bra;Статуя Христа-Искупителя;X;X;X;X;X;X
 statue_bra_desc;Спасение Пришло;X;X;X;X;X;X
 statue_bra2;Добровольцы Прибыли;X;X;X;X;X;X
 statue_bra2_desc;Надеемся Вовремя;X;X;X;X;X;X
-go_to_regular_focus_title;Фокус на регулярной Армии;X;X;X;X;X;X
-go_to_regular_focus_desc;Позволяет иметь на 1% солдат больше чем обычно, взамен 2% мобилки.(Смотреть в населении);X;X;X;X;X;X
-go_back_to_mobile_title;Восстановить обычный режим Армии;X;X;X;X;X;X
-go_back_to_mobile_desc;После переходного периода наша армия придет в норму.(Солдаты дебустятся быстрее до 5%);X;X;X;X;X;X
-changed_army;Реформа Армии;X;X;X;X;X;X
-changed_army2;Переходный Период;X;X;X;X;X;X
-army_changed;Фокус на Регулярной Армии;X;X;X;X;X;X
-army_changed_desc;Да поможет нам Антон;X;X;X;X;X;X
-army_changed2;Переход от Регуляров;X;X;X;X;X;X
-army_changed2_desc;К мобилке куда ж еще;X;X;X;X;X;X
 event_korsara_na_fermu;Увеличение размера дп на фермах;X;X;X;X;X;X
 event_korsara_na_shaxtu;Увеличение размера дп на шахтах;X;X;X;X;X;X
 CANAL_11_otranto;Пролив Отранто;X;X;X;X;X;X
@@ -24312,3 +24302,22 @@ faster_assimilation;Ассимиляция второсортных граждан;X;X;X;X;X;X
 faster_assimilation_desc;Проведение политики ускоренной ассимиляции позволит быстрее интегрировать национальные меньшинства в господствующую культуру государства.\n\nАссимиляция меньшинств в их родных землях: §G+15%§!\nФактор повышения/понижения статуса для непризнанных культур: §R-0.03%§!;X;X;X;X;X;X
 multiculturalism;Мультикультурализм;X;X;X;X;X;X
 multiculturalism_desc;Этот вариант в данный момент не дает никаких бонусов и дебаффов;X;X;X;X;X;X
+military_politics;Воен. реформы;X;X;X;X;X;X
+regular_army;Регулярная армия;X;X;X;X;X;X
+regular_army_desc;Профессиональная кадровая армия постоянного состава.;X;X;X;X;X;X
+mass_army;Массовый призыв;X;X;X;X;X;X
+mass_army_desc;Всеобщая воинская повинность и опора на массовые армии.\n\nЛимит солдат в провинциях: §G+1%§!;X;X;X;X;X;X
+more_mobilisation;Мобилизационный резерв;X;X;X;X;X;X
+more_mobilisation_desc;Увеличение мобилизационного резерва страны.;X;X;X;X;X;X
+faster_reinforsements;Ускоренное обучение солдат;X;X;X;X;X;X
+faster_reinforsements_desc;Ускоренная подготовка и пополнение действующей армии.\n\nСкорость восстановления солдат в провинциях: §G+400%§!;X;X;X;X;X;X
+small_and_quality_army;Маленькая и качественная армия;X;X;X;X;X;X
+small_and_quality_army_desc;Небольшая, но отборная профессиональная армия.\n\nЛимит солдат в провинциях: §R-2%§!;X;X;X;X;X;X
+prussian_academy;Прусская академия;X;X;X;X;X;X
+prussian_academy_desc;Прусская военная школа и офицерская академия.\n\nЛимит солдат в провинциях: §G+1%§!;X;X;X;X;X;X
+kwantung_army;Квантунская армия;X;X;X;X;X;X
+kwantung_army_desc;Дух самураев: не отступать и не сдаваться.;X;X;X;X;X;X
+red_army;Красная армия;X;X;X;X;X;X
+red_army_desc;Массовая революционная армия рабочих и крестьян.\n\nЛимит солдат в провинциях: §G+1%§!;X;X;X;X;X;X
+blitzkrieg_doctrine;Доктрины блицкрига;X;X;X;X;X;X
+blitzkrieg_doctrine_desc;Молниеносная война - ставка на скорость и манёвр.;X;X;X;X;X;X

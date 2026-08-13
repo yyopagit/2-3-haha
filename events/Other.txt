@@ -18422,20 +18422,6 @@ country_event = {
 }
 
 country_event = {
-	picture = "Celebration"
-	id = 99912115
-    is_triggered_only = yes
-	title = "EVTNAME99912115"
-	desc = "EVTDESC99912115"
-
-	option = {
-		name = "EVTOPTA99912115"
-	    clr_country_flag = changed_army2
-	}
-
-}
-
-country_event = {
 	id = 32512
 
 	is_triggered_only = yes
