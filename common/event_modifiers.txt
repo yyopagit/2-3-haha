@@ -1833,6 +1833,14 @@ colonial_reform_change_cd = {
 	
 }
 
+military_reform_change_cd = {
+	
+}
+
+citizenship_reform_change_cd = {
+	
+}
+
 spa_por_iberian_south_america = {
 	max_social_spending = 0.10
 	tax_efficiency = 0.03

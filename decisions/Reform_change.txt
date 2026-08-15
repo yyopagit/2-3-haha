@@ -7,21 +7,25 @@ political_decisions = {
 			OR = {
 				NOT = { has_country_modifier = fleet_reform_change_cd }
 				NOT = { has_country_modifier = colonial_reform_change_cd }
+				NOT = { has_country_modifier = military_reform_change_cd }
+				NOT = { has_country_modifier = citizenship_reform_change_cd }
 			}
 		}
 		allow = {
 		}
 		effect = {
-			# Роутер встроен: открываем нужное меню без промежуточного окна
+			# Роутер: открываем нужное меню по комбинации кулдаунов
 			random_owned = {
 				limit = {
 					is_capital = yes
 					owner = {
 						NOT = { has_country_modifier = fleet_reform_change_cd }
 						NOT = { has_country_modifier = colonial_reform_change_cd }
+						NOT = { has_country_modifier = military_reform_change_cd }
+						NOT = { has_country_modifier = citizenship_reform_change_cd }
 					}
 				}
-				owner = { country_event = { id = 55555 days = 0 } }
+			owner = { country_event = { id = 55555 days = 0 } }
 			}
 			random_owned = {
 				limit = {
@@ -29,9 +33,11 @@ political_decisions = {
 					owner = {
 						NOT = { has_country_modifier = fleet_reform_change_cd }
 						has_country_modifier = colonial_reform_change_cd
+						has_country_modifier = military_reform_change_cd
+						has_country_modifier = citizenship_reform_change_cd
 					}
 				}
-				owner = { country_event = { id = 555551 days = 0 } }
+			owner = { country_event = { id = 555551 days = 0 } }
 			}
 			random_owned = {
 				limit = {
@@ -39,9 +45,155 @@ political_decisions = {
 					owner = {
 						has_country_modifier = fleet_reform_change_cd
 						NOT = { has_country_modifier = colonial_reform_change_cd }
+						has_country_modifier = military_reform_change_cd
+						has_country_modifier = citizenship_reform_change_cd
 					}
 				}
-				owner = { country_event = { id = 555552 days = 0 } }
+			owner = { country_event = { id = 555552 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_modifier = fleet_reform_change_cd
+						has_country_modifier = colonial_reform_change_cd
+						NOT = { has_country_modifier = military_reform_change_cd }
+						has_country_modifier = citizenship_reform_change_cd
+					}
+				}
+			owner = { country_event = { id = 555575 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_modifier = fleet_reform_change_cd
+						has_country_modifier = colonial_reform_change_cd
+						has_country_modifier = military_reform_change_cd
+						NOT = { has_country_modifier = citizenship_reform_change_cd }
+					}
+				}
+			owner = { country_event = { id = 555576 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = fleet_reform_change_cd }
+						NOT = { has_country_modifier = colonial_reform_change_cd }
+						has_country_modifier = military_reform_change_cd
+						has_country_modifier = citizenship_reform_change_cd
+					}
+				}
+			owner = { country_event = { id = 555577 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = fleet_reform_change_cd }
+						has_country_modifier = colonial_reform_change_cd
+						NOT = { has_country_modifier = military_reform_change_cd }
+						has_country_modifier = citizenship_reform_change_cd
+					}
+				}
+			owner = { country_event = { id = 555578 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = fleet_reform_change_cd }
+						has_country_modifier = colonial_reform_change_cd
+						has_country_modifier = military_reform_change_cd
+						NOT = { has_country_modifier = citizenship_reform_change_cd }
+					}
+				}
+			owner = { country_event = { id = 555579 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_modifier = fleet_reform_change_cd
+						NOT = { has_country_modifier = colonial_reform_change_cd }
+						NOT = { has_country_modifier = military_reform_change_cd }
+						has_country_modifier = citizenship_reform_change_cd
+					}
+				}
+			owner = { country_event = { id = 555580 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_modifier = fleet_reform_change_cd
+						NOT = { has_country_modifier = colonial_reform_change_cd }
+						has_country_modifier = military_reform_change_cd
+						NOT = { has_country_modifier = citizenship_reform_change_cd }
+					}
+				}
+			owner = { country_event = { id = 555581 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_modifier = fleet_reform_change_cd
+						has_country_modifier = colonial_reform_change_cd
+						NOT = { has_country_modifier = military_reform_change_cd }
+						NOT = { has_country_modifier = citizenship_reform_change_cd }
+					}
+				}
+			owner = { country_event = { id = 555582 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = fleet_reform_change_cd }
+						NOT = { has_country_modifier = colonial_reform_change_cd }
+						NOT = { has_country_modifier = military_reform_change_cd }
+						has_country_modifier = citizenship_reform_change_cd
+					}
+				}
+			owner = { country_event = { id = 555583 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = fleet_reform_change_cd }
+						NOT = { has_country_modifier = colonial_reform_change_cd }
+						has_country_modifier = military_reform_change_cd
+						NOT = { has_country_modifier = citizenship_reform_change_cd }
+					}
+				}
+			owner = { country_event = { id = 555584 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = fleet_reform_change_cd }
+						has_country_modifier = colonial_reform_change_cd
+						NOT = { has_country_modifier = military_reform_change_cd }
+						NOT = { has_country_modifier = citizenship_reform_change_cd }
+					}
+				}
+			owner = { country_event = { id = 555585 days = 0 } }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_modifier = fleet_reform_change_cd
+						NOT = { has_country_modifier = colonial_reform_change_cd }
+						NOT = { has_country_modifier = military_reform_change_cd }
+						NOT = { has_country_modifier = citizenship_reform_change_cd }
+					}
+				}
+			owner = { country_event = { id = 555586 days = 0 } }
 			}
 		}
 	}
