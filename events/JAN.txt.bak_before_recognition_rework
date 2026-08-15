@@ -1,0 +1,980 @@
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 140400
+	is_triggered_only = yes
+	
+	trigger = {
+		tag = JAN
+		NOT = {
+			has_country_modifier = mcl_happened_modifier
+		}
+	}
+	
+	
+	option = {
+		name = "noloc"
+		add_country_modifier = { name = mcl_happened_modifier duration = 360 }
+		country_event = { id = 140400 days = 30 }
+		
+		any_country = {
+			limit = {
+				exists = no
+				is_greater_power = no
+                capital_scope = { NOT = { province_control_days = 120 } }
+                OR = {
+                    is_mobilised = yes
+                    total_amount_of_ships = 1
+                }
+			}
+			annex_to = FROM
+		}
+		
+		###Удаление чиновников
+		
+		any_country = {
+			any_pop = {
+				limit = {
+					type = bureaucrats
+					is_accepted_culture = no
+					NOT = { continent = china }
+				}
+				pop_type = farmers
+			}
+		}
+		
+		####Маркер незаморских провинций
+		
+		any_country = {
+            
+            any_owned = {
+                limit = {
+                    NOT = {
+					is_overseas = yes
+					has_province_modifier = non_overseas_selector
+					}
+                }
+                
+                add_province_modifier = {
+                    name = non_overseas_selector
+                    duration = -1
+                }
+                
+            }
+        }
+		
+		##### Маркер неблокируемых портов для России и США
+		
+		RUS = {
+			RUS_non_blockaded = {
+				limit = { NOT = { has_province_modifier = non_blockadable_ports } }
+                add_province_modifier = {
+                    name = non_blockadable_ports
+                    duration = -1
+                }
+			}
+		}
+		
+		USA = {
+			USA_non_blockaded = {
+				limit = { NOT = { has_province_modifier = non_blockadable_ports } }
+                add_province_modifier = {
+                    name = non_blockadable_ports
+                    duration = -1
+                }
+			}
+		}
+		
+		###проверка изобретений колонизации
+		
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = malaria }
+					invention = prophylaxis_against_malaria
+				}
+			}
+			set_country_flag = malaria
+		}
+		
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = mission_to_civilize }
+					invention = mission_to_civilize
+				}
+			}
+			set_country_flag = mission_to_civilize
+		}
+		
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_country_flag = mission_to_civilize }
+					invention = colonial_negotiations
+				}
+			}
+			set_country_flag = colonial_negotiations
+		}
+		
+		##### маркер африканских миноров для захвата
+		
+		any_country = {
+			malaria_metarg = {
+				limit = { civilized = no NOT = { has_province_modifier = malaria_modifier } }
+				add_province_modifier = {
+					name = malaria_modifier
+					duration = -1
+				}
+			}
+		}
+		
+		any_country = {
+			harsh_malaria_metarg = {
+				limit = { civilized = no NOT = { has_province_modifier = harsh_malaria_modifier } }
+				add_province_modifier = {
+					name = harsh_malaria_modifier
+					duration = -1
+				}
+			}
+		}
+		
+		##### Провинциальные модификаторы для проливов и торговых центров
+		
+		517 = {
+			limit = { NOT = { has_province_modifier = gibraltar } }
+			add_province_modifier = {
+				name = gibraltar
+				duration = -1
+			}
+		}
+		1412 = {
+			limit = { NOT = { has_province_modifier = aden } }
+			add_province_modifier = {
+				name = aden
+				duration = -1
+			}
+		}
+		1384 = {
+			limit = { NOT = { has_province_modifier = singopur } }
+			add_province_modifier = {
+				name = singopur
+				duration = -1
+			}
+		}
+		1725 = {
+			limit = { NOT = { has_province_modifier = tunisik } }
+			add_province_modifier = {
+				name = tunisik
+				duration = -1
+			}
+		}
+		354 = {
+			limit = { NOT = { has_province_modifier = pribaltika } }
+			add_province_modifier = {
+				name = pribaltika
+				duration = -1
+			}
+		}
+		343 = {
+			limit = { NOT = { has_province_modifier = finland } }
+			add_province_modifier = {
+				name = finland
+				duration = -1
+			}
+		}
+		1084 = {
+			limit = { NOT = { has_province_modifier = primorsk} }
+			add_province_modifier = {
+				name = primorsk
+				duration = -1
+			}
+		}
+		1480 = {
+			limit = { NOT = { has_province_modifier = primorsk2 } }
+			add_province_modifier = {
+				name = primorsk2
+				duration = -1
+			}
+		}
+		
+		##### Модификатор на скорость постройки флота в метрополии вб
+		any_country = {
+			limit = {
+				AND = {
+					tag = ENG
+					NOT = {
+						has_country_modifier = uk_navy_tradition1
+					}
+				}
+			}
+			any_owned = {
+				limit = {
+					is_coastal = yes
+					port = yes
+					continent = england
+				}
+				add_province_modifier = {
+					name = uk_navy_tradition
+					duration = -1
+				}
+			}
+		}
+		#### Проверка оккупаций Японией Филлипин, Тайваня, Гавайев и Борнео
+		#### Филиппины
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_global_flag = filippines_occupied_by_japan }
+					has_global_flag = militarized_japan
+					1456 = { controlled_by = JAP }
+					1455 = { controlled_by = JAP }
+					1457 = { controlled_by = JAP }
+					1458 = { controlled_by = JAP }
+					1459 = { controlled_by = JAP }
+					1460 = { controlled_by = JAP }
+					1461 = { controlled_by = JAP }
+					2565 = { controlled_by = JAP }
+					1464 = { controlled_by = JAP }
+					1463 = { controlled_by = JAP }
+					1462 = { controlled_by = JAP }
+				}
+			}
+			1456 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1455 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1457 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1458 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1459 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1460 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1461 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			2565 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1464 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1463 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1462 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			set_global_flag = filippines_occupied_by_japan
+			
+		}
+		
+		any_country = {
+			limit = {
+				has_global_flag = filippines_occupied_by_japan
+				OR = {
+					1456 = { NOT = { controlled_by = JAP } }
+					1455 = { NOT = { controlled_by = JAP } }
+					1457 = { NOT = { controlled_by = JAP } }
+					1458 = { NOT = { controlled_by = JAP } }
+					1459 = { NOT = { controlled_by = JAP } }
+					1460 = { NOT = { controlled_by = JAP } }
+					1461 = { NOT = { controlled_by = JAP } }
+					2565 = { NOT = { controlled_by = JAP } }
+					1464 = { NOT = { controlled_by = JAP } }
+					1463 = { NOT = { controlled_by = JAP } }
+					1462 = { NOT = { controlled_by = JAP } }
+				}
+			}
+			1456 = { remove_province_modifier = japan_occupation }
+			1455 = { remove_province_modifier = japan_occupation }
+			1457 = { remove_province_modifier = japan_occupation }
+			1458 = { remove_province_modifier = japan_occupation }
+			1459 = { remove_province_modifier = japan_occupation }
+			1460 = { remove_province_modifier = japan_occupation }
+			1461 = { remove_province_modifier = japan_occupation }
+			2565 = { remove_province_modifier = japan_occupation }
+			1464 = { remove_province_modifier = japan_occupation }
+			1463 = { remove_province_modifier = japan_occupation }
+			1462 = { remove_province_modifier = japan_occupation }
+			clr_global_flag = filippines_occupied_by_japan
+		}
+		#### Тайвань
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_global_flag = taiwan_occupied_by_japan }
+					has_global_flag = militarized_japan
+					2562 = { controlled_by = JAP }
+					1485 = { controlled_by = JAP }
+				}
+			}
+			
+			2562 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			1485 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			
+			set_global_flag = taiwan_occupied_by_japan
+			
+		}
+		
+		any_country = {
+			limit = {
+				has_global_flag = filippines_occupied_by_japan
+				OR = {
+					2562 = { NOT = { controlled_by = JAP } }
+					1485 = { NOT = { controlled_by = JAP } }
+				}
+			}
+			2562 = { remove_province_modifier = japan_occupation }
+			1485 = { remove_province_modifier = japan_occupation }
+			
+			clr_global_flag = taiwan_occupied_by_japan
+		}
+		#######Гавайи
+		any_country = {
+			limit = {
+				AND = {
+					NOT = { has_global_flag = hawaii_occupied_by_japan }
+					has_global_flag = militarized_japan
+					658 = { controlled_by = JAP }
+				}
+			}
+			
+			658 = {
+				add_province_modifier = {
+					name = japan_occupation
+					duration = 730
+				}
+			}
+			
+			set_global_flag = hawaii_occupied_by_japan
+			
+		}
+		
+		any_country = {
+			limit = {
+				has_global_flag = hawaii_occupied_by_japan
+				658 = { NOT = { controlled_by = JAP } }
+			}
+			658 = { remove_province_modifier = japan_occupation }
+			
+			clr_global_flag = hawaii_occupied_by_japan
+		}
+		
+		#######Бонусы от колониальных реформ
+		#######От реформы "Внешняя колонизация"
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = external_colonisation_towns }
+					has_building = town_infrastructure
+					owner = { colonial_politics = external_colonisation }
+				}
+				add_province_modifier = {
+					name = external_colonisation_towns
+					duration = -1
+				}
+			}
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = external_colonisation_colonies }
+					is_overseas = yes
+					owner = { colonial_politics = external_colonisation }
+				}
+				add_province_modifier = {
+					name = external_colonisation_colonies
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					has_province_modifier = external_colonisation_towns
+					owner = { NOT = { colonial_politics = external_colonisation } }
+				}
+				remove_province_modifier = external_colonisation_towns
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = external_colonisation_colonies
+					owner = { NOT = { colonial_politics = external_colonisation } }
+				}
+				remove_province_modifier = external_colonisation_colonies
+			}
+		}
+		#######От реформы "Внутренняя колонизация"
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = internal_colonisation }
+					NOT = { has_building = town_infrastructure }
+					owner = { colonial_politics = inner_colonisation }
+				}
+				add_province_modifier = {
+					name = internal_colonisation
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					has_province_modifier = internal_colonisation
+					owner = { NOT = { colonial_politics = inner_colonisation } }
+				}
+				remove_province_modifier = internal_colonisation
+			}
+		}
+		#######От реформы "Нет колоний"
+		any_country = {
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = non_colonial_towns }
+					has_building = town_infrastructure
+					owner = { colonial_politics = non_colonial }
+				}
+				add_province_modifier = {
+					name = non_colonial_towns
+					duration = -1
+				}
+			}
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = non_colonial_penalty }
+					owner = { colonial_politics = non_colonial }
+					state_scope = { is_colonial = yes }
+				}
+				add_province_modifier = {
+					name = non_colonial_penalty
+					duration = -1
+				}
+			}
+			any_owned = {
+				limit = {
+					NOT = { has_province_modifier = non_colonial_urban }
+					NOT = { has_building = town_infrastructure }
+					terrain = urban
+					owner = { colonial_politics = non_colonial }
+				}
+				add_province_modifier = {
+					name = non_colonial_urban
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			any_owned = {
+				limit = {
+					has_province_modifier = non_colonial_towns
+					owner = { NOT = { colonial_politics = non_colonial } }
+				}
+				remove_province_modifier = non_colonial_towns
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = non_colonial_penalty
+					owner = { NOT = { colonial_politics = non_colonial } }
+				}
+				remove_province_modifier = non_colonial_penalty
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = non_colonial_urban
+					OR = {
+						owner = { NOT = { colonial_politics = non_colonial } }
+						has_building = town_infrastructure
+						NOT = { terrain = urban }
+					}
+				}
+				remove_province_modifier = non_colonial_urban
+			}
+		}
+		#######Проверка заполненности стаканов для увеличения расходов на социалку
+		####Жизненные
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = poor_life_needs_satisfaction }
+				poor_life_need = 0.8
+			}
+			add_country_modifier = {
+				name = poor_life_needs_satisfaction
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = poor_life_needs_satisfaction
+				NOT = { poor_life_need = 0.8 }
+			}
+			remove_country_modifier = poor_life_needs_satisfaction
+		}
+		
+		####Ежедневные
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = poor_everyday_needs_satisfaction }
+				poor_everyday_need = 0.35
+			}
+			add_country_modifier = {
+				name = poor_everyday_needs_satisfaction
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = poor_everyday_needs_satisfaction
+				NOT = { poor_everyday_need = 0.35 }
+			}
+			remove_country_modifier = poor_everyday_needs_satisfaction
+		}
+		
+		####Роскоши
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = poor_luxury_needs_satisfaction }
+				poor_luxury_need = 0.15
+			}
+			add_country_modifier = {
+				name = poor_luxury_needs_satisfaction
+				duration = -1
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_modifier = poor_luxury_needs_satisfaction
+				NOT = { poor_luxury_need = 0.15 }
+			}
+			remove_country_modifier = poor_luxury_needs_satisfaction
+		}
+		
+		##########Договорные порты Китая###########
+		####Дебаффы на Китай
+		###Гонконг
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = honkong_lost }
+				tag = CHI
+				NOT = { 
+					1496 = { owned_by = CHI }
+				}
+			}
+			add_country_modifier = {
+				name = honkong_lost
+				duration = -1
+			}
+		}
+		###Макао
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = macao_lost }
+				tag = CHI
+				NOT = { 
+					1498 = { owned_by = CHI }
+				}
+			}
+			add_country_modifier = {
+				name = macao_lost
+				duration = -1
+			}
+		}
+		###Шанхай
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = shankhai_lost }
+				tag = CHI
+				NOT = { 
+					1538 = { owned_by = CHI }
+				}
+			}
+			add_country_modifier = {
+				name = shankhai_lost
+				duration = -1
+			}
+		}
+		###Циндао
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = zindao_lost }
+				tag = CHI
+				NOT = { 
+					1566 = { owned_by = CHI }
+				}
+			}
+			add_country_modifier = {
+				name = zindao_lost
+				duration = -1
+			}
+		}
+		###Порт-Артур
+		any_country = {
+			limit = {
+				NOT = { has_country_modifier = port_arthur_lost }
+				tag = CHI
+				NOT = { 
+					1481 = { owned_by = CHI }
+				}
+			}
+			add_country_modifier = {
+				name = port_arthur_lost
+				duration = -1
+			}
+		}
+		####Баффы за договорные порты
+		###Гонконг
+		any_country = {
+			limit = {
+				NOT = { 1496 = { has_province_modifier = honkong_captured } }
+				NOT = { tag = CHI }
+				owns = 1496
+			}
+			1496 = {
+				add_province_modifier = {
+					name = honkong_captured
+					duration = -1
+				}
+			}
+		}
+		### Макао
+		any_country = {
+			limit = {
+				NOT = { 1498 = { has_province_modifier = macao_captured } }
+				NOT = { tag = CHI }
+				owns = 1498
+			}
+			1498 = {
+				add_province_modifier = {
+					name = macao_captured
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = { 1538 = { has_province_modifier = shankhai_captured } }
+				NOT = { tag = CHI }
+				owns = 1538
+			}
+			1538 = {
+				add_province_modifier = {
+					name = shankhai_captured
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = { 1566 = { has_province_modifier = zindao_captured } }
+				NOT = { tag = CHI }
+				owns = 1566
+			}
+			1566 = {
+				add_province_modifier = {
+					name = zindao_captured
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				NOT = { 1481 = { has_province_modifier = port_arthur_captured } }
+				NOT = { tag = CHI }
+				owns = 1481
+			}
+			1481 = {
+				add_province_modifier = {
+					name = port_arthur_captured
+					duration = -1
+				}
+			}
+		}
+		
+		###Ползунок прогресса для непризнанных держав: длительность = 360 - 60*N, где N = число выполненных целей
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+			}
+			remove_country_modifier = mcl_progress_modifier
+			set_variable = { which = mcl_progress value = 0 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				literacy = 0.30
+			}
+			change_variable = { which = mcl_progress value = 1 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				industrial_score = 300
+			}
+			change_variable = { which = mcl_progress value = 1 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				prestige = 300
+			}
+			change_variable = { which = mcl_progress value = 1 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				medicine = 1
+			}
+			change_variable = { which = mcl_progress value = 1 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				mechanical_production = 1
+			}
+			change_variable = { which = mcl_progress value = 1 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				nationalism_n_imperialism = 1
+			}
+			change_variable = { which = mcl_progress value = 1 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				check_variable = { which = mcl_progress value = 6 }
+			}
+			set_country_flag = mcl_progress_done
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				check_variable = { which = mcl_progress value = 5 }
+				NOT = { check_variable = { which = mcl_progress value = 6 } }
+			}
+			add_country_modifier = { name = mcl_progress_modifier duration = 60 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				check_variable = { which = mcl_progress value = 4 }
+				NOT = { check_variable = { which = mcl_progress value = 5 } }
+			}
+			add_country_modifier = { name = mcl_progress_modifier duration = 120 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				check_variable = { which = mcl_progress value = 3 }
+				NOT = { check_variable = { which = mcl_progress value = 4 } }
+			}
+			add_country_modifier = { name = mcl_progress_modifier duration = 180 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				check_variable = { which = mcl_progress value = 2 }
+				NOT = { check_variable = { which = mcl_progress value = 3 } }
+			}
+			add_country_modifier = { name = mcl_progress_modifier duration = 240 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				check_variable = { which = mcl_progress value = 1 }
+				NOT = { check_variable = { which = mcl_progress value = 2 } }
+			}
+			add_country_modifier = { name = mcl_progress_modifier duration = 300 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				NOT = { check_variable = { which = mcl_progress value = 1 } }
+			}
+			add_country_modifier = { name = mcl_progress_modifier duration = 360 }
+		}
+	}
+}
+
+###### селектор
+
+province_event = {
+	title = "Selector_EvtName"
+	desc = "Selector_EvtDesc"
+	id = 144407
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Selector_EvtOptCancel"
+		province_selector = -1
+	}
+	option = {
+		name = "Selector_EvtOptSupplyDepot"
+		owner = {
+			money = -500000
+			any_owned = {
+				remove_province_modifier = provincial_supply_depot_pmodifier
+			}
+		}
+		add_province_modifier = {
+			name = provincial_supply_depot_pmodifier
+			duration = -1
+		}
+		province_selector = -1
+	}
+	option = {
+		name = "Selector_EvtOptRemAllSelectors"
+		owner = {
+			any_owned = {
+				province_selector = -1
+			}
+		}
+	}
+}
+
+province_event = {
+	title = "Selector_EvtName"
+	desc = "Selector_EvtDesc"
+	id = 144408
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Selector_EvtOptCancel"
+		province_selector = -1
+	}
+	option = {
+		name = "Selector_EvtOptSupplyDepot"
+		owner = {
+			money = -500000
+			any_owned = {
+				remove_province_modifier = provincial_supply_depot_pmodifier
+			}
+		}
+		add_province_modifier = {
+			name = provincial_supply_depot_pmodifier
+			duration = -1
+		}
+		province_selector = -1
+	}
+	option = {
+		name = "CHINA"
+	}
+	option = {
+		name = "Selector_EvtOptRemAllSelectors"
+		owner = {
+			any_owned = {
+				province_selector = -1
+			}
+		}
+	}
+}
+
+####Снятие доп уровня жизни в Германии
+
+country_event = {
+	id = 57095
+	title = "CapSupply_Depot_EvtName"
+	desc = "CapSupply_Depot_EvtDesc"
+	picture = "Administration"
+
+
+	trigger = {
+			tag = JAN
+			year = 1850
+		}
+
+	fire_only_once = yes
+
+	option = {
+		name = "CapSupply_Depot_EvtOptA"
+		PRU_572 = { life_rating = -5 }
+		FRA_412 = { life_rating = -5 }
+		WUR_589 = { life_rating = -5 }
+		BAV_599 = { life_rating = -5 }
+		BAV_595 = { life_rating = -5 }
+		PRU_575 = { life_rating = -5 }
+		HAN_534 = { life_rating = -5 }
+		HAM_528 = { life_rating = -5 }
+		MEC_544 = { life_rating = -5 }
+		HEK_568 = { life_rating = -5 }
+		SAX_558 = { life_rating = -5 }
+		PRU_546 = { life_rating = -5 }
+		PRU_682 = { life_rating = -5 }
+		PRU_701 = { life_rating = -5 }
+		PRU_695 = { life_rating = -5 }
+	}
+}
+
+
+country_event = {
+	id = 99851
+	is_triggered_only = yes
+	
+	option = {
+		any_country = {
+			social_reform = no_subsidies
+			social_reform = no_pensions
+			social_reform = no_medical_reforms
+		}
+	}
+}
