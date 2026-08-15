@@ -282,7 +282,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "menu_save_button"
 				position = { x = 86 y = 140 }
-				quadTextureSprite ="GFX_frontend_button_236"	
+				quadTextureSprite ="GFX_frontend_button_2236"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -293,7 +293,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "menu_options_button"
 				position = { x = 86 y = 183}
-				quadTextureSprite ="GFX_frontend_button_236"	
+				quadTextureSprite ="GFX_frontend_button_2236"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -304,7 +304,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "menu_resign_button"
 				position = { x = 86 y = 226}
-				quadTextureSprite ="GFX_frontend_button_236"	
+				quadTextureSprite ="GFX_frontend_button_2236"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -315,7 +315,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "menu_message_button"
 				position = { x = 86 y = 269}
-				quadTextureSprite ="GFX_frontend_button_236"	
+				quadTextureSprite ="GFX_frontend_button_2236"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -326,7 +326,7 @@ guiTypes = {
 			guiButtonType = {
 				name = "menu_quit_button"
 				position = { x = 86 y = 312 }
-				quadTextureSprite ="GFX_frontend_button_236"	
+				quadTextureSprite ="GFX_frontend_button_2236"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
@@ -1721,7 +1721,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "quit_button" 
 			position = { x=180 y =285}
-			quadTextureSprite ="GFX_frontend_button_236"
+			quadTextureSprite ="GFX_frontend_button_2236"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
