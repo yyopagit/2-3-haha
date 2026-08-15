@@ -37,77 +37,77 @@ guiTypes = {
 			{
 				name ="frontend_backdrop"
 				spriteType = "GFX_frontend_main_bg"
-				position = { x= -930 y = -326 }
+				position = { x = -960 y = -540 }
 				Orientation = "CENTER"
 			}
 		iconType =
 			{
 				name ="frontend_toptile1"
 				spriteType = "GFX_frontend_toptile"
-				position = { x= -1500 y = -601 }
+				position = { x= 99999 y = 99999 }
 				Orientation = "CENTER"
 			}
 		iconType =
 			{
 				name ="frontend_toptile2"
 				spriteType = "GFX_frontend_toptile"
-				position = { x= -751 y = -601 }
+				position = { x= 99999 y = 99999 }
 				Orientation = "CENTER"
 			}
 		iconType =
 			{
 				name ="frontend_toptile3"
 				spriteType = "GFX_frontend_toptile"
-				position = { x= -2 y = -601 }
+				position = { x= 99999 y = 99999 }
 				Orientation = "CENTER"
 			}
 		iconType =
 			{
 				name ="frontend_toptile4"
 				spriteType = "GFX_frontend_toptile"
-				position = { x= 747 y = -601 }
+				position = { x= 99999 y = 99999 }
 				Orientation = "CENTER"
 			}
 		iconType =
 			{
 				name ="frontend_toptile5"
 				spriteType = "GFX_frontend_toptile"
-				position = { x= 1496 y = -601 }
+				position = { x= 99999 y = 99999 }
 				Orientation = "CENTER"
 			}
 		iconType =
 			{
 				name ="frontend_bottomtile1"
 				spriteType = "GFX_frontend_bottomtile"
-				position = { x= -1500 y = 325 }
+				position = { x= 99999 y = 99999 }
 				Orientation = "CENTER"
 			}
 		iconType =
 			{
 				name ="frontend_bottomtile2"
 				spriteType = "GFX_frontend_bottomtile"
-				position = { x= -751 y = 325 }
+				position = { x= 99999 y = 99999 }
 				Orientation = "CENTER"
 			}
 		iconType =
 			{
 				name ="frontend_bottomtile3"
 				spriteType = "GFX_frontend_bottomtile"
-				position = { x= -2 y = 325 }
+				position = { x= 99999 y = 99999 }
 				Orientation = "CENTER"
 			}
 		iconType =
 			{
 				name ="frontend_bottomtile4"
 				spriteType = "GFX_frontend_bottomtile"
-				position = { x= 747 y = 325 }
+				position = { x= 99999 y = 99999 }
 				Orientation = "CENTER"
 			}
 		iconType =
 			{
 				name ="frontend_bottomtile5"
 				spriteType = "GFX_frontend_bottomtile"
-				position = { x= 1496 y = 325 }
+				position = { x= 99999 y = 99999 }
 				Orientation = "CENTER"
 			}
 
@@ -337,7 +337,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "single_player_button"
-				position = { x = -84 y = 429 }
+				position = { x = -324 y = 91 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -348,7 +348,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "multi_player_button"
-				position = { x = 158 y = 429 }
+				position = { x = -324 y = 163 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -359,7 +359,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "tutorial_button"
-				position = { x = 400 y = 429 }
+				position = { x = 99999 y = 99999 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -370,7 +370,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "settings_button"
-				position = { x = -84 y = 472 }
+				position = { x = -324 y = 236 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -381,7 +381,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "credits_button"
-				position = { x = 158 y = 472	 }
+				position = { x = 9999 y = 99999	 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -391,7 +391,7 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "exit_button"
-				position = { x = 400 y = 472 }
+				position = { x = -324 y = 308 }
 				quadTextureSprite ="GFX_frontend_button_236"	
 				tooltip = ""
 				tooltipText =""
@@ -403,22 +403,22 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "homepage_button"
-				position = { x = 172 y = 538 }
+				position = { x = 9999 y = 9999 }
 				quadTextureSprite ="homepage"	
 			}
 			guiButtonType = {
 				name = "forum_button"
-				position = { x = 224 y = 538 }
+				position = { x = 9999 y = 9999 }
 				quadTextureSprite ="forum"	
 			}
 			guiButtonType = {
 				name = "facebook_button"
-				position = { x = 276 y = 538 }
+				position = { x = 9999 y = 9999 }
 				quadTextureSprite ="facebook"	
 			}			
 			guiButtonType = {
 				name = "twitter_button"
-				position = { x = 328 y = 538 }
+				position = { x = 9999 y = 9999 }
 				quadTextureSprite ="twitter"	
 			}		
 
