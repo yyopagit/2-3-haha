@@ -49,7 +49,7 @@ def main():
     removed = []
 
     for key, (text, suffix) in mod.items():
-        if key in vanilla and vanilla[key][0] == text:
+        if key in vanilla and vanilla[key][0] == text and '$' not in text:
             removed.append(key)
         else:
             kept[key] = (text, suffix)

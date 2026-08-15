@@ -62,7 +62,7 @@ guiTypes = {
 			name = "Exit"
 			position = { x = 682 y = 938 }
 			Orientation = "UPPER_LEFT"
-			quadTextureSprite ="GFX_frontend_button_236"	
+			quadTextureSprite ="GFX_frontend_button_2236"	
 			buttonText = "EXIT"
 			buttonFont = "vic_22_black"
 		}
