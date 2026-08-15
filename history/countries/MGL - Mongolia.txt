@@ -9,6 +9,8 @@ non_state_culture_literacy = 0.05 #Chinese
 civilized = no
 prestige = 1
 
+set_country_flag = unrecognized_power
+
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed

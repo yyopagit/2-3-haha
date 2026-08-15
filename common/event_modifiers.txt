@@ -1148,6 +1148,9 @@ ai_buff = {
 mcl_happened_modifier = {
 
 }
+mcl_progress_modifier = {
+	icon = 15
+}
 capital_supply_depot_pmodifier = {
 		max_attrition = -100
 		icon = 17

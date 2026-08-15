@@ -11,6 +11,7 @@ civilized = yes
 prestige = 60
 
 set_country_flag = human_yes
+set_country_flag = unrecognized_power
 
 ruling_party = NIP_reactionary
 upper_house = {

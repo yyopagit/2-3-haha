@@ -739,6 +739,118 @@ country_event = {
 				}
 			}
 		}
+		
+		###Ползунок прогресса для непризнанных держав: длительность = 360 - 60*N, где N = число выполненных целей
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+			}
+			remove_country_modifier = mcl_progress_modifier
+			set_variable = { which = mcl_progress value = 0 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				literacy = 0.30
+			}
+			change_variable = { which = mcl_progress value = 1 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				industrial_score = 300
+			}
+			change_variable = { which = mcl_progress value = 1 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				prestige = 300
+			}
+			change_variable = { which = mcl_progress value = 1 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				medicine = 1
+			}
+			change_variable = { which = mcl_progress value = 1 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				mechanical_production = 1
+			}
+			change_variable = { which = mcl_progress value = 1 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				nationalism_n_imperialism = 1
+			}
+			change_variable = { which = mcl_progress value = 1 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				check_variable = { which = mcl_progress value = 6 }
+			}
+			set_country_flag = mcl_progress_done
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				check_variable = { which = mcl_progress value = 5 }
+				NOT = { check_variable = { which = mcl_progress value = 6 } }
+			}
+			add_country_modifier = { name = mcl_progress_modifier duration = 60 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				check_variable = { which = mcl_progress value = 4 }
+				NOT = { check_variable = { which = mcl_progress value = 5 } }
+			}
+			add_country_modifier = { name = mcl_progress_modifier duration = 120 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				check_variable = { which = mcl_progress value = 3 }
+				NOT = { check_variable = { which = mcl_progress value = 4 } }
+			}
+			add_country_modifier = { name = mcl_progress_modifier duration = 180 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				check_variable = { which = mcl_progress value = 2 }
+				NOT = { check_variable = { which = mcl_progress value = 3 } }
+			}
+			add_country_modifier = { name = mcl_progress_modifier duration = 240 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				check_variable = { which = mcl_progress value = 1 }
+				NOT = { check_variable = { which = mcl_progress value = 2 } }
+			}
+			add_country_modifier = { name = mcl_progress_modifier duration = 300 }
+		}
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				NOT = { has_country_flag = mcl_progress_done }
+				NOT = { check_variable = { which = mcl_progress value = 1 } }
+			}
+			add_country_modifier = { name = mcl_progress_modifier duration = 360 }
+		}
 	}
 }
 
