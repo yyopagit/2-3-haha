@@ -1,127 +1,127 @@
-#Rio de Oro Region (20000) #see Mauritania.txt for balance of region
+#Rio de Oro Region (150000) #see Mauritania.txt for balance of region
 #uncolonized in 1836 
-#Al Aiyun (12000/3000 POPS) 
+#Al Aiyun (76032/19008 POPS) 
 1773 = {
 	aristocrats = {
 		culture = bedouin
 		religion = orthodox
-		size = 10
+		size = 1
 	}
 
 	clergymen = {
 		culture = bedouin
 		religion = orthodox
-		size = 15
+		size = 2
 	}
 
 	artisans = {
 		culture = bedouin
 		religion = orthodox
-		size = 2500
+		size = 330
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = orthodox
-		size = 250
+		size = 33
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = orthodox
-		size = 50000
+		size = 6595
 	}
 
 	aristocrats = {
 		culture = maghrebi
 		religion = orthodox
-		size = 25
+		size = 3
 	}
 
 	clergymen = {
 		culture = maghrebi
 		religion = orthodox
-		size = 50
+		size = 7
 	}
 
 	artisans = {
 		culture = maghrebi
 		religion = orthodox
-		size = 1000
+		size = 132
 	}
 
 	soldiers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 250
+		size = 33
 	}
 
 	farmers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 90000
+		size = 11872
 	}
 }
-#Dahkla (8000/2000 POPS) 
+#Dahkla (73968/18492 POPS) 
 1774 = {
 	aristocrats = {
 		culture = bedouin
 		religion = orthodox
-		size = 10
+		size = 1
 	}
 
 	clergymen = {
 		culture = bedouin
 		religion = orthodox
-		size = 15
+		size = 2
 	}
 
 	artisans = {
 		culture = bedouin
 		religion = orthodox
-		size = 50
+		size = 7
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = orthodox
-		size = 25
+		size = 3
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = orthodox
-		size = 70000
+		size = 9233
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 10
+		size = 1
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 15
+		size = 2
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 7
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 25
+		size = 3
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 70000
+		size = 9233
 	}
 
 }

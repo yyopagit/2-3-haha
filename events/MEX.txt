@@ -251,7 +251,7 @@ country_event = {
          tag = MEX
 		 has_country_modifier = natsionalnoe_edinstvo
 		OR = {
-            MEX_85 = {
+            MEX_89 = {
            owned_by = USA
             }
               138= {
@@ -277,10 +277,10 @@ country_event = {
 	has_country_modifier = big_mex
 	NOT = {
 		OR = {
-			CLM_2259 = { owned_by = THIS }
+			CLM_2247 = { owned_by = THIS }
 			CLM_2251 = { owned_by = THIS }
 			VNZ_2234 = { owned_by = THIS }
-			VNZ_2265 = { owned_by = THIS }
+			VNZ_2264 = { owned_by = THIS }
 			CLM_2262 = { owned_by = THIS }
 			CLM_1723 = { owned_by = THIS }
 		}

@@ -1,127 +1,127 @@
-#Costa Rica Region (84000)
+#Costa Rica Region (150000)
 #Ruled by Central America 1836
-#San Jose (52000/13000 POPS)
+#San Jose (65552/16388 POPS)
 2201 = {
 	aristocrats = {
 		culture = mexican
 		religion = orthodox
-		size = 1000
+		size = 152
 		#militancy = 9
 	}
 
 	bureaucrats = {
 		culture = mexican
 		religion = orthodox
-		size = 500
+		size = 77
 		#militancy = 9
 	}
 
 	officers = {
 		culture = mexican
 		religion = orthodox
-		size = 250
+		size = 38
 		#militancy = 9
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 1250
+		size = 189
 		#militancy = 9
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 6500
+		size = 988
 		#militancy = 9
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 1250
+		size = 189
 		#militancy = 9
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 97250
+		size = 14755
 		#militancy = 9
 	}
 }
-#Liberia (20000/5000 POPS)
+#Liberia (41936/10484 POPS)
 2202 = {
 	aristocrats = {
 		culture = mexican
 		religion = orthodox
-		size = 550
+		size = 84
 		#militancy = 9
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 500
+		size = 77
 		#militancy = 9
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 2500
+		size = 380
 		#militancy = 9
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 500
+		size = 77
 		#militancy = 9
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 65000
+		size = 9866
 		#militancy = 9
 	}
 }
-#Limon (12000/3000 POPS)
+#Limon (42512/10628 POPS)
 2203 = {
 	aristocrats = {
 		culture = mexican
 		religion = orthodox
-		size = 750
+		size = 114
 		#militancy = 9
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 500
+		size = 77
 		#militancy = 9
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 1500
+		size = 229
 		#militancy = 9
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 250
+		size = 38
 		#militancy = 9
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 67000
+		size = 10170
 		#militancy = 9
 	}
 

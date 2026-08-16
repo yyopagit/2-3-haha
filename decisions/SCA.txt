@@ -7,12 +7,12 @@ political_decisions = {
 				has_country_flag = Conceded_Finland
 			}
 			RUS_339 = { owned_by = THIS }
-			RUS_340 = { owned_by = THIS }
+			RUS_343 = { owned_by = THIS }
 		}
 		allow = {
 		}
 		effect = {
-			RUS_340 = {
+			RUS_343 = {
 				remove_core = RUS
 			}
 			RUS_339 = {

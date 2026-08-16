@@ -30,16 +30,24 @@ country_event = {
 			annex_to = FROM
 		}
 		
-		###Удаление чиновников
+		###Удаление чиновников в колониях (не accepted → фермеры)
 		
 		any_country = {
-			any_pop = {
+			any_owned = {
 				limit = {
-					type = bureaucrats
-					is_accepted_culture = no
 					NOT = { continent = china }
+					OR = {
+						is_overseas = yes
+						state_scope = { is_colonial = yes }
+					}
 				}
-				pop_type = farmers
+				any_pop = {
+					limit = {
+						type = bureaucrats
+						is_accepted_culture = no
+					}
+					pop_type = farmers
+				}
 			}
 		}
 		
@@ -84,6 +92,8 @@ country_event = {
                 }
 			}
 		}
+
+		country_event = { id = 140410 days = 1 }
 		
 		###проверка изобретений колонизации
 		
@@ -413,13 +423,14 @@ country_event = {
 		}
 		
 		#######Бонусы от колониальных реформ
-		#######От реформы "Внешняя колонизация"
+		# Полная смена — 140412 из Reform_change. Здесь только догон новых провинций
+		# и снос чужих штампов после завоевания. Реформа в limit страны, не на каждую провинцию.
 		any_country = {
+			limit = { colonial_politics = external_colonisation }
 			any_owned = {
 				limit = {
 					NOT = { has_province_modifier = external_colonisation_towns }
 					has_building = town_infrastructure
-					owner = { colonial_politics = external_colonisation }
 				}
 				add_province_modifier = {
 					name = external_colonisation_towns
@@ -430,60 +441,69 @@ country_event = {
 				limit = {
 					NOT = { has_province_modifier = external_colonisation_colonies }
 					is_overseas = yes
-					owner = { colonial_politics = external_colonisation }
+					NOT = { continent = africa }
 				}
 				add_province_modifier = {
 					name = external_colonisation_colonies
 					duration = -1
 				}
 			}
-		}
-		any_country = {
 			any_owned = {
-				limit = {
-					has_province_modifier = external_colonisation_towns
-					owner = { NOT = { colonial_politics = external_colonisation } }
-				}
-				remove_province_modifier = external_colonisation_towns
+				limit = { has_province_modifier = internal_colonisation }
+				remove_province_modifier = internal_colonisation
 			}
 			any_owned = {
-				limit = {
-					has_province_modifier = external_colonisation_colonies
-					owner = { NOT = { colonial_politics = external_colonisation } }
-				}
-				remove_province_modifier = external_colonisation_colonies
+				limit = { has_province_modifier = non_colonial_towns }
+				remove_province_modifier = non_colonial_towns
+			}
+			any_owned = {
+				limit = { has_province_modifier = non_colonial_penalty }
+				remove_province_modifier = non_colonial_penalty
+			}
+			any_owned = {
+				limit = { has_province_modifier = non_colonial_urban }
+				remove_province_modifier = non_colonial_urban
 			}
 		}
-		#######От реформы "Внутренняя колонизация"
 		any_country = {
+			limit = { colonial_politics = inner_colonisation }
 			any_owned = {
 				limit = {
 					NOT = { has_province_modifier = internal_colonisation }
 					NOT = { has_building = town_infrastructure }
-					owner = { colonial_politics = inner_colonisation }
 				}
 				add_province_modifier = {
 					name = internal_colonisation
 					duration = -1
 				}
 			}
-		}
-		any_country = {
 			any_owned = {
-				limit = {
-					has_province_modifier = internal_colonisation
-					owner = { NOT = { colonial_politics = inner_colonisation } }
-				}
-				remove_province_modifier = internal_colonisation
+				limit = { has_province_modifier = external_colonisation_towns }
+				remove_province_modifier = external_colonisation_towns
+			}
+			any_owned = {
+				limit = { has_province_modifier = external_colonisation_colonies }
+				remove_province_modifier = external_colonisation_colonies
+			}
+			any_owned = {
+				limit = { has_province_modifier = non_colonial_towns }
+				remove_province_modifier = non_colonial_towns
+			}
+			any_owned = {
+				limit = { has_province_modifier = non_colonial_penalty }
+				remove_province_modifier = non_colonial_penalty
+			}
+			any_owned = {
+				limit = { has_province_modifier = non_colonial_urban }
+				remove_province_modifier = non_colonial_urban
 			}
 		}
-		#######От реформы "Нет колоний"
 		any_country = {
+			limit = { colonial_politics = non_colonial }
 			any_owned = {
 				limit = {
 					NOT = { has_province_modifier = non_colonial_towns }
 					has_building = town_infrastructure
-					owner = { colonial_politics = non_colonial }
 				}
 				add_province_modifier = {
 					name = non_colonial_towns
@@ -493,7 +513,6 @@ country_event = {
 			any_owned = {
 				limit = {
 					NOT = { has_province_modifier = non_colonial_penalty }
-					owner = { colonial_politics = non_colonial }
 					state_scope = { is_colonial = yes }
 				}
 				add_province_modifier = {
@@ -506,39 +525,89 @@ country_event = {
 					NOT = { has_province_modifier = non_colonial_urban }
 					NOT = { has_building = town_infrastructure }
 					terrain = urban
-					owner = { colonial_politics = non_colonial }
 				}
 				add_province_modifier = {
 					name = non_colonial_urban
 					duration = -1
 				}
 			}
-		}
-		any_country = {
 			any_owned = {
-				limit = {
-					has_province_modifier = non_colonial_towns
-					owner = { NOT = { colonial_politics = non_colonial } }
-				}
-				remove_province_modifier = non_colonial_towns
+				limit = { has_province_modifier = external_colonisation_towns }
+				remove_province_modifier = external_colonisation_towns
 			}
 			any_owned = {
-				limit = {
-					has_province_modifier = non_colonial_penalty
-					owner = { NOT = { colonial_politics = non_colonial } }
-				}
-				remove_province_modifier = non_colonial_penalty
+				limit = { has_province_modifier = external_colonisation_colonies }
+				remove_province_modifier = external_colonisation_colonies
+			}
+			any_owned = {
+				limit = { has_province_modifier = internal_colonisation }
+				remove_province_modifier = internal_colonisation
 			}
 			any_owned = {
 				limit = {
 					has_province_modifier = non_colonial_urban
 					OR = {
-						owner = { NOT = { colonial_politics = non_colonial } }
 						has_building = town_infrastructure
 						NOT = { terrain = urban }
 					}
 				}
 				remove_province_modifier = non_colonial_urban
+			}
+		}
+		#######Африка (континент africa): +200% RGO, при заморской колонизации +400% и life_rating x2
+		any_country = {
+			any_owned = {
+				limit = {
+					has_province_modifier = africa_resources
+					OR = {
+						NOT = { continent = africa }
+						owner = { colonial_politics = external_colonisation }
+					}
+				}
+				remove_province_modifier = africa_resources
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = africa_resources_colonial
+					OR = {
+						NOT = { continent = africa }
+						owner = { NOT = { colonial_politics = external_colonisation } }
+					}
+				}
+				remove_province_modifier = africa_resources_colonial
+			}
+			any_owned = {
+				limit = {
+					continent = africa
+					has_province_modifier = external_colonisation_colonies
+				}
+				remove_province_modifier = external_colonisation_colonies
+			}
+		}
+		any_country = {
+			limit = { colonial_politics = external_colonisation }
+			any_owned = {
+				limit = {
+					continent = africa
+					NOT = { has_province_modifier = africa_resources_colonial }
+				}
+				add_province_modifier = {
+					name = africa_resources_colonial
+					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = { NOT = { colonial_politics = external_colonisation } }
+			any_owned = {
+				limit = {
+					continent = africa
+					NOT = { has_province_modifier = africa_resources }
+				}
+				add_province_modifier = {
+					name = africa_resources
+					duration = -1
+				}
 			}
 		}
 		#######Проверка заполненности стаканов для увеличения расходов на социалку
@@ -1137,20 +1206,20 @@ country_event = {
 
 	option = {
 		name = "CapSupply_Depot_EvtOptA"
-		PRU_572 = { life_rating = -5 }
-		FRA_412 = { life_rating = -5 }
+		PRU_575 = { life_rating = -5 }
+		FRA_409 = { life_rating = -5 }
 		WUR_589 = { life_rating = -5 }
 		BAV_599 = { life_rating = -5 }
 		BAV_595 = { life_rating = -5 }
-		PRU_575 = { life_rating = -5 }
+		PRU_564 = { life_rating = -5 }
 		HAN_534 = { life_rating = -5 }
 		HAM_528 = { life_rating = -5 }
-		MEC_544 = { life_rating = -5 }
+		MEC_530 = { life_rating = -5 }
 		HEK_568 = { life_rating = -5 }
 		SAX_558 = { life_rating = -5 }
 		PRU_546 = { life_rating = -5 }
 		PRU_682 = { life_rating = -5 }
-		PRU_701 = { life_rating = -5 }
+		PRU_690 = { life_rating = -5 }
 		PRU_695 = { life_rating = -5 }
 	}
 }

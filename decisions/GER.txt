@@ -218,7 +218,7 @@ political_decisions = {
              duration = -1 
                     }
 		}
-		PRU_701 = {
+		PRU_690 = {
              add_province_modifier = {
              name = DP_BUFF1
              duration = -1 
@@ -286,7 +286,7 @@ political_decisions = {
              duration = -1 
                     }
 		}
-		PRU_701 = {
+		PRU_690 = {
              add_province_modifier = {
              name = DP_BUFF2
              duration = -1 

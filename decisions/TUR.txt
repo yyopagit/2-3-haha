@@ -40,7 +40,7 @@ political_decisions = {
 		}
 		allow = {
 			year = 1860
-			RUS_1098 = { owned_by = THIS }
+			RUS_1102 = { owned_by = THIS }
 			PER_1112 = { owned_by = THIS }
 			1264 = { owned_by = PER }
 			1235 = { owned_by = PER }
@@ -175,7 +175,7 @@ political_decisions = {
 		}
 		effect = {
 		inherit	= WAL
-		WAL_665 = { add_core = TUR }
+		WAL_664 = { add_core = TUR }
 		prestige = 15
 		badboy = 5
 		add_accepted_culture = romanian 

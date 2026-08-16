@@ -1,90 +1,90 @@
 #Salvador Region (416000)
 #Ruled by Central America 1836
-#San Salvador (260000/65000 POPS)
+#San Salvador (248152/62038 POPS)
 2191 = {
 	aristocrats = {
 		culture = mexican
 		religion = orthodox
-		size = 1425
+		size = 1359
 		militancy = 9
 	}
 
 	bureaucrats = {
 		culture = mexican
 		religion = orthodox
-		size = 150
+		size = 143
 		militancy = 9
 	}
 
 	officers = {
 		culture = mexican
 		religion = orthodox
-		size = 125
+		size = 119
 		militancy = 9
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 650
+		size = 620
 		militancy = 9
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 3250
+		size = 3100
 		militancy = 9
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 1100
+		size = 1050
 		militancy = 9
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 58350
+		size = 55647
 		militancy = 9
 	}
 }
-#San Miguel (156000/44000 POPS)
+#San Miguel (167848/41962 POPS)
 2192 = {
 	aristocrats = {
 		culture = mexican
 		religion = orthodox
-		size = 950
+		size = 906
 		militancy = 9
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 450
+		size = 429
 		militancy = 9
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 2200
+		size = 2098
 		militancy = 9
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 450
+		size = 429
 		militancy = 9
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 39950
+		size = 38100
 		militancy = 9
 	}
 

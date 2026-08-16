@@ -1,531 +1,531 @@
-#Lithuania Region (1272000) 
+#Lithuania Region (1366820) 
 #under the rule of Russia in 1836 
-#Vilnius (168000/42000 POPS)
+#Vilnius (273092/68273 POPS)
 360 = {
 	clergymen = {
 		culture = lithuanian
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	artisans = {
 		culture = lithuanian
 		religion = orthodox
-		size = 2500
+		size = 2593
 	}
 
 	soldiers = {
 		culture = lithuanian
 		religion = orthodox
-		size = 1650
+		size = 1711
 	}
 
 	farmers = {
 		culture = lithuanian
 		religion = orthodox
-		size = 35400
+		size = 36717
 	}
 
 	aristocrats = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 1250
+		size = 1296
 	}
 
 	bureaucrats = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 225
+		size = 233
 	}
 
 	officers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 250
+		size = 259
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 100
+		size = 104
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 3750
+		size = 3889
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 4325
+		size = 4486
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 3250
+		size = 3371
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 225
+		size = 233
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 12450
+		size = 12913
 	}
 }
-#Kaunas (204000/51000 POPS)
+#Kaunas (214488/53622 POPS)
 361 = {
 	aristocrats = {
 		culture = lithuanian
 		religion = orthodox
-		size = 950
+		size = 985
 	}
 
 	clergymen = {
 		culture = lithuanian
 		religion = orthodox
-		size = 400
+		size = 415
 	}
 
 	artisans = {
 		culture = lithuanian
 		religion = orthodox
-		size = 1150
+		size = 1193
 	}
 
 	soldiers = {
 		culture = lithuanian
 		religion = orthodox
-		size = 1650
+		size = 1711
 	}
 
 	farmers = {
 		culture = lithuanian
 		religion = orthodox
-		size = 37500
+		size = 38895
 	}
 
 	aristocrats = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 250
+		size = 259
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 25
+		size = 26
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 38
+		size = 39
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 550
+		size = 570
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 1800
+		size = 1867
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 112
+		size = 116
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 7050
+		size = 7312
 	}
 }
-#Marjampole (240000/60000 POPS)
+#Marjampole (241880/60470 POPS)
 362 = {
 	clergymen = {
 		culture = lithuanian
 		religion = orthodox
-		size = 250
+		size = 259
 	}
 
 	artisans = {
 		culture = lithuanian
 		religion = orthodox
-		size = 1500
+		size = 1556
 	}
 
 	soldiers = {
 		culture = lithuanian
 		religion = orthodox
-		size = 375
+		size = 389
 	}
 
 	farmers = {
 		culture = lithuanian
 		religion = orthodox
-		size = 25000
+		size = 25930
 	}
 
 	aristocrats = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 1950
+		size = 2023
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 275
+		size = 285
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 1200
+		size = 1245
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 450
+		size = 467
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 13225
+		size = 13717
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 1400
+		size = 1452
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 8425
+		size = 8738
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = north_german
 		religion = orthodox
-		size = 200
+		size = 207
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	farmers = {
 		culture = north_german
 		religion = orthodox
-		size = 3675
+		size = 3812
 	}
 }
-#Panevezys (204000/51000 POPS)
+#Panevezys (237572/59393 POPS)
 363 = {
 	aristocrats = {
 		culture = lithuanian
 		religion = orthodox
-		size = 1025
+		size = 1063
 	}
 
 	clergymen = {
 		culture = lithuanian
 		religion = orthodox
-		size = 375
+		size = 389
 	}
 
 	artisans = {
 		culture = lithuanian
 		religion = orthodox
-		size = 1750
+		size = 1815
 	}
 
 	soldiers = {
 		culture = lithuanian
 		religion = orthodox
-		size = 562
+		size = 583
 	}
 
 	farmers = {
 		culture = lithuanian
 		religion = orthodox
-		size = 40475
+		size = 41980
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 3000
+		size = 3112
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 6825
+		size = 7079
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = orthodox
-		size = 25
+		size = 26
 	}
 
 	artisans = {
 		culture = north_german
 		religion = orthodox
-		size = 200
+		size = 207
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = orthodox
-		size = 38
+		size = 39
 	}
 
 	farmers = {
 		culture = north_german
 		religion = orthodox
-		size = 750
+		size = 778
 	}
 
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 100
+		size = 104
 	}
 
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 38
+		size = 39
 	}
 
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 1825
+		size = 1893
 	}
 }
-#Siauliai (200000/50000 POPS)
+#Siauliai (208476/52119 POPS)
 364 = {
 	aristocrats = {
 		culture = lithuanian
 		religion = orthodox
-		size = 900
+		size = 933
 	}
 
 	clergymen = {
 		culture = lithuanian
 		religion = orthodox
-		size = 400
+		size = 415
 	}
 
 	artisans = {
 		culture = lithuanian
 		religion = orthodox
-		size = 1250
+		size = 1296
 	}
 
 	soldiers = {
 		culture = lithuanian
 		religion = orthodox
-		size = 638
+		size = 662
 	}
 
 	farmers = {
 		culture = lithuanian
 		religion = orthodox
-		size = 40025
+		size = 41514
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 125
+		size = 130
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 1400
+		size = 1452
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 112
+		size = 116
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 5400
+		size = 5601
 	}
 }
-#Palanga (84000/21000 POPS)
+#Palanga (191312/47828 POPS)
 365 = {
 	aristocrats = {
 		culture = lithuanian
 		religion = orthodox
-		size = 350
+		size = 363
 	}
 
 	clergymen = {
 		culture = lithuanian
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	artisans = {
 		culture = lithuanian
 		religion = orthodox
-		size = 500
+		size = 519
 	}
 
 	soldiers = {
 		culture = lithuanian
 		religion = orthodox
-		size = 262
+		size = 272
 	}
 
 	farmers = {
 		culture = lithuanian
 		religion = orthodox
-		size = 40825
+		size = 42343
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 600
+		size = 622
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 38
+		size = 39
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 2325
+		size = 2411
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = orthodox
-		size = 25
+		size = 26
 	}
 
 	artisans = {
 		culture = north_german
 		religion = orthodox
-		size = 100
+		size = 104
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = orthodox
-		size = 38
+		size = 39
 	}
 
 	farmers = {
 		culture = north_german
 		religion = orthodox
-		size = 850
+		size = 882
 	}
 
 }
-#East Prussia Region (172000) #see Poland.txt and Lithuania.txt for balance of region
+#East Prussia Region (176240) #see Poland.txt and Lithuania.txt for balance of region
 #under the rule of Prussia in 1836 
-#Memel (172000/43000 POPS) #now part of Lithuania 
+#Memel (176240/44060 POPS) #now part of Lithuania 
 698 = {
 	aristocrats = {
 		culture = north_german

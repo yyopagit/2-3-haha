@@ -1,164 +1,164 @@
 #Honduras Region (352000)
 #Ruled by Central America 1836
-#Tegucigapa (180000/45000 POPS)
+#Tegucigapa (130380/32595 POPS)
 2193 = {
 	aristocrats = {
 		culture = mexican
 		religion = orthodox
-		size = 950
+		size = 3440
 		#militancy = 9
 	}
 
 	bureaucrats = {
 		culture = mexican
 		religion = orthodox
-		size = 125
+		size = 453
 		#militancy = 9
 	}
 
 	officers = {
 		culture = mexican
 		religion = orthodox
-		size = 100
+		size = 363
 		#militancy = 9
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 450
+		size = 1630
 		#militancy = 9
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 2250
+		size = 8148
 		#militancy = 9
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 450
+		size = 1630
 		#militancy = 9
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 4675
+		size = 16931
 		#militancy = 9
 	}
 }
-#San Pedro Sula (92000/23000 POPS)
+#San Pedro Sula (72420/18105 POPS)
 2194 = {
 	aristocrats = {
 		culture = mexican
 		religion = orthodox
-		size = 550
+		size = 1992
 		#militancy = 9
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 225
+		size = 814
 		#militancy = 9
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 1150
+		size = 4164
 		#militancy = 9
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 225
+		size = 814
 		#militancy = 9
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 2850
+		size = 10321
 		#militancy = 9
 	}
 }
-#La Ceiba (68000/17000 POPS)
+#La Ceiba (105752/26438 POPS)
 2195 = {
 	aristocrats = {
 		culture = mexican
 		religion = orthodox
-		size = 425
+		size = 1539
 		#militancy = 9
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 475
+		size = 1720
 		#militancy = 9
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 1850
+		size = 6700
 		#militancy = 9
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 1175
+		size = 4256
 		#militancy = 9
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 3375
+		size = 12223
 		#militancy = 9
 	}
 }
-#Puerto Lempira (12000/3000 POPS)
+#Puerto Lempira (43448/10862 POPS)
 2196 = {
 	aristocrats = {
 		culture = mexican
 		religion = orthodox
-		size = 75
+		size = 271
 		#militancy = 9
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 50
+		size = 181
 		#militancy = 9
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 150
+		size = 543
 		#militancy = 9
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 25
+		size = 90
 		#militancy = 9
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 2700
+		size = 9777
 		#militancy = 9
 	}
 

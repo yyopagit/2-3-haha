@@ -5,85 +5,85 @@
 	aristocrats = {
 		culture = turkish
 		religion = orthodox
-		size = 2450
+		size = 2396
 	}
 
 	clergymen = {
 		culture = turkish
 		religion = orthodox
-		size = 325
+		size = 318
 	}
 
 	artisans = {
 		culture = turkish
 		religion = orthodox
-		size = 2000
+		size = 1956
 	}
 
 	soldiers = {
 		culture = turkish
 		religion = orthodox
-		size = 5400
+		size = 5280
 	}
 
 	farmers = {
 		culture = turkish
 		religion = orthodox
-		size = 25225
+		size = 24667
 	}
 
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
-		size = 425
+		size = 416
 	}
 
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 2100
+		size = 2054
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 56475
+		size = 55223
 	}
 
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 200
+		size = 196
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 1200
+		size = 1173
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 11600
+		size = 11343
 	}
 
 	clergymen = {
 		culture = sephardic
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	artisans = {
 		culture = sephardic
 		religion = orthodox
-		size = 700
+		size = 685
 	}
 
 	farmers = {
 		culture = sephardic
 		religion = orthodox
-		size = 275
+		size = 269
 	}
 }
 #Monastir Region (268000) #see Greece.txt for balance of region 
@@ -93,115 +93,115 @@
 	clergymen = {
 		culture = bulgarian
 		religion = orthodox
-		size = 300
+		size = 287
 	}
 
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 425
+		size = 407
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 36275
+		size = 34726
 	}
 
 	aristocrats = {
 		culture = turkish
 		religion = orthodox
-		size = 1500
+		size = 1436
 	}
 
 	bureaucrats = {
 		culture = turkish
 		religion = orthodox
-		size = 225
+		size = 215
 	}
 
 	officers = {
 		culture = turkish
 		religion = orthodox
-		size = 175
+		size = 168
 	}
 
 	clergymen = {
 		culture = turkish
 		religion = orthodox
-		size = 50
+		size = 48
 	}
 
 	artisans = {
 		culture = turkish
 		religion = orthodox
-		size = 1300
+		size = 1245
 	}
 
 	soldiers = {
 		culture = turkish
 		religion = orthodox
-		size = 1980
+		size = 1896
 	}
 
 	farmers = {
 		culture = turkish
 		religion = orthodox
-		size = 1975
+		size = 1891
 	}
 
 	clergymen = {
 		culture = albanian
 		religion = orthodox
-		size = 125
+		size = 120
 	}
 
 	artisans = {
 		culture = albanian
 		religion = orthodox
-		size = 400
+		size = 383
 	}
 
 	soldiers = {
 		culture = albanian
 		religion = orthodox
-		size = 1980
+		size = 1896
 	}
 
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 12275
+		size = 11751
 	}
 
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 175
+		size = 168
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 250
+		size = 239
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 9575
+		size = 9167
 	}
 
 	clergymen = {
 		culture = sephardic
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	artisans = {
 		culture = sephardic
 		religion = orthodox
-		size = 975
+		size = 933
 	}
 
 }

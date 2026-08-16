@@ -1,6 +1,6 @@
-#Pomerania Region (804000) #see Germany.txt for balance of region
+#Pomerania Region (866068) #see Germany.txt for balance of region
 #under the rule of Prussia 1836
-#Stettin (484000/121000 POPS) #Part of Poland since 1945
+#Stettin (542772/135693 POPS) #Part of Poland since 1945
 546 = {
 	aristocrats = {
 		culture = north_german
@@ -80,7 +80,7 @@
 		size = 920 
 	}
 }
-#Kolberg (160000/40000 POPS) #Part of Poland since 1945
+#Kolberg (161588/40397 POPS) #Part of Poland since 1945
 679 = {
 	aristocrats = {
 		culture = north_german
@@ -136,7 +136,7 @@
 		size = 1825 
 	}
 }
-#Koslin (160000/40000 POPS) #Part of Poland since 1945
+#Koslin (161708/40427 POPS) #Part of Poland since 1945
 680 = {
 	aristocrats = {
 		culture = north_german
@@ -216,9 +216,9 @@
 		size = 1825 
 	}
 }
-#Brandenburg Region (208000) #see Poland.txt for balance of region
+#Brandenburg Region (210760) #see Poland.txt for balance of region
 #under the rule of Prussia 1836
-#Kustrin (208000/52000 POPS) #Part of Poland since 1945
+#Kustrin (210760/52690 POPS) #Part of Poland since 1945
 681 = {
 	aristocrats = {
 		culture = north_german
@@ -256,9 +256,9 @@
 		size = 200
 	}
 }
-#Silesia Region (2568000) #see Czechia.txt and Germany.txt for balance of region
+#Silesia Region (2624244) #see Czechia.txt and Germany.txt for balance of region
 #under the rule of Prussia in 1836 
-#Breslau (936000/234000 POPS) 
+#Breslau (950348/237587 POPS) 
 682 = {
 	aristocrats = {
 		culture = north_german
@@ -410,7 +410,7 @@
 		size = 31600 
 	}
 }
-#Liegnitz (484000/121000 POPS) 
+#Liegnitz (485600/121400 POPS) 
 683 = {
 	aristocrats = {
 		culture = north_german
@@ -520,7 +520,7 @@
 		size = 925 
 	}
 }
-#Oppeln (492000/123000 POPS) 
+#Oppeln (498644/124661 POPS) 
 684 = {
 	aristocrats = {
 		culture = north_german
@@ -648,7 +648,7 @@
 		size = 3725 
 	}
 }
-#Kattowitz (452000/113000 POPS) 
+#Kattowitz (460600/115150 POPS) 
 685 = {
 	aristocrats = {
 		culture = north_german
@@ -753,7 +753,7 @@
 	}
 }
 #under the rule of Austria in 1836 
-#Bielsko (204000/52000 POPS) #now part of Poland
+#Bielsko (229052/57263 POPS) #now part of Poland
 2584 = {
 	aristocrats = {
 		culture = polish
@@ -815,9 +815,9 @@
 		size = 1675 
 	}
 }
-#West Prussia Region (688000) 
+#West Prussia Region (918468) 
 #under the rule of Prussia in 1836 
-#Danzig (76000/19000 POPS) 
+#Danzig (280240/70060 POPS) 
 690 = {
 	aristocrats = {
 		culture = north_german
@@ -897,7 +897,7 @@
 		size = 1875 
 	}
 }
-#Tuchel (180000/45000 POPS) 
+#Tuchel (181756/45439 POPS) 
 691 = {
 	aristocrats = {
 		culture = north_german
@@ -977,7 +977,7 @@
 		size = 6525
 	}
 }
-#Deutsche Krone (128000/32000 POPS) 
+#Deutsche Krone (130052/32513 POPS) 
 692 = {
 	aristocrats = {
 		culture = north_german
@@ -1033,7 +1033,7 @@
 		size = 6625
 	}
 }
-#Elbing (148000/37000 POPS) 
+#Elbing (149880/37470 POPS) 
 693 = {
 	aristocrats = {
 		culture = north_german
@@ -1089,7 +1089,7 @@
 		size = 7475
 	}
 }
-#Torun (156000/44000 POPS) 
+#Torun (176540/44135 POPS) 
 694 = {
 	aristocrats = {
 		culture = north_german
@@ -1181,9 +1181,9 @@
 		size = 24225 
 	}
 }
-#East Prussia Region (396000) #see Russia.txt and Lithuania.txt for balance of region
+#East Prussia Region (400380) #see Russia.txt and Lithuania.txt for balance of region
 #under the rule of Prussia in 1836 
-#Allenstein (396000/99000 POPS) 
+#Allenstein (400380/100095 POPS) 
 696 = {
 	aristocrats = {
 		culture = north_german
@@ -1263,9 +1263,9 @@
 		size = 4625 
 	}
 }
-#Posen-Wielkopolska Region (1704000) 
+#Posen-Wielkopolska Region (1764352) 
 #under the rule of Prussia in 1836 
-#Posen (540000/135000 POPS) 
+#Posen (543212/135803 POPS) 
 699 = {
 	aristocrats = {
 		culture = north_german
@@ -1375,7 +1375,7 @@
 		size = 74400
 	}
 }
-#Bromberg (212000/53000 POPS) 
+#Bromberg (224512/56128 POPS) 
 700 = {
 	aristocrats = {
 		culture = north_german
@@ -1474,7 +1474,7 @@
 		size = 22375
 	}
 }
-#Gniezno (456000/116000 POPS) 
+#Gniezno (502028/125507 POPS) 
 701 = {
 	aristocrats = {
 		culture = north_german
@@ -1574,7 +1574,7 @@
 	}
 }
 #under the rule of Russia in 1836 (496000) 
-#Lodz (244000/61000 POPS) 
+#Lodz (244400/61100 POPS) 
 712 = {
 	aristocrats = {
 		culture = polish
@@ -1690,7 +1690,7 @@
 		size = 3000 
 	}
 }
-#Kalicz (252000/63000 POPS) 
+#Kalicz (250200/62550 POPS) 
 717 = {
 	aristocrats = {
 		culture = polish
@@ -1795,9 +1795,9 @@
 	}
 
 }
-#Malopolska Region (3004000)
+#Malopolska Region (3009620)
 #under the rule of Krakow in 1836
-#Krakow (424000/106000 POPS)
+#Krakow (424400/106100 POPS)
 703 = {
 	aristocrats = {
 		culture = polish
@@ -1914,7 +1914,7 @@
 	}
 }
 #under the rule of Austria in 1836
-#Novy Sacz (596000/149000 POPS)
+#Novy Sacz (598952/149738 POPS)
 704 = {
 	aristocrats = {
 		culture = polish
@@ -2030,7 +2030,7 @@
 		size = 1825
 	}
 }
-#Tarnow (616000/154000 POPS)
+#Tarnow (619068/154767 POPS)
 714 = {
 	aristocrats = {
 		culture = polish
@@ -2111,7 +2111,7 @@
 	}
 }
 #under the rule of Russia in 1836 (1368000)
-#Radom (444000/111000 POPS)
+#Radom (443200/110800 POPS)
 713 = {
 	aristocrats = {
 		culture = polish
@@ -2339,9 +2339,9 @@
 		size = 8200
 	}
 }
-#Galicia Region (596000) #see Ukraine.txt for balance of region 
+#Galicia Region (638900) #see Ukraine.txt for balance of region 
 #under the rule of Austria in 1836
-#Przemysl (596000/149000 POPS)
+#Przemysl (638900/159725 POPS)
 705 = {
 	clergymen = {
 		culture = ukrainian
@@ -2445,9 +2445,9 @@
 		size = 1825
 	}
 }
-#Mazovia Region (2224000)
+#Mazovia Region (2548000)
 #under the rule of Russia in 1836
-#Warsaw (720000/180000 POPS)
+#Warsaw (843400/210850 POPS)
 706 = {
 	aristocrats = {
 		culture = polish
@@ -2575,7 +2575,7 @@
 		size = 3400
 	}
 }
-#Suwalki (196000/49000 POPS)
+#Suwalki (196200/49050 POPS)
 707 = {
 	aristocrats = {
 		culture = polish
@@ -2735,7 +2735,7 @@
 		size = 2690
 	}
 }
-#Lomza (200000/50000 POPS)
+#Lomza (204000/51000 POPS)
 709 = {
 	aristocrats = {
 		culture = polish
@@ -2871,7 +2871,7 @@
 		size = 1700
 	}
 }
-#Siedlice (472000/118000 POPS)
+#Siedlice (472400/118100 POPS)
 711 = {
 	aristocrats = {
 		culture = polish
@@ -2927,110 +2927,110 @@
 		size = 8200
 	}
 }
-#Podlachia Region (320000) #see Belarus.txt for balance of region
+#Podlachia Region (333612) #see Belarus.txt for balance of region
 #under the rule of Russia in 1836
-#Bialystok (320000/80000 POPS)
+#Bialystok (333612/83403 POPS)
 719 = {
 	clergymen = {
 		culture = byelorussian
 		religion = orthodox
-		size = 325
+		size = 337
 	}
 
 	artisans = {
 		culture = byelorussian
 		religion = orthodox
-		size = 1100
+		size = 1141
 	}
 
 	soldiers = {
 		culture = byelorussian
 		religion = orthodox
-		size = 525
+		size = 545
 	}
 
 	farmers = {
 		culture = byelorussian
 		religion = orthodox
-		size = 30225
+		size = 31349
 	}
 
 	aristocrats = {
 		culture = polish
 		religion = orthodox
-		size = 1900
+		size = 1971
 	}
 
 	clergymen = {
 		culture = polish
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	artisans = {
 		culture = polish
 		religion = orthodox
-		size = 400
+		size = 415
 	}
 
 	soldiers = {
 		culture = polish
 		religion = orthodox
-		size = 112
+		size = 116
 	}
 
 	farmers = {
 		culture = polish
 		religion = orthodox
-		size = 5575
+		size = 5782
 	}
 
 	clergymen = {
 		culture = byelorussian
 		religion = orthodox
-		size = 225
+		size = 233
 	}
 
 	artisans = {
 		culture = byelorussian
 		religion = orthodox
-		size = 1250
+		size = 1296
 	}
 
 	soldiers = {
 		culture = byelorussian
 		religion = orthodox
-		size = 450
+		size = 467
 	}
 
 	farmers = {
 		culture = byelorussian
 		religion = orthodox
-		size = 28225
+		size = 29275
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 1250
+		size = 1296
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 8575
+		size = 8894
 	}
 
 }

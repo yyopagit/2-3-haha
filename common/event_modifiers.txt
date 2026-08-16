@@ -1845,6 +1845,19 @@ external_colonisation_colonies = {
 	life_rating = -0.05
 }
 
+# Континент africa (без Северной Африки). На north_africa не вешать.
+africa_resources = {
+	local_RGO_output = 2.0
+	icon = 11
+}
+
+# Заморская колонизация: +400% RGO, штраф life_rating в 2 раза от колониального -0.05.
+africa_resources_colonial = {
+	local_RGO_output = 4.0
+	life_rating = -0.10
+	icon = 11
+}
+
 internal_colonisation = {
 	local_RGO_output = 0.2
 }
@@ -1916,8 +1929,7 @@ spa_por_iberian_south_america = {
 	icon = 5
 }
 
-# Кэш для town_penalty / фабрик: штамп на все провинции штата.
-# Проверка has_province_modifier = O(1), без any_owned_province каждый день.
+# Кэш штата (события). В production_types не проверять — тултип завода падает.
 state_has_town = {
 	icon = 15
 }

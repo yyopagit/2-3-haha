@@ -1,214 +1,61 @@
 #file includes modern South Africa, Lesotho and Swaziland
-#Western Cape Region (395100)
+#Western Cape Region (554732)
 #Ruled by Britain 1836
 #Boer POPs represent post-Great Trek migration 
-#Cape Town (173000/43250 POPS)
+#Cape Town (153496/38374 POPS)
 2087 = {
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 200
+		size = 42
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 3000
+		size = 640
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 3000
+		size = 640
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 36200
+		size = 7728
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 400
+		size = 86
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 3000
+		size = 640
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 3000
+		size = 640
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 48200
+		size = 10290
 	}
 
 	aristocrats = {
 		culture = british
 		religion = orthodox
-		size = 20
-	}
-
-	clergymen = {
-		culture = british
-		religion = orthodox
-		size = 70
-	}
-
-	bureaucrats = {
-		culture = british
-		religion = orthodox
-		size = 60
-	}
-
-	artisans = {
-		culture = british
-		religion = orthodox
-		size = 2500
-	}
-
-	farmers = {
-		culture = british
-		religion = orthodox
-		size = 4250
-	}
-
-	clergymen = {
-		culture = boer
-		religion = orthodox
-		size = 300
-	}
-
-	bureaucrats = {
-		culture = boer
-		religion = orthodox
-		size = 10104
-	}
-
-	artisans = {
-		culture = boer
-		religion = orthodox
-		size = 3300
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 59151
-	}
-}
-#Worcester (117700/29425 POPS)
-2089 = {
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1000
-	}
-
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3200
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 300
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 600
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 28000
-	}
-
-	clergymen = {
-		culture = boer
-		religion = orthodox
-		size = 320
-	}
-
-	artisans = {
-		culture = boer
-		religion = orthodox
-		size = 2800
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 62000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 400
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 400
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 40000
+		size = 4
 	}
 
 	clergymen = {
@@ -217,1375 +64,1296 @@
 		size = 15
 	}
 
-	artisans = {
-		culture = british
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = british
-		religion = orthodox
-		size = 430
-	}
-}
-#Swettenham (69700/17425 POPS)
-2090 = {
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 300
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 800
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 28000
-	}
-
-	clergymen = {
-		culture = boer
-		religion = orthodox
-		size = 200
-	}
-
-	artisans = {
-		culture = boer
-		religion = orthodox
-		size = 1200
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 76025
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 300
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 400
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 60000
-	}
-
-	clergymen = {
-		culture = british
-		religion = orthodox
-		size = 15
-	}
-
-	artisans = {
-		culture = british
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = british
-		religion = orthodox
-		size = 430
-	}
-}
-#Mossel Bay (34700/8675 POPS)
-2091 = {
-	clergymen = {
-		culture = boer
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = boer
-		religion = orthodox
-		size = 600
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 120000
-	}
-
-	clergymen = {
-		culture = british
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = british
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = british
-		religion = orthodox
-		size = 1800
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 140
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 12000
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 400
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 5200
-	}
-}
-#Namaqualand Region (12000) #see Namibia.txt for balance of region
-#uncolonized 1836
-#Springbok (12000/3000 POPS)
-2088 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 65000
-	}
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 42250
-	}
-
-}
-#Karoo Region (244500)
-#Ruled by Britain 1836
-#Boer POPs represent post-Great Trek migration 
-#Beaufort (34600/8650 POPS)
-2092 = {
-	clergymen = {
-		culture = boer
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = boer
-		religion = orthodox
-		size = 600
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 100000
-	}
-
-	clergymen = {
-		culture = british
-		religion = orthodox
-		size = 15
-	}
-
-	artisans = {
-		culture = british
-		religion = orthodox
-		size = 200
-	}
-
-
-	farmers = {
-		culture = british
-		religion = orthodox
-		size = 775
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 400
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 20000
-	}
 	bureaucrats = {
-		culture = boer
-		religion = orthodox
-		size = 5268
-	}
-}
-#Calvinia (23300/5825 POPS)
-2093 = {
-	clergymen = {
-		culture = boer
-		religion = orthodox
-		size = 150
-	}
-
-	artisans = {
-		culture = boer
-		religion = orthodox
-		size = 1000
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 8000
-	}
-
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 128250
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 29000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 12188
-	}
-}
-#De Aar (30600/7650 POPS) 
-2558 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 57000
-	}
-
-	clergymen = {
-		culture = boer
-		religion = orthodox
-		size = 250
-	}
-
-	artisans = {
-		culture = boer
-		religion = orthodox
-		size = 2500
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 67275
-	}
-}
-#Uncolonized in 1836
-#Kimberley (156000/39000 POPS)
-2094 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1200
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 1200
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 6400
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 40000
-	}
-	
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 120000
-	}
-}
-#Bechuanaland Region (20000) #see Botswana.txt for balance of region
-#Dikathong (20000/5000 POPS)
-2095 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 2000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 106500
-	}
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 26500
-	}
-
-}
-#Eastern Cape Region (232000)
-#Ruled by Britain 1836
-#Port Elizabeth (44000/11000 POPS)
-2096 = {
-	clergymen = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 13
 	}
 
 	artisans = {
 		culture = british
 		religion = orthodox
-		size = 300
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 3000
+		size = 534
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 2650
-	}
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 61521
-	}
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 400
+		size = 907
 	}
 
 	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 350
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 19000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 9600
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 29000
-	}
-	bureaucrats = {
-		culture = boer
-		religion = orthodox
-		size = 4274
-	}
-}
-#Graaf Reinet (36000/9000 POPS)
-2097 = {
-	clergymen = {
-		culture = british
-		religion = orthodox
-		size = 10
-	}
-
-	artisans = {
-		culture = british
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = british
-		religion = orthodox
-		size = 8825
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 7600
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 20
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 30
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 1700
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 5200
-	}
-}
-#uncolonized/ruled by the Xhosa 1836
-#Bisho (40000/10000 POPS)
-2098 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 1000
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 39000
-	}
-}
-#Mathele (40000/10000 POPS)
-2099 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 6000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 45500
-	}
-}
-#Umtata (72000/18000 POPS)
-2100 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 600
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 600
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 45500
-	}
-
-}
-#Transorangia Region (509000)
-#uncolonized in 1836/dominated by the Sotho in 1836
-#Boer POPs represent post-Great Trek migration 
-#Bloemfontein (194000/48500 POPS)
-2101 = {
-	bureaucrats = {
-		culture = boer
-		religion = orthodox
-		size = 20
-	}
-
-	officers = {
-		culture = boer
-		religion = orthodox
-		size = 30
-	}
-
-	clergymen = {
-		culture = boer
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = boer
-		religion = orthodox
-		size = 500
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 152475
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1400
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 900
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 4000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 90000
-	}
-}
-#Winburg (102000/25500 POPS)
-2102 = {
-	clergymen = {
-		culture = boer
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = boer
-		religion = orthodox
-		size = 250
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 210
-	}
-
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 132000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 350
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 700
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 40000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 750
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 2500
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 60000
-	}
-}
-#Philippolis (85000/21250 POPS)
-2103 = {
-	clergymen = {
-		culture = boer
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = boer
-		religion = orthodox
-		size = 500
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 102000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1400
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 1200
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 5000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 120000
-	}
-}
-#Thaba Bosiu (128000/32000 POPS) #now Lesotho 
-2104 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1200
-	}
-
-	bureaucrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 10000
-	}
-
-	officers = {
-		culture = african_minor
-		religion = orthodox
-		size = 600
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 700
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 58501
-	}
-}
-#Transvaal Region (349000)
-#uncolonized in 1836/dominated by the Sotho in 1836
-#Boer POPs represent post-Great Trek migration 
-#Pretoria (137600/34400 POPS)
-2105 = {
-	bureaucrats = {
-		culture = boer
-		religion = orthodox
-		size = 20
-	}
-
-	officers = {
-		culture = boer
-		religion = orthodox
-		size = 30
-	}
-
-	clergymen = {
-		culture = boer
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = boer
-		religion = orthodox
-		size = 200
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 110
-	}
-
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 60200
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 950
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 950
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 5000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 185
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 110300
-	}
-}
-#Johannesburg (102400/25600 POPS)
-2106 = {
-	clergymen = {
-		culture = boer
-		religion = orthodox
-		size = 10
-	}
-
-	artisans = {
-		culture = boer
-		religion = orthodox
-		size = 25
-	}
-
-	soldiers = {
 		culture = boer
 		religion = orthodox
 		size = 65
 	}
 
-	farmers = {
+	bureaucrats = {
 		culture = boer
 		religion = orthodox
-		size = 75000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 425
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
+		size = 2157
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = boer
 		religion = orthodox
-		size = 1250
+		size = 705
 	}
 
 	soldiers = {
-		culture = african_minor
+		culture = boer
 		religion = orthodox
-		size = 150
+		size = 640
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = boer
 		religion = orthodox
-		size = 40000
+		size = 12628
 	}
 }
-#uncolonized in 1836/dominated by the Ndebele
-#Klerksdorp (109000/27250 POPS)
-2107 = {
+#Worcester (127376/31844 POPS)
+2089 = {
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 42
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 213
+	}
+
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 684
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 128
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 640
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 5977
+	}
+
 	clergymen = {
 		culture = boer
 		religion = orthodox
-		size = 50
+		size = 69
 	}
 
 	artisans = {
 		culture = boer
 		religion = orthodox
-		size = 150
+		size = 598
 	}
 
 	soldiers = {
 		culture = boer
 		religion = orthodox
-		size = 150
+		size = 640
 	}
 
 	farmers = {
 		culture = boer
 		religion = orthodox
-		size = 40050
+		size = 13236
 	}
+
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 225
+		size = 86
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 125
+		size = 42
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 600
+		size = 86
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 125
+		size = 640
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 30000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 275
+		size = 8539
 	}
 
 	clergymen = {
-		culture = african_minor
+		culture = british
 		religion = orthodox
-		size = 150
+		size = 3
 	}
 
 	artisans = {
-		culture = african_minor
+		culture = british
 		religion = orthodox
-		size = 600
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 85
+		size = 65
 	}
 
 	farmers = {
-		culture = african_minor
+		culture = british
 		religion = orthodox
-		size = 30000
+		size = 91
 	}
 }
-#Limpopo Region (129000)
-#uncolonized in 1836/dominated by the Ndebele
+#Swettenham (151116/37779 POPS)
+2090 = {
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 171
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 640
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 5977
+	}
+
+	clergymen = {
+		culture = boer
+		religion = orthodox
+		size = 42
+	}
+
+	artisans = {
+		culture = boer
+		religion = orthodox
+		size = 256
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 640
+	}
+
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 16229
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 86
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 640
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 12809
+	}
+
+	clergymen = {
+		culture = british
+		religion = orthodox
+		size = 3
+	}
+
+	artisans = {
+		culture = british
+		religion = orthodox
+		size = 65
+	}
+
+	farmers = {
+		culture = british
+		religion = orthodox
+		size = 91
+	}
+}
+#Mossel Bay (122744/30686 POPS)
+2091 = {
+	clergymen = {
+		culture = boer
+		religion = orthodox
+		size = 21
+	}
+
+	artisans = {
+		culture = boer
+		religion = orthodox
+		size = 128
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 640
+	}
+
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 25618
+	}
+
+	clergymen = {
+		culture = british
+		religion = orthodox
+		size = 11
+	}
+
+	artisans = {
+		culture = british
+		religion = orthodox
+		size = 32
+	}
+
+	farmers = {
+		culture = british
+		religion = orthodox
+		size = 385
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 29
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 42
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 2562
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 21
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 86
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 1111
+	}
+}
+#Namaqualand Region (16848) #see Namibia.txt for balance of region
+#uncolonized 1836
+#Springbok (16848/4212 POPS)
+2088 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 6
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 114
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 2480
+	}
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 1610
+	}
+
+}
+#Karoo Region (343284)
+#Ruled by Britain 1836
 #Boer POPs represent post-Great Trek migration 
-#Mosega (48200/12050 POPS)
-2108 = {
+#Beaufort (73080/18270 POPS)
+2092 = {
 	clergymen = {
+		culture = boer
+		religion = orthodox
+		size = 14
+	}
+
+	artisans = {
+		culture = boer
+		religion = orthodox
+		size = 81
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 410
+	}
+
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 13682
+	}
+
+	clergymen = {
+		culture = british
+		religion = orthodox
+		size = 1
+	}
+
+	artisans = {
+		culture = british
+		religion = orthodox
+		size = 27
+	}
+
+
+	farmers = {
+		culture = british
+		religion = orthodox
+		size = 107
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 27
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 55
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 410
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 2736
+	}
+	bureaucrats = {
+		culture = boer
+		religion = orthodox
+		size = 720
+	}
+}
+#Calvinia (102004/25501 POPS)
+2093 = {
+	clergymen = {
+		culture = boer
+		religion = orthodox
+		size = 21
+	}
+
+	artisans = {
+		culture = boer
+		religion = orthodox
+		size = 136
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 1095
+	}
+
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 17553
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 34
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 69
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 410
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 3968
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 34
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 34
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 69
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 410
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 1668
+	}
+}
+#De Aar (74176/18544 POPS) 
+2558 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 69
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 69
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 205
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 410
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 7799
+	}
+
+	clergymen = {
+		culture = boer
+		religion = orthodox
+		size = 34
+	}
+
+	artisans = {
+		culture = boer
+		religion = orthodox
+		size = 343
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 410
+	}
+
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 9205
+	}
+}
+#Uncolonized in 1836
+#Kimberley (94024/23506 POPS)
+2094 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 164
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 164
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 876
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 410
+	}
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 5473
+	}
+	
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 16419
+	}
+}
+#Bechuanaland Region (28080) #see Botswana.txt for balance of region
+#Dikathong (28080/7020 POPS)
+2095 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 25
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 101
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 152
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 5379
+	}
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 1338
+	}
+
+}
+#Eastern Cape Region (325736)
+#Ruled by Britain 1836
+#Port Elizabeth (138800/34700 POPS)
+2096 = {
+	clergymen = {
+		culture = british
+		religion = orthodox
+		size = 7
+	}
+
+	artisans = {
+		culture = british
+		religion = orthodox
+		size = 77
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 771
+	}
+
+	farmers = {
+		culture = british
+		religion = orthodox
+		size = 681
+	}
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 15787
+	}
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 102
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 90
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 257
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 771
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 4879
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 38
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 38
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 2465
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 128
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 7446
+	}
+	bureaucrats = {
+		culture = boer
+		religion = orthodox
+		size = 1098
+	}
+}
+#Graaf Reinet (28040/7010 POPS)
+2097 = {
+	clergymen = {
+		culture = british
+		religion = orthodox
+		size = 3
+	}
+
+	artisans = {
+		culture = british
+		religion = orthodox
+		size = 38
+	}
+
+	farmers = {
+		culture = british
+		religion = orthodox
+		size = 2266
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 13
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 13
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 52
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 771
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 1952
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 6
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 7
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 52
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 437
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 13
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 52
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 1335
+	}
+}
+#uncolonized/ruled by the Xhosa 1836
+#Bisho (47764/11941 POPS)
+2098 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 128
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 257
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 771
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 771
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 10014
+	}
+}
+#Mathele (57000/14250 POPS)
+2099 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 128
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 128
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 771
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 1540
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 11683
+	}
+}
+#Umtata (54132/13533 POPS)
+2100 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 154
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 154
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 771
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 771
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 11683
+	}
+
+}
+#Transorangia Region (714648)
+#uncolonized in 1836/dominated by the Sotho in 1836
+#Boer POPs represent post-Great Trek migration 
+#Bloemfontein (227112/56778 POPS)
+2101 = {
+	bureaucrats = {
+		culture = boer
+		religion = orthodox
+		size = 4
+	}
+
+	officers = {
+		culture = boer
+		religion = orthodox
+		size = 7
+	}
+
+	clergymen = {
+		culture = boer
+		religion = orthodox
+		size = 11
+	}
+
+	artisans = {
+		culture = boer
+		religion = orthodox
+		size = 111
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 667
+	}
+
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 33897
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 312
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 201
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 889
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 667
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 20012
+	}
+}
+#Winburg (214044/53511 POPS)
+2102 = {
+	clergymen = {
+		culture = boer
+		religion = orthodox
+		size = 11
+	}
+
+	artisans = {
+		culture = boer
+		religion = orthodox
+		size = 56
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 46
+	}
+
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 29350
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 77
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 156
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 667
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 45
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 8894
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 167
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 111
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 556
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 34
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 13341
+	}
+}
+#Philippolis (205008/51252 POPS)
+2103 = {
+	clergymen = {
+		culture = boer
+		religion = orthodox
+		size = 22
+	}
+
+	artisans = {
+		culture = boer
+		religion = orthodox
+		size = 111
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 22
+	}
+
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 22679
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 312
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 267
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 1112
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 45
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 26682
+	}
+}
+#Thaba Bosiu (68484/17121 POPS) #now Lesotho 
+2104 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 267
+	}
+
+	bureaucrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 2224
+	}
+
+	officers = {
+		culture = african_minor
+		religion = orthodox
+		size = 133
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 156
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 667
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 667
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 13007
+	}
+}
+#Transvaal Region (490004)
+#uncolonized in 1836/dominated by the Sotho in 1836
+#Boer POPs represent post-Great Trek migration 
+#Pretoria (219284/54821 POPS)
+2105 = {
+	bureaucrats = {
+		culture = boer
+		religion = orthodox
+		size = 6
+	}
+
+	officers = {
 		culture = boer
 		religion = orthodox
 		size = 10
 	}
 
+	clergymen = {
+		culture = boer
+		religion = orthodox
+		size = 15
+	}
+
 	artisans = {
 		culture = boer
 		religion = orthodox
-		size = 30
+		size = 62
 	}
 
 	soldiers = {
 		culture = boer
 		religion = orthodox
-		size = 60
+		size = 34
 	}
 
 	farmers = {
 		culture = boer
 		religion = orthodox
-		size = 54000
+		size = 18540
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 750
+		size = 292
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 500
+		size = 292
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 1000
+		size = 1540
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 58
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 16250
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 350
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 43750
+		size = 33972
 	}
 }
-#uncolonized in 1836/dominated by the Zulu
-#Lydenburg (52600/13150 POPS)
-2109 = {
+#Johannesburg (144348/36087 POPS)
+2106 = {
 	clergymen = {
 		culture = boer
 		religion = orthodox
@@ -1595,363 +1363,595 @@
 	artisans = {
 		culture = boer
 		religion = orthodox
-		size = 12
+		size = 7
 	}
 
 	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 20
+	}
+
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 23099
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 131
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 77
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 385
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 46
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 12319
+	}
+}
+#uncolonized in 1836/dominated by the Ndebele
+#Klerksdorp (126372/31593 POPS)
+2107 = {
+	clergymen = {
 		culture = boer
 		religion = orthodox
 		size = 15
 	}
 
+	artisans = {
+		culture = boer
+		religion = orthodox
+		size = 46
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 46
+	}
+
 	farmers = {
 		culture = boer
 		religion = orthodox
-		size = 350120
+		size = 12334
 	}
-
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 225
+		size = 69
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 125
+		size = 38
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 650
+		size = 185
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 38
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 70000
+		size = 9240
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 84
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 46
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 185
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 27
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 9240
 	}
 }
-#uncolonized in 1836/dominated by the Gaza Nguni
-#Thohoyandu (28200/7050 POPS)
-2110 = {
+#Limpopo Region (181120)
+#uncolonized in 1836/dominated by the Ndebele
+#Boer POPs represent post-Great Trek migration 
+#Mosega (32740/8185 POPS)
+2108 = {
 	clergymen = {
 		culture = boer
+		religion = orthodox
+		size = 1
+	}
+
+	artisans = {
+		culture = boer
+		religion = orthodox
+		size = 1
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 4
+	}
+
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 3777
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 52
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 35
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 70
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 3
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 1137
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 8
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 6
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 24
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 6
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 3061
+	}
+}
+#uncolonized in 1836/dominated by the Zulu
+#Lydenburg (117892/29473 POPS)
+2109 = {
+	clergymen = {
+		culture = boer
+		religion = orthodox
+		size = 1
+	}
+
+	artisans = {
+		culture = boer
+		religion = orthodox
+		size = 1
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 1
+	}
+
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 24496
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 15
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 8
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 45
+	}
+
+	soldiers = {
+		culture = african_minor
 		religion = orthodox
 		size = 10
 	}
 
-	artisans = {
-		culture = boer
-		religion = orthodox
-		size = 30
-	}
-
-	soldiers = {
-		culture = boer
-		religion = orthodox
-		size = 60
-	}
-
-	farmers = {
-		culture = boer
-		religion = orthodox
-		size = 38400
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 750
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
-
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 47000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 750
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1750
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 17500
+		size = 4896
 	}
 }
-#Natal Region (682000)
+#uncolonized in 1836/dominated by the Gaza Nguni
+#Thohoyandu (30488/7622 POPS)
+2110 = {
+	clergymen = {
+		culture = boer
+		religion = orthodox
+		size = 1
+	}
+
+	artisans = {
+		culture = boer
+		religion = orthodox
+		size = 1
+	}
+
+	soldiers = {
+		culture = boer
+		religion = orthodox
+		size = 4
+	}
+
+	farmers = {
+		culture = boer
+		religion = orthodox
+		size = 2686
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 35
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 52
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 105
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 10
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 3288
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 52
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 35
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 122
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 7
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 1224
+	}
+}
+#Natal Region (957548)
 #ruled/dominated by the Zulu in 1836
 #Boer POPs represent post-Great Trek migration 
-#Durban (126000/31500 POPS)
+#Durban (368000/92000 POPS)
 2111 = {
 	clergymen = {
 		culture = boer
 		religion = orthodox
-		size = 50
+		size = 20
 	}
 
 	artisans = {
 		culture = boer
 		religion = orthodox
-		size = 250
+		size = 95
 	}
 
 	soldiers = {
 		culture = boer
 		religion = orthodox
-		size = 100
+		size = 38
 	}
 
 	farmers = {
 		culture = boer
 		religion = orthodox
-		size = 119200
+		size = 45254
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1500
+		size = 570
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 750
+		size = 285
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 2400
+		size = 911
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 75
+		size = 28
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 30000
+		size = 11389
 	}
 
 	aristocrats = {
 		culture = zulu
 		religion = orthodox
-		size = 1425
+		size = 541
 	}
 
 	clergymen = {
 		culture = zulu
 		religion = orthodox
-		size = 1225
+		size = 465
 	}
 
 	artisans = {
 		culture = zulu
 		religion = orthodox
-		size = 4050
+		size = 1537
 	}
 
 	soldiers = {
 		culture = zulu
 		religion = orthodox
-		size = 250
+		size = 95
 	}
 
 	farmers = {
 		culture = zulu
 		religion = orthodox
-		size = 81050
+		size = 30772
 	}
 }
-#Ladysmith (156000/39000 POPS)
+#Ladysmith (141540/35385 POPS)
 2112 = {
 	aristocrats = {
 		culture = zulu
 		religion = orthodox
-		size = 750
+		size = 285
 	}
 
 	clergymen = {
 		culture = zulu
 		religion = orthodox
-		size = 400
+		size = 152
 	}
 
 	artisans = {
 		culture = zulu
 		religion = orthodox
-		size = 1950
+		size = 740
 	}
 
 	soldiers = {
 		culture = zulu
 		religion = orthodox
-		size = 100
+		size = 38
 	}
 
 	farmers = {
 		culture = zulu
 		religion = orthodox
-		size = 90000
+		size = 34170
 	}
 }
-#Ulundi (320000/80000 POPS)
+#Ulundi (224992/56248 POPS)
 2113 = {
 	aristocrats = {
 		culture = zulu
 		religion = orthodox
-		size = 1550
+		size = 588
 	}
 
 	bureaucrats = {
 		culture = zulu
 		religion = orthodox
-		size = 25
+		size = 10
 	}
 
 	officers = {
 		culture = zulu
 		religion = orthodox
-		size = 150
+		size = 58
 	}
 
 	clergymen = {
 		culture = zulu
 		religion = orthodox
-		size = 825
+		size = 313
 	}
 
 	artisans = {
 		culture = zulu
 		religion = orthodox
-		size = 4000
+		size = 1519
 	}
 
 	soldiers = {
 		culture = zulu
 		religion = orthodox
-		size = 1600
+		size = 608
 	}
 
 	farmers = {
 		culture = zulu
 		religion = orthodox
-		size = 140000
+		size = 53152
 	}
 }
-#Mbabane (80000/20000 POPS) #now Swaziland
+#Mbabane (223016/55754 POPS) #now Swaziland
 2114 = {
 	aristocrats = {
 		culture = zulu
 		religion = orthodox
-		size = 1250
+		size = 475
 	}
 
 	clergymen = {
 		culture = zulu
 		religion = orthodox
-		size = 750
+		size = 285
 	}
 
 	artisans = {
 		culture = zulu
 		religion = orthodox
-		size = 2350
+		size = 892
 	}
 
 	soldiers = {
 		culture = zulu
 		religion = orthodox
-		size = 750
+		size = 285
 	}
 
 	farmers = {
 		culture = zulu
 		religion = orthodox
-		size = 33750
+		size = 12813
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 2500
+		size = 949
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 1250
+		size = 475
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 4500
+		size = 1709
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 1250
+		size = 475
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 98500
+		size = 37396
 	}
 
 }

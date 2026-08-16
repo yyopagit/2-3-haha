@@ -1,185 +1,185 @@
 #Guyana (99600)
 #Ruled by Britain 1836
-#Georgetown (58600/14650 POPS)
+#Georgetown (18956/4739 POPS)
 2239 = {
 	aristocrats = {
 		culture = british
 		religion = orthodox
-		size = 100
+		size = 8
 	}
 
 	bureaucrats = {
 		culture = british
 		religion = orthodox
-		size = 50
+		size = 4
 	}
 
 	clergymen = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 2
 	}
 
 	artisans = {
 		culture = british
 		religion = orthodox
-		size = 350
+		size = 29
 	}
 
 	soldiers = {
 		culture = british
 		religion = orthodox
-		size = 250
+		size = 21
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 100
+		size = 8
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = orthodox
-		size = 750
+		size = 62
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = orthodox
-		size = 700
+		size = 58
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = orthodox
-		size = 1500
+		size = 125
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = orthodox
-		size = 53075
+		size = 4422
 	}
 }
-#Mahdia (4000/1000 POPS)
+#Mahdia (30372/7593 POPS)
 2242 = {
 	aristocrats = {
 		culture = amazonian
 		religion = orthodox
-		size = 100
+		size = 8
 	}
 
 	clergymen = {
 		culture = amazonian
 		religion = orthodox
-		size = 250
+		size = 21
 	}
 
 	artisans = {
 		culture = amazonian
 		religion = orthodox
-		size = 500
+		size = 42
 	}
 
 	soldiers = {
 		culture = amazonian
 		religion = orthodox
-		size = 255
+		size = 21
 	}
 
 	farmers = {
 		culture = amazonian
 		religion = orthodox
-		size = 90000
+		size = 7501
 	}
 }
-#Essequibo (33000/8250 POPS)
+#Essequibo (30244/7561 POPS)
 2243 = {
 	aristocrats = {
 		culture = british
 		religion = orthodox
-		size = 50
+		size = 4
 	}
 
 	clergymen = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 2
 	}
 
 	artisans = {
 		culture = british
 		religion = orthodox
-		size = 100
+		size = 8
 	}
 
 	soldiers = {
 		culture = british
 		religion = orthodox
-		size = 325
+		size = 27
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 50
+		size = 4
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = orthodox
-		size = 750
+		size = 62
 	}
 
 	artisans = {
 		culture = caribeno
-		religion = orthodox
-		size = 3000
-	}
-
-	soldiers = {
-		culture = caribeno
-		religion = orthodox
-		size = 975
-	}
-
-	farmers = {
-		culture = caribeno
-		religion = orthodox
-		size = 85500
-	}
-}
-#Biloka (4000/1000 POPS)
-1979 = {
-	aristocrats = {
-		culture = amazonian
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = amazonian
 		religion = orthodox
 		size = 250
 	}
 
+	soldiers = {
+		culture = caribeno
+		religion = orthodox
+		size = 81
+	}
+
+	farmers = {
+		culture = caribeno
+		religion = orthodox
+		size = 7123
+	}
+}
+#Biloka (20028/5007 POPS)
+1979 = {
+	aristocrats = {
+		culture = amazonian
+		religion = orthodox
+		size = 8
+	}
+
+	clergymen = {
+		culture = amazonian
+		religion = orthodox
+		size = 21
+	}
+
 	artisans = {
 		culture = amazonian
 		religion = orthodox
-		size = 500
+		size = 42
 	}
 
 	soldiers = {
 		culture = amazonian
 		religion = orthodox
-		size = 255
+		size = 21
 	}
 
 	farmers = {
 		culture = amazonian
 		religion = orthodox
-		size = 59000
+		size = 4915
 	}
 
 }

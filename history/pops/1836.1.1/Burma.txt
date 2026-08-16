@@ -1,1226 +1,1226 @@
-#Pegu Region (1336000)
+#Pegu Region (1259628)
 #Under rule of Burma 1836
-#Rangoon (344000/86000 POPS)
+#Rangoon (295980/73995 POPS)
 1330 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 500
+size = 207
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 625
+size = 259
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 3000
+size = 1243
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 625
+size = 259
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 55000
+size = 22792
 	}
 
 	aristocrats = {
 		culture = burmese #Mon
 		religion = orthodox
-size = 250
+size = 104
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 375
+size = 155
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 2750
+size = 1140
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 375
+size = 155
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 1250
+size = 518
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 1187
+size = 492
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 5875
+size = 2435
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 10000
+size = 4144
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 96750
+size = 40092
 	}
 }
-#Bassein (124000/31000 POPS)
+#Bassein (113336/28334 POPS)
 1331 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 750
+size = 311
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 687
+size = 285
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 3375
+size = 1399
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 750
+size = 311
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 61937
+size = 25666
 	}
 
 	aristocrats = {
 		culture = burmese #Mon
 		religion = orthodox
-size = 62
+size = 26
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 187
+size = 77
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 500
+size = 207
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 125
+size = 52
 	}
 }
-#Pegu (560000/140000 POPS)
+#Pegu (527084/131771 POPS)
 1332 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 1000
+size = 414
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 1250
+size = 518
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 6000
+size = 2486
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 1250
+size = 518
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 110500
+size = 45790
 	}
 
 	aristocrats = {
 		culture = burmese #Mon
 		religion = orthodox
-size = 250
+size = 104
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 375
+size = 155
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 2125
+size = 881
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 375
+size = 155
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 2125
+size = 881
 	}
 
 	bureaucrats = {
 		culture = burmese
 		religion = orthodox
-size = 1500
+size = 622
 	}
 
 	officers = {
 		culture = burmese
 		religion = orthodox
-size = 1000
+size = 414
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 2000
+size = 829
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 10000
+size = 4144
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 10000
+size = 4144
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 168250
+size = 69716
 	}
 }
-#Toungoo (308000/77000 POPS)
+#Toungoo (323228/80807 POPS)
 1333 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 750
+size = 311
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 812
+size = 336
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 4000
+size = 1658
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 875
+size = 363
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 73562
+size = 30484
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 1250
+size = 518
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 1250
+size = 518
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 5625
+size = 2331
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 10000
+size = 4144
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 96875
+size = 40144
 	}
 
 }
-#Kyaukse Region (1072000)
+#Kyaukse Region (1111808)
 #Under rule of Burma in 1836
-#Mandalay (240000/70000 POPS)
+#Mandalay (248628/62157 POPS)
 1334 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 1250
+size = 518
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 1250
+size = 518
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 6000
+size = 2486
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 10000
+size = 4144
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 99000
+size = 41025
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 125
+size = 52
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 125
+size = 52
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 625
+size = 259
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 125
+size = 52
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 14000
+size = 5801
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 187
+size = 77
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 187
+size = 77
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 875
+size = 363
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 187
+size = 77
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 16062
+size = 6656
 	}
 }
-#Kyaukse (472000/118000 POPS)
+#Kyaukse (488984/122246 POPS)
 1335 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 2875
+size = 1191
 	}
 
 	bureaucrats = {
 		culture = burmese
 		religion = orthodox
-size = 1062
+size = 440
 	}
 
 	officers = {
 		culture = burmese
 		religion = orthodox
-size = 750
+size = 311
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 2812
+size = 1165
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 13750
+size = 5698
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 10000
+size = 4144
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 251250
+size = 104116
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 125
+size = 52
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 125
+size = 52
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 625
+size = 259
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 125
+size = 52
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 11500
+size = 4766
 	}
 }
-#Magwe (120000/30000 POPS)
+#Magwe (124732/31183 POPS)
 1336 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 812
+size = 336
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 750
+size = 311
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 3750
+size = 1554
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 2750
+size = 1140
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 67187
+size = 27842
 	}
 }
-#Prome (240000/60000 POPS)
+#Prome (249464/62366 POPS)
 1337 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 1562
+size = 647
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 1562
+size = 647
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 7500
+size = 3108
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 2750
+size = 1140
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 137125
+size = 56824
 	}
 
 }
-#burmese Region (680000)
+#burmese Region (713172)
 #Under Burma rule 1836
-#Taunggye (416000/104000 POPS)
+#Taunggye (431384/107846 POPS)
 1338 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 2250
+size = 932
 	}
 
 	bureaucrats = {
 		culture = burmese
 		religion = orthodox
-size = 562
+size = 233
 	}
 
 	officers = {
 		culture = burmese
 		religion = orthodox
-size = 437
+size = 181
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 2125
+size = 881
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 10625
+size = 4403
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 2125
+size = 881
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 191875
+size = 79512
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 375
+size = 155
 	}
 
 	bureaucrats = {
 		culture = burmese
 		religion = orthodox
-size = 250
+size = 104
 	}
 
 	officers = {
 		culture = burmese
 		religion = orthodox
-size = 62
+size = 26
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 500
+size = 207
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 2750
+size = 1140
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 562
+size = 233
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 45750
+size = 18958
 	}
 }
-#Lashio (264000/66000 POPS)
+#Lashio (281788/70447 POPS)
 1340 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 1250
+size = 518
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 1250
+size = 518
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 6250
+size = 2590
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 1250
+size = 518
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 115000
+size = 47655
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 250
+size = 104
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 250
+size = 104
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 1375
+size = 570
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 375
+size = 155
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 25250
+size = 10463
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 187
+size = 77
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 875
+size = 363
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 250
+size = 104
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 16187
+size = 6708
 	}
 
 }
-#Kachin Region (868000)
+#Kachin Region (711100)
 #Under rule of Burma 1836
-#Haka (288000/72000 POPS)
+#Haka (110228/27557 POPS)
 1339 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 125
+size = 52
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 125
+size = 52
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 625
+size = 259
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 2750
+size = 1140
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 9125
+size = 3781
 	}
 
 	aristocrats = {
 		culture = burmese #Chin
 		religion = orthodox
-size = 1250
+size = 518
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 1250
+size = 518
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 7500
+size = 3108
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 1250
+size = 518
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 187
+size = 77
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 875
+size = 363
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 2000
+size = 829
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 500
+size = 207
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 38937
+size = 16135
 	}
 }
-#Putao (216000/54000 POPS)
+#Putao (223776/55944 POPS)
 1341 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 1375
+size = 570
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 1375
+size = 570
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 6250
+size = 2590
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 1375
+size = 570
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 124625
+size = 51644
 	}
 }
-#Myitkyina (364000/91000 POPS)
+#Myitkyina (377096/94274 POPS)
 1342 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 1000
+size = 414
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 1000
+size = 414
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 5000
+size = 2072
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 1000
+size = 414
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 94500
+size = 39160
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 625
+size = 259
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 625
+size = 259
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 3000
+size = 1243
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 625
+size = 259
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 52625
+size = 21807
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 750
+size = 311
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 750
+size = 311
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 3375
+size = 1399
 	}
 
 	bureaucrats = {
 		culture = burmese
 		religion = orthodox
-size = 250
+size = 104
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 10000
+size = 4144
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 52375
+size = 21704
 	}
 
 }
 #Tenasserim Region - 604000
 #Under rule of Britain 1836
-#Moulmein (272000/68000 POPS)
+#Moulmein (175388/43847 POPS)
 1343 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 1000
+size = 414
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 875
+size = 363
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 2750
+size = 1140
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 750
+size = 311
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 77375
+size = 32064
 	}
 
 	aristocrats = {
 		culture = burmese #Mon
 		religion = orthodox
-size = 500
+size = 207
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 937
+size = 388
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 3437
+size = 1424
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 625
+size = 259
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 250
+size = 104
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 187
+size = 77
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 3750
+size = 1554
 	}
 
 	bureaucrats = {
 		culture = burmese
 		religion = orthodox
-size = 250
+size = 104
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 375
+size = 155
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 12687
+size = 5257
 	}
 
 	bureaucrats = {
 		culture = british
 		religion = orthodox
-size = 62
+size = 26
 	}
 }
-#Mergui (332000/83000 POPS)
+#Mergui (345480/86370 POPS)
 1344 = {
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 1000
+size = 414
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 937
+size = 388
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 2750
+size = 1140
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 1300
+size = 539
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 87062
+size = 36078
 	}
 
 	aristocrats = {
 		culture = thai
 		religion = orthodox
-size = 250
+size = 104
 	}
 
 	clergymen = {
 		culture = thai
 		religion = orthodox
-size = 500
+size = 207
 	}
 
 	artisans = {
 		culture = thai
 		religion = orthodox
-size = 3125
+size = 1295
 	}
 
 	soldiers = {
 		culture = thai
 		religion = orthodox
-size = 650
+size = 269
 	}
 
 	farmers = {
 		culture = thai
 		religion = orthodox
-size = 43125
+size = 17871
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 875
+size = 363
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 750
+size = 311
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 5000
+size = 2072
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 975
+size = 404
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 60125
+size = 24915
 	}
 
 }
 #Arakan Region : 176000
 #Under rule of Britain 1836
-#Sittwe (176000/44000 POPS)
+#Sittwe (183424/45856 POPS)
 1345 = {
 	bureaucrats = {
 		culture = british
 		religion = orthodox
-size = 25
+size = 10
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 250
+size = 104
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 312
+size = 129
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 6875
+size = 2849
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 638
+size = 264
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 29687
+size = 12302
 	}
 
 	aristocrats = {
 		culture = burmese
 		religion = orthodox
-size = 625
+size = 259
 	}
 
 	bureaucrats = {
 		culture = burmese
 		religion = orthodox
-size = 125
+size = 52
 	}
 
 	clergymen = {
 		culture = burmese
 		religion = orthodox
-size = 937
+size = 388
 	}
 
 	artisans = {
 		culture = burmese
 		religion = orthodox
-size = 15625
+size = 6475
 	}
 
 	soldiers = {
 		culture = burmese
 		religion = orthodox
-size = 1062
+size = 440
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 47062
+size = 19502
 	}
 
 	clergymen = { 
 		culture = burmese #Chin
 		religion = orthodox
-size = 62
+size = 26
 	}
 
 	farmers = {
 		culture = burmese
 		religion = orthodox
-size = 2375
+size = 984
 	}
 
 	clergymen = {
 		culture = bengali
 		religion = orthodox
-size = 125
+size = 52
 	}
 
 	farmers = {
 		culture = bengali
 		religion = orthodox
-size = 4875
+size = 2020
 	}
 
 }

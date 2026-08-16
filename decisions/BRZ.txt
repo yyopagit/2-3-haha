@@ -227,7 +227,7 @@ brz_railroads2 = {
 			}
 		}
 		allow = {
-			CLM_2259 = {
+			CLM_2247 = {
 				owned_by = THIS
 			}
 			CLM_2251 = {
@@ -236,7 +236,7 @@ brz_railroads2 = {
 			VNZ_2234 = {
 				owned_by = THIS
 			}
-			VNZ_2265 = {
+			VNZ_2264 = {
 				owned_by = THIS
 			}
 			CLM_2262 = {

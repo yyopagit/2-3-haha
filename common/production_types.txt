@@ -194,44 +194,47 @@ aeroplane_factory = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.25
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -262,44 +265,47 @@ barrel_factory = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.05
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -330,44 +336,47 @@ automobile_factory = {
 		trigger = { has_building = electric_gear_factory }
 		value = 0.05
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -391,44 +400,47 @@ radio_factory = {
 		trigger = { has_building = glass_factory }
 		value = 0.1
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -452,44 +464,47 @@ telephone_factory = {
 		trigger = { has_building = glass_factory }
 		value = 0.1
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -525,44 +540,47 @@ electric_gear_factory = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -586,44 +604,47 @@ machine_parts_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.125
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -642,44 +663,47 @@ synthetic_oil_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -703,44 +727,47 @@ synthetic_rubber_factory = {
 			}
 		value = 0.25
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -759,44 +786,47 @@ synthetic_sulphur_factory = {
 		trigger = { trade_goods_in_state = cotton }
 		value = 0.25
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -822,44 +852,47 @@ fuel_refinery = {
 			}
 		value = 0.25
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -884,44 +917,47 @@ steamer_shipyard = {
 		trigger = { has_building = clipper_shipyard }
 		value = 0.125
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -947,44 +983,47 @@ luxury_clothes_factory = {
 		trigger = { trade_goods_in_state = silk }
 		value = 0.05
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1008,44 +1047,47 @@ luxury_furniture_factory = {
 		trigger = { trade_goods_in_state = tropical_wood }
 		value = 0.05
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1072,44 +1114,47 @@ steel_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.2
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1154,44 +1199,47 @@ artillery_factory = {
 		trigger = { has_building = machine_parts_factory }
 		value = 0.1
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1226,44 +1274,47 @@ clipper_shipyard = {
 		trigger = { has_building = lumber_mill }
 		value = 0.1
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1293,44 +1344,47 @@ small_arms_factory = {
 		trigger = { has_building = lumber_mill }
 		value = 0.1
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1356,44 +1410,47 @@ furniture_factory = {
 		trigger = { trade_goods_in_state = timber }
 		value = 0.1
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1425,44 +1482,47 @@ regular_clothes_factory = {
 		trigger = { has_building = fabric_factory }
 		value = 0.25
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1486,44 +1546,47 @@ explosives_factory = {
 		trigger = { has_building = ammunition_factory }
 		value = 0.1
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1554,44 +1617,47 @@ ammunition_factory = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.1
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1647,44 +1713,47 @@ canned_food_factory = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1710,44 +1779,47 @@ canned_food_factory_fish = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1772,44 +1844,47 @@ canned_food_factory_cattle = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1834,44 +1909,47 @@ canned_food_factory_fruit = {
 		trigger = { trade_goods_in_state = iron }
 		value = 0.05
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1895,44 +1973,47 @@ dye_factory = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.25
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -1957,44 +2038,47 @@ liquor_distillery = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.1
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -2018,44 +2102,47 @@ winery = {
 		trigger = { trade_goods_in_state = grain }
 		value = 0.1
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -2169,44 +2256,47 @@ cement_factory = {
 		trigger = { trade_goods_in_state = coal }
 		value = 0.25
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20
@@ -2243,44 +2333,47 @@ fertilizer_factory = {
 			}
 		value = 0.25
 	}
-# town_penalty (Г) — кэш state_has_town / state_has_urban (events/TownCache.txt)
+# town_penalty (Г): terrain только через any_owned_province (как в git). Голый terrain в скоупе завода всегда ложь.
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { NOT = { colonial_politics = inner_colonisation } }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.7
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { NOT = { colonial_politics = inner_colonisation } }
-				owner = { NOT = { colonial_politics = non_colonial } }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = external_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.25
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				has_province_modifier = state_has_urban
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			state_scope = {
+				any_owned_province = { terrain = urban }
 			}
 		}
 		value = -0.10
 	}
 	bonus = {
 		trigger = {
-			AND = {
-				owner = { colonial_politics = inner_colonisation }
-				NOT = { has_province_modifier = state_has_town }
-				NOT = { has_province_modifier = state_has_urban }
+			owner = { colonial_politics = inner_colonisation }
+			NOT = { has_building = town_infrastructure }
+			NOT = {
+				state_scope = {
+					any_owned_province = { terrain = urban }
+				}
 			}
 		}
 		value = -0.20

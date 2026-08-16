@@ -1,104 +1,104 @@
-#Casamance Region (108000) #see Senegal.txt and Guinea.txt for balance of region
+#Casamance Region (313112) #see Senegal.txt and Guinea.txt for balance of region
 #Uncolonized in 1836/Portuguese trade post
-#Bissau (32000/8000 POPS)
+#Bissau (91352/22838 POPS)
 1877 = {
 	aristocrats = {
 		culture = portuguese
 		religion = orthodox
-		size = 10
+		size = 3
 	}
 
 	clergymen = {
-		culture = portuguese
-		religion = orthodox
-		size = 15
-	}
-
-	bureaucrats = {
 		culture = portuguese
 		religion = orthodox
 		size = 5
 	}
 
+	bureaucrats = {
+		culture = portuguese
+		religion = orthodox
+		size = 2
+	}
+
 	artisans = {
 		culture = portuguese
 		religion = orthodox
-		size = 25
+		size = 8
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = orthodox
-		size = 40
+		size = 12
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 15
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 375
+		size = 113
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 45
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 55000
+		size = 16599
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 20000
+		size = 6036
 	}
 }
 #Uncolonized in 1836/ruled by kingdom of Gabu
-#Gabu (76000/19000 POPS)
+#Gabu (221760/55440 POPS)
 1878 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1200
+		size = 362
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 1200
+		size = 362
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 7100
+		size = 2143
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 200
+		size = 60
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 144000
+		size = 43459
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 30000
+		size = 9054
 	}
 
 }

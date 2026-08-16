@@ -1,40 +1,40 @@
-#Khwarazm Region (40000) #see Uzbekistan.txt and Kazakhstan.txt for balance of region 
+#Khwarazm Region (200036) #see Uzbekistan.txt and Kazakhstan.txt for balance of region 
 #under the rule of Khiva in 1836 
-#Dashhowuz (40000/10000 POPS) #now part of kazakistan 
+#Dashhowuz (200036/50009 POPS) #now part of kazakistan 
 1195 = {
 	aristocrats = {
 		culture = kazak
 		religion = orthodox
-		size = 175
+		size = 875
 	}
 
 	clergymen = {
 		culture = kazak
 		religion = orthodox
-		size = 75
+		size = 375
 	}
 
 	artisans = {
 		culture = kazak
 		religion = orthodox
-		size = 450
+		size = 2250
 	}
 
 	soldiers = {
 		culture = kazak
 		religion = orthodox
-		size = 100
+		size = 500
 	}
 
 	farmers = {
 		culture = kazak
 		religion = orthodox
-		size = 9200
+		size = 46009
 	}
 }
-#kazakia Region (368000) 
+#kazakia Region (348000) 
 #under the rule of Khiva in 1836 
-#Ashkabad (148000/32000 POPS) 
+#Ashkabad (128000/32000 POPS) 
 1204 = {
 	aristocrats = {
 		culture = kazak

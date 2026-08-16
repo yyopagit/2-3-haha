@@ -3,97 +3,97 @@
     aristocrats = {
         culture = french
         religion = orthodox
-        size = 150
+        size = 7
     }
 
     bureaucrats = {
         culture = french
         religion = orthodox
-        size = 10
+        size = 1
     }
 
     clergymen = {
         culture = french
         religion = orthodox
-        size = 100
+        size = 5
     }
 
     artisans = {
         culture = french
         religion = orthodox
-        size = 100
+        size = 5
     }
 
     soldiers = {
         culture = french
         religion = orthodox
-        size = 50
+        size = 2
     }
 
     farmers = {
         culture = french
         religion = orthodox
-        size = 80
+        size = 4
     }
 
     artisans = {
         culture = north_andean
         religion = orthodox
-        size = 150
+        size = 7
     }
 
     clergymen = {
         culture = north_andean
         religion = orthodox
-        size = 250
+        size = 12
     }
 
     soldiers = {
         culture = north_andean
         religion = orthodox
-        size = 500
+        size = 24
     }
 
     farmers = {
         culture = north_andean
         religion = orthodox
-        size = 4250
+        size = 205
     }
 
     slaves = {
         culture = north_andean
         religion = orthodox
-        size = 2950
+        size = 142
     }
 
     aristocrats = {
         culture = north_andean
         religion = orthodox
-        size = 20
+        size = 1
     }
 
     clergymen = {
         culture = north_andean
         religion = orthodox
-        size = 30
+        size = 1
     }
 
     artisans = {
         culture = north_andean
         religion = orthodox
-        size = 100
+        size = 5
     }
 
     soldiers = {
         culture = north_andean
         religion = orthodox
-        size = 50
+        size = 2
     }
 
     farmers = {
         culture = north_andean
         religion = orthodox
-        size = 23000
+        size = 1108
     }
 
 }
@@ -103,31 +103,31 @@
     aristocrats = {
         culture = north_andean
         religion = orthodox
-        size = 100
+        size = 5
     }
 
     clergymen = {
         culture = north_andean
         religion = orthodox
-        size = 1500
+        size = 72
     }
 
     artisans = {
         culture = north_andean
         religion = orthodox
-        size = 350
+        size = 17
     }
 
     soldiers = {
         culture = north_andean
         religion = orthodox
-        size = 2090
+        size = 101
     }
 
     farmers = {
         culture = north_andean
         religion = orthodox
-        size = 68000
+        size = 3274
     }
 
 }

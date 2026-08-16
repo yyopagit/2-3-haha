@@ -1,192 +1,192 @@
-#Gabon Region (180000) #see Gulf of Guinea.txt for balance of region 
+#Gabon Region (316484) #see Gulf of Guinea.txt for balance of region 
 #uncolonized in 1836/under the influence of Teke
-#Libreville (48000/12000 POPS) 
+#Libreville (76072/19018 POPS) 
 1972 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 500
+		size = 53
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 750
+		size = 80
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 1500
+		size = 159
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 250
+		size = 27
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 47000
+		size = 4991
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1500
+		size = 159
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 1000
+		size = 106
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 4500
+		size = 478
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 11
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 122000
+		size = 12954
 	}
 }
-#Mayumbe (32000/8000 POPS) 
+#Mayumbe (63456/15864 POPS) 
 1974 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1500
+		size = 159
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 750
+		size = 80
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 4000
+		size = 425
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 16
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 143000
+		size = 15184
 	}
 }
-#Moanda (28000/7000 POPS) 
+#Moanda (54964/13741 POPS) 
 1975 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1250
+		size = 133
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 750
+		size = 80
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 3500
+		size = 372
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 16
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 123750
+		size = 13140
 	}
 }
 #uncolonized in 1836
-#Makokou (72000/18000 POPS) 
+#Makokou (121992/30498 POPS) 
 1976 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1500
+		size = 159
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 750
+		size = 80
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 4000
+		size = 425
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 16
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 123000
+		size = 13060
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1750
+		size = 186
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 1000
+		size = 106
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 5000
+		size = 531
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 11
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 150000
+		size = 15924
 	}
 
 }

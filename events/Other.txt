@@ -18361,7 +18361,7 @@ country_event = {
 			  add_province_modifier = {
 			 name = assim_core
 			 duration = -1}}
-	 TUR_931  = { 
+	 TUR_926  = { 
 			  add_province_modifier = {
 			 name = assim_core
 			 duration = -1}}
@@ -18380,7 +18380,7 @@ country_event = {
 			  add_province_modifier = {
 			 name = assim_core
 			 duration = -1}}
-	 TUR_931  = { 
+	 TUR_926  = { 
 			  add_province_modifier = {
 			 name = assim_core
 			 duration = -1}}
@@ -18474,7 +18474,7 @@ country_event = {
 	trigger = {
 	NOT = {has_country_flag = polska}
 	OR = {
-		RUS_710 = { owned_by = THIS }
+		RUS_706 = { owned_by = THIS }
 		POL = {
 				in_sphere = THIS
 			}
@@ -18503,7 +18503,7 @@ country_event = {
 	has_country_flag = polska
 	NOT = {
 		OR = {
-			RUS_710 = { owned_by = THIS }
+			RUS_706 = { owned_by = THIS }
 			POL = {
 				in_sphere = THIS
 				}

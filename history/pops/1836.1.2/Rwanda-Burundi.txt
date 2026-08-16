@@ -1,92 +1,92 @@
-#Ruanda-Urundi Region (944000) 
+#Ruanda-Urundi Region (3006264) 
 #uncolonized in 1836/ruled by kingdom of Rwanda
-#Kigali (496000/124000 POPS) 
+#Kigali (1585576/396394 POPS) 
 2034 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 2450
+		size = 7769
 	}
 
 	bureaucrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 25
+		size = 79
 	}
 
 	officers = {
 		culture = african_minor
 		religion = orthodox
-		size = 125
+		size = 396
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 1750
+		size = 5550
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 6200
+		size = 19661
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 1250
+		size = 3964
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 113200
+		size = 358975
 	}
 }
 #uncolonized in 1836/ruled by kingdom of Burundi
-#Usumbura (448000/112000 POPS) 
+#Usumbura (1420688/355172 POPS) 
 2035 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 2175
+		size = 6897
 	}
 
 	bureaucrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 15
+		size = 48
 	}
 
 	officers = {
 		culture = african_minor
 		religion = orthodox
-		size = 110
+		size = 349
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 1125
+		size = 3568
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 5600
+		size = 17759
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 1125
+		size = 3568
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 101850
+		size = 322983
 	}
 
 }

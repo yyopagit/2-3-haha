@@ -27,7 +27,7 @@ political_decisions = {
 		effect = {
 			set_country_flag = BYZ_core
 			TUR_876 = { add_core = THIS }
-			EGY_915 = { add_core = THIS }
+			EGY_913 = { add_core = THIS }
 		}
 	}
 	BYZ_TRI = {

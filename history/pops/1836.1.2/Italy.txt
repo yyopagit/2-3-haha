@@ -430,91 +430,91 @@
 		size = 159075
 	}
 }
-#Venetia Region (2060000)
+#Venetia Region (2093900)
 #under the rule of Austria in 1836
 #Venice (448000/112000 POPS)
 729 = {
 	aristocrats = {
 		culture = north_italian
 		religion = orthodox
-		size = 2300
+		size = 1921
 	}
 
 	bureaucrats = {
 		culture = north_italian
 		religion = orthodox
-		size = 1600
+		size = 1336
 	}
 
 	officers = {
 		culture = north_italian
 		religion = orthodox
-		size = 400
+		size = 334
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = orthodox
-		size = 1125
+		size = 940
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = orthodox
-		size = 10000
+		size = 8352
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = orthodox
-		size = 10000
+		size = 8352
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = orthodox
-		size = 10000
+		size = 8352
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = orthodox
-		size = 10000
+		size = 8352
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = orthodox
-		size = 4000
+		size = 3341
 	}
 
 	soldiers = {
 		culture = north_italian
 		religion = orthodox
-		size = 2325
+		size = 1942
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = orthodox
-		size = 55925
+		size = 46709
 	}
 	farmers = {
 		culture = north_italian
 		religion = orthodox
-		size = 25925
+		size = 21652
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = orthodox
-		size = 10
+		size = 8
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = orthodox
-		size = 490
+		size = 409
 	}
 }
 #Verona (516000/129000 POPS)
@@ -522,42 +522,42 @@
 	aristocrats = {
 		culture = north_italian
 		religion = orthodox
-		size = 2650
+		size = 2164
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = orthodox
-		size = 1300
+		size = 1061
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = orthodox
-		size = 10000
+		size = 8165
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = orthodox
-		size = 2000
+		size = 1633
 	}
 
 	soldiers = {
 		culture = north_italian
 		religion = orthodox
-		size = 1950
+		size = 1592
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = orthodox
-		size = 105050
+		size = 85768
 	}
 	farmers = {
 		culture = north_italian
 		religion = orthodox
-		size = 35050
+		size = 28617
 	}
 }
 #Padua (564000/141000 POPS)
@@ -602,36 +602,36 @@
 	aristocrats = {
 		culture = north_italian
 		religion = orthodox
-		size = 1475
+		size = 834
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = orthodox
-		size = 800
+		size = 452
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = orthodox
-		size = 8000
+		size = 4522
 	}
 
 	soldiers = {
 		culture = north_italian
 		religion = orthodox
-		size = 2325
+		size = 1314
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = orthodox
-		size = 60000
+		size = 33919
 	}
 	farmers = {
 		culture = north_italian
 		religion = orthodox
-		size = 30000
+		size = 16959
 	}
 }
 #Udine (300000/75000 POPS)
@@ -639,36 +639,36 @@
 	aristocrats = {
 		culture = north_italian
 		religion = orthodox
-		size = 2250
+		size = 1116
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = orthodox
-		size = 1200
+		size = 595
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = orthodox
-		size = 6000
+		size = 2975
 	}
 
 	soldiers = {
 		culture = north_italian
 		religion = orthodox
-		size = 1800
+		size = 893
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = orthodox
-		size = 105000
+		size = 52066
 	}
 	farmers = {
 		culture = north_italian
 		religion = orthodox
-		size = 35000
+		size = 17355
 	}
 
 }
@@ -679,61 +679,61 @@
 	aristocrats = {
 		culture = north_italian
 		religion = orthodox
-		size = 760 
+		size = 316 
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = orthodox
-		size = 280 
+		size = 117 
 	}
 
 	bureaucrats = {
 		culture = north_italian
 		religion = orthodox
-		size = 800 
+		size = 333 
 	}
 	
 	artisans = {
 		culture = north_italian
 		religion = orthodox
-		size = 2000
+		size = 832
 	}
 
 	soldiers = {
 		culture = north_italian
 		religion = orthodox
-		size = 750 
+		size = 312 
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = orthodox
-		size = 37500
+		size = 15605
 	}
 
 	clergymen = {
 		culture = north_italian
 		religion = orthodox
-		size = 900
+		size = 375
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = orthodox
-		size = 8000
+		size = 3329
 	}
 
 	soldiers = {
 		culture = north_italian
 		religion = orthodox
-		size = 2325 
+		size = 967 
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = orthodox
-		size = 112500
+		size = 46814
 	}
 }
 #Bozen (92000/23000 POPS) #now part of Italy
@@ -741,55 +741,55 @@
 	aristocrats = {
 		culture = south_german
 		religion = orthodox
-		size = 900 
+		size = 180 
 	}
 
 	clergymen = {
 		culture = south_german
 		religion = orthodox
-		size = 500
+		size = 100
 	}
 
 	artisans = {
 		culture = south_german
 		religion = orthodox
-		size = 7000
+		size = 1400
 	}
 
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 1200 
+		size = 240 
 	}
 
 	farmers = {
 		culture = south_german
 		religion = orthodox
-		size = 50000
+		size = 10003
 	}
 
 	clergymen = {
 		culture = south_german
 		religion = orthodox
-		size = 550
+		size = 110
 	}
 
 	artisans = {
 		culture = south_german
 		religion = orthodox
-		size = 4000
+		size = 800
 	}
 
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 825 
+		size = 165 
 	}
 
 	farmers = {
 		culture = south_german
 		religion = orthodox
-		size = 50000
+		size = 10002
 	}
 }
 #Friuli-Istria Region (292000) #see Croatia.txt for balance of region 

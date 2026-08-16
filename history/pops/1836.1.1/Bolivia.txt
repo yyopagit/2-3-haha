@@ -1,17 +1,17 @@
 #La Paz Region (784000)
 #Ruled by Bolivia 1836
-#La Paz (392000/98000 POPS)
+#La Paz (391892/97973 POPS)
 2310 = {
 	aristocrats = {
 		culture = south_andean
 		religion = orthodox
-		size = 2000
+		size = 1997
 	}
 
 	bureaucrats = {
 		culture = south_andean
 		religion = orthodox
-		size = 300
+		size = 299
 	}
 
 	officers = {
@@ -23,55 +23,55 @@
 	clergymen = {
 		culture = south_andean
 		religion = orthodox
-		size = 650
+		size = 649
 	}
 
 	artisans = {
 		culture = south_andean
 		religion = orthodox
-		size = 5825
+		size = 5818
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = orthodox
-		size = 1100
+		size = 1099
 	}
 
 	farmers = {
 		culture = south_andean
 		religion = orthodox
-		size = 18000
+		size = 17977
 	}
 
 	clergymen = {
 		culture = aimara
 		religion = orthodox
-		size = 300
+		size = 299
 	}
 
 	artisans = {
 		culture = aimara
 		religion = orthodox
-		size = 2525
+		size = 2521
 	}
 
 	soldiers = {
 		culture = aimara
 		religion = orthodox
-		size = 1075
+		size = 1073
 	}
 
 	farmers = {
 		culture = aimara
 		religion = orthodox
-		size = 63100
+		size = 63020
 	}
 
 	clergymen = {
 		culture = aimara
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	artisans = {
@@ -89,66 +89,66 @@
 	farmers = {
 		culture = aimara
 		religion = orthodox
-		size = 2775
+		size = 2772
 	}
 }
-#Cochabamba (352000/88000 POPS)
+#Cochabamba (352156/88039 POPS)
 2311 = {
 	aristocrats = {
 		culture = south_andean
 		religion = orthodox
-		size = 1700
+		size = 1698
 	}
 
 	clergymen = {
 		culture = south_andean
 		religion = orthodox
-		size = 550
+		size = 549
 	}
 
 	artisans = {
 		culture = south_andean
 		religion = orthodox
-		size = 1150
+		size = 1149
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = orthodox
-		size = 1100
+		size = 1099
 	}
 
 	farmers = {
 		culture = south_andean
 		religion = orthodox
-		size = 18600
+		size = 18576
 	}
 
 	clergymen = {
 		culture = aimara
 		religion = orthodox
-		size = 300
+		size = 299
 	}
 
 	artisans = {
 		culture = aimara
 		religion = orthodox
-		size = 3250
+		size = 3246
 	}
 
 	soldiers = {
 		culture = aimara
 		religion = orthodox
-		size = 1100
+		size = 1099
 	}
 
 	farmers = {
 		culture = aimara
 		religion = orthodox
-		size = 60400
+		size = 60324
 	}
 }
-#Oruro (40000/10000 POPS)
+#Oruro (39952/9988 POPS)
 2312 = {
 	aristocrats = {
 		culture = south_andean
@@ -177,7 +177,7 @@
 	farmers = {
 		culture = south_andean
 		religion = orthodox
-		size = 2525
+		size = 2521
 	}
 
 	clergymen = {
@@ -201,194 +201,194 @@
 	farmers = {
 		culture = aimara
 		religion = orthodox
-		size = 6500
+		size = 6492
 	}
 }
 #Chuquisaca Region (288000)
 #Ruled by Bolivia 1836
-#Chuquisaca (116000/29000 POPS)
+#Chuquisaca (120076/30019 POPS)
 2313 = {
 	aristocrats = {
 		culture = south_andean
 		religion = orthodox
-		size = 600
+		size = 586
 	}
 
 	bureaucrats = {
 		culture = south_andean
 		religion = orthodox
-		size = 75
+		size = 73
 	}
 
 	officers = {
 		culture = south_andean
 		religion = orthodox
-		size = 75
+		size = 73
 	}
 
 	clergymen = {
 		culture = south_andean
 		religion = orthodox
-		size = 175
+		size = 171
 	}
 
 	artisans = {
 		culture = south_andean
 		religion = orthodox
-		size = 250
+		size = 244
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = orthodox
-		size = 50
+		size = 49
 	}
 
 	farmers = {
 		culture = south_andean
 		religion = orthodox
-		size = 3825
+		size = 3734
 	}
 
 	clergymen = {
 		culture = aimara
 		religion = orthodox
-		size = 125
+		size = 122
 	}
 
 	artisans = {
 		culture = aimara
 		religion = orthodox
-		size = 1200
+		size = 1171
 	}
 
 	soldiers = {
 		culture = aimara
 		religion = orthodox
-		size = 1050
+		size = 1025
 	}
 
 	farmers = {
 		culture = aimara
 		religion = orthodox
-		size = 23325
+		size = 22771
 	}
 }
-#Potosi (120000/30000 POPS)
+#Potosi (117160/29290 POPS)
 2314 = {
 	aristocrats = {
 		culture = south_andean
 		religion = orthodox
-		size = 625
+		size = 611
 	}
 
 	clergymen = {
 		culture = south_andean
 		religion = orthodox
-		size = 150
+		size = 147
 	}
 
 	artisans = {
 		culture = south_andean
 		religion = orthodox
-		size = 150
+		size = 147
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
 		culture = south_andean
 		religion = orthodox
-		size = 2050
+		size = 2002
 	}
 
 	clergymen = {
 		culture = aimara
 		religion = orthodox
-		size = 125
+		size = 122
 	}
 
 	artisans = {
 		culture = aimara
 		religion = orthodox
-		size = 1350
+		size = 1318
 	}
 
 	soldiers = {
 		culture = aimara
 		religion = orthodox
-		size = 275
+		size = 268
 	}
 
 	farmers = {
 		culture = aimara
 		religion = orthodox
-		size = 25250
+		size = 24651
 	}
 }
-#Tarija (52000/13000 POPS)
+#Tarija (50764/12691 POPS)
 2315 = {
 	aristocrats = {
 		culture = south_andean
 		religion = orthodox
-		size = 275
+		size = 268
 	}
 
 	clergymen = {
 		culture = south_andean
 		religion = orthodox
-		size = 75
+		size = 73
 	}
 
 	artisans = {
 		culture = south_andean
 		religion = orthodox
-		size = 50
+		size = 49
 	}
 
 	soldiers = {
 		culture = south_andean
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
 		culture = south_andean
 		religion = orthodox
-		size = 575
+		size = 562
 	}
 
 	clergymen = {
 		culture = aimara
 		religion = orthodox
-		size = 50
+		size = 49
 	}
 
 	artisans = {
 		culture = aimara
 		religion = orthodox
-		size = 600
+		size = 586
 	}
 
 	soldiers = {
 		culture = aimara
 		religion = orthodox
-		size = 125
+		size = 122
 	}
 
 	farmers = {
 		culture = aimara
 		religion = orthodox
-		size = 11225
+		size = 10958
 	}
 }
 #Santa Cruz Region (48000)
 #Ruled by Bolivia 1836
-#Santa Cruz (16000/4000 POPS)
+#Santa Cruz (15992/3998 POPS)
 2316 = {
 	aristocrats = {
 		culture = south_andean
@@ -423,7 +423,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
@@ -435,7 +435,7 @@
 	clergymen = {
 		culture = guarani
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	artisans = {
@@ -456,12 +456,12 @@
 		size = 2775
 	}
 }
-#San Ignacio (20000/5000 POPS)
+#San Ignacio (20012/5003 POPS)
 2317 = {
 	clergymen = {
 		culture = south_andean
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	artisans = {
@@ -473,7 +473,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
@@ -485,7 +485,7 @@
 	aristocrats = {
 		culture = amazonian
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	clergymen = {
@@ -503,19 +503,19 @@
 	soldiers = {
 		culture = amazonian
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
 		culture = amazonian
 		religion = orthodox
-		size = 1800
+		size = 1809
 	}
 
 	aristocrats = {
 		culture = guarani
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	clergymen = {
@@ -533,7 +533,7 @@
 	soldiers = {
 		culture = guarani
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
@@ -542,7 +542,7 @@
 		size = 1800
 	}
 }
-#Robore (12000/3000 POPS)
+#Robore (11996/2999 POPS)
 2318 = {
 	aristocrats = {
 		culture = guarani
@@ -565,7 +565,7 @@
 	soldiers = {
 		culture = guarani
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
@@ -576,7 +576,7 @@
 }
 #Beni Region (116000) #see Brazil.txt for balance of region
 #Ruled by Bolivia 1836
-#Santa Ana (76000/19000 POPS)
+#Santa Ana (76016/19004 POPS)
 2319 = {
 	aristocrats = {
 		culture = south_andean
@@ -587,13 +587,13 @@
 	bureaucrats = {
 		culture = south_andean
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	officers = {
 		culture = south_andean
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	clergymen = {
@@ -641,7 +641,7 @@
 	farmers = {
 		culture = aimara
 		religion = orthodox
-		size = 9350
+		size = 9357
 	}
 
 	aristocrats = {
@@ -659,7 +659,7 @@
 	artisans = {
 		culture = amazonian
 		religion = orthodox
-		size = 300
+		size = 299
 	}
 
 	soldiers = {
@@ -674,7 +674,7 @@
 		size = 5475
 	}
 }
-#Riberalta (12000/3000 POPS)
+#Riberalta (11996/2999 POPS)
 2320 = {
 	aristocrats = {
 		culture = amazonian
@@ -697,7 +697,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
@@ -706,7 +706,7 @@
 		size = 2700
 	}
 }
-#Cobija (28000/7000 POPS)
+#Cobija (27988/6997 POPS)
 2321 = {
 	aristocrats = {
 		culture = south_andean
@@ -729,7 +729,7 @@
 	soldiers = {
 		culture = south_andean
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
@@ -741,7 +741,7 @@
 	clergymen = {
 		culture = aimara
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	artisans = {
@@ -783,7 +783,7 @@
 	soldiers = {
 		culture = amazonian
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {

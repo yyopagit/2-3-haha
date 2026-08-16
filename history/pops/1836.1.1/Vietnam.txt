@@ -1,749 +1,749 @@
-#Tonkin Region (2784000)
+#Tonkin Region (5250000)
 #under the rule of Annam in 1836
-#Hanoi (808000/202000 POPS)
+#Hanoi (1512164/378041 POPS)
 1369 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 3600
+		size = 6737
 	}
 
 	bureaucrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1100
+		size = 2058
 	}
 
 	officers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 625
+		size = 1169
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1625
+		size = 3041
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 10000
+		size = 18715
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 10000
+		size = 18715
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 4500
+		size = 8421
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1675
+		size = 3134
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 132875
+		size = 248678
 	}
 
 	slaves = {
 		culture = vietnamese
 		religion = orthodox
-		size = 8000
+		size = 14972
 	}
 
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 50
+		size = 93
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 1250
+		size = 2339
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 700
+		size = 1310
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = orthodox
-		size = 50
+		size = 93
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 1250
+		size = 2339
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 700
+		size = 1310
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 175
+		size = 328
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 3500
+		size = 6551
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 20325
+		size = 38038
 	}
 }
-#Haiphong (596000/149000 POPS)
+#Haiphong (1115368/278842 POPS)
 1370 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 2750
+		size = 5146
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1325
+		size = 2479
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 6550
+		size = 12257
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1325
+		size = 2479
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 119050
+		size = 222796
 	}
 
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 50
+		size = 93
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 1250
+		size = 2339
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 700
+		size = 1310
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = orthodox
-		size = 50
+		size = 93
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 1250
+		size = 2339
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 700
+		size = 1310
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 100
+		size = 188
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 700
+		size = 1310
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 13200
+		size = 24703
 	}
 }
-#Cao Bang (272000/68000 POPS)
+#Cao Bang (524376/131094 POPS)
 1371 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1050
+		size = 1965
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 500
+		size = 936
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 2600
+		size = 4865
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1100
+		size = 2058
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 46800
+		size = 87583
 	}
 
 	slaves = {
 		culture = vietnamese
 		religion = orthodox
-		size = 2000
+		size = 3743
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 75
+		size = 140
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 300
+		size = 562
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 5625
+		size = 10526
 	}
 
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 200
+		size = 374
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 100
+		size = 188
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 500
+		size = 936
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 100
+		size = 188
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 9100
+		size = 17030
 	}
 }
-#Son La (300000/75000 POPS)
+#Son La (562920/140730 POPS)
 1372 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1100
+		size = 2058
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 550
+		size = 1029
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 2700
+		size = 5053
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1100
+		size = 2058
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 48650
+		size = 91046
 	}
 
 	slaves = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1100
+		size = 2058
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 75
+		size = 140
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 300
+		size = 562
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 5625
+		size = 10526
 	}
 
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 275
+		size = 514
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 125
+		size = 234
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 700
+		size = 1310
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 281
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 12750
+		size = 23861
 	}
 }
-#Lang Son (324000/81000 POPS)
+#Lang Son (606944/151736 POPS)
 1373 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1425
+		size = 2667
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 700
+		size = 1310
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 3450
+		size = 6456
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1100
+		size = 2058
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 62405
+		size = 116788
 	}
 
 	slaves = {
 		culture = vietnamese
 		religion = orthodox
-		size = 2000
+		size = 3743
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 50
+		size = 93
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 350
+		size = 655
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 6600
+		size = 12352
 	}
 
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 75
+		size = 140
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 1650
+		size = 3088
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 1275
+		size = 2386
 	}
 }
-#Thanh Hoa (484000/121000 POPS)
+#Thanh Hoa (928228/232057 POPS)
 1374 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 2250
+		size = 4210
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1125
+		size = 2105
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 5500
+		size = 10293
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1100
+		size = 2058
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 100025
+		size = 187191
 	}
 
 	slaves = {
 		culture = vietnamese
 		religion = orthodox
-		size = 3000
+		size = 5615
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 50
+		size = 93
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 550
+		size = 1029
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 10400
+		size = 19463
 	}
 }
-#Annam Region (2148000)
+#Annam Region (3150000)
 #under the rule of Annam in 1836
-#Hue (1080000/270000 POPS)
+#Hue (1574776/393694 POPS)
 1375 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 4750
+		size = 6926
 	}
 
 	bureaucrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 850
+		size = 1239
 	}
 
 	officers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 525
+		size = 765
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 2250
+		size = 3281
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 7475
+		size = 10899
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 2250
+		size = 3281
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 204900
+		size = 298769
 	}
 
 	slaves = {
 		culture = vietnamese
 		religion = orthodox
-		size = 9000
+		size = 13124
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 225
+		size = 328
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1025
+		size = 1495
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 29750
+		size = 43379
 	}
 
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 75
+		size = 109
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 4000
+		size = 5833
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 2925
+		size = 4266
 	}
 }
-#Vinh (524000/131000 POPS)
+#Vinh (764060/191015 POPS)
 1376 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 2500
+		size = 3645
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1225
+		size = 1786
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 6150
+		size = 8967
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1250
+		size = 1823
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 111875
+		size = 163128
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 50
+		size = 74
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 400
+		size = 583
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 7550
+		size = 11009
 	}
 }
-#Tourane (276000/69000 POPS)
+#Tourane (402884/100721 POPS)
 1377 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 800
+		size = 1167
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 400
+		size = 583
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 2000
+		size = 2916
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1100
+		size = 1604
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 35800
+		size = 52201
 	}
 
 	slaves = {
 		culture = vietnamese
 		religion = orthodox
-		size = 2000
+		size = 2916
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 50
+		size = 74
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 200
+		size = 291
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 3750
+		size = 5468
 	}
 
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 450
+		size = 656
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 225
+		size = 328
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1100
+		size = 1604
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 225
+		size = 328
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 19975
+		size = 29126
 	}
 
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 25
+		size = 37
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 550
+		size = 802
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 425
+		size = 620
 	}
 }
 #Pleiku (148000 37000 POPS)
@@ -751,415 +751,415 @@
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 700
+		size = 1021
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 325
+		size = 474
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1700
+		size = 2479
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 350
+		size = 511
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 30925
+		size = 45092
 	}
 
 	slaves = {
 		culture = vietnamese
 		religion = orthodox
-		size = 2000
+		size = 2916
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 50
+		size = 74
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 200
+		size = 291
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 3750
+		size = 5468
 	}
 }
-#Quinhon (120000/30000 POPS)
+#Quinhon (174976/43744 POPS)
 1379 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 150
+		size = 219
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 50
+		size = 74
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 300
+		size = 437
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 75
+		size = 109
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 5425
+		size = 7910
 	}
 
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 500
+		size = 728
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 225
+		size = 328
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1200
+		size = 1750
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 250
+		size = 365
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 21825
+		size = 31824
 	}
 }
-#Cochinchina Region (1384000)
+#Cochinchina Region (2100000)
 #under the rule of Annam in 1836
-#Saigon (848000/212000 POPS)
+#Saigon (1286572/321643 POPS)
 1380 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 3600
+		size = 5459
 	}
 
 	bureaucrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 325
+		size = 494
 	}
 
 	officers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 300
+		size = 455
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1775
+		size = 2692
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 7500
+		size = 11374
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1775
+		size = 2692
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 161725
+		size = 245249
 	}
 
 	slaves = {
 		culture = vietnamese
 		religion = orthodox
-		size = 8000
+		size = 12131
 	}
 
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 75
+		size = 114
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 2100
+		size = 3184
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 1825
+		size = 2768
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = orthodox
-		size = 50
+		size = 76
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 1600
+		size = 2427
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 1350
+		size = 2048
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 125
+		size = 189
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1100
+		size = 1668
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 18875
+		size = 28623
 	}
 }
-#Dongquai (244000/61000 POPS)
+#Dongquai (370028/92507 POPS)
 1381 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 900
+		size = 1365
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 475
+		size = 721
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 2400
+		size = 3640
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 475
+		size = 721
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 43750
+		size = 66346
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 50
+		size = 76
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 250
+		size = 379
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 4700
+		size = 7127
 	}
 
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 175
+		size = 265
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 75
+		size = 114
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 400
+		size = 606
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 75
+		size = 114
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 7275
+		size = 11033
 	}
 }
-#Hatien (172000/43000 POPS)
+#Hatien (260824/65206 POPS)
 1382 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 300
+		size = 455
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 125
+		size = 189
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 700
+		size = 1062
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 150
+		size = 227
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 12725
+		size = 19296
 	}
 
 	clergymen = {
 		culture = khmer
 		religion = orthodox
-		size = 300
+		size = 455
 	}
 
 	artisans = {
 		culture = khmer
 		religion = orthodox
-		size = 1450
+		size = 2198
 	}
 
 	soldiers = {
 		culture = khmer
 		religion = orthodox
-		size = 250
+		size = 379
 	}
 
 	farmers = {
 		culture = khmer
 		religion = orthodox
-		size = 27000
+		size = 40945
 	}
 }
-#Vinhlong (120000/30000 POPS)
+#Vinhlong (182576/45644 POPS)
 1383 = {
 	aristocrats = {
 		culture = vietnamese
 		religion = orthodox
-		size = 300
+		size = 455
 	}
 
 	clergymen = {
 		culture = vietnamese
 		religion = orthodox
-		size = 125
+		size = 189
 	}
 
 	artisans = {
 		culture = vietnamese
 		religion = orthodox
-		size = 700
+		size = 1062
 	}
 
 	soldiers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 1100
+		size = 1668
 	}
 
 	farmers = {
 		culture = vietnamese
 		religion = orthodox
-		size = 11875
+		size = 18008
 	}
 
 	clergymen = {
 		culture = khmer
 		religion = orthodox
-		size = 150
+		size = 227
 	}
 
 	artisans = {
 		culture = khmer
 		religion = orthodox
-		size = 800
+		size = 1213
 	}
 
 	soldiers = {
 		culture = khmer
 		religion = orthodox
-		size = 150
+		size = 227
 	}
 
 	farmers = {
 		culture = khmer
 		religion = orthodox
-		size = 14900
+		size = 22595
 	}
 
 }

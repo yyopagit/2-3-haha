@@ -1055,11 +1055,13 @@ country_event = {
 		name = "EVTOPTA55557"
 		political_reform = non_colonial
 		add_country_modifier = { name = colonial_reform_change_cd duration = 3650 }
+		country_event = { id = 140412 days = 1 }
 	}
 	option = {
 		name = "EVTOPTB55557"
 		political_reform = inner_colonisation
 		add_country_modifier = { name = colonial_reform_change_cd duration = 3650 }
+		country_event = { id = 140412 days = 1 }
 	}
 	option = {
 		name = "EVTOPTD55557"
@@ -1257,11 +1259,13 @@ country_event = {
 		name = "EVTOPTA55557"
 		political_reform = non_colonial
 		add_country_modifier = { name = colonial_reform_change_cd duration = 3650 }
+		country_event = { id = 140412 days = 1 }
 	}
 	option = {
 		name = "EVTOPTC55557"
 		political_reform = external_colonisation
 		add_country_modifier = { name = colonial_reform_change_cd duration = 3650 }
+		country_event = { id = 140412 days = 1 }
 	}
 	option = {
 		name = "EVTOPTD55557"
@@ -1459,11 +1463,13 @@ country_event = {
 		name = "EVTOPTB55557"
 		political_reform = inner_colonisation
 		add_country_modifier = { name = colonial_reform_change_cd duration = 3650 }
+		country_event = { id = 140412 days = 1 }
 	}
 	option = {
 		name = "EVTOPTC55557"
 		political_reform = external_colonisation
 		add_country_modifier = { name = colonial_reform_change_cd duration = 3650 }
+		country_event = { id = 140412 days = 1 }
 	}
 	option = {
 		name = "EVTOPTD55557"

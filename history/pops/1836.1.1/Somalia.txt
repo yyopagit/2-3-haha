@@ -1,397 +1,397 @@
 #file includes modern Somalia and Djibouti
-#Benadir Region (392000)
+#Benadir Region (555848)
 #under the loose rule of Muscat in 1836
-#Mogadishu (216000/54000 POPS)
+#Mogadishu (198040/49510 POPS)
 1868 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1850
+		size = 388
 	}
 
 	bureaucrats = {
 		culture = amhara
 		religion = orthodox
-		size = 125
+		size = 26
 	}
 
 	officers = {
 		culture = amhara
 		religion = orthodox
-		size = 175
+		size = 37
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 1550
+		size = 325
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 6175
+		size = 1296
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 355
+		size = 74
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 175750
+		size = 36874
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 50000
+		size = 10490
 	}
 }
-#Kismayo (84000/21000 POPS)
+#Kismayo (173556/43389 POPS)
 1870 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1275
+		size = 268
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 1150
+		size = 241
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 6500
+		size = 1364
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 150
+		size = 31
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 137750
+		size = 28901
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 375
+		size = 79
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 250
+		size = 52
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2500
+		size = 525
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 100
+		size = 21
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 45750
+		size = 9599
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 11000
+		size = 2308
 	}
 }
 #uncolonized/ruled by the Sultan of Geledi in 1836
-#Baidoa (92000/23000 POPS)
+#Baidoa (184252/46063 POPS)
 1869 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 2450
+		size = 514
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 1225
+		size = 257
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 6150
+		size = 1290
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 225
+		size = 47
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 209500
+		size = 43955
 	}
 }
-#Majerteyn Region (192000)
+#Majerteyn Region (413216)
 #under the loose rule of Muscat via Sultan of Majerteyn in 1836
-#Hobye (76000/19000 POPS)
+#Hobye (179176/44794 POPS)
 1871 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1350
+		size = 283
 	}
 
 	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 1175
-	}
-
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 5775
-	}
-
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 200
-	}
-
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 155000
-	}
-
-	slaves = {
-		culture = amhara
-		religion = orthodox
-		size = 50000
-	}
-}
-#Busaso (116000/29000 POPS)
-1872 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 2540
-	}
-
-	bureaucrats = {
-		culture = amhara
-		religion = orthodox
-		size = 110
-	}
-
-	officers = {
-		culture = amhara
-		religion = orthodox
-		size = 150
-	}
-
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 1275
-	}
-
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 8000
-	}
-
-	soldiers = {
-		culture = amhara
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = amhara
-		religion = orthodox
-		size = 216500
-	}
-
-	slaves = {
-		culture = amhara
-		religion = orthodox
-		size = 50000
-	}
-}
-#Adal Region (244000)
-#under the loose rule of Egypt 1836
-#Berbera (184000/46000 POPS)
-1873 = {
-	aristocrats = {
-		culture = amhara
-		religion = orthodox
-		size = 2890
-	}
-
-	bureaucrats = {
-		culture = amhara
-		religion = orthodox
-		size = 110
-	}
-
-	officers = {
-		culture = amhara
-		religion = orthodox
-		size = 150
-	}
-
-	clergymen = {
-		culture = amhara
-		religion = orthodox
-		size = 1450
-	}
-
-	artisans = {
-		culture = amhara
-		religion = orthodox
-		size = 6850
-	}
-
-	soldiers = {
 		culture = amhara
 		religion = orthodox
 		size = 247
 	}
 
+	artisans = {
+		culture = amhara
+		religion = orthodox
+		size = 1212
+	}
+
+	soldiers = {
+		culture = amhara
+		religion = orthodox
+		size = 42
+	}
+
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 202750
+		size = 32520
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 70000
-	}
-
-	slaves = {
-		culture = amhara
-		religion = orthodox
-		size = 30000
+		size = 10490
 	}
 }
-#Zayla (32000/8000 POPS)
+#Busaso (234040/58510 POPS)
+1872 = {
+	aristocrats = {
+		culture = amhara
+		religion = orthodox
+		size = 533
+	}
+
+	bureaucrats = {
+		culture = amhara
+		religion = orthodox
+		size = 23
+	}
+
+	officers = {
+		culture = amhara
+		religion = orthodox
+		size = 31
+	}
+
+	clergymen = {
+		culture = amhara
+		religion = orthodox
+		size = 268
+	}
+
+	artisans = {
+		culture = amhara
+		religion = orthodox
+		size = 1678
+	}
+
+	soldiers = {
+		culture = amhara
+		religion = orthodox
+		size = 63
+	}
+
+	farmers = {
+		culture = amhara
+		religion = orthodox
+		size = 45424
+	}
+
+	slaves = {
+		culture = amhara
+		religion = orthodox
+		size = 10490
+	}
+}
+#Adal Region (541156)
+#under the loose rule of Egypt 1836
+#Berbera (263904/65976 POPS)
+1873 = {
+	aristocrats = {
+		culture = amhara
+		religion = orthodox
+		size = 606
+	}
+
+	bureaucrats = {
+		culture = amhara
+		religion = orthodox
+		size = 23
+	}
+
+	officers = {
+		culture = amhara
+		religion = orthodox
+		size = 31
+	}
+
+	clergymen = {
+		culture = amhara
+		religion = orthodox
+		size = 304
+	}
+
+	artisans = {
+		culture = amhara
+		religion = orthodox
+		size = 1437
+	}
+
+	soldiers = {
+		culture = amhara
+		religion = orthodox
+		size = 52
+	}
+
+	farmers = {
+		culture = amhara
+		religion = orthodox
+		size = 42542
+	}
+
+	slaves = {
+		culture = amhara
+		religion = orthodox
+		size = 14687
+	}
+
+	slaves = {
+		culture = amhara
+		religion = orthodox
+		size = 6294
+	}
+}
+#Zayla (125404/31351 POPS)
 1874 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1500
+		size = 315
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 750
+		size = 157
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 4000
+		size = 839
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 175
+		size = 37
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 143000
+		size = 30003
 	}
 }
-#Jibuti (28000/7000 POPS) #now part of Djibouti 
+#Jibuti (151848/37962 POPS) #now part of Djibouti 
 1875 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 500
+		size = 105
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 450
+		size = 94
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 3500
+		size = 734
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 125
+		size = 26
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 87009
+		size = 18255
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 509
+		size = 107
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 450
+		size = 94
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2000
+		size = 420
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 150
+		size = 31
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 86250
+		size = 18096
 	}
 
 }

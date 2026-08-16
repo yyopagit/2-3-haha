@@ -1,11 +1,11 @@
-#Chaco Region (16000) #see Argentina.txt for balance of region
+#Chaco Region (15996) #see Argentina.txt for balance of region
 #Under loose authority of Paraguay 1836
-#Fortin Falcon (8000/2000 POPS)
+#Fortin Falcon (7988/1997 POPS)
 2337 = {
 	aristocrats = {
 		culture = guarani
 		religion = orthodox
-		size = 25
+		size = 26
 	}
 
 	clergymen = {
@@ -23,21 +23,21 @@
 	soldiers = {
 		culture = guarani
 		religion = orthodox
-		size = 25
+		size = 26
 	}
 
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 1800
+		size = 1795
 	}
 }
-#Puerto Guarani (8000/2000 POPS)
+#Puerto Guarani (8008/2002 POPS)
 2338 = {
 	aristocrats = {
 		culture = guarani
 		religion = orthodox
-		size = 25
+		size = 26
 	}
 
 	clergymen = {
@@ -55,7 +55,7 @@
 	soldiers = {
 		culture = guarani
 		religion = orthodox
-		size = 25
+		size = 26
 	}
 
 	farmers = {
@@ -64,74 +64,74 @@
 		size = 1800
 	}
 }
-#Paraguay Region (636000) #see Brazil.txt & Argentina.txt for balance of region
+#Paraguay Region (636004) #see Brazil.txt & Argentina.txt for balance of region
 #Under rule of Paraguay 1836
-#Asuncion (368000/92000 POPS)
+#Asuncion (365944/91486 POPS)
 2339 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 1850
+		size = 1819
 	}
 
 	bureaucrats = {
 		culture = platinean
 		religion = orthodox
-		size = 200
+		size = 196
 	}
 
 	officers = {
 		culture = platinean
 		religion = orthodox
-		size = 150
+		size = 148
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 775
+		size = 761
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 3200
+		size = 3145
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 1100
+		size = 1080
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 56825
+		size = 55834
 	}
 
 	clergymen = {
 		culture = guarani
 		religion = orthodox
-		size = 125
+		size = 124
 	}
 
 	artisans = {
 		culture = guarani
 		religion = orthodox
-		size = 1200
+		size = 1180
 	}
 
 	soldiers = {
 		culture = guarani
 		religion = orthodox
-		size = 250
+		size = 246
 	}
 
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 22425
+		size = 22038
 	}
 
 	clergymen = {
@@ -143,7 +143,7 @@
 	artisans = {
 		culture = caribeno
 		religion = orthodox
-		size = 250
+		size = 246
 	}
 
 	soldiers = {
@@ -155,33 +155,33 @@
 	farmers = {
 		culture = caribeno
 		religion = orthodox
-		size = 3150
+		size = 3095
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = orthodox
-		size = 1500
+		size = 1474
 	}
 }
-#Pilar (68000/17000 POPS)
+#Pilar (66828/16707 POPS)
 2340 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 350
+		size = 343
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 100
+		size = 98
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 200
+		size = 196
 	}
 
 	soldiers = {
@@ -193,7 +193,7 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 3300
+		size = 3243
 	}
 
 	clergymen = {
@@ -205,25 +205,25 @@
 	artisans = {
 		culture = guarani
 		religion = orthodox
-		size = 600
+		size = 589
 	}
 
 	soldiers = {
 		culture = guarani
 		religion = orthodox
-		size = 125
+		size = 124
 	}
 
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 11225
+		size = 11032
 	}
 
 	clergymen = {
 		culture = guarani
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	artisans = {
@@ -241,27 +241,27 @@
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 910
+		size = 893
 	}
 }
-#Encarnacion (100000/25000 POPS)
+#Encarnacion (104556/26139 POPS)
 2341 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 500
+		size = 491
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 125
+		size = 124
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 200
+		size = 196
 	}
 
 	soldiers = {
@@ -273,37 +273,37 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 3125
+		size = 3071
 	}
 
 	clergymen = {
 		culture = guarani
 		religion = orthodox
-		size = 100
+		size = 98
 	}
 
 	artisans = {
 		culture = guarani
 		religion = orthodox
-		size = 1100
+		size = 1080
 	}
 
 	soldiers = {
 		culture = guarani
 		religion = orthodox
-		size = 1100
+		size = 1080
 	}
 
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 19300
+		size = 18967
 	}
 
 	clergymen = {
 		culture = guarani
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	artisans = {
@@ -321,27 +321,27 @@
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 910
+		size = 893
 	}
 }
-#San Pedro (84000/21000 POPS)
+#San Pedro (82944/20736 POPS)
 2342 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 425
+		size = 417
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 125
+		size = 124
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 200
+		size = 196
 	}
 
 	soldiers = {
@@ -353,37 +353,37 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 3200
+		size = 3145
 	}
 
 	clergymen = {
 		culture = guarani
 		religion = orthodox
-		size = 75
+		size = 74
 	}
 
 	artisans = {
 		culture = guarani
 		religion = orthodox
-		size = 800
+		size = 787
 	}
 
 	soldiers = {
 		culture = guarani
 		religion = orthodox
-		size = 1100
+		size = 1080
 	}
 
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 14125
+		size = 13881
 	}
 
 	clergymen = {
 		culture = guarani
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	artisans = {
@@ -401,15 +401,15 @@
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 910
+		size = 893
 	}
 }
-#Concepcion (16000/4000 POPS)
+#Concepcion (15732/3933 POPS)
 2343 = {
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	artisans = {
@@ -421,13 +421,13 @@
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 900
+		size = 885
 	}
 
 	aristocrats = {
@@ -439,25 +439,25 @@
 	clergymen = {
 		culture = guarani
 		religion = orthodox
-		size = 75
+		size = 74
 	}
 
 	artisans = {
 		culture = guarani
 		religion = orthodox
-		size = 150
+		size = 148
 	}
 
 	soldiers = {
 		culture = guarani
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 2700
+		size = 2654
 	}
 
 }

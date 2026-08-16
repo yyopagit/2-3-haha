@@ -11,13 +11,13 @@
 	artisans = {
 		culture = serb
 		religion = orthodox
-		size = 400
+		size = 399
 	}
 
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 7550
+		size = 7524
 	}
 
 	clergymen = {
@@ -41,7 +41,7 @@
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 825
+		size = 822
 	}
 }
 #Niksic (52000/13000 POPS) 
@@ -49,49 +49,49 @@
 	clergymen = {
 		culture = serb
 		religion = orthodox
-		size = 100
+		size = 71
 	}
 
 	artisans = {
 		culture = serb
 		religion = orthodox
-		size = 500
+		size = 354
 	}
 
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 11400
+		size = 8059
 	}
 
 	aristocrats = {
 		culture = croat
 		religion = orthodox
-		size = 250
+		size = 177
 	}
 
 	clergymen = {
 		culture = croat
 		religion = orthodox
-		size = 25
+		size = 18
 	}
 
 	artisans = {
 		culture = croat
 		religion = orthodox
-		size = 75
+		size = 53
 	}
 
 	soldiers = {
 		culture = croat
 		religion = orthodox
-		size = 212
+		size = 150
 	}
 
 	farmers = {
 		culture = croat
 		religion = orthodox
-		size = 5825
+		size = 4118
 	}
 }
 #under the rule of Montenegro in 1836 
@@ -112,25 +112,25 @@
 	clergymen = {
 		culture = serb
 		religion = orthodox
-		size = 275
+		size = 274
 	}
 
 	artisans = {
 		culture = serb
 		religion = orthodox
-		size = 1300
+		size = 1295
 	}
 
 	soldiers = {
 		culture = serb
 		religion = orthodox
-		size = 1100
+		size = 1096
 	}
 
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 23375
+		size = 23285
 	}
 }
 #Kosovo-Sanjak Region (52000) #see Serbia.txt for balance of region 
@@ -140,49 +140,49 @@
 	clergymen = {
 		culture = serb
 		religion = orthodox
-		size = 75
+		size = 17
 	}
 
 	artisans = {
 		culture = serb
 		religion = orthodox
-		size = 250
+		size = 58
 	}
 
 	farmers = {
 		culture = serb
 		religion = orthodox
-		size = 18175	
+		size = 4223	
 	}
 
 	aristocrats = {
 		culture = croat
 		religion = orthodox
-		size = 250
+		size = 58
 	}
 
 	clergymen = {
 		culture = croat
 		religion = orthodox
-		size = 50
+		size = 12
 	}
 
 	artisans = {
 		culture = croat
 		religion = orthodox
-		size = 400
+		size = 93
 	}
 
 	soldiers = {
 		culture = croat
 		religion = orthodox
-		size = 255
+		size = 59
 	}
 
 	farmers = {
 		culture = croat
 		religion = orthodox
-		size = 36501
+		size = 8480
 	}
 }
 #Dalmatia Region (64000) #see Croatia.txt for balance of region 

@@ -1,133 +1,133 @@
 #French Guiana (20000)
 #Ruled by France 1836
-#Cayenne (17000/4250 POPS)
+#Cayenne (6124/1531 POPS)
 2241 = {
 	aristocrats = {
 		culture = french
 		religion = orthodox
-		size = 150
+		size = 7
 	}
 
 	bureaucrats = {
 		culture = french
 		religion = orthodox
-		size = 10
+		size = 1
 	}
 
 	clergymen = {
 		culture = french
 		religion = orthodox
-		size = 100
+		size = 5
 	}
 
 	artisans = {
 		culture = french
 		religion = orthodox
-		size = 100
+		size = 5
 	}
 
 	soldiers = {
 		culture = french
 		religion = orthodox
-		size = 50
+		size = 2
 	}
 
 	farmers = {
 		culture = french
 		religion = orthodox
-		size = 80
+		size = 4
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 150
+		size = 7
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 250
+		size = 12
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 500
+		size = 24
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 4250
+		size = 205
 	}
 
 	slaves = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 2950
+		size = 142
 	}
 
 	aristocrats = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 20
+		size = 1
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 30
+		size = 1
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 100
+		size = 5
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 50
+		size = 2
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 23000
+		size = 1108
 	}
 }
-#Maripasoula (3000/750 POPS)
+#Maripasoula (13876/3469 POPS)
 2246 = {
 	aristocrats = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 100
+		size = 5
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 1500
+		size = 72
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 350
+		size = 17
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 2090
+		size = 101
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 68000
+		size = 3274
 	}
 
 }

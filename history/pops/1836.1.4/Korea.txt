@@ -1,813 +1,813 @@
-#Pyongan Region (1596000)
+#Pyongan Region (2805992)
 #under the rule of Korea in 1836
-#Pyongyang (800000/200000 POPS)
+#Pyongyang (1438972/359743 POPS)
 1619 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 3750
+		size = 6745
 	}
 
 	bureaucrats = {
 		culture = korean
 		religion = orthodox
-		size = 300
+		size = 540
 	}
 
 	officers = {
 		culture = korean
 		religion = orthodox
-		size = 400
+		size = 719
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 1925
+		size = 3463
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 9500
+		size = 17088
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 2000
+		size = 3597
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 172125
+		size = 309604
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 10000
+		size = 17987
 	}
 }
-#Chonchon (796000/190000 POPS)
+#Chonchon (1367020/341755 POPS)
 1620 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 3550
+		size = 6385
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 1825
+		size = 3283
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 9000
+		size = 16188
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 2000
+		size = 3597
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 163625
+		size = 294315
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 10000
+		size = 17987
 	}
 }
-#Hamgyong Region (920000)
+#Hamgyong Region (1654828)
 #under the rule of Korea in 1836
-#Hamhung (300000/75000 POPS)
+#Hamhung (539620/134905 POPS)
 1621 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 1400
+		size = 2518
 	}
 
 	bureaucrats = {
 		culture = korean
 		religion = orthodox
-		size = 150
+		size = 270
 	}
 
 	officers = {
 		culture = korean
 		religion = orthodox
-		size = 200
+		size = 360
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 750
+		size = 1349
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 3500
+		size = 6296
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 700
+		size = 1259
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 63300
+		size = 113859
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 5000
+		size = 8994
 	}
 }
-#Chongjin (360000/90000 POPS)
+#Chongjin (647540/161885 POPS)
 1622 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 1500
+		size = 2698
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 800
+		size = 1439
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 4000
+		size = 7195
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 1100
+		size = 1979
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 72600
+		size = 130587
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 10000
+		size = 17987
 	}
 }
-#Kimchaek (260000/65000 POPS)
+#Kimchaek (467668/116917 POPS)
 1623 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 1150
+		size = 2069
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 625
+		size = 1124
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 3000
+		size = 5396
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 600
+		size = 1079
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 54625
+		size = 98255
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 5000
+		size = 8994
 	}
 }
-#Kyonggi Region (2620000)
+#Kyonggi Region (4713172)
 #under the rule of Korea in 1836
-#Seoul (1180000/295000 POPS)
+#Seoul (2122476/530619 POPS)
 1624 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 5425
+		size = 9758
 	}
 
 	bureaucrats = {
 		culture = korean
 		religion = orthodox
-		size = 675
+		size = 1214
 	}
 
 	officers = {
 		culture = korean
 		religion = orthodox
-		size = 625
+		size = 1124
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 2800
+		size = 5036
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 10000
+		size = 17987
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 3750
+		size = 6745
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 3000
+		size = 5396
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 248725
+		size = 447385
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 20000
+		size = 35974
 	}
 }
-#Kaesong (280000/70000 POPS)
+#Kaesong (503460/125865 POPS)
 1625 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 1250
+		size = 2248
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 675
+		size = 1214
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 3250
+		size = 5846
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 650
+		size = 1169
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 59150
+		size = 106394
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 5000
+		size = 8994
 	}
 }
-#Haeju (260000/65000 POPS)
+#Haeju (467668/116917 POPS)
 1626 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 1150
+		size = 2069
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 625
+		size = 1124
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 3000
+		size = 5396
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 600
+		size = 1079
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 54625
+		size = 98255
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 5000
+		size = 8994
 	}
 }
-#Sariwon (340000/85000 POPS)
+#Sariwon (612288/153072 POPS)
 1627 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 1550
+		size = 2788
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 825
+		size = 1484
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 4000
+		size = 7195
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 1100
+		size = 1979
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 72625
+		size = 130632
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 5000
+		size = 8994
 	}
 }
-#Inchon (560000/140000 POPS)
+#Inchon (1007280/251820 POPS)
 1628 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 2550
+		size = 4587
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 1325
+		size = 2383
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 6500
+		size = 11692
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 2000
+		size = 3597
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 117625
+		size = 211574
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 10000
+		size = 17987
 	}
 }
-#Gangwon Region (920000)
+#Gangwon Region (1655544)
 #under the rule of Korea in 1836
-#Wonsan (380000/95000 POPS)
+#Wonsan (684236/171059 POPS)
 1629 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 1700
+		size = 3058
 	}
 
 	bureaucrats = {
 		culture = korean
 		religion = orthodox
-		size = 175
+		size = 315
 	}
 
 	officers = {
 		culture = korean
 		religion = orthodox
-		size = 225
+		size = 405
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 850
+		size = 1529
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 4250
+		size = 7645
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 1100
+		size = 1979
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 76800
+		size = 138141
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 10000
+		size = 17987
 	}
 }
-#Kangnung (260000/65000 POPS)
+#Kangnung (467668/116917 POPS)
 1630 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 1150
+		size = 2069
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 625
+		size = 1124
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 3000
+		size = 5396
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 600
+		size = 1079
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 54625
+		size = 98255
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 5000
+		size = 8994
 	}
 }
-#Wonju (280000/70000 POPS)
+#Wonju (503640/125910 POPS)
 1631 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 1250
+		size = 2248
 	}
 
 	clergymen = {
+		culture = korean
+		religion = orthodox
+		size = 1214
+	}
+
+	artisans = {
+		culture = korean
+		religion = orthodox
+		size = 5846
+	}
+
+	soldiers = {
+		culture = korean
+		religion = orthodox
+		size = 1169
+	}
+
+	farmers = {
+		culture = korean
+		religion = orthodox
+		size = 106439
+	}
+
+	slaves = {
+		culture = korean
+		religion = orthodox
+		size = 8994
+	}
+}
+#Kyongsang Region (3237696)
+#under the rule of Korea in 1836
+#Pusan (1330332/332583 POPS)
+1632 = {
+	aristocrats = {
+		culture = korean
+		religion = orthodox
+		size = 6116
+	}
+
+	bureaucrats = {
 		culture = korean
 		religion = orthodox
 		size = 675
 	}
 
-	artisans = {
-		culture = korean
-		religion = orthodox
-		size = 3250
-	}
-
-	soldiers = {
-		culture = korean
-		religion = orthodox
-		size = 650
-	}
-
-	farmers = {
-		culture = korean
-		religion = orthodox
-		size = 59175
-	}
-
-	slaves = {
-		culture = korean
-		religion = orthodox
-		size = 5000
-	}
-}
-#Kyongsang Region (1800000)
-#under the rule of Korea in 1836
-#Pusan (740000/185000 POPS)
-1632 = {
-	aristocrats = {
-		culture = korean
-		religion = orthodox
-		size = 3400
-	}
-
-	bureaucrats = {
-		culture = korean
-		religion = orthodox
-		size = 375
-	}
-
 	officers = {
 		culture = korean
 		religion = orthodox
-		size = 425
+		size = 764
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 1800
+		size = 3238
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 8750
+		size = 15739
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 2000
+		size = 3597
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 158150
+		size = 284467
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 10000
+		size = 17987
 	}
 }
-#Taejon (420000/105000 POPS)
+#Taejon (756188/189047 POPS)
 1633 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 1900
+		size = 3418
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 1050
+		size = 1889
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 5000
+		size = 8994
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 1100
+		size = 1979
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 91050
+		size = 163773
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 5000
+		size = 8994
 	}
 }
-#Pohang (640000/160000 POPS)
+#Pohang (1151176/287794 POPS)
 1634 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 2900
+		size = 5216
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 1550
+		size = 2788
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 7500
+		size = 13490
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 2000
+		size = 3597
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 136050
+		size = 244716
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 10000
+		size = 17987
 	}
 }
-#Cholla Region (1504000)
+#Cholla Region (2705268)
 #under the rule of Korea in 1836
-#Kwangju (644000/161000 POPS)
+#Kwangju (1158372/289593 POPS)
 1635 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 3000
+		size = 5396
 	}
 
 	bureaucrats = {
 		culture = korean
 		religion = orthodox
-		size = 300
+		size = 540
 	}
 
 	officers = {
 		culture = korean
 		religion = orthodox
-		size = 350
+		size = 630
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 1500
+		size = 2698
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 7550
+		size = 13580
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 2000
+		size = 3597
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 136300
+		size = 245165
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 10000
+		size = 17987
 	}
 }
-#Taegu (560000/140000 POPS)
+#Taegu (1007280/251820 POPS)
 1636 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 2550
+		size = 4587
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 1325
+		size = 2383
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 6500
+		size = 11692
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 2000
+		size = 3597
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 117625
+		size = 211574
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 10000
+		size = 17987
 	}
 }
-#Cheju (300000/75000 POPS)
+#Cheju (539616/134904 POPS)
 1637 = {
 	aristocrats = {
 		culture = korean
 		religion = orthodox
-		size = 1350
+		size = 2428
 	}
 
 	clergymen = {
 		culture = korean
 		religion = orthodox
-		size = 725
+		size = 1304
 	}
 
 	artisans = {
 		culture = korean
 		religion = orthodox
-		size = 3500
+		size = 6296
 	}
 
 	soldiers = {
 		culture = korean
 		religion = orthodox
-		size = 700
+		size = 1259
 	}
 
 	farmers = {
 		culture = korean
 		religion = orthodox
-		size = 63725
+		size = 114623
 	}
 
 	slaves = {
 		culture = korean
 		religion = orthodox
-		size = 5000
+		size = 8994
 	}
 
 }

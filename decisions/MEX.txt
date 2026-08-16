@@ -8,7 +8,7 @@ political_decisions = {
             }
 		}
         allow = {
-            MEX_85 = {
+            MEX_89 = {
             owned_by = MEX
             }
 			138 = {
@@ -38,7 +38,7 @@ political_decisions = {
 			duration = 1825
 				}
 			}
-			MEX_85 = { 
+			MEX_89 = { 
 			remove_core = CAL
 			add_core = MEX
 			remove_core = USA

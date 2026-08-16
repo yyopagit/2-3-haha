@@ -1,396 +1,396 @@
-#Casamance Region (96000) #see Guinea Bissau.txt and Senegambia.txt for balance of Region
+#Casamance Region (261524) #see Guinea Bissau.txt and Senegambia.txt for balance of Region
 #uncolonized in 1836/ruled by Kingdom of Gabu
-#Boffa (96000/24000 POPS) #now part of Guinea
+#Boffa (261524/65381 POPS) #now part of Guinea
 1879 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1450
+		size = 406
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 1250
+		size = 350
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 9500
+		size = 2661
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 250
+		size = 70
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 191000
+		size = 53492
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 30000
+		size = 8402
 	}
 }
-#Jallon Region (540000) #see Sierra Leone.txt for balance of Region
+#Jallon Region (776992) #see Sierra Leone.txt for balance of Region
 #uncolonized in 1836/ruled by Emirate of Futa Jallon
-#Timbo (360000/90000 POPS) 
+#Timbo (421880/105470 POPS) 
 1880 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 500
+		size = 140
 	}
 
 	bureaucrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 14
 	}
 
 	officers = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 14
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 250
+		size = 70
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 4050
+		size = 1134
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 127
+		size = 36
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 78250
+		size = 21915
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 2200
+		size = 616
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 1650
+		size = 462
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 6200
+		size = 1736
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 265
+		size = 74
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 243000
+		size = 68057
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 40000
+		size = 11202
 	}
 }
-#Dinguiraye (180000/45000 POPS) 
+#Dinguiraye (355112/88778 POPS) 
 1881 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 375
+		size = 105
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 200
+		size = 56
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 775
+		size = 217
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 28
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 104500
+		size = 29266
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 375
+		size = 105
 	}
 
 	officers = {
 		culture = african_minor
 		religion = orthodox
-		size = 75
+		size = 21
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 200
+		size = 56
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 4100
+		size = 1148
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 200
+		size = 56
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 111500
+		size = 31227
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1000
+		size = 280
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 500
+		size = 140
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 3000
+		size = 840
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 28
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 50000
+		size = 14003
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 40000
+		size = 11202
 	}
 }
-#Bure Region (340000) #see Mali.txt and Ivory Coast.txt for balance of Region
+#Bure Region (535648) #see Mali.txt and Ivory Coast.txt for balance of Region
 #uncolonized in 1836/ruled by Futa Jallon
-#Kankan (156000/39000 POPS) 
+#Kankan (327616/81904 POPS) 
 1882 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 125
+		size = 35
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 75
+		size = 21
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 400
+		size = 112
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 28
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 43000
+		size = 12043
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 475
+		size = 133
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 250
+		size = 70
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 1250
+		size = 350
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 125
+		size = 35
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 157250
+		size = 44040
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1000
+		size = 280
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 500
+		size = 140
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 3000
+		size = 840
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 42
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 54750
+		size = 15333
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 30000
+		size = 8402
 	}
 }
 #uncolonized in 1836}
-#Beyla (184000/46000 POPS) 
+#Beyla (208032/52008 POPS) 
 1883 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 800
+		size = 224
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 400
+		size = 112
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 1650
+		size = 462
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 125
+		size = 35
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 132725
+		size = 37171
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 28
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 14
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 250
+		size = 70
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 14
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 24550
+		size = 6876
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 25000
+		size = 7002
 	}
 
 }

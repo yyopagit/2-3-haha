@@ -1,297 +1,297 @@
-#Gruzhia Region (644000) 
+#Gruzhia Region (696964) 
 #under the rule of Russia in 1836 
-#Tblisi (232000/58000 POPS) #circassian-orthodox = Ossetian
+#Tblisi (255372/63843 POPS) #circassian-orthodox = Ossetian
 1090 = {
 	bureaucrats = {
 		culture = russian
 		religion = orthodox
-		size = 100
+		size = 107
 	}
 
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 25
+		size = 27
 	}
 
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 25
+		size = 27
 	}
 
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 375
+		size = 400
 	}
 
 	aristocrats = {
 		culture = georgian
 		religion = orthodox
-		size = 1100
+		size = 1173
 	}
 
 	bureaucrats = {
 		culture = georgian
 		religion = orthodox
-		size = 50
+		size = 53
 	}
 
 	officers = {
 		culture = georgian
 		religion = orthodox
-		size = 175
+		size = 187
 	}
 
 	clergymen = {
 		culture = georgian
 		religion = orthodox
-		size = 475
+		size = 506
 	}
 
 	artisans = {
 		culture = georgian
 		religion = orthodox
-		size = 6725
+		size = 7170
 	}
 
 	soldiers = {
 		culture = georgian
 		religion = orthodox
-		size = 1650
+		size = 1759
 	}
 
 	farmers = {
 		culture = georgian
 		religion = orthodox
-		size = 39625
+		size = 42249
 	}
 
 	aristocrats = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 25
+		size = 27
 	}
 
 	clergymen = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 25
+		size = 27
 	}
 
 	artisans = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 150
+		size = 160
 	}
 
 	soldiers = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 38
+		size = 41
 	}
 
 	farmers = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 2775
+		size = 2959
 	}
 
 	aristocrats = {
 		culture = armenian
 		religion = orthodox
-		size = 50
+		size = 53
 	}
 
 	clergymen = {
 		culture = armenian
 		religion = orthodox
-		size = 50
+		size = 53
 	}
 
 	artisans = {
 		culture = armenian
 		religion = orthodox
-		size = 450
+		size = 480
 	}
 
 	soldiers = {
 		culture = armenian
 		religion = orthodox
-		size = 75
+		size = 80
 	}
 
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 2400
+		size = 2559
 	}
 
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 25
+		size = 27
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 50
+		size = 53
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 150
+		size = 160
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 38
+		size = 41
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 2750
+		size = 2932
 	}
 
 	clergymen = {
 		culture = sephardic
 		religion = orthodox
-		size = 10
+		size = 11
 	}
 
 	artisans = {
 		culture = sephardic
 		religion = orthodox
-		size = 490
+		size = 522
 	}
 }
-#Pasanauri (76000/19000 POPS)
+#Pasanauri (81460/20365 POPS)
 1091 = {
 	aristocrats = {
 		culture = georgian
 		religion = orthodox
-		size = 200
+		size = 213
 	}
 
 	clergymen = {
 		culture = georgian
 		religion = orthodox
-		size = 100
+		size = 107
 	}
 
 	artisans = {
 		culture = georgian
 		religion = orthodox
-		size = 500
+		size = 533
 	}
 
 	soldiers = {
 		culture = georgian
 		religion = orthodox
-		size = 150
+		size = 160
 	}
 
 	farmers = {
 		culture = georgian
 		religion = orthodox
-		size = 9100
+		size = 9703
 	}
 
 	aristocrats = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 100
+		size = 107
 	}
 
 	clergymen = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 50
+		size = 53
 	}
 
 	artisans = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 300
+		size = 320
 	}
 
 	soldiers = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 75
+		size = 80
 	}
 
 	farmers = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 5500
+		size = 5864
 	}
 
 	aristocrats = {
 		culture = armenian
 		religion = orthodox
-		size = 50
+		size = 53
 	}
 
 	clergymen = {
 		culture = armenian
 		religion = orthodox
-		size = 50
+		size = 53
 	}
 
 	artisans = {
 		culture = armenian
 		religion = orthodox
-		size = 150
+		size = 160
 	}
 
 	soldiers = {
 		culture = armenian
 		religion = orthodox
-		size = 75
+		size = 80
 	}
 
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 2700
+		size = 2879
 	}
 }
-#Kutaisi (120000/30000 POPS)
+#Kutaisi (128584/32146 POPS)
 1092 = {
 	aristocrats = {
 		culture = georgian
 		religion = orthodox
-		size = 550
+		size = 586
 	}
 
 	clergymen = {
 		culture = georgian
 		religion = orthodox
-		size = 300
+		size = 320
 	}
 
 	artisans = {
 		culture = georgian
 		religion = orthodox
-		size = 1300
+		size = 1386
 	}
 
 	soldiers = {
 		culture = georgian
 		religion = orthodox
-		size = 450
+		size = 480
 	}
 
 	farmers = {
 		culture = georgian
 		religion = orthodox
-		size = 27300
+		size = 29108
 	}
 
 	clergymen = {
@@ -303,228 +303,228 @@
 	artisans = {
 		culture = sephardic
 		religion = orthodox
-		size = 245
+		size = 261
 	}
 }
-#Akhaltsikhle (40000/10000 POPS)
+#Akhaltsikhle (42880/10720 POPS)
 1093 = {
 	aristocrats = {
 		culture = georgian
 		religion = orthodox
-		size = 50
+		size = 53
 	}
 
 	clergymen = {
 		culture = georgian
 		religion = orthodox
-		size = 75
+		size = 80
 	}
 
 	artisans = {
 		culture = georgian
 		religion = orthodox
-		size = 200
+		size = 213
 	}
 
 	soldiers = {
 		culture = georgian
 		religion = orthodox
-		size = 75
+		size = 80
 	}
 
 	farmers = {
 		culture = georgian
 		religion = orthodox
-		size = 3625
+		size = 3865
 	}
 
 	aristocrats = {
 		culture = armenian
 		religion = orthodox
-		size = 100
+		size = 107
 	}
 
 	clergymen = {
 		culture = armenian
 		religion = orthodox
-		size = 50
+		size = 53
 	}
 
 	artisans = {
 		culture = armenian
 		religion = orthodox
-		size = 250
+		size = 267
 	}
 
 	soldiers = {
 		culture = armenian
 		religion = orthodox
-		size = 75
+		size = 80
 	}
 
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 4550
+		size = 4851
 	}
 
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 20
+		size = 21
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 20
+		size = 21
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 50
+		size = 53
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 15
+		size = 16
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 900
+		size = 960
 	}
 }
-#Poti (104000/26000 POPS)
+#Poti (111472/27868 POPS)
 1094 = {
 	aristocrats = {
 		culture = georgian
 		religion = orthodox
-		size = 500
+		size = 533
 	}
 
 	clergymen = {
 		culture = georgian
 		religion = orthodox
-		size = 250
+		size = 267
 	}
 
 	artisans = {
 		culture = georgian
 		religion = orthodox
-		size = 1300
+		size = 1386
 	}
 
 	soldiers = {
 		culture = georgian
 		religion = orthodox
-		size = 412
+		size = 439
 	}
 
 	farmers = {
 		culture = georgian
 		religion = orthodox
-		size = 23675
+		size = 25243
 	}
 }
-#Sukhumi (72000/18000 POPS) #circassian = abkhaz
+#Sukhumi (77196/19299 POPS) #circassian = abkhaz
 1095 = {
 	aristocrats = {
 		culture = georgian
 		religion = orthodox
-		size = 75
+		size = 80
 	}
 
 	clergymen = {
 		culture = georgian
 		religion = orthodox
-		size = 75
+		size = 80
 	}
 
 	artisans = {
 		culture = georgian
 		religion = orthodox
-		size = 200
+		size = 213
 	}
 
 	soldiers = {
 		culture = georgian
 		religion = orthodox
-		size = 75
+		size = 80
 	}
 
 	farmers = {
 		culture = georgian
 		religion = orthodox
-		size = 3600
+		size = 3838
 	}
 
 	aristocrats = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 150
+		size = 160
 	}
 
 	clergymen = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 75
+		size = 80
 	}
 
 	artisans = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 450
+		size = 480
 	}
 
 	soldiers = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 150
+		size = 160
 	}
 
 	farmers = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 8225
+		size = 8770
 	}
 
 	aristocrats = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 100
+		size = 107
 	}
 
 	clergymen = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 50
+		size = 53
 	}
 
 	artisans = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 250
+		size = 267
 	}
 
 	soldiers = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 75
+		size = 80
 	}
 
 	farmers = {
 		culture = north_caucasian
 		religion = orthodox
-		size = 4550
+		size = 4851
 	}
 }
-#Kars Region (76000) #see Turkey.txt for balance of region 
+#Kars Region (77680) #see Turkey.txt for balance of region 
 #under the rule of Ottoman Empire in 1836 
-#Batum (76000/19000 POPS) #now part of Georgia
+#Batum (77680/19420 POPS) #now part of Georgia
 1096 = {
 	aristocrats = {
 		culture = turkish

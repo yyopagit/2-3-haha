@@ -1,585 +1,585 @@
-#Latvia Region (1236000) 
+#Latvia Region (1526404) 
 #under the rule of Russia in 1836 
-#Riga (220000/55000 POPS) 
+#Riga (233788/58447 POPS) 
 354 = {
 	clergymen = {
 		culture = latvian
 		religion = orthodox
-		size = 325
+		size = 337
 	}
 
 	artisans = {
 		culture = latvian
 		religion = orthodox
-		size = 1500
+		size = 1556
 	}
 
 	soldiers = {
 		culture = latvian
 		religion = orthodox
-		size = 600
+		size = 622
 	}
 
 	farmers = {
 		culture = latvian
 		religion = orthodox
-		size = 40775
+		size = 42292
 	}
 
 	aristocrats = {
 		culture = north_german
 		religion = orthodox
-		size = 650
+		size = 674
 	}
 
 	bureaucrats = {
 		culture = north_german
 		religion = orthodox
-		size = 200
+		size = 207
 	}
 
 	officers = {
 		culture = north_german
 		religion = orthodox
-		size = 250
+		size = 259
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = north_german
 		religion = orthodox
-		size = 6725
+		size = 6975
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	aristocrats = {
 		culture = russian
 		religion = orthodox
-		size = 100
+		size = 104
 	}
 
 	bureaucrats = {
 		culture = russian
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	officers = {
 		culture = russian
 		religion = orthodox
-		size = 100
+		size = 104
 	}
 
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 1500
+		size = 1556
 	}
 
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 225
+		size = 233
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 2875
+		size = 2982
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 }
-#Valmeira (516000/129000 POPS) 
+#Valmeira (538984/134746 POPS) 
 355 = {
 	clergymen = {
 		culture = latvian
 		religion = orthodox
-		size = 1100
+		size = 1141
 	}
 
 	artisans = {
 		culture = latvian
 		religion = orthodox
-		size = 3350
+		size = 3475
 	}
 
 	soldiers = {
 		culture = latvian
 		religion = orthodox
-		size = 1725
+		size = 1789
 	}
 
 	farmers = {
 		culture = latvian
 		religion = orthodox
-		size = 106500
+		size = 110461
 	}
 
 	aristocrats = {
 		culture = north_german
 		religion = orthodox
-		size = 1250
+		size = 1296
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	artisans = {
 		culture = north_german
 		religion = orthodox
-		size = 600
+		size = 622
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 1100
+		size = 1141
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 3875
+		size = 4019
 	}
 
 	aristocrats = {
 		culture = russian
 		religion = orthodox
-		size = 250
+		size = 259
 	}
 
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 100
+		size = 104
 	}
 
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 1550
+		size = 1608
 	}
 
 	aristocrats = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 500
+		size = 519
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 400
+		size = 415
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 112
+		size = 116
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 6875
+		size = 7131
 	}
 }
-#Daugavpils (136000/34000 POPS) 
+#Daugavpils (199928/49982 POPS) 
 356 = {
 	clergymen = {
 		culture = latvian
 		religion = orthodox
-		size = 175
+		size = 182
 	}
 
 	artisans = {
 		culture = latvian
 		religion = orthodox
-		size = 650
+		size = 674
 	}
 
 	soldiers = {
 		culture = latvian
 		religion = orthodox
-		size = 375
+		size = 389
 	}
 
 	farmers = {
 		culture = latvian
 		religion = orthodox
-		size = 40675
+		size = 42188
 	}
 
 	aristocrats = {
 		culture = north_german
 		religion = orthodox
-		size = 700
+		size = 726
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	artisans = {
 		culture = north_german
 		religion = orthodox
-		size = 2200
+		size = 2282
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 400
+		size = 415
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 38
+		size = 39
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 1525
+		size = 1582
 	}
 
 	aristocrats = {
 		culture = russian
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 25
+		size = 26
 	}
 
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 1050
+		size = 1089
 	}
 }
-#Jelgava (128000/32000 POPS) 
+#Jelgava (183220/45805 POPS) 
 357 = {
 	clergymen = {
 		culture = latvian
 		religion = orthodox
-		size = 225
+		size = 233
 	}
 
 	artisans = {
 		culture = latvian
 		religion = orthodox
-		size = 250
+		size = 259
 	}
 
 	soldiers = {
 		culture = latvian
 		religion = orthodox
-		size = 375
+		size = 389
 	}
 
 	farmers = {
 		culture = latvian
 		religion = orthodox
-		size = 40275
+		size = 41773
 	}
 
 	aristocrats = {
 		culture = north_german
 		religion = orthodox
-		size = 1150
+		size = 1193
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	artisans = {
 		culture = north_german
 		religion = orthodox
-		size = 750
+		size = 778
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 25
+		size = 26
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 200
+		size = 207
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 38
+		size = 39
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 750
+		size = 778
 	}
 }
-#Ventspils (140000/35000 POPS) #uralic = Livonian 
+#Ventspils (191568/47892 POPS) #uralic = Livonian 
 358 = {
 	clergymen = {
 		culture = russian
 		religion = orthodox
-		size = 225
+		size = 233
 	}
 
 	artisans = {
 		culture = latvian
 		religion = orthodox
-		size = 300
+		size = 311
 	}
 
 	soldiers = {
 		culture = latvian
 		religion = orthodox
-		size = 412
+		size = 427
 	}
 
 	farmers = {
 		culture = latvian
 		religion = orthodox
-		size = 40450
+		size = 41955
 	}
 
 	aristocrats = {
 		culture = north_german
 		religion = orthodox
-		size = 1200
+		size = 1245
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	artisans = {
 		culture = north_german
 		religion = orthodox
-		size = 700
+		size = 726
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	farmers = {
 		culture = estonian
 		religion = orthodox
-		size = 1500
+		size = 1556
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 25
+		size = 26
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 250
+		size = 259
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 38
+		size = 39
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 950
+		size = 985
 	}
 }
-#Liepaja (96000/24000 POPS) 
+#Liepaja (178916/44729 POPS) 
 359 = {
 	clergymen = {
 		culture = latvian
 		religion = orthodox
-		size = 175
+		size = 182
 	}
 
 	artisans = {
 		culture = latvian
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	soldiers = {
 		culture = latvian
 		religion = orthodox
-		size = 300
+		size = 311
 	}
 
 	farmers = {
 		culture = latvian
 		religion = orthodox
-		size = 40475
+		size = 41980
 	}
 
 	aristocrats = {
 		culture = north_german
 		religion = orthodox
-		size = 550
+		size = 570
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = orthodox
-		size = 25
+		size = 26
 	}
 
 	artisans = {
 		culture = north_german
 		religion = orthodox
-		size = 400
+		size = 415
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = orthodox
-		size = 38
+		size = 39
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 25
+		size = 26
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 200
+		size = 207
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 38
+		size = 39
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 750
+		size = 778
 	}
 
 }

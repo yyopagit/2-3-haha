@@ -1,1171 +1,1171 @@
-#Cundinamarca Region (584000)
+#Cundinamarca Region (621492)
 #Ruled by Colombia 1836
-#Bogota (240000/60000 POPS)
+#Bogota (340912/85228 POPS)
 2247 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 1250
+		size = 320
 	}
 
 	bureaucrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 2700
+		size = 691
 	}
 
 	officers = {
 		culture = north_andean
 		religion = orthodox
-		size = 1175
+		size = 301
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 1525
+		size = 390
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 8600
+		size = 2202
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 6100
+		size = 1562
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 251875
+		size = 64479
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = orthodox
-		size = 500
+		size = 128
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = orthodox
-		size = 2000
+		size = 512
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = orthodox
-		size = 250
+		size = 64
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = orthodox
-		size = 24750
+		size = 6336
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = orthodox
-		size = 12500
+		size = 3200
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 200
+		size = 51
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 2000
+		size = 512
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 500
+		size = 128
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 17000
+		size = 4352
 	}
 }
-#Ibaque (88000/22000 POPS)
+#Ibaque (22528/5632 POPS)
 2248 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 450
+		size = 115
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 200
+		size = 51
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 950
+		size = 243
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 200
+		size = 51
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 17200
+		size = 4403
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = orthodox
-		size = 10
+		size = 3
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = orthodox
-		size = 50
+		size = 13
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = orthodox
-		size = 10
+		size = 3
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = orthodox
-		size = 680
+		size = 174
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = orthodox
-		size = 250
+		size = 64
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 25
+		size = 6
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 100
+		size = 26
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 25
+		size = 6
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 1850
+		size = 474
 	}
 }
-#Tunja (56000/14000 POPS)
+#Tunja (14392/3598 POPS)
 2249 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 300
+		size = 77
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 100
+		size = 26
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 450
+		size = 115
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 100
+		size = 26
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 8050
+		size = 2061
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 50
+		size = 13
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 250
+		size = 64
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 50
+		size = 13
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 4700
+		size = 1203
 	}
 }
-#Manizales (116000/29000 POPS)
+#Manizales (30820/7705 POPS)
 2250 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 625
+		size = 160
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 275
+		size = 70
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 1450
+		size = 371
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 1100
+		size = 282
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 26650
+		size = 6822
 	}
 }
-#Cucuta (84000/21000 POPS)
+#Cucuta (212840/53210 POPS)
 2251 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 1350
+		size = 346
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 1500
+		size = 384
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 8000
+		size = 2048
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 1750
+		size = 448
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 145250
+		size = 37184
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 500
+		size = 128
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 2500
+		size = 640
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 500
+		size = 128
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 46500
+		size = 11904
 	}
 }
-#Antioquia Region (452000)
+#Antioquia Region (481024)
 #Ruled by Colombia 1836
-#Medellin (128000/32000 POPS)
+#Medellin (64396/16099 POPS)
 2252 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 650
+		size = 305
 	}
 
 	bureaucrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 2300
+		size = 1078
 	}
 
 	officers = {
 		culture = north_andean
 		religion = orthodox
-		size = 125
+		size = 59
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 200
+		size = 94
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 1100
+		size = 516
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 1100
+		size = 516
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 16875
+		size = 7908
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = orthodox
-		size = 50
+		size = 23
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = orthodox
-		size = 400
+		size = 187
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = orthodox
-		size = 75
+		size = 35
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = orthodox
-		size = 5475
+		size = 2566
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = orthodox
-		size = 3000
+		size = 1406
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 25
+		size = 12
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 150
+		size = 70
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 25
+		size = 12
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 2800
+		size = 1312
 	}
 }
-#Quibdo (48000/12000 POPS)
+#Quibdo (286792/71698 POPS)
 2253 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 2500
+		size = 1172
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 500
+		size = 234
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 2500
+		size = 1172
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 3500
+		size = 1640
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 94000
+		size = 44048
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = orthodox
-		size = 750
+		size = 351
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = orthodox
-		size = 3500
+		size = 1640
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = orthodox
-		size = 750
+		size = 351
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = orthodox
-		size = 15000
+		size = 7030
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = orthodox
-		size = 30000
+		size = 14060
 	}
 }
-#Cartagena de Indias (144000/36000 POPS)
+#Cartagena de Indias (67776/16944 POPS)
 2254 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 700
+		size = 328
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 125
+		size = 59
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 650
+		size = 305
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 1100
+		size = 516
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 10575
+		size = 4956
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = orthodox
-		size = 75
+		size = 35
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = orthodox
-		size = 1050
+		size = 492
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = orthodox
-		size = 200
+		size = 94
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = orthodox
-		size = 15675
+		size = 7346
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = orthodox
-		size = 4000
+		size = 1875
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 25
+		size = 12
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 100
+		size = 47
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 25
+		size = 12
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 1850
+		size = 867
 	}
 }
-#Barranquilla (132000/33000 POPS)
+#Barranquilla (62060/15515 POPS)
 2255 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 650
+		size = 305
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 125
+		size = 59
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 650
+		size = 305
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 1100
+		size = 516
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 10575
+		size = 4956
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = orthodox
-		size = 100
+		size = 47
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = orthodox
-		size = 900
+		size = 422
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = orthodox
-		size = 200
+		size = 94
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = orthodox
-		size = 14800
+		size = 6936
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = orthodox
-		size = 3000
+		size = 1406
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 10
+		size = 5
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 50
+		size = 23
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 10
+		size = 5
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 930
+		size = 436
 	}
 }
-#Cauca Region (300000)
+#Cauca Region (319264)
 #Ruled by Colombia 1836
-#Cali (92000/23000 POPS)
+#Cali (97896/24474 POPS)
 2256 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 475
+		size = 86
 	}
 
 	bureaucrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 1800
+		size = 326
 	}
 
 	officers = {
 		culture = north_andean
 		religion = orthodox
-		size = 500
+		size = 90
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 1175
+		size = 213
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 4850
+		size = 877
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 4100
+		size = 742
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 83000
+		size = 15014
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = orthodox
-		size = 200
+		size = 36
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = orthodox
-		size = 1500
+		size = 271
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = orthodox
-		size = 500
+		size = 90
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = orthodox
-		size = 10000
+		size = 1809
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = orthodox
-		size = 7500
+		size = 1357
 	}
 
 	clergymen = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 200
+		size = 36
 	}
 
 	artisans = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 1500
+		size = 271
 	}
 
 	soldiers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 250
+		size = 45
 	}
 
 	farmers = {
 		culture = native_american_minor
 		religion = orthodox
-		size = 17750
+		size = 3211
 	}
 }
-#Popayan (68000/17000 POPS)
+#Popayan (85280/21320 POPS)
 2257 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 1350
+		size = 244
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 1000
+		size = 181
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 5500
+		size = 995
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 1250
+		size = 226
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 68750
+		size = 12437
 	}
 
 	clergymen = {
 		culture = quechua
 		religion = orthodox
-		size = 750
+		size = 136
 	}
 
 	artisans = {
 		culture = quechua
 		religion = orthodox
-		size = 3000
+		size = 543
 	}
 
 	soldiers = {
 		culture = quechua
 		religion = orthodox
-		size = 750
+		size = 136
 	}
 
 	farmers = {
 		culture = quechua
 		religion = orthodox
-		size = 35500
+		size = 6422
 	}
 }
-#Buenaventura (60000/15000 POPS)
+#Buenaventura (121616/30404 POPS)
 2258 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 1325
+		size = 240
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 750
+		size = 136
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 4500
+		size = 814
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 500
+		size = 90
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 91000
+		size = 16461
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = orthodox
-		size = 250
+		size = 45
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = orthodox
-		size = 1000
+		size = 181
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = orthodox
-		size = 750
+		size = 136
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = orthodox
-		size = 18000
+		size = 3256
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = orthodox
-		size = 50000
+		size = 9045
 	}
 }
-#Pasto (80000/20000 POPS)
+#Pasto (14472/3618 POPS)
 2259 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 425
+		size = 77
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 100
+		size = 18
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 450
+		size = 81
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 100
+		size = 18
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 7925
+		size = 1434
 	}
 
 	clergymen = {
 		culture = quechua
 		religion = orthodox
-		size = 50
+		size = 9
 	}
 
 	artisans = {
 		culture = quechua
 		religion = orthodox
-		size = 550
+		size = 99
 	}
 
 	soldiers = {
 		culture = quechua
 		religion = orthodox
-		size = 125
+		size = 23
 	}
 
 	farmers = {
 		culture = quechua
 		religion = orthodox
-		size = 10275
+		size = 1859
 	}
 }
-#Rio Negro Region (128000) #see Brazil.txt for balance of region
+#Rio Negro Region (136220) #see Brazil.txt for balance of region
 #Ruled by Colombia 1836
-#San Jose del Guaviare (36000/9000 POPS)
+#San Jose del Guaviare (41872/10468 POPS)
 2260 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 750
+		size = 87
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 750
+		size = 87
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 1500
+		size = 174
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 250
+		size = 29
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 26750
+		size = 3112
 	}
 
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 1000
+		size = 116
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 500
+		size = 58
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 3000
+		size = 349
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 750
+		size = 87
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 54750
+		size = 6369
 	}
 }
-#Obando (20000/5000 POPS)
+#Obando (23264/5816 POPS)
 2261 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 750
+		size = 87
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 500
+		size = 58
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 2500
+		size = 291
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 500
+		size = 58
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 45750
+		size = 5322
 	}
 }
-#Casanare (60000/15000 POPS)
+#Casanare (57128/14282 POPS)
 2262 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 1250
+		size = 145
 	}
 
 	bureaucrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 3000
+		size = 349
 	}
 
 	officers = {
 		culture = north_andean
 		religion = orthodox
-		size = 250
+		size = 29
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 750
+		size = 87
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 2000
+		size = 233
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 500
+		size = 58
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 35000
+		size = 4071
 	}
 
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 1250
+		size = 145
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 750
+		size = 87
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 4000
+		size = 465
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 750
+		size = 87
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 43250
+		size = 5037
 	}
 
 	clergymen = {
 		culture = caribeno
 		religion = orthodox
-		size = 250
+		size = 29
 	}
 
 	artisans = {
 		culture = caribeno
 		religion = orthodox
-		size = 1500
+		size = 174
 	}
 
 	soldiers = {
 		culture = caribeno
 		religion = orthodox
-		size = 250
+		size = 29
 	}
 
 	farmers = {
 		culture = caribeno
 		religion = orthodox
-		size = 15500
+		size = 1803
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = orthodox
-		size = 12500
+		size = 1454
 	}
 }
-#El Encanto (12000/3000 POPS)
+#El Encanto (13956/3489 POPS)
 2263 = {
 	aristocrats = {
 		culture = north_andean
 		religion = orthodox
-		size = 500
+		size = 58
 	}
 
 	clergymen = {
 		culture = north_andean
 		religion = orthodox
-		size = 750
+		size = 87
 	}
 
 	artisans = {
 		culture = north_andean
 		religion = orthodox
-		size = 1500
+		size = 174
 	}
 
 	soldiers = {
 		culture = north_andean
 		religion = orthodox
-		size = 250
+		size = 29
 	}
 
 	farmers = {
 		culture = north_andean
 		religion = orthodox
-		size = 27000
+		size = 3141
 	}
 
 }

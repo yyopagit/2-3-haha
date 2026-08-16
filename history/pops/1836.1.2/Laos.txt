@@ -1,358 +1,358 @@
-#polynesians Region (700000) 
+#polynesians Region (500000) 
 #under the rule of Luang Prabang in 1836 
-#Louangprabang (240000/60000 POPS) #polynesian = hmong/montagnard 
+#Louangprabang (170564/42641 POPS) #polynesian = hmong/montagnard 
 1356 = {
 	aristocrats = {
 		culture = polynesian
 		religion = orthodox
-		size = 800
+		size = 572
 	}
 
 	bureaucrats = {
 		culture = polynesian
 		religion = orthodox
-		size = 75
+		size = 54
 	}
 
 	officers = {
 		culture = polynesian
 		religion = orthodox
-		size = 100
+		size = 72
 	}
 
 	clergymen = {
 		culture = polynesian
 		religion = orthodox
-		size = 425
+		size = 304
 	}
 
 	artisans = {
 		culture = polynesian
 		religion = orthodox
-		size = 2150
+		size = 1538
 	}
 
 	soldiers = {
 		culture = polynesian
 		religion = orthodox
-		size = 1100
+		size = 787
 	}
 
 	farmers = {
 		culture = polynesian
 		religion = orthodox
-		size = 37940
+		size = 27150
 	}
 
 	aristocrats = {
 		culture = polynesian
 		religion = orthodox
-		size = 300
+		size = 215
 	}
 
 	clergymen = {
 		culture = polynesian
 		religion = orthodox
-		size = 150
+		size = 107
 	}
 
 	artisans = {
 		culture = polynesian
 		religion = orthodox
-		size = 800
+		size = 572
 	}
 
 	soldiers = {
 		culture = polynesian
 		religion = orthodox
-		size = 175
+		size = 125
 	}
 
 	farmers = {
 		culture = polynesian
 		religion = orthodox
-		size = 15575
+		size = 11145
 	}
 }
-#Vientiane (88000/22000 POPS) 
+#Vientiane (62968/15742 POPS) 
 1357 = {
 	aristocrats = {
 		culture = polynesian
 		religion = orthodox
-		size = 250
+		size = 179
 	}
 
 	clergymen = {
 		culture = polynesian
 		religion = orthodox
-		size = 150
+		size = 107
 	}
 
 	artisans = {
 		culture = polynesian
 		religion = orthodox
-		size = 750
+		size = 537
 	}
 
 	soldiers = {
 		culture = polynesian
 		religion = orthodox
-		size = 150
+		size = 107
 	}
 
 	farmers = {
 		culture = polynesian
 		religion = orthodox
-		size = 13700
+		size = 9803
 	}
 
 	aristocrats = {
 		culture = polynesian
 		religion = orthodox
-		size = 125
+		size = 89
 	}
 
 	clergymen = {
 		culture = polynesian
 		religion = orthodox
-		size = 75
+		size = 54
 	}
 
 	artisans = {
 		culture = polynesian
 		religion = orthodox
-		size = 350
+		size = 250
 	}
 
 	soldiers = {
 		culture = polynesian
 		religion = orthodox
-		size = 75
+		size = 54
 	}
 
 	farmers = {
 		culture = polynesian
 		religion = orthodox
-		size = 6375
+		size = 4562
 	}
 }
-#Savannakhet (80000/20000 POPS) 
+#Savannakhet (57248/14312 POPS) 
 1361 = {
 	aristocrats = {
 		culture = polynesian
 		religion = orthodox
-		size = 250
+		size = 179
 	}
 
 	clergymen = {
 		culture = polynesian
 		religion = orthodox
-		size = 150
+		size = 107
 	}
 
 	artisans = {
 		culture = polynesian
 		religion = orthodox
-		size = 750
+		size = 537
 	}
 
 	soldiers = {
 		culture = polynesian
 		religion = orthodox
-		size = 150
+		size = 107
 	}
 
 	farmers = {
 		culture = polynesian
 		religion = orthodox
-		size = 13700
+		size = 9803
 	}
 
 	aristocrats = {
 		culture = polynesian
 		religion = orthodox
-		size = 100
+		size = 72
 	}
 
 	clergymen = {
 		culture = polynesian
 		religion = orthodox
-		size = 50
+		size = 36
 	}
 
 	artisans = {
 		culture = polynesian
 		religion = orthodox
-		size = 250
+		size = 179
 	}
 
 	soldiers = {
 		culture = polynesian
 		religion = orthodox
-		size = 50
+		size = 36
 	}
 
 	farmers = {
 		culture = polynesian
 		religion = orthodox
-		size = 4550
+		size = 3256
 	}
 }
-#Satavan (168000/42000 POPS) 
+#Satavan (120492/30123 POPS) 
 1362 = {
 	aristocrats = {
 		culture = polynesian
 		religion = orthodox
-		size = 450
+		size = 322
 	}
 
 	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 179
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 859
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 787
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 15096
+	}
+
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 233
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 644
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 125
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 11753
+	}
+}
+#under the rule of Siam in 1836 
+#Xaignabouli (45796/11449 POPS) 
+1360 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 107
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 54
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 286
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 54
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 5939
+	}
+
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 89
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 54
+	}
+
+	artisans = {
 		culture = polynesian
 		religion = orthodox
 		size = 250
 	}
 
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 1200
-	}
-
 	soldiers = {
 		culture = polynesian
 		religion = orthodox
-		size = 1100
+		size = 54
 	}
 
 	farmers = {
 		culture = polynesian
 		religion = orthodox
-		size = 21096
-	}
-
-	aristocrats = {
-		culture = polynesian
-		religion = orthodox
-		size = 325
-	}
-
-	clergymen = {
-		culture = polynesian
-		religion = orthodox
-		size = 175
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 900
-	}
-
-	soldiers = {
-		culture = polynesian
-		religion = orthodox
-		size = 175
-	}
-
-	farmers = {
-		culture = polynesian
-		religion = orthodox
-		size = 16425
+		size = 4562
 	}
 }
-#under the rule of Siam in 1836 
-#Xaignabouli (64000/16000 POPS) 
-1360 = {
-	aristocrats = {
-		culture = polynesian
-		religion = orthodox
-		size = 150
-	}
-
-	clergymen = {
-		culture = polynesian
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 400
-	}
-
-	soldiers = {
-		culture = polynesian
-		religion = orthodox
-		size = 75
-	}
-
-	farmers = {
-		culture = polynesian
-		religion = orthodox
-		size = 8300
-	}
-
-	aristocrats = {
-		culture = polynesian
-		religion = orthodox
-		size = 125
-	}
-
-	clergymen = {
-		culture = polynesian
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 350
-	}
-
-	soldiers = {
-		culture = polynesian
-		religion = orthodox
-		size = 75
-	}
-
-	farmers = {
-		culture = polynesian
-		religion = orthodox
-		size = 6375
-	}
-}
-#Paekche (60000/15000 POPS) 
+#Paekche (42932/10733 POPS) 
 1363 = {
 	aristocrats = {
 		culture = polynesian
 		religion = orthodox
-		size = 275
+		size = 197
 	}
 
 	clergymen = {
 		culture = polynesian
 		religion = orthodox
-		size = 150
+		size = 107
 	}
 
 	artisans = {
 		culture = polynesian
 		religion = orthodox
-		size = 750
+		size = 537
 	}
 
 	soldiers = {
 		culture = polynesian
 		religion = orthodox
-		size = 125
+		size = 89
 	}
 
 	farmers = {
 		culture = polynesian
 		religion = orthodox
-		size = 13700
+		size = 9803
 	}
 
 }

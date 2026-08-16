@@ -1,150 +1,150 @@
-#Bessarabia Region (652000) #see Ukraine.txt for balance of Region 
+#Bessarabia Region (686576) #see Ukraine.txt for balance of Region 
 #under the rule of Russia in 1836 
-#Chisinau (332000/83000 POPS) 
+#Chisinau (347528/86882 POPS) 
 676 = {
 	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 1400 
+		size = 1458 
 	}
 
 	bureaucrats = {
 		culture = romanian
 		religion = orthodox
-		size = 225 
+		size = 234 
 	}
 
 	officers = {
 		culture = romanian
 		religion = orthodox
-		size = 175 
+		size = 182 
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 700 
+		size = 729 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 10000
+		size = 10413
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 1125 
+		size = 1171 
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 56750 
+		size = 59094 
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 75 
+		size = 78 
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 1600
+		size = 1666
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 112 
+		size = 117 
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 6250 
+		size = 6508 
 	}
 
 	clergymen = {
 		culture = romanian #gagauz
 		religion = orthodox
-		size = 75 
+		size = 78 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 250
+		size = 260
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 75 
+		size = 78 
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 4625 
+		size = 4816 
 	}
 }
-#Balti (320000/80000 POPS) 
+#Balti (339048/84762 POPS) 
 677 = {
 	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 1300 
+		size = 1354 
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 700 
+		size = 729 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 3600
+		size = 3749
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 1088 
+		size = 1133 
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 65675
+		size = 68387
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 75 
+		size = 78 
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 1800
+		size = 1874
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 112 
+		size = 117 
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 7050 
+		size = 7341 
 	}
 }

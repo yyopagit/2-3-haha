@@ -18,6 +18,10 @@ press_rights = censored_press
 trade_unions = non_socialist
 voting_system = first_past_the_post
 political_parties = non_secret_ballots
+colonial_politics = non_colonial
+fleet_doctrine = fleet_mothballing
+citizenship_politics = accepted_culture_only
+military_politics = regular_army
 # Social Reforms
 wage_reform = low_minimum_wage
 work_hours = ten_hours
@@ -26,6 +30,7 @@ health_care = no_culture
 unemployment_subsidies = trinket_subsidies
 pensions = trinket_pensions 
 school_reforms = no_schools
+medical_reforms = no_medical_reforms
 
 ruling_party = RHO_conservative
 upper_house = {

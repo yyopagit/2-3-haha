@@ -1,65 +1,65 @@
 #Sao Tome e Principe (16000)
 #Under spanish Rule 1836
-#Sao Tome (16000/4000 POPS)
+#Sao Tome (30228/7557 POPS)
 1954 = {
 	aristocrats = {
 		culture = spanish
 		religion = orthodox
-		size = 200
+		size = 11
 	}
 
 	clergymen = {
 		culture = spanish
 		religion = orthodox
-		size = 50
+		size = 3
 	}
 
 	bureaucrats = {
 		culture = spanish
 		religion = orthodox
-		size = 50
+		size = 3
 	}
 
 	artisans = {
 		culture = spanish
 		religion = orthodox
-		size = 50
+		size = 3
 	}
 
 	soldiers = {
 		culture = spanish
 		religion = orthodox
-		size = 100
+		size = 6
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 500
+		size = 28
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 2000
+		size = 114
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 200
+		size = 11
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 55000
+		size = 3133
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 74500
+		size = 4245
 	}
 
 }
