@@ -1,164 +1,164 @@
 #Honduras Region (352000)
 #Ruled by Central America 1836
-#Tegucigapa (180000/45000 POPS)
+#Tegucigapa (143604/35901 POPS)
 2193 = {
 	aristocrats = {
 		culture = central_american
 		religion = orthodox
-		size = 950
+		size = 758
 		#militancy = 9
 	}
 
 	bureaucrats = {
 		culture = central_american
 		religion = orthodox
-		size = 125
+		size = 100
 		#militancy = 9
 	}
 
 	officers = {
 		culture = central_american
 		religion = orthodox
-		size = 100
+		size = 80
 		#militancy = 9
 	}
 
 	clergymen = {
 		culture = central_american
 		religion = orthodox
-		size = 450
+		size = 359
 		#militancy = 9
 	}
 
 	artisans = {
 		culture = central_american
 		religion = orthodox
-		size = 2250
+		size = 1795
 		#militancy = 9
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = orthodox
-		size = 450
+		size = 359
 		#militancy = 9
 	}
 
 	farmers = {
 		culture = central_american
 		religion = orthodox
-		size = 40675
+		size = 32450
 		#militancy = 9
 	}
 }
-#San Pedro Sula (92000/23000 POPS)
+#San Pedro Sula (73404/18351 POPS)
 2194 = {
 	aristocrats = {
 		culture = central_american
 		religion = orthodox
-		size = 550
+		size = 439
 		#militancy = 9
 	}
 
 	clergymen = {
 		culture = central_american
 		religion = orthodox
-		size = 225
+		size = 180
 		#militancy = 9
 	}
 
 	artisans = {
 		culture = central_american
 		religion = orthodox
-		size = 1150
+		size = 918
 		#militancy = 9
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = orthodox
-		size = 225
+		size = 180
 		#militancy = 9
 	}
 
 	farmers = {
 		culture = central_american
 		religion = orthodox
-		size = 20850
+		size = 16634
 		#militancy = 9
 	}
 }
-#La Ceiba (68000/17000 POPS)
+#La Ceiba (125416/31354 POPS)
 2195 = {
 	aristocrats = {
 		culture = central_american
 		religion = orthodox
-		size = 425
+		size = 339
 		#militancy = 9
 	}
 
 	clergymen = {
 		culture = central_american
 		religion = orthodox
-		size = 475
+		size = 379
 		#militancy = 9
 	}
 
 	artisans = {
 		culture = central_american
 		religion = orthodox
-		size = 1850
+		size = 1476
 		#militancy = 9
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = orthodox
-		size = 1175
+		size = 937
 		#militancy = 9
 	}
 
 	farmers = {
 		culture = central_american
 		religion = orthodox
-		size = 35375
+		size = 28223
 		#militancy = 9
 	}
 }
-#Puerto Lempira (12000/3000 POPS)
+#Puerto Lempira (9576/2394 POPS)
 2196 = {
 	aristocrats = {
 		culture = central_american
 		religion = orthodox
-		size = 75
+		size = 60
 		#militancy = 9
 	}
 
 	clergymen = {
 		culture = central_american
 		religion = orthodox
-		size = 50
+		size = 40
 		#militancy = 9
 	}
 
 	artisans = {
 		culture = central_american
 		religion = orthodox
-		size = 150
+		size = 120
 		#militancy = 9
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = orthodox
-		size = 25
+		size = 20
 		#militancy = 9
 	}
 
 	farmers = {
 		culture = central_american
 		religion = orthodox
-		size = 2700
+		size = 2154
 		#militancy = 9
 	}
 

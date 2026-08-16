@@ -1,169 +1,169 @@
-#Taiwan Region (2980000) 
+#Taiwan Region (2277968) 
 #under the rule of China in 1836 
-#Taipei (1452000/363000 POPS) #now part of Taiwan 
+#Taipei (1108356/277089 POPS) #now part of Taiwan 
 1485 = {
 	aristocrats = {
 		culture = beifaren
 		religion = orthodox
-		size = 1500
+		size = 1148
 	}
 
 	bureaucrats = {
 		culture = beifaren
 		religion = orthodox
-		size = 400
+		size = 306
 	}
 
 	officers = {
 		culture = beifaren
 		religion = orthodox
-		size = 725
+		size = 555
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = orthodox
-		size = 1225
+		size = 938
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 6150
+		size = 4707
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = orthodox
-		size = 1250
+		size = 957
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 110625
+		size = 84677
 	}
 
 	aristocrats = {
 		culture = beifaren
 		religion = orthodox
-		size = 3000
+		size = 2296
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = orthodox
-		size = 2400
+		size = 1837
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 10000
+		size = 7654
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 2000
+		size = 1531
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = orthodox
-		size = 2400
+		size = 1837
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 220200
+		size = 168551
 	}
 
 	bureaucrats = {
 		culture = manchu
 		religion = orthodox
-		size = 50
+		size = 38
 	}
 
 	officers = {
 		culture = manchu
 		religion = orthodox
-		size = 25
+		size = 19
 	}
 
 	soldiers = {
 		culture = manchu
 		religion = orthodox
-		size = 50
+		size = 38
 	}
 }
-#Tainan (1528000/382000 POPS) #now part of Taiwan 
+#Tainan (1169612/292403 POPS) #now part of Taiwan 
 2562 = {
 	aristocrats = {
 		culture = beifaren
 		religion = orthodox
-		size = 1525
+		size = 1167
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = orthodox
-		size = 1325
+		size = 1014
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 6600
+		size = 5052
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = orthodox
-		size = 1325
+		size = 1014
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 121225
+		size = 92791
 	}
 
 	aristocrats = {
 		culture = beifaren
 		religion = orthodox
-		size = 3500
+		size = 2679
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = orthodox
-		size = 2500
+		size = 1914
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 10000
+		size = 7654
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 2500
+		size = 1914
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = orthodox
-		size = 2500
+		size = 1914
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 229000
+		size = 175290
 	}
 
 }

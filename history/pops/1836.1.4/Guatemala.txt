@@ -1,239 +1,239 @@
-#Guatemala Region (476000)
+#Guatemala Region (700000)
 #Ruled by Central America 1836
-#Guatemala City (276000/69000 POPS)
+#Guatemala City (233044/58261 POPS)
 2186 = {
 	aristocrats = {
 		culture = mexican
 		religion = orthodox
-		size = 600
+		size = 874
 	}
 
 	bureaucrats = {
 		culture = mexican
 		religion = orthodox
-		size = 175
+		size = 255
 	}
 
 	officers = {
 		culture = mexican
 		religion = orthodox
-		size = 150
+		size = 218
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 275
+		size = 401
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 1350
+		size = 1966
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 1100
+		size = 1602
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 4350
+		size = 6336
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 225
+		size = 328
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 2100
+		size = 3059
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 425
+		size = 619
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 29250
+		size = 42603
 	}
 }
-#Quetzaltenango (112000/28000 POPS)
+#Quetzaltenango (134580/33645 POPS)
 2187 = {
 	aristocrats = {
 		culture = mexican
 		religion = orthodox
-		size = 750
+		size = 1092
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 750
+		size = 1092
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 3500
+		size = 5098
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 1100
+		size = 1602
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 6000
+		size = 8739
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 100
+		size = 146
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 1050
+		size = 1529
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 225
+		size = 328
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 9625
+		size = 14019
 	}
 }
-#Puerto Barrios (72000/18000 POPS)
+#Puerto Barrios (297428/74357 POPS)
 2188 = {
 	aristocrats = {
 		culture = mexican
 		religion = orthodox
-		size = 550
+		size = 801
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 500
+		size = 728
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 3000
+		size = 4370
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 750
+		size = 1092
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 44250
+		size = 64453
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 50
+		size = 73
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 600
+		size = 874
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 125
+		size = 182
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 1225
+		size = 1784
 	}
 }
-#Sayaxche (16000/4000 POPS)
+#Sayaxche (34948/8737 POPS)
 2189 = {
 	aristocrats = {
 		culture = mexican
 		religion = orthodox
-		size = 150
+		size = 218
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 250
+		size = 364
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 500
+		size = 728
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 100
+		size = 146
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 2000
+		size = 2913
 	}
 
 	clergymen = {
 		culture = mexican
 		religion = orthodox
-		size = 25
+		size = 36
 	}
 
 	artisans = {
 		culture = mexican
 		religion = orthodox
-		size = 150
+		size = 218
 	}
 
 	soldiers = {
 		culture = mexican
 		religion = orthodox
-		size = 25
+		size = 36
 	}
 
 	farmers = {
 		culture = mexican
 		religion = orthodox
-		size = 2800
+		size = 4078
 	}
 
 }

@@ -1,395 +1,395 @@
-#Outer Mongolia Region (1292000) 
+#Outer Mongolia Region (1337456) 
 #under the rule of China in 1836 
-#Ugra (376000/94000 POPS) 
+#Ugra (387888/96972 POPS) 
 1465 = {
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 1850
+		size = 1794
 	}
 
 	bureaucrats = {
 		culture = mongol
 		religion = orthodox
-		size = 75
+		size = 73
 	}
 
 	officers = {
 		culture = mongol
 		religion = orthodox
-		size = 325
+		size = 315
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 4000
+		size = 3879
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 4500
+		size = 4364
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 900
+		size = 873
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 84350
+		size = 81795
 	}
 
 	bureaucrats = {
 		culture = mongol
 		religion = orthodox
-		size = 125
+		size = 121
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 75
+		size = 73
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 400
+		size = 388
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 100
+		size = 97
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 3300
+		size = 3200
 	}
 }
-#Dalandzadgad (212000/53000 POPS) 
+#Dalandzadgad (205576/51394 POPS) 
 1466 = {
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 1050
+		size = 1018
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 550
+		size = 533
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 2650
+		size = 2570
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 550
+		size = 533
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 48200
+		size = 46740
 	}
 }
-#Bayan Tumen (176000/44000 POPS) 
+#Bayan Tumen (170664/42666 POPS) 
 1467 = {
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 825
+		size = 800
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 425
+		size = 412
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 2050
+		size = 1988
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 425
+		size = 412
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 37275
+		size = 36146
 	}
 
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 50
+		size = 48
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 50
+		size = 48
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 125
+		size = 121
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 2750
+		size = 2667
 	}
 }
-#Uliastay (140000/35000 POPS) 
+#Uliastay (135752/33938 POPS) 
 1468 = {
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 650
+		size = 630
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 350
+		size = 339
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 1750
+		size = 1697
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 350
+		size = 339
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 31900
+		size = 30933
 	}
 }
 
-#Sainshand (71100/17775 POPS) 
+#Sainshand (68944/17236 POPS) 
 2207 = {
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 350
+		size = 339
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 175
+		size = 170
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 875
+		size = 848
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 175
+		size = 170
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 16200
+		size = 15709
 	}
 }
 
-#Khatgal (152000/38000 POPS) 
+#Khatgal (147396/36849 POPS) 
 2608 = {
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 750
+		size = 727
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 375
+		size = 364
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 1500
+		size = 1455
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 375
+		size = 364
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 35000
+		size = 33939
 	}
 }
-#Bulgan (84000/21000 POPS) 
+#Bulgan (73696/18424 POPS) 
 2678 = {
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 400
+		size = 388
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 200
+		size = 194
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 1050
+		size = 1018
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 225
+		size = 218
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 17125
+		size = 16606
 	}
 }
-#Khovd (120000/30000 POPS) 
+#Khovd (116364/29091 POPS) 
 2679 = {
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 350
+		size = 339
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 175
+		size = 170
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 900
+		size = 873
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 175
+		size = 170
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 16400
+		size = 15903
 	}
 
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 200
+		size = 194
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 100
+		size = 97
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 600
+		size = 582
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 125
+		size = 121
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 10975
+		size = 10642
 	}
 }
-#Uliatai (32000/8000 POPS) #now Tuva Republic of Russia Tatar = Tuvan 
+#Uliatai (31176/7794 POPS) #now Tuva Republic of Russia Tatar = Tuvan 
 1469 = {
 	aristocrats = {
 		culture = tatar
 		religion = orthodox
-		size = 150
+		size = 145
 	}
 
 	clergymen = {
 		culture = tatar
 		religion = orthodox
-		size = 75
+		size = 73
 	}
 
 	artisans = {
 		culture = tatar
 		religion = orthodox
-		size = 400
+		size = 388
 	}
 
 	soldiers = {
 		culture = tatar
 		religion = orthodox
-		size = 112
+		size = 109
 	}
 
 	farmers = {
 		culture = tatar
 		religion = orthodox
-		size = 7300
+		size = 7079
 	}
 
 }

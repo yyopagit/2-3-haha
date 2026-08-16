@@ -87,7 +87,7 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = Babilon 
-			TUR_931 = {
+			TUR_926 = {
 				add_core = BAB
 			}
 			TUR_935 = {
@@ -387,14 +387,14 @@ money = 5000000
 				TRI_1743 = { owner = { in_sphere = THIS }}
 			}
 			OR = {
-				EGY_1753 = { owned_by = THIS }
-				EGY_1753 = { owner = { in_sphere = THIS }}
+				EGY_1751 = { owned_by = THIS }
+				EGY_1751 = { owner = { in_sphere = THIS }}
 			}
 		}
 		effect = { 
 		set_country_flag = exp_end
 		set_global_flag = expand_ended
-		EGY_1753 = { remove_core = ARA }
+		EGY_1751 = { remove_core = ARA }
 		TRI = { all_core = {remove_core = TRI}}
 		ALD = { all_core = {remove_core = FRA}}
 		MOR = { all_core = {remove_core = MOR}}
@@ -760,9 +760,9 @@ vibor_techshkol3 = {
             PER_1138 = {
 				remove_core = ARA
  }
-			EGY_903 = {remove_core = EGY
+			EGY_902 = {remove_core = EGY
 			}
-			EGY_915 = {remove_core = EGY}
+			EGY_913 = {remove_core = EGY}
             1737 = {
 			add_core = ARA
 			}
@@ -778,8 +778,8 @@ vibor_techshkol3 = {
 			1733 = {
 			add_core = ARA
 			}
-			EGY_903 = { add_core = TUR }
-			EGY_915 = { add_core = TUR }
+			EGY_902 = { add_core = TUR }
+			EGY_913 = { add_core = TUR }
 			1868 = {add_core = ARA}
 			2030 = {add_core = ARA}
 		}

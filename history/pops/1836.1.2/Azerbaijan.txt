@@ -1,11 +1,11 @@
-#Northern Azerbaijan Region (340000)
+#Northern Azerbaijan Region (354344)
 #under the rule of Russia in 1836
-#Baku (76000/19000 POPS)
+#Baku (79296/19824 POPS)
 1102 = {
 	bureaucrats = {
 		culture = russian
 		religion = orthodox
-		size = 40
+		size = 41
 	}
 
 	clergymen = {
@@ -17,55 +17,55 @@
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 15
+		size = 16
 	}
 
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 60
+		size = 62
 	}
 
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 125
+		size = 130
 	}
 
 	bureaucrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 15
+		size = 16
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 300
+		size = 311
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 90
+		size = 93
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 5350
+		size = 5549
 	}
 
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 175
+		size = 182
 	}
 
 	bureaucrats = {
@@ -77,25 +77,25 @@
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 110
+		size = 114
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 600
+		size = 622
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 188
+		size = 195
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 10985
+		size = 11394
 	}
 
 	clergymen = {
@@ -107,7 +107,7 @@
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 740
+		size = 768
 	}
 
 	clergymen = {
@@ -119,347 +119,347 @@
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 245
+		size = 254
 	}
 }
-#Siyazen (56000/14000 POPS)
+#Siyazen (58500/14625 POPS)
 1103 = {
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 38
+		size = 39
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 2725
+		size = 2826
 	}
 
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 125
+		size = 130
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 350
+		size = 363
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 112
+		size = 116
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 6400
+		size = 6638
 	}
 
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 200
+		size = 207
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 3600
+		size = 3734
 	}
 }
-#Sheki (24000/6000 POPS)
+#Sheki (24664/6166 POPS)
 1104 = {
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 30
+		size = 31
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 45
+		size = 47
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 100
+		size = 104
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 38
+		size = 39
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 1800
+		size = 1867
 	}
 
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 20
+		size = 21
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 20
+		size = 21
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 15
+		size = 16
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 900
+		size = 933
 	}
 
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 2600
+		size = 2697
 	}
 }
-#Ganja (68000/17000 POPS)
+#Ganja (70892/17723 POPS)
 1105 = {
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 225
+		size = 233
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 500
+		size = 519
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 9100
+		size = 9438
 	}
 
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 350
+		size = 363
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 112
+		size = 116
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 6425
+		size = 6664
 	}
 }
-#Agdam (60000/15000 POPS)
+#Agdam (62600/15650 POPS)
 1106 = {
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 75
+		size = 78
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 450
+		size = 467
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 150
+		size = 156
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 8225
+		size = 8531
 	}
 
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 100
+		size = 104
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 50
+		size = 52
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 300
+		size = 311
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 112
+		size = 116
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 5475
+		size = 5679
 	}
 }
-#Lankaran (56000/14000 POPS)
+#Lankaran (58392/14598 POPS)
 1107 = {
 	aristocrats = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 225
+		size = 233
 	}
 
 	clergymen = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 125
+		size = 130
 	}
 
 	artisans = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 700
+		size = 726
 	}
 
 	soldiers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 225
+		size = 233
 	}
 
 	farmers = {
 		culture = azerbaijani
 		religion = orthodox
-		size = 12800
+		size = 13276
 	}
 
 }

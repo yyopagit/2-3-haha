@@ -3,61 +3,61 @@
     aristocrats = {
         culture = berber
         religion = orthodox
-        size = 10
+        size = 1
     }
 
     clergymen = {
         culture = berber
         religion = orthodox
-        size = 15
+        size = 2
     }
 
     artisans = {
         culture = berber
         religion = orthodox
-        size = 2500
+        size = 330
     }
 
     soldiers = {
         culture = berber
         religion = orthodox
-        size = 250
+        size = 33
     }
 
     farmers = {
         culture = berber
         religion = orthodox
-        size = 50000
+        size = 6595
     }
 
     aristocrats = {
         culture = berber
         religion = orthodox
-        size = 25
+        size = 3
     }
 
     clergymen = {
         culture = berber
         religion = orthodox
-        size = 50
+        size = 7
     }
 
     artisans = {
         culture = berber
         religion = orthodox
-        size = 1000
+        size = 132
     }
 
     soldiers = {
         culture = berber
         religion = orthodox
-        size = 250
+        size = 33
     }
 
     farmers = {
         culture = berber
         religion = orthodox
-        size = 90000
+        size = 11872
     }
 
 }
@@ -67,61 +67,61 @@
     aristocrats = {
         culture = berber
         religion = orthodox
-        size = 10
+        size = 1
     }
 
     clergymen = {
         culture = berber
         religion = orthodox
-        size = 15
+        size = 2
     }
 
     artisans = {
         culture = berber
         religion = orthodox
-        size = 50
+        size = 7
     }
 
     soldiers = {
         culture = berber
         religion = orthodox
-        size = 25
+        size = 3
     }
 
     farmers = {
         culture = berber
         religion = orthodox
-        size = 70000
+        size = 9233
     }
 
     aristocrats = {
         culture = african_minor
         religion = orthodox
-        size = 10
+        size = 1
     }
 
     clergymen = {
         culture = african_minor
         religion = orthodox
-        size = 15
+        size = 2
     }
 
     artisans = {
         culture = african_minor
         religion = orthodox
-        size = 50
+        size = 7
     }
 
     soldiers = {
         culture = african_minor
         religion = orthodox
-        size = 25
+        size = 3
     }
 
     farmers = {
         culture = african_minor
         religion = orthodox
-        size = 70000
+        size = 9233
     }
 
 }

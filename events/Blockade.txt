@@ -1,54 +1,187 @@
 #=========================================================
 #Тотальная блокада
+# is_triggered_only: не в дневном MTTH-пуле.
+# Пульс 140410 из JAN 140400 (старт + каждые 30 дней).
+# Уровень 2 — с 1850, уровень 3 — с 1870. До даты таймер текущего уровня обновляется.
+# RUS/USA: порты с non_blockadable_ports не считаются «свободными».
 #=========================================================
+
+# Диспетчер. Висит на JAN, попап игроку не показывает.
+country_event = {
+	id = 140410
+	title = "noloc"
+	desc = "noloc"
+	is_triggered_only = yes
+
+	option = {
+		name = "noloc"
+		any_country = {
+			limit = {
+				exists = yes
+				OR = {
+					has_country_modifier = totally_blockaded
+					has_country_modifier = totally_blockaded_lvl2
+					has_country_modifier = totally_blockaded_lvl3
+					has_country_flag = totally_blockaded
+					has_country_flag = totally_blockaded_lvl2
+					has_country_flag = totally_blockaded_lvl3
+				}
+				any_owned_province = {
+					has_province_modifier = non_overseas_selector
+					is_coastal = yes
+					is_blockaded = no
+					NOT = { has_province_modifier = non_blockadable_ports }
+				}
+			}
+			country_event = { id = 140402 days = 1 }
+		}
+		# 3 уровень: только с 1870. Флаг lvl2, таймер lvl2 истёк, всё ещё закрыто
+		any_country = {
+			limit = {
+				exists = yes
+				year = 1870
+				war = yes
+				num_of_ports = 1
+				has_country_flag = totally_blockaded_lvl2
+				NOT = {
+					has_country_flag = totally_blockaded_lvl3
+					has_country_modifier = totally_blockaded_lvl2
+					has_country_modifier = totally_blockaded_lvl3
+					any_owned_province = {
+						has_province_modifier = non_overseas_selector
+						is_coastal = yes
+						is_blockaded = no
+						NOT = { has_province_modifier = non_blockadable_ports }
+					}
+				}
+			}
+			country_event = { id = 140407 days = 1 }
+		}
+		# 2 уровень: только с 1850. Флаг lvl1, таймер lvl1 истёк, всё ещё закрыто
+		any_country = {
+			limit = {
+				exists = yes
+				year = 1850
+				war = yes
+				num_of_ports = 1
+				has_country_flag = totally_blockaded
+				NOT = {
+					has_country_flag = totally_blockaded_lvl2
+					has_country_flag = totally_blockaded_lvl3
+					has_country_modifier = totally_blockaded
+					has_country_modifier = totally_blockaded_lvl2
+					has_country_modifier = totally_blockaded_lvl3
+					any_owned_province = {
+						has_province_modifier = non_overseas_selector
+						is_coastal = yes
+						is_blockaded = no
+						NOT = { has_province_modifier = non_blockadable_ports }
+					}
+				}
+			}
+			country_event = { id = 140406 days = 1 }
+		}
+		# До 1870: 2-й уровень не переходит в 3-й — обновляем таймер
+		any_country = {
+			limit = {
+				exists = yes
+				NOT = { year = 1870 }
+				war = yes
+				num_of_ports = 1
+				has_country_flag = totally_blockaded_lvl2
+				NOT = {
+					has_country_flag = totally_blockaded_lvl3
+					has_country_modifier = totally_blockaded_lvl2
+					has_country_modifier = totally_blockaded_lvl3
+					any_owned_province = {
+						has_province_modifier = non_overseas_selector
+						is_coastal = yes
+						is_blockaded = no
+						NOT = { has_province_modifier = non_blockadable_ports }
+					}
+				}
+			}
+			add_country_modifier = {
+				name = totally_blockaded_lvl2
+				duration = 730
+			}
+		}
+		# До 1850: 1-й уровень не переходит во 2-й — обновляем таймер
+		any_country = {
+			limit = {
+				exists = yes
+				NOT = { year = 1850 }
+				war = yes
+				num_of_ports = 1
+				has_country_flag = totally_blockaded
+				NOT = {
+					has_country_flag = totally_blockaded_lvl2
+					has_country_flag = totally_blockaded_lvl3
+					has_country_modifier = totally_blockaded
+					has_country_modifier = totally_blockaded_lvl2
+					has_country_modifier = totally_blockaded_lvl3
+					any_owned_province = {
+						has_province_modifier = non_overseas_selector
+						is_coastal = yes
+						is_blockaded = no
+						NOT = { has_province_modifier = non_blockadable_ports }
+					}
+				}
+			}
+			add_country_modifier = {
+				name = totally_blockaded
+				duration = 365
+			}
+		}
+		# 1 уровень: войны, порты, нет статуса, все домашние порты закрыты
+		any_country = {
+			limit = {
+				exists = yes
+				war = yes
+				num_of_ports = 1
+				NOT = {
+					has_country_flag = totally_blockaded
+					has_country_flag = totally_blockaded_lvl2
+					has_country_flag = totally_blockaded_lvl3
+					has_country_modifier = totally_blockaded
+					has_country_modifier = totally_blockaded_lvl2
+					has_country_modifier = totally_blockaded_lvl3
+					any_owned_province = {
+						has_province_modifier = non_overseas_selector
+						is_coastal = yes
+						is_blockaded = no
+						NOT = { has_province_modifier = non_blockadable_ports }
+					}
+				}
+			}
+			country_event = { id = 140401 days = 1 }
+		}
+	}
+}
 
 country_event = {
 	id = 140401
 	title = "EVTNAME140401"
 	desc = "EVTDESC140401"
 	picture = "Administration"
-	
-	trigger = {
-		civilized = yes
-		num_of_ports = 1
-		NOT = {
-			tag = RUS
-			tag = USA
-			has_country_flag = totally_blockaded
-			has_country_flag = totally_blockaded_lvl2
-			has_country_flag = totally_blockaded_lvl3
-			has_country_modifier = totally_blockaded
-			has_country_modifier = totally_blockaded_lvl2
-			has_country_modifier = totally_blockaded_lvl3
-			any_owned_province = {
-				has_province_modifier = non_overseas_selector
-				is_coastal = yes
-				is_blockaded = no
-			}
-		}
-	}
+	is_triggered_only = yes
 
-	mean_time_to_happen = {
-		days = 7
-	}
-	
 	immediate = {
 		add_country_modifier = {
 			name = totally_blockaded
 			duration = 365
 		}
-		capital_scope = { 
+		capital_scope = {
 			add_province_modifier = {
 				name = blockaded_marker
 				duration = -1
 			}
 		}
 		set_country_flag = totally_blockaded
-		
 	}
-	
+
 	option = {
-		name = "EVTNAME140401"
+		name = "EVTOPTA140401"
 	}
 }
 
@@ -57,37 +190,14 @@ country_event = {
 	title = "EVTNAME140406"
 	desc = "EVTDESC140406"
 	picture = "Administration"
-	
-	trigger = {
-		civilized = yes
-		num_of_ports = 1
-		has_country_flag = totally_blockaded
-		NOT = {
-			tag = RUS
-			tag = USA
-			has_country_flag = totally_blockaded_lvl2
-			has_country_flag = totally_blockaded_lvl3
-			has_country_modifier = totally_blockaded
-			has_country_modifier = totally_blockaded_lvl2
-			has_country_modifier = totally_blockaded_lvl3
-			any_owned_province = {
-				has_province_modifier = non_overseas_selector
-				is_coastal = yes
-				is_blockaded = no
-			}
-		}
-	}
+	is_triggered_only = yes
 
-	mean_time_to_happen = {
-		days = 7
-	}
-	
 	immediate = {
 		add_country_modifier = {
 			name = totally_blockaded_lvl2
 			duration = 730
 		}
-		capital_scope = { 
+		capital_scope = {
 			remove_province_modifier = blockaded_marker
 			add_province_modifier = {
 				name = blockaded_marker_lvl2
@@ -96,11 +206,10 @@ country_event = {
 		}
 		clr_country_flag = totally_blockaded
 		set_country_flag = totally_blockaded_lvl2
-		
 	}
-	
+
 	option = {
-		name = "EVTNAME140406"
+		name = "EVTOPTA140406"
 	}
 }
 
@@ -113,29 +222,8 @@ country_event = {
 	title = "EVTNAME140407"
 	desc = "EVTDESC140407"
 	picture = "Administration"
-	
-	trigger = {
-		civilized = yes
-		num_of_ports = 1
-		has_country_flag = totally_blockaded_lvl2
-		NOT = {
-			tag = RUS
-			tag = USA
-			has_country_flag = totally_blockaded_lvl3
-			has_country_modifier = totally_blockaded_lvl2
-			has_country_modifier = totally_blockaded_lvl3
-			any_owned_province = {
-				has_province_modifier = non_overseas_selector
-				is_coastal = yes
-				is_blockaded = no
-			}
-		}
-	}
+	is_triggered_only = yes
 
-	mean_time_to_happen = {
-		days = 7
-	}
-	
 	immediate = {
 		add_country_modifier = {
 			name = totally_blockaded_lvl3
@@ -150,11 +238,10 @@ country_event = {
 		}
 		clr_country_flag = totally_blockaded_lvl2
 		set_country_flag = totally_blockaded_lvl3
-		
 	}
-	
+
 	option = {
-		name = "EVTNAME140407"
+		name = "EVTOPTA140407"
 	}
 }
 
@@ -167,28 +254,8 @@ country_event = {
 	title = "EVTNAME140402"
 	desc = "EVTDESC140402"
 	picture = "Administration"
-	
-	trigger = {
-		NOT = {
-			tag = RUS
-			tag = USA
-		}
-		OR = {
-			has_country_modifier = totally_blockaded
-			has_country_modifier = totally_blockaded_lvl2
-			has_country_modifier = totally_blockaded_lvl3
-		}
-		any_owned_province = {
-			has_province_modifier = non_overseas_selector
-			is_coastal = yes
-			is_blockaded = no
-		}
-	}
+	is_triggered_only = yes
 
-	mean_time_to_happen = {
-		days = 7
-	}
-	
 	immediate = {
 		remove_country_modifier = totally_blockaded
 		remove_country_modifier = totally_blockaded_lvl2
@@ -202,222 +269,9 @@ country_event = {
 		clr_country_flag = totally_blockaded_lvl2
 		clr_country_flag = totally_blockaded_lvl3
 	}
-	
+
 	option = {
-		name = "EVTNAME140402"
-	}
-}
-
-
-#==================================
-#Тотальная блокада США и России (1 уровень)
-#==================================
-country_event = {
-	id = 140403
-	title = "EVTNAME140401"
-	desc = "EVTDESC140401"
-	picture = "Administration"
-	
-	trigger = {
-	
-		OR = {
-			tag = RUS
-			tag = USA
-		}
-		
-		NOT = {
-			has_country_modifier = totally_blockaded
-			has_country_modifier = totally_blockaded_lvl2
-			has_country_modifier = totally_blockaded_lvl3
-			has_country_flag = totally_blockaded
-			has_country_flag = totally_blockaded_lvl2
-			has_country_flag = totally_blockaded_lvl3
-			any_owned_province = {
-						has_province_modifier = non_overseas_selector
-						is_coastal = yes
-						is_blockaded = no
-						NOT = { has_province_modifier = non_blockadable_ports }
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 7
-	}
-	
-	immediate = {
-		add_country_modifier = {
-			name = totally_blockaded
-			duration = 365
-		}
-		capital_scope = {
-			add_province_modifier = {
-				name = blockaded_marker
-				duration = -1
-			}
-		}
-		set_country_flag = totally_blockaded
-	}
-	
-	option = {
-		name = "EVTNAME140401"
-	}
-}
-
-#==================================
-#Тотальная блокада США и России (2 уровень)
-#==================================
-country_event = {
-	id = 140408
-	title = "EVTNAME140406"
-	desc = "EVTDESC140406"
-	picture = "Administration"
-	
-	trigger = {
-		OR = {
-			tag = RUS
-			tag = USA
-		}
-		has_country_flag = totally_blockaded
-		NOT = {
-			has_country_modifier = totally_blockaded
-			has_country_modifier = totally_blockaded_lvl2
-			has_country_modifier = totally_blockaded_lvl3
-			has_country_flag = totally_blockaded_lvl2
-			has_country_flag = totally_blockaded_lvl3
-			any_owned_province = {
-				has_province_modifier = non_overseas_selector
-				is_coastal = yes
-				is_blockaded = no
-				NOT = { has_province_modifier = non_blockadable_ports }
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 7
-	}
-	
-	immediate = {
-		add_country_modifier = {
-			name = totally_blockaded_lvl2
-			duration = 730
-		}
-		capital_scope = {
-			remove_province_modifier = blockaded_marker
-			add_province_modifier = {
-				name = blockaded_marker_lvl2
-				duration = -1
-			}
-		}
-		clr_country_flag = totally_blockaded
-		set_country_flag = totally_blockaded_lvl2
-	}
-	
-	option = {
-		name = "EVTNAME140406"
-	}
-}
-
-#==================================
-#Тотальная блокада США и России (3 уровень - бессрочный)
-#==================================
-country_event = {
-	id = 140409
-	title = "EVTNAME140407"
-	desc = "EVTDESC140407"
-	picture = "Administration"
-	
-	trigger = {
-		OR = {
-			tag = RUS
-			tag = USA
-		}
-		has_country_flag = totally_blockaded_lvl2
-		NOT = {
-			has_country_modifier = totally_blockaded_lvl2
-			has_country_modifier = totally_blockaded_lvl3
-			has_country_flag = totally_blockaded_lvl3
-			any_owned_province = {
-				has_province_modifier = non_overseas_selector
-				is_coastal = yes
-				is_blockaded = no
-				NOT = { has_province_modifier = non_blockadable_ports }
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 7
-	}
-	
-	immediate = {
-		add_country_modifier = {
-			name = totally_blockaded_lvl3
-			duration = -1
-		}
-		capital_scope = {
-			remove_province_modifier = blockaded_marker_lvl2
-			add_province_modifier = {
-				name = blockaded_marker_lvl3
-				duration = -1
-			}
-		}
-		clr_country_flag = totally_blockaded_lvl2
-		set_country_flag = totally_blockaded_lvl3
-	}
-	
-	option = {
-		name = "EVTNAME140407"
-	}
-}
-
-#==============================
-#Снятие тотальной блокады США и России
-#==============================
-
-country_event = {
-	id = 140404
-	title = "EVTNAME140402"
-	desc = "EVTDESC140402"
-	picture = "Administration"
-	
-	trigger = {
-		OR = {
-			tag = RUS
-			tag = USA
-		}
-		OR = {
-			has_country_modifier = totally_blockaded
-			has_country_modifier = totally_blockaded_lvl2
-			has_country_modifier = totally_blockaded_lvl3
-		}
-		any_owned_province = {
-			has_province_modifier = non_overseas_selector
-			is_coastal = yes
-			is_blockaded = no
-			NOT = { has_province_modifier = non_blockadable_ports }
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 7
-	}
-	
-	immediate = {
-		remove_country_modifier = totally_blockaded
-		remove_country_modifier = totally_blockaded_lvl2
-		remove_country_modifier = totally_blockaded_lvl3
-		capital_scope = {
-			remove_province_modifier = blockaded_marker
-		}
-		clr_country_flag = totally_blockaded
-		clr_country_flag = totally_blockaded_lvl2
-		clr_country_flag = totally_blockaded_lvl3
-	}
-	
-	option = {
-		name = "EVTNAME140402"
+		name = "EVTOPTA140402"
 	}
 }
 
@@ -428,9 +282,9 @@ country_event = {
 	title = "EVTNAME140402"
 	desc = "EVTDESC140402"
 	picture = "Administration"
-	
+
 	is_triggered_only = yes
-	
+
 	option = {
 		name = "EVTNAME140402"
 		add_country_modifier = {

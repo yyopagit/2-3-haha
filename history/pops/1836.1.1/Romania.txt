@@ -586,188 +586,188 @@
 		size = 12900 
 	}
 }
-#Transylvania Region (2060000) 
+#Transylvania Region (2061656) 
 #under the rule of Austria in 1836 
-#Cluj (156000/44000 POPS) 
+#Cluj (156000/39000 POPS) 
 654 = {
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 225 
+		size = 195 
 	}
 
 	bureaucrats = {
 		culture = south_german
 		religion = orthodox
-		size = 450
+		size = 390
 	}
 	
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 1200
+		size = 1041
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 488 
+		size = 423 
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 22325 
+		size = 19371 
 	}
 
 	aristocrats = {
 		culture = hungarian
 		religion = orthodox
-		size = 250 
+		size = 217 
 	}
 
 	bureaucrats = {
 		culture = hungarian
 		religion = orthodox
-		size = 375 
+		size = 325 
 	}
 
 	officers = {
 		culture = hungarian
 		religion = orthodox
-		size = 250 
+		size = 217 
 	}
 
 	clergymen = {
 		culture = hungarian
 		religion = orthodox
-		size = 50 
+		size = 43 
 	}
 
 	artisans = {
 		culture = hungarian
 		religion = orthodox
-		size = 650
+		size = 564
 	}
 
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 98 
+		size = 85 
 	}
 
 	farmers = {
 		culture = hungarian
 		religion = orthodox
-		size = 2375 
+		size = 2061 
 	}
 
 	aristocrats = {
 		culture = hungarian
 		religion = orthodox
-		size = 500 
+		size = 434 
 	}
 
 	bureaucrats = {
 		culture = hungarian
 		religion = orthodox
-		size = 275 
+		size = 239 
 	}
 
 	officers = {
 		culture = hungarian
 		religion = orthodox
-		size = 250 
+		size = 217 
 	}
 
 	clergymen = {
 		culture = hungarian
 		religion = orthodox
-		size = 75 
+		size = 65 
 	}
 
 	artisans = {
 		culture = hungarian
 		religion = orthodox
-		size = 1500
+		size = 1301
 	}
 
 	soldiers = {
 		culture = hungarian
 		religion = orthodox
-		size = 195 
+		size = 169 
 	}
 
 	farmers = {
 		culture = hungarian
 		religion = orthodox
-		size = 6300 
+		size = 5466 
 	}
 
 	aristocrats = {
 		culture = south_german
 		religion = orthodox
-		size = 350 
+		size = 304 
 	}
 
 	bureaucrats = {
 		culture = south_german
 		religion = orthodox
-		size = 250 
+		size = 217 
 	}
 
 	officers = {
 		culture = south_german
 		religion = orthodox
-		size = 100 
+		size = 87 
 	}
 
 	clergymen = {
 		culture = south_german
 		religion = orthodox
-		size = 80 
+		size = 69 
 	}
 
 	artisans = {
 		culture = south_german
 		religion = orthodox
-		size = 850
+		size = 737
 	}
 
 	soldiers = {
 		culture = south_german
 		religion = orthodox
-		size = 98 
+		size = 85 
 	}
 
 	farmers = {
 		culture = south_german
 		religion = orthodox
-		size = 3320 
+		size = 2880 
 	}
 
 	clergymen = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 50 
+		size = 43 
 	}
 
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 800
+		size = 694
 	}
 
 	soldiers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 48 
+		size = 42 
 	}
 
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 1175 
+		size = 1019 
 	}
 }
 #Gyulafehervar/Alba Iulia (316000/79000 POPS) 
@@ -1751,25 +1751,25 @@
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 250 
+		size = 249 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 1250
+		size = 1246
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 325 
+		size = 324 
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 24250 
+		size = 24174 
 	}
 
 	clergymen = {
@@ -1781,25 +1781,25 @@
 	artisans = {
 		culture = ukrainian
 		religion = orthodox
-		size = 700
+		size = 698
 	}
 
 	soldiers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 195 
+		size = 194 
 	}
 
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 14025 
+		size = 13982 
 	}
 
 	aristocrats = {
 		culture = hungarian
 		religion = orthodox
-		size = 600 
+		size = 598 
 	}
 
 	clergymen = {
@@ -1811,7 +1811,7 @@
 	artisans = {
 		culture = hungarian
 		religion = orthodox
-		size = 175
+		size = 174
 	}
 
 	soldiers = {
@@ -1823,7 +1823,7 @@
 	farmers = {
 		culture = hungarian
 		religion = orthodox
-		size = 2100 
+		size = 2094 
 	}
 
 	clergymen = {
@@ -1835,7 +1835,7 @@
 	artisans = {
 		culture = south_german
 		religion = orthodox
-		size = 600
+		size = 598
 	}
 
 	soldiers = {
@@ -1847,7 +1847,7 @@
 	farmers = {
 		culture = south_german
 		religion = orthodox
-		size = 4300 
+		size = 4287 
 	}
 
 	clergymen = {
@@ -1859,7 +1859,7 @@
 	artisans = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 800
+		size = 798
 	}
 
 	soldiers = {
@@ -1871,225 +1871,225 @@
 	farmers = {
 		culture = ashkenazi
 		religion = orthodox
-		size = 1125 
+		size = 1122 
 	}
 }
-#Wallachia Region (1228000) 
+#Wallachia Region (1976808) 
 #under the rule of Wallachia in 1836 
-#Bucharest (260000/65000 POPS) 
+#Bucharest (417544/104386 POPS) 
 664 = {
 	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 1100 
+		size = 1764 
 	}
 
 	bureaucrats = {
 		culture = romanian
 		religion = orthodox
-		size = 350 
+		size = 561 
 	}
 
 	officers = {
 		culture = romanian
 		religion = orthodox
-		size = 300 
+		size = 481 
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 600 
+		size = 962 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 10000
+		size = 16035
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 10000
+		size = 16035
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 3000
+		size = 4810
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 1100
+		size = 1764
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 38650
+		size = 61974
 	}
 }
-#Tirgu Jiu (172000/43000 POPS) 
+#Tirgu Jiu (277592/69398 POPS) 
 665 = {
 	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 750 
+		size = 1203 
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 400 
+		size = 641 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 1950
+		size = 3127
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 680 
+		size = 1090 
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 39500 
+		size = 63337 
 	}
 }
-#Craiova (196000/49000 POPS) 
+#Craiova (316300/79075 POPS) 
 666 = {
 	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 900 
+		size = 1443 
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 450 
+		size = 722 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 2250
+		size = 3608
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 765 
+		size = 1227 
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 44950 
+		size = 72075 
 	}
 }
-#Tirgoviste (188000/47000 POPS) 
+#Tirgoviste (303472/75868 POPS) 
 667 = {
 	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 750 
+		size = 1203 
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 425 
+		size = 681 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 2150
+		size = 3447
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 765 
+		size = 1227 
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 43225
+		size = 69310
 	}
 }
-#Braila (272000/68000 POPS) 
+#Braila (436772/109193 POPS) 
 668 = {
 	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 1200 
+		size = 1924 
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 625 
+		size = 1002 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 3100
+		size = 4971
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 1100
+		size = 1764
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 62075
+		size = 99532
 	}
 }
-#Calarasi (140000/35000 POPS) 
+#Calarasi (225128/56282 POPS) 
 669 = {
 	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 650 
+		size = 1042 
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 325 
+		size = 521 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 1600
+		size = 2566
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 1100
+		size = 1764
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 31425
+		size = 50389
 	}
 }
 #Moldavia Region (1356000) 
@@ -2099,49 +2099,49 @@
 	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 2250 
+		size = 1898 
 	}
 
 	bureaucrats = {
 		culture = romanian
 		religion = orthodox
-		size = 575 
+		size = 485 
 	}
 
 	officers = {
 		culture = romanian
 		religion = orthodox
-		size = 350 
+		size = 295 
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 1175
+		size = 991
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 10000
+		size = 8434
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 5000
+		size = 4217
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 3000
+		size = 2530
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 116375
+		size = 98150
 	}
 }
 #Botosani (176000/44000 POPS) 
@@ -2149,31 +2149,31 @@
 	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 850 
+		size = 847 
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 450 
+		size = 449 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 2200
+		size = 2193
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 585 
+		size = 583 
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 40050 
+		size = 39928 
 	}
 }
 #Bacau (440000/110000 POPS) 
@@ -2213,31 +2213,31 @@
 	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 1300 
+		size = 1298 
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 675
+		size = 674
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 5500
+		size = 5492
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 1100
+		size = 1098
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 59525
+		size = 59438
 	}
 }
 #Dobruja Region (168000) #see Bulgaria.txt for balance of Region 
@@ -2247,85 +2247,85 @@
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 550
+		size = 532
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 10450 
+		size = 10109 
 	}
 
 	artisans = {
 		culture = bulgarian
 		religion = orthodox
-		size = 650
+		size = 629
 	}
 
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 12350 
+		size = 11945 
 	}
 
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 250 
+		size = 242 
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 250
+		size = 242
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 500 
+		size = 484 
 	}
 
 	aristocrats = {
 		culture = turkish
 		religion = orthodox
-		size = 650
+		size = 629
 	}
 
 	bureaucrats = {
 		culture = turkish
 		religion = orthodox
-		size = 75 
+		size = 73 
 	}
 
 	officers = {
 		culture = turkish
 		religion = orthodox
-		size = 35 
+		size = 34 
 	}
 
 	clergymen = {
 		culture = turkish
 		religion = orthodox
-		size = 75 
+		size = 73 
 	}
 
 	artisans = {
 		culture = turkish
 		religion = orthodox
-		size = 1100
+		size = 1064
 	}
 
 	soldiers = {
 		culture = turkish
 		religion = orthodox
-		size = 1980
+		size = 1915
 	}
 
 	farmers = {
 		culture = turkish
 		religion = orthodox
-		size = 4165
+		size = 4029
 	}
 }
 #Tulcea (40000/10000 POPS) 
@@ -2333,66 +2333,66 @@
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 50 
+		size = 46 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 250
+		size = 228
 	}
 
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 4700 
+		size = 4279 
 	}
 
 	aristocrats = {
 		culture = turkish
 		religion = orthodox
-		size = 150 
+		size = 137 
 	}
 
 	clergymen = {
 		culture = turkish
 		religion = orthodox
-		size = 50 
+		size = 46 
 	}
 
 	artisans = {
 		culture = turkish
 		religion = orthodox
-		size = 200
+		size = 182
 	}
 
 	soldiers = {
 		culture = turkish
 		religion = orthodox
-		size = 1980
+		size = 1803
 	}
 
 	farmers = {
 		culture = turkish
 		religion = orthodox
-		size = 600 
+		size = 546 
 	}
 
 	clergymen = {
 		culture = ukrainian
 		religion = orthodox
-		size = 25 
+		size = 23 
 	}
 
 	artisans = {
 		culture = ukrainian
 		religion = orthodox
-		size = 150
+		size = 137
 	}
 
 	farmers = {
 		culture = ukrainian
 		religion = orthodox
-		size = 2825
+		size = 2573
 	}
 }

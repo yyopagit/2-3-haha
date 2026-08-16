@@ -433,11 +433,11 @@ country_event = {
     id = 3333333 #бонус от контроля первых регионов
     trigger = {
         tag = SPA
-		VNZ_2265= { owned_by = THIS }
+		VNZ_2264= { owned_by = THIS }
 		VNZ_2234= { owned_by = THIS }
 		CLM_2251= { owned_by = THIS }
 		CLM_2262= { owned_by = THIS }
-		CLM_2259= { owned_by = THIS }
+		CLM_2247= { owned_by = THIS }
 		ECU_2279= { owned_by = THIS }
 		CLM_1723= { owned_by = THIS }
         NOT = {
@@ -468,11 +468,11 @@ country_event = {
         has_country_modifier = Great_agan
         NOT = 
 		{
-		VNZ_2265= { owned_by = THIS }
+		VNZ_2264= { owned_by = THIS }
 		VNZ_2234= { owned_by = THIS }
 		CLM_2251= { owned_by = THIS }
 		CLM_2262= { owned_by = THIS }
-		CLM_2259= { owned_by = THIS }
+		CLM_2247= { owned_by = THIS }
 		ECU_2279= { owned_by = THIS }
 		CLM_1723= { owned_by = THIS }
              }
@@ -552,12 +552,12 @@ country_event = {
 		name = "EVTOPTA37702"
 		set_country_flag = perfect_within
 		VNZ_2278 = { add_core = SPA }
-		VNZ_2265 = { add_core = SPA }
+		VNZ_2264 = { add_core = SPA }
 		VNZ_2234 = { add_core = SPA }
 		CLM_2251 = { add_core = SPA }
 		CLM_2262 = { add_core = SPA }
 		CLM_2247 = { add_core = SPA }
-		CLM_2259 = { add_core = SPA }
+		CLM_2247 = { add_core = SPA }
 		ECU_2279 = { add_core = SPA }
 		CLM_1723 = { add_core = SPA }
 		PEU_2289 = { add_core = SPA }

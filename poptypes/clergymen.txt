@@ -354,44 +354,15 @@ promote_to =
 		}
 		group = {
 			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.002 }
-			}
-			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.004 }
-			}
-			 
-			modifier = {
-				factor = -2
+				factor = -6
 				state_scope = { bureaucrats = 0.008 }
 			}
 			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.012 }
-			}
-			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.014 }
-			}
-			modifier = {
-				factor = -2
+				factor = -8
 				state_scope = { bureaucrats = 0.016 }
 			}
 			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.018 }
-			}
-			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.020 }
-			}
-			modifier = {
-				factor = -2
-				state_scope = { bureaucrats = 0.022 }
-			}
-			modifier = {
-				factor = -2
+				factor = -6
 				state_scope = { bureaucrats = 0.024 }
 			}
 			modifier = {

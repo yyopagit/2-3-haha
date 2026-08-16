@@ -1,65 +1,65 @@
 #Sao Tome e Principe (16000)
 #Under Portuguese Rule 1836
-#Sao Tome (16000/4000 POPS)
+#Sao Tome (30228/7557 POPS)
 1954 = {
 	aristocrats = {
 		culture = portuguese
 		religion = orthodox
-		size = 200
+		size = 11
 	}
 
 	clergymen = {
 		culture = portuguese
 		religion = orthodox
-		size = 50
+		size = 3
 	}
 
 	bureaucrats = {
 		culture = portuguese
 		religion = orthodox
-		size = 50
+		size = 3
 	}
 
 	artisans = {
 		culture = portuguese
 		religion = orthodox
-		size = 50
+		size = 3
 	}
 
 	soldiers = {
 		culture = portuguese
 		religion = orthodox
-		size = 170
+		size = 10
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 500
+		size = 28
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 2000
+		size = 114
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 340
+		size = 19
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 55000
+		size = 3128
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 74500
+		size = 4238
 	}
 
 }

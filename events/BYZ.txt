@@ -26,7 +26,7 @@ country_event = {
 		name = "EVTOPTA122223331"
 		TUR_869 = { assimilate = yes }
 		TUR_860 = { assimilate = yes }
-		TUR_863 = { assimilate = yes }
+		TUR_867 = { assimilate = yes }
 		TUR_873 = { assimilate = yes }
 		TUR_881 = { assimilate = yes }
 		TUR_884 = { assimilate = yes }
@@ -285,7 +285,7 @@ country_event = {
 	option = {
 		name = "EVTOPTA1222233318"
 		plurality = 10
-		TUR_810 = { assimilate = yes }
+		TUR_809 = { assimilate = yes }
 		any_owned = { remove_core = BUL }
 	}
 }

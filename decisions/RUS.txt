@@ -459,7 +459,7 @@ political_decisions = {
 		year = 1880
 	}
 		effect = {
-		RUS_1098 = { assimilate = yes }
+		RUS_1102 = { assimilate = yes }
 		RUS_1048 = { assimilate = yes }
 		set_country_flag = kaukazus_rus
 		}

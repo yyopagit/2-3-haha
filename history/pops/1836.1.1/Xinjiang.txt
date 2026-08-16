@@ -1,715 +1,715 @@
-#Xinjiang Region (1356000)
+#Xinjiang Region (1238160)
 #under the "rule" of China in 1836
-#Kashgar (268000/67000 POPS)
+#Kashgar (244932/61233 POPS)
 1594 = {
 	aristocrats = {
 		culture = uighur
 		religion = orthodox
-		size = 1100
+		size = 1004
 	}
 
 	bureaucrats = {
 		culture = uighur
 		religion = orthodox
-		size = 250
+		size = 228
 	}
 
 	officers = {
 		culture = uighur
 		religion = orthodox
-		size = 325
+		size = 297
 	}
 
 	clergymen = {
 		culture = uighur
 		religion = orthodox
-		size = 525
+		size = 479
 	}
 
 	artisans = {
 		culture = uighur
 		religion = orthodox
-		size = 2600
+		size = 2373
 	}
 
 	soldiers = {
 		culture = uighur
 		religion = orthodox
-		size = 525
+		size = 479
 	}
 
 	farmers = {
 		culture = uighur
 		religion = orthodox
-		size = 46775
+		size = 42685
 	}
 
 	aristocrats = {
 		culture = kirgiz
 		religion = orthodox
-		size = 225
+		size = 205
 	}
 
 	clergymen = {
 		culture = kirgiz
 		religion = orthodox
-		size = 125
+		size = 114
 	}
 
 	artisans = {
 		culture = kirgiz
 		religion = orthodox
-		size = 575
+		size = 525
 	}
 
 	soldiers = {
 		culture = kirgiz
 		religion = orthodox
-		size = 100
+		size = 91
 	}
 
 	farmers = {
 		culture = kirgiz
 		religion = orthodox
-		size = 10975
+		size = 10015
 	}
 
 	clergymen = {
 		culture = tajik
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	artisans = {
 		culture = tajik
 		religion = orthodox
-		size = 500
+		size = 456
 	}
 
 	farmers = {
 		culture = tajik
 		religion = orthodox
-		size = 1450
+		size = 1323
 	}
 
 	clergymen = {
 		culture = uzbek
 		religion = orthodox
-		size = 25
+		size = 23
 	}
 
 	artisans = {
 		culture = uzbek
 		religion = orthodox
-		size = 975
+		size = 890
 	}
 }
-#Ili (168000/42000 POPS)
+#Ili (153312/38328 POPS)
 1595 = {
 	aristocrats = {
 		culture = uighur
 		religion = orthodox
-		size = 575
+		size = 525
 	}
 
 	clergymen = {
 		culture = uighur
 		religion = orthodox
-		size = 300
+		size = 274
 	}
 
 	artisans = {
 		culture = uighur
 		religion = orthodox
-		size = 1500
+		size = 1369
 	}
 
 	soldiers = {
 		culture = uighur
 		religion = orthodox
-		size = 300
+		size = 274
 	}
 
 	farmers = {
 		culture = uighur
 		religion = orthodox
-		size = 27325
+		size = 24936
 	}
 
 	aristocrats = {
 		culture = kazak
 		religion = orthodox
-		size = 100
+		size = 91
 	}
 
 	clergymen = {
 		culture = kazak
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	artisans = {
 		culture = kazak
 		religion = orthodox
-		size = 300
+		size = 274
 	}
 
 	soldiers = {
 		culture = kazak
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	farmers = {
 		culture = kazak
 		religion = orthodox
-		size = 5475
+		size = 4996
 	}
 
 	aristocrats = {
 		culture = beifaren
 		religion = orthodox
-		size = 20
+		size = 18
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = orthodox
-		size = 20
+		size = 18
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = orthodox
-		size = 10
+		size = 9
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 900
+		size = 821
 	}
 
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 100
+		size = 91
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 250
+		size = 228
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 4550
+		size = 4152
 	}
 }
-#Tulta (88000/22000 POPS)
+#Tulta (80292/20073 POPS)
 1596 = {
 	aristocrats = {
 		culture = uighur
 		religion = orthodox
-		size = 125
+		size = 114
 	}
 
 	clergymen = {
 		culture = uighur
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	artisans = {
 		culture = uighur
 		religion = orthodox
-		size = 350
+		size = 319
 	}
 
 	soldiers = {
 		culture = uighur
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	farmers = {
 		culture = uighur
 		religion = orthodox
-		size = 6375
+		size = 5818
 	}
 
 	aristocrats = {
 		culture = kazak
 		religion = orthodox
-		size = 125
+		size = 114
 	}
 
 	clergymen = {
 		culture = kazak
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	artisans = {
 		culture = kazak
 		religion = orthodox
-		size = 350
+		size = 319
 	}
 
 	soldiers = {
 		culture = kazak
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	farmers = {
 		culture = kazak
 		religion = orthodox
-		size = 6375
+		size = 5818
 	}
 
 	aristocrats = {
 		culture = beifaren
 		religion = orthodox
-		size = 20
+		size = 18
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = orthodox
-		size = 20
+		size = 18
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = orthodox
-		size = 10
+		size = 9
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 900
+		size = 821
 	}
 
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 125
+		size = 114
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 350
+		size = 319
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 6375
+		size = 5818
 	}
 }
-#Aksu (192000/48000 POPS)
+#Aksu (175208/43802 POPS)
 1597 = {
 	aristocrats = {
 		culture = uighur
 		religion = orthodox
-		size = 950
+		size = 867
 	}
 
 	clergymen = {
 		culture = uighur
 		religion = orthodox
-		size = 500
+		size = 456
 	}
 
 	artisans = {
 		culture = uighur
 		religion = orthodox
-		size = 2400
+		size = 2190
 	}
 
 	soldiers = {
 		culture = uighur
 		religion = orthodox
-		size = 500
+		size = 456
 	}
 
 	farmers = {
 		culture = uighur
 		religion = orthodox
-		size = 43650
+		size = 39833
 	}
 }
-#Khotan (88000/22000 POPS)
+#Khotan (80304/20076 POPS)
 1598 = {
 	aristocrats = {
 		culture = uighur
 		religion = orthodox
-		size = 425
+		size = 388
 	}
 
 	clergymen = {
 		culture = uighur
 		religion = orthodox
-		size = 225
+		size = 205
 	}
 
 	artisans = {
 		culture = uighur
 		religion = orthodox
-		size = 1100
+		size = 1004
 	}
 
 	soldiers = {
 		culture = uighur
 		religion = orthodox
-		size = 225
+		size = 205
 	}
 
 	farmers = {
 		culture = uighur
 		religion = orthodox
-		size = 20025
+		size = 18274
 	}
 }
-#Kumul (188000/47000 POPS)
+#Kumul (171748/42937 POPS)
 1599 = {
 	aristocrats = {
 		culture = uighur
 		religion = orthodox
-		size = 850
+		size = 776
 	}
 
 	clergymen = {
 		culture = uighur
 		religion = orthodox
-		size = 425
+		size = 388
 	}
 
 	artisans = {
 		culture = uighur
 		religion = orthodox
-		size = 2150
+		size = 1962
 	}
 
 	soldiers = {
 		culture = uighur
 		religion = orthodox
-		size = 425
+		size = 388
 	}
 
 	farmers = {
 		culture = uighur
 		religion = orthodox
-		size = 39200
+		size = 35772
 	}
 
 	aristocrats = {
 		culture = beifaren
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 150
+		size = 137
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = orthodox
-		size = 25
+		size = 23
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 2700
+		size = 2464
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = orthodox
-		size = 25
+		size = 23
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = orthodox
-		size = 25
+		size = 23
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 900
+		size = 821
 	}
 }
-#Urumqi (332000/83000 POPS)
+#Urumqi (303160/75790 POPS)
 1600 = {
 	aristocrats = {
 		culture = uighur
 		religion = orthodox
-		size = 1200
+		size = 1095
 	}
 
 	clergymen = {
 		culture = uighur
 		religion = orthodox
-		size = 600
+		size = 548
 	}
 
 	artisans = {
 		culture = uighur
 		religion = orthodox
-		size = 3300
+		size = 3011
 	}
 
 	soldiers = {
 		culture = uighur
 		religion = orthodox
-		size = 675
+		size = 616
 	}
 
 	farmers = {
 		culture = uighur
 		religion = orthodox
-		size = 60225
+		size = 54960
 	}
 
 	aristocrats = {
 		culture = beifaren
 		religion = orthodox
-		size = 125
+		size = 114
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 400
+		size = 365
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 7325
+		size = 6684
 	}
 
 	bureaucrats = {
 		culture = beifaren
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	clergymen = {
 		culture = beifaren
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	artisans = {
 		culture = beifaren
 		religion = orthodox
-		size = 150
+		size = 137
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 2750
+		size = 2510
 	}
 
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 25
+		size = 23
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 100
+		size = 91
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 25
+		size = 23
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 1800
+		size = 1643
 	}
 
 	aristocrats = {
 		culture = kazak
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	clergymen = {
 		culture = kazak
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	artisans = {
 		culture = kazak
 		religion = orthodox
-		size = 200
+		size = 183
 	}
 
 	soldiers = {
 		culture = kazak
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	farmers = {
 		culture = kazak
 		religion = orthodox
-		size = 3600
+		size = 3285
 	}
 }
-#Lopnur (32000/8000 POPS)
+#Lopnur (29204/7301 POPS)
 2607 = {
 	aristocrats = {
 		culture = uighur
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	clergymen = {
 		culture = uighur
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	artisans = {
 		culture = uighur
 		religion = orthodox
-		size = 250
+		size = 228
 	}
 
 	soldiers = {
 		culture = uighur
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	farmers = {
 		culture = uighur
 		religion = orthodox
-		size = 4575
+		size = 4175
 	}
 
 	aristocrats = {
 		culture = mongol
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	clergymen = {
 		culture = mongol
 		religion = orthodox
-		size = 75
+		size = 68
 	}
 
 	artisans = {
 		culture = mongol
 		religion = orthodox
-		size = 150
+		size = 137
 	}
 
 	soldiers = {
 		culture = mongol
 		religion = orthodox
-		size = 25
+		size = 23
 	}
 
 	farmers = {
 		culture = mongol
 		religion = orthodox
-		size = 2700
+		size = 2464
 	}
 
 }

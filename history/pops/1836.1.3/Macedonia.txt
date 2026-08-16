@@ -91,103 +91,103 @@
     clergymen = {
         culture = serb
         religion = orthodox
-        size = 300
+        size = 295
     }
 
     artisans = {
         culture = serb
         religion = orthodox
-        size = 425
+        size = 417
     }
 
     farmers = {
         culture = serb
         religion = orthodox
-        size = 36275
+        size = 35622
     }
 
     aristocrats = {
         culture = turkish
         religion = orthodox
-        size = 1500
+        size = 1473
     }
 
     bureaucrats = {
         culture = turkish
         religion = orthodox
-        size = 225
+        size = 221
     }
 
     officers = {
         culture = turkish
         religion = orthodox
-        size = 175
+        size = 172
     }
 
     clergymen = {
         culture = turkish
         religion = orthodox
-        size = 50
+        size = 49
     }
 
     artisans = {
         culture = turkish
         religion = orthodox
-        size = 1300
+        size = 1277
     }
 
     soldiers = {
         culture = turkish
         religion = orthodox
-        size = 1100
+        size = 1080
     }
 
     farmers = {
         culture = turkish
         religion = orthodox
-        size = 1975
+        size = 1940
     }
 
     clergymen = {
         culture = albanian
         religion = orthodox
-        size = 125
+        size = 123
     }
 
     artisans = {
         culture = albanian
         religion = orthodox
-        size = 400
+        size = 393
     }
 
     soldiers = {
         culture = albanian
         religion = orthodox
-        size = 1100
+        size = 1080
     }
 
     farmers = {
         culture = albanian
         religion = orthodox
-        size = 12275
+        size = 12055
     }
 
     clergymen = {
         culture = greek
         religion = orthodox
-        size = 175
+        size = 172
     }
 
     artisans = {
         culture = greek
         religion = orthodox
-        size = 250
+        size = 246
     }
 
     farmers = {
         culture = greek
         religion = orthodox
-        size = 9575
+        size = 9403
     }
 
     clergymen = {
@@ -199,7 +199,7 @@
     artisans = {
         culture = sephardic
         religion = orthodox
-        size = 975
+        size = 957
     }
 
 }

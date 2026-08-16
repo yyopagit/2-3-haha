@@ -17,6 +17,10 @@ press_rights = censored_press
 trade_unions = non_socialist
 voting_system = jefferson_method
 political_parties = non_secret_ballots
+colonial_politics = non_colonial
+fleet_doctrine = fleet_mothballing
+citizenship_politics = accepted_culture_only
+military_politics = regular_army
 # Social Reforms
 wage_reform = no_minimum_wage
 work_hours = twelve_hours
@@ -25,6 +29,7 @@ health_care = no_culture
 unemployment_subsidies = no_subsidies
 pensions = trinket_pensions 
 school_reforms = no_schools
+medical_reforms = no_medical_reforms
 
 ruling_party = ROM_liberal
 upper_house = {

@@ -134,13 +134,13 @@ political_decisions = {
 		  PAN_1224 = {
 		  owned_by = THIS
 		  }
-		  PAN_1229 = { 
+		  PAN_1227 = { 
           owned_by = THIS
 		  }
         }
 		effect = {
         PAN_1224 = {remove_core = PAN}
-		PAN_1229 = {remove_core = PAN}
+		PAN_1227 = {remove_core = PAN}
 		badboy = 4
 		set_country_flag = core_punjab
 		}
@@ -168,7 +168,7 @@ political_decisions = {
                 }
 				ENG_1292 = { add_core = THIS }
 				ENG_1264 = { add_core = THIS }
-				PAN_1239 = { add_core = THIS }
+				PAN_1236 = { add_core = THIS }
 				ENG_1291 = { add_core = THIS }
 				add_accepted_culture = sindi
 				add_accepted_culture = hazara

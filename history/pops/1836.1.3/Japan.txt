@@ -3,73 +3,73 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 2500
+        size = 4159
     }
 
     bureaucrats = {
         culture = japanese
         religion = orthodox
-        size = 750
+        size = 1248
     }
 
     officers = {
         culture = japanese
         religion = orthodox
-        size = 575
+        size = 957
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 1475
+        size = 2454
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 7550
+        size = 12561
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 2275
+        size = 3785
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 113225
+        size = 188374
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 800
+        size = 1331
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 400
+        size = 665
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 2450
+        size = 4076
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 425
+        size = 707
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 36925
+        size = 61433
     }
 
 }
@@ -79,7 +79,1859 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 1850
+        size = 3628
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 1863
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 9412
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 3873
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 171425
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1078
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 637
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 2941
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 588
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 53580
+    }
+
+}
+
+#Yamaguchi
+1640 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 3234
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 1657
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 8247
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 3275
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 150143
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 809
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 404
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 2102
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 445
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 38284
+    }
+
+}
+
+#Matsue
+1641 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 4210
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 2181
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 10855
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 4210
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 197675
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1116
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 659
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 3043
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 609
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 55442
+    }
+
+}
+
+#Hakodate
+1642 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 21
+    }
+
+    bureaucrats = {
+        culture = japanese
+        religion = orthodox
+        size = 5
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 21
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 104
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 21
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 1911
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 21
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 104
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 21
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 1938
+    }
+
+    aristocrats = {
+        culture = ainu
+        religion = orthodox
+        size = 156
+    }
+
+    clergymen = {
+        culture = ainu
+        religion = orthodox
+        size = 89
+    }
+
+    artisans = {
+        culture = ainu
+        religion = orthodox
+        size = 312
+    }
+
+    soldiers = {
+        culture = ainu
+        religion = orthodox
+        size = 52
+    }
+
+    farmers = {
+        culture = ainu
+        religion = orthodox
+        size = 7724
+    }
+
+}
+
+#Ishikara
+1643 = {
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 3
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 17
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 3
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 310
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 3
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 17
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 3
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 310
+    }
+
+    aristocrats = {
+        culture = ainu
+        religion = orthodox
+        size = 53
+    }
+
+    clergymen = {
+        culture = ainu
+        religion = orthodox
+        size = 38
+    }
+
+    artisans = {
+        culture = ainu
+        religion = orthodox
+        size = 133
+    }
+
+    soldiers = {
+        culture = ainu
+        religion = orthodox
+        size = 23
+    }
+
+    farmers = {
+        culture = ainu
+        religion = orthodox
+        size = 3087
+    }
+
+}
+
+#Nemuru
+1644 = {
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 3
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 17
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 3
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 318
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 3
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 17
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 3
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 318
+    }
+
+    aristocrats = {
+        culture = ainu
+        religion = orthodox
+        size = 54
+    }
+
+    clergymen = {
+        culture = ainu
+        religion = orthodox
+        size = 32
+    }
+
+    artisans = {
+        culture = ainu
+        religion = orthodox
+        size = 128
+    }
+
+    soldiers = {
+        culture = ainu
+        religion = orthodox
+        size = 28
+    }
+
+    farmers = {
+        culture = ainu
+        religion = orthodox
+        size = 2926
+    }
+
+}
+
+#Niigata
+1645 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 5960
+    }
+
+    bureaucrats = {
+        culture = japanese
+        religion = orthodox
+        size = 680
+    }
+
+    officers = {
+        culture = japanese
+        religion = orthodox
+        size = 760
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 3000
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 14961
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 3000
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 270858
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1960
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 1000
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 4960
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 1000
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 90286
+    }
+
+}
+
+#Kanazawa
+1646 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1704
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 852
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 4325
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 3506
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 78742
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 721
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 426
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 1966
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 393
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 35815
+    }
+
+}
+
+#Fukui
+1647 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 449
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 236
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 1182
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 3073
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 21532
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 260
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 142
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 709
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 142
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 116925
+    }
+
+}
+
+#Toyama
+1648 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1592
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 796
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 4046
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 4809
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 73663
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 696
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 365
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 1791
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 365
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 32602
+    }
+
+}
+
+#Edo
+1649 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 4983
+    }
+
+    bureaucrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1686
+    }
+
+    officers = {
+        culture = japanese
+        religion = orthodox
+        size = 977
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 2587
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 2300
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 4657
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 128449
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1112
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 575
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7666
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 5366
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 537
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 29972
+    }
+
+}
+
+#Chiba
+1650 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 4370
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 2219
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 11028
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 2219
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 200725
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1006
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 520
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 2636
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 555
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 47997
+    }
+
+}
+
+#Yokohama
+1651 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1312
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 694
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 6080
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 694
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 60903
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 309
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 201
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 1636
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 185
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 16186
+    }
+
+}
+
+#Urawa
+1652 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 3584
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 2043
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 7708
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 1310
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 2274
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 164385
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 867
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 443
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 2120
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 424
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 38542
+    }
+
+}
+
+#Mito
+1653 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 2134
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 1090
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 5427
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 2018
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 98703
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 533
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 278
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 1391
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 278
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 25348
+    }
+
+}
+
+#Osaka
+1655 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 4854
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 2872
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 8091
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 8091
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 8091
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 8091
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 4854
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 2892
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 292881
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 405
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 243
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 3236
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 243
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 23706
+    }
+
+}
+
+#Wakayama
+1656 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 2174
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 1087
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 5464
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 1102
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 99447
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 911
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 485
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 2350
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 470
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 42785
+    }
+
+}
+
+#Kyoto
+1657 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 5080
+    }
+
+    bureaucrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1596
+    }
+
+    officers = {
+        culture = japanese
+        religion = orthodox
+        size = 1107
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 2540
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 6513
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 6513
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 6513
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 4559
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 2540
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 216409
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 944
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 472
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 4559
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 472
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 40383
+    }
+
+}
+
+#Nara
+1658 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1490
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 750
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 3613
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 145
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 1120
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 68391
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 632
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 325
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 1626
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 325
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 29608
+    }
+
+}
+
+#Kobe
+1659 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 5685
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 2843
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 14286
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 2879
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 260030
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 2405
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 1239
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 6123
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 1239
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 111446
+    }
+
+}
+
+#Fukuoka
+1660 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 4170
+    }
+
+    bureaucrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1018
+    }
+
+    officers = {
+        culture = japanese
+        religion = orthodox
+        size = 1182
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 1970
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 9915
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 3316
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 186382
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1182
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 624
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 2955
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 591
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 53745
+    }
+
+}
+
+#Nagasaki
+1661 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 3172
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 1630
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 8062
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 1630
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 146752
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1145
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 661
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 3084
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 617
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 56172
+    }
+
+}
+
+#Kagoshima
+1662 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1598
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 815
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 4058
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 815
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 73878
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 479
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 240
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 1214
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 240
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 22113
+    }
+
+}
+
+#Miyazaki
+1663 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 969
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 523
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 2520
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 504
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 45876
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 426
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 252
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 1163
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 233
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 21184
+    }
+
+}
+
+#Kumamoto
+1664 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 5497
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 3696
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 13838
+    }
+
+    soldiers = {
+        culture = japanese
+        religion = orthodox
+        size = 4692
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 252825
+    }
+
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1706
+    }
+
+    clergymen = {
+        culture = japanese
+        religion = orthodox
+        size = 853
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 4265
+    }
+
+    artisans = {
+        culture = japanese
+        religion = orthodox
+        size = 853
+    }
+
+    farmers = {
+        culture = japanese
+        religion = orthodox
+        size = 77625
+    }
+
+}
+
+#Kochi
+1665 = {
+    aristocrats = {
+        culture = japanese
+        religion = orthodox
+        size = 1844
     }
 
     clergymen = {
@@ -91,1901 +1943,49 @@
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 4800
+        size = 4695
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 1975
+        size = 4695
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 87425
+        size = 84175
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 550
+        size = 782
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 325
+        size = 391
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 1500
+        size = 2012
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 300
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 27325
-    }
-
-}
-
-#Yamaguchi
-1640 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 2000
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 1025
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 5100
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 2025
+        size = 391
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 92850
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 500
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 250
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 1300
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 275
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 23675
-    }
-
-}
-
-#Matsue
-1641 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 2075
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 1075
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 5350
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 2075
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 97425
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 550
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 325
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 1500
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 300
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 27325
-    }
-
-}
-
-#Hakodate
-1642 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 100
-    }
-
-    bureaucrats = {
-        culture = japanese
-        religion = orthodox
-        size = 25
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 100
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 500
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 100
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 9175
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 100
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 500
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 100
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 9300
-    }
-
-    aristocrats = {
-        culture = ainu
-        religion = orthodox
-        size = 750
-    }
-
-    clergymen = {
-        culture = ainu
-        religion = orthodox
-        size = 425
-    }
-
-    artisans = {
-        culture = ainu
-        religion = orthodox
-        size = 1500
-    }
-
-    soldiers = {
-        culture = ainu
-        religion = orthodox
-        size = 250
-    }
-
-    farmers = {
-        culture = ainu
-        religion = orthodox
-        size = 37075
-    }
-
-}
-
-#Ishikara
-1643 = {
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 50
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 250
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 50
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 4650
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 50
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 250
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 50
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 4650
-    }
-
-    aristocrats = {
-        culture = ainu
-        religion = orthodox
-        size = 800
-    }
-
-    clergymen = {
-        culture = ainu
-        religion = orthodox
-        size = 575
-    }
-
-    artisans = {
-        culture = ainu
-        religion = orthodox
-        size = 2000
-    }
-
-    soldiers = {
-        culture = ainu
-        religion = orthodox
-        size = 350
-    }
-
-    farmers = {
-        culture = ainu
-        religion = orthodox
-        size = 46275
-    }
-
-}
-
-#Nemuru
-1644 = {
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 75
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 400
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 75
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 7425
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 75
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 400
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 75
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 7425
-    }
-
-    aristocrats = {
-        culture = ainu
-        religion = orthodox
-        size = 1250
-    }
-
-    clergymen = {
-        culture = ainu
-        religion = orthodox
-        size = 750
-    }
-
-    artisans = {
-        culture = ainu
-        religion = orthodox
-        size = 3000
-    }
-
-    soldiers = {
-        culture = ainu
-        religion = orthodox
-        size = 650
-    }
-
-    farmers = {
-        culture = ainu
-        religion = orthodox
-        size = 68350
-    }
-
-}
-
-#Niigata
-1645 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 3725
-    }
-
-    bureaucrats = {
-        culture = japanese
-        religion = orthodox
-        size = 425
-    }
-
-    officers = {
-        culture = japanese
-        religion = orthodox
-        size = 475
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 1875
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 9350
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 1875
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 169275
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 1225
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 625
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 3100
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 625
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 56425
-    }
-
-}
-
-#Kanazawa
-1646 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 1300
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 650
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 3300
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 2675
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 60075
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 550
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 325
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 1500
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 300
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 27325
-    }
-
-}
-
-#Fukui
-1647 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 475
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 250
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 1250
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 3250
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 22775
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 275
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 150
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 750
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 150
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 123675
-    }
-
-}
-
-#Toyama
-1648 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 1200
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 600
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 3050
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 3625
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 55525
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 525
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 275
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 1350
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 275
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 24575
-    }
-
-}
-
-#Edo
-1649 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 6500
-    }
-
-    bureaucrats = {
-        culture = japanese
-        religion = orthodox
-        size = 2200
-    }
-
-    officers = {
-        culture = japanese
-        religion = orthodox
-        size = 1275
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 3375
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 3000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 6075
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 167575
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 1450
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 750
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 7000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 700
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 39100
-    }
-
-}
-
-#Chiba
-1650 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 3150
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 1600
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 7950
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 1600
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 144700
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 725
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 375
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 1900
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 400
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 34600
-    }
-
-}
-
-#Yokohama
-1651 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 2125
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 1125
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 9850
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 1125
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 98675
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 500
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 325
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 2650
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 300
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 26225
-    }
-
-}
-
-#Urawa
-1652 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 4650
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 2650
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 1700
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 2950
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 213250
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 1125
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 575
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 2750
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 550
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 50000
-    }
-
-}
-
-#Mito
-1653 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 2300
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 1175
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 5850
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 2175
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 106400
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 575
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 300
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 1500
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 300
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 27325
-    }
-
-}
-
-#Osaka
-1655 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 6000
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 3550
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 6000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 3575
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 362000
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 500
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 300
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 4000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 300
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 29300
-    }
-
-}
-
-#Wakayama
-1656 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 3700
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 1850
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 9300
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 1875
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 169275
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 1550
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 825
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 4000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 800
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 72825
-    }
-
-}
-
-#Kyoto
-1657 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 7800
-    }
-
-    bureaucrats = {
-        culture = japanese
-        religion = orthodox
-        size = 2450
-    }
-
-    officers = {
-        culture = japanese
-        religion = orthodox
-        size = 1700
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 3900
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 7000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 3900
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 332250
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 1450
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 725
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 7000
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 725
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 62000
-    }
-
-}
-
-#Nara
-1658 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 4125
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 2075
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 10000
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 400
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 3100
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 189300
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 1750
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 900
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 4500
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 900
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 81950
-    }
-
-}
-
-#Kobe
-1659 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 3900
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 1950
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 9800
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 1975
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 178375
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 1650
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 850
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 4200
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 850
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 76450
-    }
-
-}
-
-#Fukuoka
-1660 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 3175
-    }
-
-    bureaucrats = {
-        culture = japanese
-        religion = orthodox
-        size = 775
-    }
-
-    officers = {
-        culture = japanese
-        religion = orthodox
-        size = 900
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 1500
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 7550
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 2525
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 141925
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 900
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 475
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 2250
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 450
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 40925
-    }
-
-}
-
-#Nagasaki
-1661 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 3600
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 1850
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 9150
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 1850
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 166550
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 1300
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 750
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 3500
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 700
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 63750
-    }
-
-}
-
-#Kagoshima
-1662 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 2500
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 1275
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 6350
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 1275
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 115600
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 750
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 375
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 1900
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 375
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 34600
-    }
-
-}
-
-#Miyazaki
-1663 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 1250
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 675
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 3250
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 650
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 59175
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 550
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 325
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 1500
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 300
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 27325
-    }
-
-}
-
-#Kumamoto
-1664 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 2900
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 1950
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 7300
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 2475
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 133375
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 900
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 450
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 2250
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 450
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 40950
-    }
-
-}
-
-#Kochi
-1665 = {
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 825
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 425
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 2100
-    }
-
-    soldiers = {
-        culture = japanese
-        religion = orthodox
-        size = 2100
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 37650
-    }
-
-    aristocrats = {
-        culture = japanese
-        religion = orthodox
-        size = 350
-    }
-
-    clergymen = {
-        culture = japanese
-        religion = orthodox
-        size = 175
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 900
-    }
-
-    artisans = {
-        culture = japanese
-        religion = orthodox
-        size = 175
-    }
-
-    farmers = {
-        culture = japanese
-        religion = orthodox
-        size = 16400
+        size = 36665
     }
 
 }
@@ -1995,61 +1995,61 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 1500
+        size = 2437
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 750
+        size = 1218
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 3800
+        size = 6173
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 1100
+        size = 1787
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 68900
+        size = 111936
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 625
+        size = 1015
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 325
+        size = 528
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 1600
+        size = 2599
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 325
+        size = 528
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 29225
+        size = 47479
     }
 
 }
@@ -2059,73 +2059,73 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 2425
+        size = 3707
     }
 
     bureaucrats = {
         culture = japanese
         religion = orthodox
-        size = 225
+        size = 344
     }
 
     officers = {
         culture = japanese
         religion = orthodox
-        size = 325
+        size = 497
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 1225
+        size = 1872
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 6100
+        size = 9324
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 2225
+        size = 3401
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 110525
+        size = 168946
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 1025
+        size = 1567
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 525
+        size = 802
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 2600
+        size = 3974
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 525
+        size = 802
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 47325
+        size = 72339
     }
 
 }
@@ -2135,73 +2135,73 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 2325
+        size = 1751
     }
 
     bureaucrats = {
         culture = japanese
         religion = orthodox
-        size = 575
+        size = 433
     }
 
     officers = {
         culture = japanese
         religion = orthodox
-        size = 825
+        size = 621
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 1175
+        size = 885
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 5850
+        size = 4406
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 1175
+        size = 885
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 105075
+        size = 79142
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 750
+        size = 565
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 425
+        size = 320
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 2000
+        size = 1506
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 400
+        size = 301
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 36425
+        size = 27435
     }
 
 }
@@ -2211,61 +2211,61 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 2025
+        size = 2334
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 1025
+        size = 1182
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 5150
+        size = 5936
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 3050
+        size = 3516
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 93750
+        size = 108063
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 850
+        size = 980
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 450
+        size = 519
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 2200
+        size = 2536
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 450
+        size = 519
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 40050
+        size = 46165
     }
 
 }
@@ -2275,61 +2275,61 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 1100
+        size = 1526
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 550
+        size = 763
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 2800
+        size = 3883
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 2875
+        size = 3987
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 50975
+        size = 70694
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 450
+        size = 624
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 225
+        size = 312
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 1150
+        size = 1595
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 225
+        size = 312
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 20950
+        size = 29054
     }
 
 }
@@ -2339,61 +2339,61 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 1350
+        size = 2035
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 700
+        size = 1055
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 3450
+        size = 5201
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 700
+        size = 1055
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 63800
+        size = 96185
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 550
+        size = 829
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 300
+        size = 452
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 1450
+        size = 2186
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 300
+        size = 452
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 26400
+        size = 39800
     }
 
 }
@@ -2403,61 +2403,61 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 1250
+        size = 1402
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 750
+        size = 841
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 3150
+        size = 3532
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 650
+        size = 729
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 57400
+        size = 64359
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 550
+        size = 617
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 325
+        size = 364
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 1500
+        size = 1682
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 300
+        size = 336
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 27325
+        size = 30638
     }
 
 }
@@ -2467,61 +2467,61 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 1950
+        size = 1992
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 1100
+        size = 1124
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 4900
+        size = 5005
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 3100
+        size = 3167
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 89150
+        size = 91067
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 550
+        size = 562
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 325
+        size = 332
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 1500
+        size = 1532
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 300
+        size = 306
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 27325
+        size = 27913
     }
 
 }
@@ -2531,61 +2531,61 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 1275
+        size = 2893
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 650
+        size = 1475
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 3250
+        size = 7374
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 2650
+        size = 6012
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 59175
+        size = 134255
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 750
+        size = 1702
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 375
+        size = 851
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 1900
+        size = 4311
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 375
+        size = 851
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 34600
+        size = 78501
     }
 
 }
@@ -2595,79 +2595,79 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 5175
+        size = 9776
     }
 
     bureaucrats = {
         culture = japanese
         religion = orthodox
-        size = 725
+        size = 1370
     }
 
     officers = {
         culture = japanese
         religion = orthodox
-        size = 750
+        size = 1417
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 2625
+        size = 4959
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 10000
+        size = 18891
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 7000
+        size = 13224
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 2600
+        size = 4912
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 230125
+        size = 434725
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 2150
+        size = 4062
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 1125
+        size = 2125
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 7000
+        size = 13224
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 1100
+        size = 2078
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 98625
+        size = 186312
     }
 
 }
@@ -2677,61 +2677,61 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 1350
+        size = 2821
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 700
+        size = 1463
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 3450
+        size = 7209
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 700
+        size = 1463
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 62800
+        size = 131231
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 775
+        size = 1620
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 400
+        size = 836
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 2000
+        size = 4179
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 400
+        size = 836
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 36425
+        size = 76117
     }
 
 }
@@ -2741,67 +2741,67 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 4650
+        size = 5238
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 2375
+        size = 2675
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 10000
+        size = 11265
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 1750
+        size = 1971
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 3350
+        size = 3774
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 213875
+        size = 240922
     }
 
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 1750
+        size = 1971
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 900
+        size = 1014
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 4450
+        size = 5013
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 900
+        size = 1014
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 81000
+        size = 91243
     }
 
 }
@@ -2811,73 +2811,73 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 850
+        size = 753
     }
 
     bureaucrats = {
         culture = japanese
         religion = orthodox
-        size = 45
+        size = 40
     }
 
     officers = {
         culture = japanese
         religion = orthodox
-        size = 75
+        size = 66
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 450
+        size = 398
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 2200
+        size = 1948
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 450
+        size = 398
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 39930
+        size = 35357
     }
 
     bureaucrats = {
         culture = beifaren
         religion = orthodox
-        size = 5
+        size = 4
     }
 
     clergymen = {
         culture = beifaren
         religion = orthodox
-        size = 75
+        size = 66
     }
 
     artisans = {
         culture = beifaren
         religion = orthodox
-        size = 200
+        size = 177
     }
 
     soldiers = {
         culture = beifaren
         religion = orthodox
-        size = 50
+        size = 44
     }
 
     farmers = {
         culture = beifaren
         religion = orthodox
-        size = 3670
+        size = 3249
     }
 
 }
@@ -2887,31 +2887,31 @@
     aristocrats = {
         culture = japanese
         religion = orthodox
-        size = 375
+        size = 150
     }
 
     clergymen = {
         culture = japanese
         religion = orthodox
-        size = 200
+        size = 80
     }
 
     artisans = {
         culture = japanese
         religion = orthodox
-        size = 1100
+        size = 439
     }
 
     soldiers = {
         culture = japanese
         religion = orthodox
-        size = 200
+        size = 80
     }
 
     farmers = {
         culture = japanese
         religion = orthodox
-        size = 48225
+        size = 19251
     }
 
 }

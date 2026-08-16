@@ -19,6 +19,10 @@ press_rights = censored_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
 political_parties = underground_parties
+colonial_politics = non_colonial
+fleet_doctrine = fleet_mothballing
+citizenship_politics = accepted_culture_only
+military_politics = regular_army
 # Social Reforms
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit
@@ -27,6 +31,7 @@ health_care = no_culture
 unemployment_subsidies = low_subsidies
 pensions = no_pensions 
 school_reforms = no_schools
+medical_reforms = no_medical_reforms
 
 ruling_party = DAN_conservative
 upper_house = {

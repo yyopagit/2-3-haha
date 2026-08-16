@@ -1,97 +1,97 @@
 #Mauritius - 98700
 #ruled by Britain 1836
-#Mauritius (98000/24500 POPS)
+#Mauritius (311604/77901 POPS)
 2125 = {
 	bureaucrats = {
 		culture = british
 		religion = orthodox
-		size = 20
+		size = 63
 	}
 
 	clergymen = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 79
 	}
 
 	artisans = {
 		culture = british
 		religion = orthodox
-		size = 130
+		size = 413
 	}
 
 	soldiers = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 79
 	}
 
 	aristocrats = {
 		culture = french
 		religion = orthodox
-		size = 50
+		size = 159
 	}
 
 	bureaucrats = {
 		culture = french
 		religion = orthodox
-		size = 30
+		size = 95
 	}
 
 	artisans = {
 		culture = french
 		religion = orthodox
-		size = 180
+		size = 571
 	}
 
 	clergymen = {
 		culture = french
 		religion = orthodox
-		size = 20
+		size = 63
 	}
 
 	soldiers = {
 		culture = french
 		religion = orthodox
-		size = 20
+		size = 63
 	}
 
 	farmers = {
 		culture = french
 		religion = orthodox
-		size = 200
+		size = 635
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 125
+		size = 397
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 1100
+		size = 3490
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 250
+		size = 793
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 22375
+		size = 71001
 	}
 }
-#Diego Garcia (700/175 POPS) #remains under British Rule
+#Diego Garcia (2220/555 POPS) #remains under British Rule
 2128 = {
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 175
+		size = 555
 	}
 
 }

@@ -78,7 +78,7 @@ political_decisions = {
 				}
 				country_event = { id=11101 days=0 }
 			}
-			FRA_412 = { remove_core = GER }
+			FRA_409 = { remove_core = GER }
 		}
 		ai_will_do = {
 			factor = 1
@@ -607,7 +607,7 @@ political_decisions = {
 			revolution_n_counterrevolution = 1
 		}
 		effect = {
-			EGY_921 = { add_core = ISR }
+			EGY_917 = { add_core = ISR }
 			prestige = 50
 			set_global_flag = israel_has_her_cores
 		}

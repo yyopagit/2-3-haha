@@ -1,542 +1,1968 @@
-#Yorubaland Region (1824000)
+#Yorubaland Region (2936656)
 #uncolonized in 1836/ruled by the Yoruba
-#Lagos (168000/42000 POPS)
+#Lagos (491688/122922 POPS)
 1923 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 775
+		size = 506
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 400
+		size = 261
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 1600
+		size = 1045
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 400
+		size = 261
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 98825
+		size = 64548
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 68000
+		size = 44414
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 25
+		size = 16
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 33
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 65
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 25
+		size = 16
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 18000
+		size = 11757
 	}
 }
-#Abeokuta (392000/98000 POPS)
+#Abeokuta (588620/147155 POPS)
 1924 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1825
+		size = 1192
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 925
+		size = 604
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 3750
+		size = 2449
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 250
+		size = 163
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 156550
+		size = 102251
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 49000
+		size = 32005
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 65
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 33
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 250
+		size = 163
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 33
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 12550
+		size = 8197
 	}
 }
-#Ibadan (584000/146000 POPS)
+#Ibadan (741648/185412 POPS)
 1925 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 2900
+		size = 1894
 	}
 
 	bureaucrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 98
 	}
 
 	officers = {
 		culture = african_minor
 		religion = orthodox
-		size = 450
+		size = 294
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 1450
+		size = 947
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 5850
+		size = 3821
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 347
+		size = 227
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 191725
+		size = 125226
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 81000
+		size = 52905
 	}
 }
-#Ife (432000/108000 POPS)
+#Ife (655764/163941 POPS)
 1926 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 2125
+		size = 1388
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 1075
+		size = 702
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 5400
+		size = 3527
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 3100
+		size = 2025
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 179300
+		size = 117110
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 60000
+		size = 39189
 	}
 }
-#Ilorin (248000/62000 POPS) african_Minor includes Nupe
+#Ilorin (458936/114734 POPS) african_Minor includes Nupe
 1927 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 950
+		size = 620
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 525
+		size = 343
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 2500
+		size = 1633
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 110
+		size = 72
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 70025
+		size = 45737
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 30000
+		size = 19595
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 250
+		size = 163
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 175
+		size = 114
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 500
+		size = 327
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 125
+		size = 82
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 60500
+		size = 39516
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 10000
+		size = 6532
 	}
 }
-#Edo Region (1676000)
+#Edo Region (2615732)
 #uncolonized in 1836/ruled by kingdom of Benin
-#Benin (572000/143000 POPS)
+#Benin (827924/206981 POPS)
 1928 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 2125
+		size = 1388
 	}
 
 	bureaucrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 65
 	}
 
 	officers = {
 		culture = african_minor
 		religion = orthodox
-		size = 350
+		size = 229
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 1075
+		size = 702
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 4300
+		size = 2809
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 107
+		size = 70
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 143075
+		size = 93450
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 70000
+		size = 45721
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 700
+		size = 457
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 350
+		size = 229
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 1450
+		size = 947
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 137
+		size = 89
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 62125
+		size = 40577
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 31000
+		size = 20248
 	}
 }
-#Lokoja (332000/83000 POPS)
+#Lokoja (623624/155906 POPS)
 1930 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 575
+		size = 376
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 300
+		size = 196
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 1175
+		size = 767
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 65
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 40650
+		size = 26551
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 8000
+		size = 5225
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1100
+		size = 718
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 550
+		size = 359
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 2250
+		size = 1470
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 175
+		size = 114
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 80525
+		size = 52595
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 26000
+		size = 16982
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1550
+		size = 1012
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 775
+		size = 506
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 3125
+		size = 2041
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 65
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 45750
+		size = 29882
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 26000
+		size = 16982
 	}
 }
-#Warri (616000/154000 POPS) african_minor includes Ijaw
+#Warri (767068/191767 POPS) african_minor includes Ijaw
 1931 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 3075
+		size = 2008
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 1550
+		size = 1012
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 6175
+		size = 4033
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 155
+		size = 101
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 202650
+		size = 132361
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 80000
+		size = 52252
 	}
 }
 #uncolonized in 1836/ruled by the Yoruba
-#Akure (156000/39000 POPS) african_Minor includes Nupe
+#Akure (397116/99279 POPS) african_Minor includes Nupe
 1929 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 278
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 147
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 718
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 147
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 41818
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 3919
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 33
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 196
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 49
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 16639
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 131
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 294
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 82
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 24248
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 10450
+	}
+}
+#Oil Rivers Region (2750428)
+#uncolonized in 1836/ruled by Calabar and the Ibo States
+#Bonny (702468/175617 POPS) african_minor includes Ijaw
+1932 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1012
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 833
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 5389
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 196
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 122466
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 45721
+	}
+}
+#Awka (905960/226490 POPS)
+1933 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 2057
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 1029
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 5437
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 235
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 155029
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 62703
+	}
+}
+#Calabar (559240/139810 POPS)
+1934 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1355
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 686
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 2743
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 69
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 107525
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 27432
+	}
+}
+#Aruchukwu (582760/145690 POPS)
+1935 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1355
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 686
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 2727
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 69
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 116686
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 24167
+	}
+}
+#Kwararafa Region (777764)
+#uncolonized in 1836
+#Makurdi (476016/119004 POPS)
+1936 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1208
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 604
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 2433
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 98
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 80044
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 34617
+	}
+}
+#Tukari (301748/75437 POPS)
+1937 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 572
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 294
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 1159
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 95
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 61560
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 11757
+	}
+}
+#Borgu Region (362828) #see Benin.txt for balance of region 
+#ruled by Sokoto in 1836
+#Bussa (362828/90707 POPS) #now part of Nigeria 
+1938 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 163
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 327
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 653
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 163
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 11757
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 13063
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1470
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 816
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3266
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 82
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 58947
+	}
+}
+#Nupe-Jos Region (1778192)
+#under rule of Sokoto in 1836
+#Zaria (259204/64801 POPS) #african_Minor includes Gwari
+1939 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 245
+	}
+
+	bureaucrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 16
+	}
+
+	officers = {
+		culture = african_minor
+		religion = orthodox
+		size = 33
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 131
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 718
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 131
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 24918
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 33
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 33
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 131
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 33
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 2384
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 3919
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 245
+	}
+
+	bureaucrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 16
+	}
+
+	officers = {
+		culture = african_minor
+		religion = orthodox
+		size = 33
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 261
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 506
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 72
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 13308
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 131
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 359
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 82
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 13079
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 3919
+	}
+}
+#Bida (428272/107068 POPS) #african_Minor includes Gwari
+1940 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 212
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 114
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 4572
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 114
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 69398
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 32658
+	}
+}
+#Abuja (403320/100830 POPS) #african_Minor includes Gwari and Chamba
+1941 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 196
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 98
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 4245
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 114
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 70051
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 26126
+	}
+}
+#Bauchi (264556/66139 POPS) #african_Minor includes Chamba
+1942 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 98
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 294
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 15806
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 245
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 131
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 506
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 72
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 21293
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 33
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 49
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 98
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 16
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 8295
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 3919
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 82
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 49
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 229
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 180
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 10695
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 3919
+	}
+}
+#Jos (259492/64873 POPS) #african_Minor includes Chamba
+1943 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 82
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 114
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 849
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 245
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 15953
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 114
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 1959
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 114
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 29702
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 15676
+	}
+}
+#Gombe (163348/40837 POPS)
+1944 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 114
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 261
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 26273
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 16
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 163
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 653
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 163
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 6532
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 6532
+	}
+}
+#Hausaland Region (2192748)
+#under rule of Sokoto in 1836
+#Kano (552060/138015 POPS)
+1945 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1715
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 865
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 4311
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 86
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 78460
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 359
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 212
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 980
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 17847
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 9144
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 718
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 327
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 1339
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 82
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 21505
+	}
+}
+#Kebbi (219228/54807 POPS)
+1946 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 523
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 261
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 1339
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 82
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 30910
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 16
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 33
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 16
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 1829
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 1372
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 245
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 131
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 523
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 72
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 17390
+	}
+}
+#Katsina (424832/106208 POPS)
+1947 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1257
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 637
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3200
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 72
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 58849
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 343
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 180
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 914
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 16655
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 9144
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 474
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 245
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 980
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 114
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 13079
+	}
+}
+#Sokoto (569988/142497 POPS)
+1948 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 1519
+	}
+
+	bureaucrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 82
+	}
+
+	officers = {
+		culture = african_minor
+		religion = orthodox
+		size = 163
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 767
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 3821
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 76
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 69251
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 376
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 196
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 980
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 17847
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 8491
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 865
+	}
+
+	bureaucrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 98
+	}
+
+	officers = {
+		culture = african_minor
+		religion = orthodox
+		size = 294
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 441
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 1764
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 114
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 31368
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 33
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 196
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 49
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 3576
+	}
+}
+#Hadejia (426640/106660 POPS)
+1949 = {
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 751
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 392
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 1927
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 65
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 54669
+	}
+
+	aristocrats = {
+		culture = african_minor
+		religion = orthodox
+		size = 147
+	}
+
+	clergymen = {
+		culture = african_minor
+		religion = orthodox
+		size = 82
+	}
+
+	artisans = {
+		culture = african_minor
+		religion = orthodox
+		size = 392
+	}
+
+	soldiers = {
+		culture = african_minor
+		religion = orthodox
+		size = 82
+	}
+
+	farmers = {
+		culture = african_minor
+		religion = orthodox
+		size = 13667
+	}
+
+	slaves = {
+		culture = african_minor
+		religion = orthodox
+		size = 4572
+	}
+
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
@@ -546,1775 +1972,349 @@
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 225
+		size = 212
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 1100
+		size = 865
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 225
+		size = 98
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 64025
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 6000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 300
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 25475
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 450
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 37125
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 16000
+		size = 28314
 	}
 }
-#Oil Rivers Region (1580000)
-#uncolonized in 1836/ruled by Calabar and the Ibo States
-#Bonny (112000/28000 POPS) african_minor includes Ijaw
-1932 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1550
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 1275
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 8250
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 187500
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 70000
-	}
-}
-#Awka (632000/158000 POPS)
-1933 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 3150
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 1575
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 8325
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 360
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 237350
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 96000
-	}
-}
-#Calabar (420000/105000 POPS)
-1934 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 2075
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 1050
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 4200
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 105
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 164625
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 42000
-	}
-}
-#Aruchukwu (416000/104000 POPS)
-1935 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 2075
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 1050
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 4175
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 105
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 178650
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 37000
-	}
-}
-#Kwararafa Region (548000)
-#uncolonized in 1836
-#Makurdi (372000/93000 POPS)
-1936 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1850
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 925
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 3725
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 122550
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 53000
-	}
-}
-#Tukari (176000/44000 POPS)
-1937 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 875
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 450
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1775
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 145
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 94250
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 18000
-	}
-}
-#Borgu Region (56000) #see Benin.txt for balance of region 
-#ruled by Sokoto in 1836
-#Bussa (56000/14000 POPS) #now part of Nigeria 
-1938 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 18000
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 20000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 2250
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 1250
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 5000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 90250
-	}
-}
-#Nupe-Jos Region (600000)
+#Adamawa Region (196960) #see Cameroun.txt for balance of region 
 #under rule of Sokoto in 1836
-#Zaria (216000/54000 POPS) #african_Minor includes Gwari
-1939 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 375
-	}
-
-	bureaucrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
-
-	officers = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1100
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 38150
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 3650
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 6000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 375
-	}
-
-	bureaucrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
-
-	officers = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 400
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 775
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 110
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 20375
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 550
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 20025
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 6000
-	}
-}
-#Bida (68000/17000 POPS) #african_Minor includes Gwari
-1940 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 325
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 7000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 106250
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 50000
-	}
-}
-#Abuja (64000/16000 POPS) #african_Minor includes Gwari and Chamba
-1941 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 300
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 6500
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 107250
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 40000
-	}
-}
-#Bauchi (152000/38000 POPS) #african_Minor includes Chamba
-1942 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 450
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 24200
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 375
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 775
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 110
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 32600
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 12700
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 6000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 350
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 275
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 16375
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 6000
-	}
-}
-#Jos (52000/13000 POPS) #african_Minor includes Chamba
-1943 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1300
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 375
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 24425
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 45475
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 24000
-	}
-}
-#Gombe (48000/12000 POPS)
-1944 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 400
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 40225
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1000
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 10000
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 10000
-	}
-}
-#Hausaland Region (3056000)
-#under rule of Sokoto in 1836
-#Kano (852000/213000 POPS)
-1945 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 2625
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 1325
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 6600
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 132
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 120125
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 550
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 325
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 27325
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 14000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1100
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 2050
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 32925
-	}
-}
-#Kebbi (252000/63000 POPS)
-1946 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 800
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 400
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 2050
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 47325
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 25
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 2800
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 2100
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 375
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 200
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 800
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 110
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 26625
-	}
-}
-#Katsina (656000/164000 POPS)
-1947 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1925
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 975
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 4900
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 110
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 90100
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 525
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 275
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1400
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 25500
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 14000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 725
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 375
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 20025
-	}
-}
-#Sokoto (888000/220000 POPS)
-1948 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 2325
-	}
-
-	bureaucrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
-
-	officers = {
-		culture = african_minor
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 1175
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 5850
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 117
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 106025
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 575
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 300
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 27325
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 13000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1325
-	}
-
-	bureaucrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
-
-	officers = {
-		culture = african_minor
-		religion = orthodox
-		size = 450
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 675
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 2700
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 175
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 48025
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 300
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 75
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 5475
-	}
-}
-#Hadejia (416000/104000 POPS)
-1949 = {
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 1150
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 600
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 2950
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 83700
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 225
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 600
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 125
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 20925
-	}
-
-	slaves = {
-		culture = african_minor
-		religion = orthodox
-		size = 7000
-	}
-
-	aristocrats = {
-		culture = african_minor
-		religion = orthodox
-		size = 650
-	}
-
-	clergymen = {
-		culture = african_minor
-		religion = orthodox
-		size = 325
-	}
-
-	artisans = {
-		culture = african_minor
-		religion = orthodox
-		size = 1325
-	}
-
-	soldiers = {
-		culture = african_minor
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = african_minor
-		religion = orthodox
-		size = 43350
-	}
-}
-#Adamawa Region (140000) #see Cameroun.txt for balance of region 
-#under rule of Sokoto in 1836
-#Yola (140000/35000 POPS)
+#Yola (196960/49240 POPS)
 1950 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 33
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 33
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 200
+		size = 131
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 65
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 3650
+		size = 2384
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 25
+		size = 16
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 33
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 65
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 98
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 3800
+		size = 2482
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 2100
+		size = 1372
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 225
+		size = 147
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 125
+		size = 82
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 525
+		size = 343
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 110
+		size = 72
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 20125
+		size = 13145
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 300
+		size = 196
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 98
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 650
+		size = 425
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 175
+		size = 114
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 30725
+		size = 20068
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 12000
+		size = 7838
 	}
 }
-#Borno Region (636000)
+#Borno Region (1245692)
 #uncolonized/under rule of Borno in 1836
-#Kuka (240000/60000 POPS)
+#Kuka (442836/110709 POPS)
 1951 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 1150
+		size = 751
 	}
 
 	bureaucrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 33
 	}
 
 	officers = {
 		culture = african_minor
 		religion = orthodox
-		size = 175
+		size = 114
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 625
+		size = 408
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 2400
+		size = 1568
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 65
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 120000
+		size = 78378
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 45000
+		size = 29392
 	}
 }
-#Nguru (192000/48000 POPS)
+#Nguru (310116/77529 POPS)
 1952 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 550
+		size = 359
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 325
+		size = 212
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 1200
+		size = 784
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 65
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 48625
+		size = 31760
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 30000
+		size = 19595
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 325
+		size = 212
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 175
+		size = 114
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 900
+		size = 588
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 65
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 36400
+		size = 23775
 	}
 }
-#Dikoa (204000/51000 POPS)
+#Dikoa (492740/123185 POPS)
 1953 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 975
+		size = 637
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 500
+		size = 327
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 1975
+		size = 1290
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 65
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 126050
+		size = 82330
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 50000
+		size = 32658
 	}
 
 	aristocrats = {
 		culture = bedouin
 		religion = orthodox
-		size = 25
+		size = 16
 	}
 
 	clergymen = {
 		culture = bedouin
 		religion = orthodox
-		size = 50
+		size = 33
 	}
 
 	artisans = {
 		culture = bedouin
 		religion = orthodox
-		size = 100
+		size = 65
 	}
 
 	soldiers = {
 		culture = bedouin
 		religion = orthodox
-		size = 25
+		size = 16
 	}
 
 	farmers = {
 		culture = bedouin
 		religion = orthodox
-		size = 8800
+		size = 5748
 	}
 
 }

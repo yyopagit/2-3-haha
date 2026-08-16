@@ -1,161 +1,161 @@
-#Mawarannahr Region (200000) #see Kazakhstan.txt, kazakistan.txt, Kirghizstan.txt and Turkmenistan.txt for balance of region 
+#Mawarannahr Region (1000188) #see Kazakhstan.txt, kazakistan.txt, Kirghizstan.txt and Turkmenistan.txt for balance of region 
 #under the rule of Kokand in 1836 
-#Khujand (200000/50000 POPS) #now part of kazakistan 
+#Khujand (1000188/250047 POPS) #now part of kazakistan 
 1201 = {
 	aristocrats = {
 		culture = kazak
 		religion = orthodox
-		size = 775
+		size = 3876
 	}
 
 	clergymen = {
-		culture = kazak
-		religion = orthodox
-		size = 400
-	}
-
-	artisans = {
 		culture = kazak
 		religion = orthodox
 		size = 2000
 	}
 
+	artisans = {
+		culture = kazak
+		religion = orthodox
+		size = 10002
+	}
+
 	soldiers = {
 		culture = kazak
 		religion = orthodox
-		size = 400
+		size = 2000
 	}
 
 	farmers = {
 		culture = kazak
 		religion = orthodox
-		size = 36425
+		size = 182161
 	}
 
 	aristocrats = {
 		culture = kazak
 		religion = orthodox
-		size = 175
+		size = 875
 	}
 
 	clergymen = {
 		culture = kazak
 		religion = orthodox
-		size = 75
+		size = 375
 	}
 
 	artisans = {
+		culture = kazak
+		religion = orthodox
+		size = 2500
+	}
+
+	soldiers = {
 		culture = kazak
 		religion = orthodox
 		size = 500
 	}
 
-	soldiers = {
-		culture = kazak
-		religion = orthodox
-		size = 100
-	}
-
 	farmers = {
 		culture = kazak
 		religion = orthodox
-		size = 9150
+		size = 45758
 	}
 }
-#Badakhshan Region (212000) 
+#Badakhshan Region (1060188) 
 #under the rule of Kokand in 1836 
-#Kulob (120000/30000 POPS) 
+#Kulob (600108/150027 POPS) 
 1207 = {
 	aristocrats = {
 		culture = kazak
 		religion = orthodox
-		size = 575
+		size = 2876
 	}
 
 	clergymen = {
 		culture = kazak
 		religion = orthodox
-		size = 275
+		size = 1375
 	}
 
 	artisans = {
 		culture = kazak
 		religion = orthodox
-		size = 1450
+		size = 7251
 	}
 
 	soldiers = {
 		culture = kazak
 		religion = orthodox
-		size = 250
+		size = 1250
 	}
 
 	farmers = {
 		culture = kazak
 		religion = orthodox
-		size = 27450
+		size = 137275
 	}
 }
-#Khorugh (92000/23000 POPS) 
+#Khorugh (460080/115020 POPS) 
 1208 = {
 	aristocrats = {
 		culture = kazak
 		religion = orthodox
-		size = 350
+		size = 1750
 	}
 
 	clergymen = {
 		culture = kazak
 		religion = orthodox
-		size = 175
+		size = 875
 	}
 
 	artisans = {
 		culture = kazak
 		religion = orthodox
-		size = 850
+		size = 4251
 	}
 
 	soldiers = {
 		culture = kazak
 		religion = orthodox
-		size = 175
+		size = 875
 	}
 
 	farmers = {
 		culture = kazak
 		religion = orthodox
-		size = 17450
+		size = 87266
 	}
 
 	aristocrats = {
 		culture = kazak
 		religion = orthodox
-		size = 75
+		size = 375
 	}
 
 	clergymen = {
 		culture = kazak
 		religion = orthodox
-		size = 75
+		size = 375
 	}
 
 	artisans = {
 		culture = kazak
 		religion = orthodox
-		size = 175
+		size = 875
 	}
 
 	soldiers = {
 		culture = kazak
 		religion = orthodox
-		size = 25
+		size = 125
 	}
 
 	farmers = {
 		culture = kazak
 		religion = orthodox
-		size = 3650
+		size = 18253
 	}
 
 }

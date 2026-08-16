@@ -131,13 +131,13 @@ dainam_offensive = {
 	effect = {
 		set_country_flag = dainam_conquered
 		badboy = 10
-		ANN_1371 = {
+		ANN_1369 = {
 			add_core = SIA
 		}
-		ANN_1374 = {
+		ANN_1375 = {
 			add_core = SIA
 		}
-		ANN_1383 = {
+		ANN_1380 = {
 			add_core = SIA
 		}
 		DAI = {

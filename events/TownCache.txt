@@ -1,105 +1,165 @@
-# Синхронизация кэша штата: state_has_town / state_has_urban
-# town_infrastructure = one_per_state — штамп на весь штат от провинции с городом.
-# Trigger: один any_owned вместо 4 отдельных сканов. MTTH 7 дней — достаточно.
+# Штамп флага is_urban на весь штат, где есть terrain = urban.
+# В production_types: has_province_flag (модификатор в тултипе завода крашит).
+# is_triggered_only + fire_only_once. Вызов из JAN 140400 (days = 1).
 
 country_event = {
 	id = 910001
-	title = "EVTNAME910001"
-	desc = "EVTDESC910001"
-	picture = "administration"
-
-	trigger = {
-		any_owned = {
-			OR = {
-				AND = {
-					has_building = town_infrastructure
-					NOT = { has_province_modifier = state_has_town }
-				}
-				AND = {
-					has_province_modifier = state_has_town
-					NOT = {
-						state_scope = {
-							any_owned = { has_building = town_infrastructure }
-						}
-					}
-				}
-				AND = {
-					terrain = urban
-					NOT = { has_province_modifier = state_has_urban }
-				}
-				AND = {
-					has_province_modifier = state_has_urban
-					NOT = {
-						state_scope = {
-							any_owned = { terrain = urban }
-						}
-					}
-				}
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 7
-	}
+	title = "noloc"
+	desc = "noloc"
+	is_triggered_only = yes
+	fire_only_once = yes
 
 	immediate = {
-		any_owned = {
-			limit = {
-				has_building = town_infrastructure
-				NOT = { has_province_modifier = state_has_town }
-			}
-			state_scope = {
-				any_owned = {
-					limit = { NOT = { has_province_modifier = state_has_town } }
-					add_province_modifier = {
-						name = state_has_town
-						duration = -1
+		any_country = {
+			limit = { exists = yes }
+			any_owned = {
+				limit = {
+					terrain = urban
+					NOT = { has_province_flag = is_urban }
+				}
+				state_scope = {
+					any_owned = {
+						limit = { NOT = { has_province_flag = is_urban } }
+						set_province_flag = is_urban
 					}
 				}
 			}
-		}
-		any_owned = {
-			limit = {
-				has_province_modifier = state_has_town
-				NOT = {
-					state_scope = {
-						any_owned = { has_building = town_infrastructure }
-					}
-				}
-			}
-			remove_province_modifier = state_has_town
-		}
-		any_owned = {
-			limit = {
-				terrain = urban
-				NOT = { has_province_modifier = state_has_urban }
-			}
-			state_scope = {
-				any_owned = {
-					limit = { NOT = { has_province_modifier = state_has_urban } }
-					add_province_modifier = {
-						name = state_has_urban
-						duration = -1
-					}
-				}
-			}
-		}
-		any_owned = {
-			limit = {
-				has_province_modifier = state_has_urban
-				NOT = {
-					state_scope = {
-						any_owned = { terrain = urban }
-					}
-				}
-			}
-			remove_province_modifier = state_has_urban
 		}
 	}
 
 	option = {
-		name = "EVTOPTA910001"
+		name = "noloc"
 		ai_chance = { factor = 100 }
+	}
+}
+
+# Полный перештамп колониальных модификаторов этой страны.
+# Вызов из Reform_change при смене colonial_politics (у реформы allow = always = no,
+# ванильного on_reform нет).
+country_event = {
+	id = 140412
+	title = "noloc"
+	desc = "noloc"
+	is_triggered_only = yes
+
+	immediate = {
+		any_owned = {
+			limit = { has_province_modifier = external_colonisation_towns }
+			remove_province_modifier = external_colonisation_towns
+		}
+		any_owned = {
+			limit = { has_province_modifier = external_colonisation_colonies }
+			remove_province_modifier = external_colonisation_colonies
+		}
+		any_owned = {
+			limit = { has_province_modifier = internal_colonisation }
+			remove_province_modifier = internal_colonisation
+		}
+		any_owned = {
+			limit = { has_province_modifier = non_colonial_towns }
+			remove_province_modifier = non_colonial_towns
+		}
+		any_owned = {
+			limit = { has_province_modifier = non_colonial_penalty }
+			remove_province_modifier = non_colonial_penalty
+		}
+		any_owned = {
+			limit = { has_province_modifier = non_colonial_urban }
+			remove_province_modifier = non_colonial_urban
+		}
+		any_owned = {
+			limit = { has_province_modifier = africa_resources }
+			remove_province_modifier = africa_resources
+		}
+		any_owned = {
+			limit = { has_province_modifier = africa_resources_colonial }
+			remove_province_modifier = africa_resources_colonial
+		}
+		any_owned = {
+			limit = {
+				has_building = town_infrastructure
+				owner = { colonial_politics = external_colonisation }
+			}
+			add_province_modifier = {
+				name = external_colonisation_towns
+				duration = -1
+			}
+		}
+		any_owned = {
+			limit = {
+				is_overseas = yes
+				NOT = { continent = africa }
+				owner = { colonial_politics = external_colonisation }
+			}
+			add_province_modifier = {
+				name = external_colonisation_colonies
+				duration = -1
+			}
+		}
+		any_owned = {
+			limit = {
+				NOT = { has_building = town_infrastructure }
+				owner = { colonial_politics = inner_colonisation }
+			}
+			add_province_modifier = {
+				name = internal_colonisation
+				duration = -1
+			}
+		}
+		any_owned = {
+			limit = {
+				has_building = town_infrastructure
+				owner = { colonial_politics = non_colonial }
+			}
+			add_province_modifier = {
+				name = non_colonial_towns
+				duration = -1
+			}
+		}
+		any_owned = {
+			limit = {
+				owner = { colonial_politics = non_colonial }
+				state_scope = { is_colonial = yes }
+			}
+			add_province_modifier = {
+				name = non_colonial_penalty
+				duration = -1
+			}
+		}
+		any_owned = {
+			limit = {
+				NOT = { has_building = town_infrastructure }
+				terrain = urban
+				owner = { colonial_politics = non_colonial }
+			}
+			add_province_modifier = {
+				name = non_colonial_urban
+				duration = -1
+			}
+		}
+		any_owned = {
+			limit = {
+				continent = africa
+				owner = { colonial_politics = external_colonisation }
+			}
+			add_province_modifier = {
+				name = africa_resources_colonial
+				duration = -1
+			}
+		}
+		any_owned = {
+			limit = {
+				continent = africa
+				owner = { NOT = { colonial_politics = external_colonisation } }
+			}
+			add_province_modifier = {
+				name = africa_resources
+				duration = -1
+			}
+		}
+	}
+
+	option = {
+		name = "noloc"
 	}
 }

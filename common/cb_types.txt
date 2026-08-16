@@ -269,7 +269,14 @@ conquest = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = { capital_scope = { continent = africa } }
+		NOT = {
+			capital_scope = {
+				OR = {
+					continent = africa
+					continent = north_africa
+				}
+			}
+		}
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
 		total_pops = 700000
@@ -335,7 +342,12 @@ conquest_africa_stage_one = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		capital_scope = { continent = africa }
+		capital_scope = {
+			OR = {
+				continent = africa
+				continent = north_africa
+			}
+		}
 		THIS = { has_country_flag = malaria }
 		# only one state or unciv
 		OR = {
@@ -404,7 +416,12 @@ make_puppet_first_stage = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		capital_scope = { continent = africa }
+		capital_scope = {
+			OR = {
+				continent = africa
+				continent = north_africa
+			}
+		}
 		NOT = { number_of_states = 6 }
 		is_greater_power = no
 		is_vassal = no
@@ -449,7 +466,12 @@ conquest_africa_stage_two = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		capital_scope = { continent = africa }
+		capital_scope = {
+			OR = {
+				continent = africa
+				continent = north_africa
+			}
+		}
 		THIS = { has_country_flag = mission_to_civilize }
 		# only one state or unciv
 		is_independant = yes
@@ -502,7 +524,12 @@ conquest_africa_stage_three = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		capital_scope = { continent = africa }
+		capital_scope = {
+			OR = {
+				continent = africa
+				continent = north_africa
+			}
+		}
 		THIS = { has_country_flag = colonial_negotiations }
 		# only one state or unciv
 		is_independant = yes
@@ -555,7 +582,14 @@ conquest2 = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = { capital_scope = { continent = africa } }
+		NOT = {
+			capital_scope = {
+				OR = {
+					continent = africa
+					continent = north_africa
+				}
+			}
+		}
 		# only one state or unciv
 		NOT = { number_of_states = 5 }
 		NOT = {total_pops = 750000}
@@ -676,7 +710,14 @@ add_to_sphere = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = { capital_scope = { continent = africa } }
+		NOT = {
+			capital_scope = {
+				OR = {
+					continent = africa
+					continent = north_africa
+				}
+			}
+		}
 		this = { is_greater_power = yes }
 		is_greater_power = no
 		is_independant = yes
@@ -1426,7 +1467,14 @@ dismantle_forts = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = { capital_scope = { continent = africa } }
+		NOT = {
+			capital_scope = {
+				OR = {
+					continent = africa
+					continent = north_africa
+				}
+			}
+		}
 	}
 
 	# THIS - us
@@ -1526,7 +1574,14 @@ make_puppet = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = { capital_scope = { continent = africa } }
+		NOT = {
+			capital_scope = {
+				OR = {
+					continent = africa
+					continent = north_africa
+				}
+			}
+		}
 		NOT = { number_of_states = 6 }
 		is_greater_power = no
 		is_vassal = no
@@ -1633,7 +1688,14 @@ humiliate = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = { capital_scope = { continent = africa } }
+		NOT = {
+			capital_scope = {
+				OR = {
+					continent = africa
+					continent = north_africa
+				}
+			}
+		}
 	}	
 	on_add = {
 		move_issue_percentage = { 
@@ -1672,7 +1734,14 @@ humiliate2 = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = { capital_scope = { continent = africa } }
+		NOT = {
+			capital_scope = {
+				OR = {
+					continent = africa
+					continent = north_africa
+				}
+			}
+		}
 		has_recently_lost_war = no
 	}	
 	on_add = {
@@ -1710,7 +1779,14 @@ humiliate3 = {
 	war_name = WAR_REPARATION_NAME
 	
 	can_use = {
-		NOT = { capital_scope = { continent = africa } }
+		NOT = {
+			capital_scope = {
+				OR = {
+					continent = africa
+					continent = north_africa
+				}
+			}
+		}
 	}
 
 	on_add = {
@@ -1748,7 +1824,14 @@ demand_concession_casus_belli = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = { capital_scope = { continent = africa } }
+		NOT = {
+			capital_scope = {
+				OR = {
+					continent = africa
+					continent = north_africa
+				}
+			}
+		}
 		THIS = {
 			civilized = yes
 		}
@@ -1802,7 +1885,14 @@ establish_protectorate_casus_belli = {
 	
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = { capital_scope = { continent = africa } }
+		NOT = {
+			capital_scope = {
+				OR = {
+					continent = africa
+					continent = north_africa
+				}
+			}
+		}
 		THIS = {
 			civilized = yes
 		}
@@ -2259,7 +2349,14 @@ war_military_access = {
 
 	can_use = {
 		NOT = { is_our_vassal = THIS }
-		NOT = { capital_scope = { continent = africa } }
+		NOT = {
+			capital_scope = {
+				OR = {
+					continent = africa
+					continent = north_africa
+				}
+			}
+		}
 		#sphere_owner = { war = yes }
 		#number_of_states = 2 # annex if you want their last state
 		THIS = { war = yes}

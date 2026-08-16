@@ -1,11 +1,11 @@
 #Buenos Aires Region (272000)
 #Under rule of Argentina 1836
-#Buenos Aires (132000/33000 POPS)
+#Buenos Aires (131688/32922 POPS)
 2348 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 625
+		size = 624
 	}
 
 	bureaucrats = {
@@ -23,39 +23,39 @@
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 375
+		size = 374
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 10000
+		size = 9972
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 5000
+		size = 4989
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 7000
+		size = 6985
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 9825
+		size = 9803
 	}
 }
-#Junin (56000/14000 POPS)
+#Junin (56280/14070 POPS)
 2349 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 275
+		size = 274
 	}
 
 	clergymen = {
@@ -67,22 +67,22 @@
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 1100
+		size = 1098
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 7000
+		size = 6985
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 5550
+		size = 5538
 	}
 }
-#Azul (12000/3000 POPS)
+#Azul (11976/2994 POPS)
 2350 = {
 	aristocrats = {
 		culture = platinean
@@ -111,10 +111,10 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 2700
+		size = 2694
 	}
 }
-#La Plata (4000/1000 POPS)
+#La Plata (3992/998 POPS)
 2351 = {
 	aristocrats = {
 		culture = platinean
@@ -143,10 +143,10 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 900
+		size = 898
 	}
 }
-#Mar del Plata (12000/3000 POPS)
+#Mar del Plata (11976/2994 POPS)
 2352 = {
 	aristocrats = {
 		culture = platinean
@@ -175,11 +175,11 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 2700
+		size = 2694
 	}
 }
 #Under loose authority of Argentina 1836
-#Trenque Lanquen (12000/9000 POPS)
+#Trenque Lanquen (11976/2994 POPS)
 2353 = {
 	clergymen = {
 		culture = platinean
@@ -202,7 +202,7 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 900
+		size = 898
 	}
 
 	aristocrats = {
@@ -232,10 +232,10 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 1800
+		size = 1796
 	}
 }
-#Bahia Blanca (24000/6000 POPS)
+#Bahia Blanca (23952/5988 POPS)
 2354 = {
 	clergymen = {
 		culture = platinean
@@ -258,7 +258,7 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 2725
+		size = 2719
 	}
 
 	aristocrats = {
@@ -288,10 +288,10 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 2700
+		size = 2694
 	}
 }
-#Carmen (20000/5000 POPS)
+#Carmen (20160/5040 POPS)
 2355 = {
 	clergymen = {
 		culture = platinean
@@ -314,7 +314,7 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 1875
+		size = 1871
 	}
 
 	aristocrats = {
@@ -344,17 +344,17 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 2700
+		size = 2694
 	}
 }
 #Corrientes Region (164000)
 #Under rule of Argentina 1836
-#Corrientes (96000/24000 POPS)
+#Corrientes (95868/23967 POPS)
 2356 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 450
+		size = 449
 	}
 
 	bureaucrats = {
@@ -378,7 +378,7 @@
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 4000
+		size = 3995
 	}
 
 	soldiers = {
@@ -390,7 +390,7 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 16015
+		size = 15991
 	}
 
 	clergymen = {
@@ -414,10 +414,10 @@
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 2750
+		size = 2747
 	}
 }
-#Curuzu Cuatia (16000/4000 POPS)
+#Curuzu Cuatia (15984/3996 POPS)
 2357 = {
 	aristocrats = {
 		culture = platinean
@@ -446,7 +446,7 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 1800
+		size = 1798
 	}
 
 	clergymen = {
@@ -470,10 +470,10 @@
 	farmers = {
 		culture = brazilian
 		religion = orthodox
-		size = 1825
+		size = 1823
 	}
 }
-#Santo Tomas (28000/7000 POPS)
+#Santo Tomas (28172/7043 POPS)
 2358 = {
 	clergymen = {
 		culture = platinean
@@ -496,7 +496,7 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 1875
+		size = 1873
 	}
 
 	clergymen = {
@@ -520,7 +520,7 @@
 	farmers = {
 		culture = brazilian
 		religion = orthodox
-		size = 1825
+		size = 1823
 	}
 
 	aristocrats = {
@@ -550,10 +550,10 @@
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 2700
+		size = 2697
 	}
 }
-#Colon (8000/2000 POPS)
+#Colon (7992/1998 POPS)
 2359 = {
 	aristocrats = {
 		culture = platinean
@@ -582,10 +582,10 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 1800
+		size = 1798
 	}
 }
-#Parana (16000/4000 POPS)
+#Parana (15984/3996 POPS)
 2360 = {
 	aristocrats = {
 		culture = platinean
@@ -614,7 +614,7 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 3625
+		size = 3621
 	}
 }
 #Santa Fe Region (72000)
@@ -729,7 +729,7 @@
 }
 #Chaco Region (76000) #see Paraguay.txt for balance of region
 #Under loose authority of Argentina 1836
-#Resistencia (16000/4000 POPS)
+#Resistencia (15964/3991 POPS)
 2364 = {
 	aristocrats = {
 		culture = guarani
@@ -758,7 +758,7 @@
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 2700
+		size = 2693
 	}
 
 	bureaucrats = {
@@ -788,10 +788,10 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 900
+		size = 898
 	}
 }
-#Villa Angela (16000/4000 POPS)
+#Villa Angela (15964/3991 POPS)
 2365 = {
 	aristocrats = {
 		culture = guarani
@@ -820,7 +820,7 @@
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 2700
+		size = 2693
 	}
 
 	clergymen = {
@@ -844,11 +844,11 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 900
+		size = 898
 	}
 }
 #Under loose authority of Paraguay 1836
-#Formosa (24000/6000 POPS) #now part of Argentina
+#Formosa (24024/6006 POPS) #now part of Argentina
 2366 = {
 	aristocrats = {
 		culture = guarani
@@ -865,7 +865,7 @@
 	artisans = {
 		culture = guarani
 		religion = orthodox
-		size = 250
+		size = 249
 	}
 
 	soldiers = {
@@ -877,7 +877,7 @@
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 4575
+		size = 4559
 	}
 
 	bureaucrats = {
@@ -907,10 +907,10 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 900
+		size = 898
 	}
 }
-#Xolotas (20000/5000 POPS) #now part of Argentina
+#Xolotas (20048/5012 POPS) #now part of Argentina
 2367 = {
 	aristocrats = {
 		culture = guarani
@@ -927,7 +927,7 @@
 	artisans = {
 		culture = guarani
 		religion = orthodox
-		size = 250
+		size = 249
 	}
 
 	soldiers = {
@@ -939,17 +939,17 @@
 	farmers = {
 		culture = guarani
 		religion = orthodox
-		size = 4575
+		size = 4563
 	}
 }
 #Salta Region (36000)
 #Under rule of Argentina 1836
-#Salta (16000/4000 POPS)
+#Salta (15824/3956 POPS)
 2368 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 75
+		size = 74
 	}
 
 	bureaucrats = {
@@ -967,28 +967,28 @@
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 50
+		size = 49
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 1500
+		size = 1484
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 50
+		size = 49
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 2300
+		size = 2275
 	}
 }
-#Jujuy (8000/2000 POPS)
+#Jujuy (8308/2077 POPS)
 2369 = {
 	aristocrats = {
 		culture = platinean
@@ -999,13 +999,13 @@
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 50
+		size = 49
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 1100
+		size = 1088
 	}
 
 	soldiers = {
@@ -1017,10 +1017,10 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 900
+		size = 890
 	}
 }
-#Cochinoca (4000/1000 POPS)
+#Cochinoca (3956/989 POPS)
 2370 = {
 	aristocrats = {
 		culture = platinean
@@ -1037,7 +1037,7 @@
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 50
+		size = 49
 	}
 
 	soldiers = {
@@ -1049,10 +1049,10 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 900
+		size = 890
 	}
 }
-#Equia (4000/1000 POPS)
+#Equia (3956/989 POPS)
 2371 = {
 	aristocrats = {
 		culture = platinean
@@ -1069,7 +1069,7 @@
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 50
+		size = 49
 	}
 
 	soldiers = {
@@ -1081,10 +1081,10 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 900
+		size = 890
 	}
 }
-#Rivadavia (4000/1000 POPS)
+#Rivadavia (3956/989 POPS)
 2372 = {
 	aristocrats = {
 		culture = platinean
@@ -1101,7 +1101,7 @@
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 50
+		size = 49
 	}
 
 	soldiers = {
@@ -1113,7 +1113,7 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 900
+		size = 890
 	}
 }
 #Tucuman Region (36000)
@@ -1617,12 +1617,12 @@
 }
 #La Rioja Region (40000)
 #Under rule of Argentina 1836
-#La Rioja (16000/4000 POPS)
+#La Rioja (16228/4057 POPS)
 2385 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 75
+		size = 74
 	}
 
 	bureaucrats = {
@@ -1646,7 +1646,7 @@
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 200
+		size = 198
 	}
 
 	soldiers = {
@@ -1658,10 +1658,10 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 3700
+		size = 3660
 	}
 }
-#Santa Rita (8000/2000 POPS)
+#Santa Rita (7924/1981 POPS)
 2386 = {
 	aristocrats = {
 		culture = platinean
@@ -1678,7 +1678,7 @@
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 100
+		size = 99
 	}
 
 	soldiers = {
@@ -1690,10 +1690,10 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 1800
+		size = 1782
 	}
 }
-#San Juan de la Frontera (12000/3000 POPS)
+#San Juan de la Frontera (11884/2971 POPS)
 2387 = {
 	aristocrats = {
 		culture = platinean
@@ -1704,13 +1704,13 @@
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 75
+		size = 74
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 150
+		size = 149
 	}
 
 	soldiers = {
@@ -1722,10 +1722,10 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 2700
+		size = 2673
 	}
 }
-#Calingasta (4000/1000 POPS)
+#Calingasta (3964/991 POPS)
 2388 = {
 	aristocrats = {
 		culture = platinean
@@ -1754,7 +1754,7 @@
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 900
+		size = 891
 	}
 }
 #Mendoza Region (32000)
@@ -1894,156 +1894,156 @@
 }
 #Rio Negro-La Pampa Region (52000)
 #Under the loose rule of Argentina 1836
-#Viedma (12000/3000 POPS)
+#Viedma (11100/2775 POPS)
 2392 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 75
+		size = 69
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 150
+		size = 139
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 25
+		size = 23
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 2700
+		size = 2498
 	}
 }
-#Telen (12000/3000 POPS)
+#Telen (11100/2775 POPS)
 2393 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 75
+		size = 69
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 150
+		size = 139
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 25
+		size = 23
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 2700
+		size = 2498
 	}
 }
-#Bariloche (16000/4000 POPS)
+#Bariloche (18700/4675 POPS)
 2394 = {
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 25
+		size = 23
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 25
+		size = 23
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 900
+		size = 833
 	}
 
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 75
+		size = 69
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 200
+		size = 185
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 3675
+		size = 3404
 	}
 }
-#Curaco (12000/3000 POPS)
+#Curaco (11100/2775 POPS)
 2395 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 50
+		size = 46
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 75
+		size = 69
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 150
+		size = 139
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 25
+		size = 23
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 2700
+		size = 2498
 	}
 }
 #Patagonia Region (20000)

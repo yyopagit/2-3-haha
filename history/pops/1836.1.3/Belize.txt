@@ -3,31 +3,31 @@
     artisans = {
         culture = british
         religion = orthodox
-        size = 25
+        size = 1
     }
 
     clergymen = {
         culture = mexican
         religion = orthodox
-        size = 15
+        size = 1
     }
 
     artisans = {
         culture = mexican
         religion = orthodox
-        size = 100
+        size = 3
     }
 
     soldiers = {
         culture = mexican
         religion = orthodox
-        size = 10
+        size = 1
     }
 
     farmers = {
         culture = mexican
         religion = orthodox
-        size = 60000
+        size = 1794
     }
 
 }

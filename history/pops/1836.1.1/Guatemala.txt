@@ -1,239 +1,239 @@
-#Guatemala Region (476000)
+#Guatemala Region (700000)
 #Ruled by Central America 1836
-#Guatemala City (276000/69000 POPS)
+#Guatemala City (209348/52337 POPS)
 2186 = {
 	aristocrats = {
 		culture = central_american
 		religion = orthodox
-		size = 600
+		size = 398
 	}
 
 	bureaucrats = {
 		culture = central_american
 		religion = orthodox
-		size = 175
+		size = 116
 	}
 
 	officers = {
 		culture = central_american
 		religion = orthodox
-		size = 150
+		size = 99
 	}
 
 	clergymen = {
 		culture = central_american
 		religion = orthodox
-		size = 275
+		size = 182
 	}
 
 	artisans = {
 		culture = central_american
 		religion = orthodox
-		size = 1350
+		size = 894
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = orthodox
-		size = 1100
+		size = 729
 	}
 
 	farmers = {
 		culture = central_american
 		religion = orthodox
-		size = 43350
+		size = 28719
 	}
 
 	clergymen = {
 		culture = mayan
 		religion = orthodox
-		size = 225
+		size = 149
 	}
 
 	artisans = {
 		culture = mayan
 		religion = orthodox
-		size = 2100
+		size = 1391
 	}
 
 	soldiers = {
 		culture = mayan
 		religion = orthodox
-		size = 425
+		size = 282
 	}
 
 	farmers = {
 		culture = mayan
 		religion = orthodox
-		size = 29250
+		size = 19378
 	}
 }
-#Quetzaltenango (112000/28000 POPS)
+#Quetzaltenango (241412/60353 POPS)
 2187 = {
 	aristocrats = {
 		culture = central_american
 		religion = orthodox
-		size = 750
+		size = 497
 	}
 
 	clergymen = {
 		culture = central_american
 		religion = orthodox
-		size = 750
+		size = 497
 	}
 
 	artisans = {
 		culture = central_american
 		religion = orthodox
-		size = 3500
+		size = 2319
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = orthodox
-		size = 1100
+		size = 729
 	}
 
 	farmers = {
 		culture = central_american
 		religion = orthodox
-		size = 64000
+		size = 42398
 	}
 
 	clergymen = {
 		culture = mayan
 		religion = orthodox
-		size = 100
+		size = 66
 	}
 
 	artisans = {
 		culture = mayan
 		religion = orthodox
-		size = 1050
+		size = 696
 	}
 
 	soldiers = {
 		culture = mayan
 		religion = orthodox
-		size = 225
+		size = 149
 	}
 
 	farmers = {
 		culture = mayan
 		religion = orthodox
-		size = 19625
+		size = 13002
 	}
 }
-#Puerto Barrios (72000/18000 POPS)
+#Puerto Barrios (161788/40447 POPS)
 2188 = {
 	aristocrats = {
 		culture = central_american
 		religion = orthodox
-		size = 550
+		size = 364
 	}
 
 	clergymen = {
 		culture = central_american
 		religion = orthodox
-		size = 500
+		size = 331
 	}
 
 	artisans = {
 		culture = central_american
 		religion = orthodox
-		size = 3000
+		size = 1988
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = orthodox
-		size = 750
+		size = 497
 	}
 
 	farmers = {
 		culture = central_american
 		religion = orthodox
-		size = 44250
+		size = 29316
 	}
 
 	clergymen = {
 		culture = mayan
 		religion = orthodox
-		size = 50
+		size = 33
 	}
 
 	artisans = {
 		culture = mayan
 		religion = orthodox
-		size = 600
+		size = 398
 	}
 
 	soldiers = {
 		culture = mayan
 		religion = orthodox
-		size = 125
+		size = 83
 	}
 
 	farmers = {
 		culture = mayan
 		religion = orthodox
-		size = 11225
+		size = 7437
 	}
 }
-#Sayaxche (16000/4000 POPS)
+#Sayaxche (87452/21863 POPS)
 2189 = {
 	aristocrats = {
 		culture = central_american
 		religion = orthodox
-		size = 150
+		size = 99
 	}
 
 	clergymen = {
 		culture = central_american
 		religion = orthodox
-		size = 250
+		size = 166
 	}
 
 	artisans = {
 		culture = central_american
 		religion = orthodox
-		size = 500
+		size = 331
 	}
 
 	soldiers = {
 		culture = central_american
 		religion = orthodox
-		size = 100
+		size = 66
 	}
 
 	farmers = {
 		culture = central_american
 		religion = orthodox
-		size = 29000
+		size = 19213
 	}
 
 	clergymen = {
 		culture = mayan
 		religion = orthodox
-		size = 25
+		size = 17
 	}
 
 	artisans = {
 		culture = mayan
 		religion = orthodox
-		size = 150
+		size = 99
 	}
 
 	soldiers = {
 		culture = mayan
 		religion = orthodox
-		size = 25
+		size = 17
 	}
 
 	farmers = {
 		culture = mayan
 		religion = orthodox
-		size = 2800
+		size = 1855
 	}
 
 }

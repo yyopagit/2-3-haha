@@ -535,6 +535,9 @@ background = {
 	school_of_the_bayonet = {
 		speed = 0.10
 	}
+	school_of_firepower = {
+		attack = 0.10
+	}
 	artillerist = {
 		speed = 0.30
 	}

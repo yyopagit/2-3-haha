@@ -30,6 +30,8 @@ voting_system = jefferson_method
 political_parties = non_secret_ballots
 colonial_politics = inner_colonisation
 fleet_doctrine = fleet_expansion
+citizenship_politics = accepted_culture_only
+military_politics = regular_army
 # Social Reforms
 wage_reform = trinket_wage
 work_hours = no_work_hour_limit
@@ -38,6 +40,7 @@ health_care = all_voting_pops
 unemployment_subsidies = no_subsidies
 pensions = no_pensions 
 school_reforms = acceptable_schools
+medical_reforms = no_medical_reforms
 
 ruling_party = USA_conservative
 last_election = 1828.12.3

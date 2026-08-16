@@ -1,98 +1,98 @@
-#Semireche Region (292000) #see Kazakhstan.txt for balance of region 
+#Semireche Region (1236620) #see Kazakhstan.txt for balance of region 
 #under the "rule" of Kokand in 1836 
-#Bishkek (236000/59000 POPS) #now part of Kirghizstan 
+#Bishkek (1180220/295055 POPS) #now part of Kirghizstan 
 1189 = {
 	aristocrats = {
 		culture = kirgiz
 		religion = orthodox
-		size = 800
+		size = 4001
 	}
 
 	clergymen = {
 		culture = kirgiz
 		religion = orthodox
-		size = 425
+		size = 2125
 	}
 
 	artisans = {
 		culture = kirgiz
 		religion = orthodox
-		size = 2000
+		size = 10002
 	}
 
 	soldiers = {
 		culture = kirgiz
 		religion = orthodox
-		size = 7000
+		size = 35006
 	}
 
 	farmers = {
 		culture = kirgiz
 		religion = orthodox
-		size = 33775
+		size = 168908
 	}
 
 	aristocrats = {
 		culture = kazak
 		religion = orthodox
-		size = 100
+		size = 500
 	}
 
 	clergymen = {
 		culture = kazak
 		religion = orthodox
-		size = 75
+		size = 375
 	}
 
 	artisans = {
 		culture = kazak
 		religion = orthodox
-		size = 300
+		size = 1500
 	}
 
 	soldiers = {
 		culture = kazak
 		religion = orthodox
-		size = 75
+		size = 375
 	}
 
 	farmers = {
 		culture = kazak
 		religion = orthodox
-		size = 6450
+		size = 32256
 	}
 
 	aristocrats = {
 		culture = uighur
 		religion = orthodox
-		size = 125
+		size = 625
 	}
 
 	clergymen = {
 		culture = uighur
 		religion = orthodox
-		size = 75
+		size = 375
 	}
 
 	artisans = {
 		culture = uighur
 		religion = orthodox
-		size = 350
+		size = 1750
 	}
 
 	soldiers = {
 		culture = uighur
 		religion = orthodox
-		size = 75
+		size = 375
 	}
 
 	farmers = {
 		culture = uighur
 		religion = orthodox
-		size = 7375
+		size = 36882
 	}
 }
-#Naryn (56000/14000 POPS) #now part of Kirghizstan 
+#Naryn (56400/14100 POPS) #now part of Kirghizstan 
 1190 = {
 	aristocrats = {
 		culture = kirgiz
@@ -184,68 +184,68 @@
 		size = 4600
 	}
 }
-#Mawarannahr Region (112000) #see Kazakhstan.txt, Tajikistan.txt, Uzbekistan.txt for balance of region 
+#Mawarannahr Region (560096) #see Kazakhstan.txt, Tajikistan.txt, Uzbekistan.txt for balance of region 
 #under the rule of Kokand in 1836 
-#Osh (112000/28000 POPS) #Now part of Kirghizstan 
+#Osh (560096/140024 POPS) #Now part of Kirghizstan 
 1203 = {
 	aristocrats = {
 		culture = uzbek
 		religion = orthodox
-		size = 175
+		size = 875
 	}
 
 	clergymen = {
 		culture = uzbek
 		religion = orthodox
-		size = 75
+		size = 375
 	}
 
 	artisans = {
 		culture = uzbek
 		religion = orthodox
-		size = 450
+		size = 2250
 	}
 
 	soldiers = {
 		culture = uzbek
 		religion = orthodox
-		size = 100
+		size = 500
 	}
 
 	farmers = {
 		culture = uzbek
 		religion = orthodox
-		size = 8200
+		size = 41007
 	}
 
 	aristocrats = {
 		culture = kirgiz
 		religion = orthodox
-		size = 375
+		size = 1875
 	}
 
 	clergymen = {
 		culture = kirgiz
 		religion = orthodox
-		size = 175
+		size = 875
 	}
 
 	artisans = {
 		culture = kirgiz
 		religion = orthodox
-		size = 900
+		size = 4501
 	}
 
 	soldiers = {
 		culture = kirgiz
 		religion = orthodox
-		size = 4000
+		size = 20004
 	}
 
 	farmers = {
 		culture = kirgiz
 		religion = orthodox
-		size = 13550
+		size = 67762
 	}
 
 }

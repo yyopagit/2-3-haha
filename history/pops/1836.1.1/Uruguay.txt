@@ -1,11 +1,11 @@
 #Uruguay Region (200000) 
 #Under rule of Uruguay 1836
-#Montevideo (112000/28000 POPS)
+#Montevideo (111720/27930 POPS)
 2344 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 575
+		size = 572
 	}
 
 	bureaucrats = {
@@ -23,25 +23,25 @@
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 250
+		size = 248
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 980
+		size = 974
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 1100
+		size = 1094
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 20095
+		size = 19970
 	}
 
 	clergymen = {
@@ -53,7 +53,7 @@
 	artisans = {
 		culture = caribeno
 		religion = orthodox
-		size = 250
+		size = 248
 	}
 
 	soldiers = {
@@ -65,53 +65,53 @@
 	farmers = {
 		culture = caribeno
 		religion = orthodox
-		size = 3150
+		size = 3132
 	}
 
 	slaves = {
 		culture = caribeno
 		religion = orthodox
-		size = 1500
+		size = 1492
 	}
 }
-#Paysandu (36000/9000 POPS)
+#Paysandu (36184/9046 POPS)
 2345 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 200
+		size = 198
 	}
 
 	clergymen = {
 		culture = platinean
 		religion = orthodox
-		size = 75
+		size = 74
 	}
 
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 450
+		size = 448
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 1100
+		size = 1094
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 7275
+		size = 7232
 	}
 }
-#Tacumba (12000/3000 POPS)
+#Tacumba (11928/2982 POPS)
 2346 = {
 	aristocrats = {
 		culture = platinean
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	clergymen = {
@@ -129,19 +129,19 @@
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 1800
+		size = 1790
 	}
 
 	clergymen = {
 		culture = brazilian
 		religion = orthodox
-		size = 15
+		size = 14
 	}
 
 	artisans = {
@@ -159,10 +159,10 @@
 	farmers = {
 		culture = brazilian
 		religion = orthodox
-		size = 925
+		size = 920
 	}
 }
-#Melo (40000/10000 POPS)
+#Melo (40168/10042 POPS)
 2347 = {
 	aristocrats = {
 		culture = platinean
@@ -179,19 +179,19 @@
 	artisans = {
 		culture = platinean
 		religion = orthodox
-		size = 350
+		size = 348
 	}
 
 	soldiers = {
 		culture = platinean
 		religion = orthodox
-		size = 1100
+		size = 1094
 	}
 
 	farmers = {
 		culture = platinean
 		religion = orthodox
-		size = 5450
+		size = 5418
 	}
 
 	clergymen = {
@@ -209,13 +209,13 @@
 	soldiers = {
 		culture = brazilian
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	farmers = {
 		culture = brazilian
 		religion = orthodox
-		size = 2775
+		size = 2758
 	}
 
 }

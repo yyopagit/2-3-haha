@@ -1,285 +1,285 @@
-#Tibet Region (3752000)
+#Tibet Region (2047160)
 #under the rule of Tibet in 1836
-#Lhasa (892000/223000 POPS)
+#Lhasa (120828/30207 POPS)
 1587 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 4150
+		size = 2240
 	}
 
 	bureaucrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 750
+		size = 405
 	}
 
 	officers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 950
+		size = 513
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 2150
+		size = 1161
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 10000
+		size = 5398
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 400
+		size = 216
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 4000
+		size = 2159
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 18560
+		size = 10018
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 81
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 750
+		size = 405
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 81
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 13950
+		size = 7530
 	}
 }
-#Chamdo (624000/156000 POPS)
+#Chamdo (336820/84205 POPS)
 1588 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 2750
+		size = 1484
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1450
+		size = 783
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 7000
+		size = 3778
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1400
+		size = 756
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 127400
+		size = 68767
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 81
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 800
+		size = 432
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 81
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 14900
+		size = 8043
 	}
 }
-#Shigatse (332000/83000 POPS)
+#Shigatse (177044/44261 POPS)
 1589 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1600
+		size = 864
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 875
+		size = 472
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 4000
+		size = 2159
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 800
+		size = 432
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 72725
+		size = 39255
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 50
+		size = 27
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 81
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 25
+		size = 13
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1775
+		size = 958
 	}
 }
-#Lhodrak (688000/172000 POPS)
+#Lhodrak (371356/92839 POPS)
 1590 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 3375
+		size = 1822
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1750
+		size = 945
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 8600
+		size = 4642
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1725
+		size = 931
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 156550
+		size = 84499
 	}
 }
-#Changtang (76000/19000 POPS)
+#Changtang (41020/10255 POPS)
 1591 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 375
+		size = 202
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 200
+		size = 108
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 950
+		size = 513
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 175
+		size = 94
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 17300
+		size = 9338
 	}
 }
-#Ngari (304000/76000 POPS)
+#Ngari (164092/41023 POPS)
 1592 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1500
+		size = 810
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 775
+		size = 418
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 3800
+		size = 2051
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 750
+		size = 405
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 69175
+		size = 37339
 	}
 }
 #Tawang (836000/209000 POPS) #now NEFA in India asian_minor = Chin 

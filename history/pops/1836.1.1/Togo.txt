@@ -1,71 +1,71 @@
-#Togo Region (368000) #see Ghana.txt for balance of region
+#Togo Region (542052) #see Ghana.txt for balance of region
 #uncolonized in 1836
-#Lome (216000/54000 POPS) 
+#Lome (176932/44233 POPS) 
 1914 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 775
+		size = 145
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 400
+		size = 75
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 1575
+		size = 294
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 19
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 131184
+		size = 24504
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 275
+		size = 51
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 28
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 600
+		size = 112
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 28
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 51825
+		size = 9681
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 41000
+		size = 7659
 	}
 
 
@@ -85,111 +85,111 @@
 	farmers = {
 		culture = boer
 		religion = orthodox
-		size = 8723
+		size = 1629
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 42
+		size = 8
 	}
 }
-#Atakpane (128000/32000 POPS) 
+#Atakpane (190044/47511 POPS) 
 1917 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 250
+		size = 47
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 28
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 700
+		size = 131
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 28
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 117834
+		size = 22012
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 125
+		size = 23
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 75
+		size = 14
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 350
+		size = 65
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 75
+		size = 14
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 43750
+		size = 8172
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 200
+		size = 37
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 19
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 450
+		size = 84
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 125
+		size = 23
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 61250
+		size = 11441
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 20000
+		size = 3736
 	}
 
 
@@ -209,75 +209,75 @@
 	farmers = {
 		culture = boer
 		religion = orthodox
-		size = 8723
+		size = 1629
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 42
+		size = 8
 	}
 }
-#Sokode (24000/6000 POPS) 
+#Sokode (175076/43769 POPS) 
 1918 = {
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 9
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 9
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 200
+		size = 37
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 19
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 136830
+		size = 25559
 	}
 
 	aristocrats = {
 		culture = african_minor
 		religion = orthodox
-		size = 25
+		size = 5
 	}
 
 	clergymen = {
 		culture = african_minor
 		religion = orthodox
-		size = 50
+		size = 9
 	}
 
 	artisans = {
 		culture = african_minor
 		religion = orthodox
-		size = 100
+		size = 19
 	}
 
 	soldiers = {
 		culture = african_minor
 		religion = orthodox
-		size = 150
+		size = 28
 	}
 
 	farmers = {
 		culture = african_minor
 		religion = orthodox
-		size = 88000
+		size = 16438
 	}
 
 
@@ -298,12 +298,12 @@
 	farmers = {
 		culture = boer
 		religion = orthodox
-		size = 8723
+		size = 1629
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 42
+		size = 8
 	}
 }

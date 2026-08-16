@@ -1,1322 +1,1322 @@
-#Abyssinia Region (2172000)
+#Abyssinia Region (4018756)
 #under the rule of Ethiopia in 1836
-#Gonder (452000/113000 POPS)
+#Gonder (836316/209079 POPS)
 1852 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1500
+		size = 2773
 	}
 
 	bureaucrats = {
 		culture = amhara
 		religion = orthodox
-		size = 325
+		size = 601
 	}
 
 	officers = {
 		culture = amhara
 		religion = orthodox
-		size = 300
+		size = 555
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 825
+		size = 1525
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 4050
+		size = 7487
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1100
+		size = 2033
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 65000
+		size = 120161
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 8000
+		size = 14789
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 50
+		size = 92
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 75
+		size = 139
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 250
+		size = 462
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 25
+		size = 46
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 2600
+		size = 4806
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 550
+		size = 1017
 	}
 
 	officers = {
 		culture = amhara
 		religion = orthodox
-		size = 250
+		size = 462
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 275
+		size = 508
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 1175
+		size = 2172
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 300
+		size = 555
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 24450
+		size = 45199
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 2000
+		size = 3697
 	}
 }
-#Debre Tabor (468000/117000 POPS)
+#Debre Tabor (866636/216659 POPS)
 1853 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1100
+		size = 2033
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 500
+		size = 924
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2050
+		size = 3790
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1100
+		size = 2033
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 39450
+		size = 72929
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 7000
+		size = 12940
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1300
+		size = 2403
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 675
+		size = 1248
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2750
+		size = 5084
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 675
+		size = 1248
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 48600
+		size = 89843
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 12000
+		size = 22184
 	}
 }
-#Matamma (464000/116000 POPS)
+#Matamma (858328/214582 POPS)
 1854 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1025
+		size = 1895
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 525
+		size = 971
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2100
+		size = 3882
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1100
+		size = 2033
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 43350
+		size = 80138
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 4000
+		size = 7395
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 100
+		size = 185
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 75
+		size = 139
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 550
+		size = 1017
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 100
+		size = 185
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 8175
+		size = 15113
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1050
+		size = 1941
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 550
+		size = 1017
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2225
+		size = 4113
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 550
+		size = 1017
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 46600
+		size = 86146
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 4000
+		size = 7395
 	}
 }
-#Debre Markos (788000/197000 POPS)
+#Debre Markos (1457476/364369 POPS)
 1855 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1050
+		size = 1941
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 550
+		size = 1017
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2200
+		size = 4067
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1100
+		size = 2033
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 44200
+		size = 81710
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 5000
+		size = 9243
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 2800
+		size = 5176
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 1425
+		size = 2634
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 5725
+		size = 10583
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 4025
+		size = 7441
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 122025
+		size = 225584
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 7000
+		size = 12940
 	}
 }
-#Tigray Region (316000)
+#Tigray Region (3604644)
 #under the rule of Ethiopia in 1836
-#Aksum (140000/35000 POPS)
+#Aksum (1429356/357339 POPS)
 1856 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1575
+		size = 2912
 	}
 
 	bureaucrats = {
 		culture = amhara
 		religion = orthodox
-		size = 150
+		size = 277
 	}
 
 	officers = {
 		culture = amhara
 		religion = orthodox
-		size = 150
+		size = 277
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 1300
+		size = 2403
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 3250
+		size = 6008
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 2100
+		size = 3882
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 101775
+		size = 188144
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 30000
+		size = 55459
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 500
+		size = 924
 	}
 
 	officers = {
 		culture = amhara
 		religion = orthodox
-		size = 250
+		size = 462
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 500
+		size = 924
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2000
+		size = 3697
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 2500
+		size = 4622
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 36250
+		size = 67013
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 11000
+		size = 20335
 	}
 }
-#Antalo (128000/32000 POPS)
+#Antalo (1296444/324111 POPS)
 1857 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 500
+		size = 924
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 250
+		size = 462
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 1050
+		size = 1941
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 3100
+		size = 5731
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 102000
+		size = 188560
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 30000
+		size = 55459
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 100
+		size = 185
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 75
+		size = 139
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 3000
+		size = 5546
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 500
+		size = 924
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 34750
+		size = 64240
 	}
 }
-#Awsa (48000/12000 POPS)
+#Awsa (878844/219711 POPS)
 1858 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1225
+		size = 2265
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 1125
+		size = 2080
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 5000
+		size = 9243
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1250
+		size = 2311
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 90250
+		size = 166839
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 20000
+		size = 36973
 	}
 }
-#Shoa Region (2068000)
+#Shoa Region (2973896)
 #under the rule of Ethiopia in 1836
-#Ankober (1236000/309000 POPS)
+#Ankober (887900/221975 POPS)
 1859 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 4650
+		size = 8596
 	}
 
 	bureaucrats = {
 		culture = amhara
 		religion = orthodox
-		size = 225
+		size = 416
 	}
 
 	officers = {
 		culture = amhara
 		religion = orthodox
-		size = 275
+		size = 508
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 2375
+		size = 4391
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 9500
+		size = 17562
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1000
+		size = 1849
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 20975
+		size = 38775
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 9000
+		size = 16638
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1350
+		size = 2496
 	}
 
 	bureaucrats = {
 		culture = amhara
 		religion = orthodox
-		size = 75
+		size = 139
 	}
 
 	officers = {
 		culture = amhara
 		religion = orthodox
-		size = 250
+		size = 462
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 725
+		size = 1340
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2875
+		size = 5315
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 725
+		size = 1340
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 42075
+		size = 77781
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 24000
+		size = 44367
 	}
 }
-#Awasa (448000/112000 POPS)
+#Awasa (851108/212777 POPS)
 1860 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 925
+		size = 1710
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 475
+		size = 878
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 1900
+		size = 3512
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 475
+		size = 878
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 40225
+		size = 74361
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 3000
+		size = 5546
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1325
+		size = 2449
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 675
+		size = 1248
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2725
+		size = 5038
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1075
+		size = 1987
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 53300
+		size = 98532
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 9000
+		size = 16638
 	}
 }
-#Aselia (384000/96000POPS)
+#Aselia (1234888/308722 POPS)
 1861 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 600
+		size = 1109
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 300
+		size = 555
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 1250
+		size = 2311
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 325
+		size = 601
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 26525
+		size = 49035
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 2000
+		size = 3697
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1250
+		size = 2311
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 650
+		size = 1202
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2650
+		size = 4899
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1650
+		size = 3050
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 89800
+		size = 166007
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 40000
+		size = 73945
 	}
 }
-#Sidamo-Welega Region (1628000)
+#Sidamo-Welega Region (3868072)
 #under the "rule" of Ethiopia in 1836
-#Bonga (368000/92000 POPS)
+#Bonga (1353200/338300 POPS)
 1862 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1800
+		size = 3328
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 925
+		size = 1710
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 3650
+		size = 6748
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1925
+		size = 3559
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 121700
+		size = 224978
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 53000
+		size = 97977
 	}
 }
-#Asosa (540000/135000 POPS)
+#Asosa (1191252/297813 POPS)
 1863 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 450
+		size = 832
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 250
+		size = 462
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 1100
+		size = 2033
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 250
+		size = 462
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 18050
+		size = 33368
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 5000
+		size = 9243
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1350
+		size = 2496
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 725
+		size = 1340
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2875
+		size = 5315
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 725
+		size = 1340
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 49725
+		size = 91923
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 42600
+		size = 78752
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 750
+		size = 1386
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 375
+		size = 693
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 1900
+		size = 3512
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 375
+		size = 693
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 34600
+		size = 63963
 	}
 }
-#Negele (720000/180000 POPS)
+#Negele (1323620/330905 POPS)
 1864 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 875
+		size = 1618
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 450
+		size = 832
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 1850
+		size = 3420
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 450
+		size = 832
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 35375
+		size = 65395
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 7000
+		size = 12940
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 2625
+		size = 4853
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 825
+		size = 1525
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 5350
+		size = 9890
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1350
+		size = 2496
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 103850
+		size = 191980
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 19000
+		size = 35124
 	}
 }
-#Ogaden Region (786000)
+#Ogaden Region (3968632)
 #under the "rule" of Ethiopia in 1836
-#Harer (384000/96000 POPS)
+#Harer (1297000/324250 POPS)
 1865 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 800
+		size = 1479
 	}
 
 	bureaucrats = {
 		culture = amhara
 		religion = orthodox
-		size = 15
+		size = 28
 	}
 
 	officers = {
 		culture = amhara
 		religion = orthodox
-		size = 10
+		size = 18
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 425
+		size = 786
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 1675
+		size = 3096
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 400
+		size = 739
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 45675
+		size = 84436
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 225
+		size = 416
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 125
+		size = 231
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 525
+		size = 971
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 125
+		size = 231
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 1200
+		size = 2218
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 850
+		size = 1571
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 425
+		size = 786
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2150
+		size = 3975
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 425
+		size = 786
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 89350
+		size = 165175
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 31000
+		size = 57308
 	}
 }
 #uncolonized in 1836}
-#Goba (296000/74000 POPS)
+#Goba (1457456/364364 POPS)
 1866 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 500
+		size = 924
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 275
+		size = 508
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 1075
+		size = 1987
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1275
+		size = 2357
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 49875
+		size = 92201
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 25000
+		size = 46216
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 625
+		size = 1155
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 325
+		size = 601
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 1600
+		size = 2958
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1325
+		size = 2449
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 79225
+		size = 146458
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 275
+		size = 508
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 150
+		size = 277
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 750
+		size = 1386
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1150
+		size = 2126
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 33675
+		size = 62253
 	}
 }
-#Werder (328000/82000 POPS)
+#Werder (1214176/303544 POPS)
 1867 = {
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 275
+		size = 508
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 150
+		size = 277
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 750
+		size = 1386
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1150
+		size = 2126
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 43675
+		size = 80739
 	}
 
 	aristocrats = {
 		culture = amhara
 		religion = orthodox
-		size = 1300
+		size = 2403
 	}
 
 	clergymen = {
 		culture = amhara
 		religion = orthodox
-		size = 775
+		size = 1433
 	}
 
 	artisans = {
 		culture = amhara
 		religion = orthodox
-		size = 2675
+		size = 4945
 	}
 
 	soldiers = {
 		culture = amhara
 		religion = orthodox
-		size = 1675
+		size = 3096
 	}
 
 	farmers = {
 		culture = amhara
 		religion = orthodox
-		size = 87775
+		size = 162264
 	}
 
 	slaves = {
 		culture = amhara
 		religion = orthodox
-		size = 24000
+		size = 44367
 	}
 
 }

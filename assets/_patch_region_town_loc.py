@@ -1,4 +1,4 @@
-"""Добавить (Г) к названиям регионов, где в history есть town_infrastructure > 0."""
+"""Добавить (Г) к названиям регионов, где в history есть terrain = urban."""
 from __future__ import annotations
 
 import re
@@ -12,11 +12,11 @@ MARK = " (Г)"
 ENC = "cp1251"
 
 
-def town_provinces() -> set[int]:
+def urban_provinces() -> set[int]:
     out: set[int] = set()
     for path in PROV_DIR.rglob("*.txt"):
         text = path.read_text(encoding="utf-8", errors="replace")
-        if not re.search(r"town_infrastructure\s*=\s*[1-9]\d*", text):
+        if not re.search(r"terrain\s*=\s*urban\b", text):
             continue
         m = re.match(r"^(\d+)", path.name)
         if m:
@@ -24,28 +24,30 @@ def town_provinces() -> set[int]:
     return out
 
 
-def regions_with_towns(towns: set[int]) -> set[str]:
+def regions_with_urban(urban: set[int]) -> set[str]:
     text = REGION.read_text(encoding="utf-8", errors="replace")
     keys: set[str] = set()
     for m in re.finditer(r"^([A-Z]{3}_\d+)\s*=\s*\{([^}]*)\}", text, re.M):
         ids = {int(x) for x in re.findall(r"\d+", m.group(2))}
-        if ids & towns:
+        if ids & urban:
             keys.add(m.group(1))
     return keys
 
 
 def strip_mark(name: str) -> str:
-    # убрать прежние варианты маркера
     name = re.sub(r"\s*\(Г\)\s*$", "", name)
     name = re.sub(r"\s*\(G\)\s*$", "", name, flags=re.I)
     return name.rstrip()
 
 
-def patch_loc(town_regions: set[str]) -> tuple[int, int, list[str]]:
-    lines = LOC.read_text(encoding=ENC, errors="replace").splitlines()
+def patch_loc(urban_regions: set[str]) -> tuple[int, int, int, list[str]]:
+    raw = LOC.read_bytes()
+    text = raw.decode(ENC)
+    nl = "\r\n" if b"\r\n" in raw else "\n"
+    lines = text.splitlines()
     added = 0
-    cleared = 0
-    missing: list[str] = []
+    stripped = 0
+    kept = 0
     seen: set[str] = set()
     out: list[str] = []
 
@@ -61,34 +63,38 @@ def patch_loc(town_regions: set[str]) -> tuple[int, int, list[str]]:
 
         name = parts[1] if len(parts) > 1 else ""
         base = strip_mark(name)
-        if base != name:
-            cleared += 1
+        had_mark = base != name
 
-        if key in town_regions:
+        if key in urban_regions:
             parts[1] = base + MARK
-            if not name.endswith(MARK):
-                added += 1
             seen.add(key)
+            if had_mark:
+                kept += 1
+            else:
+                added += 1
         else:
             parts[1] = base
+            if had_mark:
+                stripped += 1
 
-        # pad columns
         while len(parts) < 8:
             parts.append("X")
         out.append(";".join(parts[:8]))
 
-    missing = sorted(town_regions - seen)
-    LOC.write_text("\n".join(out) + "\n", encoding=ENC, errors="replace")
-    return added, cleared, missing
+    missing = sorted(urban_regions - seen)
+    LOC.write_bytes((nl.join(out) + nl).encode(ENC))
+    return added, stripped, kept, missing
 
 
 def main() -> None:
-    towns = town_provinces()
-    regs = regions_with_towns(towns)
-    added, cleared, missing = patch_loc(regs)
-    print(f"town provinces: {len(towns)}")
-    print(f"town regions: {len(regs)}")
-    print(f"loc updated (+Г): {added}, stripped old marks: {cleared}")
+    urban = urban_provinces()
+    regs = regions_with_urban(urban)
+    added, stripped, kept, missing = patch_loc(regs)
+    print(f"urban provinces: {len(urban)}")
+    print(f"urban regions: {len(regs)}")
+    print(f"loc + (Г): {added}")
+    print(f"loc kept (Г): {kept}")
+    print(f"loc stripped (Г) [town without urban]: {stripped}")
     if missing:
         print(f"MISSING loc keys ({len(missing)}): {', '.join(missing)}")
     else:
