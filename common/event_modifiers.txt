@@ -1845,7 +1845,7 @@ external_colonisation_colonies = {
 	life_rating = -0.05
 }
 
-# Континент africa (без Северной Африки). На north_africa не вешать.
+# Континент africa (без arab_region). На arab_region не вешать.
 africa_resources = {
 	local_RGO_output = 2.0
 	icon = 11

@@ -1,299 +1,299 @@
 #New Zealand : 85000
 #uncolonized in 1836
-#North Island Region (61000)
-#Auckland (17000/4250 POPS)
+#North Island Region (68548)
+#Auckland (19112/4778 POPS)
 2509 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 56
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 84
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 200
+		size = 225
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 112
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 3575
+		size = 4020
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 250
+		size = 281
 	}
 }
-#New Plymouth (8000/2000 POPS)
+#New Plymouth (8984/2246 POPS)
 2510 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 28
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 56
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 112
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 56
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1775
+		size = 1994
 	}
 }
-#Napier (12000/3000 POPS)
+#Napier (13484/3371 POPS)
 2511 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 28
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 84
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 150
+		size = 169
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 84
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 2675
+		size = 3006
 	}
 }
-#Wellington (12000/3000 POPS)
+#Wellington (13484/3371 POPS)
 2512 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 28
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 84
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 150
+		size = 169
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 84
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 2675
+		size = 3006
 	}
 }
-#Tauranga (12000/3000 POPS)
+#Tauranga (13484/3371 POPS)
 2571 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 28
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 84
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 150
+		size = 169
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 84
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 2675
+		size = 3006
 	}
 
 }
-#South Island Region (24000)
-#Dunedin (4000/1000 POPS)
+#South Island Region (31452)
+#Dunedin (4492/1123 POPS)
 2513 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 11
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 28
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 56
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 17
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1011
 	}
 }
-#Hokitikia (4000/1000 POPS)
+#Hokitikia (4492/1123 POPS)
 2514 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 11
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 28
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 56
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 17
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1011
 	}
 }
-#Christchurch (4000/1000 POPS)
+#Christchurch (8984/2246 POPS)
 2515 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 28
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 56
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 112
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 56
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1775
+		size = 1994
 	}
 }
-#Nelson (12000/3000 POPS)
+#Nelson (13484/3371 POPS)
 2516 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 28
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 84
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 150
+		size = 169
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 84
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 2675
+		size = 3006
 	}
 }

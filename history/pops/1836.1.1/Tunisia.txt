@@ -1,315 +1,315 @@
-#Tunisia Region (1392000) 
+#Tunisia Region (1235540) 
 #under the rule of Tunisia in 1836 
-#Tunis (488000/122000 POPS) 
+#Tunis (260876/65219 POPS) 
 1725 = {
 	aristocrats = {
 		culture = maghrebi
 		religion = orthodox
-		size = 2350
+		size = 859
 	}
 
 	bureaucrats = {
 		culture = maghrebi
 		religion = orthodox
-		size = 350
+		size = 128
 	}
 
 	officers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 325
+		size = 119
 	}
 
 	clergymen = {
 		culture = maghrebi
 		religion = orthodox
-		size = 1200
+		size = 439
 	}
 
 	artisans = {
 		culture = maghrebi
 		religion = orthodox
-		size = 10000
+		size = 3657
 	}
 
 	artisans = {
 		culture = maghrebi
 		religion = orthodox
-		size = 10000
+		size = 3657
 	}
 
 	artisans = {
 		culture = maghrebi
 		religion = orthodox
-		size = 7500
+		size = 2743
 	}
 
 	soldiers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 400
+		size = 146
 	}
 
 	farmers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 126425
+		size = 46231
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 15000
+		size = 5485
 	}
 
 	clergymen = {
 		culture = sephardic
 		religion = orthodox
-		size = 75
+		size = 27
 	}
 
 	artisans = {
 		culture = sephardic
 		religion = orthodox
-		size = 3725
+		size = 1362
 	}
 
 	artisans = {
 		culture = maltese
 		religion = orthodox
-		size = 500
+		size = 183
 	}
 
 	artisans = {
 		culture = north_italian
 		religion = orthodox
-		size = 500
+		size = 183
 	}
 }
-#Bizerte (268000/67000 POPS) 
+#Bizerte (219568/54892 POPS) 
 1726 = {
 	aristocrats = {
 		culture = maghrebi
 		religion = orthodox
-		size = 1250
+		size = 457
 	}
 
 	clergymen = {
 		culture = maghrebi
 		religion = orthodox
-		size = 675
+		size = 247
 	}
 
 	artisans = {
 		culture = maghrebi
 		religion = orthodox
-		size = 3250
+		size = 1188
 	}
 
 	soldiers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 110
+		size = 40
 	}
 
 	farmers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 128575
+		size = 47017
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 16000
+		size = 5851
 	}
 
 	clergymen = {
 		culture = sephardic
 		religion = orthodox
-		size = 5
+		size = 2
 	}
 
 	artisans = {
 		culture = sephardic
 		religion = orthodox
-		size = 245
+		size = 90
 	}
 }
-#Gafsa (112000/28000 POPS) 
+#Gafsa (200556/50139 POPS) 
 1727 = {
 	aristocrats = {
 		culture = maghrebi
 		religion = orthodox
-		size = 450
+		size = 165
 	}
 
 	clergymen = {
 		culture = maghrebi
 		religion = orthodox
-		size = 275
+		size = 101
 	}
 
 	artisans = {
 		culture = maghrebi
 		religion = orthodox
-		size = 1250
+		size = 457
 	}
 
 	soldiers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 110
+		size = 40
 	}
 
 	farmers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 112025
+		size = 40965
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 23000
+		size = 8411
 	}
 }
-#Kairouan (228000/57000 POPS) 
+#Kairouan (242972/60743 POPS) 
 1728 = {
 	aristocrats = {
 		culture = maghrebi
 		religion = orthodox
-		size = 875
+		size = 320
 	}
 
 	clergymen = {
 		culture = maghrebi
 		religion = orthodox
-		size = 400
+		size = 146
 	}
 
 	artisans = {
 		culture = maghrebi
 		religion = orthodox
-		size = 2250
+		size = 823
 	}
 
 	soldiers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 110
+		size = 40
 	}
 
 	farmers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 120225
+		size = 43964
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 42000
+		size = 15358
 	}
 
 	clergymen = {
 		culture = sephardic
 		religion = orthodox
-		size = 5
+		size = 2
 	}
 
 	artisans = {
 		culture = sephardic
 		religion = orthodox
-		size = 245
+		size = 90
 	}
 }
-#Tozeur (96000/24000 POPS) 
+#Tozeur (137492/34373 POPS) 
 1729 = {
 	aristocrats = {
 		culture = maghrebi
 		religion = orthodox
-		size = 350
+		size = 128
 	}
 
 	clergymen = {
 		culture = maghrebi
 		religion = orthodox
-		size = 200
+		size = 73
 	}
 
 	artisans = {
 		culture = maghrebi
 		religion = orthodox
-		size = 950
+		size = 347
 	}
 
 	soldiers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 200
+		size = 73
 	}
 
 	farmers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 67300
+		size = 24610
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 25000
+		size = 9142
 	}
 }
-#Gabes (200000/50000 POPS) 
+#Gabes (174076/43519 POPS) 
 1730 = {
 	aristocrats = {
 		culture = maghrebi
 		religion = orthodox
-		size = 900
+		size = 329
 	}
 
 	clergymen = {
 		culture = maghrebi
 		religion = orthodox
-		size = 400
+		size = 146
 	}
 
 	artisans = {
 		culture = maghrebi
 		religion = orthodox
-		size = 2275
+		size = 832
 	}
 
 	soldiers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 110
+		size = 40
 	}
 
 	farmers = {
 		culture = maghrebi
 		religion = orthodox
-		size = 110825
+		size = 40526
 	}
 
 	slaves = {
 		culture = african_minor
 		religion = orthodox
-		size = 4000
+		size = 1463
 	}
 
 	clergymen = {
 		culture = sephardic
 		religion = orthodox
-		size = 10
+		size = 4
 	}
 
 	artisans = {
 		culture = sephardic
 		religion = orthodox
-		size = 490
+		size = 179
 	}
 
 }

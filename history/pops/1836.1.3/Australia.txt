@@ -1,1692 +1,1692 @@
 #New South Wales Region 144000
 #Ruled by Britain 1836
-#Sydney (64000/16000 POPS)
+#Sydney (99756/24939 POPS)
 2468 = {
 	bureaucrats = {
 		culture = british
 		religion = orthodox
-		size = 35
+		size = 58
 	}
 
 	clergymen = {
 		culture = british
 		religion = orthodox
-		size = 65
+		size = 107
 	}
 
 	artisans = {
 		culture = british
 		religion = orthodox
-		size = 3500
+		size = 5782
 	}
 
 	soldiers = {
 		culture = british
 		religion = orthodox
-		size = 1100
+		size = 1817
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 4400
+		size = 7263
 	}
 
 	clergymen = {
 		culture = irish
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = irish
 		religion = orthodox
-		size = 500
+		size = 826
 	}
 
 	farmers = {
 		culture = irish
 		religion = orthodox
-		size = 2475
+		size = 4089
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 150
+		size = 248
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 2800
+		size = 4626
 	}
 }
-#Newcastle (16000/4000 POPS)
+#Newcastle (26540/6635 POPS)
 2469 = {
 	clergymen = {
 		culture = british
 		religion = orthodox
+		size = 41
+	}
+
+	artisans = {
+		culture = british
+		religion = orthodox
+		size = 413
+	}
+
+	soldiers = {
+		culture = british
+		religion = orthodox
+		size = 83
+	}
+
+	farmers = {
+		culture = british
+		religion = orthodox
+		size = 2759
+	}
+
+	clergymen = {
+		culture = irish
+		religion = orthodox
+		size = 17
+	}
+
+	artisans = {
+		culture = irish
+		religion = orthodox
+		size = 83
+	}
+
+	farmers = {
+		culture = irish
+		religion = orthodox
+		size = 1586
+	}
+
+	clergymen = {
+		culture = aborigine
+		religion = orthodox
+		size = 17
+	}
+
+	artisans = {
+		culture = aborigine
+		religion = orthodox
+		size = 83
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = orthodox
 		size = 25
 	}
 
-	artisans = {
-		culture = british
-		religion = orthodox
-		size = 250
-	}
-
-	soldiers = {
-		culture = british
-		religion = orthodox
-		size = 50
-	}
-
-	farmers = {
-		culture = british
-		religion = orthodox
-		size = 1670
-	}
-
-	clergymen = {
-		culture = irish
-		religion = orthodox
-		size = 10
-	}
-
-	artisans = {
-		culture = irish
-		religion = orthodox
-		size = 50
-	}
-
-	farmers = {
-		culture = irish
-		religion = orthodox
-		size = 960
-	}
-
-	clergymen = {
-		culture = aborigine
-		religion = orthodox
-		size = 10
-	}
-
-	artisans = {
-		culture = aborigine
-		religion = orthodox
-		size = 50
-	}
-
-	soldiers = {
-		culture = aborigine
-		religion = orthodox
-		size = 15
-	}
-
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 925
+		size = 1528
 	}
 }
-#Port Macquarie (12000/3000 POPS)
+#Port Macquarie (19492/4873 POPS)
 2470 = {
 	clergymen = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = british
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 }
 
-#Eden (12000/3000 POPS)
+#Eden (19824/4956 POPS)
 2472 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 
 	clergymen = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = british
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 1850
+		size = 3056
 	}
 }
-#Wagga Wagga (12000/3000 POPS)
+#Wagga Wagga (19492/4873 POPS)
 2473 = {
 	clergymen = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = british
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 }
 #uncolonized in 1836
-#Ophir (8000/2000 POPS)
+#Ophir (12884/3221 POPS)
 2471 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 }
-#Moree (8000/2000 POPS)
+#Moree (12884/3221 POPS)
 2474 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 }
-#Broken Hill (12000/3000 POPS)
+#Broken Hill (19828/4957 POPS)
 2475 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 124
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 150
+		size = 248
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 2700
+		size = 4461
 	}
 }
 #Victoria Region - 44000
 #uncolonized in 1836
-#Melbourne (12000/3000 POPS)
+#Melbourne (19828/4957 POPS)
 2476 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 124
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 150
+		size = 248
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 2700
+		size = 4461
 	}
 }
-#Warnambool (8000/2000 POPS)
+#Warnambool (12884/3221 POPS)
 2477 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 }
-#Ballarat (8000/2000 POPS)
+#Ballarat (12884/3221 POPS)
 2478 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 }
-#Sale (8000/2000 POPS)
+#Sale (12884/3221 POPS)
 2479 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 }
-#Beechworth (4000/1000 POPS)
+#Beechworth (6612/1653 POPS)
 2480 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 }
-#Swan Hill (4000/1000 POPS)
+#Swan Hill (6612/1653 POPS)
 2481 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 
 }
-#Tasmania Region (36000)
+#Tasmania Region (59472)
 #ruled by Britain 1836
-#Hobart (36000/9000 POPS)
+#Hobart (59472/14868 POPS)
 2482 = {
 	bureaucrats = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = british
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	artisans = {
 		culture = british
 		religion = orthodox
-		size = 2000
+		size = 3304
 	}
 
 	soldiers = {
 		culture = british
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 6775
+		size = 11193
 	}
 
 }
 #Queensland Region : 64000
 #ruled by Britain 1836
-#2483 - Brisbane (12000/3000 POPS)
+#2483 - Brisbane (19492/4873 POPS)
 2483 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 
 	clergymen = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = british
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 }
 #uncolonized in 1836
-#Gladstone (8000/2000 POPS)
+#Gladstone (12884/3221 POPS)
 2484 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 }
-#Clermont (4000/1000 POPS)
+#Clermont (6612/1653 POPS)
 2485 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 }
-#Toowoomba (8000/2000 POPS)
+#Toowoomba (12884/3221 POPS)
 2486 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 }
-#Townsville (8000/2000 POPS)
+#Townsville (12884/3221 POPS)
 2487 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 }
-#Cooktown (10000/2500 POPS)
+#Cooktown (16524/4131 POPS)
 2488 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 125
+		size = 207
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 2275
+		size = 3759
 	}
 }
-#Longreach (4000/1000 POPS)
+#Longreach (6612/1653 POPS)
 2489 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 }
-#Charleville (4000/1000 POPS)
+#Charleville (6612/1653 POPS)
 2490 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 
 }
-#Normanton (6000/1500 POPS)
+#Normanton (9912/2478 POPS)
 2604 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 124
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1370
+		size = 2263
 	}
 }
 #South Australia Region - 32000
 #uncolonized in 1836
-#Adelaide (12000/3000 POPS)
+#Adelaide (19828/4957 POPS)
 2491 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 124
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 150
+		size = 248
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 2700
+		size = 4461
 	}
 }
-#Port Lincoln (4000/1000 POPS)
+#Port Lincoln (6612/1653 POPS)
 2492 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 }
-#Robe (4000/1000 POPS)
+#Robe (6612/1653 POPS)
 2493 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 }
-#Port Augusta (4000/1000 POPS)
+#Port Augusta (6612/1653 POPS)
 2494 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 }
-#Oodnadatta (4000/1000 POPS)
+#Oodnadatta (6612/1653 POPS)
 2495 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 }
-#Tarcoola (4000/1000 POPS)
+#Tarcoola (6612/1653 POPS)
 2496 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 
 }
 #Western Australia Region : 71000
 #ruled by Britain 1836
-#Perth (23000/5750 POPS)
+#Perth (38008/9502 POPS)
 2497 = {
 	clergymen = {
 		culture = british
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	artisans = {
 		culture = british
 		religion = orthodox
-		size = 40
+		size = 66
 	}
 
 	soldiers = {
 		culture = british
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 685
+		size = 1132
 	}
 
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 124
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 125
+		size = 207
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 250
+		size = 413
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 4500
+		size = 7435
 	}
 }
-#Kojonup (12000/3000 POPS)
+#Kojonup (19828/4957 POPS)
 2498 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 124
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 150
+		size = 248
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 2700
+		size = 4461
 	}
 
 }
-#Geraldton (8000/2000 POPS)
+#Geraldton (12884/3221 POPS)
 2499 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 }
-#Kalgoorlie (4000/1000 POPS)
+#Kalgoorlie (6612/1653 POPS)
 2500 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 }
-#Broome (8000/2000 POPS)
+#Broome (12884/3221 POPS)
 2501 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 }
-#Dampier (2000/500 POPS)
+#Dampier (3304/826 POPS)
 2502 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 5
+		size = 8
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 450
+		size = 743
 	}
 }
-#Laverton (2800/700 POPS)
+#Laverton (4632/1158 POPS)
 2503 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 35
+		size = 58
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 630
+		size = 1041
 	}
 }
-#Esperance (4000/1000 POPS)
+#Esperance (6612/1653 POPS)
 2504 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 900
+		size = 1487
 	}
 
 }
-#Halls Creek (2000/500 POPS)
+#Halls Creek (3268/817 POPS)
 2601 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 5
+		size = 8
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 5
+		size = 8
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 450
+		size = 743
 	}
 }
-#Roebourne (2000/500 POPS)
+#Roebourne (3300/825 POPS)
 2602 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 5
+		size = 8
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 5
+		size = 8
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 450
+		size = 743
 	}
 }
-#Wiluna (3200/800 POPS)
+#Wiluna (5292/1323 POPS)
 2605 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 40
+		size = 66
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 725
+		size = 1198
 	}
 }
-#Northern Australia Region (32000)
+#Northern Australia Region (52544)
 #uncolonized in 1836
-#Palmerston (20000/5000 POPS)
+#Palmerston (33048/8262 POPS)
 2505 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 75
+		size = 124
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 125
+		size = 207
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 250
+		size = 413
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 4500
+		size = 7435
 	}
 }
-#Tennant Creek (8000/2000 POPS)
+#Tennant Creek (12884/3221 POPS)
 2506 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 50
+		size = 83
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 100
+		size = 165
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 25
+		size = 41
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 1750
+		size = 2891
 	}
 }
-#Alice Springs (2800/700 POPS)
+#Alice Springs (4632/1158 POPS)
 2507 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 15
+		size = 25
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 35
+		size = 58
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 630
+		size = 1041
 	}
 
 }
-#Lajamanu (1200/300 POPS)
+#Lajamanu (1980/495 POPS)
 2603 = {
 	aristocrats = {
-		culture = aborigine
-		religion = orthodox
-		size = 2
-	}
-
-	clergymen = {
 		culture = aborigine
 		religion = orthodox
 		size = 3
 	}
 
-	artisans = {
-		culture = aborigine
-		religion = orthodox
-		size = 15
-	}
-
-	soldiers = {
+	clergymen = {
 		culture = aborigine
 		religion = orthodox
 		size = 5
 	}
 
+	artisans = {
+		culture = aborigine
+		religion = orthodox
+		size = 25
+	}
+
+	soldiers = {
+		culture = aborigine
+		religion = orthodox
+		size = 8
+	}
+
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 275
+		size = 454
 	}
 
 }
-#Norfolk Island Region (1000)
+#Norfolk Island Region (1652)
 #Ruled by Britain 1836
-#Norfolk Island (1000/250 POPS)
+#Norfolk Island (1652/413 POPS)
 2508 = {
 	clergymen = {
 		culture = british
 		religion = orthodox
-		size = 3
+		size = 5
 	}
 
 	artisans = {
 		culture = british
 		religion = orthodox
-		size = 10
+		size = 17
 	}
 
 	soldiers = {
 		culture = british
 		religion = orthodox
-		size = 2
+		size = 3
 	}
 
 	farmers = {
 		culture = british
 		religion = orthodox
-		size = 235
+		size = 388
 	}
 
 }
