@@ -417,6 +417,13 @@ jap_banzai_end = {
 	education_efficiency_modifier = 0.25
 	icon = 5
 }
+nagasaki_trade_port = {
+	culture_tech_research_bonus = 0.2
+	industry_tech_research_bonus = 0.1
+	army_tech_research_bonus = 0.15
+	navy_tech_research_bonus = 0.1
+	commerce_tech_research_bonus = 0.05
+}
 #-------------------------------------------------------ПЕРСИЯ-------------------------------------------------------
 silver_age = {
  tax_efficiency = 0.05

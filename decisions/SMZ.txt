@@ -1,0 +1,92 @@
+political_decisions = {
+
+	ask_association_with_ava = {
+		potential = {
+			tag = SMZ
+			NOT = { has_country_flag = ava_annexed }
+			ai = no
+		}
+		allow = {
+			military_score = 10
+			industrial_score = 20
+		}
+		effect = {
+			inherit = AVA
+			AVA = { all_core = { add_core = SMZ } }
+			set_country_flag = ava_annexed
+		}
+	}
+	
+	ask_association_with_asa = {
+		potential = {
+			tag = SMZ
+			NOT = { has_country_flag = asa_annexed }
+			ai = no
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			interchangeable_parts = 1
+			medicine = 1
+			industrial_score = 50
+		}
+		effect = {
+			inherit = ASA
+			ASA = { all_core = { add_core = SMZ } }
+			set_country_flag = asa_annexed
+		}
+	}
+	
+	ask_emperor_to_association = {
+		potential = {
+			tag = SMZ
+			NOT = { has_country_flag = emperor_annexed }
+			ai = no
+		}
+		allow = {
+			empiricism = 1
+			biologism = 1
+			inorganic_chemistry = 1
+		}
+		effect = {
+			inherit = YMT
+			YMT = { all_core = { add_core = SMZ } }
+			set_country_flag = emperor_annexed
+		}
+	}
+	
+	break_from_shogunate = {
+		potential = {
+			tag = SMZ
+			NOT = { has_country_flag = breaked_from_shogunate }
+			ai = no
+		}
+		allow = {
+			has_country_flag = ava_annexed
+			has_country_flag = asa_annexed
+			has_country_flag = emperor_annexed
+		}
+		effect = {
+			1656 = { secede_province = SMZ }
+			1658 = { secede_province = SMZ }
+			set_country_flag = hidden_tooltip
+			SMZ_break_from_shogunate = {}
+			random_owned = {
+				limit = {
+					owner = has_country_flag = hidden_tooltip
+				}
+				owner = {
+					TKG = {
+						release_vassal = SMZ
+						release_vassal = DAT
+						release_vassal = EDZ
+					}
+					TKG = { all_core = { add_core = SMZ } }
+					DAT = { all_core = { add_core = SMZ } }
+					EDZ = { all_core = { add_core = SMZ } }
+				}
+			}
+			clr_country_flag = hidden_tooltip
+			set_country_flag = breaked_from_shogunate
+		}
+	}
+}

@@ -113,6 +113,13 @@ political_decisions = {
 				add_country_modifier = { name = sakoku_policy duration = -1 }
 			}
 			
+			1661 = {
+				add_province_modifier = {
+					name = nagasaki_trade_port
+					duration = -1
+				}
+			}
+			
 			any_country = {
 				social_reform = good_subsidies
 				social_reform = good_pensions

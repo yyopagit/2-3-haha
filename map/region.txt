@@ -1340,6 +1340,7 @@ treaty_port = { 1498 1496 1538 1566 1481 }
 CHI_corruption_high = {}
 CHI_corruption_medium = {}
 CHI_corruption_low = {}
+SMZ_break_from_shogunate = {}
 
 ####КИТАЙСКИЕ ЭКОНОМИЧЕСКИЕ ЗОНЫ
 CHI_beijing_zone = {
