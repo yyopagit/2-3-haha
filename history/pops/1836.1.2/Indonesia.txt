@@ -1,91 +1,91 @@
-#East Sumatra Region (1188400)
+#East Sumatra Region (1200000)
 #ruled by the Netherlands 1836
-#Palembang (540400/135100 POPS)
+#Palembang (512264/128066 POPS)
 1399 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 700
+		size = 667
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 325
+		size = 309
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1500
+		size = 1428
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 450
+		size = 429
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 32125
+		size = 30593
 	}
 
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 750
+		size = 714
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 75
+		size = 71
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 143
 	}
 
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1100
+		size = 1048
 	}
 
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 875
+		size = 833
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 4000
+		size = 3809
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 330
+		size = 314
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 91875
+		size = 87493
 	}
 
 	bureaucrats = {
@@ -97,3235 +97,218 @@
 	clergymen = {
 		culture = dutch
 		religion = orthodox
-		size = 20
+		size = 19
 	}
 
 	artisans = {
 		culture = dutch
 		religion = orthodox
-		size = 20
+		size = 19
 	}
 
 	soldiers = {
 		culture = dutch
 		religion = orthodox
-		size = 150
+		size = 143
 	}
 }
-#Tanjungpinang (100000/25000 POPS)
+#Tanjungpinang (166544/41636 POPS)
 1402 = {
 	bureaucrats = {
 		culture = dutch
 		religion = orthodox
-		size = 270
+		size = 257
 	}
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 25
+		size = 24
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 800
+		size = 762
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 75
+		size = 71
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 143
 	}
 
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 50
+		size = 48
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 50
+		size = 48
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 50
+		size = 48
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 143
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 20000
+		size = 19046
 	}
 
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 143
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 125
+		size = 119
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 400
+		size = 381
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 300
+		size = 286
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 21125
+		size = 20117
 	}
 }
-#Lampung (548000/137000 POPS)
+#Lampung (521192/130298 POPS)
 1403 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1500
+		size = 1428
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 875
+		size = 833
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 3500
+		size = 3333
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 375
+		size = 357
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 105875
+		size = 100825
 	}
 
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 350
+		size = 333
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 200
+		size = 190
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1100
+		size = 1048
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 750
+		size = 714
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 19200
+		size = 18284
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 50
+		size = 48
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 2350
+		size = 2238
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 143
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 550
+		size = 524
 	}
 }
-#Riau Region (88000)
+#Riau Region (91000)
 #ruled by The Netherlands 1836
-#Pangkalpinang (70000/17500 POPS)
+#Pangkalpinang (81936/20484 POPS)
 1404 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 100
+		size = 49
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 73
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 750
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 13850
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 25
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 125
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 26275
-	}
-}
-#Natuna (18000/4500 POPS)
-2576 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50 
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 60 
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 120 
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2700 
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 15 
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 25 
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75 
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1360 
-	}
-}
-#Siak Region (372000)
-#ruled by Siak 1836
-#Jambi (120000/30000 POPS)
-1398 = {
-	bureaucrats = {
-		culture = dutch
-		religion = orthodox
-		size = 400
-	}
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 42750
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 25
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 950
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1025
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 3800
-	}
-}
-#Inderagiri (96000/24000 POPS)
-1400 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 400
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 27150
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 25
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 700
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 3075
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 225
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 15075
-	}
-}
-#Siak (156000/39000 POPS)
-1401 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 350
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 275
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 725
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 38275
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 25
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1100
-	}
-
-	labourers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 975
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 175
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 225
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 6575
-	}
-
-}
-#Aceh Region (444000) 
-#Ruled by Aceh 1836
-#Banda Aceh (128000/32000 POPS)
-1405 = {
-	aristocrats = {
-		culture = polynesian
-		religion = orthodox
-		size = 200
-	}
-
-
-	officers = {
-		culture = polynesian
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = polynesian
-		religion = orthodox
-		size = 175
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 1250
-	}
-
-	soldiers = {
-		culture = polynesian
-		religion = orthodox
-		size = 110
-	}
-
-	farmers = {
-		culture = polynesian
-		religion = orthodox
-		size = 60650
-	}
-
-	aristocrats = {
-		culture = polynesian
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = polynesian
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 250
-	}
-
-	soldiers = {
-		culture = polynesian
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = polynesian
-		religion = orthodox
-		size = 15475
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 500
-	}
-}
-#Medan (160000/40000 POPS)
-1406 = {
-	aristocrats = {
-		culture = polynesian
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = polynesian
-		religion = orthodox
-		size = 250
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 1100
-	}
-
-	soldiers = {
-		culture = polynesian
-		religion = orthodox
-		size = 110
-	}
-
-	farmers = {
-		culture = polynesian
-		religion = orthodox
-		size = 32500
-	}
-
-	aristocrats = {
-		culture = polynesian
-		religion = orthodox
-		size = 150
-	}
-
-	clergymen = {
-		culture = polynesian
-		religion = orthodox
-		size = 125
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 250
-	}
-
-	soldiers = {
-		culture = polynesian
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = polynesian
-		religion = orthodox
-		size = 23325
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 1100
-	}
-}
-#Tapaktuan (156000/39000 POPS)
-1407 = {
-	aristocrats = {
-		culture = polynesian
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = polynesian
-		religion = orthodox
-		size = 275
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 1250
-	}
-
-	soldiers = {
-		culture = polynesian
-		religion = orthodox
-		size = 110
-	}
-
-	farmers = {
-		culture = polynesian
-		religion = orthodox
-		size = 40725
-	}
-
-	aristocrats = {
-		culture = polynesian
-		religion = orthodox
-		size = 150
-	}
-
-	clergymen = {
-		culture = polynesian
-		religion = orthodox
-		size = 125
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 200
-	}
-
-	soldiers = {
-		culture = polynesian
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = polynesian
-		religion = orthodox
-		size = 28425
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 500
-	}
-}
-#Minangkabau Region (956000)
-#ruled by The Netherlands 1836
-#Padang (240000/60000 POPS)
-1408 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 375
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2100
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 56975
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 25
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 200
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 200
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 125
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 28425
-	}
-}
-#Sibolga (528000/132000 POPS)
-1409 = {
-	aristocrats = {
-		culture = polynesian
-		religion = orthodox
-		size = 400
-	}
-
-	clergymen = {
-		culture = polynesian
-		religion = orthodox
-		size = 250
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 1250
-	}
-
-	soldiers = {
-		culture = polynesian
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = polynesian
-		religion = orthodox
-		size = 43750
-	}
-
-	clergymen = {
-		culture = polynesian
-		religion = orthodox
-		size = 25
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 1750
-	}
-
-	soldiers = {
-		culture = polynesian
-		religion = orthodox
-		size = 25
-	}
-
-	farmers = {
-		culture = polynesian
-		religion = orthodox
-		size = 200
-	}
-
-	aristocrats = {
-		culture = polynesian
-		religion = orthodox
-		size = 1250
-	}
-
-	clergymen = {
-		culture = polynesian
-		religion = orthodox
-		size = 875
-	}
-
-	artisans = {
-		culture = polynesian
-		religion = orthodox
-		size = 3750
-	}
-
-	soldiers = {
-		culture = polynesian
-		religion = orthodox
-		size = 110
-	}
-
-	farmers = {
-		culture = polynesian
-		religion = orthodox
-		size = 97125
-	}
-}
-#Bencoolen (120000/30000 POPS)
-1410 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 60
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 30
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 21710
-	}
-
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 5125
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 200
-	}
-
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 125
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 24625
-	}
-
-	bureaucrats = {
-		culture = dutch
-		religion = orthodox
-		size = 10
-	}
-
-	clergymen = {
-		culture = dutch
-		religion = orthodox
-		size = 20
-	}
-
-	artisans = {
-		culture = dutch
-		religion = orthodox
-		size = 20
-	}
-
-	soldiers = {
-		culture = dutch
-		religion = orthodox
-		size = 150
-	}
-}
-#Gunungsitoli (68000/17000 POPS)
-1411 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 700
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 360
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 55650
-	}
-}
-#Java Region - 8236000
-#ruled by the Netherlands 1836
-#Batavia (2236000/559000 POPS)
-1413 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 4000
-	}
-
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2500
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 10000
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 6000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1425
-	}
-
-	labourers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 438500
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 375
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 51375
-	}
-
-	aristocrats = {
-		culture = dutch
-		religion = orthodox
-		size = 750
-	}
-
-	bureaucrats = {
-		culture = dutch
-		religion = orthodox
-		size = 1500
-	}
-
-	clergymen = {
-		culture = dutch
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = dutch
-		religion = orthodox
-		size = 1075
-	}
-
-	soldiers = {
-		culture = dutch
-		religion = orthodox
-		size = 675
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 225
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 10000
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 5000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 18425
-	}
-}
-#Bogor (748000/187000 POPS)
-1414 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1600
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 27650
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 7500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 145000
-	}
-}
-#Cirebon (968000/242000 POPS)
-1415 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 4725
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1100
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 17600
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2000
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2000
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 8000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 675
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 190750
-	}
-}
-#Yogyakarta (536000/134000 POPS)
-1416 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1250
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 6000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 375
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 124250
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 375
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 9975
-	}
-}
-#Semarang (1116000/279000 POPS)
-1417 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2375
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 10000
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 675
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 217875
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 225
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 29725
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 9225
-	}
-}
-#Surabaya (1092000/273000 POPS)
-1418 = {
-	bureaucrats = {
-		culture = dutch
-		religion = orthodox
-		size = 700
-	}
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2500
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 9000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 228500
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 600
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 17800
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 3250
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 5625
-	}
-}
-#Surakarta (360000/90000 POPS)
-1419 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1100
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 625
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 4000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 71625
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 11225
-	}
-}
-#Probolinggo (708000/177000 POPS)
-1420 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 9975
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1750
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1625
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 8000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 153125
-	}
-}
-#Madura (496000/124000 POPS)
-1421 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1400
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1100
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 4000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 330
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 97500
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 330
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 8325
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 6800
-	}
-
-}
-#Eastern Borneo Region (542000)
-#uncolonized in 1836
-#Banjarmasin (166000/44000 POPS)
-1423 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 14400
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 350
-	}
-
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 375
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1850
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 68675
-	}
-}
-#Muraleve (96000/24000 POPS)
-1422 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1300
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1250
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 4250
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 219500
-	}
-}
-#Pasir (64000/16000 POPS)
-1424 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 9700
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 125
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 650
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 30925
-	}
-}
-#Tarakan (96000/24000 POPS)
-1425 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1200
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1750
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 122750
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 26500
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 7500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	labourers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 31000
-	}
-}
-#Samarinda (120000/30000 POPS)
-1429 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1000
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 155000
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 4000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 30500
-	}
-}
-#Western Borneo Region (368000)
-#uncolonized in 1836
-#Pontianak (148000/37000 POPS)
-1426 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 4750
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 275
-	}
-
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 125600
-	}
-
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1150
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 40
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 15750
-	}
-}
-#Kota Waringin (152000/38000 POPS)
-1427 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 400
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 9700
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 350
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 650
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 91900
-	}
-}
-#Sintang (68000/17000 POPS)
-1428 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 950
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 4500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 155750
-	}
-
-}
-#Celebes Region (1040000)
-#uncolonized in 1836
-#Makassar (224000/56000 POPS)
-1430 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 700
-	}
-
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 525
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 480
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 81025
-	}
-}
-#Bone (140000/35000 POPS)
-1431 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 400
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 350
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1750
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 405
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 62150
-	}
-}
-#Mamuju (128000/32000 POPS)
-1432 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 375
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 64750
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1200
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 525
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 16675
-	}
-}
-#Menado (256000/64000 POPS)
-1433 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1400
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 65100
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 175
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 175
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1800
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 525
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 18675
-	}
-}
-#Luwuk (100000/25000 POPS)
-1434 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1250
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 43000
-	}
-}
-#Palu (96000/24000 POPS)
-1435 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1250
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 43000
-	}
-}
-#Kendari (48000/12000 POPS)
-1436 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1250
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 80250
-	}
-}
-#Bulon (48000/12000 POPS)
-1437 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1250
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 80250
-	}
-
-}
-#Sunda Region (1536400)
-#Ruled by Bali 1836
-#Bali (640000/160000 POPS)
-1438 = {
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 125
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1100
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 210
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 26050
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1500
-	}
-
-
-	officers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 200
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1425
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 7000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 600
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 260750
-	}
-}
-#Lombok (200000/50000 POPS)
-1442 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 110
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 39150
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 400
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 400
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 310
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 82200
-	}
-}
-#ruled by the Netherlands 1836
-#Flores (176000/44000 POPS)
-1439 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 425
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2200
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 435
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 90425
-	}
-}
-#Sumbawa (244000/61000 POPS)
-1440 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 200
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 175
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 345
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 30725
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 425
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2200
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 435
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 80425
-	}
-}
-#Sumba (192000/48000 POPS)
-1441 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 125
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 600
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 330
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 24025
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 350
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 350
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1800
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 405
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 64350
-	}
-}
-#Roti (24000/6000 POPS)
-1443 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1000
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 55250
-	}
-}
-#Alor (36000/9000 POPS)
-1444 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 200
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 400
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 600
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 30200
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 3000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 84750
-	}
-}
-#Kaupeng (24400/6100 POPS)
-1445 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 200
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 350
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 18200
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 56000
-	}
-
-	bureaucrats = {
-		culture = dutch
-		religion = orthodox
-		size = 10
-	}
-
-	artisans = {
-		culture = dutch
-		religion = orthodox
-		size = 15
-	}
-
-	clergymen = {
-		culture = dutch
-		religion = orthodox
-		size = 25
-	}
-
-	soldiers = {
-		culture = dutch
-		religion = orthodox
-		size = 150
-	}
-}
-#Ruled by Portugal 1836
-#Dili (88000/22000 POPS)
-1446 = {
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 25
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 30
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1510
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 8800
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 250
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 3175
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 125
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
+		size = 367
 	}
 
 	soldiers = {
@@ -3337,305 +320,3112 @@
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 34575
+		size = 6779
 	}
 
-	bureaucrats = {
-		culture = portuguese
-		religion = orthodox
-		size = 5
-	}
-
-	artisans = {
-		culture = portuguese
-		religion = orthodox
-		size = 10
-	}
-
-	clergymen = {
-		culture = portuguese
-		religion = orthodox
-		size = 10
-	}
-
-	soldiers = {
-		culture = portuguese
-		religion = orthodox
-		size = 50
-	}
-
-}
-#Moluccas Region (280000)
-#ruled by The Netherlands 1836
-#Ambon (44400/11100 POPS)
-1449 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 115
+		size = 12
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 125
+		size = 24
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 6000
+		size = 61
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 450
+		size = 37
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 41000
+		size = 12862
+	}
+}
+#Natuna (9064/2266 POPS)
+2576 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 24 
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 29 
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 73
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 59 
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1322 
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 7 
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 12 
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 37
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 37 
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 666 
+	}
+}
+#Siak Region (500000)
+#ruled by Siak 1836
+#Jambi (171740/42935 POPS)
+1398 = {
+	bureaucrats = {
+		culture = dutch
+		religion = orthodox
+		size = 339
+	}
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 212
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 212
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 423
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 381
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 36203
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 21
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 805
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 868
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 42
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 42
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 42
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 127
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 3218
+	}
+}
+#Inderagiri (161676/40419 POPS)
+1400 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 127
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 127
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 339
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 381
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 22993
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 21
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 593
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 2604
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 85
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 64
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 127
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 191
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 12767
+	}
+}
+#Siak (166584/41646 POPS)
+1401 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 296
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 233
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 614
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 254
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 32414
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 21
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 932
+	}
+
+	labourers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 826
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 85
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 64
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 148
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 191
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 5568
+	}
+
+}
+#Aceh Region (1000000) 
+#Ruled by Aceh 1836
+#Banda Aceh (375392/93848 POPS)
+1405 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 238
+	}
+
+
+	officers = {
+		culture = polynesian
+		religion = orthodox
+		size = 119
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 208
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1485
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 131
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 72062
+	}
+
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 119
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 89
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 297
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 119
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 18387
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 594
+	}
+}
+#Medan (281884/70471 POPS)
+1406 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 297
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 297
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1307
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 131
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 38616
+	}
+
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 178
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 149
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 297
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 178
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 27714
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1307
+	}
+}
+#Tapaktuan (342724/85681 POPS)
+1407 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 297
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 327
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1485
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 131
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 48389
+	}
+
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 178
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 149
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 238
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 119
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 33774
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 594
+	}
+}
+#Minangkabau Region (1200000)
+#ruled by The Netherlands 1836
+#Padang (307672/76918 POPS)
+1408 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 382
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 319
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1784
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 255
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 48397
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 21
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 637
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 64
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 170
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 170
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 106
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 85
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 382
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 24146
+	}
+}
+#Sibolga (512764/128191 POPS)
+1409 = {
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 340
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 212
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1062
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 127
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 37163
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 21
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 1487
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 21
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 170
+	}
+
+	aristocrats = {
+		culture = polynesian
+		religion = orthodox
+		size = 1062
+	}
+
+	clergymen = {
+		culture = polynesian
+		religion = orthodox
+		size = 743
+	}
+
+	artisans = {
+		culture = polynesian
+		religion = orthodox
+		size = 3185
+	}
+
+	soldiers = {
+		culture = polynesian
+		religion = orthodox
+		size = 93
+	}
+
+	farmers = {
+		culture = polynesian
+		religion = orthodox
+		size = 82505
+	}
+}
+#Bencoolen (185344/46336 POPS)
+1410 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 85
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 51
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 25
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 255
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 18442
+	}
+
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 42
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 637
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 64
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 4353
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 170
+	}
+
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 106
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 637
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 382
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 20918
 	}
 
 	bureaucrats = {
 		culture = dutch
 		religion = orthodox
-		size = 10
+		size = 8
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 17
 	}
 
 	artisans = {
 		culture = dutch
+		religion = orthodox
+		size = 17
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 127
+	}
+}
+#Gunungsitoli (194220/48555 POPS)
+1411 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 255
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 127
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 595
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 306
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 47272
+	}
+}
+#Java Region (12700000)
+#ruled by the Netherlands 1836
+#Batavia (1236224/309056 POPS)
+1413 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 2234
+	}
+
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1396
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 5585
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 3351
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 796
+	}
+
+	labourers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 244886
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 279
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 210
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 139
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 168
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 28691
+	}
+
+	aristocrats = {
+		culture = dutch
+		religion = orthodox
+		size = 419
+	}
+
+	bureaucrats = {
+		culture = dutch
+		religion = orthodox
+		size = 838
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 42
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 600
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 377
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 126
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 5585
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 2793
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 251
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 10290
+	}
+}
+#Bogor (1334472/333618 POPS)
+1414 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 539
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 269
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 2870
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 539
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 49608
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 2692
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 2692
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 13456
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 808
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 260145
+	}
+}
+#Cirebon (1087448/271862 POPS)
+1415 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 118
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 88
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 3533
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 354
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 5565
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 118
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 118
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1295
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 354
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 20729
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 2355
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 2355
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 9423
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 795
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 224662
+	}
+}
+#Yogyakarta (2133368/533342 POPS)
+1416 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 5533
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 4609
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 22126
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1384
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 458202
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 370
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 184
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 2765
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1384
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 36785
+	}
+}
+#Semarang (2261284/565321 POPS)
+1417 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 5090
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 4836
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 20363
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 4072
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1374
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 443654
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 509
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 458
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 3055
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 611
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 60528
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 204
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 153
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1018
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 611
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 18785
+	}
+}
+#Surabaya (2035900/508975 POPS)
+1418 = {
+	bureaucrats = {
+		culture = dutch
+		religion = orthodox
+		size = 1307
+	}
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 4667
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 4667
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 16801
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1400
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 426556
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 280
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 187
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1400
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1120
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 33228
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 140
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 93
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 6068
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 560
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 10501
+	}
+}
+#Surakarta (790408/197602 POPS)
+1419 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 2415
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1372
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 8783
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 989
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 157257
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 220
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 165
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1098
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 659
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 24644
+	}
+}
+#Probolinggo (1369024/342256 POPS)
+1420 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 195
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 146
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1457
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 583
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 19381
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 3400
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 3158
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 15544
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 875
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 297517
+	}
+}
+#Madura (451872/112968 POPS)
+1421 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1287
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1011
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 3678
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 303
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 89650
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 92
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 69
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 460
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 303
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 7655
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 92
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1839
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 276
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 6253
+	}
+
+}
+#Eastern Borneo Region (900000)
+#uncolonized in 1836
+#Banjarmasin (104332/26083 POPS)
+1423 = {
+	aristocrats = {
+		culture = asian_minor
 		religion = orthodox
 		size = 15
 	}
 
 	clergymen = {
-		culture = dutch
+		culture = asian_minor
 		religion = orthodox
-		size = 25
+		size = 15
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 135
 	}
 
 	soldiers = {
-		culture = dutch
+		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 45
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 4335
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 105
+	}
+
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 113
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 557
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 90
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 20673
 	}
 }
+#Muraleve (272780/68195 POPS)
+1422 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 391
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 376
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1279
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 66074
+	}
+}
+#Pasir (51052/12763 POPS)
+1424 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 15
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 15
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 45
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 45
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 2920
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 45
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 38
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 196
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 135
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 9309
+	}
+}
+#Tarakan (237756/59439 POPS)
+1425 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 361
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 527
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 602
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 45
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 36951
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 75
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 151
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 753
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 7977
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 151
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 151
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 2258
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 30
+	}
+
+	labourers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 9332
+	}
+}
+#Samarinda (234080/58520 POPS)
+1429 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 301
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 151
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 602
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 46659
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 151
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 151
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1204
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 45
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 9181
+	}
+}
+#Western Borneo Region (650000)
 #uncolonized in 1836
-#Ternate (120000/30000 POPS)
-1447 = {
+#Pontianak (231984/57996 POPS)
+1426 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 200
+		size = 19
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 175
+		size = 19
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 100
+		size = 39
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 450
+		size = 19
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 46375
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 400
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 4500
+		size = 1852
 	}
 
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 125
+		size = 107
 	}
+
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 100
+		size = 117
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1100
+		size = 195
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 375
+		size = 39
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 27650
+		size = 48967
+	}
+
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 19
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 448
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 16
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 6140
 	}
 }
-#Jilolo (36000/9000 POPS)
-1448 = {
+#Kota Waringin (163892/40973 POPS)
+1427 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 400
+		size = 29
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 250
+		size = 29
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1000
+		size = 156
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 450
+		size = 58
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 66750
+		size = 3782
 	}
 
 	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 136
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 253
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 585
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 117
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 35828
+	}
+}
+#Sintang (254124/63531 POPS)
+1428 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 585
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 370
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1754
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 97
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 60725
+	}
+
+}
+#Celebes Region (1500000)
+#uncolonized in 1836
+#Makassar (218996/54749 POPS)
+1430 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 447
+	}
+
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 335
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1916
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 307
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 51744
+	}
+}
+#Bone (166184/41546 POPS)
+1431 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 255
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 224
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1118
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 259
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 39690
+	}
+}
+#Mamuju (218852/54713 POPS)
+1432 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 160
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 160
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 958
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 239
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 41350
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 48
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 48
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 766
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 335
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 10649
+	}
+}
+#Menado (227720/56930 POPS)
+1433 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 319
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 319
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 894
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 192
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 41571
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 112
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 112
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1150
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 335
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 11926
+	}
+}
+#Luwuk (116228/29057 POPS)
+1434 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 160
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 160
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 798
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 479
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 27460
+	}
+}
+#Palu (116228/29057 POPS)
+1435 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 160
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 160
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 798
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 479
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 27460
+	}
+}
+#Kendari (217896/54474 POPS)
+1436 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 958
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 798
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1277
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 192
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 51249
+	}
+}
+#Bulon (217896/54474 POPS)
+1437 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 958
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 798
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1277
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 192
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 51249
+	}
+
+}
+#Sunda Region (2000000)
+#Ruled by Bali 1836
+#Bali (575580/143895 POPS)
+1438 = {
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 60
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 529
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 101
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 12538
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 722
+	}
+
+
+	officers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 96
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 686
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 3369
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 289
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 125505
+	}
+}
+#Lombok (241272/60318 POPS)
+1442 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 48
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 72
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 241
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 53
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 18843
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 193
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 193
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 963
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 149
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 39563
+	}
+}
+#ruled by the Netherlands 1836
+#Flores (180944/45236 POPS)
+1439 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 241
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 205
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1059
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 209
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 43522
+	}
+}
+#Sumbawa (223672/55918 POPS)
+1440 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 96
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 84
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 361
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 166
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 14788
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 241
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 205
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1059
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 209
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 38709
+	}
+}
+#Sumba (178048/44512 POPS)
+1441 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 72
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 60
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 289
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 159
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 11563
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 168
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 168
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 866
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 195
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 30972
+	}
+}
+#Roti (114936/28734 POPS)
+1443 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 481
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 241
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1203
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 217
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 26592
+	}
+}
+#Alor (235072/58768 POPS)
+1444 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 96
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 193
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 481
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 289
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 14535
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 361
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 361
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1444
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 217
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 40791
+	}
+}
+#Kaupeng (152472/38118 POPS)
+1445 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 72
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 96
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 168
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 144
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 8760
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 241
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 241
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1203
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 144
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 26953
+	}
+
+	bureaucrats = {
+		culture = dutch
+		religion = orthodox
+		size = 5
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 7
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 12
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 72
+	}
+}
+#Ruled by Portugal 1836
+#Dili (98004/24501 POPS)
+1446 = {
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 12
+	}
+
+	artisans = {
 		culture = asian_minor
 		religion = orthodox
 		size = 120
 	}
 
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 125
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1500
-	}
-
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 450
+		size = 14
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 6800
-	}
-}
-#Ceram (56000/14000 POPS)
-1450 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 750
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 52500
+		size = 727
 	}
 
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1000
+		size = 24
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 750
+		size = 36
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1500
+		size = 24
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 450
+		size = 120
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 76000
+		size = 4235
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 24
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 361
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 120
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1528
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 72
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 60
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 241
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 106
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 16641
+	}
+
+	bureaucrats = {
+		culture = portuguese
+		religion = orthodox
+		size = 2
+	}
+
+	artisans = {
+		culture = portuguese
+		religion = orthodox
+		size = 5
+	}
+
+	clergymen = {
+		culture = portuguese
+		religion = orthodox
+		size = 5
+	}
+
+	soldiers = {
+		culture = portuguese
+		religion = orthodox
+		size = 24
+	}
+
+}
+#Moluccas Region (950000)
+#ruled by The Netherlands 1836
+#Ambon (47612/11903 POPS)
+1449 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 29
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 31
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1491
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 112
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 10191
+	}
+
+	bureaucrats = {
+		culture = dutch
+		religion = orthodox
+		size = 2
+	}
+
+	artisans = {
+		culture = dutch
+		religion = orthodox
+		size = 4
+	}
+
+	clergymen = {
+		culture = dutch
+		religion = orthodox
+		size = 6
+	}
+
+	soldiers = {
+		culture = dutch
+		religion = orthodox
+		size = 37
 	}
 }
-#Aru (24000/6000 POPS)
-1451 = {
+#uncolonized in 1836
+#Ternate (81276/20319 POPS)
+1447 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
@@ -3645,216 +3435,426 @@
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 50
+		size = 43
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2000
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 36500
-	}
-
-	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
 		size = 25
 	}
 
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1000
-	}
-
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 450
+		size = 112
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 18000
+		size = 11527
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 12
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 99
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 37
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1119
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 31
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 25
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 273
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 93
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 6873
+	}
+}
+#Jilolo (77400/19350 POPS)
+1448 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 99
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 62
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 249
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 112
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 16592
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 30
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 31
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 373
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 112
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 1690
+	}
+}
+#Ceram (135624/33906 POPS)
+1450 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 186
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 124
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 621
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 112
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 13050
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 249
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 186
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 373
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 112
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 18893
+	}
+}
+#Aru (58088/14522 POPS)
+1451 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 12
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 12
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 497
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 75
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 9073
+	}
+
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 6
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 12
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 249
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 112
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 4474
 	}
 
 }
 #Wests Papua (432000)
 #uncolonized in 1836
-#Sorong (88000/22000 POPS)
+#Sorong (154932/38733 POPS)
 1453 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 50
+		size = 19
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 50
+		size = 19
 	}
 
 	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1100
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 22850
-	}
-
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 200
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 350
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 50
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 76250
-	}
-}
-#Biak (32000/8000 POPS)
-1452 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 1000
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 500
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2500
-	}
-
-	soldiers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	farmers = {
-		culture = asian_minor
-		religion = orthodox
-		size = 75250
-	}
-}
-#Merah (172000/43000 POPS)
-1454 = {
-	aristocrats = {
-		culture = asian_minor
-		religion = orthodox
-		size = 450
-	}
-
-	clergymen = {
-		culture = asian_minor
-		religion = orthodox
-		size = 425
-	}
-
-	artisans = {
-		culture = asian_minor
-		religion = orthodox
-		size = 2000
-	}
-
-	soldiers = {
 		culture = asian_minor
 		religion = orthodox
 		size = 420
 	}
 
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 57
+	}
+
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 80725
+		size = 8720
 	}
-}
-#Merauke (140000/35000 POPS)
-1560 = {
+
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 400
+		size = 76
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 350
+		size = 134
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1500
+		size = 19
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 390
+		size = 172
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 92450
+		size = 29097
+	}
+}
+#Biak (121664/30416 POPS)
+1452 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 382
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 191
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 954
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 172
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 28717
+	}
+}
+#Merah (128252/32063 POPS)
+1454 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 172
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 162
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 763
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 160
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 30806
+	}
+}
+#Merauke (145152/36288 POPS)
+1560 = {
+	aristocrats = {
+		culture = asian_minor
+		religion = orthodox
+		size = 153
+	}
+
+	clergymen = {
+		culture = asian_minor
+		religion = orthodox
+		size = 134
+	}
+
+	artisans = {
+		culture = asian_minor
+		religion = orthodox
+		size = 572
+	}
+
+	soldiers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 149
+	}
+
+	farmers = {
+		culture = asian_minor
+		religion = orthodox
+		size = 35280
 	}
 
 }

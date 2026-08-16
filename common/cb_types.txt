@@ -328,7 +328,7 @@ conquest = {
 			capital_scope = {
 				OR = {
 					continent = africa
-					continent = north_africa
+					continent = arab_region
 				}
 			}
 		}
@@ -411,7 +411,7 @@ conquest_africa_stage_one = {
 		capital_scope = {
 			OR = {
 				continent = africa
-				continent = north_africa
+				continent = arab_region
 			}
 		}
 		THIS = { has_country_flag = malaria }
@@ -496,7 +496,7 @@ make_puppet_first_stage = {
 		capital_scope = {
 			OR = {
 				continent = africa
-				continent = north_africa
+				continent = arab_region
 			}
 		}
 		NOT = { number_of_states = 6 }
@@ -557,7 +557,7 @@ conquest_africa_stage_two = {
 		capital_scope = {
 			OR = {
 				continent = africa
-				continent = north_africa
+				continent = arab_region
 			}
 		}
 		THIS = { has_country_flag = mission_to_civilize }
@@ -626,7 +626,7 @@ conquest_africa_stage_three = {
 		capital_scope = {
 			OR = {
 				continent = africa
-				continent = north_africa
+				continent = arab_region
 			}
 		}
 		THIS = { has_country_flag = colonial_negotiations }
@@ -696,7 +696,7 @@ conquest2 = {
 			capital_scope = {
 				OR = {
 					continent = africa
-					continent = north_africa
+					continent = arab_region
 				}
 			}
 		}
@@ -846,7 +846,7 @@ add_to_sphere = {
 			capital_scope = {
 				OR = {
 					continent = africa
-					continent = north_africa
+					continent = arab_region
 				}
 			}
 		}
@@ -1702,7 +1702,7 @@ dismantle_forts = {
 			capital_scope = {
 				OR = {
 					continent = africa
-					continent = north_africa
+					continent = arab_region
 				}
 			}
 		}
@@ -1831,7 +1831,7 @@ make_puppet = {
 			capital_scope = {
 				OR = {
 					continent = africa
-					continent = north_africa
+					continent = arab_region
 				}
 			}
 		}
@@ -1967,7 +1967,7 @@ humiliate = {
 			capital_scope = {
 				OR = {
 					continent = africa
-					continent = north_africa
+					continent = arab_region
 				}
 			}
 		}
@@ -2024,7 +2024,7 @@ humiliate2 = {
 			capital_scope = {
 				OR = {
 					continent = africa
-					continent = north_africa
+					continent = arab_region
 				}
 			}
 		}
@@ -2070,7 +2070,7 @@ humiliate3 = {
 			capital_scope = {
 				OR = {
 					continent = africa
-					continent = north_africa
+					continent = arab_region
 				}
 			}
 		}
@@ -2139,7 +2139,7 @@ demand_concession_casus_belli = {
 			capital_scope = {
 				OR = {
 					continent = africa
-					continent = north_africa
+					continent = arab_region
 				}
 			}
 		}
@@ -2211,7 +2211,7 @@ establish_protectorate_casus_belli = {
 			capital_scope = {
 				OR = {
 					continent = africa
-					continent = north_africa
+					continent = arab_region
 				}
 			}
 		}
@@ -2763,7 +2763,7 @@ war_military_access = {
 			capital_scope = {
 				OR = {
 					continent = africa
-					continent = north_africa
+					continent = arab_region
 				}
 			}
 		}

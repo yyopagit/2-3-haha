@@ -1,776 +1,776 @@
 #file includes modern Malaysia, Singapore and Brunei
-#Malaya Region (780800)
+#Malaya Region (1000000)
 #Ruled By Britain 1836
-#Singapore (36000/9000 POPS)
+#Singapore (173364/43341 POPS)
 1384 = {
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 50
+		size = 55
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 2450
+		size = 2716
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 30500
+		size = 33809
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 50
+		size = 55
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 250
+		size = 277
 	}
 
 	farmers = {
 		culture = malay
 		religion = orthodox
-		size = 4700
+		size = 5210
 	}
 
 	artisans = {
 		culture = tamil
 		religion = orthodox
-		size = 1100
+		size = 1219
 	}
 }
-#Malacca (52800/13200 POPS)
+#Malacca (58528/14632 POPS)
 1386 = {
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 50
+		size = 55
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 1450
+		size = 1607
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 1500
+		size = 1663
 	}
 
 	aristocrats = {
 		culture = british
 		religion = orthodox
-		size = 175
+		size = 194
 	}
 
 	bureaucrats = {
 		culture = british
 		religion = orthodox
-		size = 25
+		size = 28
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 100
+		size = 111
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 500
+		size = 554
 	}
 
 	soldiers = {
 		culture = malay
 		religion = orthodox
-		size = 100
+		size = 111
 	}
 
 	farmers = {
 		culture = malay
 		religion = orthodox
-		size = 9300
+		size = 10309
 	}
 }
-#Penang (84000/21000 POPS)
+#Penang (92664/23166 POPS)
 1388 = {
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 50
+		size = 55
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 3875
+		size = 4295
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 2075
+		size = 2300
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 150
+		size = 166
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 750
+		size = 831
 	}
 
 	soldiers = {
 		culture = malay
 		religion = orthodox
-		size = 100
+		size = 111
 	}
 
 	farmers = {
 		culture = malay
 		religion = orthodox
-		size = 13900
+		size = 15408
 	}
 }
 #Under Malay Rule 1836 (324000)
-#Johor Bahru (108000/27000 POPS)
+#Johor Bahru (115768/28942 POPS)
 1385 = {
 	aristocrats = {
 		culture = malay
 		religion = orthodox
-		size = 250
+		size = 277
 	}
 
 	bureaucrats = {
 		culture = malay
 		religion = orthodox
-		size = 125
+		size = 139
 	}
 
 	officers = {
 		culture = malay
 		religion = orthodox
-		size = 75
+		size = 83
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 250
+		size = 277
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 1250
+		size = 1386
 	}
 
 	soldiers = {
 		culture = malay
 		religion = orthodox
-		size = 110
+		size = 122
 	}
 
 	farmers = {
 		culture = malay
 		religion = orthodox
-		size = 22050
+		size = 24442
 	}
 
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 50
+		size = 55
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 1450
+		size = 1607
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 500
+		size = 554
 	}
 }
-#Kuala Lumpur (68000/17000 POPS)
+#Kuala Lumpur (71868/17967 POPS)
 1387 = {
 	aristocrats = {
 		culture = malay
 		religion = orthodox
-		size = 150
+		size = 166
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 150
+		size = 166
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 750
+		size = 831
 	}
 
 	soldiers = {
 		culture = malay
 		religion = orthodox
-		size = 110
+		size = 122
 	}
 
 	labourers = {
 		culture = malay
 		religion = orthodox
-		size = 12950
+		size = 14355
 	}
 
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 50
+		size = 55
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 950
+		size = 1053
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 1100
+		size = 1219
 	}
 }
-#Kuantan (32000/8000 POPS)
+#Kuantan (35468/8867 POPS)
 1390 = {
 	aristocrats = {
 		culture = malay
 		religion = orthodox
-		size = 75
+		size = 83
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 75
+		size = 83
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 400
+		size = 443
 	}
 
 	soldiers = {
 		culture = malay
 		religion = orthodox
-		size = 75
+		size = 83
 	}
 
 	labourers = {
 		culture = malay
 		religion = orthodox
-		size = 7375
+		size = 8175
 	}
 }
-#Ipoh (116000/29000 POPS)
+#Ipoh (137944/34486 POPS)
 2575 = {
 	aristocrats = {
 		culture = malay
 		religion = orthodox
-		size = 300
+		size = 333
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 300
+		size = 333
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 1500
+		size = 1663
 	}
 
 	soldiers = {
 		culture = malay
 		religion = orthodox
-		size = 110
+		size = 122
 	}
 
 	labourers = {
 		culture = malay
 		religion = orthodox
-		size = 25900
+		size = 28710
 	}
 
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 75
+		size = 83
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 925
+		size = 1025
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 2000
+		size = 2217
 	}
 }
 #under Overlordship of Siam 1836 (284000)
-#Alor Setar (116000/29000 POPS)
+#Alor Setar (128584/32146 POPS)
 1389 = {
 	aristocrats = {
 		culture = malay
 		religion = orthodox
-		size = 300
+		size = 333
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 300
+		size = 333
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 1350
+		size = 1496
 	}
 
 	soldiers = {
 		culture = malay
 		religion = orthodox
-		size = 150
+		size = 166
 	}
 
 	farmers = {
 		culture = malay
 		religion = orthodox
-		size = 24800
+		size = 27491
 	}
 
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 50
+		size = 55
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 950
+		size = 1053
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 1100
+		size = 1219
 	}
 }
-#Kota Bharu (168000/42000 POPS)
+#Kota Bharu (185812/46453 POPS)
 1391 = {
 	aristocrats = {
 		culture = malay
 		religion = orthodox
-		size = 400
+		size = 443
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 425
+		size = 471
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 2000
+		size = 2217
 	}
 
 	soldiers = {
 		culture = malay
 		religion = orthodox
-		size = 150
+		size = 166
 	}
 
 	farmers = {
 		culture = malay
 		religion = orthodox
-		size = 36825
+		size = 40829
 	}
 
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 50
+		size = 55
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 950
+		size = 1053
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 1100
+		size = 1219
 	}
 
 }
-#Northern Borneo Region (252000)
+#Northern Borneo Region (400000)
 #Under the Rule of Brunei in 1836 (212000)
-#Brunei (24000/6000 POPS)
+#Brunei (43112/10778 POPS)
 1393 = {
 	aristocrats = {
 		culture = malay
 		religion = orthodox
-		size = 750
+		size = 90
 	}
 
 	bureaucrats = {
 		culture = malay
 		religion = orthodox
-		size = 500
+		size = 60
 	}
 
 	officers = {
 		culture = malay
 		religion = orthodox
-		size = 250
+		size = 30
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 500
+		size = 60
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 3000
+		size = 362
 	}
 
 	soldiers = {
 		culture = malay
 		religion = orthodox
-		size = 150
+		size = 18
 	}
 
 	farmers = {
 		culture = malay
 		religion = orthodox
-		size = 84250
+		size = 10158
 	}
 }
-#Kuching (88000/22000 POPS)
+#Kuching (100892/25223 POPS)
 1394 = {
 	aristocrats = {
 		culture = malay
 		religion = orthodox
-		size = 1000
+		size = 121
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 1000
+		size = 121
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 5000
+		size = 603
 	}
 
 	soldiers = {
 		culture = malay
 		religion = orthodox
-		size = 310
+		size = 37
 	}
 
 	farmers = {
 		culture = malay
 		religion = orthodox
-		size = 83000
+		size = 10007
 	}
 
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1250
+		size = 151
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1000
+		size = 121
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 5250
+		size = 633
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 125
+		size = 15
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 101250
+		size = 12208
 	}
 
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 250
+		size = 30
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 4750
+		size = 573
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 5000
+		size = 603
 	}
 }
-#Bintulu (44000/11000 POPS)
+#Bintulu (71716/17929 POPS)
 1395 = {
 	aristocrats = {
 		culture = malay
 		religion = orthodox
-		size = 250
+		size = 30
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 500
+		size = 60
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 1500
+		size = 181
 	}
 
 	soldiers = {
 		culture = malay
 		religion = orthodox
-		size = 100
+		size = 12
 	}
 
 	farmers = {
 		culture = malay
 		religion = orthodox
-		size = 47250
+		size = 5697
 	}
 
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 1000
+		size = 121
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 750
+		size = 90
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 3500
+		size = 422
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 100
+		size = 12
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 93750
+		size = 11304
 	}
 }
-#Api (56000/14000 POPS)
+#Api (102632/25658 POPS)
 1396 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 500
+		size = 60
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 500
+		size = 60
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 2500
+		size = 301
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 18
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 95750
+		size = 11547
 	}
 
 	aristocrats = {
 		culture = malay
 		religion = orthodox
-		size = 750
+		size = 90
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 750
+		size = 90
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 3500
+		size = 422
 	}
 
 	soldiers = {
 		culture = malay
 		religion = orthodox
-		size = 150
+		size = 18
 	}
 
 	farmers = {
 		culture = malay
 		religion = orthodox
-		size = 94250
+		size = 11364
 	}
 
 	clergymen = {
 		culture = yue
 		religion = orthodox
-		size = 250
+		size = 30
 	}
 
 	artisans = {
 		culture = yue
 		religion = orthodox
-		size = 5000
+		size = 603
 	}
 
 	farmers = {
 		culture = yue
 		religion = orthodox
-		size = 8750
+		size = 1055
 	}
 }
 #Under the Rule of Sulu in 1836 (40000)
-#Sandakan (40000/10000 POPS)
+#Sandakan (81648/20412 POPS)
 1397 = {
 	aristocrats = {
 		culture = asian_minor
 		religion = orthodox
-		size = 750
+		size = 90
 	}
 
 	clergymen = {
 		culture = asian_minor
 		religion = orthodox
-		size = 750
+		size = 90
 	}
 
 	artisans = {
 		culture = asian_minor
 		religion = orthodox
-		size = 3000
+		size = 362
 	}
 
 	soldiers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 150
+		size = 18
 	}
 
 	farmers = {
 		culture = asian_minor
 		religion = orthodox
-		size = 94750
+		size = 11424
 	}
 
 	aristocrats = {
 		culture = malay
 		religion = orthodox
-		size = 250
+		size = 30
 	}
 
 	clergymen = {
 		culture = malay
 		religion = orthodox
-		size = 500
+		size = 60
 	}
 
 	artisans = {
 		culture = malay
 		religion = orthodox
-		size = 1500
+		size = 181
 	}
 
 	soldiers = {
 		culture = malay
 		religion = orthodox
-		size = 150
+		size = 18
 	}
 
 	farmers = {
 		culture = malay
 		religion = orthodox
-		size = 67500
+		size = 8139
 	}
 
 }

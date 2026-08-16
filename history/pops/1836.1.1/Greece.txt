@@ -1471,118 +1471,118 @@
 		size = 490
 	}
 }
-#Crete Region (172448) 
+#Crete Region (1400000) 
 #under the rule of Egypt in 1836
-#Hania (88692/22173 POPS)
+#Hania (720000/180000 POPS)
 847 = {
 	aristocrats = {
 		culture = turkish
 		religion = orthodox
-		size = 462
+		size = 3751
 	}
 
 	bureaucrats = {
 		culture = turkish
 		religion = orthodox
-		size = 62
+		size = 503
 	}
 
 	officers = {
 		culture = turkish
 		religion = orthodox
-		size = 62
+		size = 503
 	}
 
 	clergymen = {
 		culture = turkish
 		religion = orthodox
-		size = 92
+		size = 747
 	}
 
 	artisans = {
 		culture = turkish
 		religion = orthodox
-		size = 1601
+		size = 12997
 	}
 
 	soldiers = {
 		culture = turkish
 		religion = orthodox
-		size = 246
+		size = 1997
 	}
 
 	farmers = {
 		culture = turkish
 		religion = orthodox
-		size = 7329
+		size = 59497
 	}
 
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 92
+		size = 747
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 1478
+		size = 11998
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 10749
+		size = 87260
 	}
 }
-#Iraklion (83756/20939 POPS)
+#Iraklion (680000/170000 POPS)
 848 = {
 	aristocrats = {
 		culture = turkish
 		religion = orthodox
-		size = 431
+		size = 3499
 	}
 
 	clergymen = {
 		culture = turkish
 		religion = orthodox
-		size = 92
+		size = 747
 	}
 
 	artisans = {
 		culture = turkish
 		religion = orthodox
-		size = 677
+		size = 5496
 	}
 
 	soldiers = {
 		culture = turkish
 		religion = orthodox
-		size = 216
+		size = 1754
 	}
 
 	farmers = {
 		culture = turkish
 		religion = orthodox
-		size = 7206
+		size = 58504
 	}
 
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 92
+		size = 747
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 554
+		size = 4498
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 11671
+		size = 94755
 	}
 
 }

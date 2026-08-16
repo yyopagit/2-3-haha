@@ -1,67 +1,67 @@
 #Eastern Melanesia (96000) 
 #uncolonized in 1836 #ruled by the King of Fiji}
-#Fiji (88000/22000 POPS) 
+#Fiji (124700/31175 POPS) 
 2454 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 1425
+		size = 215
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 1225
+		size = 184
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 4100
+		size = 617
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 225
+		size = 34
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 200025
+		size = 30125
 	}
 }
-#Lomaji (8000/2000 POPS) 
+#Lomaji (75300/18825 POPS) 
 2520 = {
 	aristocrats = {
 		culture = aborigine
 		religion = orthodox
-		size = 250
+		size = 38
 	}
 
 	clergymen = {
 		culture = aborigine
 		religion = orthodox
-		size = 500
+		size = 75
 	}
 
 	artisans = {
 		culture = aborigine
 		religion = orthodox
-		size = 4000
+		size = 602
 	}
 
 	soldiers = {
 		culture = aborigine
 		religion = orthodox
-		size = 250
+		size = 38
 	}
 
 	farmers = {
 		culture = aborigine
 		religion = orthodox
-		size = 120000
+		size = 18072
 	}
 }
 

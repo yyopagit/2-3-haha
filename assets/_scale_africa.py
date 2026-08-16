@@ -15,10 +15,10 @@ POP_ROOT = os.path.join(MOD, "history", "pops")
 
 # Display totals (historical people on screen).
 FILE_TOTAL = {
-    # Maghreb / Nile — откат по запросу, не масштабировать.
-    # "Algeria.txt": 3142556,
-    # "Morocco.txt": 5000000,
-    # "Tunisia.txt": 1235541,
+    # Maghreb — исторические. Египет и Ливия оставлены раздутыми (откат).
+    "Algeria.txt": 3142556,       # OWID/Frankema 1860; 1830 French high ~3.0
+    "Morocco.txt": 5000000,       # Noin / high 19th-c; no census. OWID 3.14
+    "Tunisia.txt": 1235541,       # 1860 (no 1830s census)
     # "Libya.txt": 1000000,
     "West Sahara.txt": 150000,    # nomads; OWID ~800 is the Spanish posts
     # "Egypt.txt": 5500000,
