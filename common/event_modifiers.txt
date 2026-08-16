@@ -1148,9 +1148,67 @@ ai_buff = {
 mcl_happened_modifier = {
 
 }
-mcl_progress_modifier = {
+mcl_progress_modifier_1 = {
 	icon = 15
 }
+mcl_progress_modifier_2 = {
+	icon = 15
+}
+mcl_progress_modifier_3 = {
+	icon = 15
+}
+mcl_progress_modifier_4 = {
+	icon = 15
+}
+mcl_progress_modifier_5 = {
+	icon = 15
+}
+mcl_progress_modifier_6 = {
+	icon = 15
+}
+mcl_progress_modifier_7 = {
+	icon = 15
+}
+mcl_progress_modifier_8 = {
+	icon = 15
+}
+mcl_progress_modifier_9 = {
+	icon = 15
+}
+mcl_progress_modifier_10 = {
+	icon = 15
+}
+mcl_progress_modifier_11 = {
+	icon = 15
+}
+mcl_progress_modifier_12 = {
+	icon = 15
+}
+mcl_progress_modifier_13 = {
+	icon = 15
+}
+mcl_progress_modifier_14 = {
+	icon = 15
+}
+mcl_progress_modifier_15 = {
+	icon = 15
+}
+mcl_progress_modifier_16 = {
+	icon = 15
+}
+mcl_progress_modifier_17 = {
+	icon = 15
+}
+mcl_progress_modifier_18 = {
+	icon = 15
+}
+mcl_progress_modifier_19 = {
+	icon = 15
+}
+mcl_progress_modifier_20 = {
+	icon = 15
+}
+
 capital_supply_depot_pmodifier = {
 		max_attrition = -100
 		icon = 17
@@ -1870,4 +1928,12 @@ state_has_town = {
 }
 state_has_urban = {
 	icon = 15
+}
+
+# Сакоку: закрытая страна, запрет CB на/от других стран (кроме японской унификации)
+sakoku_policy = {
+	icon = 11
+	national_unity = 0.1
+	plurality = -0.05
+	militancy = -0.1
 }

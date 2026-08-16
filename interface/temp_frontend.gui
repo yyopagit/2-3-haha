@@ -2218,7 +2218,7 @@ guiTypes = {
 	windowType = {
 		name = "naming_window" #used for both player and game name
 		backGround="Background"
-		position = { x=17 y=-80 }	
+		position = { x=-660 y=-115 }	
 		size = { x=440 y=280 }
 		moveable = 0
 		dontRender = ""

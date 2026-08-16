@@ -130,7 +130,7 @@ guiTypes = {
 		windowType = {
 			name = "connection_window"
 			backGround=""
-			position = { x=-100 y=40 }	
+			position = { x=-300 y=40 }	
 			size = { x=520 y=360 }
 			moveable = 0
 			dontRender = ""
