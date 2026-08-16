@@ -1,0 +1,14 @@
+country_event = {
+	title = "EVTNAME104000"
+	desc = "EVTDESC104000"
+	id = 104000
+	is_triggered_only = yes
+	option = {
+		name = "EVTOPTA104000"
+		capital = 1649
+	}
+	option = {
+		name = "EVTOPTB104000"
+		capital = 1657
+	}
+}

@@ -68,18 +68,28 @@ political_decisions = {
 		effect = {
 			1656 = { secede_province = SMZ }
 			1658 = { secede_province = SMZ }
-			set_country_flag = hidden_tooltip
 			SMZ_break_from_shogunate = {}
+			set_country_flag = hidden_tooltip
+			TKG = { set_country_flag = hidden_tooltip 
+				random_owned = {
+					limit = {
+						owner = { has_country_flag = hidden_tooltip }
+					}
+					owner = {
+						TKG = {
+							release_vassal = SMZ
+							release_vassal = DAT
+							release_vassal = EDZ
+						}
+					}
+				}
+				clr_country_flag = hidden_tooltip
+			}
 			random_owned = {
 				limit = {
-					owner = has_country_flag = hidden_tooltip
+					owner = { has_country_flag = hidden_tooltip }
 				}
 				owner = {
-					TKG = {
-						release_vassal = SMZ
-						release_vassal = DAT
-						release_vassal = EDZ
-					}
 					TKG = { all_core = { add_core = SMZ } }
 					DAT = { all_core = { add_core = SMZ } }
 					EDZ = { all_core = { add_core = SMZ } }
@@ -87,6 +97,26 @@ political_decisions = {
 			}
 			clr_country_flag = hidden_tooltip
 			set_country_flag = breaked_from_shogunate
+		}
+	}
+	
+	form_japanese_empire = {
+		potential = {
+			tag = SMZ
+			NOT = { has_country_flag = japan_is_formed }
+			ai = no
+		}
+		allow = {
+			ASA = { all_core = { owned_by = SMZ } }
+			AVA = { all_core = { owned_by = SMZ } }
+			YMT = { all_core = { owned_by = SMZ } }
+			TKG = { all_core = { owned_by = SMZ } }
+			DAT = { all_core = { owned_by = SMZ } }
+			EDZ = { all_core = { owned_by = SMZ } }
+		}
+		effect = {
+			change_tag = JAP
+			country_event = { id = 104000 days = 0 }
 		}
 	}
 }
