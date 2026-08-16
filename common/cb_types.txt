@@ -90,6 +90,17 @@ gunboat = {
 	crisis = no
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		OR =
 		{
@@ -130,6 +141,17 @@ status_quo = {
 	constructing_cb = no
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 	}
 
@@ -180,6 +202,17 @@ treaty_port_cb = {
 
 	# Можно использовать только против Китая
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		tag = CHI
 	}
@@ -232,6 +265,17 @@ take_treaty_port_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { tag = CHI }
 
@@ -268,6 +312,17 @@ conquest = {
 	crisis = no
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { capital_scope = { continent = africa } }
 		# only one state or unciv
@@ -334,6 +389,17 @@ conquest_africa_stage_one = {
 	crisis = no
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		capital_scope = { continent = africa }
 		THIS = { has_country_flag = malaria }
@@ -403,6 +469,17 @@ make_puppet_first_stage = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		capital_scope = { continent = africa }
 		NOT = { number_of_states = 6 }
@@ -448,6 +525,17 @@ conquest_africa_stage_two = {
 	crisis = no
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		capital_scope = { continent = africa }
 		THIS = { has_country_flag = mission_to_civilize }
@@ -501,6 +589,17 @@ conquest_africa_stage_three = {
 	crisis = no
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		capital_scope = { continent = africa }
 		THIS = { has_country_flag = colonial_negotiations }
@@ -554,6 +653,17 @@ conquest2 = {
 	crisis = no
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { capital_scope = { continent = africa } }
 		# only one state or unciv
@@ -621,6 +731,17 @@ civil_war = {
 	crisis = no
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		always = no
 	}
@@ -675,6 +796,17 @@ add_to_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { capital_scope = { continent = africa } }
 		this = { is_greater_power = yes }
@@ -721,6 +853,17 @@ take_from_sphere = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		this = { is_greater_power = yes }
 		is_greater_power = yes
@@ -775,6 +918,17 @@ acquire_core_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
@@ -825,6 +979,17 @@ annex_core_country = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {
 			is_core = THIS
@@ -874,6 +1039,17 @@ acquire_substate_region = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		num_of_substates = 1 # if has any substate
 		any_substate = {
@@ -930,6 +1106,17 @@ acquire_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		THIS = { civilized = yes }
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
@@ -1009,6 +1196,17 @@ acquire_small_state = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_state = {
@@ -1086,6 +1284,17 @@ place_in_the_sun = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		any_owned_province = {
 			is_colonial = yes
@@ -1203,6 +1412,17 @@ cut_down_to_size_boxer = {
 	crisis = no
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		is_disarmed = no
 	}
@@ -1257,6 +1477,17 @@ free_peoples = {
 	
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 	}
 
@@ -1340,6 +1571,17 @@ liberate_country = {
 	
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 	}
 
@@ -1425,6 +1667,17 @@ dismantle_forts = {
 	
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { capital_scope = { continent = africa } }
 	}
@@ -1477,6 +1730,17 @@ release_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 	}
@@ -1525,6 +1789,17 @@ make_puppet = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { capital_scope = { continent = africa } }
 		NOT = { number_of_states = 6 }
@@ -1577,6 +1852,17 @@ become_independent = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		is_our_vassal = THIS
 	}
 	
@@ -1632,6 +1918,17 @@ humiliate = {
 	war_name = WAR_HUMILIATE_NAME
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { capital_scope = { continent = africa } }
 	}	
@@ -1671,6 +1968,17 @@ humiliate2 = {
 	war_name = WAR_REPARATION_NAME
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { capital_scope = { continent = africa } }
 		has_recently_lost_war = no
@@ -1710,6 +2018,17 @@ humiliate3 = {
 	war_name = WAR_REPARATION_NAME
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { capital_scope = { continent = africa } }
 	}
 
@@ -1747,6 +2066,17 @@ demand_concession_casus_belli = {
 	always = no
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { capital_scope = { continent = africa } }
 		THIS = {
@@ -1801,6 +2131,17 @@ establish_protectorate_casus_belli = {
 	always = no
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { capital_scope = { continent = africa } }
 		THIS = {
@@ -1858,6 +2199,17 @@ unification_humiliate_cb = {
 	always = yes
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -1909,6 +2261,17 @@ unification_release_puppet_cb = {
 	always = yes
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		num_of_vassals_no_substates = 1
 		THIS = {
@@ -1969,6 +2332,17 @@ unification_casus_belli = {
 	always = yes
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -2037,6 +2411,17 @@ unification_annex_casus_belli = {
 	always = yes
 	
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		THIS = {
 			culture_has_union_tag = yes
@@ -2096,6 +2481,17 @@ rude_boy = {
 	always = yes
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		badboy = 1
 	}
@@ -2137,6 +2533,17 @@ install_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		THIS = {
 			# If actor is a great power
 			is_greater_power = yes
@@ -2210,6 +2617,17 @@ uninstall_communist_gov_cb = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		THIS = {
 			# If actor ruling party is not communist
 			NOT = {
@@ -2258,6 +2676,17 @@ war_military_access = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		# Сакоку: запрет CB между сакоку и не-сакоку; разрешено двум сакоку (унификация японцев)
+		OR = {
+			AND = {
+				NOT = { has_country_modifier = sakoku_policy }
+				NOT = { THIS = { has_country_modifier = sakoku_policy } }
+			}
+			AND = {
+				has_country_modifier = sakoku_policy
+				THIS = { has_country_modifier = sakoku_policy }
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		NOT = { capital_scope = { continent = africa } }
 		#sphere_owner = { war = yes }

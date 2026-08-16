@@ -96,6 +96,22 @@ political_decisions = {
 					duration = -1
 				}
 			}
+			# Сакоку для японских государств
+			any_country = {
+				limit = {
+					OR = {
+						tag = TKG
+						tag = SMZ
+						tag = RYK
+						tag = AVA
+						tag = ASA
+						tag = YMT
+						tag = DAT
+						tag = EDZ
+					}
+				}
+				add_country_modifier = { name = sakoku_policy duration = -1 }
+			}
 			
 			any_country = {
 				social_reform = good_subsidies
