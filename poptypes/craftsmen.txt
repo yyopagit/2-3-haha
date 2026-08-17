@@ -8,35 +8,48 @@ strata = poor
 
 
 everyday_needs = {
-	tobacco = 5.46	 
-	liquor = 5.46
-	regular_clothes = 4.16
-	furniture = 5.46
-	paper = 4.16
-	wool = 1.95
-	fish = 2.93
-	grain = 5.785
-	timber = 2.73
+	grain = 26
+	wool = 5.5
+	fish = 6.5
+	timber = 6.0
+	furniture = 7.0
+	liquor = 9.0
+	regular_clothes = 5.5
+	glass = 2.5
+	tobacco = 5.5
+	paper = 5.5
+	canned_food = 0.8
+	coal = 2.0
+	lumber = 1.2
+	fabric = 2.0
+	cotton = 1.5
 }
 
 life_needs = {
-	wool = 1.2
-	grain = 8.7
+	grain = 18
+	wool = 3.5
+	fish = 4.0
+	timber = 4.0
+	furniture = 3.5
+	liquor = 5.0
+	regular_clothes = 2.5
+	glass = 1.0
 }
 
 
 luxury_needs = {	
 	regular_clothes = 5
 	furniture = 5
+	luxury_clothes = 0.8
+	luxury_furniture = 1.0
 	liquor = 5.5
 	paper = 4.0
 	telephones = 1.0
 	automobiles = 0.5
 	radio = 1.0
-	#fuel = 0.1
 	tobacco = 4
-	grain = 2
 	dye = 0.5
+	glass = 1.0
 }
 
 

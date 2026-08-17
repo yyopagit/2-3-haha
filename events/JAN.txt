@@ -31,8 +31,19 @@ country_event = {
 		}
 		
 		###Удаление чиновников в колониях (не accepted → фермеры)
+		# Страны без заморья/колониального штата не обходим. Китай — в limit провинции.
 		
 		any_country = {
+			limit = {
+				exists = yes
+				any_owned_province = {
+					NOT = { continent = china }
+					OR = {
+						is_overseas = yes
+						state_scope = { is_colonial = yes }
+					}
+				}
+			}
 			any_owned = {
 				limit = {
 					NOT = { continent = china }
@@ -94,6 +105,8 @@ country_event = {
 		}
 
 		country_event = { id = 140410 days = 1 }
+		country_event = { id = 910001 days = 0 }
+		country_event = { id = 140413 days = 1 }
 		
 		###проверка изобретений колонизации
 		
@@ -423,8 +436,8 @@ country_event = {
 		}
 		
 		#######Бонусы от колониальных реформ
-		# Полная смена — 140412 из Reform_change. Здесь только догон новых провинций
-		# и снос чужих штампов после завоевания. Реформа в limit страны, не на каждую провинцию.
+		# Полная смена — 140412 из Reform_change. Здесь догон новых провинций.
+		# Сносы чужих штампов — только если на стране вообще есть такой модификатор.
 		any_country = {
 			limit = { colonial_politics = external_colonisation }
 			any_owned = {
@@ -446,6 +459,19 @@ country_event = {
 				add_province_modifier = {
 					name = external_colonisation_colonies
 					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				colonial_politics = external_colonisation
+				any_owned_province = {
+					OR = {
+						has_province_modifier = internal_colonisation
+						has_province_modifier = non_colonial_towns
+						has_province_modifier = non_colonial_penalty
+						has_province_modifier = non_colonial_urban
+					}
 				}
 			}
 			any_owned = {
@@ -475,6 +501,20 @@ country_event = {
 				add_province_modifier = {
 					name = internal_colonisation
 					duration = -1
+				}
+			}
+		}
+		any_country = {
+			limit = {
+				colonial_politics = inner_colonisation
+				any_owned_province = {
+					OR = {
+						has_province_modifier = external_colonisation_towns
+						has_province_modifier = external_colonisation_colonies
+						has_province_modifier = non_colonial_towns
+						has_province_modifier = non_colonial_penalty
+						has_province_modifier = non_colonial_urban
+					}
 				}
 			}
 			any_owned = {
@@ -531,6 +571,25 @@ country_event = {
 					duration = -1
 				}
 			}
+		}
+		any_country = {
+			limit = {
+				colonial_politics = non_colonial
+				any_owned_province = {
+					OR = {
+						has_province_modifier = external_colonisation_towns
+						has_province_modifier = external_colonisation_colonies
+						has_province_modifier = internal_colonisation
+						AND = {
+							has_province_modifier = non_colonial_urban
+							OR = {
+								has_building = town_infrastructure
+								NOT = { terrain = urban }
+							}
+						}
+					}
+				}
+			}
 			any_owned = {
 				limit = { has_province_modifier = external_colonisation_towns }
 				remove_province_modifier = external_colonisation_towns
@@ -556,6 +615,15 @@ country_event = {
 		}
 		#######Африка (континент africa): +200% RGO, при заморской колонизации +400% и life_rating x2
 		any_country = {
+			limit = {
+				any_owned_province = {
+					OR = {
+						has_province_modifier = africa_resources
+						has_province_modifier = africa_resources_colonial
+						has_province_modifier = external_colonisation_colonies
+					}
+				}
+			}
 			any_owned = {
 				limit = {
 					has_province_modifier = africa_resources

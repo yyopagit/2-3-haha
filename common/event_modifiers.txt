@@ -1944,3 +1944,8 @@ sakoku_policy = {
 	plurality = -0.05
 	militancy = -0.1
 }
+
+# Кулдаун 180 дней между сносом уровня больницы при оккупации (140413).
+occupation_hospital_decay = {
+	icon = 7
+}

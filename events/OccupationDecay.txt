@@ -1,0 +1,53 @@
+#=========================================================
+# Occupation: hospital -1 lvl every 180 days after 1 year,
+# town_infrastructure removed after 2 years.
+# Pulse 140413 from JAN 140400. Hidden (no player popup).
+#=========================================================
+
+country_event = {
+	id = 140413
+	title = "noloc"
+	desc = "noloc"
+	is_triggered_only = yes
+
+	option = {
+		name = "noloc"
+		any_country = {
+			limit = {
+				exists = yes
+				OR = {
+					war = yes
+					num_of_revolts = 1
+				}
+				any_owned_province = {
+					NOT = { controlled_by = THIS }
+					province_control_days = 365
+				}
+			}
+			any_owned = {
+				limit = {
+					NOT = { controlled_by = THIS }
+					province_control_days = 365
+					has_building = hospital
+					NOT = { has_province_modifier = occupation_hospital_decay }
+				}
+				hospital = -1
+				add_province_modifier = {
+					name = occupation_hospital_decay
+					duration = 180
+				}
+			}
+			any_owned = {
+				limit = {
+					NOT = { controlled_by = THIS }
+					province_control_days = 730
+					has_building = town_infrastructure
+				}
+				town_infrastructure = -1
+				remove_province_modifier = external_colonisation_towns
+				remove_province_modifier = non_colonial_towns
+				remove_province_modifier = state_has_town
+			}
+		}
+	}
+}

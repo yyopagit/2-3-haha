@@ -16,31 +16,55 @@ rebel =
 }
 
 everyday_needs = {
-	paper = 11
-	luxury_clothes = 3.2
-	luxury_furniture = 4.2
-	liquor = 20
-	tobacco = 16.3
-	wool = 1.5
-	fish = 2.1
-	grain = 4.2
-	timber = 2.1	 
+	paper = 22
+	regular_clothes = 12
+	furniture = 10
+	luxury_clothes = 14
+	luxury_furniture = 16
+	liquor = 36
+	tobacco = 32
+	glass = 12
+	silk = 8
+	canned_food = 4
+	wool = 4
+	fish = 7
+	grain = 16
+	timber = 7
+	coal = 5
+	fabric = 4
+	lumber = 4
+	cotton = 2
 }
 
 life_needs = {
-	wool = 0.8
-	grain = 6.8
-	paper = 3
+	grain = 10
+	wool = 2.5
+	fish = 4.0
+	timber = 4.0
+	regular_clothes = 6.0
+	furniture = 5.0
+	liquor = 8.0
+	paper = 5.0
+	coal = 3.0
+	glass = 2.0
 }
 
 luxury_needs = {
-    luxury_furniture = 6
-	opium = 10
-	telephones = 13
-	automobiles = 6
-	aeroplanes = 8
-	radio = 15
-	fuel = 15
+	luxury_furniture = 16
+	luxury_clothes = 16
+	furniture = 8
+	opium = 18
+	telephones = 22
+	automobiles = 14
+	aeroplanes = 12
+	radio = 24
+	fuel = 22
+	silk = 8
+	liquor = 18
+	glass = 8
+	regular_clothes = 6
+	tobacco = 16
+	tropical_wood = 4
 }
 
 

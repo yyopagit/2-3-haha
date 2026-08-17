@@ -20,38 +20,55 @@ rebel =
 can_build = yes
 
 everyday_needs = {
-		 
-	paper = 22
-	luxury_clothes = 22
-	luxury_furniture = 22
-	liquor = 40
-	tobacco = 47
-	wool = 1.5
-	fish = 2.1
-	grain = 4.45
-	timber = 2.1
+	paper = 14
+	regular_clothes = 8
+	furniture = 7
+	luxury_clothes = 12
+	luxury_furniture = 10
+	liquor = 24
+	tobacco = 24
+	glass = 8
+	silk = 4
+	canned_food = 2.5
+	wool = 2.5
+	fish = 4
+	grain = 10
+	timber = 3.5
+	coal = 4
+	fabric = 3
+	lumber = 3
+	cotton = 2
 }
 
 life_needs = {
-	wool = 0.8
-	grain = 6.8
-	paper = 5
+	grain = 6
+	wool = 1.5
+	fish = 2.5
+	timber = 2.0
+	regular_clothes = 4.0
+	furniture = 4.0
+	liquor = 4.5
+	paper = 3.5
+	coal = 2.0
+	glass = 1.5
 }
 
-
 luxury_needs = {
-	opium = 20
-	luxury_furniture = 15	 
-	rubber = 8
-	telephones = 32.5
-	automobiles = 15
-	aeroplanes = 8
-	radio = 30
-	fuel = 12
-	tobacco = 20
-	grain = 30
-				 
-				 
+	opium = 12
+	luxury_furniture = 12
+	luxury_clothes = 8
+	furniture = 4
+	rubber = 5
+	telephones = 20
+	automobiles = 10
+	aeroplanes = 5
+	radio = 18
+	fuel = 8
+	tobacco = 12
+	grain = 12
+	silk = 3
+	glass = 4
+	liquor = 10
 }
 
 

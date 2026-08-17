@@ -95,7 +95,7 @@ country = {
 
 economy = {
 	MAX_DAILY_RESEARCH		 = 300,
-	LOAN_BASE_INTEREST			= 0.01,
+	LOAN_BASE_INTEREST			= 0.1,
 	BANKRUPTCY_EXTERNAL_LOAN_YEARS	= 10,
 	BANKRUPTCY_FACTOR = 0.2,
 	SHADOWY_FINANCIERS_MAX_LOAN_AMOUNT = 0,
@@ -112,8 +112,8 @@ economy = {
 	SECOND_RANK_BASE_SHARE_FACTOR = 1,
 	CIV_BASE_SHARE_FACTOR = 1,
 	UNCIV_BASE_SHARE_FACTOR = 1,
-	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.75, -- % of how much we pay to the pops and capitalists, from the leftovers.
-	MAX_FACTORY_MONEY_SAVE = 7500,	-- how much money is stored maximum in a factory (higher = factories survive downturns better)
+	FACTORY_PAYCHECKS_LEFTOVER_FACTOR = 0.95, -- % of leftover factory profit paid to workers/capis (was 0.75)
+	MAX_FACTORY_MONEY_SAVE = 10000,	-- factory cash cap (was 7500)
 	SMALL_DEBT_LIMIT = 3500, -- threshold for "small debt" (higher = less panic, AI/countries tolerate more debt)
 	FACTORY_UPGRADE_EMPLOYEE_FACTOR = 0.45, -- how close to employee limit before upgrade/expand (lower = expand earlier; factories before infra)
 	RGO_SUPPLY_DEMAND_FACTOR_HIRE_HI = 0.28,	-- how fast pops are Hired when there is a high demand
