@@ -6,9 +6,1028 @@ country_event = {
 	option = {
 		name = "EVTOPTA104000"
 		capital = 1649
+		1649 = {
+			add_province_modifier = {
+				name = tokio_residention
+				duration = 7300
+			}
+		}
 	}
 	option = {
 		name = "EVTOPTB104000"
 		capital = 1657
+		1657 = {
+			add_province_modifier = {
+				name = kioto_residention
+				duration = 3650
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 1400059
+	is_triggered_only = yes
+	option = {
+		SMZ = {
+			inherit = ASA
+			inherit = AVA
+			inherit = TKG
+			inherit = YMT
+			inherit = DAT
+			inherit = EDZ
+		}
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 105000
+	is_triggered_only = yes
+
+	trigger = {
+		tag = JAN
+	}
+
+	option = {
+		name = "noloc"
+		country_event = { id = 105000 days = 30 }
+
+		###Реставрация Мэйдзи: отсчёт 3600 дней, каждый месяц -5 дней за каждую выполненную цель
+		any_country = {
+			limit = {
+				tag = JAP
+				has_country_flag = meiji_restoration_active
+				NOT = { has_country_flag = meiji_restoration_done }
+				NOT = { check_variable = { which = meiji_countdown value = 1 } }
+			}
+			set_variable = { which = meiji_countdown value = 3600 }
+			add_country_modifier = { name = meiji_progress_modifier_1 duration = -1 }
+		}
+		###Полное владение Хоккайдо (1642 Hakodate, 1643 Ishikara, 1644 Nemuru)
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 1 }
+				1642 = { owned_by = JAP }
+				1643 = { owned_by = JAP }
+				1644 = { owned_by = JAP }
+			}
+			change_variable = { which = meiji_countdown value = -5 }
+		}
+		###Корея как вассал Японии
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 1 }
+				KOR = {
+					exists = yes
+					is_vassal = yes
+					overlord = { tag = JAP }
+				}
+			}
+			change_variable = { which = meiji_countdown value = -5 }
+		}
+		###Полный контроль Кореи (взаимоисключающе с вассалом: JAP владеет всеми корейскими провинциями)
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 1 }
+				1619 = { owned_by = JAP }
+				1620 = { owned_by = JAP }
+				1621 = { owned_by = JAP }
+				1622 = { owned_by = JAP }
+				1623 = { owned_by = JAP }
+				1624 = { owned_by = JAP }
+				1625 = { owned_by = JAP }
+				1626 = { owned_by = JAP }
+				1627 = { owned_by = JAP }
+				1628 = { owned_by = JAP }
+				1629 = { owned_by = JAP }
+				1630 = { owned_by = JAP }
+				1631 = { owned_by = JAP }
+				1632 = { owned_by = JAP }
+				1633 = { owned_by = JAP }
+				1634 = { owned_by = JAP }
+				1635 = { owned_by = JAP }
+				1636 = { owned_by = JAP }
+				1637 = { owned_by = JAP }
+			}
+			change_variable = { which = meiji_countdown value = -15 }
+		}
+		###Владение Рюкю (1678 Okinawa, 1679 Amari)
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 1 }
+				1678 = { owned_by = JAP }
+				1679 = { owned_by = JAP }
+			}
+			change_variable = { which = meiji_countdown value = -5 }
+		}
+		###Отсутствие политики сакоку
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 1 }
+				NOT = { has_country_modifier = sakoku_policy }
+			}
+			change_variable = { which = meiji_countdown value = -5 }
+		}
+		###Завершение отсчёта
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				NOT = { check_variable = { which = meiji_countdown value = 1 } }
+			}
+			set_country_flag = meiji_restoration_done
+		}
+		###Снятие модификатора прогресса при завершении
+		any_country = {
+			limit = {
+				tag = JAP
+				has_country_flag = meiji_restoration_done
+			}
+			remove_country_modifier = meiji_progress_modifier_1
+			remove_country_modifier = meiji_progress_modifier_2
+			remove_country_modifier = meiji_progress_modifier_3
+			remove_country_modifier = meiji_progress_modifier_4
+			remove_country_modifier = meiji_progress_modifier_5
+			remove_country_modifier = meiji_progress_modifier_6
+			remove_country_modifier = meiji_progress_modifier_7
+			remove_country_modifier = meiji_progress_modifier_8
+			remove_country_modifier = meiji_progress_modifier_9
+			remove_country_modifier = meiji_progress_modifier_10
+			remove_country_modifier = meiji_progress_modifier_11
+			remove_country_modifier = meiji_progress_modifier_12
+			remove_country_modifier = meiji_progress_modifier_13
+			remove_country_modifier = meiji_progress_modifier_14
+			remove_country_modifier = meiji_progress_modifier_15
+			remove_country_modifier = meiji_progress_modifier_16
+			remove_country_modifier = meiji_progress_modifier_17
+			remove_country_modifier = meiji_progress_modifier_18
+			remove_country_modifier = meiji_progress_modifier_19
+			remove_country_modifier = meiji_progress_modifier_20
+		}
+		## Прогресс: модификатор вечный, заменяется при переходе сегмента
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 3241 }
+				NOT = { check_variable = { which = meiji_countdown value = 3421 } }
+				has_country_modifier = meiji_progress_modifier_1
+			}
+			remove_country_modifier = meiji_progress_modifier_1
+			add_country_modifier = { name = meiji_progress_modifier_2 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 3061 }
+				NOT = { check_variable = { which = meiji_countdown value = 3241 } }
+				has_country_modifier = meiji_progress_modifier_2
+			}
+			remove_country_modifier = meiji_progress_modifier_2
+			add_country_modifier = { name = meiji_progress_modifier_3 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 2881 }
+				NOT = { check_variable = { which = meiji_countdown value = 3061 } }
+				has_country_modifier = meiji_progress_modifier_3
+			}
+			remove_country_modifier = meiji_progress_modifier_3
+			add_country_modifier = { name = meiji_progress_modifier_4 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 2701 }
+				NOT = { check_variable = { which = meiji_countdown value = 2881 } }
+				has_country_modifier = meiji_progress_modifier_4
+			}
+			remove_country_modifier = meiji_progress_modifier_4
+			add_country_modifier = { name = meiji_progress_modifier_5 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 2521 }
+				NOT = { check_variable = { which = meiji_countdown value = 2701 } }
+				has_country_modifier = meiji_progress_modifier_5
+			}
+			remove_country_modifier = meiji_progress_modifier_5
+			add_country_modifier = { name = meiji_progress_modifier_6 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 2341 }
+				NOT = { check_variable = { which = meiji_countdown value = 2521 } }
+				has_country_modifier = meiji_progress_modifier_6
+			}
+			remove_country_modifier = meiji_progress_modifier_6
+			add_country_modifier = { name = meiji_progress_modifier_7 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 2161 }
+				NOT = { check_variable = { which = meiji_countdown value = 2341 } }
+				has_country_modifier = meiji_progress_modifier_7
+			}
+			remove_country_modifier = meiji_progress_modifier_7
+			add_country_modifier = { name = meiji_progress_modifier_8 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 1981 }
+				NOT = { check_variable = { which = meiji_countdown value = 2161 } }
+				has_country_modifier = meiji_progress_modifier_8
+			}
+			remove_country_modifier = meiji_progress_modifier_8
+			add_country_modifier = { name = meiji_progress_modifier_9 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 1801 }
+				NOT = { check_variable = { which = meiji_countdown value = 1981 } }
+				has_country_modifier = meiji_progress_modifier_9
+			}
+			remove_country_modifier = meiji_progress_modifier_9
+			add_country_modifier = { name = meiji_progress_modifier_10 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 1621 }
+				NOT = { check_variable = { which = meiji_countdown value = 1801 } }
+				has_country_modifier = meiji_progress_modifier_10
+			}
+			remove_country_modifier = meiji_progress_modifier_10
+			add_country_modifier = { name = meiji_progress_modifier_11 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 1441 }
+				NOT = { check_variable = { which = meiji_countdown value = 1621 } }
+				has_country_modifier = meiji_progress_modifier_11
+			}
+			remove_country_modifier = meiji_progress_modifier_11
+			add_country_modifier = { name = meiji_progress_modifier_12 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 1261 }
+				NOT = { check_variable = { which = meiji_countdown value = 1441 } }
+				has_country_modifier = meiji_progress_modifier_12
+			}
+			remove_country_modifier = meiji_progress_modifier_12
+			add_country_modifier = { name = meiji_progress_modifier_13 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 1081 }
+				NOT = { check_variable = { which = meiji_countdown value = 1261 } }
+				has_country_modifier = meiji_progress_modifier_13
+			}
+			remove_country_modifier = meiji_progress_modifier_13
+			add_country_modifier = { name = meiji_progress_modifier_14 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 901 }
+				NOT = { check_variable = { which = meiji_countdown value = 1081 } }
+				has_country_modifier = meiji_progress_modifier_14
+			}
+			remove_country_modifier = meiji_progress_modifier_14
+			add_country_modifier = { name = meiji_progress_modifier_15 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 721 }
+				NOT = { check_variable = { which = meiji_countdown value = 901 } }
+				has_country_modifier = meiji_progress_modifier_15
+			}
+			remove_country_modifier = meiji_progress_modifier_15
+			add_country_modifier = { name = meiji_progress_modifier_16 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 541 }
+				NOT = { check_variable = { which = meiji_countdown value = 721 } }
+				has_country_modifier = meiji_progress_modifier_16
+			}
+			remove_country_modifier = meiji_progress_modifier_16
+			add_country_modifier = { name = meiji_progress_modifier_17 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 361 }
+				NOT = { check_variable = { which = meiji_countdown value = 541 } }
+				has_country_modifier = meiji_progress_modifier_17
+			}
+			remove_country_modifier = meiji_progress_modifier_17
+			add_country_modifier = { name = meiji_progress_modifier_18 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 181 }
+				NOT = { check_variable = { which = meiji_countdown value = 361 } }
+				has_country_modifier = meiji_progress_modifier_18
+			}
+			remove_country_modifier = meiji_progress_modifier_18
+			add_country_modifier = { name = meiji_progress_modifier_19 duration = -1 }
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+				NOT = { has_country_flag = meiji_restoration_done }
+				check_variable = { which = meiji_countdown value = 1 }
+				NOT = { check_variable = { which = meiji_countdown value = 181 } }
+				has_country_modifier = meiji_progress_modifier_19
+			}
+			remove_country_modifier = meiji_progress_modifier_19
+			add_country_modifier = { name = meiji_progress_modifier_20 duration = -1 }
+		}
+	}
+}
+
+country_event = {
+	title = "EVTNAME106000"
+	desc = "EVTDESC106000"
+	id = 106000
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA106000"
+	}
+}
+
+country_event = {
+	title = "noloc"
+	desc = "noloc"
+	id = 106100
+	is_triggered_only = yes
+
+	trigger = {
+		tag = JAN
+	}
+
+	option = {
+		name = "noloc"
+		country_event = { id = 106100 days = 30 }
+
+			###Аннексия Рюкю: отсчёт с середины (1800 из 3600), каждый месяц -5 за цель Японии, +5 за цель Китая
+			any_country = {
+				limit = {
+					tag = RYK
+					exists = yes
+					NOT = { has_country_flag = ryk_countdown_started }
+				}
+				set_country_flag = ryk_countdown_started
+				set_variable = { which = ryk_countdown value = 1800 }
+			}
+			###Шкала прогресса (ставится на страны игрока: SMZ/TKG/JAP/CHI)
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					NOT = { has_country_flag = ryk_scale_set }
+					RYK = { exists = yes has_country_flag = ryk_countdown_started }
+				}
+				set_country_flag = ryk_scale_set
+				add_country_modifier = { name = ryk_progress_modifier_11 duration = -1 }
+			}
+			###Япония объединена (japan_is_formed)
+			any_country = {
+				limit = {
+					tag = RYK
+					exists = yes
+					has_country_flag = ryk_countdown_started
+					check_variable = { which = ryk_countdown value = 1 }
+					NOT = { check_variable = { which = ryk_countdown value = 3600 } }
+					JAP = { has_country_flag = japan_is_formed }
+				}
+				change_variable = { which = ryk_countdown value = -5 }
+			}
+			###Отсутствие политики сакоку
+			any_country = {
+				limit = {
+					tag = RYK
+					exists = yes
+					has_country_flag = ryk_countdown_started
+					check_variable = { which = ryk_countdown value = 1 }
+					NOT = { check_variable = { which = ryk_countdown value = 3600 } }
+					OR = {
+						JAP = { NOT = { has_country_modifier = sakoku_policy } }
+						TKG = { NOT = { has_country_modifier = sakoku_policy } }
+						SMZ = { NOT = { has_country_modifier = sakoku_policy } }
+					}
+				}
+				change_variable = { which = ryk_countdown value = -5 }
+			}
+			###Китай не владеет хотя бы одним договорным портом (1496 Гонконг, 1498 Макао, 1538 Шанхай, 1566 Циндао, 1481 Порт-Артур)
+			any_country = {
+				limit = {
+					tag = RYK
+					exists = yes
+					has_country_flag = ryk_countdown_started
+					check_variable = { which = ryk_countdown value = 1 }
+					NOT = { check_variable = { which = ryk_countdown value = 3600 } }
+					OR = {
+						NOT = { 1496 = { owned_by = CHI } }
+						NOT = { 1498 = { owned_by = CHI } }
+						NOT = { 1538 = { owned_by = CHI } }
+						NOT = { 1566 = { owned_by = CHI } }
+						NOT = { 1481 = { owned_by = CHI } }
+					}
+				}
+				change_variable = { which = ryk_countdown value = -5 }
+			}
+			###Китай контролирует все договорные порты
+			any_country = {
+				limit = {
+					tag = RYK
+					exists = yes
+					has_country_flag = ryk_countdown_started
+					check_variable = { which = ryk_countdown value = 1 }
+					NOT = { check_variable = { which = ryk_countdown value = 3600 } }
+					1496 = { owned_by = CHI }
+					1498 = { owned_by = CHI }
+					1538 = { owned_by = CHI }
+					1566 = { owned_by = CHI }
+					1481 = { owned_by = CHI }
+				}
+				change_variable = { which = ryk_countdown value = 5 }
+			}
+			###Сакоку в Японии
+			any_country = {
+				limit = {
+					tag = RYK
+					exists = yes
+					has_country_flag = ryk_countdown_started
+					check_variable = { which = ryk_countdown value = 1 }
+					NOT = { check_variable = { which = ryk_countdown value = 3600 } }
+					OR = {
+						JAP = { has_country_modifier = sakoku_policy }
+						TKG = { has_country_modifier = sakoku_policy }
+						SMZ = { has_country_modifier = sakoku_policy }
+					}
+				}
+				change_variable = { which = ryk_countdown value = 5 }
+			}
+			###Завершение: аннексия Рюкю Японией (или Токугавой, если Япония не объединена)
+			any_country = {
+				limit = {
+					tag = RYK
+					exists = yes
+					NOT = { check_variable = { which = ryk_countdown value = 1 } }
+					JAP = { exists = yes }
+				}
+				annex_to = JAP
+			}
+			any_country = {
+				limit = {
+					tag = RYK
+					exists = yes
+					NOT = { check_variable = { which = ryk_countdown value = 1 } }
+					NOT = { JAP = { exists = yes } }
+					TKG = { exists = yes }
+				}
+				annex_to = TKG
+			}
+			###Провал: присоединение Рюкю к Китаю
+			any_country = {
+				limit = {
+					tag = RYK
+					exists = yes
+					check_variable = { which = ryk_countdown value = 3600 }
+				}
+				annex_to = CHI
+			}
+			### Прогресс в сторону Японии (отсчёт уменьшается): 11→20
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_11
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 1441 }
+						NOT = { check_variable = { which = ryk_countdown value = 1621 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_11
+				add_country_modifier = { name = ryk_progress_modifier_12 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_12
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 1261 }
+						NOT = { check_variable = { which = ryk_countdown value = 1441 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_12
+				add_country_modifier = { name = ryk_progress_modifier_13 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_13
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 1081 }
+						NOT = { check_variable = { which = ryk_countdown value = 1261 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_13
+				add_country_modifier = { name = ryk_progress_modifier_14 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_14
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 901 }
+						NOT = { check_variable = { which = ryk_countdown value = 1081 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_14
+				add_country_modifier = { name = ryk_progress_modifier_15 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_15
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 721 }
+						NOT = { check_variable = { which = ryk_countdown value = 901 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_15
+				add_country_modifier = { name = ryk_progress_modifier_16 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_16
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 541 }
+						NOT = { check_variable = { which = ryk_countdown value = 721 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_16
+				add_country_modifier = { name = ryk_progress_modifier_17 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_17
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 361 }
+						NOT = { check_variable = { which = ryk_countdown value = 541 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_17
+				add_country_modifier = { name = ryk_progress_modifier_18 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_18
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 181 }
+						NOT = { check_variable = { which = ryk_countdown value = 361 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_18
+				add_country_modifier = { name = ryk_progress_modifier_19 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_19
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 1 }
+						NOT = { check_variable = { which = ryk_countdown value = 181 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_19
+				add_country_modifier = { name = ryk_progress_modifier_20 duration = -1 }
+			}
+			### Прогресс в сторону Китая (отсчёт увеличивается): 11→1
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_11
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 1801 }
+						NOT = { check_variable = { which = ryk_countdown value = 1981 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_11
+				add_country_modifier = { name = ryk_progress_modifier_10 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_10
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 1981 }
+						NOT = { check_variable = { which = ryk_countdown value = 2161 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_10
+				add_country_modifier = { name = ryk_progress_modifier_9 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_9
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 2161 }
+						NOT = { check_variable = { which = ryk_countdown value = 2341 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_9
+				add_country_modifier = { name = ryk_progress_modifier_8 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_8
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 2341 }
+						NOT = { check_variable = { which = ryk_countdown value = 2521 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_8
+				add_country_modifier = { name = ryk_progress_modifier_7 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_7
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 2521 }
+						NOT = { check_variable = { which = ryk_countdown value = 2701 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_7
+				add_country_modifier = { name = ryk_progress_modifier_6 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_6
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 2701 }
+						NOT = { check_variable = { which = ryk_countdown value = 2881 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_6
+				add_country_modifier = { name = ryk_progress_modifier_5 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_5
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 2881 }
+						NOT = { check_variable = { which = ryk_countdown value = 3061 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_5
+				add_country_modifier = { name = ryk_progress_modifier_4 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_4
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 3061 }
+						NOT = { check_variable = { which = ryk_countdown value = 3241 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_4
+				add_country_modifier = { name = ryk_progress_modifier_3 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_3
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 3241 }
+						NOT = { check_variable = { which = ryk_countdown value = 3421 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_3
+				add_country_modifier = { name = ryk_progress_modifier_2 duration = -1 }
+			}
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_2
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						check_variable = { which = ryk_countdown value = 3421 }
+						NOT = { check_variable = { which = ryk_countdown value = 3600 } }
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_2
+				add_country_modifier = { name = ryk_progress_modifier_1 duration = -1 }
+			}
+			###Очистка лишнего 11 (если отсчёт вышел из диапазона модификатора 11)
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					has_country_modifier = ryk_progress_modifier_11
+					RYK = {
+						exists = yes
+						has_country_flag = ryk_countdown_started
+						OR = {
+							NOT = { check_variable = { which = ryk_countdown value = 1621 } }
+							check_variable = { which = ryk_countdown value = 1801 }
+						}
+					}
+				}
+				remove_country_modifier = ryk_progress_modifier_11
+			}
+			###Очистка шкалы: Рюкю больше не существует (аннексировано)
+			any_country = {
+				limit = {
+					OR = {
+						tag = SMZ
+						tag = TKG
+						tag = JAP
+						tag = CHI
+					}
+					RYK = { NOT = { exists = yes } }
+				}
+				remove_country_modifier = ryk_progress_modifier_1
+				remove_country_modifier = ryk_progress_modifier_2
+				remove_country_modifier = ryk_progress_modifier_3
+				remove_country_modifier = ryk_progress_modifier_4
+				remove_country_modifier = ryk_progress_modifier_5
+				remove_country_modifier = ryk_progress_modifier_6
+				remove_country_modifier = ryk_progress_modifier_7
+				remove_country_modifier = ryk_progress_modifier_8
+				remove_country_modifier = ryk_progress_modifier_9
+				remove_country_modifier = ryk_progress_modifier_10
+				remove_country_modifier = ryk_progress_modifier_11
+				remove_country_modifier = ryk_progress_modifier_12
+				remove_country_modifier = ryk_progress_modifier_13
+				remove_country_modifier = ryk_progress_modifier_14
+				remove_country_modifier = ryk_progress_modifier_15
+				remove_country_modifier = ryk_progress_modifier_16
+				remove_country_modifier = ryk_progress_modifier_17
+				remove_country_modifier = ryk_progress_modifier_18
+				remove_country_modifier = ryk_progress_modifier_19
+				remove_country_modifier = ryk_progress_modifier_20
+			}
+	}
+}
+
+country_event = {
+	title = "EVTNAME200201"
+	desc = "EVTDESC200201"
+	id = 200201
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA200201"
+		ENG = { country_event = { id = 200202 days = 60 } }
+		JAP = { 
+			vote_franschise = universal_voting
+		}
+	}
+	option = {
+		name = "EVTOPTB200201"
+		ENG = { country_event = { id = 200202 days = 60 } }
+		JAP = { 
+			vote_franschise = universal_weighted_voting
+		}
+	}
+}
+
+country_event = {
+	title = "EVTNAME200202"
+	desc = "EVTDESC200202"
+	id = 200202
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA200202"
+		ENG = { country_event = { id = days = 60 } }
+		JAP = { 
+			vote_franschise = {
+				universal_voting
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB200202"
+		ENG = { country_event = { id = days = 60 } }
+		JAP = { 
+			vote_franschise = {
+				universal_weighted_voting
+			}
+		}
 	}
 }
