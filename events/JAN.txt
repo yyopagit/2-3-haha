@@ -949,6 +949,34 @@ country_event = {
 			}
 			set_country_flag = mcl_progress_done
 		}
+		###Снятие модификатора прогресса при завершении
+		any_country = {
+			limit = {
+				has_country_flag = unrecognized_power
+				has_country_flag = mcl_progress_done
+			}
+			clr_country_flag = unrecognized_power
+			remove_country_modifier = mcl_progress_modifier_1
+			remove_country_modifier = mcl_progress_modifier_2
+			remove_country_modifier = mcl_progress_modifier_3
+			remove_country_modifier = mcl_progress_modifier_4
+			remove_country_modifier = mcl_progress_modifier_5
+			remove_country_modifier = mcl_progress_modifier_6
+			remove_country_modifier = mcl_progress_modifier_7
+			remove_country_modifier = mcl_progress_modifier_8
+			remove_country_modifier = mcl_progress_modifier_9
+			remove_country_modifier = mcl_progress_modifier_10
+			remove_country_modifier = mcl_progress_modifier_11
+			remove_country_modifier = mcl_progress_modifier_12
+			remove_country_modifier = mcl_progress_modifier_13
+			remove_country_modifier = mcl_progress_modifier_14
+			remove_country_modifier = mcl_progress_modifier_15
+			remove_country_modifier = mcl_progress_modifier_16
+			remove_country_modifier = mcl_progress_modifier_17
+			remove_country_modifier = mcl_progress_modifier_18
+			remove_country_modifier = mcl_progress_modifier_19
+			remove_country_modifier = mcl_progress_modifier_20
+		}
 				## Прогресс: модификатор вечный, заменяется при переходе сегмента
 
 		any_country = {

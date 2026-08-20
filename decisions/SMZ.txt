@@ -12,7 +12,7 @@ political_decisions = {
 		}
 		effect = {
 			inherit = AVA
-			AVA = { all_core = { add_core = SMZ } }
+			AVA = { all_core = { add_core = SMZ remove_core = AVA } }
 			set_country_flag = ava_annexed
 		}
 	}
@@ -31,7 +31,7 @@ political_decisions = {
 		}
 		effect = {
 			inherit = ASA
-			ASA = { all_core = { add_core = SMZ } }
+			ASA = { all_core = { add_core = SMZ remove_core = ASA } }
 			set_country_flag = asa_annexed
 		}
 	}
@@ -49,7 +49,7 @@ political_decisions = {
 		}
 		effect = {
 			inherit = YMT
-			YMT = { all_core = { add_core = SMZ } }
+			YMT = { all_core = { add_core = SMZ remove_core = YMT } }
 			set_country_flag = emperor_annexed
 		}
 	}
@@ -95,6 +95,7 @@ political_decisions = {
 					EDZ = { all_core = { add_core = SMZ } }
 				}
 			}
+			
 			clr_country_flag = hidden_tooltip
 			set_country_flag = breaked_from_shogunate
 		}
@@ -117,6 +118,102 @@ political_decisions = {
 		effect = {
 			change_tag = JAP
 			country_event = { id = 104000 days = 0 }
+			set_country_flag = meiji_restoration_active
+			meiji_active = {}
+			set_country_flag = japan_is_formed
+			JAN = {
+				set_country_flag = hidden_tooltip
+				random_owned = {
+					limit = {
+						owner = { has_country_flag = hidden_tooltip }
+					}
+					owner = {
+						country_event = { id = 105000 days = 0 }
+					}
+				}
+				clr_country_flag = hidden_tooltip
+			}
+			set_country_flag = hidden_tooltip
+			random_owned = {
+				limit = {
+					owner = { has_country_flag = hidden_tooltip }
+				}
+				owner = {
+					JAP = {
+						any_owned = {
+							remove_core = TKG
+							remove_core = ASA
+							remove_core = DAT
+							remove_core = EDZ
+							remove_core = AVA
+							remove_core = YMT
+							1661 = {
+								remove_province_modifier = nagasaki_trade_port
+							}
+						}
+					}
+				}
+			}
+			clr_country_flag = hidden_tooltip
+		}
+	}
+	
+	iwakura_mission = {
+		potential = { 
+			tag = JAP
+			NOT = { has_country_flag = iwakura_mission_done }
+		}
+		allow = { 
+			NOT = { has_country_modifier = sakoku_policy }
+			money = 1500000
+		}
+		effect = {
+			USA = { country_event = { id = 200201 days = 90 } }
+			money = -1500000
+		}
+	}
+	
+	abolish_sakoku = {
+		potential = {
+			tag = JAP
+			has_country_modifier = sakoku_policy
+		}
+		allow = {
+			year = 1855
+		}
+		effect = {
+			remove_country_modifier = sakoku_policy
+		}
+	}
+
+	ryk_annexation_activation = {
+		potential = {
+			tag = JAN
+			NOT = { has_country_flag = ryk_annexation_active }
+		}
+		allow = {
+			year = 1850
+		}
+		effect = {
+			set_country_flag = ryk_annexation_active
+			CHI = {
+				country_event = { id = 106000 days = 0 }
+			}
+			JAP = {
+				country_event = { id = 106000 days = 0 }
+			}
+			SMZ = {
+				country_event = { id = 106000 days = 0 }
+			}
+			TKG = {
+				country_event = { id = 106000 days = 0 }
+			}
+			JAN = {
+				country_event = { id = 106100 days = 0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
 		}
 	}
 }
