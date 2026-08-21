@@ -37,6 +37,7 @@ colonial_politics = non_colonial
 fleet_doctrine = fleet_mothballing
 citizenship_politics = accepted_culture_only
 military_politics = regular_army
+army_recruitment = mandatory_service
 # Social Reforms
 wage_reform = no_minimum_wage
 work_hours = no_work_hour_limit

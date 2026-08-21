@@ -456,8 +456,36 @@ promote_to =
 	{
 		factor = 0.01
 		modifier = {
-			factor = 5
-			country = { military_politics = faster_reinforsements }
+			factor = 0.90
+			country = { army_recruitment = volunteer_army }
+		}
+		modifier = {
+			factor = 0.95
+			country = { army_recruitment = contract_army }
+		}
+		modifier = {
+			factor = 1.05
+			country = { army_recruitment = mandatory_service }
+		}
+		modifier = {
+			factor = 1.15
+			country = { army_recruitment = mass_conscription }
+		}
+		modifier = {
+			factor = 1.30
+			country = { army_recruitment = all_under_arms }
+		}
+		modifier = {
+			factor = 0.90
+			country = { military_politics = quality_focus }
+		}
+		modifier = {
+			factor = 1.10
+			country = { military_politics = accelerated_training }
+		}
+		modifier = {
+			factor = 0.90
+			country = { military_politics = mobilisation_focus }
 		}
 		group = {
 			modifier = {
@@ -672,101 +700,85 @@ promote_to =
 				factor = -2
 				soldiers = 0.045
 			}
+					modifier = {
+				factor = -2
+				soldiers = 0.05
+			}
 			modifier = {
+				factor = -2
+				soldiers = 0.055
+			}
+			modifier = {
+				factor = -2
+				soldiers = 0.06
+			}
+			modifier = {
+				factor = -2
+				soldiers = 0.065
+			}
+	modifier = {
                 factor = -100
-                OR    =    {
-                    AND    =    {
-                        country = {
-                            NOT = {
-                                OR = {
-                                    military_politics = mass_army
-                                    military_politics = prussian_academy
-                                    military_politics = red_army
-                                    military_politics = small_and_quality_army
-                                }
-                            }
-                        }
-                        soldiers = 0.05}
-                    AND    =    {
-                        country = {
-                            NOT = {
-                                OR = {
-                                    military_politics = mass_army
-                                    military_politics = prussian_academy
-                                    military_politics = red_army
-                                    military_politics = small_and_quality_army
-                                }
-                            }
-                        }
-                        soldiers = 0.046
+                OR = {
+                    AND = {
+                        country = { army_recruitment = volunteer_army }
+                        NOT = { country = { military_politics = quality_focus } }
+                        soldiers = 0.03
                     }
-                    AND    =    {
-                        country = {
-                            NOT = {
-                                OR = {
-                                    military_politics = mass_army
-                                    military_politics = prussian_academy
-                                    military_politics = red_army
-                                    military_politics = small_and_quality_army
-                                }
-                            }
-                        }
-                        soldiers = 0.042
+                    AND = {
+                        country = { army_recruitment = volunteer_army }
+                        country = { military_politics = quality_focus }
+                        soldiers = 0.02
                     }
-                    AND    =    {
-                        country = {
-                            OR = {
-                                military_politics = mass_army
-                                military_politics = prussian_academy
-                                military_politics = red_army
-                            }
-                        }
-                        soldiers = 0.056
+                    AND = {
+                        country = { army_recruitment = contract_army }
+                        NOT = { country = { military_politics = quality_focus } }
+                        soldiers = 0.04
                     }
-                    AND    =    {
-                        country = {
-                            OR = {
-                                military_politics = mass_army
-                                military_politics = prussian_academy
-                                military_politics = red_army
-                            }
-                        }
-                        soldiers = 0.052
+                    AND = {
+                        country = { army_recruitment = contract_army }
+                        country = { military_politics = quality_focus }
+                        soldiers = 0.03
                     }
-                    AND    =    {
-                        country = {
-                            OR = {
-                                military_politics = mass_army
-                                military_politics = prussian_academy
-                                military_politics = red_army
-                            }
-                        }
+                    AND = {
+                        country = { army_recruitment = mandatory_service }
+                        NOT = { country = { military_politics = quality_focus } }
+                        soldiers = 0.05
+                    }
+                    AND = {
+                        country = { army_recruitment = mandatory_service }
+                        country = { military_politics = quality_focus }
+                        soldiers = 0.04
+                    }
+                    AND = {
+                        country = { army_recruitment = mass_conscription }
+                        NOT = { country = { military_politics = quality_focus } }
                         soldiers = 0.06
                     }
-                    AND    =    {
-                        country = { military_politics = small_and_quality_army }
-                        soldiers = 0.032
+                    AND = {
+                        country = { army_recruitment = mass_conscription }
+                        country = { military_politics = quality_focus }
+                        soldiers = 0.05
                     }
-                    AND    =    {
-                        country = { military_politics = small_and_quality_army }
-                        soldiers = 0.026
+                    AND = {
+                        country = { army_recruitment = all_under_arms }
+                        NOT = { country = { military_politics = quality_focus } }
+                        soldiers = 0.07
                     }
-                    AND    =    {
-                        country = { military_politics = small_and_quality_army }
-                        soldiers = 0.022
+                    AND = {
+                        country = { army_recruitment = all_under_arms }
+                        country = { military_politics = quality_focus }
+                        soldiers = 0.06
                     }
-					AND = {
-						country = { colonial_politics = external_colonisation }
-
-						soldiers = 0.035
-						NOT = { is_overseas = yes }
-					}
-					AND = {
-						country = { colonial_politics = external_colonisation }
-
-						soldiers = 0.06
-						is_overseas = yes
-					}
+                    AND = {
+                        country = { colonial_politics = external_colonisation }
+                        soldiers = 0.035
+                        NOT = { is_overseas = yes }
+                    }
+                    AND = {
+                        country = { colonial_politics = external_colonisation }
+                        soldiers = 0.06
+                        is_overseas = yes
+                    }
                 }
             }
 		}

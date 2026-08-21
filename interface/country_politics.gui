@@ -689,9 +689,37 @@ guiTypes = {
 			}
 			
 			windowType = {
-				name = "military_politics"
+				name = "army_recruitment"
 				backGround =""
 				position = { x = 536 y = 448 }
+				size = { x=310 y=100 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder = "0"
+				verticalBorder = ""
+				fullScreen = no
+				
+				iconType = {
+				 name = "politics_army_recruitment"
+				 spriteType = "GFX_army_recruitment"
+				 position = { x= 5 y = 12 }
+				 Orientation = "UPPER_LEFT"
+			 }
+				
+				instantTextBoxType = { 
+					name = "reform_name"
+					position = { x = 39 y = 20 }
+					font = "vic_18"
+					text = "REFORM_NAME"	
+					maxWidth = 220
+					maxHeight = 20	
+				}
+			}
+			
+			windowType = {
+				name = "military_politics"
+				backGround =""
+				position = { x = 691 y = 534 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""
@@ -711,7 +739,7 @@ guiTypes = {
 					position = { x = 39 y = 20 }
 					font = "vic_18"
 					text = "REFORM_NAME"	
-					maxWidth = 100
+					maxWidth = 220
 					maxHeight = 20	
 				}
 			}
