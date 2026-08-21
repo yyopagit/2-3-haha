@@ -31,15 +31,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTC55555"
-		random_owned = { limit = { is_capital = yes owner = { military_politics = regular_army } } owner = { country_event = { id = 555587 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = mass_army } } owner = { country_event = { id = 555588 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = more_mobilisation } } owner = { country_event = { id = 555589 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = faster_reinforsements } } owner = { country_event = { id = 555590 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = small_and_quality_army } } owner = { country_event = { id = 555591 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = prussian_academy } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = kwantung_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = red_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = blitzkrieg_doctrine } } owner = { country_event = { id = 555592 days = 0 } } }
+		random_owned = { limit = { is_capital = yes } owner = { country_event = { id = 555599 days = 0 } } }
 	}
 	option = {
 		name = "EVTOPTD55555"
@@ -97,15 +89,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTC55555"
-		random_owned = { limit = { is_capital = yes owner = { military_politics = regular_army } } owner = { country_event = { id = 555587 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = mass_army } } owner = { country_event = { id = 555588 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = more_mobilisation } } owner = { country_event = { id = 555589 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = faster_reinforsements } } owner = { country_event = { id = 555590 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = small_and_quality_army } } owner = { country_event = { id = 555591 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = prussian_academy } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = kwantung_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = red_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = blitzkrieg_doctrine } } owner = { country_event = { id = 555592 days = 0 } } }
+		random_owned = { limit = { is_capital = yes } owner = { country_event = { id = 555599 days = 0 } } }
 	}
 	option = {
 		name = "EVTOPTE55555"
@@ -169,15 +153,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTC55555"
-		random_owned = { limit = { is_capital = yes owner = { military_politics = regular_army } } owner = { country_event = { id = 555587 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = mass_army } } owner = { country_event = { id = 555588 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = more_mobilisation } } owner = { country_event = { id = 555589 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = faster_reinforsements } } owner = { country_event = { id = 555590 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = small_and_quality_army } } owner = { country_event = { id = 555591 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = prussian_academy } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = kwantung_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = red_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = blitzkrieg_doctrine } } owner = { country_event = { id = 555592 days = 0 } } }
+		random_owned = { limit = { is_capital = yes } owner = { country_event = { id = 555599 days = 0 } } }
 	}
 	option = {
 		name = "EVTOPTE55555"
@@ -223,15 +199,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTC55555"
-		random_owned = { limit = { is_capital = yes owner = { military_politics = regular_army } } owner = { country_event = { id = 555587 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = mass_army } } owner = { country_event = { id = 555588 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = more_mobilisation } } owner = { country_event = { id = 555589 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = faster_reinforsements } } owner = { country_event = { id = 555590 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = small_and_quality_army } } owner = { country_event = { id = 555591 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = prussian_academy } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = kwantung_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = red_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = blitzkrieg_doctrine } } owner = { country_event = { id = 555592 days = 0 } } }
+		random_owned = { limit = { is_capital = yes } owner = { country_event = { id = 555599 days = 0 } } }
 	}
 	option = {
 		name = "EVTOPTE55555"
@@ -271,15 +239,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTC55555"
-		random_owned = { limit = { is_capital = yes owner = { military_politics = regular_army } } owner = { country_event = { id = 555587 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = mass_army } } owner = { country_event = { id = 555588 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = more_mobilisation } } owner = { country_event = { id = 555589 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = faster_reinforsements } } owner = { country_event = { id = 555590 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = small_and_quality_army } } owner = { country_event = { id = 555591 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = prussian_academy } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = kwantung_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = red_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = blitzkrieg_doctrine } } owner = { country_event = { id = 555592 days = 0 } } }
+		random_owned = { limit = { is_capital = yes } owner = { country_event = { id = 555599 days = 0 } } }
 	}
 	option = {
 		name = "EVTOPTD55555"
@@ -313,15 +273,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTC55555"
-		random_owned = { limit = { is_capital = yes owner = { military_politics = regular_army } } owner = { country_event = { id = 555587 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = mass_army } } owner = { country_event = { id = 555588 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = more_mobilisation } } owner = { country_event = { id = 555589 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = faster_reinforsements } } owner = { country_event = { id = 555590 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = small_and_quality_army } } owner = { country_event = { id = 555591 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = prussian_academy } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = kwantung_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = red_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = blitzkrieg_doctrine } } owner = { country_event = { id = 555592 days = 0 } } }
+		random_owned = { limit = { is_capital = yes } owner = { country_event = { id = 555599 days = 0 } } }
 	}
 	option = {
 		name = "EVTOPTE55555"
@@ -373,15 +325,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTC55555"
-		random_owned = { limit = { is_capital = yes owner = { military_politics = regular_army } } owner = { country_event = { id = 555587 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = mass_army } } owner = { country_event = { id = 555588 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = more_mobilisation } } owner = { country_event = { id = 555589 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = faster_reinforsements } } owner = { country_event = { id = 555590 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = small_and_quality_army } } owner = { country_event = { id = 555591 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = prussian_academy } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = kwantung_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = red_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = blitzkrieg_doctrine } } owner = { country_event = { id = 555592 days = 0 } } }
+		random_owned = { limit = { is_capital = yes } owner = { country_event = { id = 555599 days = 0 } } }
 	}
 	option = {
 		name = "EVTOPTD55555"
@@ -409,15 +353,7 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTC55555"
-		random_owned = { limit = { is_capital = yes owner = { military_politics = regular_army } } owner = { country_event = { id = 555587 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = mass_army } } owner = { country_event = { id = 555588 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = more_mobilisation } } owner = { country_event = { id = 555589 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = faster_reinforsements } } owner = { country_event = { id = 555590 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = small_and_quality_army } } owner = { country_event = { id = 555591 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = prussian_academy } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = kwantung_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = red_army } } owner = { country_event = { id = 555592 days = 0 } } }
-		random_owned = { limit = { is_capital = yes owner = { military_politics = blitzkrieg_doctrine } } owner = { country_event = { id = 555592 days = 0 } } }
+		random_owned = { limit = { is_capital = yes } owner = { country_event = { id = 555599 days = 0 } } }
 	}
 	option = {
 		name = "EVTOPTD55555"
@@ -1657,40 +1593,35 @@ country_event = {
 }
 
 # =============================================
-# АРМИЯ: выбор новой политики. Буквы: A=regular_army B=mass_army C=more_mobilisation
-# D=faster_reinforsements E=small_and_quality_army F=назад
+# =============================================
+# АРМИЯ: хаб оснащение / набор. Оснащение 555587-90, набор 555600-04.
 # =============================================
 
 country_event = {
-	id = 555587
-	title = "EVTNAME55558"
-	desc = "EVTDESC555587"
+	id = 555599
+	title = "EVTNAME555599"
+	desc = "EVTDESC555599"
 	picture = "Administration"
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTB55558"
-		political_reform = mass_army
-		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+		name = "EVTOPTA555599"
+		random_owned = { limit = { is_capital = yes owner = { military_politics = regular_army } } owner = { country_event = { id = 555587 days = 0 } } }
+		random_owned = { limit = { is_capital = yes owner = { military_politics = quality_focus } } owner = { country_event = { id = 555588 days = 0 } } }
+		random_owned = { limit = { is_capital = yes owner = { military_politics = accelerated_training } } owner = { country_event = { id = 555589 days = 0 } } }
+		random_owned = { limit = { is_capital = yes owner = { military_politics = mobilisation_focus } } owner = { country_event = { id = 555590 days = 0 } } }
 	}
 	option = {
-		name = "EVTOPTC55558"
-		political_reform = more_mobilisation
-		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+		name = "EVTOPTB555599"
+		random_owned = { limit = { is_capital = yes owner = { army_recruitment = volunteer_army } } owner = { country_event = { id = 555600 days = 0 } } }
+		random_owned = { limit = { is_capital = yes owner = { army_recruitment = contract_army } } owner = { country_event = { id = 555601 days = 0 } } }
+		random_owned = { limit = { is_capital = yes owner = { army_recruitment = mandatory_service } } owner = { country_event = { id = 555602 days = 0 } } }
+		random_owned = { limit = { is_capital = yes owner = { army_recruitment = mass_conscription } } owner = { country_event = { id = 555603 days = 0 } } }
+		random_owned = { limit = { is_capital = yes owner = { army_recruitment = all_under_arms } } owner = { country_event = { id = 555604 days = 0 } } }
 	}
 	option = {
-		name = "EVTOPTD55558"
-		political_reform = faster_reinforsements
-		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
-	}
-	option = {
-		name = "EVTOPTE55558"
-		political_reform = small_and_quality_army
-		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
-	}
-	option = {
-		name = "EVTOPTF55558"
-			random_owned = {
+		name = "EVTOPTC555599"
+random_owned = {
 				limit = {
 					is_capital = yes
 					owner = {
@@ -1870,6 +1801,35 @@ country_event = {
 				}
 			owner = { country_event = { id = 555586 days = 0 } }
 			}
+	}
+}
+
+# Оснащение
+country_event = {
+	id = 555587
+	title = "EVTNAME55558"
+	desc = "EVTDESC555587"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTB55558"
+		political_reform = quality_focus
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTC55558"
+		political_reform = accelerated_training
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTD55558"
+		political_reform = mobilisation_focus
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTF55558"
+		country_event = { id = 555599 days = 0 }
 	}
 }
 
@@ -1887,201 +1847,17 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTC55558"
-		political_reform = more_mobilisation
+		political_reform = accelerated_training
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
 		name = "EVTOPTD55558"
-		political_reform = faster_reinforsements
-		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
-	}
-	option = {
-		name = "EVTOPTE55558"
-		political_reform = small_and_quality_army
+		political_reform = mobilisation_focus
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
 		name = "EVTOPTF55558"
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 55555 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555551 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555552 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555575 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555576 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555577 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555578 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555579 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555580 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555581 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555582 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555583 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555584 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555585 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555586 days = 0 } }
-			}
+		country_event = { id = 555599 days = 0 }
 	}
 }
 
@@ -2099,201 +1875,17 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTB55558"
-		political_reform = mass_army
+		political_reform = quality_focus
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
 		name = "EVTOPTD55558"
-		political_reform = faster_reinforsements
-		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
-	}
-	option = {
-		name = "EVTOPTE55558"
-		political_reform = small_and_quality_army
+		political_reform = mobilisation_focus
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
 		name = "EVTOPTF55558"
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 55555 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555551 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555552 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555575 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555576 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555577 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555578 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555579 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555580 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555581 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555582 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555583 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555584 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555585 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555586 days = 0 } }
-			}
+		country_event = { id = 555599 days = 0 }
 	}
 }
 
@@ -2311,630 +1903,183 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTB55558"
-		political_reform = mass_army
+		political_reform = quality_focus
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
 		name = "EVTOPTC55558"
-		political_reform = more_mobilisation
-		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
-	}
-	option = {
-		name = "EVTOPTE55558"
-		political_reform = small_and_quality_army
+		political_reform = accelerated_training
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
 		name = "EVTOPTF55558"
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 55555 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555551 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555552 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555575 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555576 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555577 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555578 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555579 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555580 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555581 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555582 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555583 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555584 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555585 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555586 days = 0 } }
-			}
+		country_event = { id = 555599 days = 0 }
 	}
 }
 
+# Набор
 country_event = {
-	id = 555591
-	title = "EVTNAME55558"
-	desc = "EVTDESC555591"
+	id = 555600
+	title = "EVTNAME55560"
+	desc = "EVTDESC555600"
 	picture = "Administration"
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA55558"
-		political_reform = regular_army
+		name = "EVTOPTB55560"
+		political_reform = contract_army
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
-		name = "EVTOPTB55558"
-		political_reform = mass_army
+		name = "EVTOPTC55560"
+		political_reform = mandatory_service
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
-		name = "EVTOPTC55558"
-		political_reform = more_mobilisation
+		name = "EVTOPTD55560"
+		political_reform = mass_conscription
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
-		name = "EVTOPTD55558"
-		political_reform = faster_reinforsements
+		name = "EVTOPTE55560"
+		political_reform = all_under_arms
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
-		name = "EVTOPTF55558"
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 55555 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555551 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555552 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555575 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555576 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555577 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555578 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555579 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555580 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555581 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555582 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555583 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555584 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555585 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555586 days = 0 } }
-			}
+		name = "EVTOPTF55560"
+		country_event = { id = 555599 days = 0 }
 	}
 }
 
 country_event = {
-	id = 555592
-	title = "EVTNAME55558"
-	desc = "EVTDESC555592"
+	id = 555601
+	title = "EVTNAME55560"
+	desc = "EVTDESC555601"
 	picture = "Administration"
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPTA55558"
-		political_reform = regular_army
+		name = "EVTOPTA55560"
+		political_reform = volunteer_army
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
-		name = "EVTOPTB55558"
-		political_reform = mass_army
+		name = "EVTOPTC55560"
+		political_reform = mandatory_service
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
-		name = "EVTOPTC55558"
-		political_reform = more_mobilisation
+		name = "EVTOPTD55560"
+		political_reform = mass_conscription
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
-		name = "EVTOPTD55558"
-		political_reform = faster_reinforsements
+		name = "EVTOPTE55560"
+		political_reform = all_under_arms
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
-		name = "EVTOPTE55558"
-		political_reform = small_and_quality_army
+		name = "EVTOPTF55560"
+		country_event = { id = 555599 days = 0 }
+	}
+}
+
+country_event = {
+	id = 555602
+	title = "EVTNAME55560"
+	desc = "EVTDESC555602"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA55560"
+		political_reform = volunteer_army
 		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
 	}
 	option = {
-		name = "EVTOPTF55558"
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 55555 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555551 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555552 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555575 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555576 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555577 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555578 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555579 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555580 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555581 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555582 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						has_country_modifier = citizenship_reform_change_cd
-					}
-				}
-			owner = { country_event = { id = 555583 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						has_country_modifier = military_reform_change_cd
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555584 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						NOT = { has_country_modifier = fleet_reform_change_cd }
-						has_country_modifier = colonial_reform_change_cd
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555585 days = 0 } }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = fleet_reform_change_cd
-						NOT = { has_country_modifier = colonial_reform_change_cd }
-						NOT = { has_country_modifier = military_reform_change_cd }
-						NOT = { has_country_modifier = citizenship_reform_change_cd }
-					}
-				}
-			owner = { country_event = { id = 555586 days = 0 } }
-			}
+		name = "EVTOPTB55560"
+		political_reform = contract_army
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTD55560"
+		political_reform = mass_conscription
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTE55560"
+		political_reform = all_under_arms
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTF55560"
+		country_event = { id = 555599 days = 0 }
+	}
+}
+
+country_event = {
+	id = 555603
+	title = "EVTNAME55560"
+	desc = "EVTDESC555603"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA55560"
+		political_reform = volunteer_army
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTB55560"
+		political_reform = contract_army
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTC55560"
+		political_reform = mandatory_service
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTE55560"
+		political_reform = all_under_arms
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTF55560"
+		country_event = { id = 555599 days = 0 }
+	}
+}
+
+country_event = {
+	id = 555604
+	title = "EVTNAME55560"
+	desc = "EVTDESC555604"
+	picture = "Administration"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA55560"
+		political_reform = volunteer_army
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTB55560"
+		political_reform = contract_army
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTC55560"
+		political_reform = mandatory_service
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTD55560"
+		political_reform = mass_conscription
+		add_country_modifier = { name = military_reform_change_cd duration = 3650 }
+	}
+	option = {
+		name = "EVTOPTF55560"
+		country_event = { id = 555599 days = 0 }
 	}
 }
 

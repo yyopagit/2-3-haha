@@ -2,6 +2,11 @@
 # Occupation: hospital -1 lvl every 180 days after 1 year,
 # town_infrastructure removed after 2 years.
 # Pulse 140413 from JAN 140400. Hidden (no player popup).
+#
+# THIS здесь = JAN (событие на пульс-теге). Нельзя писать
+# controlled_by = THIS: это «не под контролем JAN» → почти
+# все провинции страны, все города и critical error на
+# remove_province_modifier без штампа. Нужен owner.
 #=========================================================
 
 country_event = {
@@ -20,13 +25,13 @@ country_event = {
 					num_of_revolts = 1
 				}
 				any_owned_province = {
-					NOT = { controlled_by = THIS }
+					NOT = { controlled_by = owner }
 					province_control_days = 365
 				}
 			}
 			any_owned = {
 				limit = {
-					NOT = { controlled_by = THIS }
+					NOT = { controlled_by = owner }
 					province_control_days = 365
 					has_building = hospital
 					NOT = { has_province_modifier = occupation_hospital_decay }
@@ -39,13 +44,37 @@ country_event = {
 			}
 			any_owned = {
 				limit = {
-					NOT = { controlled_by = THIS }
+					NOT = { controlled_by = owner }
 					province_control_days = 730
 					has_building = town_infrastructure
 				}
 				town_infrastructure = -1
+			}
+			any_owned = {
+				limit = {
+					NOT = { controlled_by = owner }
+					province_control_days = 730
+					NOT = { has_building = town_infrastructure }
+					has_province_modifier = external_colonisation_towns
+				}
 				remove_province_modifier = external_colonisation_towns
+			}
+			any_owned = {
+				limit = {
+					NOT = { controlled_by = owner }
+					province_control_days = 730
+					NOT = { has_building = town_infrastructure }
+					has_province_modifier = non_colonial_towns
+				}
 				remove_province_modifier = non_colonial_towns
+			}
+			any_owned = {
+				limit = {
+					NOT = { controlled_by = owner }
+					province_control_days = 730
+					NOT = { has_building = town_infrastructure }
+					has_province_modifier = state_has_town
+				}
 				remove_province_modifier = state_has_town
 			}
 		}
