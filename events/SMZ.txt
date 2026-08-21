@@ -565,6 +565,36 @@ country_event = {
 				}
 				annex_to = CHI
 			}
+			###Бонус Японии: прирост населения в провинциях Рюкю и Кюсю (5 лет)
+			any_country = {
+				limit = {
+					tag = JAP
+					1678 = { owned_by = JAP }
+					NOT = { has_country_flag = ryk_annex_bonus_jap }
+				}
+				set_country_flag = ryk_annex_bonus_jap
+				1678 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
+				1679 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
+				1662 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
+				1663 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
+				1664 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
+				1661 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
+				1660 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
+			}
+			###Бонус Китая: прирост населения в провинциях востока Китая (5 лет, если провинции принадлежат Китаю)
+			any_country = {
+				limit = {
+					tag = CHI
+					1678 = { owned_by = CHI }
+					NOT = { has_country_flag = ryk_annex_bonus_chi }
+				}
+				set_country_flag = ryk_annex_bonus_chi
+				1608 = { limit = { owned_by = CHI } add_province_modifier = { name = ryk_annex_chi_pop duration = 1825 } }
+				1609 = { limit = { owned_by = CHI } add_province_modifier = { name = ryk_annex_chi_pop duration = 1825 } }
+				1604 = { limit = { owned_by = CHI } add_province_modifier = { name = ryk_annex_chi_pop duration = 1825 } }
+				1606 = { limit = { owned_by = CHI } add_province_modifier = { name = ryk_annex_chi_pop duration = 1825 } }
+				1538 = { limit = { owned_by = CHI } add_province_modifier = { name = ryk_annex_chi_pop duration = 1825 } }
+			}
 			### Прогресс в сторону Японии (отсчёт уменьшается): 11→20
 			any_country = {
 				limit = {
@@ -992,16 +1022,37 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA200201"
-		ENG = { country_event = { id = 200202 days = 60 } }
-		JAP = { 
-			vote_franschise = universal_voting
+
+		ENG = {
+			country_event = {
+				id = 200202
+				days = 60
+			}
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+			}
+			political_reform = universal_voting
 		}
 	}
+
 	option = {
 		name = "EVTOPTB200201"
-		ENG = { country_event = { id = 200202 days = 60 } }
-		JAP = { 
-			vote_franschise = universal_weighted_voting
+
+		ENG = {
+			country_event = {
+				id = 200202
+				days = 60
+			}
+		}
+
+		any_country = {
+			limit = {
+				tag = JAP
+			}
+			political_reform = universal_weighted_voting
 		}
 	}
 }
@@ -1014,20 +1065,56 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA200202"
-		ENG = { country_event = { id = days = 60 } }
-		JAP = { 
-			vote_franschise = {
-				universal_voting
+		PRU = { country_event = { id = 200203 days = 60 } }
+		any_country = {
+			limit = {
+				tag = JAP
 			}
+			any_owned = { infrastructure = 2 }
 		}
 	}
 	option = {
 		name = "EVTOPTB200202"
-		ENG = { country_event = { id = days = 60 } }
-		JAP = { 
-			vote_franschise = {
-				universal_weighted_voting
+		PRU = { country_event = { id = 200203 days = 60 } }
+		any_country = {
+			limit = {
+				tag = JAP
 			}
+			any_owned = { infrastructure = 1 }
+		}
+	}
+}
+
+country_event = {
+	title = "EVTNAME200203"
+	desc = "EVTDESC200203"
+	id = 200203
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA200203"
+		any_country = {
+			limit = {
+				tag = JAP
+			}
+			add_country_modifier = {
+				name = iwakura_researches_1
+				duration = 7300
+			}
+			set_country_flag = iwakura_mission_finished
+		}
+	}
+	option = {
+		name = "EVTOPTB200203"
+		any_country = {
+			limit = {
+				tag = JAP
+			}
+			add_country_modifier = {
+				name = iwakura_researches_2
+				duration = 7300
+			}
+			set_country_flag = iwakura_mission_finished
 		}
 	}
 }
