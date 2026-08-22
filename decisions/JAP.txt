@@ -50,21 +50,6 @@ political_decisions = {
             set_global_flag = manchu_conquered
         }
     }
-	describe_our_way = {
-		potential = {
-			tag = JAP
-			NOT = { has_country_flag = japan_way_choosed }
-		}
-		allow = {
-			year = 1850
-		}
-		effect = {
-			THIS = {
-                country_event = { id = 18902 days = 0 }
-            }
-			set_country_flag = japan_way_choosed
-		}
-	}
     taiwan_invasion = {
         picture = reichsland_elsass
         potential = {
