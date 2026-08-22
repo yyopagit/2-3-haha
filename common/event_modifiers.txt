@@ -431,6 +431,14 @@ kioto_residention = {
 	population_growth = 0.001
 	research_points_modifier = 0.3
 }
+
+iwakura_researches_1 = {
+	research_points_modifier = 1.0
+}
+
+iwakura_researches_2 = {
+	research_points_modifier = 0.8
+}
 #-------------------------------------------------------ПЕРСИЯ-------------------------------------------------------
 silver_age = {
  tax_efficiency = 0.05
@@ -1341,6 +1349,12 @@ ryk_progress_modifier_19 = {
 }
 ryk_progress_modifier_20 = {
 	icon = 15
+}
+ryk_annex_jap_pop = {
+	population_growth = 0.001
+}
+ryk_annex_chi_pop = {
+	population_growth = 0.001
 }
 
 capital_supply_depot_pmodifier = {

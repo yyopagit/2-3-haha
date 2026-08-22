@@ -170,6 +170,7 @@ political_decisions = {
 		effect = {
 			USA = { country_event = { id = 200201 days = 90 } }
 			money = -1500000
+			set_country_flag = iwakura_mission_done
 		}
 	}
 	
@@ -214,6 +215,44 @@ political_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	
+	civilize_korea = {
+		potential = {
+			tag = JAP
+			NOT = { has_country_flag = korea_civilized }
+		}
+		allow = {
+			KOR = {
+				is_vassal = yes
+				civilized = no
+				has_country_flag = iwakura_mission_finished
+			}
+		}
+
+		effect = {
+			KOR = {
+				civilized = yes
+			}
+			set_country_flag = korea_civilized
+		}
+	}
+	annex_korea = {
+		potential = {
+			tag = JAP
+			NOT = { has_country_flag = korea_annexed }
+		}
+		allow = {
+			KOR = {
+				is_vassal = yes
+				civilized = yes
+			}
+			revolution_n_counterrevolution = 1
+		}
+		effect = {
+			inherit = KOR
+			set_country_flag = korea_annexed
 		}
 	}
 }
