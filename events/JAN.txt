@@ -249,7 +249,6 @@ country_event = {
 			limit = {
 				AND = {
 					NOT = { has_global_flag = filippines_occupied_by_japan }
-					has_global_flag = militarized_japan
 					1456 = { controlled_by = JAP }
 					1455 = { controlled_by = JAP }
 					1457 = { controlled_by = JAP }
@@ -368,7 +367,6 @@ country_event = {
 			limit = {
 				AND = {
 					NOT = { has_global_flag = taiwan_occupied_by_japan }
-					has_global_flag = militarized_japan
 					2562 = { controlled_by = JAP }
 					1485 = { controlled_by = JAP }
 				}
@@ -409,7 +407,6 @@ country_event = {
 			limit = {
 				AND = {
 					NOT = { has_global_flag = hawaii_occupied_by_japan }
-					has_global_flag = militarized_japan
 					658 = { controlled_by = JAP }
 				}
 			}
