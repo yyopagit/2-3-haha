@@ -76,7 +76,8 @@ political_decisions = {
 
 			enable_canal = 9
 			
-			CHI = { 
+			# CHI_CRISIS_WRAPPER1_START
+			CHI = {
 				add_country_modifier = {
 					name = CHI_MGL_separatism
 					duration = -1
@@ -89,7 +90,445 @@ political_decisions = {
 					name = CHI_MCK_separatism
 					duration = -1
 				}
+				add_country_modifier = {
+					name = CHI_corruption_high
+					duration = -1
+				}
+				add_country_modifier = {
+					name = CHI_inefficient_bureaucracy
+					duration = -1
+				}
+				add_country_modifier = {
+					name = CHI_separatism_peripheral
+					duration = -1
+				}
+				add_country_modifier = {
+					name = CHI_patchwork_empire
+					duration = -1
+				}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1465 province_id = 2608 province_id = 2679 province_id = 1468 province_id = 2678 province_id = 1466
+					province_id = 2207 province_id = 1467
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_4 duration = -1 }
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_5 duration = -1 }
 			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1594 province_id = 1600 province_id = 1598 province_id = 2607 province_id = 1597 province_id = 1595
+					province_id = 1596 province_id = 1599
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_4 duration = -1 }
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_2 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_5 duration = -1 }
+				add_province_modifier = { name = CHI_famine_tied_to_water duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1578 province_id = 1580 province_id = 1582 province_id = 1585 province_id = 1586
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_1 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1601 province_id = 1506 province_id = 1602 province_id = 1603 province_id = 1505 province_id = 1507
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_3 duration = -1 }
+				add_province_modifier = { name = CHI_famine_2 duration = -1 }
+				add_province_modifier = { name = CHI_water_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_5 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1494 province_id = 1497 province_id = 1500
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_2 duration = -1 }
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_4 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1498
+					}
+				}
+				add_province_modifier = { name = CHI_weak_rule_3 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1496
+					}
+				}
+				add_province_modifier = { name = CHI_weak_rule_3 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1538
+					}
+				}
+				add_province_modifier = { name = CHI_water_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_2 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1566
+					}
+				}
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_2 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_3 duration = -1 }
+				add_province_modifier = { name = CHI_water_yellow_dikes duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1481
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_3 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1532 province_id = 1535 province_id = 1534
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_2 duration = -1 }
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_4 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1502 province_id = 1503 province_id = 1504 province_id = 1527 province_id = 1530
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_3 duration = -1 }
+				add_province_modifier = { name = CHI_famine_4 duration = -1 }
+				add_province_modifier = { name = CHI_water_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_5 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1002 province_id = 1533 province_id = 1553 province_id = 1554 province_id = 1552 province_id = 1555
+					province_id = 1479 province_id = 1480
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_2 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1565 province_id = 1569 province_id = 1567 province_id = 1571
+					}
+				}
+				add_province_modifier = { name = CHI_famine_2 duration = -1 }
+				add_province_modifier = { name = CHI_water_2 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_3 duration = -1 }
+				add_province_modifier = { name = CHI_water_yellow_dikes duration = -1 }
+				add_province_modifier = { name = CHI_famine_tied_to_water duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1612 province_id = 1618 province_id = 1615
+					}
+				}
+
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1613 province_id = 1616 province_id = 1617
+					}
+				}
+				add_province_modifier = { name = CHI_famine_2 duration = -1 }
+				add_province_modifier = { name = CHI_water_2 duration = -1 }
+				add_province_modifier = { name = CHI_famine_tied_to_water duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1576 province_id = 1572 province_id = 1573 province_id = 1575 province_id = 1574
+					}
+				}
+				add_province_modifier = { name = CHI_famine_4 duration = -1 }
+				add_province_modifier = { name = CHI_water_1 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1559 province_id = 2062 province_id = 1561 province_id = 1562
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_1 duration = -1 }
+				add_province_modifier = { name = CHI_famine_3 duration = -1 }
+				add_province_modifier = { name = CHI_water_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_3 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1488 province_id = 1490 province_id = 1489 province_id = 1491 province_id = 1492
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_3 duration = -1 }
+				add_province_modifier = { name = CHI_famine_3 duration = -1 }
+				add_province_modifier = { name = CHI_water_2 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_4 duration = -1 }
+				add_province_modifier = { name = CHI_famine_tied_to_water duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1557 province_id = 1558 province_id = 1556
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_3 duration = -1 }
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_5 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1581 province_id = 1579 province_id = 1577 province_id = 1583 province_id = 1584
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_2 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1493 province_id = 1495 province_id = 1499 province_id = 1501
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_2 duration = -1 }
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_4 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1482 province_id = 1487 province_id = 1484 province_id = 1486 province_id = 1483
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_3 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1608 province_id = 1604 province_id = 1611 province_id = 1607 province_id = 1610 province_id = 1609
+					province_id = 1605 province_id = 1606
+					}
+				}
+				add_province_modifier = { name = CHI_water_1 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1539 province_id = 1537 province_id = 1541 province_id = 1540 province_id = 1544
+					}
+				}
+				add_province_modifier = { name = CHI_water_2 duration = -1 }
+				add_province_modifier = { name = CHI_water_canal_silt duration = -1 }
+				add_province_modifier = { name = CHI_water_yangtze_nav duration = -1 }
+				add_province_modifier = { name = CHI_famine_tied_to_water duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 2221 province_id = 1476 province_id = 1477 province_id = 1536 province_id = 1542 province_id = 1543
+					}
+				}
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_4 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_3 duration = -1 }
+				add_province_modifier = { name = CHI_water_canal_silt duration = -1 }
+				add_province_modifier = { name = CHI_water_yangtze_nav duration = -1 }
+				add_province_modifier = { name = CHI_water_yellow_dikes duration = -1 }
+				add_province_modifier = { name = CHI_famine_tied_to_water duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1513 province_id = 1510 province_id = 1508 province_id = 1511 province_id = 1515 province_id = 1514
+					}
+				}
+				add_province_modifier = { name = CHI_famine_3 duration = -1 }
+				add_province_modifier = { name = CHI_water_4 duration = -1 }
+				add_province_modifier = { name = CHI_water_yellow_dikes duration = -1 }
+				add_province_modifier = { name = CHI_water_canal_silt duration = -1 }
+				add_province_modifier = { name = CHI_famine_tied_to_water duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1614 province_id = 1564 province_id = 1563 province_id = 1568 province_id = 1570
+					}
+				}
+				add_province_modifier = { name = CHI_famine_2 duration = -1 }
+				add_province_modifier = { name = CHI_water_3 duration = -1 }
+				add_province_modifier = { name = CHI_water_yellow_dikes duration = -1 }
+				add_province_modifier = { name = CHI_water_canal_silt duration = -1 }
+				add_province_modifier = { name = CHI_famine_tied_to_water duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1550 province_id = 1547 province_id = 1548 province_id = 1545 province_id = 1549 province_id = 1551
+					province_id = 1546
+					}
+				}
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_2 duration = -1 }
+				add_province_modifier = { name = CHI_water_yangtze_nav duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1473 province_id = 1475 province_id = 1471 province_id = 1470 province_id = 1474
+					}
+				}
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_2 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_2 duration = -1 }
+				add_province_modifier = { name = CHI_water_yangtze_nav duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1472 province_id = 1478 province_id = 1512 province_id = 1509
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_1 duration = -1 }
+				add_province_modifier = { name = CHI_famine_4 duration = -1 }
+				add_province_modifier = { name = CHI_water_3 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_4 duration = -1 }
+				add_province_modifier = { name = CHI_water_canal_silt duration = -1 }
+				add_province_modifier = { name = CHI_famine_tied_to_water duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1523 province_id = 1519 province_id = 1521 province_id = 1520
+					}
+				}
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_3 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_2 duration = -1 }
+				add_province_modifier = { name = CHI_water_yangtze_nav duration = -1 }
+				add_province_modifier = { name = CHI_famine_tied_to_water duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1522 province_id = 1516 province_id = 1518 province_id = 1517
+					}
+				}
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_3 duration = -1 }
+				add_province_modifier = { name = CHI_water_yangtze_nav duration = -1 }
+				add_province_modifier = { name = CHI_famine_tied_to_water duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1529 province_id = 1526 province_id = 1525 province_id = 1528 province_id = 1524
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_1 duration = -1 }
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_water_2 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_3 duration = -1 }
+				add_province_modifier = { name = CHI_water_yangtze_nav duration = -1 }
+				add_province_modifier = { name = CHI_famine_tied_to_water duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 2562 province_id = 1485
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_2 duration = -1 }
+				add_province_modifier = { name = CHI_famine_1 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_4 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+					province_id = 1082 province_id = 1083 province_id = 1084 province_id = 1085 province_id = 2617
+					}
+				}
+				add_province_modifier = { name = CHI_separatism_2 duration = -1 }
+				add_province_modifier = { name = CHI_weak_rule_5 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					is_coastal = yes
+					OR = {
+					province_id = 1494 province_id = 1497 province_id = 1500 province_id = 1502 province_id = 1503 province_id = 1504
+					province_id = 1527 province_id = 1530 province_id = 1493 province_id = 1495 province_id = 1499 province_id = 1501
+					province_id = 1482 province_id = 1487 province_id = 1484 province_id = 1486 province_id = 1483 province_id = 2562
+					province_id = 1485
+					}
+				}
+				add_province_modifier = { name = CHI_piracy_3 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					is_coastal = yes
+					OR = {
+					province_id = 1498 province_id = 1496 province_id = 1538 province_id = 1566 province_id = 1565 province_id = 1569
+					province_id = 1567 province_id = 1571 province_id = 1608 province_id = 1604 province_id = 1611 province_id = 1607
+					province_id = 1610 province_id = 1609 province_id = 1605 province_id = 1606 province_id = 1539 province_id = 1537
+					province_id = 1541 province_id = 1540 province_id = 1544 province_id = 2221 province_id = 1476 province_id = 1477
+					province_id = 1536 province_id = 1542 province_id = 1543
+					}
+				}
+				add_province_modifier = { name = CHI_piracy_2 duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					is_coastal = yes
+					OR = {
+					province_id = 1481 province_id = 1002 province_id = 1533 province_id = 1553 province_id = 1554 province_id = 1552
+					province_id = 1555 province_id = 1479 province_id = 1480 province_id = 1613 province_id = 1616 province_id = 1617
+					province_id = 1082 province_id = 1083 province_id = 1084 province_id = 1085 province_id = 2617
+					}
+				}
+				add_province_modifier = { name = CHI_piracy_1 duration = -1 }
+			}
+			}
+			country_event = { id = 144405 days = 0 }
+			# CHI_CRISIS_WRAPPER1_END
 			# Сакоку для японских государств
 			any_country = {
 				limit = {

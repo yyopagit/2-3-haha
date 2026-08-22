@@ -13,7 +13,8 @@ political_decisions = {
 			clr_country_flag = CHI_corrupt_high
 			set_country_flag = CHI_corrupt_medium
 			set_country_flag = CHI_high_corruption_lost
-			CHI_corruption_high = {}
+			remove_country_modifier = CHI_corruption_high
+			add_country_modifier = { name = CHI_corruption_medium duration = -1 }
 		}
 	}
 	CHI_cut_down_medium_corruption = {
@@ -29,7 +30,8 @@ political_decisions = {
 			clr_country_flag = CHI_corrupt_medium
 			set_country_flag = CHI_corrupt_low
 			set_country_flag = CHI_medium_corruption_lost
-			CHI_corruption_medium = {}
+			remove_country_modifier = CHI_corruption_medium
+			add_country_modifier = { name = CHI_corruption_low duration = -1 }
 		}
 	}
 	CHI_cut_down_low_corruption = {
@@ -45,7 +47,7 @@ political_decisions = {
 			clr_country_flag = CHI_corrupt_low
 			set_country_flag = CHI_corrupt_no
 			set_country_flag = CHI_corruption_lost
-			CHI_corruption_low = {}
+			remove_country_modifier = CHI_corruption_low
 		}
 	}
 	###Аннексия Вассалов

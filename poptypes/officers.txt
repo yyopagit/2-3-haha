@@ -270,6 +270,33 @@ soldiers =
 				recruited_percentage = 0.60
 			}
 		}
+
+		modifier = {
+			factor = 0
+			country = { has_country_modifier = CHI_patchwork_empire }
+			soldiers = 0.03
+		}
+		modifier = {
+			factor = 0
+			location = { has_province_modifier = CHI_separatism_1 }
+			soldiers = 0.015
+		}
+		modifier = {
+			factor = 0
+			location = { has_province_modifier = CHI_separatism_2 }
+			soldiers = 0.01
+		}
+		modifier = {
+			factor = 0
+			location = { has_province_modifier = CHI_separatism_3 }
+			soldiers = 0.005
+		}
+		modifier = {
+			factor = 0
+			location = { has_province_modifier = CHI_separatism_4 }
+			soldiers = 0.005
+		}
+
 		modifier = {
 			factor = 1.1
 			AND = {

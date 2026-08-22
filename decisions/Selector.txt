@@ -28,7 +28,6 @@ political_decisions = {
 							id = 144407
 							days = 0
 						}
-						province_selector = -1
 					}
 				}
 			}
@@ -57,15 +56,213 @@ political_decisions = {
 						tag = CHI
 						any_owned_province = { has_building = province_selector }
 					}
+					clr_country_flag = CHI_mode_hub
+					clr_country_flag = CHI_mode_food
+					clr_country_flag = CHI_mode_sep
+					clr_country_flag = CHI_mode_water
+					clr_country_flag = CHI_mode_granary
+					clr_country_flag = CHI_mode_port
+					clr_country_flag = CHI_mode_fleet
+					clr_country_flag = CHI_mode_depot
+					set_country_flag = CHI_mode_hub
+					clr_country_flag = CHI_routed
+					clr_country_flag = CHI_pay_fired
+					clr_country_flag = CHI_crisis_paid
 					random_owned = {
 						limit = {
 							has_building = province_selector
+							owner = { NOT = { has_country_flag = CHI_routed } }
+							OR = {
+								has_province_modifier = CHI_separatism_1
+								has_province_modifier = CHI_separatism_2
+								has_province_modifier = CHI_separatism_3
+								has_province_modifier = CHI_separatism_4
+							}
+							OR = {
+								has_province_modifier = CHI_hydro_cd
+								has_province_modifier = CHI_water_1
+								has_province_modifier = CHI_water_2
+								has_province_modifier = CHI_water_3
+								has_province_modifier = CHI_water_4
+								has_province_modifier = CHI_water_canal_silt
+								has_province_modifier = CHI_water_yangtze_nav
+								has_province_modifier = CHI_water_yellow_dikes
+								has_province_modifier = CHI_famine_1
+								has_province_modifier = CHI_famine_2
+								has_province_modifier = CHI_famine_3
+								has_province_modifier = CHI_famine_4
+							}
+							is_coastal = yes
+							OR = {
+								has_province_modifier = CHI_piracy_1
+								has_province_modifier = CHI_piracy_2
+								has_province_modifier = CHI_piracy_3
+								has_province_modifier = CHI_piracy_4
+							}
 						}
+						owner = { set_country_flag = CHI_routed }
 						province_event = {
 							id = 144408
 							days = 0
 						}
-						province_selector = -1
+					}
+					random_owned = {
+						limit = {
+							has_building = province_selector
+							owner = { NOT = { has_country_flag = CHI_routed } }
+							OR = {
+								has_province_modifier = CHI_separatism_1
+								has_province_modifier = CHI_separatism_2
+								has_province_modifier = CHI_separatism_3
+								has_province_modifier = CHI_separatism_4
+							}
+							OR = {
+								has_province_modifier = CHI_hydro_cd
+								has_province_modifier = CHI_water_1
+								has_province_modifier = CHI_water_2
+								has_province_modifier = CHI_water_3
+								has_province_modifier = CHI_water_4
+								has_province_modifier = CHI_water_canal_silt
+								has_province_modifier = CHI_water_yangtze_nav
+								has_province_modifier = CHI_water_yellow_dikes
+								has_province_modifier = CHI_famine_1
+								has_province_modifier = CHI_famine_2
+								has_province_modifier = CHI_famine_3
+								has_province_modifier = CHI_famine_4
+							}
+						}
+						owner = { set_country_flag = CHI_routed }
+						province_event = {
+							id = 144409
+							days = 0
+						}
+					}
+					random_owned = {
+						limit = {
+							has_building = province_selector
+							owner = { NOT = { has_country_flag = CHI_routed } }
+							OR = {
+								has_province_modifier = CHI_separatism_1
+								has_province_modifier = CHI_separatism_2
+								has_province_modifier = CHI_separatism_3
+								has_province_modifier = CHI_separatism_4
+							}
+							is_coastal = yes
+							OR = {
+								has_province_modifier = CHI_piracy_1
+								has_province_modifier = CHI_piracy_2
+								has_province_modifier = CHI_piracy_3
+								has_province_modifier = CHI_piracy_4
+							}
+						}
+						owner = { set_country_flag = CHI_routed }
+						province_event = {
+							id = 144410
+							days = 0
+						}
+					}
+					random_owned = {
+						limit = {
+							has_building = province_selector
+							owner = { NOT = { has_country_flag = CHI_routed } }
+							OR = {
+								has_province_modifier = CHI_hydro_cd
+								has_province_modifier = CHI_water_1
+								has_province_modifier = CHI_water_2
+								has_province_modifier = CHI_water_3
+								has_province_modifier = CHI_water_4
+								has_province_modifier = CHI_water_canal_silt
+								has_province_modifier = CHI_water_yangtze_nav
+								has_province_modifier = CHI_water_yellow_dikes
+								has_province_modifier = CHI_famine_1
+								has_province_modifier = CHI_famine_2
+								has_province_modifier = CHI_famine_3
+								has_province_modifier = CHI_famine_4
+							}
+							is_coastal = yes
+							OR = {
+								has_province_modifier = CHI_piracy_1
+								has_province_modifier = CHI_piracy_2
+								has_province_modifier = CHI_piracy_3
+								has_province_modifier = CHI_piracy_4
+							}
+						}
+						owner = { set_country_flag = CHI_routed }
+						province_event = {
+							id = 144411
+							days = 0
+						}
+					}
+					random_owned = {
+						limit = {
+							has_building = province_selector
+							owner = { NOT = { has_country_flag = CHI_routed } }
+							OR = {
+								has_province_modifier = CHI_separatism_1
+								has_province_modifier = CHI_separatism_2
+								has_province_modifier = CHI_separatism_3
+								has_province_modifier = CHI_separatism_4
+							}
+						}
+						owner = { set_country_flag = CHI_routed }
+						province_event = {
+							id = 144412
+							days = 0
+						}
+					}
+					random_owned = {
+						limit = {
+							has_building = province_selector
+							owner = { NOT = { has_country_flag = CHI_routed } }
+							OR = {
+								has_province_modifier = CHI_hydro_cd
+								has_province_modifier = CHI_water_1
+								has_province_modifier = CHI_water_2
+								has_province_modifier = CHI_water_3
+								has_province_modifier = CHI_water_4
+								has_province_modifier = CHI_water_canal_silt
+								has_province_modifier = CHI_water_yangtze_nav
+								has_province_modifier = CHI_water_yellow_dikes
+								has_province_modifier = CHI_famine_1
+								has_province_modifier = CHI_famine_2
+								has_province_modifier = CHI_famine_3
+								has_province_modifier = CHI_famine_4
+							}
+						}
+						owner = { set_country_flag = CHI_routed }
+						province_event = {
+							id = 144413
+							days = 0
+						}
+					}
+					random_owned = {
+						limit = {
+							has_building = province_selector
+							owner = { NOT = { has_country_flag = CHI_routed } }
+							is_coastal = yes
+							OR = {
+								has_province_modifier = CHI_piracy_1
+								has_province_modifier = CHI_piracy_2
+								has_province_modifier = CHI_piracy_3
+								has_province_modifier = CHI_piracy_4
+							}
+						}
+						owner = { set_country_flag = CHI_routed }
+						province_event = {
+							id = 144414
+							days = 0
+						}
+					}
+					random_owned = {
+						limit = {
+							has_building = province_selector
+							owner = { NOT = { has_country_flag = CHI_routed } }
+						}
+						owner = { set_country_flag = CHI_routed }
+						province_event = {
+							id = 144415
+							days = 0
+						}
 					}
 				}
 			}

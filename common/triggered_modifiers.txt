@@ -178,3 +178,13 @@ ai_min_spending_triggered = {
 	administrative_efficiency_modifier = 0.90
 	factory_owner_cost = -1
 }
+
+# CHI_CRISIS_WRAPPER1_START
+CHI_fleet_anti_piracy_ready = {
+	trigger = {
+		tag = CHI
+		total_amount_of_ships = 200
+	}
+	prestige = 0.01
+}
+# CHI_CRISIS_WRAPPER1_END

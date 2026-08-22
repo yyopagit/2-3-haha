@@ -2367,6 +2367,11 @@ unciv_reactionary_rebels = {
 			factor = 0.05
 		}
 		
+		modifier = {
+			factor = 20
+			any_owned_province = { has_province_modifier = CHI_sep_uprising }
+		}
+		
 	}
 	
 	# The rebel type with the highest modifier for this pop gets picked
@@ -2406,6 +2411,11 @@ unciv_reactionary_rebels = {
 			factor = 0 # -100?
 			is_primary_culture = no
 			is_accepted_culture = no
+		}
+
+		modifier = {
+			factor = 80
+			location = { has_province_modifier = CHI_sep_uprising }
 		}
 		
 		modifier = {
@@ -2484,6 +2494,85 @@ unciv_reactionary_rebels = {
 		civilized = no
 		remove_random_economic_reforms = 2
 		remove_random_military_reforms = 2
+	}
+}
+
+CHI_provoked_rebels = {
+	icon = 5
+	area = nation
+	break_alliance_on_win = no
+	government = {
+		proletarian_dictatorship = absolute_monarchy
+		presidential_dictatorship = absolute_monarchy
+		bourgeois_dictatorship = absolute_monarchy
+		fascist_dictatorship = absolute_monarchy
+		absolute_monarchy = absolute_monarchy
+		prussian_constitutionalism = absolute_monarchy
+		hms_government = absolute_monarchy
+		democracy = absolute_monarchy
+	}
+	defection = none
+	independence = none
+	defect_delay = 18
+	ideology = conservative
+	allow_all_cultures = yes
+	allow_all_religions = yes
+	allow_all_ideologies = yes
+	resilient = yes
+	reinforcing = yes
+	general = yes
+	smart = yes
+	unit_transfer = no
+	occupation_mult = 2.0
+	will_rise = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { any_owned_province = { has_province_modifier = CHI_sep_uprising } }
+		}
+		modifier = {
+			factor = 25
+			any_owned_province = { has_province_modifier = CHI_sep_uprising }
+		}
+	}
+	spawn_chance = {
+		factor = 1
+		modifier = {
+			factor = 0
+			NOT = { location = { has_province_modifier = CHI_sep_uprising } }
+		}
+		modifier = {
+			factor = 100
+			location = { has_province_modifier = CHI_sep_uprising }
+		}
+	}
+	movement_evaluation = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			units_in_province = 1
+		}
+		modifier = {
+			factor = 0.5
+			average_militancy = 4
+		}
+		modifier = {
+			factor = 1.5
+			has_province_modifier = CHI_sep_uprising
+		}
+	}
+	siege_won_trigger = {
+	}
+	siege_won_effect = {
+	}
+	demands_enforced_trigger = {
+		capital_scope = {
+			controlled_by = REB
+			province_control_days = 90
+		}
+	}
+	demands_enforced_effect = {
+		prestige = -5
 	}
 }
 

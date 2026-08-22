@@ -32,11 +32,6 @@
 		size = 4707
 	}
 
-	soldiers = {
-		culture = beifaren
-		religion = orthodox
-		size = 957
-	}
 
 	farmers = {
 		culture = beifaren
@@ -71,13 +66,13 @@
 	soldiers = {
 		culture = beifaren
 		religion = orthodox
-		size = 1837
+		size = 1
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 168551
+		size = 171382
 	}
 
 	bureaucrats = {
@@ -92,11 +87,6 @@
 		size = 19
 	}
 
-	soldiers = {
-		culture = manchu
-		religion = orthodox
-		size = 38
-	}
 }
 #Tainan (1169612/292403 POPS) #now part of Taiwan 
 2562 = {
@@ -118,11 +108,6 @@
 		size = 5052
 	}
 
-	soldiers = {
-		culture = beifaren
-		religion = orthodox
-		size = 1014
-	}
 
 	farmers = {
 		culture = beifaren
@@ -157,13 +142,13 @@
 	soldiers = {
 		culture = beifaren
 		religion = orthodox
-		size = 1914
+		size = 1
 	}
 
 	farmers = {
 		culture = beifaren
 		religion = orthodox
-		size = 175290
+		size = 178217
 	}
 
 }

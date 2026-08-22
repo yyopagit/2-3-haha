@@ -115,7 +115,7 @@
 	soldiers = {
 		culture = kirgiz
 		religion = orthodox
-		size = 1100
+		size = 129
 	}
 
 	farmers = {
@@ -145,13 +145,13 @@
 	soldiers = {
 		culture = kirgiz
 		religion = orthodox
-		size = 50
+		size = 6
 	}
 
 	farmers = {
 		culture = kirgiz
 		religion = orthodox
-		size = 4575
+		size = 5590
 	}
 
 	aristocrats = {
@@ -175,13 +175,13 @@
 	soldiers = {
 		culture = kazak
 		religion = orthodox
-		size = 50
+		size = 6
 	}
 
 	farmers = {
 		culture = kazak
 		religion = orthodox
-		size = 4600
+		size = 4644
 	}
 }
 #Mawarannahr Region (560096) #see Kazakhstan.txt, Tajikistan.txt, Uzbekistan.txt for balance of region 
