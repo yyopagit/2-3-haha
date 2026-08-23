@@ -1,0 +1,12 @@
+# Pulse «восстание подавлено» ОТКЛЮЧЁН — давал ложный спам на старте.
+# Старый id 144492 оставлен пустым stub, чтобы ничего не вызывало его случайно.
+
+country_event = {
+	id = 144492
+	title = "noloc"
+	desc = "noloc"
+	is_triggered_only = yes
+	option = {
+		name = "noloc"
+	}
+}

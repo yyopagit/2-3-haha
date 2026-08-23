@@ -1,0 +1,59 @@
+# Granary pay stage
+
+
+province_event = {
+	id = 144496
+	title = "CHI_pay_processing"
+	desc = "CHI_pay_processing_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	immediate = {
+		owner = {
+			clr_country_flag = CHI_crisis_paid
+			clr_country_flag = CHI_pay_fired
+			clr_country_flag = CHI_pay_part
+			random_owned = {
+				limit = {
+					has_province_flag = CHI_do_granary_pay
+					owner = {
+						timber = 250
+						cement = 150
+						iron = 100
+						lumber = 80
+					}
+					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
+				}
+				owner = {
+					timber = -250
+					cement = -150
+					iron = -100
+					lumber = -80
+					set_country_flag = CHI_crisis_paid
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_flag = CHI_do_granary_pay
+					owner = { has_country_flag = CHI_crisis_paid }
+					owner = { NOT = { has_country_flag = CHI_pay_fired } }
+				}
+				owner = { set_country_flag = CHI_pay_fired }
+				province_event = { id = 144432 days = 1 }
+			}
+			random_owned = {
+				limit = {
+					has_province_flag = CHI_do_granary_pay
+					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
+					owner = { NOT = { has_country_flag = CHI_pay_fired } }
+				}
+				owner = { set_country_flag = CHI_pay_fired }
+				province_event = { id = 144524 days = 1 }
+			}
+			any_owned = { clr_province_flag = CHI_do_granary_pay }
+			clr_country_flag = CHI_pay_fired
+		}
+	}
+	option = {
+		name = "CHI_sel_ok"
+	}
+}

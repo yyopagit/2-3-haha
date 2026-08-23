@@ -1233,14 +1233,6 @@ province_event = {
 		}
 		province_selector = -1
 	}
-	option = {
-		name = "Selector_EvtOptRemAllSelectors"
-		owner = {
-			any_owned = {
-				province_selector = -1
-			}
-		}
-	}
 }
 
 

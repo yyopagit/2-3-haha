@@ -1,90 +1,96 @@
---- Error 1 of 134 ---
+--- Error 1 of 96 ---
+At events\CHI.txt [country_event\title] (Line 3, column 2):
+The required [R] entry was not found.
+--- Error 2 of 96 ---
 Incorrect Literal
 At common\buildings.txt [fort\cost] (Line 787, column 2):
 Expected value: 0
 Actual value: 25000
---- Error 2 of 134 ---
+--- Error 3 of 96 ---
 Incorrect Literal
 At common\buildings.txt [naval_base\cost] (Line 739, column 2):
 Expected value: 0
 Actual value: 18000
---- Error 3 of 134 ---
+--- Error 4 of 96 ---
 At common\buildings.txt [naval_base\colonial_points] (Line 756, column 2):
 Invalid node "colonial_points" in scope NavalBaseDef (value is: <a complex type>)
---- Error 4 of 134 ---
+--- Error 5 of 96 ---
 At common\buildings.txt [naval_base\movement_cost] (Line 748, column 2):
 Invalid node "movement_cost" in scope NavalBaseDef (value is: -0.02)
---- Error 5 of 134 ---
+--- Error 6 of 96 ---
 At common\buildings.txt [naval_base\infrastructure] (Line 747, column 2):
 Invalid node "infrastructure" in scope NavalBaseDef (value is: 0.16)
---- Error 6 of 134 ---
+--- Error 7 of 96 ---
 Incorrect Literal
 At common\buildings.txt [railroad\cost] (Line 765, column 2):
 Expected value: 0
 Actual value: 6000
---- Error 7 of 134 ---
+--- Error 8 of 96 ---
 At common\buildings.txt [railroad\movement_cost] (Line 779, column 2):
 Invalid node "movement_cost" in scope RailroadDef (value is: -0.035)
---- Error 8 of 134 ---
+--- Error 9 of 96 ---
 At common\buildings.txt [hospital] (Line 826, column 1):
 The required "production_type" entry was not found.
---- Error 9 of 134 ---
+--- Error 10 of 96 ---
 At common\buildings.txt [hospital] (Line 826, column 1):
 The required "completion_size" entry was not found.
---- Error 10 of 134 ---
+--- Error 11 of 96 ---
 At common\buildings.txt [hospital] (Line 826, column 1):
 The required "on_completion" entry was not found.
---- Error 11 of 134 ---
+--- Error 12 of 96 ---
 At common\buildings.txt [town_infrastructure] (Line 805, column 1):
 The required "production_type" entry was not found.
---- Error 12 of 134 ---
+--- Error 13 of 96 ---
 At common\buildings.txt [town_infrastructure] (Line 805, column 1):
 The required "completion_size" entry was not found.
---- Error 13 of 134 ---
+--- Error 14 of 96 ---
 At common\buildings.txt [town_infrastructure] (Line 805, column 1):
 The required "on_completion" entry was not found.
---- Error 14 of 134 ---
+--- Error 15 of 96 ---
 At common\buildings.txt [province_selector] (Line 721, column 1):
 The required "production_type" entry was not found.
---- Error 15 of 134 ---
+--- Error 16 of 96 ---
 At common\buildings.txt [province_selector] (Line 721, column 1):
 The required "completion_size" entry was not found.
---- Error 16 of 134 ---
+--- Error 17 of 96 ---
 At common\buildings.txt [province_selector] (Line 721, column 1):
 The required "on_completion" entry was not found.
---- Error 17 of 134 ---
+--- Error 18 of 96 ---
+At common\buildings.txt [province_selector\time] (Line 728, column 2):
+The value '0' on node 'time' must be a positive integer.
+--- Error 19 of 96 ---
 At common\cb_types.txt [install_communist_gov_cb\can_use\AND] (Line 2747, column 3):
 The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
---- Error 18 of 134 ---
+--- Error 20 of 96 ---
 At common\cb_types.txt [acquire_small_state\can_use\any_state\NOT\total_pops] (Line 1286, column 10):
 Invalid node "total_pops" in scope RegionTrigger (value is: 550000)
---- Error 19 of 134 ---
+--- Error 21 of 96 ---
 At common\cb_types.txt [acquire_state\can_use\any_state\total_pops] (Line 1194, column 3):
 Invalid node "total_pops" in scope RegionTrigger (value is: 550000)
---- Error 20 of 134 ---
+--- Error 22 of 96 ---
 At common\cb_types.txt [conquest_africa_stage_three\can_use\any_owned_province\AND] (Line 663, column 4):
 The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
---- Error 21 of 134 ---
+--- Error 23 of 96 ---
 At common\cb_types.txt [conquest_africa_stage_two\can_use\any_owned_province\AND] (Line 591, column 4):
 The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
---- Error 22 of 134 ---
+--- Error 24 of 96 ---
 At history\countries\FRA - France.txt [] (Line 0, column 0):
 There must be exactly one fleet_doctrine entry, but 2 were found.
---- Error 23 of 134 ---
+--- Error 25 of 96 ---
 At decisions\ARA.txt [political_decisions\neft_kompania6\effect] (Line 317, column 2):
 There may be no duplications of a "money" clause.
 There were 3 duplicates.
 	[I5362|L318|C3]: money = -2000000
 	[I5383|L319|C4]: money = -2000000
 	[I5405|L320|C5]: money = -1000000
---- Error 24 of 134 ---
+--- Error 26 of 96 ---
 At decisions\ENG.txt [political_decisions\rhodesia_charter\effect] (Line 288, column 3):
 The right sides of a "inherit" clause may not be identical.
 There were 3 duplicates.
 	[I5457|L294|C4]: inherit = ZUL
 	[I5555|L299|C4]: inherit = ZUL
 	[I5653|L304|C4]: inherit = ZUL
---- Error 25 of 134 ---
+--- Error 27 of 96 ---
 At decisions\ENG.txt [political_decisions\canadian_charter\effect] (Line 190, column 3):
 The right sides of a "inherit" clause may not be identical.
 There were 10 duplicates.
@@ -98,7 +104,7 @@ There were 10 duplicates.
 	[I4310|L230|C4]: inherit = CAN
 	[I4406|L235|C4]: inherit = CAN
 	[I4502|L240|C4]: inherit = CAN
---- Error 26 of 134 ---
+--- Error 28 of 96 ---
 At decisions\GER.txt [political_decisions\udalenie\effect] (Line 603, column 3):
 There may be no duplications of a "money" clause.
 There were 5 duplicates.
@@ -107,7 +113,7 @@ There were 5 duplicates.
 	[I10864|L606|C4]: money = -2000000
 	[I10885|L607|C4]: money = -2000000
 	[I10906|L608|C4]: money = -2000000
---- Error 27 of 134 ---
+--- Error 29 of 96 ---
 At decisions\HND.txt [political_decisions\famine_war_end_1\effect] (Line 183, column 3):
 There may be no duplications of a "money" clause.
 There were 5 duplicates.
@@ -116,20 +122,20 @@ There were 5 duplicates.
 	[I3418|L186|C4]: money = -2000000
 	[I3439|L187|C4]: money = -2000000
 	[I3460|L188|C4]: money = -1000000
---- Error 28 of 134 ---
+--- Error 30 of 96 ---
 At decisions\HND.txt [political_decisions\famine_ind_3\effect] (Line 142, column 3):
 There may be no duplications of a "money" clause.
 There were 3 duplicates.
 	[I2606|L143|C4]: money = -2000000
 	[I2627|L144|C4]: money = -2000000
 	[I2648|L145|C4]: money = -2000000
---- Error 29 of 134 ---
+--- Error 31 of 96 ---
 At decisions\HND.txt [political_decisions\famine_ind_1\effect] (Line 69, column 3):
 There may be no duplications of a "money" clause.
 There were 2 duplicates.
 	[I1273|L70|C4]: money = -2000000
 	[I1294|L71|C4]: money = -1000000
---- Error 30 of 134 ---
+--- Error 32 of 96 ---
 At decisions\KUK.txt [political_decisions\korok_polshi\effect] (Line 18, column 3):
 There may be no duplications of a "money" clause.
 There were 5 duplicates.
@@ -138,315 +144,195 @@ There were 5 duplicates.
 	[I336|L21|C4]: money = -2000000
 	[I357|L22|C4]: money = -2000000
 	[I378|L23|C4]: money = -2000000
---- Error 31 of 134 ---
+--- Error 33 of 96 ---
 At decisions\Other.txt [political_decisions\assimilation_spread\effect\any_country\limit\AND] (Line 438, column 5):
 The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
---- Error 32 of 134 ---
+--- Error 34 of 96 ---
 At decisions\POR.txt [political_decisions\por_integrate_colonies\allow\AND] (Line 81, column 4):
 The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
---- Error 33 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov_CHI\effect\any_country\any_owned\clr_province_flag] (Line 75, column 7):
-Invalid node "clr_province_flag" in scope ProvinceCommand (value is: CHI_click)
---- Error 34 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov_CHI\effect\any_country\any_owned\clr_province_flag] (Line 76, column 7):
-Invalid node "clr_province_flag" in scope ProvinceCommand (value is: CHI_crisis_selected)
---- Error 35 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov_CHI\effect\any_country\any_owned\clr_province_flag] (Line 77, column 7):
-Invalid node "clr_province_flag" in scope ProvinceCommand (value is: CHI_do_sep_pay)
---- Error 36 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov_CHI\effect\any_country\any_owned\clr_province_flag] (Line 78, column 7):
-Invalid node "clr_province_flag" in scope ProvinceCommand (value is: CHI_do_water_pay)
---- Error 37 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov_CHI\effect\any_country\any_owned\clr_province_flag] (Line 79, column 7):
-Invalid node "clr_province_flag" in scope ProvinceCommand (value is: CHI_do_uniq_pay)
---- Error 38 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov_CHI\effect\any_country\any_owned\clr_province_flag] (Line 80, column 7):
-Invalid node "clr_province_flag" in scope ProvinceCommand (value is: CHI_do_granary_pay)
---- Error 39 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov_CHI\effect\any_country\any_owned\clr_province_flag] (Line 81, column 7):
-Invalid node "clr_province_flag" in scope ProvinceCommand (value is: CHI_do_revolt)
---- Error 40 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov_CHI\effect\any_country\any_owned\clr_province_flag] (Line 82, column 7):
-Invalid node "clr_province_flag" in scope ProvinceCommand (value is: CHI_do_waterfam)
---- Error 41 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov_CHI\effect\any_country\any_owned\clr_province_flag] (Line 83, column 7):
-Invalid node "clr_province_flag" in scope ProvinceCommand (value is: CHI_lvl_dropped)
---- Error 42 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov_CHI\effect\any_country\any_owned\province_selector] (Line 95, column 7):
-Invalid node "province_selector" in scope ProvinceCommand (value is: -1)
---- Error 43 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov_CHI\effect\any_country\random_owned\set_province_flag] (Line 89, column 7):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_click)
---- Error 44 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov_CHI\repeatable] (Line 42, column 4):
-Invalid node "repeatable" in scope DecisionType (value is: yes)
---- Error 45 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov\effect\any_country\random_owned\province_selector] (Line 32, column 7):
-Invalid node "province_selector" in scope ProvinceCommand (value is: -1)
---- Error 46 of 134 ---
-At decisions\Selector.txt [political_decisions\select_prov\repeatable] (Line 4, column 4):
-Invalid node "repeatable" in scope DecisionType (value is: yes)
---- Error 47 of 134 ---
+--- Error 35 of 96 ---
 At decisions\SETUP.txt [political_decisions\marker_jan\effect\any_country\limit\AND] (Line 41, column 6):
 The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
---- Error 48 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 116, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_2608)
---- Error 49 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 129, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1600)
---- Error 50 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 142, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1578)
---- Error 51 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 151, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1601)
---- Error 52 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 163, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1494)
---- Error 53 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 171, column 6):
+--- Error 36 of 96 ---
+At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 166, column 6):
 Since there is only one item within the OR clause, it is redundant and unnecessary.
---- Error 54 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 175, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1498)
---- Error 55 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 180, column 6):
+--- Error 37 of 96 ---
+At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 174, column 6):
 Since there is only one item within the OR clause, it is redundant and unnecessary.
---- Error 56 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 184, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1496)
---- Error 57 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 189, column 6):
+--- Error 38 of 96 ---
+At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 182, column 6):
 Since there is only one item within the OR clause, it is redundant and unnecessary.
---- Error 58 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 193, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1538)
---- Error 59 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 199, column 6):
+--- Error 39 of 96 ---
+At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 191, column 6):
 Since there is only one item within the OR clause, it is redundant and unnecessary.
---- Error 60 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 203, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1566)
---- Error 61 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 211, column 6):
+--- Error 40 of 96 ---
+At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 202, column 6):
 Since there is only one item within the OR clause, it is redundant and unnecessary.
---- Error 62 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 215, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1481)
---- Error 63 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 225, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1532)
---- Error 64 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 237, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1504)
---- Error 65 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 250, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1553)
---- Error 66 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 260, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1563)
---- Error 67 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 273, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1612)
---- Error 68 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 281, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1613)
---- Error 69 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 292, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1576)
---- Error 70 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 302, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1559)
---- Error 71 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 314, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1490)
---- Error 72 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 327, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1557)
---- Error 73 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 339, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1581)
---- Error 74 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 350, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1493)
---- Error 75 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 362, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1482)
---- Error 76 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 374, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1608)
---- Error 77 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 383, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1539)
---- Error 78 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 395, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_2221)
---- Error 79 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 410, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1513)
---- Error 80 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 423, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1614)
---- Error 81 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 437, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1550)
---- Error 82 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 448, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1473)
---- Error 83 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 460, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1472)
---- Error 84 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 474, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1523)
---- Error 85 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 487, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1522)
---- Error 86 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 499, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1529)
---- Error 87 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 513, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_2562)
---- Error 88 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\set_province_flag] (Line 524, column 5):
-Invalid node "set_province_flag" in scope ProvinceCommand (value is: CHI_reg_1082)
---- Error 89 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\naval_base] (Line 566, column 6):
-Invalid node "naval_base" in scope ProvinceTrigger (value is: 1)
---- Error 90 of 134 ---
-At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\naval_base] (Line 575, column 6):
-Invalid node "naval_base" in scope ProvinceTrigger (value is: 1)
---- Error 91 of 134 ---
+--- Error 41 of 96 ---
+At decisions\SMZ.txt [political_decisions\sakhalin_negotiations] (Line 277, column 2):
+The string sakhalin_negotiations_title was not found in localization.
+--- Error 42 of 96 ---
+At decisions\SMZ.txt [political_decisions\sakhalin_negotiations] (Line 277, column 2):
+The string sakhalin_negotiations_desc was not found in localization.
+--- Error 43 of 96 ---
+At decisions\SMZ.txt [political_decisions\integrate_hokkaido\allow\mission_to_civilize] (Line 269, column 4):
+Invalid node "mission_to_civilize" in scope CountryTrigger (value is: 1)
+--- Error 44 of 96 ---
+At decisions\SMZ.txt [political_decisions\integrate_hokkaido] (Line 259, column 2):
+The string integrate_hokkaido_title was not found in localization.
+--- Error 45 of 96 ---
+At decisions\SMZ.txt [political_decisions\integrate_hokkaido] (Line 259, column 2):
+The string integrate_hokkaido_desc was not found in localization.
+--- Error 46 of 96 ---
+At decisions\SMZ.txt [political_decisions\ryk_annexation_activation\effect\CHI\country_event\id] (Line 201, column 23):
+"106000" is not a valid CountryEventId.
+--- Error 47 of 96 ---
+At decisions\SMZ.txt [political_decisions\ryk_annexation_activation\effect\JAP\country_event\id] (Line 204, column 23):
+"106000" is not a valid CountryEventId.
+--- Error 48 of 96 ---
+At decisions\SMZ.txt [political_decisions\ryk_annexation_activation\effect\SMZ\country_event\id] (Line 207, column 23):
+"106000" is not a valid CountryEventId.
+--- Error 49 of 96 ---
+At decisions\SMZ.txt [political_decisions\ryk_annexation_activation\effect\TKG\country_event\id] (Line 210, column 23):
+"106000" is not a valid CountryEventId.
+--- Error 50 of 96 ---
+At decisions\SMZ.txt [political_decisions\ryk_annexation_activation\effect\JAN\country_event\id] (Line 213, column 23):
+"106100" is not a valid CountryEventId.
+--- Error 51 of 96 ---
 At decisions\SMZ.txt [political_decisions\ryk_annexation_activation] (Line 190, column 2):
 The string ryk_annexation_activation_title was not found in localization.
---- Error 92 of 134 ---
+--- Error 52 of 96 ---
 At decisions\SMZ.txt [political_decisions\ryk_annexation_activation] (Line 190, column 2):
 The string ryk_annexation_activation_desc was not found in localization.
---- Error 93 of 134 ---
+--- Error 53 of 96 ---
+At decisions\SMZ.txt [political_decisions\iwakura_mission\effect\USA\country_event\id] (Line 171, column 30):
+"200201" is not a valid CountryEventId.
+--- Error 54 of 96 ---
 At decisions\SMZ.txt [political_decisions\iwakura_mission] (Line 161, column 2):
 The string iwakura_mission_title was not found in localization.
---- Error 94 of 134 ---
+--- Error 55 of 96 ---
 At decisions\SMZ.txt [political_decisions\iwakura_mission] (Line 161, column 2):
 The string iwakura_mission_desc was not found in localization.
---- Error 95 of 134 ---
+--- Error 56 of 96 ---
+At decisions\SMZ.txt [political_decisions\form_japanese_empire\effect\JAN\random_owned\owner\country_event\id] (Line 131, column 25):
+"105000" is not a valid CountryEventId.
+--- Error 57 of 96 ---
+At decisions\SMZ.txt [political_decisions\form_japanese_empire\effect\country_event\id] (Line 120, column 22):
+"104000" is not a valid CountryEventId.
+--- Error 58 of 96 ---
 At gfx\pictures\decisions\abolish_sakoku.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply ABOLISH_SAKOKU
---- Error 96 of 134 ---
+--- Error 59 of 96 ---
 At gfx\pictures\decisions\annex_cambodia.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply ANNEX_CAMBODIA
---- Error 97 of 134 ---
+--- Error 60 of 96 ---
 At gfx\pictures\decisions\annex_portugal.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply ANNEX_PORTUGAL
---- Error 98 of 134 ---
+--- Error 61 of 96 ---
 At gfx\pictures\decisions\annex_TIB.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply ANNEX_TIB
---- Error 99 of 134 ---
+--- Error 62 of 96 ---
 At gfx\pictures\decisions\ask_association_with_asa.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply ASK_ASSOCIATION_WITH_ASA
---- Error 100 of 134 ---
+--- Error 63 of 96 ---
 At gfx\pictures\decisions\ask_association_with_ava.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply ASK_ASSOCIATION_WITH_AVA
---- Error 101 of 134 ---
+--- Error 64 of 96 ---
 At gfx\pictures\decisions\ask_emperor_to_association.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply ASK_EMPEROR_TO_ASSOCIATION
---- Error 102 of 134 ---
+--- Error 65 of 96 ---
 At gfx\pictures\decisions\break_from_shogunate.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply BREAK_FROM_SHOGUNATE
---- Error 103 of 134 ---
+--- Error 66 of 96 ---
 At gfx\pictures\decisions\CHI_cut_down_high_corruption.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply CHI_CUT_DOWN_HIGH_CORRUPTION
---- Error 104 of 134 ---
+--- Error 67 of 96 ---
 At gfx\pictures\decisions\CHI_cut_down_low_corruption.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply CHI_CUT_DOWN_LOW_CORRUPTION
---- Error 105 of 134 ---
+--- Error 68 of 96 ---
 At gfx\pictures\decisions\CHI_cut_down_medium_corruption.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply CHI_CUT_DOWN_MEDIUM_CORRUPTION
---- Error 106 of 134 ---
+--- Error 69 of 96 ---
 At gfx\pictures\decisions\clear_out_the_manchu_elite.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply CLEAR_OUT_THE_MANCHU_ELITE
---- Error 107 of 134 ---
+--- Error 70 of 96 ---
 At gfx\pictures\decisions\crown_empress_of_india.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply CROWN_EMPRESS_OF_INDIA
---- Error 108 of 134 ---
+--- Error 71 of 96 ---
 At gfx\pictures\decisions\dainam_offensive.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply DAINAM_OFFENSIVE
---- Error 109 of 134 ---
+--- Error 72 of 96 ---
 At gfx\pictures\decisions\die_groot_trek.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply DIE_GROOT_TREK
---- Error 110 of 134 ---
+--- Error 73 of 96 ---
 At gfx\pictures\decisions\dip_med.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply DIP_MED
---- Error 111 of 134 ---
+--- Error 74 of 96 ---
 At gfx\pictures\decisions\fate_of_burma.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply FATE_OF_BURMA
---- Error 112 of 134 ---
+--- Error 75 of 96 ---
 At gfx\pictures\decisions\form_japanese_empire.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply FORM_JAPANESE_EMPIRE
---- Error 113 of 134 ---
+--- Error 76 of 96 ---
 At gfx\pictures\decisions\iwakura_mission.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply IWAKURA_MISSION
---- Error 114 of 134 ---
+--- Error 77 of 96 ---
 At gfx\pictures\decisions\malakka_boost.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply MALAKKA_BOOST
---- Error 115 of 134 ---
+--- Error 78 of 96 ---
 At gfx\pictures\decisions\malakka_king.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply MALAKKA_KING
---- Error 116 of 134 ---
+--- Error 79 of 96 ---
 At gfx\pictures\decisions\otkaz_birma.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply OTKAZ_BIRMA
---- Error 117 of 134 ---
+--- Error 80 of 96 ---
 At gfx\pictures\decisions\por_annex_brazil.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply POR_ANNEX_BRAZIL
---- Error 118 of 134 ---
+--- Error 81 of 96 ---
 At gfx\pictures\decisions\por_integrate_amazonia.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply POR_INTEGRATE_AMAZONIA
---- Error 119 of 134 ---
+--- Error 82 of 96 ---
 At gfx\pictures\decisions\por_integrate_colonies.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply POR_INTEGRATE_COLONIES
---- Error 120 of 134 ---
+--- Error 83 of 96 ---
 At gfx\pictures\decisions\request_help_sia.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply REQUEST_HELP_SIA
---- Error 121 of 134 ---
+--- Error 84 of 96 ---
 At gfx\pictures\decisions\restore_emp.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply RESTORE_EMP
---- Error 122 of 134 ---
+--- Error 85 of 96 ---
 At gfx\pictures\decisions\rise_of_siam_start.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply RISE_OF_SIAM_START
---- Error 123 of 134 ---
+--- Error 86 of 96 ---
 At gfx\pictures\decisions\ryk_annexation_activation.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply RYK_ANNEXATION_ACTIVATION
---- Error 124 of 134 ---
+--- Error 87 of 96 ---
 At gfx\pictures\decisions\spa_colonial_empire.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply SPA_COLONIAL_EMPIRE
---- Error 125 of 134 ---
+--- Error 88 of 96 ---
 At gfx\pictures\decisions\spa_colonies.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply SPA_COLONIES
---- Error 126 of 134 ---
+--- Error 89 of 96 ---
 At gfx\pictures\decisions\spa_integrate_argentina.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply SPA_INTEGRATE_ARGENTINA
---- Error 127 of 134 ---
+--- Error 90 of 96 ---
 At gfx\pictures\decisions\spa_integrate_chili.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply SPA_INTEGRATE_CHILI
---- Error 128 of 134 ---
+--- Error 91 of 96 ---
 At gfx\pictures\decisions\spa_por_iberian_south_america.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply SPA_POR_IBERIAN_SOUTH_AMERICA
---- Error 129 of 134 ---
+--- Error 92 of 96 ---
 At gfx\pictures\decisions\support_boxers.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply SUPPORT_BOXERS
---- Error 130 of 134 ---
+--- Error 93 of 96 ---
 At gfx\pictures\decisions\the_meiji_restoration.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply THE_MEIJI_RESTORATION
---- Error 131 of 134 ---
+--- Error 94 of 96 ---
 At gfx\pictures\decisions\the_meiji_restoration2.dds [<root>] (Line 0, column 0):
 Decision pictures: Unmatched supply THE_MEIJI_RESTORATION2
---- Error 132 of 134 ---
+--- Error 95 of 96 ---
 At events\Blockade.txt [country_event] (Line 280, column 1):
 The event is set to be triggered only, but it is never called.
---- Error 133 of 134 ---
+--- Error 96 of 96 ---
 At events\CHI.txt [country_event\title] (Line 3, column 2):
 <a complex type> is not a valid String.
---- Error 134 of 134 ---
-At events\CHI.txt [country_event\title] (Line 3, column 2):
-The required [R] entry was not found.

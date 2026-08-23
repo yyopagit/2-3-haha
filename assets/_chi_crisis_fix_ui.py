@@ -23,6 +23,7 @@ extract_event = ns["extract_event"]
 loc_line = ns["loc_line"]
 LOC_KEYS = ns["LOC_KEYS"]
 bar = ns["bar"]
+build_loc = ns["build_loc"]
 
 
 def rids_used():
@@ -116,6 +117,19 @@ def pay_by_selected(level_mod, amount, corrupt_amount, indent="\t\t"):
     return pay_flag("CHI_crisis_selected", amount, corrupt_amount, level_mod, indent)
 
 
+def region_clear_mods(rids, mods, indent="\t\t\t"):
+    orlim = gen_region_or(rids)
+    rms = "\n".join(f"{indent}\tremove_province_modifier = {m}" for m in mods)
+    return f"""{indent}any_owned = {{
+{indent}	limit = {{
+{indent}		OR = {{
+{orlim}
+{indent}		}}
+{indent}	}}
+{rms}
+{indent}}}"""
+
+
 def if_paid(inner):
     return f"""			random_owned = {{
 				limit = {{
@@ -130,20 +144,18 @@ def if_paid(inner):
 
 
 def worker_immediate(rids, extra_after_act):
+    """Region worker: mark act from clicked province, apply effects, clear act.
+    Payment is already done on the menu option — do not gate on CHI_crisis_paid."""
     set_act = gen_set_act(rids)
     clr_act = gen_clr_act(rids)
     return f"""	option = {{
 		name = "CHI_sel_ok"
 		set_province_flag = CHI_crisis_selected
 		owner = {{
-			random_owned = {{
-				limit = {{ has_province_flag = CHI_crisis_selected }}
-				owner = {{
 {set_act}
 {extra_after_act}
 {clr_act}
-				}}
-			}}
+			clr_country_flag = CHI_crisis_paid
 		}}
 		clr_province_flag = CHI_crisis_selected
 		owner = {{
@@ -159,7 +171,7 @@ def worker_immediate(rids, extra_after_act):
 			any_owned = {{ clr_province_flag = CHI_click }}
 		}}
 		set_province_flag = CHI_click
-		JAN = {{ country_event = {{ id = 144440 days = 0 }} }}
+		owner = {{ country_event = {{ id = 144440 days = 0 }} }}
 	}}"""
 
 
@@ -167,13 +179,14 @@ def build_workers(rids):
     orlim = gen_region_or(rids)
     wat_drop = water_drop_block(rids)
     fam_drop = famine_drop_block(rids)
+    # Region-only CD: only provinces in the marked CHI_reg_* + CHI_act_* region.
     cd_add = f"""			any_owned = {{
 				limit = {{
 					OR = {{
 {orlim}
 					}}
 				}}
-				add_province_modifier = {{ name = CHI_hydro_cd duration = 365 }}
+				add_province_modifier = {{ name = CHI_hydro_cd duration = 900 }}
 			}}"""
     water_fam = f"""			any_owned = {{
 				limit = {{
@@ -192,7 +205,8 @@ def build_workers(rids):
 			}}
 			any_owned = {{ clr_province_flag = CHI_do_waterfam }}"""
 
-    water_extra = if_paid(wat_drop + chr(10) + water_fam + chr(10) + cd_add)
+    # Always apply — menu option already charged money/goods.
+    water_extra = wat_drop + "\n" + water_fam + "\n" + cd_add
 
     granary_add = f"""			any_owned = {{
 				limit = {{
@@ -214,9 +228,9 @@ def build_workers(rids):
 				remove_province_modifier = CHI_water_canal_silt
 				remove_province_modifier = CHI_water_yangtze_nav
 				remove_province_modifier = CHI_water_yellow_dikes
-				add_province_modifier = {{ name = CHI_hydro_cd duration = 365 }}
+				add_province_modifier = {{ name = CHI_hydro_cd duration = 900 }}
 			}}"""
-    uniq_extra = if_paid(uniq_add)
+    uniq_extra = uniq_add
 
     infra_extra = f"""			any_owned = {{
 				limit = {{
@@ -260,6 +274,91 @@ def build_workers(rids):
 			}}"""
     sep_extra = if_paid(sep_add)
 
+    sep_full_add = (
+        region_clear_mods(
+            rids,
+            [
+                "CHI_separatism_1",
+                "CHI_separatism_2",
+                "CHI_separatism_3",
+                "CHI_separatism_4",
+            ],
+        )
+        + f"""
+			any_owned = {{
+				limit = {{
+					OR = {{
+{orlim}
+					}}
+				}}
+				add_province_modifier = {{ name = CHI_sep_cd duration = 730 }}
+			}}"""
+    )
+    sep_full_extra = if_paid(sep_full_add)
+
+    water_full_clear = region_clear_mods(
+        rids,
+        [
+            "CHI_water_1",
+            "CHI_water_2",
+            "CHI_water_3",
+            "CHI_water_4",
+            "CHI_water_canal_silt",
+            "CHI_water_yangtze_nav",
+            "CHI_water_yellow_dikes",
+        ],
+    )
+    famine_full_clear = region_clear_mods(
+        rids,
+        ["CHI_famine_1", "CHI_famine_2", "CHI_famine_3", "CHI_famine_4"],
+    )
+    famine_full_inner = region_clear_mods(
+        rids,
+        ["CHI_famine_1", "CHI_famine_2", "CHI_famine_3", "CHI_famine_4"],
+        indent="\t\t\t\t",
+    )
+    water_full_add = f"""{water_full_clear}
+			any_owned = {{
+				limit = {{
+					has_province_modifier = CHI_famine_tied_to_water
+					OR = {{
+{orlim}
+					}}
+				}}
+				set_province_flag = CHI_do_waterfam
+			}}
+			random_owned = {{
+				limit = {{ has_province_flag = CHI_do_waterfam }}
+				owner = {{
+{famine_full_inner}
+				}}
+			}}
+			any_owned = {{ clr_province_flag = CHI_do_waterfam }}
+			any_owned = {{
+				limit = {{
+					OR = {{
+{orlim}
+					}}
+				}}
+				add_province_modifier = {{ name = CHI_hydro_cd duration = 730 }}
+			}}"""
+    water_full_extra = if_paid(water_full_add)
+
+    famine_full_add = (
+        famine_full_clear
+        + f"""
+			any_owned = {{
+				limit = {{
+					OR = {{
+{orlim}
+					}}
+				}}
+				add_province_modifier = {{ name = CHI_great_granary duration = -1 }}
+				add_province_modifier = {{ name = CHI_food_cd duration = 730 }}
+			}}"""
+    )
+    famine_full_extra = if_paid(famine_full_add)
+
     def ev(eid, title, desc, extra):
         return f"""province_event = {{
 	id = {eid}
@@ -271,14 +370,15 @@ def build_workers(rids):
 }}
 """
 
-    return "\n".join(
-        [
-            ev(144431, "CHI_sel_water_done", "CHI_sel_water_done_desc", water_extra),
-            ev(144432, "CHI_sel_granary_done", "CHI_sel_granary_done_desc", granary_extra),
-            ev(144433, "CHI_sel_unique_done", "CHI_sel_unique_done_desc", uniq_extra),
-            ev(144437, "CHI_sel_sep_done", "CHI_sel_sep_done_desc", sep_extra),
-        ]
-    )
+    return {
+        "water": ev(144431, "CHI_sel_water_done", "CHI_sel_water_done_desc", water_extra),
+        "granary": ev(144432, "CHI_sel_granary_done", "CHI_sel_granary_done_desc", granary_extra),
+        "unique": ev(144433, "CHI_sel_unique_done", "CHI_sel_unique_done_desc", uniq_extra),
+        "sep": ev(144437, "CHI_sel_sep_done", "CHI_sel_sep_done_desc", sep_extra),
+        "sep_full": ev(144505, "CHI_sel_sep_full_done", "CHI_sel_sep_full_done_desc", sep_full_extra),
+        "water_full": ev(144508, "CHI_sel_water_full_done", "CHI_sel_water_full_done_desc", water_full_extra),
+        "famine_full": ev(144511, "CHI_sel_famine_full_done", "CHI_sel_famine_full_done_desc", famine_full_extra),
+    }
 
 
 def build_slim_144408():
@@ -416,14 +516,6 @@ def build_slim_144408():
 		}
 		province_selector = -1
 	}
-	option = {
-		name = "Selector_EvtOptRemAllSelectors"
-		owner = {
-			any_owned = {
-				province_selector = -1
-			}
-		}
-	}
 }
 """
 
@@ -433,7 +525,7 @@ def patch_jan():
 
 
 def write_workers(rids):
-    print("skip CHI_crises.txt (menus live in _chi_crisis_menus.py)")
+    print("skip CHI_crises.txt (split files live in _chi_crisis_menus.py)")
 
 
 def patch_loc():
@@ -465,19 +557,19 @@ def patch_loc():
             continue
         kept.append(line)
     add = []
-    add.append(loc_line("CHI_sel_water", "Починить гидротехнику региона (200к / 500к / 1 млн / 2 млн по уровню; коррупция x2; КД 1 год)"))
+    add.append(loc_line("CHI_sel_water", "Ремонт ирригации региона (деньги + дерево/цемент/железо/пиломатериалы; КД региона ~2.5 года)"))
     add.append(loc_line("CHI_sel_ok", "Принято"))
-    add.append(loc_line("CHI_sel_water_done", "Гидротехника"))
-    add.append(loc_line("CHI_sel_water_done_desc", "Работы в регионе начаты. Уровень проблемы с водой снижен на 1. Повторный ремонт через год."))
+    add.append(loc_line("CHI_sel_water_done", "Ирригация"))
+    add.append(loc_line("CHI_sel_water_done_desc", "Работы в регионе закончены. Уровень проблемы с водой снижен на 1. В этом регионе следующий ремонт примерно через 2.5 года."))
     add.append(loc_line("CHI_sel_granary_done", "Великий амбар"))
     add.append(loc_line("CHI_sel_granary_done_desc", "Амбар заложен по всему региону. Голод снижен на 1 уровень."))
     add.append(loc_line("CHI_sel_unique_done", "Речные работы"))
-    add.append(loc_line("CHI_sel_unique_done_desc", "Особая речная проблема региона снята. Повтор через год."))
+    add.append(loc_line("CHI_sel_unique_done_desc", "Особая речная проблема региона снята. В этом регионе повтор примерно через 2.5 года."))
     add.append(loc_line("CHI_sel_infra_done", "Инфраструктура"))
     add.append(loc_line("CHI_sel_infra_done_desc", "Провинции с инфраструктурой 2 получили облегчение голода. Если она везде в регионе - голод снижен на 1."))
-    add.append(loc_line("CHI_hydro_cd", "Идут гидротехнические работы"))
-    add.append(loc_line("CHI_hydro_cd_desc", "В регионе уже идёт ремонт. Следующий заказ через год."))
-    add.append(loc_line("CHI_sel_granary", "Построить великий амбар в регионе (2 000 000, коррупция x2)"))
+    add.append(loc_line("CHI_hydro_cd", "Ремонт ирригации региона"))
+    add.append(loc_line("CHI_hydro_cd_desc", "В этом регионе уже идут работы по ирригации и дамбам. Следующий заказ здесь примерно через 2.5 года."))
+    add.append(loc_line("CHI_sel_granary", "Построить великий амбар в регионе (дерево 250, цемент 150, железо 100, пиломатериалы 80)"))
     body = "".join(kept)
     if not body.endswith("\n"):
         body += "\r\n"

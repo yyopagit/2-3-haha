@@ -1,10 +1,10 @@
 #####Снятие провинциальных дебаффов
 country_event = {
-	title = {}
-	desc = {}
 	id = 100011
+	title = "noloc"
+	desc = "noloc"
 	is_triggered_only = yes
 	option = {
-		
+		name = "noloc"
 	}
 }

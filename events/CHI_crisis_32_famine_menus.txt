@@ -1,0 +1,87 @@
+# Famine / granary menus
+
+province_event = {
+	id = 144459
+	title = "CHI_sel_no_famine"
+	desc = "CHI_sel_no_famine_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+province_event = {
+	id = 144460
+	title = "CHI_sel_has_granary"
+	desc = "CHI_sel_has_granary_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+province_event = {
+	id = 144523
+	title = "CHI_sel_food_wait"
+	desc = "CHI_sel_food_wait_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+# Одно меню амбара: wait / стройка / уже есть — разные имена кнопок
+province_event = {
+	id = 144475
+	title = "CHI_famine_choice_title"
+	desc = "CHI_famine_choice_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_food_wait"
+		trigger = {
+			has_province_modifier = CHI_food_cd
+		}
+		province_event = { id = 144523 days = 0 }
+	}
+	option = {
+		name = "CHI_sel_granary"
+		trigger = {
+			OR = {
+				has_province_modifier = CHI_famine_1
+				has_province_modifier = CHI_famine_2
+				has_province_modifier = CHI_famine_3
+				has_province_modifier = CHI_famine_4
+			}
+			NOT = { has_province_modifier = CHI_food_cd }
+		}
+		set_province_flag = CHI_do_granary_pay
+		province_event = { id = 144496 days = 0 }
+	}
+	option = {
+		name = "CHI_sel_has_granary"
+		trigger = {
+			has_province_modifier = CHI_great_granary
+			NOT = { has_province_modifier = CHI_food_cd }
+			NOT = {
+				OR = {
+					has_province_modifier = CHI_famine_1
+					has_province_modifier = CHI_famine_2
+					has_province_modifier = CHI_famine_3
+					has_province_modifier = CHI_famine_4
+				}
+			}
+		}
+		province_event = { id = 144460 days = 0 }
+	}
+	option = {
+		name = "CHI_sel_back"
+		province_event = { id = 144408 days = 0 }
+	}
+}

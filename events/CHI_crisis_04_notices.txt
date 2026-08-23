@@ -1,0 +1,102 @@
+# Money / goods notices + depot
+
+province_event = {
+	id = 144450
+	title = "CHI_need_200k"
+	desc = "CHI_need_money_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+province_event = {
+	id = 144451
+	title = "CHI_need_500k"
+	desc = "CHI_need_money_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+province_event = {
+	id = 144452
+	title = "CHI_need_1m"
+	desc = "CHI_need_money_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+province_event = {
+	id = 144453
+	title = "CHI_need_15m"
+	desc = "CHI_need_money_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+province_event = {
+	id = 144454
+	title = "CHI_need_2m"
+	desc = "CHI_need_money_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+province_event = {
+	id = 144524
+	title = "CHI_need_goods"
+	desc = "CHI_need_goods_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+province_event = {
+	id = 144467
+	title = "Selector_EvtOptSupplyDepot"
+	desc = "Selector_EvtDesc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "Selector_EvtOptSupplyDepot"
+		trigger = {
+			owner = { money = 500000 }
+		}
+		owner = {
+			money = -500000
+			any_owned = {
+				remove_province_modifier = provincial_supply_depot_pmodifier
+			}
+		}
+		add_province_modifier = {
+			name = provincial_supply_depot_pmodifier
+			duration = -1
+		}
+		province_selector = -1
+	}
+	option = {
+		name = "CHI_sel_back"
+		province_event = { id = 144408 days = 0 }
+	}
+}
