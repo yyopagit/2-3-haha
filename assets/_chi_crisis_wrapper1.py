@@ -947,12 +947,8 @@ def build_event_144408(rids):
 {port}
 {fleet}
 	option = {{
-		name = "Selector_EvtOptRemAllSelectors"
-		owner = {{
-			any_owned = {{
-				province_selector = -1
-			}}
-		}}
+		name = "Selector_EvtOptCancel"
+		province_selector = -1
 	}}
 }}
 """

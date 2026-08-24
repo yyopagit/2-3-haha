@@ -1,0 +1,94 @@
+# Coast piracy menus
+
+province_event = {
+	id = 144461
+	title = "CHI_sel_not_coast"
+	desc = "CHI_sel_not_coast"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+province_event = {
+	id = 144462
+	title = "CHI_sel_no_piracy"
+	desc = "CHI_sel_no_piracy"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+province_event = {
+	id = 144463
+	title = "CHI_need_port"
+	desc = "CHI_need_port"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+province_event = {
+	id = 144464
+	title = "CHI_need_fleet"
+	desc = "CHI_need_fleet"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+province_event = {
+	id = 144465
+	title = "CHI_sel_port_piracy"
+	desc = "CHI_menu_coast_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_port_piracy"
+		remove_province_modifier = CHI_piracy_4
+		remove_province_modifier = CHI_piracy_3
+		remove_province_modifier = CHI_piracy_2
+		add_province_modifier = { name = CHI_piracy_1 duration = -1 }
+		add_province_modifier = { name = CHI_port_anti_piracy duration = -1 }
+		province_event = { id = 144408 days = 0 }
+	}
+	option = {
+		name = "CHI_sel_back"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+province_event = {
+	id = 144466
+	title = "CHI_sel_fleet_piracy"
+	desc = "CHI_menu_coast_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_sel_fleet_piracy"
+		owner = {
+			any_owned = {
+				remove_province_modifier = CHI_piracy_1
+				remove_province_modifier = CHI_piracy_2
+				remove_province_modifier = CHI_piracy_3
+				remove_province_modifier = CHI_piracy_4
+			}
+		}
+		province_event = { id = 144408 days = 0 }
+	}
+	option = {
+		name = "CHI_sel_back"
+		province_event = { id = 144408 days = 0 }
+	}
+}

@@ -310,7 +310,6 @@ CHI_sep_cd = {
 }
 
 CHI_sep_tax_cut = {
-	tax_efficiency = -0.04
 	icon = 9
 }
 CHI_sep_revolt_cd = {
@@ -319,6 +318,89 @@ CHI_sep_revolt_cd = {
 CHI_sep_uprising = {
 	pop_militancy_modifier = 0.20
 	icon = 16
+}
+CHI_food_cd = {
+	icon = 7
+}
+CHI_sep_tax_stack_1 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_2 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_3 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_4 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_5 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_6 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_7 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_8 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_9 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_10 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_11 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_12 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_13 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_14 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_15 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_16 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_17 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_18 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_19 = {
+	tax_efficiency = -0.04
+	icon = 9
+}
+CHI_sep_tax_stack_20 = {
+	tax_efficiency = -0.04
+	icon = 9
 }
 # CHI_CRISIS_WRAPPER1_END
 #-------------------------------------------------------ВЕЛИКОБРИТАНИЯ АНГЛИЯ ВБ-------------------------------------------------------

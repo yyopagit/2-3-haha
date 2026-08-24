@@ -1,0 +1,82 @@
+# Separatism bribe pay stage
+
+
+province_event = {
+	id = 144493
+	title = "CHI_pay_processing"
+	desc = "CHI_pay_processing_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	immediate = {
+		owner = {
+			clr_country_flag = CHI_crisis_paid
+			clr_country_flag = CHI_pay_fired
+			clr_country_flag = CHI_pay_part
+			random_owned = {
+				limit = {
+					has_province_flag = CHI_do_bribe
+					has_province_modifier = CHI_sep_cd
+					owner = { NOT = { has_country_flag = CHI_pay_fired } }
+				}
+				owner = { set_country_flag = CHI_pay_fired }
+				province_event = { id = 144456 days = 1 }
+				clr_province_flag = CHI_do_bribe
+			}
+		random_owned = {
+			limit = {
+				has_province_flag = CHI_do_bribe
+				owner = { NOT = { has_country_modifier = CHI_corruption_high } }
+				owner = { money = 500000 }
+			}
+			owner = {
+				money = -500000
+				set_country_flag = CHI_crisis_paid
+			}
+		}
+		random_owned = {
+			limit = {
+				has_province_flag = CHI_do_bribe
+				owner = { has_country_modifier = CHI_corruption_high }
+				owner = { money = 1000000 }
+			}
+			owner = {
+				money = -1000000
+				set_country_flag = CHI_crisis_paid
+			}
+		}
+			random_owned = {
+				limit = {
+					has_province_flag = CHI_do_bribe
+					owner = { has_country_flag = CHI_crisis_paid }
+					owner = { NOT = { has_country_flag = CHI_pay_fired } }
+				}
+				owner = { set_country_flag = CHI_pay_fired }
+				province_event = { id = 144437 days = 1 }
+			}
+			random_owned = {
+				limit = {
+					has_province_flag = CHI_do_bribe
+					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
+					owner = { NOT = { has_country_flag = CHI_pay_fired } }
+					owner = { has_country_modifier = CHI_corruption_high }
+				}
+				owner = { set_country_flag = CHI_pay_fired }
+				province_event = { id = 144452 days = 1 }
+			}
+			random_owned = {
+				limit = {
+					has_province_flag = CHI_do_bribe
+					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
+					owner = { NOT = { has_country_flag = CHI_pay_fired } }
+				}
+				owner = { set_country_flag = CHI_pay_fired }
+				province_event = { id = 144451 days = 1 }
+			}
+			any_owned = { clr_province_flag = CHI_do_bribe }
+			clr_country_flag = CHI_pay_fired
+		}
+	}
+	option = {
+		name = "CHI_sel_ok"
+	}
+}
