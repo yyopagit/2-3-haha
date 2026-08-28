@@ -12,9 +12,10 @@ province_event = {
 			clr_country_flag = CHI_crisis_paid
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
+			clr_country_flag = CHI_pay_wait
 			random_owned = {
 				limit = {
-					has_province_flag = CHI_do_granary_pay
+					has_province_modifier = CHI_click_mark
 					owner = {
 						timber = 250
 						cement = 150
@@ -31,9 +32,14 @@ province_event = {
 					set_country_flag = CHI_crisis_paid
 				}
 			}
+		}
+	}
+	option = {
+		name = "CHI_sel_ok"
+		owner = {
 			random_owned = {
 				limit = {
-					has_province_flag = CHI_do_granary_pay
+					has_province_modifier = CHI_click_mark
 					owner = { has_country_flag = CHI_crisis_paid }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
@@ -42,18 +48,16 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_flag = CHI_do_granary_pay
+					has_province_modifier = CHI_click_mark
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
 				owner = { set_country_flag = CHI_pay_fired }
 				province_event = { id = 144524 days = 1 }
 			}
-			any_owned = { clr_province_flag = CHI_do_granary_pay }
 			clr_country_flag = CHI_pay_fired
+			clr_country_flag = CHI_pay_part
+			clr_country_flag = CHI_pay_wait
 		}
-	}
-	option = {
-		name = "CHI_sel_ok"
 	}
 }

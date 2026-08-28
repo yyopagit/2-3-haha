@@ -1,0 +1,2337 @@
+--- Error 1 of 753 ---
+At common\buildings.txt [province_selector\time] (Line 728, column 2):
+The value '0' on node 'time' must be a positive integer.
+--- Error 2 of 753 ---
+Incorrect Literal
+At common\buildings.txt [fort\cost] (Line 787, column 2):
+Expected value: 0
+Actual value: 25000
+--- Error 3 of 753 ---
+Incorrect Literal
+At common\buildings.txt [naval_base\cost] (Line 739, column 2):
+Expected value: 0
+Actual value: 18000
+--- Error 4 of 753 ---
+At common\buildings.txt [naval_base\colonial_points] (Line 756, column 2):
+Invalid node "colonial_points" in scope NavalBaseDef (value is: <a complex type>)
+--- Error 5 of 753 ---
+At common\buildings.txt [naval_base\movement_cost] (Line 748, column 2):
+Invalid node "movement_cost" in scope NavalBaseDef (value is: -0.02)
+--- Error 6 of 753 ---
+At common\buildings.txt [naval_base\infrastructure] (Line 747, column 2):
+Invalid node "infrastructure" in scope NavalBaseDef (value is: 0.16)
+--- Error 7 of 753 ---
+Incorrect Literal
+At common\buildings.txt [railroad\cost] (Line 765, column 2):
+Expected value: 0
+Actual value: 6000
+--- Error 8 of 753 ---
+At common\buildings.txt [railroad\movement_cost] (Line 779, column 2):
+Invalid node "movement_cost" in scope RailroadDef (value is: -0.035)
+--- Error 9 of 753 ---
+At common\buildings.txt [hospital] (Line 826, column 1):
+The required "production_type" entry was not found.
+--- Error 10 of 753 ---
+At common\buildings.txt [hospital] (Line 826, column 1):
+The required "completion_size" entry was not found.
+--- Error 11 of 753 ---
+At common\buildings.txt [hospital] (Line 826, column 1):
+The required "on_completion" entry was not found.
+--- Error 12 of 753 ---
+At common\buildings.txt [town_infrastructure] (Line 805, column 1):
+The required "production_type" entry was not found.
+--- Error 13 of 753 ---
+At common\buildings.txt [town_infrastructure] (Line 805, column 1):
+The required "completion_size" entry was not found.
+--- Error 14 of 753 ---
+At common\buildings.txt [town_infrastructure] (Line 805, column 1):
+The required "on_completion" entry was not found.
+--- Error 15 of 753 ---
+At common\buildings.txt [province_selector] (Line 721, column 1):
+The required "production_type" entry was not found.
+--- Error 16 of 753 ---
+At common\buildings.txt [province_selector] (Line 721, column 1):
+The required "completion_size" entry was not found.
+--- Error 17 of 753 ---
+At common\buildings.txt [province_selector] (Line 721, column 1):
+The required "on_completion" entry was not found.
+--- Error 18 of 753 ---
+At common\cb_types.txt [install_communist_gov_cb\can_use\AND] (Line 2747, column 3):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 19 of 753 ---
+At common\cb_types.txt [acquire_small_state\can_use\any_state\NOT\total_pops] (Line 1286, column 10):
+Invalid node "total_pops" in scope RegionTrigger (value is: 550000)
+--- Error 20 of 753 ---
+At common\cb_types.txt [acquire_state\can_use\any_state\total_pops] (Line 1194, column 3):
+Invalid node "total_pops" in scope RegionTrigger (value is: 550000)
+--- Error 21 of 753 ---
+At common\cb_types.txt [conquest_africa_stage_three\can_use\any_owned_province\AND] (Line 663, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 22 of 753 ---
+At common\cb_types.txt [conquest_africa_stage_two\can_use\any_owned_province\AND] (Line 591, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 23 of 753 ---
+At history\countries\FRA - France.txt [] (Line 0, column 0):
+There must be exactly one fleet_doctrine entry, but 2 were found.
+--- Error 24 of 753 ---
+At decisions\ARA.txt [political_decisions\neft_kompania6\effect] (Line 317, column 2):
+There may be no duplications of a "money" clause.
+There were 3 duplicates.
+	[I5362|L318|C3]: money = -2000000
+	[I5383|L319|C4]: money = -2000000
+	[I5405|L320|C5]: money = -1000000
+--- Error 25 of 753 ---
+At decisions\ENG.txt [political_decisions\rhodesia_charter\effect] (Line 288, column 3):
+The right sides of a "inherit" clause may not be identical.
+There were 3 duplicates.
+	[I5457|L294|C4]: inherit = ZUL
+	[I5555|L299|C4]: inherit = ZUL
+	[I5653|L304|C4]: inherit = ZUL
+--- Error 26 of 753 ---
+At decisions\ENG.txt [political_decisions\canadian_charter\effect] (Line 190, column 3):
+The right sides of a "inherit" clause may not be identical.
+There were 10 duplicates.
+	[I3638|L195|C4]: inherit = CAN
+	[I3734|L200|C4]: inherit = CAN
+	[I3830|L205|C4]: inherit = CAN
+	[I3926|L210|C4]: inherit = CAN
+	[I4022|L215|C4]: inherit = CAN
+	[I4118|L220|C4]: inherit = CAN
+	[I4214|L225|C4]: inherit = CAN
+	[I4310|L230|C4]: inherit = CAN
+	[I4406|L235|C4]: inherit = CAN
+	[I4502|L240|C4]: inherit = CAN
+--- Error 27 of 753 ---
+At decisions\GER.txt [political_decisions\udalenie\effect] (Line 603, column 3):
+There may be no duplications of a "money" clause.
+There were 5 duplicates.
+	[I10822|L604|C4]: money = -2000000
+	[I10843|L605|C4]: money = -2000000
+	[I10864|L606|C4]: money = -2000000
+	[I10885|L607|C4]: money = -2000000
+	[I10906|L608|C4]: money = -2000000
+--- Error 28 of 753 ---
+At decisions\HND.txt [political_decisions\famine_war_end_1\effect] (Line 183, column 3):
+There may be no duplications of a "money" clause.
+There were 5 duplicates.
+	[I3376|L184|C4]: money = -2000000
+	[I3397|L185|C4]: money = -2000000
+	[I3418|L186|C4]: money = -2000000
+	[I3439|L187|C4]: money = -2000000
+	[I3460|L188|C4]: money = -1000000
+--- Error 29 of 753 ---
+At decisions\HND.txt [political_decisions\famine_ind_3\effect] (Line 142, column 3):
+There may be no duplications of a "money" clause.
+There were 3 duplicates.
+	[I2606|L143|C4]: money = -2000000
+	[I2627|L144|C4]: money = -2000000
+	[I2648|L145|C4]: money = -2000000
+--- Error 30 of 753 ---
+At decisions\HND.txt [political_decisions\famine_ind_1\effect] (Line 69, column 3):
+There may be no duplications of a "money" clause.
+There were 2 duplicates.
+	[I1273|L70|C4]: money = -2000000
+	[I1294|L71|C4]: money = -1000000
+--- Error 31 of 753 ---
+At decisions\KUK.txt [political_decisions\korok_polshi\effect] (Line 18, column 3):
+There may be no duplications of a "money" clause.
+There were 5 duplicates.
+	[I294|L19|C4]: money = -2000000
+	[I315|L20|C4]: money = -2000000
+	[I336|L21|C4]: money = -2000000
+	[I357|L22|C4]: money = -2000000
+	[I378|L23|C4]: money = -2000000
+--- Error 32 of 753 ---
+At decisions\Other.txt [political_decisions\assimilation_spread\effect\any_country\limit\AND] (Line 438, column 5):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 33 of 753 ---
+At decisions\POR.txt [political_decisions\por_integrate_colonies\allow\AND] (Line 81, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 34 of 753 ---
+At decisions\SETUP.txt [political_decisions\marker_jan\effect\any_country\limit\AND] (Line 41, column 6):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 35 of 753 ---
+At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 166, column 6):
+Since there is only one item within the OR clause, it is redundant and unnecessary.
+--- Error 36 of 753 ---
+At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 174, column 6):
+Since there is only one item within the OR clause, it is redundant and unnecessary.
+--- Error 37 of 753 ---
+At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 182, column 6):
+Since there is only one item within the OR clause, it is redundant and unnecessary.
+--- Error 38 of 753 ---
+At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 191, column 6):
+Since there is only one item within the OR clause, it is redundant and unnecessary.
+--- Error 39 of 753 ---
+At decisions\SETUP.txt [political_decisions\marker_jan\effect\CHI\any_owned\limit\OR] (Line 202, column 6):
+Since there is only one item within the OR clause, it is redundant and unnecessary.
+--- Error 40 of 753 ---
+At decisions\SMZ.txt [political_decisions\sakhalin_negotiations] (Line 277, column 2):
+The string sakhalin_negotiations_title was not found in localization.
+--- Error 41 of 753 ---
+At decisions\SMZ.txt [political_decisions\sakhalin_negotiations] (Line 277, column 2):
+The string sakhalin_negotiations_desc was not found in localization.
+--- Error 42 of 753 ---
+At decisions\SMZ.txt [political_decisions\integrate_hokkaido\allow\mission_to_civilize] (Line 269, column 4):
+Invalid node "mission_to_civilize" in scope CountryTrigger (value is: 1)
+--- Error 43 of 753 ---
+At decisions\SMZ.txt [political_decisions\integrate_hokkaido] (Line 259, column 2):
+The string integrate_hokkaido_title was not found in localization.
+--- Error 44 of 753 ---
+At decisions\SMZ.txt [political_decisions\integrate_hokkaido] (Line 259, column 2):
+The string integrate_hokkaido_desc was not found in localization.
+--- Error 45 of 753 ---
+At decisions\SMZ.txt [political_decisions\ryk_annexation_activation\effect\CHI\country_event\id] (Line 201, column 23):
+"106000" is not a valid CountryEventId.
+--- Error 46 of 753 ---
+At decisions\SMZ.txt [political_decisions\ryk_annexation_activation\effect\JAP\country_event\id] (Line 204, column 23):
+"106000" is not a valid CountryEventId.
+--- Error 47 of 753 ---
+At decisions\SMZ.txt [political_decisions\ryk_annexation_activation\effect\SMZ\country_event\id] (Line 207, column 23):
+"106000" is not a valid CountryEventId.
+--- Error 48 of 753 ---
+At decisions\SMZ.txt [political_decisions\ryk_annexation_activation\effect\TKG\country_event\id] (Line 210, column 23):
+"106000" is not a valid CountryEventId.
+--- Error 49 of 753 ---
+At decisions\SMZ.txt [political_decisions\ryk_annexation_activation\effect\JAN\country_event\id] (Line 213, column 23):
+"106100" is not a valid CountryEventId.
+--- Error 50 of 753 ---
+At decisions\SMZ.txt [political_decisions\ryk_annexation_activation] (Line 190, column 2):
+The string ryk_annexation_activation_title was not found in localization.
+--- Error 51 of 753 ---
+At decisions\SMZ.txt [political_decisions\ryk_annexation_activation] (Line 190, column 2):
+The string ryk_annexation_activation_desc was not found in localization.
+--- Error 52 of 753 ---
+At decisions\SMZ.txt [political_decisions\iwakura_mission\effect\USA\country_event\id] (Line 171, column 30):
+"200201" is not a valid CountryEventId.
+--- Error 53 of 753 ---
+At decisions\SMZ.txt [political_decisions\iwakura_mission] (Line 161, column 2):
+The string iwakura_mission_title was not found in localization.
+--- Error 54 of 753 ---
+At decisions\SMZ.txt [political_decisions\iwakura_mission] (Line 161, column 2):
+The string iwakura_mission_desc was not found in localization.
+--- Error 55 of 753 ---
+At decisions\SMZ.txt [political_decisions\form_japanese_empire\effect\JAN\random_owned\owner\country_event\id] (Line 131, column 25):
+"105000" is not a valid CountryEventId.
+--- Error 56 of 753 ---
+At decisions\SMZ.txt [political_decisions\form_japanese_empire\effect\country_event\id] (Line 120, column 22):
+"104000" is not a valid CountryEventId.
+--- Error 57 of 753 ---
+At gfx\pictures\decisions\abolish_sakoku.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply ABOLISH_SAKOKU
+--- Error 58 of 753 ---
+At gfx\pictures\decisions\annex_cambodia.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply ANNEX_CAMBODIA
+--- Error 59 of 753 ---
+At gfx\pictures\decisions\annex_korea.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply ANNEX_KOREA
+--- Error 60 of 753 ---
+At gfx\pictures\decisions\annex_portugal.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply ANNEX_PORTUGAL
+--- Error 61 of 753 ---
+At gfx\pictures\decisions\annex_TIB.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply ANNEX_TIB
+--- Error 62 of 753 ---
+At gfx\pictures\decisions\ask_association_with_asa.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply ASK_ASSOCIATION_WITH_ASA
+--- Error 63 of 753 ---
+At gfx\pictures\decisions\ask_association_with_ava.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply ASK_ASSOCIATION_WITH_AVA
+--- Error 64 of 753 ---
+At gfx\pictures\decisions\ask_emperor_to_association.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply ASK_EMPEROR_TO_ASSOCIATION
+--- Error 65 of 753 ---
+At gfx\pictures\decisions\break_from_shogunate.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply BREAK_FROM_SHOGUNATE
+--- Error 66 of 753 ---
+At gfx\pictures\decisions\CHI_cut_down_high_corruption.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply CHI_CUT_DOWN_HIGH_CORRUPTION
+--- Error 67 of 753 ---
+At gfx\pictures\decisions\CHI_cut_down_low_corruption.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply CHI_CUT_DOWN_LOW_CORRUPTION
+--- Error 68 of 753 ---
+At gfx\pictures\decisions\CHI_cut_down_medium_corruption.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply CHI_CUT_DOWN_MEDIUM_CORRUPTION
+--- Error 69 of 753 ---
+At gfx\pictures\decisions\civilize_korea.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply CIVILIZE_KOREA
+--- Error 70 of 753 ---
+At gfx\pictures\decisions\clear_out_the_manchu_elite.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply CLEAR_OUT_THE_MANCHU_ELITE
+--- Error 71 of 753 ---
+At gfx\pictures\decisions\crown_empress_of_india.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply CROWN_EMPRESS_OF_INDIA
+--- Error 72 of 753 ---
+At gfx\pictures\decisions\dainam_offensive.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply DAINAM_OFFENSIVE
+--- Error 73 of 753 ---
+At gfx\pictures\decisions\die_groot_trek.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply DIE_GROOT_TREK
+--- Error 74 of 753 ---
+At gfx\pictures\decisions\dip_med.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply DIP_MED
+--- Error 75 of 753 ---
+At gfx\pictures\decisions\fate_of_burma.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply FATE_OF_BURMA
+--- Error 76 of 753 ---
+At gfx\pictures\decisions\form_japanese_empire.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply FORM_JAPANESE_EMPIRE
+--- Error 77 of 753 ---
+At gfx\pictures\decisions\integrate_hokkaido.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply INTEGRATE_HOKKAIDO
+--- Error 78 of 753 ---
+At gfx\pictures\decisions\iwakura_mission.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply IWAKURA_MISSION
+--- Error 79 of 753 ---
+At gfx\pictures\decisions\malakka_boost.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply MALAKKA_BOOST
+--- Error 80 of 753 ---
+At gfx\pictures\decisions\malakka_king.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply MALAKKA_KING
+--- Error 81 of 753 ---
+At gfx\pictures\decisions\otkaz_birma.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply OTKAZ_BIRMA
+--- Error 82 of 753 ---
+At gfx\pictures\decisions\por_annex_brazil.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply POR_ANNEX_BRAZIL
+--- Error 83 of 753 ---
+At gfx\pictures\decisions\por_integrate_amazonia.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply POR_INTEGRATE_AMAZONIA
+--- Error 84 of 753 ---
+At gfx\pictures\decisions\por_integrate_colonies.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply POR_INTEGRATE_COLONIES
+--- Error 85 of 753 ---
+At gfx\pictures\decisions\request_help_sia.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply REQUEST_HELP_SIA
+--- Error 86 of 753 ---
+At gfx\pictures\decisions\restore_emp.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply RESTORE_EMP
+--- Error 87 of 753 ---
+At gfx\pictures\decisions\rise_of_siam_start.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply RISE_OF_SIAM_START
+--- Error 88 of 753 ---
+At gfx\pictures\decisions\russian_qing_central_asia.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply RUSSIAN_QING_CENTRAL_ASIA
+--- Error 89 of 753 ---
+At gfx\pictures\decisions\ryk_annexation_activation.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply RYK_ANNEXATION_ACTIVATION
+--- Error 90 of 753 ---
+At gfx\pictures\decisions\sakhalin_negotiations.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply SAKHALIN_NEGOTIATIONS
+--- Error 91 of 753 ---
+At gfx\pictures\decisions\spa_colonial_empire.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply SPA_COLONIAL_EMPIRE
+--- Error 92 of 753 ---
+At gfx\pictures\decisions\spa_colonies.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply SPA_COLONIES
+--- Error 93 of 753 ---
+At gfx\pictures\decisions\spa_integrate_argentina.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply SPA_INTEGRATE_ARGENTINA
+--- Error 94 of 753 ---
+At gfx\pictures\decisions\spa_integrate_chili.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply SPA_INTEGRATE_CHILI
+--- Error 95 of 753 ---
+At gfx\pictures\decisions\spa_por_iberian_south_america.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply SPA_POR_IBERIAN_SOUTH_AMERICA
+--- Error 96 of 753 ---
+At gfx\pictures\decisions\support_boxers.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply SUPPORT_BOXERS
+--- Error 97 of 753 ---
+At gfx\pictures\decisions\the_meiji_restoration.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply THE_MEIJI_RESTORATION
+--- Error 98 of 753 ---
+At gfx\pictures\decisions\the_meiji_restoration2.dds [<root>] (Line 0, column 0):
+Decision pictures: Unmatched supply THE_MEIJI_RESTORATION2
+--- Error 99 of 753 ---
+At events\Blockade.txt [country_event] (Line 280, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 100 of 753 ---
+At events\CHI.txt [country_event] (Line 2, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 101 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event] (Line 206, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 102 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event] (Line 193, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 103 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event] (Line 180, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 104 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event] (Line 167, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 105 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event] (Line 154, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 106 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event] (Line 141, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 107 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event] (Line 72, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 108 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event\option\province_selector] (Line 137, column 3):
+Invalid node "province_selector" in scope Option (value is: -1)
+--- Error 109 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event\option\trigger] (Line 120, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 110 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event\option\trigger] (Line 98, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 111 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event\option\trigger] (Line 86, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 112 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event\option\province_selector] (Line 68, column 3):
+Invalid node "province_selector" in scope Option (value is: -1)
+--- Error 113 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event\option\trigger] (Line 51, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 114 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event\option\trigger] (Line 29, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 115 of 753 ---
+At events\CHI_crisis_01_hub.txt [province_event\option\trigger] (Line 17, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 116 of 753 ---
+At events\CHI_crisis_03_submenus.txt [province_event\option\trigger] (Line 103, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 117 of 753 ---
+At events\CHI_crisis_03_submenus.txt [province_event\option\trigger] (Line 72, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 118 of 753 ---
+At events\CHI_crisis_03_submenus.txt [province_event\option\trigger] (Line 59, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 119 of 753 ---
+At events\CHI_crisis_03_submenus.txt [province_event\option\trigger] (Line 28, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 120 of 753 ---
+At events\CHI_crisis_03_submenus.txt [province_event\option\trigger] (Line 12, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 121 of 753 ---
+At events\CHI_crisis_04_notices.txt [province_event\option\province_selector] (Line 120, column 3):
+Invalid node "province_selector" in scope Option (value is: -1)
+--- Error 122 of 753 ---
+At events\CHI_crisis_04_notices.txt [province_event\option\trigger] (Line 107, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 123 of 753 ---
+At events\CHI_crisis_04_notices.txt [province_event] (Line 51, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 124 of 753 ---
+At events\CHI_crisis_05_setup.txt [country_event] (Line 65, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 125 of 753 ---
+At events\CHI_crisis_12_sep_menus.txt [province_event] (Line 228, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 126 of 753 ---
+At events\CHI_crisis_12_sep_menus.txt [province_event] (Line 215, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 127 of 753 ---
+At events\CHI_crisis_12_sep_menus.txt [province_event] (Line 202, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 128 of 753 ---
+At events\CHI_crisis_12_sep_menus.txt [province_event] (Line 189, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 129 of 753 ---
+At events\CHI_crisis_12_sep_menus.txt [province_event] (Line 176, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 130 of 753 ---
+At events\CHI_crisis_12_sep_menus.txt [province_event] (Line 163, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 131 of 753 ---
+At events\CHI_crisis_12_sep_menus.txt [province_event] (Line 150, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 132 of 753 ---
+At events\CHI_crisis_12_sep_menus.txt [province_event] (Line 137, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 133 of 753 ---
+At events\CHI_crisis_12_sep_menus.txt [province_event] (Line 124, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 134 of 753 ---
+At events\CHI_crisis_12_sep_menus.txt [province_event\option\trigger] (Line 87, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 135 of 753 ---
+At events\CHI_crisis_12_sep_menus.txt [province_event\option\trigger] (Line 79, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 136 of 753 ---
+At events\CHI_crisis_12_sep_menus.txt [province_event\option\trigger] (Line 71, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 137 of 753 ---
+At events\CHI_crisis_12_sep_menus.txt [province_event] (Line 3, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 138 of 753 ---
+At events\CHI_crisis_22_water_menus.txt [province_event] (Line 139, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 139 of 753 ---
+At events\CHI_crisis_22_water_menus.txt [province_event] (Line 126, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 140 of 753 ---
+At events\CHI_crisis_22_water_menus.txt [province_event] (Line 113, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 141 of 753 ---
+At events\CHI_crisis_22_water_menus.txt [province_event] (Line 100, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 142 of 753 ---
+At events\CHI_crisis_22_water_menus.txt [province_event\option\trigger] (Line 79, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 143 of 753 ---
+At events\CHI_crisis_22_water_menus.txt [province_event\option\trigger] (Line 70, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 144 of 753 ---
+At events\CHI_crisis_22_water_menus.txt [province_event\option\trigger] (Line 61, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 145 of 753 ---
+At events\CHI_crisis_22_water_menus.txt [province_event\option\trigger] (Line 52, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 146 of 753 ---
+At events\CHI_crisis_22_water_menus.txt [province_event\option\trigger] (Line 43, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 147 of 753 ---
+At events\CHI_crisis_22_water_menus.txt [province_event] (Line 3, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 148 of 753 ---
+At events\CHI_crisis_32_famine_menus.txt [province_event\option\trigger] (Line 59, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 149 of 753 ---
+At events\CHI_crisis_32_famine_menus.txt [province_event] (Line 35, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 150 of 753 ---
+At events\CHI_crisis_32_famine_menus.txt [province_event] (Line 19, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 151 of 753 ---
+At events\CHI_crisis_32_famine_menus.txt [province_event] (Line 3, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 152 of 753 ---
+At events\CHI_crisis_40_piracy_menus.txt [province_event\option] (Line 73, column 2):
+The right sides of a "add_province_modifier" clause may not be identical.
+There were 2 duplicates.
+	[I1774|L75|C3]: add_province_modifier = {   name = CHI_click_mark  duration = -1 }
+	[I3211|L115|C3]: add_province_modifier = {   name = CHI_click_mark  duration = -1 }
+--- Error 153 of 753 ---
+At events\CHI_crisis_40_piracy_menus.txt [province_event] (Line 51, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 154 of 753 ---
+At events\CHI_crisis_40_piracy_menus.txt [province_event] (Line 35, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 155 of 753 ---
+At events\CHI_crisis_40_piracy_menus.txt [province_event] (Line 19, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 156 of 753 ---
+At events\CHI_crisis_40_piracy_menus.txt [province_event] (Line 3, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 157 of 753 ---
+At events\JAN.txt [country_event\option\any_country\limit\AND] (Line 118, column 5):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 158 of 753 ---
+At events\JAN.txt [country_event\option\any_country\limit\AND] (Line 128, column 5):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 159 of 753 ---
+At events\JAN.txt [country_event\option\any_country\limit\AND] (Line 138, column 5):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 160 of 753 ---
+At events\JAN.txt [country_event\option\any_country\malaria_metarg\limit\NOT\has_province_modifier] (Line 150, column 38):
+Invalid node "has_province_modifier" in scope RegionTrigger (value is: malaria_modifier)
+--- Error 161 of 753 ---
+At events\JAN.txt [country_event\option\any_country\malaria_metarg\limit\civilized] (Line 150, column 15):
+Invalid node "civilized" in scope RegionTrigger (value is: no)
+--- Error 162 of 753 ---
+At events\JAN.txt [country_event\option\any_country\harsh_malaria_metarg\limit\NOT\has_province_modifier] (Line 160, column 38):
+Invalid node "has_province_modifier" in scope RegionTrigger (value is: harsh_malaria_modifier)
+--- Error 163 of 753 ---
+At events\JAN.txt [country_event\option\any_country\harsh_malaria_metarg\limit\civilized] (Line 160, column 15):
+Invalid node "civilized" in scope RegionTrigger (value is: no)
+--- Error 164 of 753 ---
+At events\JAN.txt [country_event\option\any_country\limit\AND] (Line 230, column 5):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 165 of 753 ---
+At events\JAN.txt [country_event\option\any_country\limit\AND] (Line 253, column 5):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 166 of 753 ---
+At events\JAN.txt [country_event\option\any_country\limit\AND] (Line 371, column 5):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 167 of 753 ---
+At events\JAN.txt [country_event\option\any_country\limit\AND] (Line 411, column 5):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 168 of 753 ---
+At events\JAN.txt [country_event\option\any_country\limit\poor_life_need] (Line 686, column 5):
+Invalid node "poor_life_need" in scope CountryTrigger (value is: 0.8)
+--- Error 169 of 753 ---
+At events\JAN.txt [country_event\option\any_country\limit\NOT\poor_life_need] (Line 696, column 13):
+Invalid node "poor_life_need" in scope CountryTrigger (value is: 0.8)
+--- Error 170 of 753 ---
+At events\JAN.txt [country_event\option\any_country\limit\poor_everyday_need] (Line 705, column 5):
+Invalid node "poor_everyday_need" in scope CountryTrigger (value is: 0.35)
+--- Error 171 of 753 ---
+At events\JAN.txt [country_event\option\any_country\limit\NOT\poor_everyday_need] (Line 715, column 13):
+Invalid node "poor_everyday_need" in scope CountryTrigger (value is: 0.35)
+--- Error 172 of 753 ---
+At events\JAN.txt [country_event\option\any_country\limit\poor_luxury_need] (Line 724, column 5):
+Invalid node "poor_luxury_need" in scope CountryTrigger (value is: 0.15)
+--- Error 173 of 753 ---
+At events\JAN.txt [country_event\option\any_country\limit\NOT\poor_luxury_need] (Line 734, column 13):
+Invalid node "poor_luxury_need" in scope CountryTrigger (value is: 0.15)
+--- Error 174 of 753 ---
+At events\JAN.txt [country_event\option\RUS\RUS_non_blockaded\limit\NOT\has_province_modifier] (Line 89, column 23):
+Invalid node "has_province_modifier" in scope RegionTrigger (value is: non_blockadable_ports)
+--- Error 175 of 753 ---
+At events\JAN.txt [country_event\option\USA\USA_non_blockaded\limit\NOT\has_province_modifier] (Line 99, column 23):
+Invalid node "has_province_modifier" in scope RegionTrigger (value is: non_blockadable_ports)
+--- Error 176 of 753 ---
+At events\JAN.txt [province_event\option\province_selector] (Line 1246, column 3):
+Invalid node "province_selector" in scope Option (value is: -1)
+--- Error 177 of 753 ---
+At events\JAN.txt [province_event\option\trigger] (Line 1243, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 178 of 753 ---
+At events\JAN.txt [province_event\option\province_selector] (Line 1239, column 3):
+Invalid node "province_selector" in scope Option (value is: -1)
+--- Error 179 of 753 ---
+At events\JAN.txt [province_event\option\trigger] (Line 1226, column 3):
+Invalid node "trigger" in scope Option (value is: <a complex type>)
+--- Error 180 of 753 ---
+At events\JAN.txt [province_event\option\province_selector] (Line 1222, column 3):
+Invalid node "province_selector" in scope Option (value is: -1)
+--- Error 181 of 753 ---
+At events\JAP.txt [country_event] (Line 350, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 182 of 753 ---
+At events\JAP.txt [country_event\trigger\658\AND] (Line 321, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 183 of 753 ---
+At events\JAP.txt [country_event\trigger\2562\AND] (Line 270, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 184 of 753 ---
+At events\JAP.txt [country_event\trigger\1485\AND] (Line 276, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 185 of 753 ---
+At events\JAP.txt [country_event\trigger\1456\AND] (Line 156, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 186 of 753 ---
+At events\JAP.txt [country_event\trigger\1455\AND] (Line 162, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 187 of 753 ---
+At events\JAP.txt [country_event\trigger\1457\AND] (Line 168, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 188 of 753 ---
+At events\JAP.txt [country_event\trigger\1458\AND] (Line 174, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 189 of 753 ---
+At events\JAP.txt [country_event\trigger\1459\AND] (Line 180, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 190 of 753 ---
+At events\JAP.txt [country_event\trigger\1460\AND] (Line 186, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 191 of 753 ---
+At events\JAP.txt [country_event\trigger\1461\AND] (Line 192, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 192 of 753 ---
+At events\JAP.txt [country_event\trigger\2565\AND] (Line 198, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 193 of 753 ---
+At events\JAP.txt [country_event\trigger\1464\AND] (Line 204, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 194 of 753 ---
+At events\JAP.txt [country_event\trigger\1463\AND] (Line 210, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 195 of 753 ---
+At events\JAP.txt [country_event\trigger\1462\AND] (Line 216, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 196 of 753 ---
+At events\JAP.txt [country_event] (Line 76, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 197 of 753 ---
+At events\OccupationDecay.txt [country_event\option\any_country\any_owned\hospital] (Line 39, column 5):
+Invalid node "hospital" in scope ProvinceCommand (value is: -1)
+--- Error 198 of 753 ---
+At events\OccupationDecay.txt [country_event\option\any_country\any_owned\town_infrastructure] (Line 51, column 5):
+Invalid node "town_infrastructure" in scope ProvinceCommand (value is: -1)
+--- Error 199 of 753 ---
+At events\Other.txt [country_event] (Line 37948, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 200 of 753 ---
+At events\Other.txt [country_event] (Line 37877, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 201 of 753 ---
+At events\Other.txt [country_event] (Line 36742, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 202 of 753 ---
+At events\Other.txt [country_event] (Line 32773, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 203 of 753 ---
+At events\Other.txt [country_event] (Line 32750, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 204 of 753 ---
+At events\Other.txt [country_event] (Line 18395, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 205 of 753 ---
+At events\Other.txt [country_event] (Line 9448, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 206 of 753 ---
+At events\Other.txt [country_event] (Line 9380, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 207 of 753 ---
+At events\Other.txt [country_event] (Line 9312, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 208 of 753 ---
+At events\Other.txt [country_event] (Line 9244, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 209 of 753 ---
+At events\Other.txt [country_event] (Line 9176, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 210 of 753 ---
+At events\Other.txt [country_event] (Line 9108, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 211 of 753 ---
+At events\Other.txt [country_event] (Line 9040, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 212 of 753 ---
+At events\Other.txt [country_event] (Line 8972, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 213 of 753 ---
+At events\Other.txt [country_event] (Line 8904, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 214 of 753 ---
+At events\Other.txt [country_event] (Line 8836, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 215 of 753 ---
+At events\Other.txt [country_event] (Line 8768, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 216 of 753 ---
+At events\Other.txt [country_event\issue_group] (Line 8774, column 3):
+Invalid node "issue_group" in scope CountryOrStateEvent (value is: economic_policy)
+--- Error 217 of 753 ---
+At events\Other.txt [country_event\election] (Line 8773, column 3):
+Invalid node "election" in scope CountryOrStateEvent (value is: yes)
+--- Error 218 of 753 ---
+At events\Other.txt [country_event] (Line 8700, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 219 of 753 ---
+At events\Other.txt [country_event\issue_group] (Line 8706, column 3):
+Invalid node "issue_group" in scope CountryOrStateEvent (value is: economic_policy)
+--- Error 220 of 753 ---
+At events\Other.txt [country_event\election] (Line 8705, column 3):
+Invalid node "election" in scope CountryOrStateEvent (value is: yes)
+--- Error 221 of 753 ---
+At events\Other.txt [country_event] (Line 8632, column 2):
+The event is set to be triggered only, but it is never called.
+--- Error 222 of 753 ---
+At events\Other.txt [country_event\issue_group] (Line 8638, column 4):
+Invalid node "issue_group" in scope CountryOrStateEvent (value is: economic_policy)
+--- Error 223 of 753 ---
+At events\Other.txt [country_event\election] (Line 8637, column 4):
+Invalid node "election" in scope CountryOrStateEvent (value is: yes)
+--- Error 224 of 753 ---
+At events\Other.txt [country_event] (Line 8564, column 2):
+The event is set to be triggered only, but it is never called.
+--- Error 225 of 753 ---
+At events\Other.txt [country_event\issue_group] (Line 8570, column 4):
+Invalid node "issue_group" in scope CountryOrStateEvent (value is: economic_policy)
+--- Error 226 of 753 ---
+At events\Other.txt [country_event\election] (Line 8569, column 4):
+Invalid node "election" in scope CountryOrStateEvent (value is: yes)
+--- Error 227 of 753 ---
+At events\Other.txt [country_event] (Line 8496, column 2):
+The event is set to be triggered only, but it is never called.
+--- Error 228 of 753 ---
+At events\Other.txt [country_event\issue_group] (Line 8502, column 4):
+Invalid node "issue_group" in scope CountryOrStateEvent (value is: trade_policy)
+--- Error 229 of 753 ---
+At events\Other.txt [country_event\election] (Line 8501, column 3):
+Invalid node "election" in scope CountryOrStateEvent (value is: yes)
+--- Error 230 of 753 ---
+At events\Other.txt [country_event] (Line 8428, column 2):
+The event is set to be triggered only, but it is never called.
+--- Error 231 of 753 ---
+At events\Other.txt [country_event\issue_group] (Line 8434, column 4):
+Invalid node "issue_group" in scope CountryOrStateEvent (value is: trade_policy)
+--- Error 232 of 753 ---
+At events\Other.txt [country_event\election] (Line 8433, column 4):
+Invalid node "election" in scope CountryOrStateEvent (value is: yes)
+--- Error 233 of 753 ---
+At events\Other.txt [country_event] (Line 8362, column 2):
+The event is set to be triggered only, but it is never called.
+--- Error 234 of 753 ---
+At events\Other.txt [country_event\issue_group] (Line 8368, column 4):
+Invalid node "issue_group" in scope CountryOrStateEvent (value is: war_policy)
+--- Error 235 of 753 ---
+At events\Other.txt [country_event\election] (Line 8367, column 4):
+Invalid node "election" in scope CountryOrStateEvent (value is: yes)
+--- Error 236 of 753 ---
+At events\Other.txt [country_event] (Line 8310, column 2):
+The event is set to be triggered only, but it is never called.
+--- Error 237 of 753 ---
+At events\Other.txt [country_event\issue_group] (Line 8316, column 3):
+Invalid node "issue_group" in scope CountryOrStateEvent (value is: citizenship_policy)
+--- Error 238 of 753 ---
+At events\Other.txt [country_event\election] (Line 8315, column 4):
+Invalid node "election" in scope CountryOrStateEvent (value is: yes)
+--- Error 239 of 753 ---
+At events\Other.txt [country_event] (Line 8244, column 2):
+The event is set to be triggered only, but it is never called.
+--- Error 240 of 753 ---
+At events\Other.txt [country_event\issue_group] (Line 8250, column 4):
+Invalid node "issue_group" in scope CountryOrStateEvent (value is: religious_policy)
+--- Error 241 of 753 ---
+At events\Other.txt [country_event\election] (Line 8249, column 4):
+Invalid node "election" in scope CountryOrStateEvent (value is: yes)
+--- Error 242 of 753 ---
+At events\Other.txt [country_event] (Line 8178, column 2):
+The event is set to be triggered only, but it is never called.
+--- Error 243 of 753 ---
+At events\Other.txt [country_event\issue_group] (Line 8184, column 3):
+Invalid node "issue_group" in scope CountryOrStateEvent (value is: economic_policy)
+--- Error 244 of 753 ---
+At events\Other.txt [country_event\election] (Line 8183, column 3):
+Invalid node "election" in scope CountryOrStateEvent (value is: yes)
+--- Error 245 of 753 ---
+At events\Other.txt [country_event] (Line 8089, column 2):
+The event is set to be triggered only, but it is never called.
+--- Error 246 of 753 ---
+At events\Other.txt [country_event\issue_group] (Line 8095, column 4):
+Invalid node "issue_group" in scope CountryOrStateEvent (value is: trade_policy)
+--- Error 247 of 753 ---
+At events\Other.txt [country_event\election] (Line 8094, column 3):
+Invalid node "election" in scope CountryOrStateEvent (value is: yes)
+--- Error 248 of 753 ---
+At events\Other.txt [country_event\trigger\OR] (Line 60, column 3):
+Since there is only one item within the OR clause, it is redundant and unnecessary.
+--- Error 249 of 753 ---
+At events\SMZ.txt [country_event\option\1086\owner] (Line 41, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 250 of 753 ---
+At events\SMZ.txt [country_event\option\1087\owner] (Line 42, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 251 of 753 ---
+At events\SMZ.txt [country_event\option\1088\owner] (Line 43, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 252 of 753 ---
+At events\SMZ.txt [country_event\option\1089\owner] (Line 44, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 253 of 753 ---
+At events\SMZ.txt [country_event\option\1086\owner] (Line 32, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 254 of 753 ---
+At events\SMZ.txt [country_event\option\1087\owner] (Line 33, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 255 of 753 ---
+At events\SMZ.txt [country_event\option\1088\owner] (Line 34, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 256 of 753 ---
+At events\SMZ.txt [country_event\option\1089\owner] (Line 35, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 257 of 753 ---
+At events\SMZ.txt [country_event\option\1086\owner] (Line 23, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 258 of 753 ---
+At events\SMZ.txt [country_event\option\1087\owner] (Line 24, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 259 of 753 ---
+At events\SMZ.txt [country_event\option\1088\owner] (Line 25, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 260 of 753 ---
+At events\SMZ.txt [country_event\option\1089\owner] (Line 26, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 261 of 753 ---
+At events\SMZ.txt [country_event\option\1086\owner] (Line 14, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 262 of 753 ---
+At events\SMZ.txt [country_event\option\1087\owner] (Line 15, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 263 of 753 ---
+At events\SMZ.txt [country_event\option\1088\owner] (Line 16, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 264 of 753 ---
+At events\SMZ.txt [country_event\option\1089\owner] (Line 17, column 12):
+No direct match found for owner. However, other possible matches in scope CountryCommand were found.
+Left: ["owner"]
+--- Error 265 of 753 ---
+At events\SPA.txt [country_event] (Line 590, column 1):
+The event is set to be triggered only, but it is never called.
+--- Error 266 of 753 ---
+At events\TownCache.txt [country_event\immediate\any_country\limit\any_owned_province\NOT\has_province_flag] (Line 17, column 14):
+Invalid node "has_province_flag" in scope ProvinceTrigger (value is: is_urban)
+--- Error 267 of 753 ---
+At events\TownCache.txt [country_event\immediate\any_country\any_owned\limit\NOT\has_province_flag] (Line 23, column 14):
+Invalid node "has_province_flag" in scope ProvinceTrigger (value is: is_urban)
+--- Error 268 of 753 ---
+At events\TownCache.txt [country_event\immediate\any_country\any_owned\state_scope\any_owned\limit\NOT\has_province_flag] (Line 27, column 25):
+Invalid node "has_province_flag" in scope ProvinceTrigger (value is: is_urban)
+--- Error 269 of 753 ---
+At events\TownCache.txt [country_event\immediate\any_country\any_owned\state_scope\any_owned\set_province_flag] (Line 28, column 7):
+Invalid node "set_province_flag" in scope ProvinceCommand (value is: is_urban)
+--- Error 270 of 753 ---
+At events\JAP.txt [country_event\picture] (Line 149, column 5):
+Event pictures: Unmatched demand DEFAULT
+--- Error 271 of 753 ---
+At events\SIA.txt [country_event\picture] (Line 162, column 5):
+Event pictures: Unmatched demand PICTURE
+--- Error 272 of 753 ---
+At gfx\pictures\events\CHI.tga [<root>] (Line 0, column 0):
+Event pictures: Unmatched supply CHI
+--- Error 273 of 753 ---
+At gfx\pictures\events\CHI1.tga [<root>] (Line 0, column 0):
+Event pictures: Unmatched supply CHI1
+--- Error 274 of 753 ---
+At gfx\pictures\events\CHI2.tga [<root>] (Line 0, column 0):
+Event pictures: Unmatched supply CHI2
+--- Error 275 of 753 ---
+At gfx\pictures\events\Metis.tga [<root>] (Line 0, column 0):
+Event pictures: Unmatched supply METIS
+--- Error 276 of 753 ---
+At gfx\pictures\events\Orthodox.tga [<root>] (Line 0, column 0):
+Event pictures: Unmatched supply ORTHODOX
+--- Error 277 of 753 ---
+At gfx\pictures\events\smoking.tga [<root>] (Line 0, column 0):
+Event pictures: Unmatched supply SMOKING
+--- Error 278 of 753 ---
+At common\production_types.txt [fertilizer_factory\bonus\trigger\NOT\state_scope] (Line 2376, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 279 of 753 ---
+At common\production_types.txt [fertilizer_factory\bonus\trigger\state_scope] (Line 2365, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 280 of 753 ---
+At common\production_types.txt [fertilizer_factory\bonus\trigger\state_scope] (Line 2355, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 281 of 753 ---
+At common\production_types.txt [fertilizer_factory\bonus\trigger\NOT\state_scope] (Line 2344, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 282 of 753 ---
+At common\production_types.txt [cement_factory\bonus\trigger\NOT\state_scope] (Line 2299, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 283 of 753 ---
+At common\production_types.txt [cement_factory\bonus\trigger\state_scope] (Line 2288, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 284 of 753 ---
+At common\production_types.txt [cement_factory\bonus\trigger\state_scope] (Line 2278, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 285 of 753 ---
+At common\production_types.txt [cement_factory\bonus\trigger\NOT\state_scope] (Line 2267, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 286 of 753 ---
+At common\production_types.txt [winery\bonus\trigger\NOT\state_scope] (Line 2145, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 287 of 753 ---
+At common\production_types.txt [winery\bonus\trigger\state_scope] (Line 2134, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 288 of 753 ---
+At common\production_types.txt [winery\bonus\trigger\state_scope] (Line 2124, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 289 of 753 ---
+At common\production_types.txt [winery\bonus\trigger\NOT\state_scope] (Line 2113, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 290 of 753 ---
+At common\production_types.txt [liquor_distillery\bonus\trigger\NOT\state_scope] (Line 2081, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 291 of 753 ---
+At common\production_types.txt [liquor_distillery\bonus\trigger\state_scope] (Line 2070, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 292 of 753 ---
+At common\production_types.txt [liquor_distillery\bonus\trigger\state_scope] (Line 2060, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 293 of 753 ---
+At common\production_types.txt [liquor_distillery\bonus\trigger\NOT\state_scope] (Line 2049, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 294 of 753 ---
+At common\production_types.txt [dye_factory\bonus\trigger\NOT\state_scope] (Line 2016, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 295 of 753 ---
+At common\production_types.txt [dye_factory\bonus\trigger\state_scope] (Line 2005, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 296 of 753 ---
+At common\production_types.txt [dye_factory\bonus\trigger\state_scope] (Line 1995, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 297 of 753 ---
+At common\production_types.txt [dye_factory\bonus\trigger\NOT\state_scope] (Line 1984, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 298 of 753 ---
+At common\production_types.txt [canned_food_factory_fruit\bonus\trigger\NOT\state_scope] (Line 1952, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 299 of 753 ---
+At common\production_types.txt [canned_food_factory_fruit\bonus\trigger\state_scope] (Line 1941, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 300 of 753 ---
+At common\production_types.txt [canned_food_factory_fruit\bonus\trigger\state_scope] (Line 1931, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 301 of 753 ---
+At common\production_types.txt [canned_food_factory_fruit\bonus\trigger\NOT\state_scope] (Line 1920, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 302 of 753 ---
+At common\production_types.txt [canned_food_factory_cattle\bonus\trigger\NOT\state_scope] (Line 1887, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 303 of 753 ---
+At common\production_types.txt [canned_food_factory_cattle\bonus\trigger\state_scope] (Line 1876, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 304 of 753 ---
+At common\production_types.txt [canned_food_factory_cattle\bonus\trigger\state_scope] (Line 1866, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 305 of 753 ---
+At common\production_types.txt [canned_food_factory_cattle\bonus\trigger\NOT\state_scope] (Line 1855, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 306 of 753 ---
+At common\production_types.txt [canned_food_factory_fish\bonus\trigger\NOT\state_scope] (Line 1822, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 307 of 753 ---
+At common\production_types.txt [canned_food_factory_fish\bonus\trigger\state_scope] (Line 1811, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 308 of 753 ---
+At common\production_types.txt [canned_food_factory_fish\bonus\trigger\state_scope] (Line 1801, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 309 of 753 ---
+At common\production_types.txt [canned_food_factory_fish\bonus\trigger\NOT\state_scope] (Line 1790, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 310 of 753 ---
+At common\production_types.txt [canned_food_factory\bonus\trigger\NOT\state_scope] (Line 1756, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 311 of 753 ---
+At common\production_types.txt [canned_food_factory\bonus\trigger\state_scope] (Line 1745, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 312 of 753 ---
+At common\production_types.txt [canned_food_factory\bonus\trigger\state_scope] (Line 1735, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 313 of 753 ---
+At common\production_types.txt [canned_food_factory\bonus\trigger\NOT\state_scope] (Line 1724, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 314 of 753 ---
+At common\production_types.txt [ammunition_factory\bonus\trigger\NOT\state_scope] (Line 1660, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 315 of 753 ---
+At common\production_types.txt [ammunition_factory\bonus\trigger\state_scope] (Line 1649, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 316 of 753 ---
+At common\production_types.txt [ammunition_factory\bonus\trigger\state_scope] (Line 1639, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 317 of 753 ---
+At common\production_types.txt [ammunition_factory\bonus\trigger\NOT\state_scope] (Line 1628, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 318 of 753 ---
+At common\production_types.txt [explosives_factory\bonus\trigger\NOT\state_scope] (Line 1589, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 319 of 753 ---
+At common\production_types.txt [explosives_factory\bonus\trigger\state_scope] (Line 1578, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 320 of 753 ---
+At common\production_types.txt [explosives_factory\bonus\trigger\state_scope] (Line 1568, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 321 of 753 ---
+At common\production_types.txt [explosives_factory\bonus\trigger\NOT\state_scope] (Line 1557, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 322 of 753 ---
+At common\production_types.txt [regular_clothes_factory\bonus\trigger\NOT\state_scope] (Line 1525, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 323 of 753 ---
+At common\production_types.txt [regular_clothes_factory\bonus\trigger\state_scope] (Line 1514, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 324 of 753 ---
+At common\production_types.txt [regular_clothes_factory\bonus\trigger\state_scope] (Line 1504, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 325 of 753 ---
+At common\production_types.txt [regular_clothes_factory\bonus\trigger\NOT\state_scope] (Line 1493, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 326 of 753 ---
+At common\production_types.txt [furniture_factory\bonus\trigger\NOT\state_scope] (Line 1453, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 327 of 753 ---
+At common\production_types.txt [furniture_factory\bonus\trigger\state_scope] (Line 1442, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 328 of 753 ---
+At common\production_types.txt [furniture_factory\bonus\trigger\state_scope] (Line 1432, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 329 of 753 ---
+At common\production_types.txt [furniture_factory\bonus\trigger\NOT\state_scope] (Line 1421, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 330 of 753 ---
+At common\production_types.txt [small_arms_factory\bonus\trigger\NOT\state_scope] (Line 1387, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 331 of 753 ---
+At common\production_types.txt [small_arms_factory\bonus\trigger\state_scope] (Line 1376, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 332 of 753 ---
+At common\production_types.txt [small_arms_factory\bonus\trigger\state_scope] (Line 1366, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 333 of 753 ---
+At common\production_types.txt [small_arms_factory\bonus\trigger\NOT\state_scope] (Line 1355, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 334 of 753 ---
+At common\production_types.txt [clipper_shipyard\bonus\trigger\NOT\state_scope] (Line 1317, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 335 of 753 ---
+At common\production_types.txt [clipper_shipyard\bonus\trigger\state_scope] (Line 1306, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 336 of 753 ---
+At common\production_types.txt [clipper_shipyard\bonus\trigger\state_scope] (Line 1296, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 337 of 753 ---
+At common\production_types.txt [clipper_shipyard\bonus\trigger\NOT\state_scope] (Line 1285, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 338 of 753 ---
+At common\production_types.txt [artillery_factory\bonus\trigger\NOT\state_scope] (Line 1242, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 339 of 753 ---
+At common\production_types.txt [artillery_factory\bonus\trigger\state_scope] (Line 1231, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 340 of 753 ---
+At common\production_types.txt [artillery_factory\bonus\trigger\state_scope] (Line 1221, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 341 of 753 ---
+At common\production_types.txt [artillery_factory\bonus\trigger\NOT\state_scope] (Line 1210, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 342 of 753 ---
+At common\production_types.txt [steel_factory\bonus\trigger\NOT\state_scope] (Line 1157, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 343 of 753 ---
+At common\production_types.txt [steel_factory\bonus\trigger\state_scope] (Line 1146, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 344 of 753 ---
+At common\production_types.txt [steel_factory\bonus\trigger\state_scope] (Line 1136, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 345 of 753 ---
+At common\production_types.txt [steel_factory\bonus\trigger\NOT\state_scope] (Line 1125, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 346 of 753 ---
+At common\production_types.txt [luxury_furniture_factory\bonus\trigger\NOT\state_scope] (Line 1090, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 347 of 753 ---
+At common\production_types.txt [luxury_furniture_factory\bonus\trigger\state_scope] (Line 1079, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 348 of 753 ---
+At common\production_types.txt [luxury_furniture_factory\bonus\trigger\state_scope] (Line 1069, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 349 of 753 ---
+At common\production_types.txt [luxury_furniture_factory\bonus\trigger\NOT\state_scope] (Line 1058, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 350 of 753 ---
+At common\production_types.txt [luxury_clothes_factory\bonus\trigger\NOT\state_scope] (Line 1026, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 351 of 753 ---
+At common\production_types.txt [luxury_clothes_factory\bonus\trigger\state_scope] (Line 1015, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 352 of 753 ---
+At common\production_types.txt [luxury_clothes_factory\bonus\trigger\state_scope] (Line 1005, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 353 of 753 ---
+At common\production_types.txt [luxury_clothes_factory\bonus\trigger\NOT\state_scope] (Line 994, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 354 of 753 ---
+At common\production_types.txt [steamer_shipyard\bonus\trigger\NOT\state_scope] (Line 960, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 355 of 753 ---
+At common\production_types.txt [steamer_shipyard\bonus\trigger\state_scope] (Line 949, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 356 of 753 ---
+At common\production_types.txt [steamer_shipyard\bonus\trigger\state_scope] (Line 939, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 357 of 753 ---
+At common\production_types.txt [steamer_shipyard\bonus\trigger\NOT\state_scope] (Line 928, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 358 of 753 ---
+At common\production_types.txt [fuel_refinery\bonus\trigger\NOT\state_scope] (Line 895, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 359 of 753 ---
+At common\production_types.txt [fuel_refinery\bonus\trigger\state_scope] (Line 884, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 360 of 753 ---
+At common\production_types.txt [fuel_refinery\bonus\trigger\state_scope] (Line 874, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 361 of 753 ---
+At common\production_types.txt [fuel_refinery\bonus\trigger\NOT\state_scope] (Line 863, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 362 of 753 ---
+At common\production_types.txt [synthetic_sulphur_factory\bonus\trigger\NOT\state_scope] (Line 829, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 363 of 753 ---
+At common\production_types.txt [synthetic_sulphur_factory\bonus\trigger\state_scope] (Line 818, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 364 of 753 ---
+At common\production_types.txt [synthetic_sulphur_factory\bonus\trigger\state_scope] (Line 808, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 365 of 753 ---
+At common\production_types.txt [synthetic_sulphur_factory\bonus\trigger\NOT\state_scope] (Line 797, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 366 of 753 ---
+At common\production_types.txt [synthetic_rubber_factory\bonus\trigger\NOT\state_scope] (Line 770, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 367 of 753 ---
+At common\production_types.txt [synthetic_rubber_factory\bonus\trigger\state_scope] (Line 759, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 368 of 753 ---
+At common\production_types.txt [synthetic_rubber_factory\bonus\trigger\state_scope] (Line 749, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 369 of 753 ---
+At common\production_types.txt [synthetic_rubber_factory\bonus\trigger\NOT\state_scope] (Line 738, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 370 of 753 ---
+At common\production_types.txt [synthetic_oil_factory\bonus\trigger\NOT\state_scope] (Line 706, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 371 of 753 ---
+At common\production_types.txt [synthetic_oil_factory\bonus\trigger\state_scope] (Line 695, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 372 of 753 ---
+At common\production_types.txt [synthetic_oil_factory\bonus\trigger\state_scope] (Line 685, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 373 of 753 ---
+At common\production_types.txt [synthetic_oil_factory\bonus\trigger\NOT\state_scope] (Line 674, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 374 of 753 ---
+At common\production_types.txt [machine_parts_factory\bonus\trigger\NOT\state_scope] (Line 647, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 375 of 753 ---
+At common\production_types.txt [machine_parts_factory\bonus\trigger\state_scope] (Line 636, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 376 of 753 ---
+At common\production_types.txt [machine_parts_factory\bonus\trigger\state_scope] (Line 626, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 377 of 753 ---
+At common\production_types.txt [machine_parts_factory\bonus\trigger\NOT\state_scope] (Line 615, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 378 of 753 ---
+At common\production_types.txt [electric_gear_factory\bonus\trigger\NOT\state_scope] (Line 583, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 379 of 753 ---
+At common\production_types.txt [electric_gear_factory\bonus\trigger\state_scope] (Line 572, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 380 of 753 ---
+At common\production_types.txt [electric_gear_factory\bonus\trigger\state_scope] (Line 562, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 381 of 753 ---
+At common\production_types.txt [electric_gear_factory\bonus\trigger\NOT\state_scope] (Line 551, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 382 of 753 ---
+At common\production_types.txt [telephone_factory\bonus\trigger\NOT\state_scope] (Line 507, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 383 of 753 ---
+At common\production_types.txt [telephone_factory\bonus\trigger\state_scope] (Line 496, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 384 of 753 ---
+At common\production_types.txt [telephone_factory\bonus\trigger\state_scope] (Line 486, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 385 of 753 ---
+At common\production_types.txt [telephone_factory\bonus\trigger\NOT\state_scope] (Line 475, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 386 of 753 ---
+At common\production_types.txt [radio_factory\bonus\trigger\NOT\state_scope] (Line 443, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 387 of 753 ---
+At common\production_types.txt [radio_factory\bonus\trigger\state_scope] (Line 432, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 388 of 753 ---
+At common\production_types.txt [radio_factory\bonus\trigger\state_scope] (Line 422, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 389 of 753 ---
+At common\production_types.txt [radio_factory\bonus\trigger\NOT\state_scope] (Line 411, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 390 of 753 ---
+At common\production_types.txt [automobile_factory\bonus\trigger\NOT\state_scope] (Line 379, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 391 of 753 ---
+At common\production_types.txt [automobile_factory\bonus\trigger\state_scope] (Line 368, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 392 of 753 ---
+At common\production_types.txt [automobile_factory\bonus\trigger\state_scope] (Line 358, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 393 of 753 ---
+At common\production_types.txt [automobile_factory\bonus\trigger\NOT\state_scope] (Line 347, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 394 of 753 ---
+At common\production_types.txt [barrel_factory\bonus\trigger\NOT\state_scope] (Line 308, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 395 of 753 ---
+At common\production_types.txt [barrel_factory\bonus\trigger\state_scope] (Line 297, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 396 of 753 ---
+At common\production_types.txt [barrel_factory\bonus\trigger\state_scope] (Line 287, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 397 of 753 ---
+At common\production_types.txt [barrel_factory\bonus\trigger\NOT\state_scope] (Line 276, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 398 of 753 ---
+At common\production_types.txt [aeroplane_factory\bonus\trigger\NOT\state_scope] (Line 237, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 399 of 753 ---
+At common\production_types.txt [aeroplane_factory\bonus\trigger\state_scope] (Line 226, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 400 of 753 ---
+At common\production_types.txt [aeroplane_factory\bonus\trigger\state_scope] (Line 216, column 4):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 401 of 753 ---
+At common\production_types.txt [aeroplane_factory\bonus\trigger\NOT\state_scope] (Line 205, column 5):
+Invalid node "state_scope" in scope RegionTrigger (value is: <a complex type>)
+--- Error 402 of 753 ---
+At common\ideologies.txt [liberal_group\anarcho_liberal\add_political_reform] (Line 626, column 3):
+The required "factor" entry was not found.
+--- Error 403 of 753 ---
+At common\ideologies.txt [liberal_group\anarcho_liberal\add_political_reform\modifier] (Line 628, column 4):
+Having a factor of 1 is useless.
+--- Error 404 of 753 ---
+At common\ideologies.txt [liberal_group\anarcho_liberal\add_political_reform\base] (Line 627, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 405 of 753 ---
+At common\ideologies.txt [liberal_group\anarcho_liberal\remove_political_reform] (Line 633, column 3):
+The required "factor" entry was not found.
+--- Error 406 of 753 ---
+At common\ideologies.txt [liberal_group\anarcho_liberal\remove_political_reform\base] (Line 634, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 407 of 753 ---
+At common\ideologies.txt [liberal_group\anarcho_liberal\add_social_reform] (Line 636, column 3):
+The required "factor" entry was not found.
+--- Error 408 of 753 ---
+At common\ideologies.txt [liberal_group\anarcho_liberal\add_social_reform\base] (Line 637, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 409 of 753 ---
+At common\ideologies.txt [liberal_group\anarcho_liberal\remove_social_reform] (Line 639, column 3):
+The required "factor" entry was not found.
+--- Error 410 of 753 ---
+At common\ideologies.txt [liberal_group\anarcho_liberal\remove_social_reform\base] (Line 640, column 4):
+Invalid node "base" in scope ActionFactor (value is: 1)
+--- Error 411 of 753 ---
+At common\ideologies.txt [liberal_group\anarcho_liberal\add_economic_reform] (Line 647, column 3):
+Invalid node "add_economic_reform" in scope IdeologyDef (value is: <a complex type>)
+--- Error 412 of 753 ---
+At common\ideologies.txt [liberal_group\anarcho_liberal\add_military_reform] (Line 643, column 3):
+Invalid node "add_military_reform" in scope IdeologyDef (value is: <a complex type>)
+--- Error 413 of 753 ---
+At common\ideologies.txt [liberal_group\liberal\add_political_reform] (Line 530, column 3):
+The required "factor" entry was not found.
+--- Error 414 of 753 ---
+At common\ideologies.txt [liberal_group\liberal\add_political_reform\modifier] (Line 532, column 4):
+Having a factor of 1 is useless.
+--- Error 415 of 753 ---
+At common\ideologies.txt [liberal_group\liberal\add_political_reform\base] (Line 531, column 4):
+Invalid node "base" in scope ActionFactor (value is: 1)
+--- Error 416 of 753 ---
+At common\ideologies.txt [liberal_group\liberal\remove_political_reform] (Line 537, column 3):
+The required "factor" entry was not found.
+--- Error 417 of 753 ---
+At common\ideologies.txt [liberal_group\liberal\remove_political_reform\base] (Line 538, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 418 of 753 ---
+At common\ideologies.txt [liberal_group\liberal\add_social_reform] (Line 540, column 3):
+The required "factor" entry was not found.
+--- Error 419 of 753 ---
+At common\ideologies.txt [liberal_group\liberal\add_social_reform\group] (Line 543, column 4):
+Invalid node "group" in scope ActionFactor (value is: <a complex type>)
+--- Error 420 of 753 ---
+At common\ideologies.txt [liberal_group\liberal\add_social_reform\base] (Line 541, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 421 of 753 ---
+At common\ideologies.txt [liberal_group\liberal\remove_social_reform] (Line 609, column 3):
+The required "factor" entry was not found.
+--- Error 422 of 753 ---
+At common\ideologies.txt [liberal_group\liberal\remove_social_reform\base] (Line 610, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 423 of 753 ---
+At common\ideologies.txt [liberal_group\liberal\add_economic_reform] (Line 617, column 3):
+Invalid node "add_economic_reform" in scope IdeologyDef (value is: <a complex type>)
+--- Error 424 of 753 ---
+At common\ideologies.txt [liberal_group\liberal\add_military_reform] (Line 613, column 3):
+Invalid node "add_military_reform" in scope IdeologyDef (value is: <a complex type>)
+--- Error 425 of 753 ---
+At common\ideologies.txt [socialist_group\communist\add_political_reform] (Line 445, column 3):
+The required "factor" entry was not found.
+--- Error 426 of 753 ---
+At common\ideologies.txt [socialist_group\communist\add_political_reform\group] (Line 447, column 1):
+Invalid node "group" in scope ActionFactor (value is: <a complex type>)
+--- Error 427 of 753 ---
+At common\ideologies.txt [socialist_group\communist\add_political_reform\base] (Line 446, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0.1)
+--- Error 428 of 753 ---
+At common\ideologies.txt [socialist_group\communist\remove_political_reform] (Line 513, column 3):
+The required "factor" entry was not found.
+--- Error 429 of 753 ---
+At common\ideologies.txt [socialist_group\communist\remove_political_reform\base] (Line 514, column 4):
+Invalid node "base" in scope ActionFactor (value is: 1)
+--- Error 430 of 753 ---
+At common\ideologies.txt [socialist_group\communist\add_social_reform] (Line 516, column 3):
+The required "factor" entry was not found.
+--- Error 431 of 753 ---
+At common\ideologies.txt [socialist_group\communist\add_social_reform\base] (Line 517, column 4):
+Invalid node "base" in scope ActionFactor (value is: 1)
+--- Error 432 of 753 ---
+At common\ideologies.txt [socialist_group\communist\remove_social_reform] (Line 519, column 3):
+The required "factor" entry was not found.
+--- Error 433 of 753 ---
+At common\ideologies.txt [socialist_group\communist\remove_social_reform\base] (Line 520, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 434 of 753 ---
+At common\ideologies.txt [socialist_group\socialist\add_political_reform] (Line 362, column 3):
+The required "factor" entry was not found.
+--- Error 435 of 753 ---
+At common\ideologies.txt [socialist_group\socialist\add_political_reform\group] (Line 364, column 4):
+Invalid node "group" in scope ActionFactor (value is: <a complex type>)
+--- Error 436 of 753 ---
+At common\ideologies.txt [socialist_group\socialist\add_political_reform\base] (Line 363, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0.2)
+--- Error 437 of 753 ---
+At common\ideologies.txt [socialist_group\socialist\remove_political_reform] (Line 430, column 3):
+The required "factor" entry was not found.
+--- Error 438 of 753 ---
+At common\ideologies.txt [socialist_group\socialist\remove_political_reform\base] (Line 431, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 439 of 753 ---
+At common\ideologies.txt [socialist_group\socialist\add_social_reform] (Line 433, column 3):
+The required "factor" entry was not found.
+--- Error 440 of 753 ---
+At common\ideologies.txt [socialist_group\socialist\add_social_reform\base] (Line 434, column 4):
+Invalid node "base" in scope ActionFactor (value is: 1)
+--- Error 441 of 753 ---
+At common\ideologies.txt [socialist_group\socialist\remove_social_reform] (Line 436, column 3):
+The required "factor" entry was not found.
+--- Error 442 of 753 ---
+At common\ideologies.txt [socialist_group\socialist\remove_social_reform\base] (Line 437, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 443 of 753 ---
+At common\ideologies.txt [conservative_group\conservative\add_political_reform] (Line 200, column 3):
+The required "factor" entry was not found.
+--- Error 444 of 753 ---
+At common\ideologies.txt [conservative_group\conservative\add_political_reform\modifier] (Line 267, column 5):
+Having a factor of 1 is useless.
+--- Error 445 of 753 ---
+At common\ideologies.txt [conservative_group\conservative\add_political_reform\group] (Line 202, column 4):
+Invalid node "group" in scope ActionFactor (value is: <a complex type>)
+--- Error 446 of 753 ---
+At common\ideologies.txt [conservative_group\conservative\add_political_reform\base] (Line 201, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 447 of 753 ---
+At common\ideologies.txt [conservative_group\conservative\remove_political_reform] (Line 272, column 3):
+The required "factor" entry was not found.
+--- Error 448 of 753 ---
+At common\ideologies.txt [conservative_group\conservative\remove_political_reform\base] (Line 273, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 449 of 753 ---
+At common\ideologies.txt [conservative_group\conservative\add_social_reform] (Line 275, column 3):
+The required "factor" entry was not found.
+--- Error 450 of 753 ---
+At common\ideologies.txt [conservative_group\conservative\add_social_reform\group] (Line 278, column 4):
+Invalid node "group" in scope ActionFactor (value is: <a complex type>)
+--- Error 451 of 753 ---
+At common\ideologies.txt [conservative_group\conservative\add_social_reform\base] (Line 276, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 452 of 753 ---
+At common\ideologies.txt [conservative_group\conservative\remove_social_reform] (Line 345, column 3):
+The required "factor" entry was not found.
+--- Error 453 of 753 ---
+At common\ideologies.txt [conservative_group\conservative\remove_social_reform\base] (Line 346, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 454 of 753 ---
+At common\ideologies.txt [conservative_group\conservative\add_economic_reform] (Line 353, column 3):
+Invalid node "add_economic_reform" in scope IdeologyDef (value is: <a complex type>)
+--- Error 455 of 753 ---
+At common\ideologies.txt [conservative_group\conservative\add_military_reform] (Line 349, column 3):
+Invalid node "add_military_reform" in scope IdeologyDef (value is: <a complex type>)
+--- Error 456 of 753 ---
+At common\ideologies.txt [conservative_group\reactionary\add_political_reform] (Line 169, column 3):
+The required "factor" entry was not found.
+--- Error 457 of 753 ---
+At common\ideologies.txt [conservative_group\reactionary\add_political_reform\modifier] (Line 171, column 4):
+Having a factor of 1 is useless.
+--- Error 458 of 753 ---
+At common\ideologies.txt [conservative_group\reactionary\add_political_reform\base] (Line 170, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 459 of 753 ---
+At common\ideologies.txt [conservative_group\reactionary\remove_political_reform] (Line 176, column 3):
+The required "factor" entry was not found.
+--- Error 460 of 753 ---
+At common\ideologies.txt [conservative_group\reactionary\remove_political_reform\base] (Line 177, column 4):
+Invalid node "base" in scope ActionFactor (value is: 1)
+--- Error 461 of 753 ---
+At common\ideologies.txt [conservative_group\reactionary\add_social_reform] (Line 179, column 3):
+The required "factor" entry was not found.
+--- Error 462 of 753 ---
+At common\ideologies.txt [conservative_group\reactionary\add_social_reform\base] (Line 180, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0)
+--- Error 463 of 753 ---
+At common\ideologies.txt [conservative_group\reactionary\remove_social_reform] (Line 182, column 3):
+The required "factor" entry was not found.
+--- Error 464 of 753 ---
+At common\ideologies.txt [conservative_group\reactionary\remove_social_reform\base] (Line 183, column 4):
+Invalid node "base" in scope ActionFactor (value is: 1)
+--- Error 465 of 753 ---
+At common\ideologies.txt [conservative_group\reactionary\add_economic_reform] (Line 190, column 3):
+Invalid node "add_economic_reform" in scope IdeologyDef (value is: <a complex type>)
+--- Error 466 of 753 ---
+At common\ideologies.txt [conservative_group\reactionary\add_military_reform] (Line 186, column 3):
+Invalid node "add_military_reform" in scope IdeologyDef (value is: <a complex type>)
+--- Error 467 of 753 ---
+At common\ideologies.txt [fascist_group\fascist\add_political_reform] (Line 8, column 3):
+The required "factor" entry was not found.
+--- Error 468 of 753 ---
+At common\ideologies.txt [fascist_group\fascist\add_political_reform\group] (Line 10, column 4):
+Invalid node "group" in scope ActionFactor (value is: <a complex type>)
+--- Error 469 of 753 ---
+At common\ideologies.txt [fascist_group\fascist\add_political_reform\base] (Line 9, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0.2)
+--- Error 470 of 753 ---
+At common\ideologies.txt [fascist_group\fascist\remove_political_reform] (Line 76, column 3):
+The required "factor" entry was not found.
+--- Error 471 of 753 ---
+At common\ideologies.txt [fascist_group\fascist\remove_political_reform\modifier\factor] (Line 79, column 5):
+The value '-1' on node 'factor' must be a double 0 or above.
+--- Error 472 of 753 ---
+At common\ideologies.txt [fascist_group\fascist\remove_political_reform\base] (Line 77, column 4):
+Invalid node "base" in scope ActionFactor (value is: 1)
+--- Error 473 of 753 ---
+At common\ideologies.txt [fascist_group\fascist\add_social_reform] (Line 83, column 3):
+The required "factor" entry was not found.
+--- Error 474 of 753 ---
+At common\ideologies.txt [fascist_group\fascist\add_social_reform\modifier\factor] (Line 86, column 5):
+The value '-1' on node 'factor' must be a double 0 or above.
+--- Error 475 of 753 ---
+At common\ideologies.txt [fascist_group\fascist\add_social_reform\group] (Line 89, column 4):
+Invalid node "group" in scope ActionFactor (value is: <a complex type>)
+--- Error 476 of 753 ---
+At common\ideologies.txt [fascist_group\fascist\add_social_reform\base] (Line 84, column 4):
+Invalid node "base" in scope ActionFactor (value is: 0.2)
+--- Error 477 of 753 ---
+At common\ideologies.txt [fascist_group\fascist\remove_social_reform] (Line 155, column 3):
+The required "factor" entry was not found.
+--- Error 478 of 753 ---
+At common\ideologies.txt [fascist_group\fascist\remove_social_reform\modifier\factor] (Line 158, column 5):
+The value '-1' on node 'factor' must be a double 0 or above.
+--- Error 479 of 753 ---
+At common\ideologies.txt [fascist_group\fascist\remove_social_reform\base] (Line 156, column 4):
+Invalid node "base" in scope ActionFactor (value is: 1)
+--- Error 480 of 753 ---
+At common\issues.txt [political_reforms\fleet_doctrine\active_combat_fleet\local_ship_build] (Line 446, column 4):
+Invalid node "local_ship_build" in scope Reform (value is: 0.20)
+--- Error 481 of 753 ---
+At common\issues.txt [political_reforms\fleet_doctrine\fleet_expansion\local_ship_build] (Line 437, column 4):
+Invalid node "local_ship_build" in scope Reform (value is: -0.20)
+--- Error 482 of 753 ---
+At common\issues.txt [political_reforms\fleet_doctrine\fleet_expansion\local_repair] (Line 436, column 4):
+Invalid node "local_repair" in scope Reform (value is: 0.50)
+--- Error 483 of 753 ---
+At map\region.txt [CHI_1481] (Line 983, column 1):
+The string CHI_1481 was not found in localization.
+--- Error 484 of 753 ---
+At common\event_modifiers.txt [sakoku_policy\militancy] (Line 2402, column 2):
+Invalid node "militancy" in scope <anon> (value is: -0.1)
+--- Error 485 of 753 ---
+At common\event_modifiers.txt [sakoku_policy\plurality] (Line 2401, column 2):
+Invalid node "plurality" in scope <anon> (value is: -0.05)
+--- Error 486 of 753 ---
+At common\event_modifiers.txt [sakoku_policy\national_unity] (Line 2400, column 2):
+Invalid node "national_unity" in scope <anon> (value is: 0.1)
+--- Error 487 of 753 ---
+At common\event_modifiers.txt [non_colonial_urban\local_factory_input] (Line 2329, column 2):
+Invalid node "local_factory_input" in scope <anon> (value is: -0.01)
+--- Error 488 of 753 ---
+At common\event_modifiers.txt [non_colonial_towns\local_factory_input] (Line 2324, column 2):
+Invalid node "local_factory_input" in scope <anon> (value is: -0.04)
+--- Error 489 of 753 ---
+At common\event_modifiers.txt [japan_economy_overheated\RGO_output] (Line 2282, column 2):
+Invalid node "RGO_output" in scope <anon> (value is: -0.2)
+--- Error 490 of 753 ---
+At common\event_modifiers.txt [help_japan_sia\RGO_output] (Line 2261, column 2):
+Invalid node "RGO_output" in scope <anon> (value is: 0.1)
+--- Error 491 of 753 ---
+At common\event_modifiers.txt [help_usa_sia\RGO_output] (Line 2248, column 2):
+Invalid node "RGO_output" in scope <anon> (value is: 0.25)
+--- Error 492 of 753 ---
+At common\event_modifiers.txt [a_nation_of_shopkeepers] (Line 441, column 1):
+Modifiers: Unmatched supply a_nation_of_shopkeepers
+--- Error 493 of 753 ---
+At common\event_modifiers.txt [british_helping_in_colonisation] (Line 1090, column 1):
+Modifiers: Unmatched supply british_helping_in_colonisation
+--- Error 494 of 753 ---
+At common\event_modifiers.txt [cd_sa_governor_generals_rights] (Line 1087, column 1):
+Modifiers: Unmatched supply cd_sa_governor_generals_rights
+--- Error 495 of 753 ---
+At common\event_modifiers.txt [CHI_corruption_no] (Line 87, column 1):
+Modifiers: Unmatched supply CHI_corruption_no
+--- Error 496 of 753 ---
+At common\event_modifiers.txt [CHI_piracy_4] (Line 283, column 1):
+Modifiers: Unmatched supply CHI_piracy_4
+--- Error 497 of 753 ---
+At common\event_modifiers.txt [CHI_separatism_large] (Line 130, column 1):
+Modifiers: Unmatched supply CHI_separatism_large
+--- Error 498 of 753 ---
+At common\event_modifiers.txt [CHI_separatism_medium] (Line 124, column 1):
+Modifiers: Unmatched supply CHI_separatism_medium
+--- Error 499 of 753 ---
+At common\event_modifiers.txt [CHI_weak_rule_1] (Line 233, column 1):
+Modifiers: Unmatched supply CHI_weak_rule_1
+--- Error 500 of 753 ---
+At common\event_modifiers.txt [florida] (Line 1227, column 1):
+Modifiers: Unmatched supply florida
+--- Error 501 of 753 ---
+At common\event_modifiers.txt [florida2] (Line 1230, column 1):
+Modifiers: Unmatched supply florida2
+--- Error 502 of 753 ---
+At common\event_modifiers.txt [force_reform_cooldown_modifier] (Line 1140, column 1):
+Modifiers: Unmatched supply force_reform_cooldown_modifier
+--- Error 503 of 753 ---
+At common\event_modifiers.txt [force_reform_modifier] (Line 1137, column 1):
+Modifiers: Unmatched supply force_reform_modifier
+--- Error 504 of 753 ---
+At common\event_modifiers.txt [Investicii_v_Ceylon] (Line 437, column 1):
+Modifiers: Unmatched supply Investicii_v_Ceylon
+--- Error 505 of 753 ---
+At common\event_modifiers.txt [iwakura_researches_1] (Line 751, column 1):
+Modifiers: Unmatched supply iwakura_researches_1
+--- Error 506 of 753 ---
+At common\event_modifiers.txt [iwakura_researches_2] (Line 755, column 1):
+Modifiers: Unmatched supply iwakura_researches_2
+--- Error 507 of 753 ---
+At common\event_modifiers.txt [joint_suez] (Line 1181, column 1):
+Modifiers: Unmatched supply joint_suez
+--- Error 508 of 753 ---
+At common\event_modifiers.txt [kioto_residention] (Line 746, column 1):
+Modifiers: Unmatched supply kioto_residention
+--- Error 509 of 753 ---
+At common\event_modifiers.txt [med_ref_mp5] (Line 1312, column 1):
+Modifiers: Unmatched supply med_ref_mp5
+--- Error 510 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_1] (Line 1549, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_1
+--- Error 511 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_10] (Line 1576, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_10
+--- Error 512 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_11] (Line 1579, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_11
+--- Error 513 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_12] (Line 1582, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_12
+--- Error 514 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_13] (Line 1585, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_13
+--- Error 515 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_14] (Line 1588, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_14
+--- Error 516 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_15] (Line 1591, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_15
+--- Error 517 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_16] (Line 1594, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_16
+--- Error 518 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_17] (Line 1597, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_17
+--- Error 519 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_18] (Line 1600, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_18
+--- Error 520 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_19] (Line 1603, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_19
+--- Error 521 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_2] (Line 1552, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_2
+--- Error 522 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_20] (Line 1606, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_20
+--- Error 523 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_3] (Line 1555, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_3
+--- Error 524 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_4] (Line 1558, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_4
+--- Error 525 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_5] (Line 1561, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_5
+--- Error 526 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_6] (Line 1564, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_6
+--- Error 527 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_7] (Line 1567, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_7
+--- Error 528 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_8] (Line 1570, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_8
+--- Error 529 of 753 ---
+At common\event_modifiers.txt [meiji_progress_modifier_9] (Line 1573, column 1):
+Modifiers: Unmatched supply meiji_progress_modifier_9
+--- Error 530 of 753 ---
+At common\event_modifiers.txt [not_fast_manchu] (Line 706, column 1):
+Modifiers: Unmatched supply not_fast_manchu
+--- Error 531 of 753 ---
+At common\event_modifiers.txt [otranto] (Line 1212, column 1):
+Modifiers: Unmatched supply otranto
+--- Error 532 of 753 ---
+At common\event_modifiers.txt [pers] (Line 1206, column 1):
+Modifiers: Unmatched supply pers
+--- Error 533 of 753 ---
+At common\event_modifiers.txt [ryk_annex_chi_pop] (Line 1672, column 1):
+Modifiers: Unmatched supply ryk_annex_chi_pop
+--- Error 534 of 753 ---
+At common\event_modifiers.txt [ryk_annex_jap_pop] (Line 1669, column 1):
+Modifiers: Unmatched supply ryk_annex_jap_pop
+--- Error 535 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_1] (Line 1609, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_1
+--- Error 536 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_10] (Line 1636, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_10
+--- Error 537 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_11] (Line 1639, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_11
+--- Error 538 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_12] (Line 1642, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_12
+--- Error 539 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_13] (Line 1645, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_13
+--- Error 540 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_14] (Line 1648, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_14
+--- Error 541 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_15] (Line 1651, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_15
+--- Error 542 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_16] (Line 1654, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_16
+--- Error 543 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_17] (Line 1657, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_17
+--- Error 544 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_18] (Line 1660, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_18
+--- Error 545 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_19] (Line 1663, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_19
+--- Error 546 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_2] (Line 1612, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_2
+--- Error 547 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_20] (Line 1666, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_20
+--- Error 548 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_3] (Line 1615, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_3
+--- Error 549 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_4] (Line 1618, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_4
+--- Error 550 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_5] (Line 1621, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_5
+--- Error 551 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_6] (Line 1624, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_6
+--- Error 552 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_7] (Line 1627, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_7
+--- Error 553 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_8] (Line 1630, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_8
+--- Error 554 of 753 ---
+At common\event_modifiers.txt [ryk_progress_modifier_9] (Line 1633, column 1):
+Modifiers: Unmatched supply ryk_progress_modifier_9
+--- Error 555 of 753 ---
+At common\event_modifiers.txt [stambul] (Line 1194, column 1):
+Modifiers: Unmatched supply stambul
+--- Error 556 of 753 ---
+At common\event_modifiers.txt [state_has_town] (Line 2390, column 1):
+Modifiers: Unmatched supply state_has_town
+--- Error 557 of 753 ---
+At common\event_modifiers.txt [state_has_urban] (Line 2393, column 1):
+Modifiers: Unmatched supply state_has_urban
+--- Error 558 of 753 ---
+At common\event_modifiers.txt [Tea_need] (Line 419, column 1):
+Modifiers: Unmatched supply Tea_need
+--- Error 559 of 753 ---
+At common\event_modifiers.txt [tokio_residention] (Line 743, column 1):
+Modifiers: Unmatched supply tokio_residention
+--- Error 560 of 753 ---
+At common\event_modifiers.txt [uk_navy_tradition1] (Line 448, column 1):
+Modifiers: Unmatched supply uk_navy_tradition1
+--- Error 561 of 753 ---
+At common\event_modifiers.txt [yucatan] (Line 1224, column 1):
+Modifiers: Unmatched supply yucatan
+--- Error 562 of 753 ---
+At common\on_actions.txt [on_election_tick\10] (Line 89, column 2):
+"14210" is not a valid RegionEventId.
+--- Error 563 of 753 ---
+At common\on_actions.txt [on_civilize\100] (Line 124, column 2):
+"90900" is not a valid CountryEventId.
+--- Error 564 of 753 ---
+At common\on_actions.txt [on_new_great_nation\10] (Line 58, column 2):
+"19310" is not a valid CountryEventId.
+--- Error 565 of 753 ---
+At common\pop_types.txt [promotion_chance\modifier\OR\citizenship_politics] (Line 112, column 4):
+Invalid node "citizenship_politics" in scope ChanceModifier (value is: accepted_culture_only)
+--- Error 566 of 753 ---
+At common\pop_types.txt [promotion_chance\modifier\OR\citizenship_politics] (Line 113, column 4):
+Invalid node "citizenship_politics" in scope ChanceModifier (value is: faster_assimilation)
+--- Error 567 of 753 ---
+At common\pop_types.txt [promotion_chance\modifier\citizenship_politics] (Line 106, column 3):
+Invalid node "citizenship_politics" in scope ChanceModifier (value is: accepted_culture_only)
+--- Error 568 of 753 ---
+At common\pop_types.txt [demotion_chance\modifier\OR\citizenship_politics] (Line 208, column 4):
+Invalid node "citizenship_politics" in scope ChanceModifier (value is: accepted_culture_only)
+--- Error 569 of 753 ---
+At common\pop_types.txt [demotion_chance\modifier\OR\citizenship_politics] (Line 209, column 4):
+Invalid node "citizenship_politics" in scope ChanceModifier (value is: faster_assimilation)
+--- Error 570 of 753 ---
+At common\pop_types.txt [demotion_chance\modifier\citizenship_politics] (Line 202, column 3):
+Invalid node "citizenship_politics" in scope ChanceModifier (value is: accepted_culture_only)
+--- Error 571 of 753 ---
+At poptypes\craftsmen.txt [promote_to\soldiers\modifier\AND] (Line 1134, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 572 of 753 ---
+At poptypes\craftsmen.txt [promote_to\soldiers\modifier\AND] (Line 764, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 573 of 753 ---
+At poptypes\craftsmen.txt [promote_to\soldiers\modifier\AND] (Line 755, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 574 of 753 ---
+At poptypes\farmers.txt [promote_to\soldiers\modifier\AND] (Line 943, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 575 of 753 ---
+At poptypes\farmers.txt [promote_to\soldiers\modifier\AND] (Line 544, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 576 of 753 ---
+At poptypes\farmers.txt [promote_to\soldiers\modifier\AND] (Line 535, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 577 of 753 ---
+At poptypes\labourers.txt [promote_to\soldiers\modifier\AND] (Line 957, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 578 of 753 ---
+At poptypes\labourers.txt [promote_to\soldiers\modifier\AND] (Line 557, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 579 of 753 ---
+At poptypes\labourers.txt [promote_to\soldiers\modifier\AND] (Line 548, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 580 of 753 ---
+At poptypes\officers.txt [promote_to\soldiers\modifier\AND] (Line 607, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 581 of 753 ---
+At poptypes\officers.txt [promote_to\soldiers\modifier\AND] (Line 311, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 582 of 753 ---
+At poptypes\officers.txt [promote_to\soldiers\modifier\AND] (Line 302, column 4):
+The 'AND = { }' wrapper is unnecessary, since we are already within an 'and' clause.
+--- Error 583 of 753 ---
+At history\provinces\africa\1745 - Cairo.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 584 of 753 ---
+At history\provinces\africa\1751 - Alexandria.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 585 of 753 ---
+At history\provinces\africa\1762 - Asyut.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 586 of 753 ---
+At history\provinces\africa\1767 - Luxor.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 587 of 753 ---
+At history\provinces\africa\2087 - Cape Town.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 588 of 753 ---
+At history\provinces\asia\1330 - Rangoon.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 589 of 753 ---
+At history\provinces\asia\1346 - Bangkok.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 590 of 753 ---
+At history\provinces\asia\1357 - Vientiane.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 591 of 753 ---
+At history\provinces\asia\1364 - Phnom Penh.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 592 of 753 ---
+At history\provinces\asia\1369 - Hanoi.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 593 of 753 ---
+At history\provinces\asia\1375 - Hue.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 594 of 753 ---
+At history\provinces\asia\1380 - Saigon.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 595 of 753 ---
+At history\provinces\asia\1384 - Singapore.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 596 of 753 ---
+At history\provinces\asia\1619 - Pyongyang.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 597 of 753 ---
+At history\provinces\asia\1624 - Seoul.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 598 of 753 ---
+At history\provinces\asia\1632 - Pusan.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 599 of 753 ---
+At history\provinces\balkan\664 - Bucharest.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 600 of 753 ---
+At history\provinces\balkan\783 - Sarajevo.txt [town_infrastructure] (Line 10, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 601 of 753 ---
+At history\provinces\balkan\794 - Belgrade.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 602 of 753 ---
+At history\provinces\balkan\805 - Salonika.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 603 of 753 ---
+At history\provinces\balkan\806 - Skopje.txt [town_infrastructure] (Line 9, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 604 of 753 ---
+At history\provinces\balkan\809 - Sofia.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 605 of 753 ---
+At history\provinces\balkan\834 - Athens.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 606 of 753 ---
+At history\provinces\balkan\860 - Istanbul.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 607 of 753 ---
+At history\provinces\balkan\867 - Kutahya.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 608 of 753 ---
+At history\provinces\balkan\869 - Izmir.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 609 of 753 ---
+At history\provinces\balkan\876 - Ankara.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 610 of 753 ---
+At history\provinces\balkan\897 - Aleppo.txt [town_infrastructure] (Line 6, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 611 of 753 ---
+At history\provinces\balkan\902 - Damascus.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 612 of 753 ---
+At history\provinces\balkan\913 - Beirut.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 613 of 753 ---
+At history\provinces\Central Europe\369 - Kiel.txt [town_infrastructure] (Line 9, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 614 of 753 ---
+At history\provinces\Central Europe\530 - Lubeck.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 615 of 753 ---
+At history\provinces\Central Europe\539 - Bremen.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 616 of 753 ---
+At history\provinces\Central Europe\549 - Berlin.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 617 of 753 ---
+At history\provinces\Central Europe\558 - Dresden.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 618 of 753 ---
+At history\provinces\Central Europe\564 - Frankfurt.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 619 of 753 ---
+At history\provinces\Central Europe\575 - Cologne.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 620 of 753 ---
+At history\provinces\Central Europe\589 - Stuttgart.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 621 of 753 ---
+At history\provinces\Central Europe\595 - Nuremburg.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 622 of 753 ---
+At history\provinces\Central Europe\599 - Munich.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 623 of 753 ---
+At history\provinces\Central Europe\619 - Vienna.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 624 of 753 ---
+At history\provinces\Central Europe\625 - Prague.txt [town_infrastructure] (Line 9, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 625 of 753 ---
+At history\provinces\Central Europe\633 - Bratislava.txt [town_infrastructure] (Line 10, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 626 of 753 ---
+At history\provinces\Central Europe\641 - Budapest.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 627 of 753 ---
+At history\provinces\Central Europe\690 - Danzig.txt [town_infrastructure] (Line 11, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 628 of 753 ---
+At history\provinces\Central Europe\695 - Konigsberg.txt [town_infrastructure] (Line 9, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 629 of 753 ---
+At history\provinces\Central Europe\702 - Lvov.txt [town_infrastructure] (Line 11, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 630 of 753 ---
+At history\provinces\Central Europe\703 - Krakow.txt [town_infrastructure] (Line 9, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 631 of 753 ---
+At history\provinces\Central Europe\720 - Turin.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 632 of 753 ---
+At history\provinces\Central Europe\724 - Genoa.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 633 of 753 ---
+At history\provinces\Central Europe\726 - Milan.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 634 of 753 ---
+At history\provinces\Central Europe\729 - Venice.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 635 of 753 ---
+At history\provinces\Central Europe\744 - Florence.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 636 of 753 ---
+At history\provinces\Central Europe\749 - Rome.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 637 of 753 ---
+At history\provinces\Central Europe\754 - Naples.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 638 of 753 ---
+At history\provinces\Central Europe\762 - Palermo.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 639 of 753 ---
+At history\provinces\china\1482 - Fuzhou.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 640 of 753 ---
+At history\provinces\china\1493 - Canton.txt [town_infrastructure] (Line 5, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 641 of 753 ---
+At history\provinces\china\1522 - Wuchang.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 642 of 753 ---
+At history\provinces\china\1538 - Shanghai.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 643 of 753 ---
+At history\provinces\china\1559 - Xian.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 644 of 753 ---
+At history\provinces\china\1578 - Chengdu.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 645 of 753 ---
+At history\provinces\china\1608 - Ningbo.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 646 of 753 ---
+At history\provinces\china\1612 - Beijing.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 647 of 753 ---
+At history\provinces\china\2221 - Nanjing.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 648 of 753 ---
+At history\provinces\East Europe\1008 - Moscow.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 649 of 753 ---
+At history\provinces\East Europe\1030 - Kazan.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 650 of 753 ---
+At history\provinces\East Europe\1042 - Ufa.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 651 of 753 ---
+At history\provinces\East Europe\1058 - Ekaterinburg.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 652 of 753 ---
+At history\provinces\East Europe\1102 - Baku.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 653 of 753 ---
+At history\provinces\East Europe\1121 - Tehran.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 654 of 753 ---
+At history\provinces\East Europe\1127 - Isfahan.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 655 of 753 ---
+At history\provinces\East Europe\1151 - Mecca.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 656 of 753 ---
+At history\provinces\East Europe\1166 - Muscat.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 657 of 753 ---
+At history\provinces\East Europe\1209 - Kabul.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 658 of 753 ---
+At history\provinces\East Europe\1214 - Farrah.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 659 of 753 ---
+At history\provinces\East Europe\1288 - Karachi.txt [town_infrastructure] (Line 9, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 660 of 753 ---
+At history\provinces\East Europe\1412 - Aden.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 661 of 753 ---
+At history\provinces\East Europe\2557 - Esbjerg.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 662 of 753 ---
+At history\provinces\East Europe\313 - Christiania.txt [town_infrastructure] (Line 9, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 663 of 753 ---
+At history\provinces\East Europe\322 - Stockholm.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 664 of 753 ---
+At history\provinces\East Europe\335 - Karlskrona.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 665 of 753 ---
+At history\provinces\East Europe\343 - Helsinki.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 666 of 753 ---
+At history\provinces\East Europe\354 - Riga.txt [town_infrastructure] (Line 10, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 667 of 753 ---
+At history\provinces\East Europe\372 - Copenhagen.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 668 of 753 ---
+At history\provinces\East Europe\706 - Warsaw.txt [town_infrastructure] (Line 9, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 669 of 753 ---
+At history\provinces\East Europe\718 - Minsk.txt [town_infrastructure] (Line 9, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 670 of 753 ---
+At history\provinces\East Europe\917 - Jerusalem.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 671 of 753 ---
+At history\provinces\East Europe\926 - Baghdad.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 672 of 753 ---
+At history\provinces\East Europe\932 - Basra.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 673 of 753 ---
+At history\provinces\East Europe\958 - Kiev.txt [town_infrastructure] (Line 9, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 674 of 753 ---
+At history\provinces\East Europe\967 - Sevastopol.txt [town_infrastructure] (Line 9, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 675 of 753 ---
+At history\provinces\East Europe\977 - Kursk.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 676 of 753 ---
+At history\provinces\East Europe\978 - Kharkov.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 677 of 753 ---
+At history\provinces\East Europe\979 - Rostov.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 678 of 753 ---
+At history\provinces\East Europe\994 - St Petersburg.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 679 of 753 ---
+At history\provinces\East Europe\998 - Tver.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 680 of 753 ---
+At history\provinces\india\1227 - Lahore.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 681 of 753 ---
+At history\provinces\india\1236 - Delhi.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 682 of 753 ---
+At history\provinces\india\1242 - Lucknow.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 683 of 753 ---
+At history\provinces\india\1247 - Patna.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 684 of 753 ---
+At history\provinces\india\1251 - Calcutta.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 685 of 753 ---
+At history\provinces\india\1252 - Darjeeling.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 686 of 753 ---
+At history\provinces\india\1257 - Chittagong.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 687 of 753 ---
+At history\provinces\india\1283 - Hyderabad.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 688 of 753 ---
+At history\provinces\india\1296 - Surat.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 689 of 753 ---
+At history\provinces\india\1297 - Bombay.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 690 of 753 ---
+At history\provinces\india\1303 - Goa.txt [town_infrastructure] (Line 6, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 691 of 753 ---
+At history\provinces\india\1323 - Kandy.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 692 of 753 ---
+At history\provinces\low countries\375 - Amsterdam.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 693 of 753 ---
+At history\provinces\low countries\385 - Leeuwarden.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 694 of 753 ---
+At history\provinces\low countries\387 - Brussels.txt [town_infrastructure] (Line 9, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 695 of 753 ---
+At history\provinces\North America\139 - New Orleans.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 696 of 753 ---
+At history\provinces\North America\163 - Chicago.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 697 of 753 ---
+At history\provinces\North America\173 - Detroit.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 698 of 753 ---
+At history\provinces\North America\182 - Cincinnati.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 699 of 753 ---
+At history\provinces\North America\189 - Memphis.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 700 of 753 ---
+At history\provinces\North America\205 - Charleston.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 701 of 753 ---
+At history\provinces\North America\2172 - Mexico City.txt [town_infrastructure] (Line 10, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 702 of 753 ---
+At history\provinces\North America\220 - Washington.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 703 of 753 ---
+At history\provinces\North America\2209 - Havana.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 704 of 753 ---
+At history\provinces\North America\2213 - Port Au Prince.txt [town_infrastructure] (Line 5, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 705 of 753 ---
+At history\provinces\North America\223 - Philadelphia.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 706 of 753 ---
+At history\provinces\North America\232 - New York.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 707 of 753 ---
+At history\provinces\North America\243 - Boston.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 708 of 753 ---
+At history\provinces\North America\46 - Toronto.txt [town_infrastructure] (Line 9, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 709 of 753 ---
+At history\provinces\North America\58 - Montreal.txt [town_infrastructure] (Line 11, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 710 of 753 ---
+At history\provinces\North America\78 - Seattle.txt [] (Line 0, column 0):
+The right sides of a "add_core" clause may not be identical.
+There were 2 duplicates.
+	[I89|L6|C1]: add_core = USA
+	[I31|L3|C1]: add_core = USA
+--- Error 711 of 753 ---
+At history\provinces\North America\79 - Spokane.txt [] (Line 0, column 0):
+The right sides of a "add_core" clause may not be identical.
+There were 2 duplicates.
+	[I89|L6|C1]: add_core = USA
+	[I31|L3|C1]: add_core = USA
+--- Error 712 of 753 ---
+At history\provinces\North America\80 - Walla Walla.txt [] (Line 0, column 0):
+The right sides of a "add_core" clause may not be identical.
+There were 2 duplicates.
+	[I89|L6|C1]: add_core = USA
+	[I31|L3|C1]: add_core = USA
+--- Error 713 of 753 ---
+At history\provinces\North America\89 - Los Angeles.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 714 of 753 ---
+At history\provinces\Pacific\1413 - Batavia.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 715 of 753 ---
+At history\provinces\Pacific\1418 - Surabaya.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 716 of 753 ---
+At history\provinces\Pacific\1640 - Yamaguchi.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 717 of 753 ---
+At history\provinces\Pacific\1649 - Edo.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 718 of 753 ---
+At history\provinces\Pacific\1655 - Osaka.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 719 of 753 ---
+At history\provinces\Pacific\1657 - Kyoto.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 720 of 753 ---
+At history\provinces\Pacific\1661 - Nagasaki.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 721 of 753 ---
+At history\provinces\south america\1723 - Panama Canal.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 722 of 753 ---
+At history\provinces\south america\2247 - Bogota.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 723 of 753 ---
+At history\provinces\south america\2264 - Caracas.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 724 of 753 ---
+At history\provinces\south america\2279 - Quito.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 725 of 753 ---
+At history\provinces\south america\2432 - Recife.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 726 of 753 ---
+At history\provinces\south america\2447 - Rio de Janeiro.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 727 of 753 ---
+At history\provinces\West Europe\263 - Dublin.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 728 of 753 ---
+At history\provinces\West Europe\269 - Edinburgh.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 729 of 753 ---
+At history\provinces\West Europe\273 - Cardiff.txt [town_infrastructure] (Line 5, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 730 of 753 ---
+At history\provinces\West Europe\278 - Manchester.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 731 of 753 ---
+At history\provinces\West Europe\283 - Sheffield.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 732 of 753 ---
+At history\provinces\West Europe\284 - Birmingham.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 733 of 753 ---
+At history\provinces\West Europe\291 - Cambridge.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 734 of 753 ---
+At history\provinces\West Europe\296 - Bristol.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 735 of 753 ---
+At history\provinces\West Europe\300 - London.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 736 of 753 ---
+At history\provinces\West Europe\400 - Dunkirk.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 737 of 753 ---
+At history\provinces\West Europe\409 - Strasbourg.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 738 of 753 ---
+At history\provinces\West Europe\415 - Rouen.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 739 of 753 ---
+At history\provinces\West Europe\423 - Nantes.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 740 of 753 ---
+At history\provinces\West Europe\425 - Paris.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 741 of 753 ---
+At history\provinces\West Europe\455 - Toulouse.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 742 of 753 ---
+At history\provinces\West Europe\458 - Bordeaux.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 743 of 753 ---
+At history\provinces\West Europe\467 - Marseilles.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 744 of 753 ---
+At history\provinces\West Europe\470 - Toulon.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 745 of 753 ---
+At history\provinces\West Europe\487 - Madrid.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 746 of 753 ---
+At history\provinces\West Europe\498 - Barcelona.txt [town_infrastructure] (Line 8, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 747 of 753 ---
+At history\provinces\West Europe\503 - Valencia.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 748 of 753 ---
+At history\provinces\West Europe\506 - Cartagena.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 749 of 753 ---
+At history\provinces\West Europe\509 - Seville.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 750 of 753 ---
+At history\provinces\West Europe\518 - Oporto.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 0)
+--- Error 751 of 753 ---
+At history\provinces\West Europe\521 - Lisbon.txt [town_infrastructure] (Line 7, column 1):
+Invalid node "town_infrastructure" in scope ProvinceHistory (value is: 1)
+--- Error 752 of 753 ---
+At technologies\industry_tech.txt [organic_chemistry\max_hospital] (Line 1080, column 2):
+Invalid node "max_hospital" in scope Tech (value is: 1)
+--- Error 753 of 753 ---
+At common\traits.txt [background\school_of_firepower] (Line 538, column 2):
+The string school_of_firepower was not found in localization.

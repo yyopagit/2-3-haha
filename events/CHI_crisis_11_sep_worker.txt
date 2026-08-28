@@ -1,1917 +1,2477 @@
-# Separatism worker + tax stacks
-
-province_event = {
-	id = 144437
-	title = "CHI_sel_sep_done"
-	desc = "CHI_sel_sep_done_desc"
-	picture = "Administration"
-	is_triggered_only = yes
-	option = {
-		name = "CHI_sel_ok"
-		set_province_flag = CHI_crisis_selected
-		owner = {
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_2608
-				}
-				owner = { set_country_flag = CHI_act_2608 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1600
-				}
-				owner = { set_country_flag = CHI_act_1600 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1578
-				}
-				owner = { set_country_flag = CHI_act_1578 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1601
-				}
-				owner = { set_country_flag = CHI_act_1601 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1494
-				}
-				owner = { set_country_flag = CHI_act_1494 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1498
-				}
-				owner = { set_country_flag = CHI_act_1498 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1496
-				}
-				owner = { set_country_flag = CHI_act_1496 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1538
-				}
-				owner = { set_country_flag = CHI_act_1538 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1566
-				}
-				owner = { set_country_flag = CHI_act_1566 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1481
-				}
-				owner = { set_country_flag = CHI_act_1481 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1532
-				}
-				owner = { set_country_flag = CHI_act_1532 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1504
-				}
-				owner = { set_country_flag = CHI_act_1504 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1553
-				}
-				owner = { set_country_flag = CHI_act_1553 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1563
-				}
-				owner = { set_country_flag = CHI_act_1563 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1612
-				}
-				owner = { set_country_flag = CHI_act_1612 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1613
-				}
-				owner = { set_country_flag = CHI_act_1613 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1576
-				}
-				owner = { set_country_flag = CHI_act_1576 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1559
-				}
-				owner = { set_country_flag = CHI_act_1559 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1490
-				}
-				owner = { set_country_flag = CHI_act_1490 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1557
-				}
-				owner = { set_country_flag = CHI_act_1557 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1581
-				}
-				owner = { set_country_flag = CHI_act_1581 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1493
-				}
-				owner = { set_country_flag = CHI_act_1493 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1482
-				}
-				owner = { set_country_flag = CHI_act_1482 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1608
-				}
-				owner = { set_country_flag = CHI_act_1608 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1539
-				}
-				owner = { set_country_flag = CHI_act_1539 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_2221
-				}
-				owner = { set_country_flag = CHI_act_2221 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1513
-				}
-				owner = { set_country_flag = CHI_act_1513 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1614
-				}
-				owner = { set_country_flag = CHI_act_1614 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1550
-				}
-				owner = { set_country_flag = CHI_act_1550 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1473
-				}
-				owner = { set_country_flag = CHI_act_1473 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1472
-				}
-				owner = { set_country_flag = CHI_act_1472 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1523
-				}
-				owner = { set_country_flag = CHI_act_1523 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1522
-				}
-				owner = { set_country_flag = CHI_act_1522 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1529
-				}
-				owner = { set_country_flag = CHI_act_1529 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_2562
-				}
-				owner = { set_country_flag = CHI_act_2562 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_1082
-				}
-				owner = { set_country_flag = CHI_act_1082 }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = { has_country_flag = CHI_crisis_paid }
-				}
-				owner = {
-			any_owned = {
-				limit = {
-					has_province_modifier = CHI_separatism_4
-					OR = {
-						AND = {
-							has_province_flag = CHI_reg_2608
-							owner = { has_country_flag = CHI_act_2608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1600
-							owner = { has_country_flag = CHI_act_1600 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1578
-							owner = { has_country_flag = CHI_act_1578 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1601
-							owner = { has_country_flag = CHI_act_1601 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1494
-							owner = { has_country_flag = CHI_act_1494 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1498
-							owner = { has_country_flag = CHI_act_1498 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1496
-							owner = { has_country_flag = CHI_act_1496 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1538
-							owner = { has_country_flag = CHI_act_1538 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1566
-							owner = { has_country_flag = CHI_act_1566 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1481
-							owner = { has_country_flag = CHI_act_1481 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1532
-							owner = { has_country_flag = CHI_act_1532 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1504
-							owner = { has_country_flag = CHI_act_1504 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1553
-							owner = { has_country_flag = CHI_act_1553 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1563
-							owner = { has_country_flag = CHI_act_1563 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1612
-							owner = { has_country_flag = CHI_act_1612 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1613
-							owner = { has_country_flag = CHI_act_1613 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1576
-							owner = { has_country_flag = CHI_act_1576 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1559
-							owner = { has_country_flag = CHI_act_1559 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1490
-							owner = { has_country_flag = CHI_act_1490 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1557
-							owner = { has_country_flag = CHI_act_1557 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1581
-							owner = { has_country_flag = CHI_act_1581 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1493
-							owner = { has_country_flag = CHI_act_1493 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1482
-							owner = { has_country_flag = CHI_act_1482 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1608
-							owner = { has_country_flag = CHI_act_1608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1539
-							owner = { has_country_flag = CHI_act_1539 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2221
-							owner = { has_country_flag = CHI_act_2221 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1513
-							owner = { has_country_flag = CHI_act_1513 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1614
-							owner = { has_country_flag = CHI_act_1614 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1550
-							owner = { has_country_flag = CHI_act_1550 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1473
-							owner = { has_country_flag = CHI_act_1473 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1472
-							owner = { has_country_flag = CHI_act_1472 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1523
-							owner = { has_country_flag = CHI_act_1523 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1522
-							owner = { has_country_flag = CHI_act_1522 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1529
-							owner = { has_country_flag = CHI_act_1529 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2562
-							owner = { has_country_flag = CHI_act_2562 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1082
-							owner = { has_country_flag = CHI_act_1082 }
-						}
-					}
-				}
-				remove_province_modifier = CHI_separatism_4
-				add_province_modifier = { name = CHI_separatism_3 duration = -1 }
-				set_province_flag = CHI_lvl_dropped
-			}
-			any_owned = {
-				limit = {
-					has_province_modifier = CHI_separatism_3
-					NOT = { has_province_flag = CHI_lvl_dropped }
-					OR = {
-						AND = {
-							has_province_flag = CHI_reg_2608
-							owner = { has_country_flag = CHI_act_2608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1600
-							owner = { has_country_flag = CHI_act_1600 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1578
-							owner = { has_country_flag = CHI_act_1578 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1601
-							owner = { has_country_flag = CHI_act_1601 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1494
-							owner = { has_country_flag = CHI_act_1494 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1498
-							owner = { has_country_flag = CHI_act_1498 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1496
-							owner = { has_country_flag = CHI_act_1496 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1538
-							owner = { has_country_flag = CHI_act_1538 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1566
-							owner = { has_country_flag = CHI_act_1566 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1481
-							owner = { has_country_flag = CHI_act_1481 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1532
-							owner = { has_country_flag = CHI_act_1532 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1504
-							owner = { has_country_flag = CHI_act_1504 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1553
-							owner = { has_country_flag = CHI_act_1553 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1563
-							owner = { has_country_flag = CHI_act_1563 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1612
-							owner = { has_country_flag = CHI_act_1612 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1613
-							owner = { has_country_flag = CHI_act_1613 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1576
-							owner = { has_country_flag = CHI_act_1576 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1559
-							owner = { has_country_flag = CHI_act_1559 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1490
-							owner = { has_country_flag = CHI_act_1490 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1557
-							owner = { has_country_flag = CHI_act_1557 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1581
-							owner = { has_country_flag = CHI_act_1581 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1493
-							owner = { has_country_flag = CHI_act_1493 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1482
-							owner = { has_country_flag = CHI_act_1482 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1608
-							owner = { has_country_flag = CHI_act_1608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1539
-							owner = { has_country_flag = CHI_act_1539 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2221
-							owner = { has_country_flag = CHI_act_2221 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1513
-							owner = { has_country_flag = CHI_act_1513 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1614
-							owner = { has_country_flag = CHI_act_1614 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1550
-							owner = { has_country_flag = CHI_act_1550 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1473
-							owner = { has_country_flag = CHI_act_1473 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1472
-							owner = { has_country_flag = CHI_act_1472 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1523
-							owner = { has_country_flag = CHI_act_1523 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1522
-							owner = { has_country_flag = CHI_act_1522 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1529
-							owner = { has_country_flag = CHI_act_1529 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2562
-							owner = { has_country_flag = CHI_act_2562 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1082
-							owner = { has_country_flag = CHI_act_1082 }
-						}
-					}
-				}
-				remove_province_modifier = CHI_separatism_3
-				add_province_modifier = { name = CHI_separatism_2 duration = -1 }
-				set_province_flag = CHI_lvl_dropped
-			}
-			any_owned = {
-				limit = {
-					has_province_modifier = CHI_separatism_2
-					NOT = { has_province_flag = CHI_lvl_dropped }
-					OR = {
-						AND = {
-							has_province_flag = CHI_reg_2608
-							owner = { has_country_flag = CHI_act_2608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1600
-							owner = { has_country_flag = CHI_act_1600 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1578
-							owner = { has_country_flag = CHI_act_1578 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1601
-							owner = { has_country_flag = CHI_act_1601 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1494
-							owner = { has_country_flag = CHI_act_1494 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1498
-							owner = { has_country_flag = CHI_act_1498 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1496
-							owner = { has_country_flag = CHI_act_1496 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1538
-							owner = { has_country_flag = CHI_act_1538 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1566
-							owner = { has_country_flag = CHI_act_1566 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1481
-							owner = { has_country_flag = CHI_act_1481 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1532
-							owner = { has_country_flag = CHI_act_1532 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1504
-							owner = { has_country_flag = CHI_act_1504 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1553
-							owner = { has_country_flag = CHI_act_1553 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1563
-							owner = { has_country_flag = CHI_act_1563 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1612
-							owner = { has_country_flag = CHI_act_1612 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1613
-							owner = { has_country_flag = CHI_act_1613 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1576
-							owner = { has_country_flag = CHI_act_1576 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1559
-							owner = { has_country_flag = CHI_act_1559 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1490
-							owner = { has_country_flag = CHI_act_1490 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1557
-							owner = { has_country_flag = CHI_act_1557 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1581
-							owner = { has_country_flag = CHI_act_1581 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1493
-							owner = { has_country_flag = CHI_act_1493 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1482
-							owner = { has_country_flag = CHI_act_1482 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1608
-							owner = { has_country_flag = CHI_act_1608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1539
-							owner = { has_country_flag = CHI_act_1539 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2221
-							owner = { has_country_flag = CHI_act_2221 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1513
-							owner = { has_country_flag = CHI_act_1513 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1614
-							owner = { has_country_flag = CHI_act_1614 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1550
-							owner = { has_country_flag = CHI_act_1550 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1473
-							owner = { has_country_flag = CHI_act_1473 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1472
-							owner = { has_country_flag = CHI_act_1472 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1523
-							owner = { has_country_flag = CHI_act_1523 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1522
-							owner = { has_country_flag = CHI_act_1522 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1529
-							owner = { has_country_flag = CHI_act_1529 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2562
-							owner = { has_country_flag = CHI_act_2562 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1082
-							owner = { has_country_flag = CHI_act_1082 }
-						}
-					}
-				}
-				remove_province_modifier = CHI_separatism_2
-				add_province_modifier = { name = CHI_separatism_1 duration = -1 }
-				set_province_flag = CHI_lvl_dropped
-			}
-			any_owned = {
-				limit = {
-					has_province_modifier = CHI_separatism_1
-					NOT = { has_province_flag = CHI_lvl_dropped }
-					OR = {
-						AND = {
-							has_province_flag = CHI_reg_2608
-							owner = { has_country_flag = CHI_act_2608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1600
-							owner = { has_country_flag = CHI_act_1600 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1578
-							owner = { has_country_flag = CHI_act_1578 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1601
-							owner = { has_country_flag = CHI_act_1601 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1494
-							owner = { has_country_flag = CHI_act_1494 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1498
-							owner = { has_country_flag = CHI_act_1498 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1496
-							owner = { has_country_flag = CHI_act_1496 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1538
-							owner = { has_country_flag = CHI_act_1538 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1566
-							owner = { has_country_flag = CHI_act_1566 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1481
-							owner = { has_country_flag = CHI_act_1481 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1532
-							owner = { has_country_flag = CHI_act_1532 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1504
-							owner = { has_country_flag = CHI_act_1504 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1553
-							owner = { has_country_flag = CHI_act_1553 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1563
-							owner = { has_country_flag = CHI_act_1563 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1612
-							owner = { has_country_flag = CHI_act_1612 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1613
-							owner = { has_country_flag = CHI_act_1613 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1576
-							owner = { has_country_flag = CHI_act_1576 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1559
-							owner = { has_country_flag = CHI_act_1559 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1490
-							owner = { has_country_flag = CHI_act_1490 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1557
-							owner = { has_country_flag = CHI_act_1557 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1581
-							owner = { has_country_flag = CHI_act_1581 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1493
-							owner = { has_country_flag = CHI_act_1493 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1482
-							owner = { has_country_flag = CHI_act_1482 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1608
-							owner = { has_country_flag = CHI_act_1608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1539
-							owner = { has_country_flag = CHI_act_1539 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2221
-							owner = { has_country_flag = CHI_act_2221 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1513
-							owner = { has_country_flag = CHI_act_1513 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1614
-							owner = { has_country_flag = CHI_act_1614 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1550
-							owner = { has_country_flag = CHI_act_1550 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1473
-							owner = { has_country_flag = CHI_act_1473 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1472
-							owner = { has_country_flag = CHI_act_1472 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1523
-							owner = { has_country_flag = CHI_act_1523 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1522
-							owner = { has_country_flag = CHI_act_1522 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1529
-							owner = { has_country_flag = CHI_act_1529 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2562
-							owner = { has_country_flag = CHI_act_2562 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1082
-							owner = { has_country_flag = CHI_act_1082 }
-						}
-					}
-				}
-				remove_province_modifier = CHI_separatism_1
-				set_province_flag = CHI_lvl_dropped
-			}
-			any_owned = {
-				limit = {
-					OR = {
-						AND = {
-							has_province_flag = CHI_reg_2608
-							owner = { has_country_flag = CHI_act_2608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1600
-							owner = { has_country_flag = CHI_act_1600 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1578
-							owner = { has_country_flag = CHI_act_1578 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1601
-							owner = { has_country_flag = CHI_act_1601 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1494
-							owner = { has_country_flag = CHI_act_1494 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1498
-							owner = { has_country_flag = CHI_act_1498 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1496
-							owner = { has_country_flag = CHI_act_1496 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1538
-							owner = { has_country_flag = CHI_act_1538 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1566
-							owner = { has_country_flag = CHI_act_1566 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1481
-							owner = { has_country_flag = CHI_act_1481 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1532
-							owner = { has_country_flag = CHI_act_1532 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1504
-							owner = { has_country_flag = CHI_act_1504 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1553
-							owner = { has_country_flag = CHI_act_1553 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1563
-							owner = { has_country_flag = CHI_act_1563 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1612
-							owner = { has_country_flag = CHI_act_1612 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1613
-							owner = { has_country_flag = CHI_act_1613 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1576
-							owner = { has_country_flag = CHI_act_1576 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1559
-							owner = { has_country_flag = CHI_act_1559 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1490
-							owner = { has_country_flag = CHI_act_1490 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1557
-							owner = { has_country_flag = CHI_act_1557 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1581
-							owner = { has_country_flag = CHI_act_1581 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1493
-							owner = { has_country_flag = CHI_act_1493 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1482
-							owner = { has_country_flag = CHI_act_1482 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1608
-							owner = { has_country_flag = CHI_act_1608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1539
-							owner = { has_country_flag = CHI_act_1539 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2221
-							owner = { has_country_flag = CHI_act_2221 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1513
-							owner = { has_country_flag = CHI_act_1513 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1614
-							owner = { has_country_flag = CHI_act_1614 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1550
-							owner = { has_country_flag = CHI_act_1550 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1473
-							owner = { has_country_flag = CHI_act_1473 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1472
-							owner = { has_country_flag = CHI_act_1472 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1523
-							owner = { has_country_flag = CHI_act_1523 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1522
-							owner = { has_country_flag = CHI_act_1522 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1529
-							owner = { has_country_flag = CHI_act_1529 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2562
-							owner = { has_country_flag = CHI_act_2562 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1082
-							owner = { has_country_flag = CHI_act_1082 }
-						}
-					}
-				}
-				clr_province_flag = CHI_lvl_dropped
-			}
-			any_owned = {
-				limit = {
-					OR = {
-						AND = {
-							has_province_flag = CHI_reg_2608
-							owner = { has_country_flag = CHI_act_2608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1600
-							owner = { has_country_flag = CHI_act_1600 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1578
-							owner = { has_country_flag = CHI_act_1578 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1601
-							owner = { has_country_flag = CHI_act_1601 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1494
-							owner = { has_country_flag = CHI_act_1494 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1498
-							owner = { has_country_flag = CHI_act_1498 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1496
-							owner = { has_country_flag = CHI_act_1496 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1538
-							owner = { has_country_flag = CHI_act_1538 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1566
-							owner = { has_country_flag = CHI_act_1566 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1481
-							owner = { has_country_flag = CHI_act_1481 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1532
-							owner = { has_country_flag = CHI_act_1532 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1504
-							owner = { has_country_flag = CHI_act_1504 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1553
-							owner = { has_country_flag = CHI_act_1553 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1563
-							owner = { has_country_flag = CHI_act_1563 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1612
-							owner = { has_country_flag = CHI_act_1612 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1613
-							owner = { has_country_flag = CHI_act_1613 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1576
-							owner = { has_country_flag = CHI_act_1576 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1559
-							owner = { has_country_flag = CHI_act_1559 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1490
-							owner = { has_country_flag = CHI_act_1490 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1557
-							owner = { has_country_flag = CHI_act_1557 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1581
-							owner = { has_country_flag = CHI_act_1581 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1493
-							owner = { has_country_flag = CHI_act_1493 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1482
-							owner = { has_country_flag = CHI_act_1482 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1608
-							owner = { has_country_flag = CHI_act_1608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1539
-							owner = { has_country_flag = CHI_act_1539 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2221
-							owner = { has_country_flag = CHI_act_2221 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1513
-							owner = { has_country_flag = CHI_act_1513 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1614
-							owner = { has_country_flag = CHI_act_1614 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1550
-							owner = { has_country_flag = CHI_act_1550 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1473
-							owner = { has_country_flag = CHI_act_1473 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1472
-							owner = { has_country_flag = CHI_act_1472 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1523
-							owner = { has_country_flag = CHI_act_1523 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1522
-							owner = { has_country_flag = CHI_act_1522 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1529
-							owner = { has_country_flag = CHI_act_1529 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2562
-							owner = { has_country_flag = CHI_act_2562 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1082
-							owner = { has_country_flag = CHI_act_1082 }
-						}
-					}
-				}
-				add_province_modifier = { name = CHI_sep_cd duration = 365 }
-			}
-				}
-			}
-			clr_country_flag = CHI_crisis_paid
-			clr_country_flag = CHI_act_2608
-			clr_country_flag = CHI_act_1600
-			clr_country_flag = CHI_act_1578
-			clr_country_flag = CHI_act_1601
-			clr_country_flag = CHI_act_1494
-			clr_country_flag = CHI_act_1498
-			clr_country_flag = CHI_act_1496
-			clr_country_flag = CHI_act_1538
-			clr_country_flag = CHI_act_1566
-			clr_country_flag = CHI_act_1481
-			clr_country_flag = CHI_act_1532
-			clr_country_flag = CHI_act_1504
-			clr_country_flag = CHI_act_1553
-			clr_country_flag = CHI_act_1563
-			clr_country_flag = CHI_act_1612
-			clr_country_flag = CHI_act_1613
-			clr_country_flag = CHI_act_1576
-			clr_country_flag = CHI_act_1559
-			clr_country_flag = CHI_act_1490
-			clr_country_flag = CHI_act_1557
-			clr_country_flag = CHI_act_1581
-			clr_country_flag = CHI_act_1493
-			clr_country_flag = CHI_act_1482
-			clr_country_flag = CHI_act_1608
-			clr_country_flag = CHI_act_1539
-			clr_country_flag = CHI_act_2221
-			clr_country_flag = CHI_act_1513
-			clr_country_flag = CHI_act_1614
-			clr_country_flag = CHI_act_1550
-			clr_country_flag = CHI_act_1473
-			clr_country_flag = CHI_act_1472
-			clr_country_flag = CHI_act_1523
-			clr_country_flag = CHI_act_1522
-			clr_country_flag = CHI_act_1529
-			clr_country_flag = CHI_act_2562
-			clr_country_flag = CHI_act_1082
-			clr_country_flag = CHI_crisis_paid
-		}
-		clr_province_flag = CHI_crisis_selected
-		province_event = { id = 144408 days = 0 }
-	}
-}
-
-
-province_event = {
-	id = 144512
-	title = "CHI_sel_tax_cut"
-	desc = "CHI_sel_tax_done_desc"
-	picture = "Administration"
-	is_triggered_only = yes
-	immediate = {
-		owner = {
-			clr_country_flag = CHI_tax_stacked
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_2608
-				}
-				owner = { set_country_flag = CHI_act_2608 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1600
-				}
-				owner = { set_country_flag = CHI_act_1600 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1578
-				}
-				owner = { set_country_flag = CHI_act_1578 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1601
-				}
-				owner = { set_country_flag = CHI_act_1601 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1494
-				}
-				owner = { set_country_flag = CHI_act_1494 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1498
-				}
-				owner = { set_country_flag = CHI_act_1498 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1496
-				}
-				owner = { set_country_flag = CHI_act_1496 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1538
-				}
-				owner = { set_country_flag = CHI_act_1538 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1566
-				}
-				owner = { set_country_flag = CHI_act_1566 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1481
-				}
-				owner = { set_country_flag = CHI_act_1481 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1532
-				}
-				owner = { set_country_flag = CHI_act_1532 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1504
-				}
-				owner = { set_country_flag = CHI_act_1504 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1553
-				}
-				owner = { set_country_flag = CHI_act_1553 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1563
-				}
-				owner = { set_country_flag = CHI_act_1563 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1612
-				}
-				owner = { set_country_flag = CHI_act_1612 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1613
-				}
-				owner = { set_country_flag = CHI_act_1613 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1576
-				}
-				owner = { set_country_flag = CHI_act_1576 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1559
-				}
-				owner = { set_country_flag = CHI_act_1559 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1490
-				}
-				owner = { set_country_flag = CHI_act_1490 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1557
-				}
-				owner = { set_country_flag = CHI_act_1557 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1581
-				}
-				owner = { set_country_flag = CHI_act_1581 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1493
-				}
-				owner = { set_country_flag = CHI_act_1493 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1482
-				}
-				owner = { set_country_flag = CHI_act_1482 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1608
-				}
-				owner = { set_country_flag = CHI_act_1608 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1539
-				}
-				owner = { set_country_flag = CHI_act_1539 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_2221
-				}
-				owner = { set_country_flag = CHI_act_2221 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1513
-				}
-				owner = { set_country_flag = CHI_act_1513 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1614
-				}
-				owner = { set_country_flag = CHI_act_1614 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1550
-				}
-				owner = { set_country_flag = CHI_act_1550 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1473
-				}
-				owner = { set_country_flag = CHI_act_1473 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1472
-				}
-				owner = { set_country_flag = CHI_act_1472 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1523
-				}
-				owner = { set_country_flag = CHI_act_1523 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1522
-				}
-				owner = { set_country_flag = CHI_act_1522 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1529
-				}
-				owner = { set_country_flag = CHI_act_1529 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_2562
-				}
-				owner = { set_country_flag = CHI_act_2562 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					has_province_flag = CHI_reg_1082
-				}
-				owner = { set_country_flag = CHI_act_1082 }
-			}
-			any_owned = {
-				limit = {
-					OR = {
-						AND = {
-							has_province_flag = CHI_reg_2608
-							owner = { has_country_flag = CHI_act_2608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1600
-							owner = { has_country_flag = CHI_act_1600 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1578
-							owner = { has_country_flag = CHI_act_1578 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1601
-							owner = { has_country_flag = CHI_act_1601 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1494
-							owner = { has_country_flag = CHI_act_1494 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1498
-							owner = { has_country_flag = CHI_act_1498 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1496
-							owner = { has_country_flag = CHI_act_1496 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1538
-							owner = { has_country_flag = CHI_act_1538 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1566
-							owner = { has_country_flag = CHI_act_1566 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1481
-							owner = { has_country_flag = CHI_act_1481 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1532
-							owner = { has_country_flag = CHI_act_1532 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1504
-							owner = { has_country_flag = CHI_act_1504 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1553
-							owner = { has_country_flag = CHI_act_1553 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1563
-							owner = { has_country_flag = CHI_act_1563 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1612
-							owner = { has_country_flag = CHI_act_1612 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1613
-							owner = { has_country_flag = CHI_act_1613 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1576
-							owner = { has_country_flag = CHI_act_1576 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1559
-							owner = { has_country_flag = CHI_act_1559 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1490
-							owner = { has_country_flag = CHI_act_1490 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1557
-							owner = { has_country_flag = CHI_act_1557 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1581
-							owner = { has_country_flag = CHI_act_1581 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1493
-							owner = { has_country_flag = CHI_act_1493 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1482
-							owner = { has_country_flag = CHI_act_1482 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1608
-							owner = { has_country_flag = CHI_act_1608 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1539
-							owner = { has_country_flag = CHI_act_1539 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2221
-							owner = { has_country_flag = CHI_act_2221 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1513
-							owner = { has_country_flag = CHI_act_1513 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1614
-							owner = { has_country_flag = CHI_act_1614 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1550
-							owner = { has_country_flag = CHI_act_1550 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1473
-							owner = { has_country_flag = CHI_act_1473 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1472
-							owner = { has_country_flag = CHI_act_1472 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1523
-							owner = { has_country_flag = CHI_act_1523 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1522
-							owner = { has_country_flag = CHI_act_1522 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1529
-							owner = { has_country_flag = CHI_act_1529 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_2562
-							owner = { has_country_flag = CHI_act_2562 }
-						}
-						AND = {
-							has_province_flag = CHI_reg_1082
-							owner = { has_country_flag = CHI_act_1082 }
-						}
-					}
-				}
-				add_province_modifier = { name = CHI_sep_tax_cut duration = 730 }
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_1 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_1 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_2 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_2 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_3 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_3 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_4 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_4 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_5 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_5 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_6 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_6 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_7 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_7 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_8 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_8 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_9 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_9 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_10 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_10 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_11 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_11 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_12 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_12 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_13 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_13 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_14 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_14 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_15 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_15 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_16 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_16 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_17 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_17 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_18 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_18 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_19 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_19 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = {
-					has_province_flag = CHI_do_tax_cut
-					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
-					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_20 } }
-				}
-				owner = {
-					add_country_modifier = { name = CHI_sep_tax_stack_20 duration = 730 }
-					set_country_flag = CHI_tax_stacked
-				}
-			}
-			random_owned = {
-				limit = { has_province_flag = CHI_do_tax_cut }
-				province_event = { id = 144513 days = 1 }
-			}
-			any_owned = { clr_province_flag = CHI_do_tax_cut }
-			clr_country_flag = CHI_tax_stacked
-			clr_country_flag = CHI_act_2608
-			clr_country_flag = CHI_act_1600
-			clr_country_flag = CHI_act_1578
-			clr_country_flag = CHI_act_1601
-			clr_country_flag = CHI_act_1494
-			clr_country_flag = CHI_act_1498
-			clr_country_flag = CHI_act_1496
-			clr_country_flag = CHI_act_1538
-			clr_country_flag = CHI_act_1566
-			clr_country_flag = CHI_act_1481
-			clr_country_flag = CHI_act_1532
-			clr_country_flag = CHI_act_1504
-			clr_country_flag = CHI_act_1553
-			clr_country_flag = CHI_act_1563
-			clr_country_flag = CHI_act_1612
-			clr_country_flag = CHI_act_1613
-			clr_country_flag = CHI_act_1576
-			clr_country_flag = CHI_act_1559
-			clr_country_flag = CHI_act_1490
-			clr_country_flag = CHI_act_1557
-			clr_country_flag = CHI_act_1581
-			clr_country_flag = CHI_act_1493
-			clr_country_flag = CHI_act_1482
-			clr_country_flag = CHI_act_1608
-			clr_country_flag = CHI_act_1539
-			clr_country_flag = CHI_act_2221
-			clr_country_flag = CHI_act_1513
-			clr_country_flag = CHI_act_1614
-			clr_country_flag = CHI_act_1550
-			clr_country_flag = CHI_act_1473
-			clr_country_flag = CHI_act_1472
-			clr_country_flag = CHI_act_1523
-			clr_country_flag = CHI_act_1522
-			clr_country_flag = CHI_act_1529
-			clr_country_flag = CHI_act_2562
-			clr_country_flag = CHI_act_1082
-		}
-	}
-	option = {
-		name = "CHI_sel_ok"
-	}
-}
+# Separatism worker + tax stacks
+
+province_event = {
+	id = 144437
+	title = "CHI_sel_sep_done"
+	desc = "CHI_sel_sep_done_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	immediate = {
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
+		owner = {
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1465 province_id = 2608 province_id = 2679 province_id = 1468 province_id = 2678 province_id = 1466 province_id = 2207 province_id = 1467
+					}
+				}
+				owner = { set_country_flag = CHI_act_2608 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1594 province_id = 1600 province_id = 1598 province_id = 2607 province_id = 1597 province_id = 1595 province_id = 1596 province_id = 1599
+					}
+				}
+				owner = { set_country_flag = CHI_act_1600 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1578 province_id = 1580 province_id = 1582 province_id = 1585 province_id = 1586
+					}
+				}
+				owner = { set_country_flag = CHI_act_1578 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1601 province_id = 1506 province_id = 1602 province_id = 1603 province_id = 1505 province_id = 1507
+					}
+				}
+				owner = { set_country_flag = CHI_act_1601 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1494 province_id = 1497 province_id = 1500
+					}
+				}
+				owner = { set_country_flag = CHI_act_1494 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					province_id = 1498
+				}
+				owner = { set_country_flag = CHI_act_1498 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					province_id = 1496
+				}
+				owner = { set_country_flag = CHI_act_1496 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					province_id = 1538
+				}
+				owner = { set_country_flag = CHI_act_1538 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					province_id = 1566
+				}
+				owner = { set_country_flag = CHI_act_1566 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					province_id = 1481
+				}
+				owner = { set_country_flag = CHI_act_1481 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1532 province_id = 1535 province_id = 1534
+					}
+				}
+				owner = { set_country_flag = CHI_act_1532 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1502 province_id = 1503 province_id = 1504 province_id = 1527 province_id = 1530
+					}
+				}
+				owner = { set_country_flag = CHI_act_1504 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1002 province_id = 1533 province_id = 1553 province_id = 1554 province_id = 1552 province_id = 1555 province_id = 1479 province_id = 1480
+					}
+				}
+				owner = { set_country_flag = CHI_act_1553 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1565 province_id = 1569 province_id = 1567 province_id = 1571
+					}
+				}
+				owner = { set_country_flag = CHI_act_1563 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1612 province_id = 1618 province_id = 1615
+					}
+				}
+				owner = { set_country_flag = CHI_act_1612 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1613 province_id = 1616 province_id = 1617
+					}
+				}
+				owner = { set_country_flag = CHI_act_1613 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1576 province_id = 1572 province_id = 1573 province_id = 1575 province_id = 1574
+					}
+				}
+				owner = { set_country_flag = CHI_act_1576 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1559 province_id = 2062 province_id = 1561 province_id = 1562
+					}
+				}
+				owner = { set_country_flag = CHI_act_1559 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1488 province_id = 1490 province_id = 1489 province_id = 1491 province_id = 1492
+					}
+				}
+				owner = { set_country_flag = CHI_act_1490 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1557 province_id = 1558 province_id = 1556
+					}
+				}
+				owner = { set_country_flag = CHI_act_1557 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1581 province_id = 1579 province_id = 1577 province_id = 1583 province_id = 1584
+					}
+				}
+				owner = { set_country_flag = CHI_act_1581 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1493 province_id = 1495 province_id = 1499 province_id = 1501
+					}
+				}
+				owner = { set_country_flag = CHI_act_1493 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1482 province_id = 1487 province_id = 1484 province_id = 1486 province_id = 1483
+					}
+				}
+				owner = { set_country_flag = CHI_act_1482 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1608 province_id = 1604 province_id = 1611 province_id = 1607 province_id = 1610 province_id = 1609 province_id = 1605 province_id = 1606
+					}
+				}
+				owner = { set_country_flag = CHI_act_1608 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1539 province_id = 1537 province_id = 1541 province_id = 1540 province_id = 1544
+					}
+				}
+				owner = { set_country_flag = CHI_act_1539 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 2221 province_id = 1476 province_id = 1477 province_id = 1536 province_id = 1542 province_id = 1543
+					}
+				}
+				owner = { set_country_flag = CHI_act_2221 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1513 province_id = 1510 province_id = 1508 province_id = 1511 province_id = 1515 province_id = 1514
+					}
+				}
+				owner = { set_country_flag = CHI_act_1513 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1614 province_id = 1564 province_id = 1563 province_id = 1568 province_id = 1570
+					}
+				}
+				owner = { set_country_flag = CHI_act_1614 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1550 province_id = 1547 province_id = 1548 province_id = 1545 province_id = 1549 province_id = 1551 province_id = 1546
+					}
+				}
+				owner = { set_country_flag = CHI_act_1550 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1473 province_id = 1475 province_id = 1471 province_id = 1470 province_id = 1474
+					}
+				}
+				owner = { set_country_flag = CHI_act_1473 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1472 province_id = 1478 province_id = 1512 province_id = 1509
+					}
+				}
+				owner = { set_country_flag = CHI_act_1472 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1523 province_id = 1519 province_id = 1521 province_id = 1520
+					}
+				}
+				owner = { set_country_flag = CHI_act_1523 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1522 province_id = 1516 province_id = 1518 province_id = 1517
+					}
+				}
+				owner = { set_country_flag = CHI_act_1522 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1529 province_id = 1526 province_id = 1525 province_id = 1528 province_id = 1524
+					}
+				}
+				owner = { set_country_flag = CHI_act_1529 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 2562 province_id = 1485
+					}
+				}
+				owner = { set_country_flag = CHI_act_2562 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1082 province_id = 1083 province_id = 1084 province_id = 1085 province_id = 2617
+					}
+				}
+				owner = { set_country_flag = CHI_act_1082 }
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = { has_country_flag = CHI_crisis_paid }
+				}
+				owner = {
+			any_owned = {
+				limit = {
+					has_province_modifier = CHI_separatism_4
+					OR = {
+						AND = {
+							OR = {
+								province_id = 1465 province_id = 2608 province_id = 2679 province_id = 1468 province_id = 2678 province_id = 1466 province_id = 2207 province_id = 1467
+							}
+							owner = { has_country_flag = CHI_act_2608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1594 province_id = 1600 province_id = 1598 province_id = 2607 province_id = 1597 province_id = 1595 province_id = 1596 province_id = 1599
+							}
+							owner = { has_country_flag = CHI_act_1600 }
+						}
+						AND = {
+							OR = {
+								province_id = 1578 province_id = 1580 province_id = 1582 province_id = 1585 province_id = 1586
+							}
+							owner = { has_country_flag = CHI_act_1578 }
+						}
+						AND = {
+							OR = {
+								province_id = 1601 province_id = 1506 province_id = 1602 province_id = 1603 province_id = 1505 province_id = 1507
+							}
+							owner = { has_country_flag = CHI_act_1601 }
+						}
+						AND = {
+							OR = {
+								province_id = 1494 province_id = 1497 province_id = 1500
+							}
+							owner = { has_country_flag = CHI_act_1494 }
+						}
+						AND = {
+							province_id = 1498
+							owner = { has_country_flag = CHI_act_1498 }
+						}
+						AND = {
+							province_id = 1496
+							owner = { has_country_flag = CHI_act_1496 }
+						}
+						AND = {
+							province_id = 1538
+							owner = { has_country_flag = CHI_act_1538 }
+						}
+						AND = {
+							province_id = 1566
+							owner = { has_country_flag = CHI_act_1566 }
+						}
+						AND = {
+							province_id = 1481
+							owner = { has_country_flag = CHI_act_1481 }
+						}
+						AND = {
+							OR = {
+								province_id = 1532 province_id = 1535 province_id = 1534
+							}
+							owner = { has_country_flag = CHI_act_1532 }
+						}
+						AND = {
+							OR = {
+								province_id = 1502 province_id = 1503 province_id = 1504 province_id = 1527 province_id = 1530
+							}
+							owner = { has_country_flag = CHI_act_1504 }
+						}
+						AND = {
+							OR = {
+								province_id = 1002 province_id = 1533 province_id = 1553 province_id = 1554 province_id = 1552 province_id = 1555 province_id = 1479 province_id = 1480
+							}
+							owner = { has_country_flag = CHI_act_1553 }
+						}
+						AND = {
+							OR = {
+								province_id = 1565 province_id = 1569 province_id = 1567 province_id = 1571
+							}
+							owner = { has_country_flag = CHI_act_1563 }
+						}
+						AND = {
+							OR = {
+								province_id = 1612 province_id = 1618 province_id = 1615
+							}
+							owner = { has_country_flag = CHI_act_1612 }
+						}
+						AND = {
+							OR = {
+								province_id = 1613 province_id = 1616 province_id = 1617
+							}
+							owner = { has_country_flag = CHI_act_1613 }
+						}
+						AND = {
+							OR = {
+								province_id = 1576 province_id = 1572 province_id = 1573 province_id = 1575 province_id = 1574
+							}
+							owner = { has_country_flag = CHI_act_1576 }
+						}
+						AND = {
+							OR = {
+								province_id = 1559 province_id = 2062 province_id = 1561 province_id = 1562
+							}
+							owner = { has_country_flag = CHI_act_1559 }
+						}
+						AND = {
+							OR = {
+								province_id = 1488 province_id = 1490 province_id = 1489 province_id = 1491 province_id = 1492
+							}
+							owner = { has_country_flag = CHI_act_1490 }
+						}
+						AND = {
+							OR = {
+								province_id = 1557 province_id = 1558 province_id = 1556
+							}
+							owner = { has_country_flag = CHI_act_1557 }
+						}
+						AND = {
+							OR = {
+								province_id = 1581 province_id = 1579 province_id = 1577 province_id = 1583 province_id = 1584
+							}
+							owner = { has_country_flag = CHI_act_1581 }
+						}
+						AND = {
+							OR = {
+								province_id = 1493 province_id = 1495 province_id = 1499 province_id = 1501
+							}
+							owner = { has_country_flag = CHI_act_1493 }
+						}
+						AND = {
+							OR = {
+								province_id = 1482 province_id = 1487 province_id = 1484 province_id = 1486 province_id = 1483
+							}
+							owner = { has_country_flag = CHI_act_1482 }
+						}
+						AND = {
+							OR = {
+								province_id = 1608 province_id = 1604 province_id = 1611 province_id = 1607 province_id = 1610 province_id = 1609 province_id = 1605 province_id = 1606
+							}
+							owner = { has_country_flag = CHI_act_1608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1539 province_id = 1537 province_id = 1541 province_id = 1540 province_id = 1544
+							}
+							owner = { has_country_flag = CHI_act_1539 }
+						}
+						AND = {
+							OR = {
+								province_id = 2221 province_id = 1476 province_id = 1477 province_id = 1536 province_id = 1542 province_id = 1543
+							}
+							owner = { has_country_flag = CHI_act_2221 }
+						}
+						AND = {
+							OR = {
+								province_id = 1513 province_id = 1510 province_id = 1508 province_id = 1511 province_id = 1515 province_id = 1514
+							}
+							owner = { has_country_flag = CHI_act_1513 }
+						}
+						AND = {
+							OR = {
+								province_id = 1614 province_id = 1564 province_id = 1563 province_id = 1568 province_id = 1570
+							}
+							owner = { has_country_flag = CHI_act_1614 }
+						}
+						AND = {
+							OR = {
+								province_id = 1550 province_id = 1547 province_id = 1548 province_id = 1545 province_id = 1549 province_id = 1551 province_id = 1546
+							}
+							owner = { has_country_flag = CHI_act_1550 }
+						}
+						AND = {
+							OR = {
+								province_id = 1473 province_id = 1475 province_id = 1471 province_id = 1470 province_id = 1474
+							}
+							owner = { has_country_flag = CHI_act_1473 }
+						}
+						AND = {
+							OR = {
+								province_id = 1472 province_id = 1478 province_id = 1512 province_id = 1509
+							}
+							owner = { has_country_flag = CHI_act_1472 }
+						}
+						AND = {
+							OR = {
+								province_id = 1523 province_id = 1519 province_id = 1521 province_id = 1520
+							}
+							owner = { has_country_flag = CHI_act_1523 }
+						}
+						AND = {
+							OR = {
+								province_id = 1522 province_id = 1516 province_id = 1518 province_id = 1517
+							}
+							owner = { has_country_flag = CHI_act_1522 }
+						}
+						AND = {
+							OR = {
+								province_id = 1529 province_id = 1526 province_id = 1525 province_id = 1528 province_id = 1524
+							}
+							owner = { has_country_flag = CHI_act_1529 }
+						}
+						AND = {
+							OR = {
+								province_id = 2562 province_id = 1485
+							}
+							owner = { has_country_flag = CHI_act_2562 }
+						}
+						AND = {
+							OR = {
+								province_id = 1082 province_id = 1083 province_id = 1084 province_id = 1085 province_id = 2617
+							}
+							owner = { has_country_flag = CHI_act_1082 }
+						}
+					}
+				}
+				remove_province_modifier = CHI_separatism_4
+				add_province_modifier = { name = CHI_separatism_3 duration = -1 }
+				add_province_modifier = { name = CHI_lvl_dropped duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = CHI_separatism_3
+					NOT = { has_province_modifier = CHI_lvl_dropped }
+					OR = {
+						AND = {
+							OR = {
+								province_id = 1465 province_id = 2608 province_id = 2679 province_id = 1468 province_id = 2678 province_id = 1466 province_id = 2207 province_id = 1467
+							}
+							owner = { has_country_flag = CHI_act_2608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1594 province_id = 1600 province_id = 1598 province_id = 2607 province_id = 1597 province_id = 1595 province_id = 1596 province_id = 1599
+							}
+							owner = { has_country_flag = CHI_act_1600 }
+						}
+						AND = {
+							OR = {
+								province_id = 1578 province_id = 1580 province_id = 1582 province_id = 1585 province_id = 1586
+							}
+							owner = { has_country_flag = CHI_act_1578 }
+						}
+						AND = {
+							OR = {
+								province_id = 1601 province_id = 1506 province_id = 1602 province_id = 1603 province_id = 1505 province_id = 1507
+							}
+							owner = { has_country_flag = CHI_act_1601 }
+						}
+						AND = {
+							OR = {
+								province_id = 1494 province_id = 1497 province_id = 1500
+							}
+							owner = { has_country_flag = CHI_act_1494 }
+						}
+						AND = {
+							province_id = 1498
+							owner = { has_country_flag = CHI_act_1498 }
+						}
+						AND = {
+							province_id = 1496
+							owner = { has_country_flag = CHI_act_1496 }
+						}
+						AND = {
+							province_id = 1538
+							owner = { has_country_flag = CHI_act_1538 }
+						}
+						AND = {
+							province_id = 1566
+							owner = { has_country_flag = CHI_act_1566 }
+						}
+						AND = {
+							province_id = 1481
+							owner = { has_country_flag = CHI_act_1481 }
+						}
+						AND = {
+							OR = {
+								province_id = 1532 province_id = 1535 province_id = 1534
+							}
+							owner = { has_country_flag = CHI_act_1532 }
+						}
+						AND = {
+							OR = {
+								province_id = 1502 province_id = 1503 province_id = 1504 province_id = 1527 province_id = 1530
+							}
+							owner = { has_country_flag = CHI_act_1504 }
+						}
+						AND = {
+							OR = {
+								province_id = 1002 province_id = 1533 province_id = 1553 province_id = 1554 province_id = 1552 province_id = 1555 province_id = 1479 province_id = 1480
+							}
+							owner = { has_country_flag = CHI_act_1553 }
+						}
+						AND = {
+							OR = {
+								province_id = 1565 province_id = 1569 province_id = 1567 province_id = 1571
+							}
+							owner = { has_country_flag = CHI_act_1563 }
+						}
+						AND = {
+							OR = {
+								province_id = 1612 province_id = 1618 province_id = 1615
+							}
+							owner = { has_country_flag = CHI_act_1612 }
+						}
+						AND = {
+							OR = {
+								province_id = 1613 province_id = 1616 province_id = 1617
+							}
+							owner = { has_country_flag = CHI_act_1613 }
+						}
+						AND = {
+							OR = {
+								province_id = 1576 province_id = 1572 province_id = 1573 province_id = 1575 province_id = 1574
+							}
+							owner = { has_country_flag = CHI_act_1576 }
+						}
+						AND = {
+							OR = {
+								province_id = 1559 province_id = 2062 province_id = 1561 province_id = 1562
+							}
+							owner = { has_country_flag = CHI_act_1559 }
+						}
+						AND = {
+							OR = {
+								province_id = 1488 province_id = 1490 province_id = 1489 province_id = 1491 province_id = 1492
+							}
+							owner = { has_country_flag = CHI_act_1490 }
+						}
+						AND = {
+							OR = {
+								province_id = 1557 province_id = 1558 province_id = 1556
+							}
+							owner = { has_country_flag = CHI_act_1557 }
+						}
+						AND = {
+							OR = {
+								province_id = 1581 province_id = 1579 province_id = 1577 province_id = 1583 province_id = 1584
+							}
+							owner = { has_country_flag = CHI_act_1581 }
+						}
+						AND = {
+							OR = {
+								province_id = 1493 province_id = 1495 province_id = 1499 province_id = 1501
+							}
+							owner = { has_country_flag = CHI_act_1493 }
+						}
+						AND = {
+							OR = {
+								province_id = 1482 province_id = 1487 province_id = 1484 province_id = 1486 province_id = 1483
+							}
+							owner = { has_country_flag = CHI_act_1482 }
+						}
+						AND = {
+							OR = {
+								province_id = 1608 province_id = 1604 province_id = 1611 province_id = 1607 province_id = 1610 province_id = 1609 province_id = 1605 province_id = 1606
+							}
+							owner = { has_country_flag = CHI_act_1608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1539 province_id = 1537 province_id = 1541 province_id = 1540 province_id = 1544
+							}
+							owner = { has_country_flag = CHI_act_1539 }
+						}
+						AND = {
+							OR = {
+								province_id = 2221 province_id = 1476 province_id = 1477 province_id = 1536 province_id = 1542 province_id = 1543
+							}
+							owner = { has_country_flag = CHI_act_2221 }
+						}
+						AND = {
+							OR = {
+								province_id = 1513 province_id = 1510 province_id = 1508 province_id = 1511 province_id = 1515 province_id = 1514
+							}
+							owner = { has_country_flag = CHI_act_1513 }
+						}
+						AND = {
+							OR = {
+								province_id = 1614 province_id = 1564 province_id = 1563 province_id = 1568 province_id = 1570
+							}
+							owner = { has_country_flag = CHI_act_1614 }
+						}
+						AND = {
+							OR = {
+								province_id = 1550 province_id = 1547 province_id = 1548 province_id = 1545 province_id = 1549 province_id = 1551 province_id = 1546
+							}
+							owner = { has_country_flag = CHI_act_1550 }
+						}
+						AND = {
+							OR = {
+								province_id = 1473 province_id = 1475 province_id = 1471 province_id = 1470 province_id = 1474
+							}
+							owner = { has_country_flag = CHI_act_1473 }
+						}
+						AND = {
+							OR = {
+								province_id = 1472 province_id = 1478 province_id = 1512 province_id = 1509
+							}
+							owner = { has_country_flag = CHI_act_1472 }
+						}
+						AND = {
+							OR = {
+								province_id = 1523 province_id = 1519 province_id = 1521 province_id = 1520
+							}
+							owner = { has_country_flag = CHI_act_1523 }
+						}
+						AND = {
+							OR = {
+								province_id = 1522 province_id = 1516 province_id = 1518 province_id = 1517
+							}
+							owner = { has_country_flag = CHI_act_1522 }
+						}
+						AND = {
+							OR = {
+								province_id = 1529 province_id = 1526 province_id = 1525 province_id = 1528 province_id = 1524
+							}
+							owner = { has_country_flag = CHI_act_1529 }
+						}
+						AND = {
+							OR = {
+								province_id = 2562 province_id = 1485
+							}
+							owner = { has_country_flag = CHI_act_2562 }
+						}
+						AND = {
+							OR = {
+								province_id = 1082 province_id = 1083 province_id = 1084 province_id = 1085 province_id = 2617
+							}
+							owner = { has_country_flag = CHI_act_1082 }
+						}
+					}
+				}
+				remove_province_modifier = CHI_separatism_3
+				add_province_modifier = { name = CHI_separatism_2 duration = -1 }
+				add_province_modifier = { name = CHI_lvl_dropped duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = CHI_separatism_2
+					NOT = { has_province_modifier = CHI_lvl_dropped }
+					OR = {
+						AND = {
+							OR = {
+								province_id = 1465 province_id = 2608 province_id = 2679 province_id = 1468 province_id = 2678 province_id = 1466 province_id = 2207 province_id = 1467
+							}
+							owner = { has_country_flag = CHI_act_2608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1594 province_id = 1600 province_id = 1598 province_id = 2607 province_id = 1597 province_id = 1595 province_id = 1596 province_id = 1599
+							}
+							owner = { has_country_flag = CHI_act_1600 }
+						}
+						AND = {
+							OR = {
+								province_id = 1578 province_id = 1580 province_id = 1582 province_id = 1585 province_id = 1586
+							}
+							owner = { has_country_flag = CHI_act_1578 }
+						}
+						AND = {
+							OR = {
+								province_id = 1601 province_id = 1506 province_id = 1602 province_id = 1603 province_id = 1505 province_id = 1507
+							}
+							owner = { has_country_flag = CHI_act_1601 }
+						}
+						AND = {
+							OR = {
+								province_id = 1494 province_id = 1497 province_id = 1500
+							}
+							owner = { has_country_flag = CHI_act_1494 }
+						}
+						AND = {
+							province_id = 1498
+							owner = { has_country_flag = CHI_act_1498 }
+						}
+						AND = {
+							province_id = 1496
+							owner = { has_country_flag = CHI_act_1496 }
+						}
+						AND = {
+							province_id = 1538
+							owner = { has_country_flag = CHI_act_1538 }
+						}
+						AND = {
+							province_id = 1566
+							owner = { has_country_flag = CHI_act_1566 }
+						}
+						AND = {
+							province_id = 1481
+							owner = { has_country_flag = CHI_act_1481 }
+						}
+						AND = {
+							OR = {
+								province_id = 1532 province_id = 1535 province_id = 1534
+							}
+							owner = { has_country_flag = CHI_act_1532 }
+						}
+						AND = {
+							OR = {
+								province_id = 1502 province_id = 1503 province_id = 1504 province_id = 1527 province_id = 1530
+							}
+							owner = { has_country_flag = CHI_act_1504 }
+						}
+						AND = {
+							OR = {
+								province_id = 1002 province_id = 1533 province_id = 1553 province_id = 1554 province_id = 1552 province_id = 1555 province_id = 1479 province_id = 1480
+							}
+							owner = { has_country_flag = CHI_act_1553 }
+						}
+						AND = {
+							OR = {
+								province_id = 1565 province_id = 1569 province_id = 1567 province_id = 1571
+							}
+							owner = { has_country_flag = CHI_act_1563 }
+						}
+						AND = {
+							OR = {
+								province_id = 1612 province_id = 1618 province_id = 1615
+							}
+							owner = { has_country_flag = CHI_act_1612 }
+						}
+						AND = {
+							OR = {
+								province_id = 1613 province_id = 1616 province_id = 1617
+							}
+							owner = { has_country_flag = CHI_act_1613 }
+						}
+						AND = {
+							OR = {
+								province_id = 1576 province_id = 1572 province_id = 1573 province_id = 1575 province_id = 1574
+							}
+							owner = { has_country_flag = CHI_act_1576 }
+						}
+						AND = {
+							OR = {
+								province_id = 1559 province_id = 2062 province_id = 1561 province_id = 1562
+							}
+							owner = { has_country_flag = CHI_act_1559 }
+						}
+						AND = {
+							OR = {
+								province_id = 1488 province_id = 1490 province_id = 1489 province_id = 1491 province_id = 1492
+							}
+							owner = { has_country_flag = CHI_act_1490 }
+						}
+						AND = {
+							OR = {
+								province_id = 1557 province_id = 1558 province_id = 1556
+							}
+							owner = { has_country_flag = CHI_act_1557 }
+						}
+						AND = {
+							OR = {
+								province_id = 1581 province_id = 1579 province_id = 1577 province_id = 1583 province_id = 1584
+							}
+							owner = { has_country_flag = CHI_act_1581 }
+						}
+						AND = {
+							OR = {
+								province_id = 1493 province_id = 1495 province_id = 1499 province_id = 1501
+							}
+							owner = { has_country_flag = CHI_act_1493 }
+						}
+						AND = {
+							OR = {
+								province_id = 1482 province_id = 1487 province_id = 1484 province_id = 1486 province_id = 1483
+							}
+							owner = { has_country_flag = CHI_act_1482 }
+						}
+						AND = {
+							OR = {
+								province_id = 1608 province_id = 1604 province_id = 1611 province_id = 1607 province_id = 1610 province_id = 1609 province_id = 1605 province_id = 1606
+							}
+							owner = { has_country_flag = CHI_act_1608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1539 province_id = 1537 province_id = 1541 province_id = 1540 province_id = 1544
+							}
+							owner = { has_country_flag = CHI_act_1539 }
+						}
+						AND = {
+							OR = {
+								province_id = 2221 province_id = 1476 province_id = 1477 province_id = 1536 province_id = 1542 province_id = 1543
+							}
+							owner = { has_country_flag = CHI_act_2221 }
+						}
+						AND = {
+							OR = {
+								province_id = 1513 province_id = 1510 province_id = 1508 province_id = 1511 province_id = 1515 province_id = 1514
+							}
+							owner = { has_country_flag = CHI_act_1513 }
+						}
+						AND = {
+							OR = {
+								province_id = 1614 province_id = 1564 province_id = 1563 province_id = 1568 province_id = 1570
+							}
+							owner = { has_country_flag = CHI_act_1614 }
+						}
+						AND = {
+							OR = {
+								province_id = 1550 province_id = 1547 province_id = 1548 province_id = 1545 province_id = 1549 province_id = 1551 province_id = 1546
+							}
+							owner = { has_country_flag = CHI_act_1550 }
+						}
+						AND = {
+							OR = {
+								province_id = 1473 province_id = 1475 province_id = 1471 province_id = 1470 province_id = 1474
+							}
+							owner = { has_country_flag = CHI_act_1473 }
+						}
+						AND = {
+							OR = {
+								province_id = 1472 province_id = 1478 province_id = 1512 province_id = 1509
+							}
+							owner = { has_country_flag = CHI_act_1472 }
+						}
+						AND = {
+							OR = {
+								province_id = 1523 province_id = 1519 province_id = 1521 province_id = 1520
+							}
+							owner = { has_country_flag = CHI_act_1523 }
+						}
+						AND = {
+							OR = {
+								province_id = 1522 province_id = 1516 province_id = 1518 province_id = 1517
+							}
+							owner = { has_country_flag = CHI_act_1522 }
+						}
+						AND = {
+							OR = {
+								province_id = 1529 province_id = 1526 province_id = 1525 province_id = 1528 province_id = 1524
+							}
+							owner = { has_country_flag = CHI_act_1529 }
+						}
+						AND = {
+							OR = {
+								province_id = 2562 province_id = 1485
+							}
+							owner = { has_country_flag = CHI_act_2562 }
+						}
+						AND = {
+							OR = {
+								province_id = 1082 province_id = 1083 province_id = 1084 province_id = 1085 province_id = 2617
+							}
+							owner = { has_country_flag = CHI_act_1082 }
+						}
+					}
+				}
+				remove_province_modifier = CHI_separatism_2
+				add_province_modifier = { name = CHI_separatism_1 duration = -1 }
+				add_province_modifier = { name = CHI_lvl_dropped duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					has_province_modifier = CHI_separatism_1
+					NOT = { has_province_modifier = CHI_lvl_dropped }
+					OR = {
+						AND = {
+							OR = {
+								province_id = 1465 province_id = 2608 province_id = 2679 province_id = 1468 province_id = 2678 province_id = 1466 province_id = 2207 province_id = 1467
+							}
+							owner = { has_country_flag = CHI_act_2608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1594 province_id = 1600 province_id = 1598 province_id = 2607 province_id = 1597 province_id = 1595 province_id = 1596 province_id = 1599
+							}
+							owner = { has_country_flag = CHI_act_1600 }
+						}
+						AND = {
+							OR = {
+								province_id = 1578 province_id = 1580 province_id = 1582 province_id = 1585 province_id = 1586
+							}
+							owner = { has_country_flag = CHI_act_1578 }
+						}
+						AND = {
+							OR = {
+								province_id = 1601 province_id = 1506 province_id = 1602 province_id = 1603 province_id = 1505 province_id = 1507
+							}
+							owner = { has_country_flag = CHI_act_1601 }
+						}
+						AND = {
+							OR = {
+								province_id = 1494 province_id = 1497 province_id = 1500
+							}
+							owner = { has_country_flag = CHI_act_1494 }
+						}
+						AND = {
+							province_id = 1498
+							owner = { has_country_flag = CHI_act_1498 }
+						}
+						AND = {
+							province_id = 1496
+							owner = { has_country_flag = CHI_act_1496 }
+						}
+						AND = {
+							province_id = 1538
+							owner = { has_country_flag = CHI_act_1538 }
+						}
+						AND = {
+							province_id = 1566
+							owner = { has_country_flag = CHI_act_1566 }
+						}
+						AND = {
+							province_id = 1481
+							owner = { has_country_flag = CHI_act_1481 }
+						}
+						AND = {
+							OR = {
+								province_id = 1532 province_id = 1535 province_id = 1534
+							}
+							owner = { has_country_flag = CHI_act_1532 }
+						}
+						AND = {
+							OR = {
+								province_id = 1502 province_id = 1503 province_id = 1504 province_id = 1527 province_id = 1530
+							}
+							owner = { has_country_flag = CHI_act_1504 }
+						}
+						AND = {
+							OR = {
+								province_id = 1002 province_id = 1533 province_id = 1553 province_id = 1554 province_id = 1552 province_id = 1555 province_id = 1479 province_id = 1480
+							}
+							owner = { has_country_flag = CHI_act_1553 }
+						}
+						AND = {
+							OR = {
+								province_id = 1565 province_id = 1569 province_id = 1567 province_id = 1571
+							}
+							owner = { has_country_flag = CHI_act_1563 }
+						}
+						AND = {
+							OR = {
+								province_id = 1612 province_id = 1618 province_id = 1615
+							}
+							owner = { has_country_flag = CHI_act_1612 }
+						}
+						AND = {
+							OR = {
+								province_id = 1613 province_id = 1616 province_id = 1617
+							}
+							owner = { has_country_flag = CHI_act_1613 }
+						}
+						AND = {
+							OR = {
+								province_id = 1576 province_id = 1572 province_id = 1573 province_id = 1575 province_id = 1574
+							}
+							owner = { has_country_flag = CHI_act_1576 }
+						}
+						AND = {
+							OR = {
+								province_id = 1559 province_id = 2062 province_id = 1561 province_id = 1562
+							}
+							owner = { has_country_flag = CHI_act_1559 }
+						}
+						AND = {
+							OR = {
+								province_id = 1488 province_id = 1490 province_id = 1489 province_id = 1491 province_id = 1492
+							}
+							owner = { has_country_flag = CHI_act_1490 }
+						}
+						AND = {
+							OR = {
+								province_id = 1557 province_id = 1558 province_id = 1556
+							}
+							owner = { has_country_flag = CHI_act_1557 }
+						}
+						AND = {
+							OR = {
+								province_id = 1581 province_id = 1579 province_id = 1577 province_id = 1583 province_id = 1584
+							}
+							owner = { has_country_flag = CHI_act_1581 }
+						}
+						AND = {
+							OR = {
+								province_id = 1493 province_id = 1495 province_id = 1499 province_id = 1501
+							}
+							owner = { has_country_flag = CHI_act_1493 }
+						}
+						AND = {
+							OR = {
+								province_id = 1482 province_id = 1487 province_id = 1484 province_id = 1486 province_id = 1483
+							}
+							owner = { has_country_flag = CHI_act_1482 }
+						}
+						AND = {
+							OR = {
+								province_id = 1608 province_id = 1604 province_id = 1611 province_id = 1607 province_id = 1610 province_id = 1609 province_id = 1605 province_id = 1606
+							}
+							owner = { has_country_flag = CHI_act_1608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1539 province_id = 1537 province_id = 1541 province_id = 1540 province_id = 1544
+							}
+							owner = { has_country_flag = CHI_act_1539 }
+						}
+						AND = {
+							OR = {
+								province_id = 2221 province_id = 1476 province_id = 1477 province_id = 1536 province_id = 1542 province_id = 1543
+							}
+							owner = { has_country_flag = CHI_act_2221 }
+						}
+						AND = {
+							OR = {
+								province_id = 1513 province_id = 1510 province_id = 1508 province_id = 1511 province_id = 1515 province_id = 1514
+							}
+							owner = { has_country_flag = CHI_act_1513 }
+						}
+						AND = {
+							OR = {
+								province_id = 1614 province_id = 1564 province_id = 1563 province_id = 1568 province_id = 1570
+							}
+							owner = { has_country_flag = CHI_act_1614 }
+						}
+						AND = {
+							OR = {
+								province_id = 1550 province_id = 1547 province_id = 1548 province_id = 1545 province_id = 1549 province_id = 1551 province_id = 1546
+							}
+							owner = { has_country_flag = CHI_act_1550 }
+						}
+						AND = {
+							OR = {
+								province_id = 1473 province_id = 1475 province_id = 1471 province_id = 1470 province_id = 1474
+							}
+							owner = { has_country_flag = CHI_act_1473 }
+						}
+						AND = {
+							OR = {
+								province_id = 1472 province_id = 1478 province_id = 1512 province_id = 1509
+							}
+							owner = { has_country_flag = CHI_act_1472 }
+						}
+						AND = {
+							OR = {
+								province_id = 1523 province_id = 1519 province_id = 1521 province_id = 1520
+							}
+							owner = { has_country_flag = CHI_act_1523 }
+						}
+						AND = {
+							OR = {
+								province_id = 1522 province_id = 1516 province_id = 1518 province_id = 1517
+							}
+							owner = { has_country_flag = CHI_act_1522 }
+						}
+						AND = {
+							OR = {
+								province_id = 1529 province_id = 1526 province_id = 1525 province_id = 1528 province_id = 1524
+							}
+							owner = { has_country_flag = CHI_act_1529 }
+						}
+						AND = {
+							OR = {
+								province_id = 2562 province_id = 1485
+							}
+							owner = { has_country_flag = CHI_act_2562 }
+						}
+						AND = {
+							OR = {
+								province_id = 1082 province_id = 1083 province_id = 1084 province_id = 1085 province_id = 2617
+							}
+							owner = { has_country_flag = CHI_act_1082 }
+						}
+					}
+				}
+				remove_province_modifier = CHI_separatism_1
+				add_province_modifier = { name = CHI_lvl_dropped duration = -1 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						AND = {
+							OR = {
+								province_id = 1465 province_id = 2608 province_id = 2679 province_id = 1468 province_id = 2678 province_id = 1466 province_id = 2207 province_id = 1467
+							}
+							owner = { has_country_flag = CHI_act_2608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1594 province_id = 1600 province_id = 1598 province_id = 2607 province_id = 1597 province_id = 1595 province_id = 1596 province_id = 1599
+							}
+							owner = { has_country_flag = CHI_act_1600 }
+						}
+						AND = {
+							OR = {
+								province_id = 1578 province_id = 1580 province_id = 1582 province_id = 1585 province_id = 1586
+							}
+							owner = { has_country_flag = CHI_act_1578 }
+						}
+						AND = {
+							OR = {
+								province_id = 1601 province_id = 1506 province_id = 1602 province_id = 1603 province_id = 1505 province_id = 1507
+							}
+							owner = { has_country_flag = CHI_act_1601 }
+						}
+						AND = {
+							OR = {
+								province_id = 1494 province_id = 1497 province_id = 1500
+							}
+							owner = { has_country_flag = CHI_act_1494 }
+						}
+						AND = {
+							province_id = 1498
+							owner = { has_country_flag = CHI_act_1498 }
+						}
+						AND = {
+							province_id = 1496
+							owner = { has_country_flag = CHI_act_1496 }
+						}
+						AND = {
+							province_id = 1538
+							owner = { has_country_flag = CHI_act_1538 }
+						}
+						AND = {
+							province_id = 1566
+							owner = { has_country_flag = CHI_act_1566 }
+						}
+						AND = {
+							province_id = 1481
+							owner = { has_country_flag = CHI_act_1481 }
+						}
+						AND = {
+							OR = {
+								province_id = 1532 province_id = 1535 province_id = 1534
+							}
+							owner = { has_country_flag = CHI_act_1532 }
+						}
+						AND = {
+							OR = {
+								province_id = 1502 province_id = 1503 province_id = 1504 province_id = 1527 province_id = 1530
+							}
+							owner = { has_country_flag = CHI_act_1504 }
+						}
+						AND = {
+							OR = {
+								province_id = 1002 province_id = 1533 province_id = 1553 province_id = 1554 province_id = 1552 province_id = 1555 province_id = 1479 province_id = 1480
+							}
+							owner = { has_country_flag = CHI_act_1553 }
+						}
+						AND = {
+							OR = {
+								province_id = 1565 province_id = 1569 province_id = 1567 province_id = 1571
+							}
+							owner = { has_country_flag = CHI_act_1563 }
+						}
+						AND = {
+							OR = {
+								province_id = 1612 province_id = 1618 province_id = 1615
+							}
+							owner = { has_country_flag = CHI_act_1612 }
+						}
+						AND = {
+							OR = {
+								province_id = 1613 province_id = 1616 province_id = 1617
+							}
+							owner = { has_country_flag = CHI_act_1613 }
+						}
+						AND = {
+							OR = {
+								province_id = 1576 province_id = 1572 province_id = 1573 province_id = 1575 province_id = 1574
+							}
+							owner = { has_country_flag = CHI_act_1576 }
+						}
+						AND = {
+							OR = {
+								province_id = 1559 province_id = 2062 province_id = 1561 province_id = 1562
+							}
+							owner = { has_country_flag = CHI_act_1559 }
+						}
+						AND = {
+							OR = {
+								province_id = 1488 province_id = 1490 province_id = 1489 province_id = 1491 province_id = 1492
+							}
+							owner = { has_country_flag = CHI_act_1490 }
+						}
+						AND = {
+							OR = {
+								province_id = 1557 province_id = 1558 province_id = 1556
+							}
+							owner = { has_country_flag = CHI_act_1557 }
+						}
+						AND = {
+							OR = {
+								province_id = 1581 province_id = 1579 province_id = 1577 province_id = 1583 province_id = 1584
+							}
+							owner = { has_country_flag = CHI_act_1581 }
+						}
+						AND = {
+							OR = {
+								province_id = 1493 province_id = 1495 province_id = 1499 province_id = 1501
+							}
+							owner = { has_country_flag = CHI_act_1493 }
+						}
+						AND = {
+							OR = {
+								province_id = 1482 province_id = 1487 province_id = 1484 province_id = 1486 province_id = 1483
+							}
+							owner = { has_country_flag = CHI_act_1482 }
+						}
+						AND = {
+							OR = {
+								province_id = 1608 province_id = 1604 province_id = 1611 province_id = 1607 province_id = 1610 province_id = 1609 province_id = 1605 province_id = 1606
+							}
+							owner = { has_country_flag = CHI_act_1608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1539 province_id = 1537 province_id = 1541 province_id = 1540 province_id = 1544
+							}
+							owner = { has_country_flag = CHI_act_1539 }
+						}
+						AND = {
+							OR = {
+								province_id = 2221 province_id = 1476 province_id = 1477 province_id = 1536 province_id = 1542 province_id = 1543
+							}
+							owner = { has_country_flag = CHI_act_2221 }
+						}
+						AND = {
+							OR = {
+								province_id = 1513 province_id = 1510 province_id = 1508 province_id = 1511 province_id = 1515 province_id = 1514
+							}
+							owner = { has_country_flag = CHI_act_1513 }
+						}
+						AND = {
+							OR = {
+								province_id = 1614 province_id = 1564 province_id = 1563 province_id = 1568 province_id = 1570
+							}
+							owner = { has_country_flag = CHI_act_1614 }
+						}
+						AND = {
+							OR = {
+								province_id = 1550 province_id = 1547 province_id = 1548 province_id = 1545 province_id = 1549 province_id = 1551 province_id = 1546
+							}
+							owner = { has_country_flag = CHI_act_1550 }
+						}
+						AND = {
+							OR = {
+								province_id = 1473 province_id = 1475 province_id = 1471 province_id = 1470 province_id = 1474
+							}
+							owner = { has_country_flag = CHI_act_1473 }
+						}
+						AND = {
+							OR = {
+								province_id = 1472 province_id = 1478 province_id = 1512 province_id = 1509
+							}
+							owner = { has_country_flag = CHI_act_1472 }
+						}
+						AND = {
+							OR = {
+								province_id = 1523 province_id = 1519 province_id = 1521 province_id = 1520
+							}
+							owner = { has_country_flag = CHI_act_1523 }
+						}
+						AND = {
+							OR = {
+								province_id = 1522 province_id = 1516 province_id = 1518 province_id = 1517
+							}
+							owner = { has_country_flag = CHI_act_1522 }
+						}
+						AND = {
+							OR = {
+								province_id = 1529 province_id = 1526 province_id = 1525 province_id = 1528 province_id = 1524
+							}
+							owner = { has_country_flag = CHI_act_1529 }
+						}
+						AND = {
+							OR = {
+								province_id = 2562 province_id = 1485
+							}
+							owner = { has_country_flag = CHI_act_2562 }
+						}
+						AND = {
+							OR = {
+								province_id = 1082 province_id = 1083 province_id = 1084 province_id = 1085 province_id = 2617
+							}
+							owner = { has_country_flag = CHI_act_1082 }
+						}
+					}
+				}
+				remove_province_modifier = CHI_lvl_dropped
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						AND = {
+							OR = {
+								province_id = 1465 province_id = 2608 province_id = 2679 province_id = 1468 province_id = 2678 province_id = 1466 province_id = 2207 province_id = 1467
+							}
+							owner = { has_country_flag = CHI_act_2608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1594 province_id = 1600 province_id = 1598 province_id = 2607 province_id = 1597 province_id = 1595 province_id = 1596 province_id = 1599
+							}
+							owner = { has_country_flag = CHI_act_1600 }
+						}
+						AND = {
+							OR = {
+								province_id = 1578 province_id = 1580 province_id = 1582 province_id = 1585 province_id = 1586
+							}
+							owner = { has_country_flag = CHI_act_1578 }
+						}
+						AND = {
+							OR = {
+								province_id = 1601 province_id = 1506 province_id = 1602 province_id = 1603 province_id = 1505 province_id = 1507
+							}
+							owner = { has_country_flag = CHI_act_1601 }
+						}
+						AND = {
+							OR = {
+								province_id = 1494 province_id = 1497 province_id = 1500
+							}
+							owner = { has_country_flag = CHI_act_1494 }
+						}
+						AND = {
+							province_id = 1498
+							owner = { has_country_flag = CHI_act_1498 }
+						}
+						AND = {
+							province_id = 1496
+							owner = { has_country_flag = CHI_act_1496 }
+						}
+						AND = {
+							province_id = 1538
+							owner = { has_country_flag = CHI_act_1538 }
+						}
+						AND = {
+							province_id = 1566
+							owner = { has_country_flag = CHI_act_1566 }
+						}
+						AND = {
+							province_id = 1481
+							owner = { has_country_flag = CHI_act_1481 }
+						}
+						AND = {
+							OR = {
+								province_id = 1532 province_id = 1535 province_id = 1534
+							}
+							owner = { has_country_flag = CHI_act_1532 }
+						}
+						AND = {
+							OR = {
+								province_id = 1502 province_id = 1503 province_id = 1504 province_id = 1527 province_id = 1530
+							}
+							owner = { has_country_flag = CHI_act_1504 }
+						}
+						AND = {
+							OR = {
+								province_id = 1002 province_id = 1533 province_id = 1553 province_id = 1554 province_id = 1552 province_id = 1555 province_id = 1479 province_id = 1480
+							}
+							owner = { has_country_flag = CHI_act_1553 }
+						}
+						AND = {
+							OR = {
+								province_id = 1565 province_id = 1569 province_id = 1567 province_id = 1571
+							}
+							owner = { has_country_flag = CHI_act_1563 }
+						}
+						AND = {
+							OR = {
+								province_id = 1612 province_id = 1618 province_id = 1615
+							}
+							owner = { has_country_flag = CHI_act_1612 }
+						}
+						AND = {
+							OR = {
+								province_id = 1613 province_id = 1616 province_id = 1617
+							}
+							owner = { has_country_flag = CHI_act_1613 }
+						}
+						AND = {
+							OR = {
+								province_id = 1576 province_id = 1572 province_id = 1573 province_id = 1575 province_id = 1574
+							}
+							owner = { has_country_flag = CHI_act_1576 }
+						}
+						AND = {
+							OR = {
+								province_id = 1559 province_id = 2062 province_id = 1561 province_id = 1562
+							}
+							owner = { has_country_flag = CHI_act_1559 }
+						}
+						AND = {
+							OR = {
+								province_id = 1488 province_id = 1490 province_id = 1489 province_id = 1491 province_id = 1492
+							}
+							owner = { has_country_flag = CHI_act_1490 }
+						}
+						AND = {
+							OR = {
+								province_id = 1557 province_id = 1558 province_id = 1556
+							}
+							owner = { has_country_flag = CHI_act_1557 }
+						}
+						AND = {
+							OR = {
+								province_id = 1581 province_id = 1579 province_id = 1577 province_id = 1583 province_id = 1584
+							}
+							owner = { has_country_flag = CHI_act_1581 }
+						}
+						AND = {
+							OR = {
+								province_id = 1493 province_id = 1495 province_id = 1499 province_id = 1501
+							}
+							owner = { has_country_flag = CHI_act_1493 }
+						}
+						AND = {
+							OR = {
+								province_id = 1482 province_id = 1487 province_id = 1484 province_id = 1486 province_id = 1483
+							}
+							owner = { has_country_flag = CHI_act_1482 }
+						}
+						AND = {
+							OR = {
+								province_id = 1608 province_id = 1604 province_id = 1611 province_id = 1607 province_id = 1610 province_id = 1609 province_id = 1605 province_id = 1606
+							}
+							owner = { has_country_flag = CHI_act_1608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1539 province_id = 1537 province_id = 1541 province_id = 1540 province_id = 1544
+							}
+							owner = { has_country_flag = CHI_act_1539 }
+						}
+						AND = {
+							OR = {
+								province_id = 2221 province_id = 1476 province_id = 1477 province_id = 1536 province_id = 1542 province_id = 1543
+							}
+							owner = { has_country_flag = CHI_act_2221 }
+						}
+						AND = {
+							OR = {
+								province_id = 1513 province_id = 1510 province_id = 1508 province_id = 1511 province_id = 1515 province_id = 1514
+							}
+							owner = { has_country_flag = CHI_act_1513 }
+						}
+						AND = {
+							OR = {
+								province_id = 1614 province_id = 1564 province_id = 1563 province_id = 1568 province_id = 1570
+							}
+							owner = { has_country_flag = CHI_act_1614 }
+						}
+						AND = {
+							OR = {
+								province_id = 1550 province_id = 1547 province_id = 1548 province_id = 1545 province_id = 1549 province_id = 1551 province_id = 1546
+							}
+							owner = { has_country_flag = CHI_act_1550 }
+						}
+						AND = {
+							OR = {
+								province_id = 1473 province_id = 1475 province_id = 1471 province_id = 1470 province_id = 1474
+							}
+							owner = { has_country_flag = CHI_act_1473 }
+						}
+						AND = {
+							OR = {
+								province_id = 1472 province_id = 1478 province_id = 1512 province_id = 1509
+							}
+							owner = { has_country_flag = CHI_act_1472 }
+						}
+						AND = {
+							OR = {
+								province_id = 1523 province_id = 1519 province_id = 1521 province_id = 1520
+							}
+							owner = { has_country_flag = CHI_act_1523 }
+						}
+						AND = {
+							OR = {
+								province_id = 1522 province_id = 1516 province_id = 1518 province_id = 1517
+							}
+							owner = { has_country_flag = CHI_act_1522 }
+						}
+						AND = {
+							OR = {
+								province_id = 1529 province_id = 1526 province_id = 1525 province_id = 1528 province_id = 1524
+							}
+							owner = { has_country_flag = CHI_act_1529 }
+						}
+						AND = {
+							OR = {
+								province_id = 2562 province_id = 1485
+							}
+							owner = { has_country_flag = CHI_act_2562 }
+						}
+						AND = {
+							OR = {
+								province_id = 1082 province_id = 1083 province_id = 1084 province_id = 1085 province_id = 2617
+							}
+							owner = { has_country_flag = CHI_act_1082 }
+						}
+					}
+				}
+				add_province_modifier = { name = CHI_sep_cd duration = 365 }
+			}
+				}
+			}
+			clr_country_flag = CHI_act_2608
+			clr_country_flag = CHI_act_1600
+			clr_country_flag = CHI_act_1578
+			clr_country_flag = CHI_act_1601
+			clr_country_flag = CHI_act_1494
+			clr_country_flag = CHI_act_1498
+			clr_country_flag = CHI_act_1496
+			clr_country_flag = CHI_act_1538
+			clr_country_flag = CHI_act_1566
+			clr_country_flag = CHI_act_1481
+			clr_country_flag = CHI_act_1532
+			clr_country_flag = CHI_act_1504
+			clr_country_flag = CHI_act_1553
+			clr_country_flag = CHI_act_1563
+			clr_country_flag = CHI_act_1612
+			clr_country_flag = CHI_act_1613
+			clr_country_flag = CHI_act_1576
+			clr_country_flag = CHI_act_1559
+			clr_country_flag = CHI_act_1490
+			clr_country_flag = CHI_act_1557
+			clr_country_flag = CHI_act_1581
+			clr_country_flag = CHI_act_1493
+			clr_country_flag = CHI_act_1482
+			clr_country_flag = CHI_act_1608
+			clr_country_flag = CHI_act_1539
+			clr_country_flag = CHI_act_2221
+			clr_country_flag = CHI_act_1513
+			clr_country_flag = CHI_act_1614
+			clr_country_flag = CHI_act_1550
+			clr_country_flag = CHI_act_1473
+			clr_country_flag = CHI_act_1472
+			clr_country_flag = CHI_act_1523
+			clr_country_flag = CHI_act_1522
+			clr_country_flag = CHI_act_1529
+			clr_country_flag = CHI_act_2562
+			clr_country_flag = CHI_act_1082
+			clr_country_flag = CHI_crisis_paid
+		}
+		remove_province_modifier = CHI_click_mark
+	}
+	option = {
+		name = "CHI_sel_ok"
+		province_event = { id = 144408 days = 0 }
+	}
+}
+
+
+province_event = {
+	id = 144512
+	title = "CHI_sel_tax_done"
+	desc = "CHI_sel_tax_done_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	immediate = {
+		owner = {
+			clr_country_flag = CHI_tax_stacked
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1465 province_id = 2608 province_id = 2679 province_id = 1468 province_id = 2678 province_id = 1466 province_id = 2207 province_id = 1467
+					}
+				}
+				owner = { set_country_flag = CHI_act_2608 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1594 province_id = 1600 province_id = 1598 province_id = 2607 province_id = 1597 province_id = 1595 province_id = 1596 province_id = 1599
+					}
+				}
+				owner = { set_country_flag = CHI_act_1600 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1578 province_id = 1580 province_id = 1582 province_id = 1585 province_id = 1586
+					}
+				}
+				owner = { set_country_flag = CHI_act_1578 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1601 province_id = 1506 province_id = 1602 province_id = 1603 province_id = 1505 province_id = 1507
+					}
+				}
+				owner = { set_country_flag = CHI_act_1601 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1494 province_id = 1497 province_id = 1500
+					}
+				}
+				owner = { set_country_flag = CHI_act_1494 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					province_id = 1498
+				}
+				owner = { set_country_flag = CHI_act_1498 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					province_id = 1496
+				}
+				owner = { set_country_flag = CHI_act_1496 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					province_id = 1538
+				}
+				owner = { set_country_flag = CHI_act_1538 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					province_id = 1566
+				}
+				owner = { set_country_flag = CHI_act_1566 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					province_id = 1481
+				}
+				owner = { set_country_flag = CHI_act_1481 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1532 province_id = 1535 province_id = 1534
+					}
+				}
+				owner = { set_country_flag = CHI_act_1532 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1502 province_id = 1503 province_id = 1504 province_id = 1527 province_id = 1530
+					}
+				}
+				owner = { set_country_flag = CHI_act_1504 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1002 province_id = 1533 province_id = 1553 province_id = 1554 province_id = 1552 province_id = 1555 province_id = 1479 province_id = 1480
+					}
+				}
+				owner = { set_country_flag = CHI_act_1553 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1565 province_id = 1569 province_id = 1567 province_id = 1571
+					}
+				}
+				owner = { set_country_flag = CHI_act_1563 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1612 province_id = 1618 province_id = 1615
+					}
+				}
+				owner = { set_country_flag = CHI_act_1612 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1613 province_id = 1616 province_id = 1617
+					}
+				}
+				owner = { set_country_flag = CHI_act_1613 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1576 province_id = 1572 province_id = 1573 province_id = 1575 province_id = 1574
+					}
+				}
+				owner = { set_country_flag = CHI_act_1576 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1559 province_id = 2062 province_id = 1561 province_id = 1562
+					}
+				}
+				owner = { set_country_flag = CHI_act_1559 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1488 province_id = 1490 province_id = 1489 province_id = 1491 province_id = 1492
+					}
+				}
+				owner = { set_country_flag = CHI_act_1490 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1557 province_id = 1558 province_id = 1556
+					}
+				}
+				owner = { set_country_flag = CHI_act_1557 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1581 province_id = 1579 province_id = 1577 province_id = 1583 province_id = 1584
+					}
+				}
+				owner = { set_country_flag = CHI_act_1581 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1493 province_id = 1495 province_id = 1499 province_id = 1501
+					}
+				}
+				owner = { set_country_flag = CHI_act_1493 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1482 province_id = 1487 province_id = 1484 province_id = 1486 province_id = 1483
+					}
+				}
+				owner = { set_country_flag = CHI_act_1482 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1608 province_id = 1604 province_id = 1611 province_id = 1607 province_id = 1610 province_id = 1609 province_id = 1605 province_id = 1606
+					}
+				}
+				owner = { set_country_flag = CHI_act_1608 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1539 province_id = 1537 province_id = 1541 province_id = 1540 province_id = 1544
+					}
+				}
+				owner = { set_country_flag = CHI_act_1539 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 2221 province_id = 1476 province_id = 1477 province_id = 1536 province_id = 1542 province_id = 1543
+					}
+				}
+				owner = { set_country_flag = CHI_act_2221 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1513 province_id = 1510 province_id = 1508 province_id = 1511 province_id = 1515 province_id = 1514
+					}
+				}
+				owner = { set_country_flag = CHI_act_1513 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1614 province_id = 1564 province_id = 1563 province_id = 1568 province_id = 1570
+					}
+				}
+				owner = { set_country_flag = CHI_act_1614 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1550 province_id = 1547 province_id = 1548 province_id = 1545 province_id = 1549 province_id = 1551 province_id = 1546
+					}
+				}
+				owner = { set_country_flag = CHI_act_1550 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1473 province_id = 1475 province_id = 1471 province_id = 1470 province_id = 1474
+					}
+				}
+				owner = { set_country_flag = CHI_act_1473 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1472 province_id = 1478 province_id = 1512 province_id = 1509
+					}
+				}
+				owner = { set_country_flag = CHI_act_1472 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1523 province_id = 1519 province_id = 1521 province_id = 1520
+					}
+				}
+				owner = { set_country_flag = CHI_act_1523 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1522 province_id = 1516 province_id = 1518 province_id = 1517
+					}
+				}
+				owner = { set_country_flag = CHI_act_1522 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1529 province_id = 1526 province_id = 1525 province_id = 1528 province_id = 1524
+					}
+				}
+				owner = { set_country_flag = CHI_act_1529 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 2562 province_id = 1485
+					}
+				}
+				owner = { set_country_flag = CHI_act_2562 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					OR = {
+						province_id = 1082 province_id = 1083 province_id = 1084 province_id = 1085 province_id = 2617
+					}
+				}
+				owner = { set_country_flag = CHI_act_1082 }
+			}
+			any_owned = {
+				limit = {
+					OR = {
+						AND = {
+							OR = {
+								province_id = 1465 province_id = 2608 province_id = 2679 province_id = 1468 province_id = 2678 province_id = 1466 province_id = 2207 province_id = 1467
+							}
+							owner = { has_country_flag = CHI_act_2608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1594 province_id = 1600 province_id = 1598 province_id = 2607 province_id = 1597 province_id = 1595 province_id = 1596 province_id = 1599
+							}
+							owner = { has_country_flag = CHI_act_1600 }
+						}
+						AND = {
+							OR = {
+								province_id = 1578 province_id = 1580 province_id = 1582 province_id = 1585 province_id = 1586
+							}
+							owner = { has_country_flag = CHI_act_1578 }
+						}
+						AND = {
+							OR = {
+								province_id = 1601 province_id = 1506 province_id = 1602 province_id = 1603 province_id = 1505 province_id = 1507
+							}
+							owner = { has_country_flag = CHI_act_1601 }
+						}
+						AND = {
+							OR = {
+								province_id = 1494 province_id = 1497 province_id = 1500
+							}
+							owner = { has_country_flag = CHI_act_1494 }
+						}
+						AND = {
+							province_id = 1498
+							owner = { has_country_flag = CHI_act_1498 }
+						}
+						AND = {
+							province_id = 1496
+							owner = { has_country_flag = CHI_act_1496 }
+						}
+						AND = {
+							province_id = 1538
+							owner = { has_country_flag = CHI_act_1538 }
+						}
+						AND = {
+							province_id = 1566
+							owner = { has_country_flag = CHI_act_1566 }
+						}
+						AND = {
+							province_id = 1481
+							owner = { has_country_flag = CHI_act_1481 }
+						}
+						AND = {
+							OR = {
+								province_id = 1532 province_id = 1535 province_id = 1534
+							}
+							owner = { has_country_flag = CHI_act_1532 }
+						}
+						AND = {
+							OR = {
+								province_id = 1502 province_id = 1503 province_id = 1504 province_id = 1527 province_id = 1530
+							}
+							owner = { has_country_flag = CHI_act_1504 }
+						}
+						AND = {
+							OR = {
+								province_id = 1002 province_id = 1533 province_id = 1553 province_id = 1554 province_id = 1552 province_id = 1555 province_id = 1479 province_id = 1480
+							}
+							owner = { has_country_flag = CHI_act_1553 }
+						}
+						AND = {
+							OR = {
+								province_id = 1565 province_id = 1569 province_id = 1567 province_id = 1571
+							}
+							owner = { has_country_flag = CHI_act_1563 }
+						}
+						AND = {
+							OR = {
+								province_id = 1612 province_id = 1618 province_id = 1615
+							}
+							owner = { has_country_flag = CHI_act_1612 }
+						}
+						AND = {
+							OR = {
+								province_id = 1613 province_id = 1616 province_id = 1617
+							}
+							owner = { has_country_flag = CHI_act_1613 }
+						}
+						AND = {
+							OR = {
+								province_id = 1576 province_id = 1572 province_id = 1573 province_id = 1575 province_id = 1574
+							}
+							owner = { has_country_flag = CHI_act_1576 }
+						}
+						AND = {
+							OR = {
+								province_id = 1559 province_id = 2062 province_id = 1561 province_id = 1562
+							}
+							owner = { has_country_flag = CHI_act_1559 }
+						}
+						AND = {
+							OR = {
+								province_id = 1488 province_id = 1490 province_id = 1489 province_id = 1491 province_id = 1492
+							}
+							owner = { has_country_flag = CHI_act_1490 }
+						}
+						AND = {
+							OR = {
+								province_id = 1557 province_id = 1558 province_id = 1556
+							}
+							owner = { has_country_flag = CHI_act_1557 }
+						}
+						AND = {
+							OR = {
+								province_id = 1581 province_id = 1579 province_id = 1577 province_id = 1583 province_id = 1584
+							}
+							owner = { has_country_flag = CHI_act_1581 }
+						}
+						AND = {
+							OR = {
+								province_id = 1493 province_id = 1495 province_id = 1499 province_id = 1501
+							}
+							owner = { has_country_flag = CHI_act_1493 }
+						}
+						AND = {
+							OR = {
+								province_id = 1482 province_id = 1487 province_id = 1484 province_id = 1486 province_id = 1483
+							}
+							owner = { has_country_flag = CHI_act_1482 }
+						}
+						AND = {
+							OR = {
+								province_id = 1608 province_id = 1604 province_id = 1611 province_id = 1607 province_id = 1610 province_id = 1609 province_id = 1605 province_id = 1606
+							}
+							owner = { has_country_flag = CHI_act_1608 }
+						}
+						AND = {
+							OR = {
+								province_id = 1539 province_id = 1537 province_id = 1541 province_id = 1540 province_id = 1544
+							}
+							owner = { has_country_flag = CHI_act_1539 }
+						}
+						AND = {
+							OR = {
+								province_id = 2221 province_id = 1476 province_id = 1477 province_id = 1536 province_id = 1542 province_id = 1543
+							}
+							owner = { has_country_flag = CHI_act_2221 }
+						}
+						AND = {
+							OR = {
+								province_id = 1513 province_id = 1510 province_id = 1508 province_id = 1511 province_id = 1515 province_id = 1514
+							}
+							owner = { has_country_flag = CHI_act_1513 }
+						}
+						AND = {
+							OR = {
+								province_id = 1614 province_id = 1564 province_id = 1563 province_id = 1568 province_id = 1570
+							}
+							owner = { has_country_flag = CHI_act_1614 }
+						}
+						AND = {
+							OR = {
+								province_id = 1550 province_id = 1547 province_id = 1548 province_id = 1545 province_id = 1549 province_id = 1551 province_id = 1546
+							}
+							owner = { has_country_flag = CHI_act_1550 }
+						}
+						AND = {
+							OR = {
+								province_id = 1473 province_id = 1475 province_id = 1471 province_id = 1470 province_id = 1474
+							}
+							owner = { has_country_flag = CHI_act_1473 }
+						}
+						AND = {
+							OR = {
+								province_id = 1472 province_id = 1478 province_id = 1512 province_id = 1509
+							}
+							owner = { has_country_flag = CHI_act_1472 }
+						}
+						AND = {
+							OR = {
+								province_id = 1523 province_id = 1519 province_id = 1521 province_id = 1520
+							}
+							owner = { has_country_flag = CHI_act_1523 }
+						}
+						AND = {
+							OR = {
+								province_id = 1522 province_id = 1516 province_id = 1518 province_id = 1517
+							}
+							owner = { has_country_flag = CHI_act_1522 }
+						}
+						AND = {
+							OR = {
+								province_id = 1529 province_id = 1526 province_id = 1525 province_id = 1528 province_id = 1524
+							}
+							owner = { has_country_flag = CHI_act_1529 }
+						}
+						AND = {
+							OR = {
+								province_id = 2562 province_id = 1485
+							}
+							owner = { has_country_flag = CHI_act_2562 }
+						}
+						AND = {
+							OR = {
+								province_id = 1082 province_id = 1083 province_id = 1084 province_id = 1085 province_id = 2617
+							}
+							owner = { has_country_flag = CHI_act_1082 }
+						}
+					}
+				}
+				add_province_modifier = { name = CHI_sep_tax_cut duration = 730 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_1 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_1 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_2 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_2 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_3 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_3 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_4 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_4 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_5 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_5 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_6 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_6 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_7 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_7 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_8 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_8 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_9 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_9 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_10 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_10 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_11 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_11 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_12 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_12 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_13 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_13 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_14 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_14 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_15 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_15 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_16 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_16 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_17 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_17 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_18 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_18 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_19 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_19 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
+					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
+					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_20 } }
+				}
+				owner = {
+					add_country_modifier = { name = CHI_sep_tax_stack_20 duration = 730 }
+					set_country_flag = CHI_tax_stacked
+				}
+			}
+			clr_country_flag = CHI_act_2608
+			clr_country_flag = CHI_act_1600
+			clr_country_flag = CHI_act_1578
+			clr_country_flag = CHI_act_1601
+			clr_country_flag = CHI_act_1494
+			clr_country_flag = CHI_act_1498
+			clr_country_flag = CHI_act_1496
+			clr_country_flag = CHI_act_1538
+			clr_country_flag = CHI_act_1566
+			clr_country_flag = CHI_act_1481
+			clr_country_flag = CHI_act_1532
+			clr_country_flag = CHI_act_1504
+			clr_country_flag = CHI_act_1553
+			clr_country_flag = CHI_act_1563
+			clr_country_flag = CHI_act_1612
+			clr_country_flag = CHI_act_1613
+			clr_country_flag = CHI_act_1576
+			clr_country_flag = CHI_act_1559
+			clr_country_flag = CHI_act_1490
+			clr_country_flag = CHI_act_1557
+			clr_country_flag = CHI_act_1581
+			clr_country_flag = CHI_act_1493
+			clr_country_flag = CHI_act_1482
+			clr_country_flag = CHI_act_1608
+			clr_country_flag = CHI_act_1539
+			clr_country_flag = CHI_act_2221
+			clr_country_flag = CHI_act_1513
+			clr_country_flag = CHI_act_1614
+			clr_country_flag = CHI_act_1550
+			clr_country_flag = CHI_act_1473
+			clr_country_flag = CHI_act_1472
+			clr_country_flag = CHI_act_1523
+			clr_country_flag = CHI_act_1522
+			clr_country_flag = CHI_act_1529
+			clr_country_flag = CHI_act_2562
+			clr_country_flag = CHI_act_1082
+		}
+	}
+	option = {
+		name = "CHI_sel_ok"
+		owner = {
+			random_owned = {
+				limit = { has_province_modifier = CHI_click_mark }
+				province_event = { id = 144513 days = 1 }
+			}
+			clr_country_flag = CHI_tax_stacked
+		}
+	}
+}

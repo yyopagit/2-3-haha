@@ -311,6 +311,18 @@ CHI_sep_uprising = {
 	pop_militancy_modifier = 0.20
 	icon = 16
 }
+CHI_click_mark = {
+	icon = 9
+}
+CHI_lvl_dropped = {
+	icon = 9
+}
+CHI_sep_revolt_pending = {
+	icon = 16
+}
+CHI_sep_revolt_won = {
+	icon = 16
+}
 """
 
 
@@ -343,10 +355,39 @@ def indent_or_ids(ids, pad="\t\t\t\t\t"):
     return "\n".join(chunks)
 
 
+_USED_REGIONS = None
+
+
+def regions_used():
+    """rid string -> list of province ids for crisis regions."""
+    global _USED_REGIONS
+    if _USED_REGIONS is None:
+        raw = parse_chi_regions()
+        _USED_REGIONS = {
+            k.split("_")[1]: v
+            for k, v in raw.items()
+            if k in LEVELS and k not in SKIP
+        }
+    return _USED_REGIONS
+
+
+def rids_used():
+    return list(regions_used().keys())
+
+
+def ids_trigger(ids, pad="\t\t\t\t\t"):
+    """ProvinceTrigger matching any of the ids. No single-element OR."""
+    if not ids:
+        raise ValueError("ids_trigger: empty province list")
+    if len(ids) == 1:
+        return f"{pad}province_id = {ids[0]}"
+    inner = indent_or_ids(ids, pad=pad + "\t")
+    return f"{pad}OR = {{\n{inner}\n{pad}}}"
+
+
 def setup_province_block(rid, ids, sep, fam, wat, weak, extras, pirate):
-    # NOTE: set_province_flag is NOT valid here - decision effect random_owned/any_owned
-    # resolves to a restricted "ProvinceCommand" scope that silently drops flag effects.
-    # CHI_reg_{rid} flags are set separately by event 144405 (see build_region_flag_event).
+    # Province flags are not in this engine's ProvinceCommand/ProvinceTrigger.
+    # Regions are matched by province_id lists from map/region.txt.
     mods = []
     if sep:
         mods.append(
@@ -471,13 +512,15 @@ def region_ids_list(regions):
 
 
 def gen_set_act(rids):
+    regs = regions_used()
     lines = []
     for rid in rids:
+        idb = ids_trigger(regs[rid], pad="\t\t\t\t\t")
         lines.append(
             f"""			random_owned = {{
 				limit = {{
-					has_province_flag = CHI_crisis_selected
-					has_province_flag = CHI_reg_{rid}
+					has_province_modifier = CHI_click_mark
+{idb}
 				}}
 				owner = {{ set_country_flag = CHI_act_{rid} }}
 			}}"""
@@ -486,11 +529,13 @@ def gen_set_act(rids):
 
 
 def gen_region_or(rids, extra_indent=""):
+    regs = regions_used()
     parts = []
     for rid in rids:
+        idb = ids_trigger(regs[rid], pad=f"{extra_indent}\t\t\t\t\t\t\t")
         parts.append(
             f"""{extra_indent}						AND = {{
-{extra_indent}							has_province_flag = CHI_reg_{rid}
+{idb}
 {extra_indent}							owner = {{ has_country_flag = CHI_act_{rid} }}
 {extra_indent}						}}"""
         )
@@ -522,120 +567,47 @@ def money_effects(amount, indent="\t\t\t"):
     return "\n".join(lines)
 
 
-def famine_drop_block(rids, indent="\t\t\t"):
+def _level_drop_block(rids, prefix, indent="\t\t\t"):
     orlim = gen_region_or(rids)
-    return f"""{indent}any_owned = {{
+    steps = []
+    for src, dst in ((4, 3), (3, 2), (2, 1), (1, None)):
+        extra = ""
+        if src != 4:
+            extra = f"{indent}\t\tNOT = {{ has_province_modifier = CHI_lvl_dropped }}\n"
+        add = ""
+        if dst:
+            add = f"{indent}\tadd_province_modifier = {{ name = {prefix}_{dst} duration = -1 }}\n"
+        steps.append(
+            f"""{indent}any_owned = {{
 {indent}	limit = {{
-{indent}		has_province_modifier = CHI_famine_4
-{indent}		OR = {{
+{indent}		has_province_modifier = {prefix}_{src}
+{extra}{indent}		OR = {{
 {orlim}
 {indent}		}}
 {indent}	}}
-{indent}	remove_province_modifier = CHI_famine_4
-{indent}	add_province_modifier = {{ name = CHI_famine_3 duration = -1 }}
-{indent}	set_province_flag = CHI_lvl_dropped
-{indent}}}
-{indent}any_owned = {{
-{indent}	limit = {{
-{indent}		has_province_modifier = CHI_famine_3
-{indent}		NOT = {{ has_province_flag = CHI_lvl_dropped }}
-{indent}		OR = {{
-{orlim}
-{indent}		}}
-{indent}	}}
-{indent}	remove_province_modifier = CHI_famine_3
-{indent}	add_province_modifier = {{ name = CHI_famine_2 duration = -1 }}
-{indent}	set_province_flag = CHI_lvl_dropped
-{indent}}}
-{indent}any_owned = {{
-{indent}	limit = {{
-{indent}		has_province_modifier = CHI_famine_2
-{indent}		NOT = {{ has_province_flag = CHI_lvl_dropped }}
-{indent}		OR = {{
-{orlim}
-{indent}		}}
-{indent}	}}
-{indent}	remove_province_modifier = CHI_famine_2
-{indent}	add_province_modifier = {{ name = CHI_famine_1 duration = -1 }}
-{indent}	set_province_flag = CHI_lvl_dropped
-{indent}}}
-{indent}any_owned = {{
-{indent}	limit = {{
-{indent}		has_province_modifier = CHI_famine_1
-{indent}		NOT = {{ has_province_flag = CHI_lvl_dropped }}
-{indent}		OR = {{
-{orlim}
-{indent}		}}
-{indent}	}}
-{indent}	remove_province_modifier = CHI_famine_1
-{indent}	set_province_flag = CHI_lvl_dropped
-{indent}}}
-{indent}any_owned = {{
-{indent}	limit = {{
-{indent}		OR = {{
-{orlim}
-{indent}		}}
-{indent}	}}
-{indent}	clr_province_flag = CHI_lvl_dropped
+{indent}	remove_province_modifier = {prefix}_{src}
+{add}{indent}	add_province_modifier = {{ name = CHI_lvl_dropped duration = -1 }}
 {indent}}}"""
+        )
+    steps.append(
+        f"""{indent}any_owned = {{
+{indent}	limit = {{
+{indent}		OR = {{
+{orlim}
+{indent}		}}
+{indent}	}}
+{indent}	remove_province_modifier = CHI_lvl_dropped
+{indent}}}"""
+    )
+    return "\n".join(steps)
+
+
+def famine_drop_block(rids, indent="\t\t\t"):
+    return _level_drop_block(rids, "CHI_famine", indent)
 
 
 def water_drop_block(rids, indent="\t\t\t"):
-    orlim = gen_region_or(rids)
-    return f"""{indent}any_owned = {{
-{indent}	limit = {{
-{indent}		has_province_modifier = CHI_water_4
-{indent}		OR = {{
-{orlim}
-{indent}		}}
-{indent}	}}
-{indent}	remove_province_modifier = CHI_water_4
-{indent}	add_province_modifier = {{ name = CHI_water_3 duration = -1 }}
-{indent}	set_province_flag = CHI_lvl_dropped
-{indent}}}
-{indent}any_owned = {{
-{indent}	limit = {{
-{indent}		has_province_modifier = CHI_water_3
-{indent}		NOT = {{ has_province_flag = CHI_lvl_dropped }}
-{indent}		OR = {{
-{orlim}
-{indent}		}}
-{indent}	}}
-{indent}	remove_province_modifier = CHI_water_3
-{indent}	add_province_modifier = {{ name = CHI_water_2 duration = -1 }}
-{indent}	set_province_flag = CHI_lvl_dropped
-{indent}}}
-{indent}any_owned = {{
-{indent}	limit = {{
-{indent}		has_province_modifier = CHI_water_2
-{indent}		NOT = {{ has_province_flag = CHI_lvl_dropped }}
-{indent}		OR = {{
-{orlim}
-{indent}		}}
-{indent}	}}
-{indent}	remove_province_modifier = CHI_water_2
-{indent}	add_province_modifier = {{ name = CHI_water_1 duration = -1 }}
-{indent}	set_province_flag = CHI_lvl_dropped
-{indent}}}
-{indent}any_owned = {{
-{indent}	limit = {{
-{indent}		has_province_modifier = CHI_water_1
-{indent}		NOT = {{ has_province_flag = CHI_lvl_dropped }}
-{indent}		OR = {{
-{orlim}
-{indent}		}}
-{indent}	}}
-{indent}	remove_province_modifier = CHI_water_1
-{indent}	set_province_flag = CHI_lvl_dropped
-{indent}}}
-{indent}any_owned = {{
-{indent}	limit = {{
-{indent}		OR = {{
-{orlim}
-{indent}		}}
-{indent}	}}
-{indent}	clr_province_flag = CHI_lvl_dropped
-{indent}}}"""
+    return _level_drop_block(rids, "CHI_water", indent)
 
 
 def build_event_144408(rids):
@@ -676,7 +648,7 @@ def build_event_144408(rids):
 				}}
 			}}
 		}}
-		set_province_flag = CHI_crisis_selected
+		add_province_modifier = {{ name = CHI_click_mark duration = -1 }}
 		owner = {{
 {set_act}
 			random_owned = {{
@@ -705,24 +677,23 @@ def build_event_144408(rids):
 {orlim}
 					}}
 				}}
-				set_province_flag = CHI_do_waterfam
+				owner = {{ set_country_flag = CHI_do_waterfam }}
 			}}
 		}}
 		owner = {{
 			random_owned = {{
 				limit = {{
-					has_province_flag = CHI_do_waterfam
+					is_capital = yes
+					owner = {{ has_country_flag = CHI_do_waterfam }}
 				}}
 				owner = {{
 {fam_if_water}
 				}}
 			}}
-			any_owned = {{
-				clr_province_flag = CHI_do_waterfam
-			}}
+			clr_country_flag = CHI_do_waterfam
 {clr_act}
 		}}
-		clr_province_flag = CHI_crisis_selected
+		remove_province_modifier = CHI_click_mark
 		province_selector = -1
 	}}"""
 
@@ -736,7 +707,7 @@ def build_event_144408(rids):
 			}}
 			owner = {{ money = 2000000 }}
 		}}
-		set_province_flag = CHI_crisis_selected
+		add_province_modifier = {{ name = CHI_click_mark duration = -1 }}
 		owner = {{
 {set_act}
 			random_owned = {{
@@ -769,7 +740,7 @@ def build_event_144408(rids):
 			}}
 {clr_act}
 		}}
-		clr_province_flag = CHI_crisis_selected
+		remove_province_modifier = CHI_click_mark
 		province_selector = -1
 	}}"""
 
@@ -785,7 +756,7 @@ def build_event_144408(rids):
 			NOT = {{ has_province_modifier = CHI_great_granary }}
 			owner = {{ money = 2000000 }}
 		}}
-		set_province_flag = CHI_crisis_selected
+		add_province_modifier = {{ name = CHI_click_mark duration = -1 }}
 		owner = {{
 {set_act}
 			random_owned = {{
@@ -817,7 +788,7 @@ def build_event_144408(rids):
 {fam_drop}
 {clr_act}
 		}}
-		clr_province_flag = CHI_crisis_selected
+		remove_province_modifier = CHI_click_mark
 		province_selector = -1
 	}}"""
 
@@ -832,12 +803,12 @@ def build_event_144408(rids):
 			}}
 			NOT = {{ has_province_modifier = CHI_famine_infra_relief }}
 		}}
-		set_province_flag = CHI_crisis_selected
+		add_province_modifier = {{ name = CHI_click_mark duration = -1 }}
 		owner = {{
 {set_act}
 			any_owned = {{
 				limit = {{
-					railroad = 2
+					has_building = railroad
 					OR = {{
 {orlim}
 					}}
@@ -851,7 +822,7 @@ def build_event_144408(rids):
 						NOT = {{
 							any_owned = {{
 								AND = {{
-									NOT = {{ railroad = 2 }}
+									NOT = {{ has_building = railroad }}
 									OR = {{
 {orlim}
 									}}
@@ -866,7 +837,7 @@ def build_event_144408(rids):
 			}}
 {clr_act}
 		}}
-		clr_province_flag = CHI_crisis_selected
+		remove_province_modifier = CHI_click_mark
 		province_selector = -1
 	}}"""
 
@@ -874,7 +845,7 @@ def build_event_144408(rids):
 		name = "CHI_sel_port_piracy"
 		trigger = {
 			is_coastal = yes
-			naval_base = 1
+			has_building = naval_base
 			OR = {
 				has_province_modifier = CHI_piracy_2
 				has_province_modifier = CHI_piracy_3
@@ -1067,7 +1038,8 @@ def build_loc():
         loc_line(
             "CHI_patchwork_empire_desc",
             "Неснимаемый порядок Цин: слабый центр, быстрый набор ополчения.\\n"
-            "Лимит солдат -2 п.п., скорость набора +10, организация -10, мобилизация -4.",
+            "Лимит солдат (~3% населения) задаётся типами POP, не этим модификатором. "
+            "В карточке модификатора видны только организация, набор и мобилизация.",
         )
     )
     add(loc_line("CHI_inefficient_bureaucracy", "Неэффективная бюрократия"))
@@ -1116,10 +1088,10 @@ def build_loc():
 
     roman = {1: "I", 2: "II", 3: "III", 4: "IV", 5: "V"}
     sep_txt = {
-        1: "Лимит солдат -3.5 п.п. в регионе.",
-        2: "Лимит солдат -4 п.п. в регионе.",
-        3: "Лимит солдат -4.5 п.п. в регионе.",
-        4: "Лимит солдат -4.5 п.п. в регионе, сильная милитантность.",
+        1: "Фермеры почти не идут в солдаты выше ~1.5% населения провинции (порог в poptypes, не в этом модификаторе).",
+        2: "Порог солдат ещё ниже (~1.0%). Плюс штраф RGO.",
+        3: "Порог солдат ~0.5%. Сильная милитантность.",
+        4: "Порог солдат ~0.5%, максимальная милитантность и исход.",
     }
     for i in range(1, 5):
         add(loc_line(f"CHI_separatism_{i}", f"Сепаратизм {roman[i]}"))
@@ -1222,6 +1194,18 @@ def build_loc():
     )
     add(loc_line("CHI_port_anti_piracy", "Портовый надзор"))
     add(loc_line("CHI_port_anti_piracy_desc", "Порт ослабляет приморский разбой в этой провинции."))
+    add(loc_line("CHI_click_mark", "Обработка приказа"))
+    add(loc_line("CHI_click_mark_desc", "Временный маркер выбранной провинции."))
+    add(loc_line("CHI_lvl_dropped", "Снижение уровня"))
+    add(loc_line("CHI_lvl_dropped_desc", "Служебный маркер: уровень бедствия уже снижен в этом проходе."))
+    add(loc_line("CHI_sep_revolt_pending", "Исход восстания"))
+    add(loc_line("CHI_sep_revolt_pending_desc", "После спада восстания, если провинция под контролем Китая, сепаратизм региона будет снижен."))
+    add(loc_line("CHI_sep_revolt_won", "Восстание подавлено"))
+    add(loc_line("CHI_sep_revolt_won_desc", "Провинция снова под контролем."))
+    add(loc_line("CHI_corruption_no", "Без коррупции"))
+    add(loc_line("CHI_corruption_no_desc", "Коррупция снята."))
+    add(loc_line("CHI_fleet_anti_piracy_ready", "Флот против пиратства"))
+    add(loc_line("CHI_fleet_anti_piracy_ready_desc", "В строю не меньше 200 кораблей: флот может подавить пиратство по всей стране."))
     return "".join(lines)
 
 
@@ -1267,6 +1251,18 @@ LOC_KEYS = {
     "CHI_famine_infra_relief_desc",
     "CHI_port_anti_piracy",
     "CHI_port_anti_piracy_desc",
+    "CHI_click_mark",
+    "CHI_click_mark_desc",
+    "CHI_lvl_dropped",
+    "CHI_lvl_dropped_desc",
+    "CHI_sep_revolt_pending",
+    "CHI_sep_revolt_pending_desc",
+    "CHI_sep_revolt_won",
+    "CHI_sep_revolt_won_desc",
+    "CHI_corruption_no",
+    "CHI_corruption_no_desc",
+    "CHI_fleet_anti_piracy_ready",
+    "CHI_fleet_anti_piracy_ready_desc",
     "Selector_EvtName",
     "Selector_EvtDesc",
     "Selector_EvtOptCancel",
@@ -1375,14 +1371,8 @@ def extract_event(text, event_id):
 
 
 def patch_jan(rids):
-    path = ROOT / "events" / "JAN.txt"
-    raw = path.read_bytes().decode("utf-8")
-    a, b = extract_event(raw, 144408)
-    new_ev = build_event_144408(rids)
-    # keep surrounding newlines
-    text = raw[:a] + new_ev + raw[b:]
-    path.write_bytes(text.replace("\r\n", "\n").replace("\n", "\r\n").encode("utf-8"))
-    print("JAN.txt 144408 replaced, chars", b - a, "->", len(new_ev))
+    # Hub 144408 lives in events/CHI_crisis_01_hub.txt. Do not inject a duplicate into JAN.
+    print("JAN 144408 skipped (hub file owns it)")
 
 
 def patch_chi_decisions():

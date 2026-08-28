@@ -402,6 +402,18 @@ CHI_sep_tax_stack_20 = {
 	tax_efficiency = -0.04
 	icon = 9
 }
+CHI_click_mark = {
+	icon = 9
+}
+CHI_lvl_dropped = {
+	icon = 9
+}
+CHI_sep_revolt_pending = {
+	icon = 16
+}
+CHI_sep_revolt_won = {
+	icon = 16
+}
 # CHI_CRISIS_WRAPPER1_END
 #-------------------------------------------------------ВЕЛИКОБРИТАНИЯ АНГЛИЯ ВБ-------------------------------------------------------
 Tea_need = {

@@ -1,5 +1,4 @@
-# Selector hub — только province_event, без country router 144440
-# province_selector только в кнопке «Отмена», не в immediate
+# Selector hub events (144408-144415)
 
 province_event = {
 	title = "CHI_Selector_EvtName"
@@ -9,54 +8,54 @@ province_event = {
 	is_triggered_only = yes
 	immediate = {
 		owner = {
-			any_owned = { clr_province_flag = CHI_click }
+			any_owned = { remove_province_modifier = CHI_click_mark }
 		}
-		set_province_flag = CHI_click
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 	}
 	option = {
 		name = "CHI_menu_sep"
 		trigger = {
-			OR = {
-				has_province_modifier = CHI_separatism_1
-				has_province_modifier = CHI_separatism_2
-				has_province_modifier = CHI_separatism_3
-				has_province_modifier = CHI_separatism_4
-			}
+				OR = {
+					has_province_modifier = CHI_separatism_1
+					has_province_modifier = CHI_separatism_2
+					has_province_modifier = CHI_separatism_3
+					has_province_modifier = CHI_separatism_4
+				}
 		}
 		province_event = { id = 144480 days = 0 }
 	}
 	option = {
 		name = "CHI_menu_food"
 		trigger = {
-			OR = {
-				has_province_modifier = CHI_hydro_cd
-				has_province_modifier = CHI_water_1
-				has_province_modifier = CHI_water_2
-				has_province_modifier = CHI_water_3
-				has_province_modifier = CHI_water_4
-				has_province_modifier = CHI_water_canal_silt
-				has_province_modifier = CHI_water_yangtze_nav
-				has_province_modifier = CHI_water_yellow_dikes
-				has_province_modifier = CHI_famine_1
-				has_province_modifier = CHI_famine_2
-				has_province_modifier = CHI_famine_3
-				has_province_modifier = CHI_famine_4
-				has_province_modifier = CHI_food_cd
-				has_province_modifier = CHI_great_granary
-			}
+				OR = {
+					has_province_modifier = CHI_hydro_cd
+					has_province_modifier = CHI_water_1
+					has_province_modifier = CHI_water_2
+					has_province_modifier = CHI_water_3
+					has_province_modifier = CHI_water_4
+					has_province_modifier = CHI_water_canal_silt
+					has_province_modifier = CHI_water_yangtze_nav
+					has_province_modifier = CHI_water_yellow_dikes
+					has_province_modifier = CHI_famine_1
+					has_province_modifier = CHI_famine_2
+					has_province_modifier = CHI_famine_3
+					has_province_modifier = CHI_famine_4
+					has_province_modifier = CHI_food_cd
+					has_province_modifier = CHI_great_granary
+				}
 		}
 		province_event = { id = 144441 days = 0 }
 	}
 	option = {
 		name = "CHI_menu_coast"
 		trigger = {
-			is_coastal = yes
-			OR = {
-				has_province_modifier = CHI_piracy_1
-				has_province_modifier = CHI_piracy_2
-				has_province_modifier = CHI_piracy_3
-				has_province_modifier = CHI_piracy_4
-			}
+				is_coastal = yes
+				OR = {
+					has_province_modifier = CHI_piracy_1
+					has_province_modifier = CHI_piracy_2
+					has_province_modifier = CHI_piracy_3
+					has_province_modifier = CHI_piracy_4
+				}
 		}
 		province_event = { id = 144442 days = 0 }
 	}
@@ -70,61 +69,62 @@ province_event = {
 	}
 }
 
-# Старые ID (если что-то ещё стрельнёт) — тот же хаб, без вложенного immediate
 province_event = {
-	id = 144409
 	title = "CHI_Selector_EvtName"
 	desc = "CHI_Selector_EvtDesc"
+	id = 144409
 	picture = "Administration"
 	is_triggered_only = yes
 	immediate = {
-		owner = { any_owned = { clr_province_flag = CHI_click } }
-		set_province_flag = CHI_click
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 	}
 	option = {
 		name = "CHI_menu_sep"
 		trigger = {
-			OR = {
-				has_province_modifier = CHI_separatism_1
-				has_province_modifier = CHI_separatism_2
-				has_province_modifier = CHI_separatism_3
-				has_province_modifier = CHI_separatism_4
-			}
+				OR = {
+					has_province_modifier = CHI_separatism_1
+					has_province_modifier = CHI_separatism_2
+					has_province_modifier = CHI_separatism_3
+					has_province_modifier = CHI_separatism_4
+				}
 		}
 		province_event = { id = 144480 days = 0 }
 	}
 	option = {
 		name = "CHI_menu_food"
 		trigger = {
-			OR = {
-				has_province_modifier = CHI_hydro_cd
-				has_province_modifier = CHI_water_1
-				has_province_modifier = CHI_water_2
-				has_province_modifier = CHI_water_3
-				has_province_modifier = CHI_water_4
-				has_province_modifier = CHI_water_canal_silt
-				has_province_modifier = CHI_water_yangtze_nav
-				has_province_modifier = CHI_water_yellow_dikes
-				has_province_modifier = CHI_famine_1
-				has_province_modifier = CHI_famine_2
-				has_province_modifier = CHI_famine_3
-				has_province_modifier = CHI_famine_4
-				has_province_modifier = CHI_food_cd
-				has_province_modifier = CHI_great_granary
-			}
+				OR = {
+					has_province_modifier = CHI_hydro_cd
+					has_province_modifier = CHI_water_1
+					has_province_modifier = CHI_water_2
+					has_province_modifier = CHI_water_3
+					has_province_modifier = CHI_water_4
+					has_province_modifier = CHI_water_canal_silt
+					has_province_modifier = CHI_water_yangtze_nav
+					has_province_modifier = CHI_water_yellow_dikes
+					has_province_modifier = CHI_famine_1
+					has_province_modifier = CHI_famine_2
+					has_province_modifier = CHI_famine_3
+					has_province_modifier = CHI_famine_4
+					has_province_modifier = CHI_food_cd
+					has_province_modifier = CHI_great_granary
+				}
 		}
 		province_event = { id = 144441 days = 0 }
 	}
 	option = {
 		name = "CHI_menu_coast"
 		trigger = {
-			is_coastal = yes
-			OR = {
-				has_province_modifier = CHI_piracy_1
-				has_province_modifier = CHI_piracy_2
-				has_province_modifier = CHI_piracy_3
-				has_province_modifier = CHI_piracy_4
-			}
+				is_coastal = yes
+				OR = {
+					has_province_modifier = CHI_piracy_1
+					has_province_modifier = CHI_piracy_2
+					has_province_modifier = CHI_piracy_3
+					has_province_modifier = CHI_piracy_4
+				}
 		}
 		province_event = { id = 144442 days = 0 }
 	}
@@ -138,74 +138,78 @@ province_event = {
 	}
 }
 
-# 144410–144415: тонкие alias на те же опции через 144408 по клику (без immediate fire)
 province_event = {
 	id = 144410
 	title = "CHI_Selector_EvtName"
 	desc = "CHI_Selector_EvtDesc"
 	picture = "Administration"
 	is_triggered_only = yes
-	immediate = { set_province_flag = CHI_click }
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144408 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144411
 	title = "CHI_Selector_EvtName"
 	desc = "CHI_Selector_EvtDesc"
 	picture = "Administration"
 	is_triggered_only = yes
-	immediate = { set_province_flag = CHI_click }
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144408 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144412
 	title = "CHI_Selector_EvtName"
 	desc = "CHI_Selector_EvtDesc"
 	picture = "Administration"
 	is_triggered_only = yes
-	immediate = { set_province_flag = CHI_click }
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144408 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144413
 	title = "CHI_Selector_EvtName"
 	desc = "CHI_Selector_EvtDesc"
 	picture = "Administration"
 	is_triggered_only = yes
-	immediate = { set_province_flag = CHI_click }
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144408 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144414
 	title = "CHI_Selector_EvtName"
 	desc = "CHI_Selector_EvtDesc"
 	picture = "Administration"
 	is_triggered_only = yes
-	immediate = { set_province_flag = CHI_click }
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144408 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144415
 	title = "CHI_Selector_EvtName"
 	desc = "CHI_Selector_EvtDesc"
 	picture = "Administration"
 	is_triggered_only = yes
-	immediate = { set_province_flag = CHI_click }
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144408 days = 0 }

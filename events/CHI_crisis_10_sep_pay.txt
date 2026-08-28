@@ -12,19 +12,21 @@ province_event = {
 			clr_country_flag = CHI_crisis_paid
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
+			clr_country_flag = CHI_pay_wait
 			random_owned = {
 				limit = {
-					has_province_flag = CHI_do_bribe
+					has_province_modifier = CHI_click_mark
 					has_province_modifier = CHI_sep_cd
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
-				owner = { set_country_flag = CHI_pay_fired }
-				province_event = { id = 144456 days = 1 }
-				clr_province_flag = CHI_do_bribe
+				owner = {
+					set_country_flag = CHI_pay_fired
+					set_country_flag = CHI_pay_wait
+				}
 			}
 		random_owned = {
 			limit = {
-				has_province_flag = CHI_do_bribe
+				has_province_modifier = CHI_click_mark
 				owner = { NOT = { has_country_modifier = CHI_corruption_high } }
 				owner = { money = 500000 }
 			}
@@ -35,7 +37,7 @@ province_event = {
 		}
 		random_owned = {
 			limit = {
-				has_province_flag = CHI_do_bribe
+				has_province_modifier = CHI_click_mark
 				owner = { has_country_modifier = CHI_corruption_high }
 				owner = { money = 1000000 }
 			}
@@ -44,9 +46,22 @@ province_event = {
 				set_country_flag = CHI_crisis_paid
 			}
 		}
+		}
+	}
+	option = {
+		name = "CHI_sel_ok"
+		owner = {
 			random_owned = {
 				limit = {
-					has_province_flag = CHI_do_bribe
+					has_province_modifier = CHI_click_mark
+					owner = { has_country_flag = CHI_pay_wait }
+				}
+				owner = { clr_country_flag = CHI_pay_wait }
+				province_event = { id = 144456 days = 1 }
+			}
+			random_owned = {
+				limit = {
+					has_province_modifier = CHI_click_mark
 					owner = { has_country_flag = CHI_crisis_paid }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
@@ -55,7 +70,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_flag = CHI_do_bribe
+					has_province_modifier = CHI_click_mark
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 					owner = { has_country_modifier = CHI_corruption_high }
@@ -65,18 +80,16 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_flag = CHI_do_bribe
+					has_province_modifier = CHI_click_mark
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
 				owner = { set_country_flag = CHI_pay_fired }
 				province_event = { id = 144451 days = 1 }
 			}
-			any_owned = { clr_province_flag = CHI_do_bribe }
 			clr_country_flag = CHI_pay_fired
+			clr_country_flag = CHI_pay_part
+			clr_country_flag = CHI_pay_wait
 		}
-	}
-	option = {
-		name = "CHI_sel_ok"
 	}
 }

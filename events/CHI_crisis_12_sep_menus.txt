@@ -1,4 +1,4 @@
-# Сепаратизм: одно меню + короткие notices
+# Separatism menus (4 levels, option triggers)
 
 province_event = {
 	id = 144455
@@ -8,6 +8,10 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
@@ -20,19 +24,23 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
 
-# 144491 больше нигде не вызывается (pulse отключён). Заглушка без вложенных ивентов.
 province_event = {
 	id = 144491
-	title = "noloc"
-	desc = "noloc"
+	title = "CHI_sel_revolt_won"
+	desc = "CHI_sel_revolt_won_desc"
 	picture = "Administration"
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+
 	}
 }
 
@@ -44,11 +52,14 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
 
-# Единственное меню сепаратизма
 province_event = {
 	id = 144480
 	title = "CHI_sep_menu_title"
@@ -57,7 +68,10 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_bribe"
-		set_province_flag = CHI_do_bribe
+		trigger = {
+			NOT = { has_province_modifier = CHI_sep_cd }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144493 days = 0 }
 	}
 	option = {
@@ -65,7 +79,7 @@ province_event = {
 		trigger = {
 			NOT = { has_province_modifier = CHI_sep_tax_cut }
 		}
-		set_province_flag = CHI_do_tax_cut
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144512 days = 0 }
 	}
 	option = {
@@ -88,112 +102,136 @@ province_event = {
 		}
 		add_province_modifier = { name = CHI_sep_revolt_cd duration = 730 }
 		add_province_modifier = { name = CHI_sep_uprising duration = 180 }
-		set_province_flag = CHI_sep_revolt_pending
-		clr_province_flag = CHI_sep_revolt_armed
-		clr_province_flag = CHI_sep_revolt_won
+		add_province_modifier = { name = CHI_sep_revolt_pending duration = -1 }
+		remove_province_modifier = CHI_sep_revolt_won
+		owner = { set_country_flag = CHI_sep_revolt_active }
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 	option = {
 		name = "CHI_sel_back"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
 
-# Старые id уровней → то же меню (только через option, без immediate-вложения)
 province_event = {
 	id = 144481
 	title = "CHI_sep_menu_title"
 	desc = "CHI_menu_sep_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144480 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144482
 	title = "CHI_sep_menu_title"
 	desc = "CHI_menu_sep_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144480 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144483
 	title = "CHI_sep_menu_title"
 	desc = "CHI_menu_sep_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144480 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144484
 	title = "CHI_sep_menu_title"
 	desc = "CHI_menu_sep_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144480 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144485
 	title = "CHI_sep_menu_title"
 	desc = "CHI_menu_sep_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144480 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144486
 	title = "CHI_sep_menu_title"
 	desc = "CHI_menu_sep_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144480 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144487
 	title = "CHI_sep_menu_title"
 	desc = "CHI_menu_sep_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144480 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144488
 	title = "CHI_sep_menu_title"
 	desc = "CHI_menu_sep_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144480 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144489
 	title = "CHI_sep_menu_title"
 	desc = "CHI_menu_sep_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144480 days = 0 }

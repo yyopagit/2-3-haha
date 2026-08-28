@@ -1,4 +1,4 @@
-# Ирригация: одно меню, опции по уровню через trigger
+# Water choice menus
 
 province_event = {
 	id = 144457
@@ -8,6 +8,10 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
@@ -20,6 +24,10 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
@@ -36,7 +44,7 @@ province_event = {
 			has_province_modifier = CHI_water_1
 			NOT = { has_province_modifier = CHI_hydro_cd }
 		}
-		set_province_flag = CHI_do_water_pay
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144494 days = 0 }
 	}
 	option = {
@@ -45,7 +53,7 @@ province_event = {
 			has_province_modifier = CHI_water_2
 			NOT = { has_province_modifier = CHI_hydro_cd }
 		}
-		set_province_flag = CHI_do_water_pay
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144494 days = 0 }
 	}
 	option = {
@@ -54,7 +62,7 @@ province_event = {
 			has_province_modifier = CHI_water_3
 			NOT = { has_province_modifier = CHI_hydro_cd }
 		}
-		set_province_flag = CHI_do_water_pay
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144494 days = 0 }
 	}
 	option = {
@@ -63,7 +71,7 @@ province_event = {
 			has_province_modifier = CHI_water_4
 			NOT = { has_province_modifier = CHI_hydro_cd }
 		}
-		set_province_flag = CHI_do_water_pay
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144494 days = 0 }
 	}
 	option = {
@@ -76,62 +84,65 @@ province_event = {
 			}
 			NOT = { has_province_modifier = CHI_hydro_cd }
 		}
-		set_province_flag = CHI_do_uniq_pay
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144495 days = 0 }
 	}
 	option = {
-		name = "CHI_sel_hydro_wait"
-		trigger = {
-			has_province_modifier = CHI_hydro_cd
-		}
-		province_event = { id = 144408 days = 0 }
-	}
-	option = {
 		name = "CHI_sel_back"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
 
-# Старые id уровней → то же меню (без immediate-вложения)
 province_event = {
 	id = 144471
 	title = "CHI_water_choice_title"
 	desc = "CHI_water_choice_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144470 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144472
 	title = "CHI_water_choice_title"
 	desc = "CHI_water_choice_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144470 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144473
 	title = "CHI_water_choice_title"
 	desc = "CHI_water_choice_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144470 days = 0 }
 	}
 }
+
 province_event = {
 	id = 144474
 	title = "CHI_water_choice_title"
 	desc = "CHI_water_choice_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
 		name = "CHI_sel_ok"
 		province_event = { id = 144470 days = 0 }

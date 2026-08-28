@@ -1,46 +1,52 @@
-# Подменю: еда / побережье / прочее — прямые province_event
+# Food / coast / misc submenus
+
 
 province_event = {
 	title = "CHI_menu_food_title"
 	desc = "CHI_menu_food_desc"
 	id = 144441
-	picture = "CHI"
+	picture = "Administration"
 	is_triggered_only = yes
 	option = {
 		name = "CHI_menu_hydro"
 		trigger = {
-			OR = {
-				has_province_modifier = CHI_hydro_cd
-				has_province_modifier = CHI_water_1
-				has_province_modifier = CHI_water_2
-				has_province_modifier = CHI_water_3
-				has_province_modifier = CHI_water_4
-				has_province_modifier = CHI_water_canal_silt
-				has_province_modifier = CHI_water_yangtze_nav
-				has_province_modifier = CHI_water_yellow_dikes
-			}
+				OR = {
+					has_province_modifier = CHI_hydro_cd
+					has_province_modifier = CHI_water_1
+					has_province_modifier = CHI_water_2
+					has_province_modifier = CHI_water_3
+					has_province_modifier = CHI_water_4
+					has_province_modifier = CHI_water_canal_silt
+					has_province_modifier = CHI_water_yangtze_nav
+					has_province_modifier = CHI_water_yellow_dikes
+				}
 		}
 		province_event = { id = 144470 days = 0 }
 	}
 	option = {
 		name = "CHI_menu_granary"
 		trigger = {
-			OR = {
-				has_province_modifier = CHI_famine_1
-				has_province_modifier = CHI_famine_2
-				has_province_modifier = CHI_famine_3
-				has_province_modifier = CHI_famine_4
-				has_province_modifier = CHI_food_cd
-				has_province_modifier = CHI_great_granary
-			}
+				OR = {
+					has_province_modifier = CHI_famine_1
+					has_province_modifier = CHI_famine_2
+					has_province_modifier = CHI_famine_3
+					has_province_modifier = CHI_famine_4
+					has_province_modifier = CHI_food_cd
+					has_province_modifier = CHI_great_granary
+				}
 		}
 		province_event = { id = 144475 days = 0 }
 	}
 	option = {
 		name = "CHI_sel_back"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
+
 
 province_event = {
 	title = "CHI_menu_coast_title"
@@ -52,7 +58,7 @@ province_event = {
 		name = "CHI_sel_port_piracy"
 		trigger = {
 			is_coastal = yes
-			naval_base = 1
+			has_building = naval_base
 			OR = {
 				has_province_modifier = CHI_piracy_2
 				has_province_modifier = CHI_piracy_3
@@ -60,19 +66,6 @@ province_event = {
 			}
 		}
 		province_event = { id = 144465 days = 0 }
-	}
-	option = {
-		name = "CHI_sel_port_piracy"
-		trigger = {
-			is_coastal = yes
-			NOT = { naval_base = 1 }
-			OR = {
-				has_province_modifier = CHI_piracy_2
-				has_province_modifier = CHI_piracy_3
-				has_province_modifier = CHI_piracy_4
-			}
-		}
-		province_event = { id = 144463 days = 0 }
 	}
 	option = {
 		name = "CHI_sel_fleet_piracy"
@@ -89,24 +82,15 @@ province_event = {
 		province_event = { id = 144466 days = 0 }
 	}
 	option = {
-		name = "CHI_sel_fleet_piracy"
-		trigger = {
-			is_coastal = yes
-			owner = { NOT = { total_amount_of_ships = 200 } }
-			OR = {
-				has_province_modifier = CHI_piracy_1
-				has_province_modifier = CHI_piracy_2
-				has_province_modifier = CHI_piracy_3
-				has_province_modifier = CHI_piracy_4
-			}
-		}
-		province_event = { id = 144464 days = 0 }
-	}
-	option = {
 		name = "CHI_sel_back"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
+
 
 province_event = {
 	title = "CHI_menu_misc_title"
@@ -122,14 +106,11 @@ province_event = {
 		province_event = { id = 144467 days = 0 }
 	}
 	option = {
-		name = "CHI_sel_depot"
-		trigger = {
-			owner = { NOT = { money = 500000 } }
-		}
-		province_event = { id = 144451 days = 0 }
-	}
-	option = {
 		name = "CHI_sel_back"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }

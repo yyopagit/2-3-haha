@@ -107,6 +107,9 @@ country_event = {
 		country_event = { id = 140410 days = 1 }
 		country_event = { id = 910001 days = 0 }
 		country_event = { id = 140413 days = 1 }
+		country_event = { id = 144405 days = 1 }
+		country_event = { id = 144436 days = 1 }
+		country_event = { id = 144492 days = 3 }
 		
 		###проверка изобретений колонизации
 		
@@ -1212,15 +1215,17 @@ province_event = {
 	title = "Selector_EvtName"
 	desc = "Selector_EvtDesc"
 	id = 144407
-	
+	picture = "Administration"
 	is_triggered_only = yes
-	
 	option = {
 		name = "Selector_EvtOptCancel"
 		province_selector = -1
 	}
 	option = {
 		name = "Selector_EvtOptSupplyDepot"
+		trigger = {
+			owner = { money = 500000 }
+		}
 		owner = {
 			money = -500000
 			any_owned = {
@@ -1230,6 +1235,13 @@ province_event = {
 		add_province_modifier = {
 			name = provincial_supply_depot_pmodifier
 			duration = -1
+		}
+		province_selector = -1
+	}
+	option = {
+		name = "CHI_need_500k"
+		trigger = {
+			owner = { NOT = { money = 500000 } }
 		}
 		province_selector = -1
 	}
@@ -1287,9 +1299,11 @@ country_event = {
 
 country_event = {
 	id = 99851
+	title = "noloc"
+	desc = "noloc"
 	is_triggered_only = yes
-	
 	option = {
+		name = "noloc"
 		any_country = {
 			social_reform = no_subsidies
 			social_reform = no_pensions

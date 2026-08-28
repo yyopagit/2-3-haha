@@ -8,6 +8,10 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
@@ -20,6 +24,10 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
@@ -32,24 +40,20 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
 
-# Одно меню амбара: wait / стройка / уже есть — разные имена кнопок
 province_event = {
 	id = 144475
 	title = "CHI_famine_choice_title"
 	desc = "CHI_famine_choice_desc"
 	picture = "Administration"
 	is_triggered_only = yes
-	option = {
-		name = "CHI_sel_food_wait"
-		trigger = {
-			has_province_modifier = CHI_food_cd
-		}
-		province_event = { id = 144523 days = 0 }
-	}
 	option = {
 		name = "CHI_sel_granary"
 		trigger = {
@@ -61,27 +65,15 @@ province_event = {
 			}
 			NOT = { has_province_modifier = CHI_food_cd }
 		}
-		set_province_flag = CHI_do_granary_pay
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144496 days = 0 }
 	}
 	option = {
-		name = "CHI_sel_has_granary"
-		trigger = {
-			has_province_modifier = CHI_great_granary
-			NOT = { has_province_modifier = CHI_food_cd }
-			NOT = {
-				OR = {
-					has_province_modifier = CHI_famine_1
-					has_province_modifier = CHI_famine_2
-					has_province_modifier = CHI_famine_3
-					has_province_modifier = CHI_famine_4
-				}
-			}
-		}
-		province_event = { id = 144460 days = 0 }
-	}
-	option = {
 		name = "CHI_sel_back"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }

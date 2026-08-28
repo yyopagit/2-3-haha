@@ -4,10 +4,14 @@ province_event = {
 	id = 144450
 	title = "CHI_need_200k"
 	desc = "CHI_need_money_desc"
-	picture = "CHI1"
+	picture = "Administration"
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
@@ -16,10 +20,14 @@ province_event = {
 	id = 144451
 	title = "CHI_need_500k"
 	desc = "CHI_need_money_desc"
-	picture = "CHI1"
+	picture = "Administration"
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
@@ -28,10 +36,14 @@ province_event = {
 	id = 144452
 	title = "CHI_need_1m"
 	desc = "CHI_need_money_desc"
-	picture = "CHI1"
+	picture = "Administration"
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
@@ -40,10 +52,14 @@ province_event = {
 	id = 144453
 	title = "CHI_need_15m"
 	desc = "CHI_need_money_desc"
-	picture = "CHI1"
+	picture = "Administration"
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
@@ -52,10 +68,14 @@ province_event = {
 	id = 144454
 	title = "CHI_need_2m"
 	desc = "CHI_need_money_desc"
-	picture = "CHI1"
+	picture = "Administration"
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
@@ -64,19 +84,23 @@ province_event = {
 	id = 144524
 	title = "CHI_need_goods"
 	desc = "CHI_need_goods_desc"
-	picture = "CHI1"
+	picture = "Administration"
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }
 
 province_event = {
 	id = 144467
-	title = "Selector_EvtOptSupplyDepot"
-	desc = "Selector_EvtDesc"
-	picture = "CHI1"
+	title = "CHI_depot_title"
+	desc = "CHI_depot_desc"
+	picture = "Administration"
 	is_triggered_only = yes
 	option = {
 		name = "Selector_EvtOptSupplyDepot"
@@ -97,6 +121,10 @@ province_event = {
 	}
 	option = {
 		name = "CHI_sel_back"
+		owner = {
+			any_owned = { remove_province_modifier = CHI_click_mark }
+		}
+		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144408 days = 0 }
 	}
 }

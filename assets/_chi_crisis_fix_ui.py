@@ -17,6 +17,8 @@ gen_region_or = ns["gen_region_or"]
 famine_drop_block = ns["famine_drop_block"]
 water_drop_block = ns["water_drop_block"]
 parse_chi_regions = ns["parse_chi_regions"]
+regions_used = ns["regions_used"]
+ids_trigger = ns["ids_trigger"]
 LEVELS = ns["LEVELS"]
 SKIP = ns["SKIP"]
 extract_event = ns["extract_event"]
@@ -27,9 +29,7 @@ build_loc = ns["build_loc"]
 
 
 def rids_used():
-    regions = parse_chi_regions()
-    used = {k: v for k, v in regions.items() if k in LEVELS and k not in SKIP}
-    return [k.split("_")[1] for k in used]
+    return ns["rids_used"]()
 
 
 def patch_pop_growth():
@@ -87,7 +87,7 @@ def pay_flag(flag, amount, corrupt_amount, level_mod=None, indent="\t\t"):
             blocks.append(
                 f"""{indent}random_owned = {{
 {indent}	limit = {{
-{indent}		has_province_flag = {flag}
+{indent}		has_province_modifier = CHI_click_mark
 {extra}{indent}	}}
 {indent}	owner = {{
 {body}
@@ -98,7 +98,7 @@ def pay_flag(flag, amount, corrupt_amount, level_mod=None, indent="\t\t"):
             blocks.append(
                 f"""{indent}random_owned = {{
 {indent}	limit = {{
-{indent}		has_province_flag = {flag}
+{indent}		has_province_modifier = CHI_click_mark
 {indent}		owner = {{ has_country_flag = CHI_pay_part }}
 {indent}		owner = {{ NOT = {{ has_country_flag = CHI_crisis_paid }} }}
 {indent}	}}
@@ -139,39 +139,27 @@ def if_paid(inner):
 				owner = {{
 {inner}
 				}}
-			}}
-			clr_country_flag = CHI_crisis_paid"""
+			}}"""
 
 
 def worker_immediate(rids, extra_after_act):
-    """Region worker: mark act from clicked province, apply effects, clear act.
-    Payment is already done on the menu option — do not gate on CHI_crisis_paid."""
+    """Apply region effects in immediate (Vic2: option effects wait for the click).
+    Reopen hub only from option — nested days=0 from immediate can CTD."""
     set_act = gen_set_act(rids)
     clr_act = gen_clr_act(rids)
-    return f"""	option = {{
-		name = "CHI_sel_ok"
-		set_province_flag = CHI_crisis_selected
+    return f"""	immediate = {{
+		add_province_modifier = {{ name = CHI_click_mark duration = -1 }}
 		owner = {{
 {set_act}
 {extra_after_act}
 {clr_act}
 			clr_country_flag = CHI_crisis_paid
 		}}
-		clr_province_flag = CHI_crisis_selected
-		owner = {{
-			clr_country_flag = CHI_mode_food
-			clr_country_flag = CHI_mode_sep
-			clr_country_flag = CHI_mode_water
-			clr_country_flag = CHI_mode_granary
-			clr_country_flag = CHI_mode_port
-			clr_country_flag = CHI_mode_fleet
-			clr_country_flag = CHI_mode_depot
-			clr_country_flag = CHI_mode_hub
-			set_country_flag = CHI_mode_hub
-			any_owned = {{ clr_province_flag = CHI_click }}
-		}}
-		set_province_flag = CHI_click
-		owner = {{ country_event = {{ id = 144440 days = 0 }} }}
+		remove_province_modifier = CHI_click_mark
+	}}
+	option = {{
+		name = "CHI_sel_ok"
+		province_event = {{ id = 144408 days = 0 }}
 	}}"""
 
 
@@ -195,15 +183,18 @@ def build_workers(rids):
 {orlim}
 					}}
 				}}
-				set_province_flag = CHI_do_waterfam
+				owner = {{ set_country_flag = CHI_do_waterfam }}
 			}}
 			random_owned = {{
-				limit = {{ has_province_flag = CHI_do_waterfam }}
+				limit = {{
+					is_capital = yes
+					owner = {{ has_country_flag = CHI_do_waterfam }}
+				}}
 				owner = {{
 {famine_drop_block(rids, indent="\t\t\t\t")}
+					clr_country_flag = CHI_do_waterfam
 				}}
-			}}
-			any_owned = {{ clr_province_flag = CHI_do_waterfam }}"""
+			}}"""
 
     # Always apply — menu option already charged money/goods.
     water_extra = wat_drop + "\n" + water_fam + "\n" + cd_add
@@ -215,6 +206,7 @@ def build_workers(rids):
 					}}
 				}}
 				add_province_modifier = {{ name = CHI_great_granary duration = -1 }}
+				add_province_modifier = {{ name = CHI_food_cd duration = 730 }}
 			}}
 {fam_drop}"""
     granary_extra = if_paid(granary_add)
@@ -234,7 +226,7 @@ def build_workers(rids):
 
     infra_extra = f"""			any_owned = {{
 				limit = {{
-					railroad = 2
+					has_building = railroad
 					OR = {{
 {orlim}
 					}}
@@ -248,7 +240,7 @@ def build_workers(rids):
 						NOT = {{
 							any_owned = {{
 								AND = {{
-									NOT = {{ railroad = 2 }}
+									NOT = {{ has_building = railroad }}
 									OR = {{
 {orlim}
 									}}
@@ -325,15 +317,18 @@ def build_workers(rids):
 {orlim}
 					}}
 				}}
-				set_province_flag = CHI_do_waterfam
+				owner = {{ set_country_flag = CHI_do_waterfam }}
 			}}
 			random_owned = {{
-				limit = {{ has_province_flag = CHI_do_waterfam }}
+				limit = {{
+					is_capital = yes
+					owner = {{ has_country_flag = CHI_do_waterfam }}
+				}}
 				owner = {{
 {famine_full_inner}
+					clr_country_flag = CHI_do_waterfam
 				}}
 			}}
-			any_owned = {{ clr_province_flag = CHI_do_waterfam }}
 			any_owned = {{
 				limit = {{
 					OR = {{
@@ -480,7 +475,7 @@ def build_slim_144408():
 		name = "CHI_sel_port_piracy"
 		trigger = {
 			is_coastal = yes
-			naval_base = 1
+			has_building = naval_base
 			OR = {
 				has_province_modifier = CHI_piracy_2
 				has_province_modifier = CHI_piracy_3
