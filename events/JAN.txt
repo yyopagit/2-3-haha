@@ -1225,27 +1225,25 @@ province_event = {
 	}
 	option = {
 		name = "Selector_EvtOptSupplyDepot"
-		trigger = {
-			owner = { money = 500000 }
-		}
 		owner = {
-			money = -500000
-			any_owned = {
-				remove_province_modifier = provincial_supply_depot_pmodifier
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					owner = { money = 500000 }
+				}
+				owner = {
+					money = -500000
+					any_owned = {
+						remove_province_modifier = provincial_supply_depot_pmodifier
+					}
+				}
+				add_province_modifier = {
+					name = provincial_supply_depot_pmodifier
+					duration = -1
+				}
+				province_selector = -1
 			}
 		}
-		add_province_modifier = {
-			name = provincial_supply_depot_pmodifier
-			duration = -1
-		}
-		province_selector = -1
-	}
-	option = {
-		name = "CHI_need_500k"
-		trigger = {
-			owner = { NOT = { money = 500000 } }
-		}
-		province_selector = -1
 	}
 }
 

@@ -7,6 +7,9 @@ province_event = {
 	desc = "CHI_pay_bribe_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	trigger = {
+		NOT = { has_province_modifier = CHI_sep_cd }
+	}
 	immediate = {
 		owner = {
 			clr_country_flag = CHI_crisis_paid

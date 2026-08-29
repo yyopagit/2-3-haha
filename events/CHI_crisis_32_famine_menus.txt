@@ -743,15 +743,6 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_granary"
-		trigger = {
-			OR = {
-				has_province_modifier = CHI_famine_1
-				has_province_modifier = CHI_famine_2
-				has_province_modifier = CHI_famine_3
-				has_province_modifier = CHI_famine_4
-			}
-			NOT = { has_province_modifier = CHI_food_cd }
-		}
 		province_event = { id = 144496 days = 0 }
 	}
 	option = {

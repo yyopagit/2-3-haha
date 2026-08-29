@@ -1955,6 +1955,9 @@ province_event = {
 	desc = "CHI_sel_tax_done_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	trigger = {
+		NOT = { has_province_modifier = CHI_sep_tax_cut }
+	}
 	immediate = {
 		owner = {
 			clr_country_flag = CHI_tax_stacked

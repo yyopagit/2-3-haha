@@ -7,6 +7,15 @@ province_event = {
 	desc = "CHI_pay_granary_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	trigger = {
+		OR = {
+			has_province_modifier = CHI_famine_1
+			has_province_modifier = CHI_famine_2
+			has_province_modifier = CHI_famine_3
+			has_province_modifier = CHI_famine_4
+		}
+		NOT = { has_province_modifier = CHI_food_cd }
+	}
 	immediate = {
 		owner = {
 			clr_country_flag = CHI_crisis_paid

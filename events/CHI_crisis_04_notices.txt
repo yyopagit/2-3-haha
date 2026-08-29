@@ -1572,11 +1572,11 @@ province_event = {
 	desc = "CHI_depot_desc"
 	picture = "Administration"
 	is_triggered_only = yes
+	trigger = {
+		owner = { money = 500000 }
+	}
 	option = {
 		name = "Selector_EvtOptSupplyDepot"
-		trigger = {
-			owner = { money = 500000 }
-		}
 		owner = {
 			money = -500000
 			any_owned = {
