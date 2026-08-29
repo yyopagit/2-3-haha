@@ -12,7 +12,7 @@ political_decisions = {
 		}
 		effect = {
 			inherit = AVA
-			AVA = { all_core = { add_core = SMZ remove_core = AVA } }
+			AVA = { all_core = { add_core = SMZ } }
 			set_country_flag = ava_annexed
 		}
 	}
@@ -31,7 +31,7 @@ political_decisions = {
 		}
 		effect = {
 			inherit = ASA
-			ASA = { all_core = { add_core = SMZ remove_core = ASA } }
+			ASA = { all_core = { add_core = SMZ } }
 			set_country_flag = asa_annexed
 		}
 	}
@@ -49,7 +49,7 @@ political_decisions = {
 		}
 		effect = {
 			inherit = YMT
-			YMT = { all_core = { add_core = SMZ remove_core = YMT } }
+			YMT = { all_core = { add_core = SMZ } }
 			set_country_flag = emperor_annexed
 		}
 	}
@@ -263,6 +263,7 @@ political_decisions = {
 				tag = JAP
 			}
 			owns = 1642
+			NOT = { has_country_flag = hokkaido_integrated }
 		}
 		allow = {
 			owns = 1642
@@ -271,6 +272,7 @@ political_decisions = {
 		effect = {
 			1643 = { secede_province = THIS life_rating = 34 }
 			1644 = { secede_province = THIS life_rating = 34 }
+			set_country_flag = hokkaido_integrated
 		}
 	}
 	
