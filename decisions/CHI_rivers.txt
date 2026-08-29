@@ -3,17 +3,20 @@ political_decisions = {
 		picture = build_kiel_canal
 		potential = {
 			tag = CHI
+			year = 1845
+			NOT = { has_country_modifier = CHI_yellow_old_course }
 			NOT = { has_country_flag = CHI_yellow_course_done }
-			NOT = { has_country_flag = CHI_yellow_dikes_nation_done }
-			any_owned_province = { has_province_modifier = CHI_water_yellow_dikes }
+			OR = {
+				has_country_modifier = CHI_yellow_problem_0
+				has_country_modifier = CHI_yellow_problem_1
+				has_country_modifier = CHI_yellow_problem_2
+				has_country_modifier = CHI_yellow_problem_3
+				has_country_modifier = CHI_yellow_problem_4
+				any_owned_province = { has_province_modifier = CHI_water_yellow_dikes }
+			}
 		}
 		allow = {
 			war = no
-			money = 2000000
-			OR = {
-				year = 1846
-				iron_railroad = 1
-			}
 		}
 		effect = {
 			country_event = { id = 144540 days = 0 }

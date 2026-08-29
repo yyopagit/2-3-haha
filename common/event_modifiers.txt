@@ -131,6 +131,26 @@ CHI_patchwork_empire = {
 CHI_inefficient_bureaucracy = {
 	icon = 52
 }
+CHI_inefficient_bureaucracy_4 = {
+	tax_efficiency = -0.11
+	administrative_efficiency_modifier = -0.13
+	icon = 52
+}
+CHI_inefficient_bureaucracy_3 = {
+	tax_efficiency = -0.08
+	administrative_efficiency_modifier = -0.10
+	icon = 52
+}
+CHI_inefficient_bureaucracy_2 = {
+	tax_efficiency = -0.05
+	administrative_efficiency_modifier = -0.06
+	icon = 52
+}
+CHI_inefficient_bureaucracy_1 = {
+	tax_efficiency = -0.02
+	administrative_efficiency_modifier = -0.03
+	icon = 52
+}
 CHI_separatism_peripheral = {
 	tax_efficiency = -0.05
 	land_organisation = -0.05
@@ -200,24 +220,24 @@ CHI_famine_4 = {
 	icon = 32
 }
 CHI_water_1 = {
-	farm_RGO_eff = -0.08
+	farm_RGO_eff = -0.24
 	immigrant_attract = -0.10
 	icon = 33
 }
 CHI_water_2 = {
-	farm_RGO_eff = -0.15
+	farm_RGO_eff = -0.45
 	immigrant_attract = -0.20
 	local_factory_throughput = -0.05
 	icon = 34
 }
 CHI_water_3 = {
-	farm_RGO_eff = -0.22
+	farm_RGO_eff = -0.66
 	immigrant_attract = -0.30
 	local_factory_throughput = -0.10
 	icon = 35
 }
 CHI_water_4 = {
-	farm_RGO_eff = -0.30
+	farm_RGO_eff = -0.90
 	immigrant_attract = -0.40
 	local_factory_throughput = -0.15
 	icon = 36
@@ -238,6 +258,30 @@ CHI_water_yellow_dikes = {
 	population_growth = -0.0006
 	immigrant_attract = -0.15
 	icon = 62
+}
+CHI_yellow_problem_0 = {
+	icon = 62
+}
+CHI_yellow_problem_1 = {
+	icon = 62
+}
+CHI_yellow_problem_2 = {
+	icon = 62
+}
+CHI_yellow_problem_3 = {
+	icon = 62
+}
+CHI_yellow_problem_4 = {
+	icon = 62
+}
+CHI_yellow_deadline = {
+	icon = 57
+}
+CHI_yellow_old_course = {
+	farm_RGO_eff = 0.20
+	mine_RGO_eff = 0.20
+	factory_throughput = 0.15
+	icon = 46
 }
 CHI_famine_tied_to_water = {
 	icon = 50

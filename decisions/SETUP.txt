@@ -102,6 +102,18 @@ political_decisions = {
 					name = CHI_patchwork_empire
 					duration = -1
 				}
+				add_country_modifier = {
+					name = CHI_inefficient_bureaucracy_3
+					duration = -1
+				}
+				add_country_modifier = {
+					name = CHI_yellow_problem_0
+					duration = -1
+				}
+				add_country_modifier = {
+					name = CHI_yellow_deadline
+					duration = 3288
+				}
 			any_owned = {
 				limit = {
 					OR = {
