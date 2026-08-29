@@ -89,7 +89,7 @@ political_decisions = {
 		}
 		allow = {
 			OR = {
-				AND = {	
+				AND = {
 					1181 = { owned_by = RUS }
 					1199 = { owned_by = RUS }
 					1191 = { owned_by = RUS }
