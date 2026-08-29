@@ -52,6 +52,7 @@ political_decisions = {
 	}
 	###Аннексия Вассалов
 	annex_TIB = {
+		picture = annex_TIB
 		potential = {
 			tag = CHI
 			has_country_flag = TIB_not_annexed
@@ -72,6 +73,7 @@ political_decisions = {
 		}
 	}
 	remove_TIB_debuff = {
+		picture = CHI_remove_separatism
 		potential = {
 			tag = CHI
 			has_country_flag = TIB_not_annexed
@@ -89,6 +91,7 @@ political_decisions = {
 		}
 	}
 	annex_MGL = {
+		picture = annex_MGL
 		potential = {
 			tag = CHI
 			has_country_flag = MGL_not_annexed
@@ -108,6 +111,7 @@ political_decisions = {
 		}
 	}
 	remove_MGL_debuff = {
+		picture = CHI_remove_separatism
 		potential = {
 			tag = CHI
 			has_country_flag = MGL_not_annexed
@@ -124,6 +128,7 @@ political_decisions = {
 		}
 	}
 	annex_MCK = {
+		picture = annex_MCK
 		potential = {
 			tag = CHI
 			has_country_flag = MCK_not_annexed
@@ -144,6 +149,7 @@ political_decisions = {
 		}
 	}
 	remove_MCK_debuff = {
+		picture = CHI_remove_separatism
 		potential = {
 			tag = CHI
 			has_country_flag = MCK_not_annexed
@@ -162,6 +168,7 @@ political_decisions = {
 	####Снятие дебаффов с регионов
 	###Экономическая зона желтого моря
 	CHI_yellowSea_zone_reduce_high = {
+		picture = CHI_yellowSea_zone
 		potential = {
 			tag = CHI
 			has_country_flag = yellowSea_zone_high
@@ -178,6 +185,7 @@ political_decisions = {
 		}
 	}
 	CHI_yellowSea_zone_reduce_medium = {
+		picture = CHI_yellowSea_zone
 		potential = {
 			tag = CHI
 			has_country_flag = yellowSea_zone_medium
@@ -193,6 +201,7 @@ political_decisions = {
 		}
 	}
 	CHI_yellowSea_zone_reduce_low = {
+		picture = CHI_yellowSea_zone
 		potential = {
 			tag = CHI
 			has_country_flag = yellowSea_zone_low

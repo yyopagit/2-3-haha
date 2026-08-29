@@ -68,15 +68,32 @@ def parse_chi_regions():
     return out
 
 
-def bar(level, maxl, width=20):
-    if maxl <= 0 or level <= 0:
-        return "§Y" + "|" * width + "§W"
-    filled = int(round(width * level / maxl))
+def bar(level, maxl, width=16):
+    """Fallback fill for loc_line (strips §). Modifier cards should use recog_bar + loc_mod_line."""
+    if maxl <= 0:
+        return "[" + "." * width + "]"
+    filled = int(round(width * max(0, int(level)) / maxl))
     filled = max(0, min(width, filled))
-    return "§R" + "|" * filled + "§Y" + "|" * (width - filled) + "§W"
+    return "[" + "#" * filled + "." * (width - filled) + "]"
+
+
+def recog_bar(filled, width=20):
+    """Same as recognition progress: green pipes done, red pipes left."""
+    filled = max(0, min(width, int(round(filled))))
+    return "§G" + "|" * filled + "§R" + "|" * (width - filled) + "§W"
 
 
 def loc_line(key, text):
+    clean = re.sub(r"§.", "", text.replace("\\n", ". ").replace("\n", ". "))
+    while "  " in clean:
+        clean = clean.replace("  ", " ")
+    clean = clean.replace(" .", ".").strip()
+    return f"{key};{clean};X;X;X;X;X;X\r\n"
+
+
+def loc_mod_line(key, text):
+    """Country/province modifier tooltip: keep § colours and Vic2 \\n."""
+    text = text.replace("\r\n", "\n").replace("\n", "\\n")
     return f"{key};{text};X;X;X;X;X;X\r\n"
 
 
@@ -103,8 +120,6 @@ CHI_patchwork_empire = {
 	icon = 17
 }
 CHI_inefficient_bureaucracy = {
-	tax_efficiency = -0.08
-	administrative_efficiency_modifier = -0.10
 	icon = 9
 }
 CHI_separatism_peripheral = {
@@ -151,53 +166,49 @@ CHI_separatism_4 = {
 CHI_famine_1 = {
 	population_growth = -0.001
 	immigrant_attract = -0.25
-	life_rating = -2
+	life_rating = -0.2
 	icon = 7
 }
 CHI_famine_2 = {
-	population_growth = -0.002
+	population_growth = -0.0013
 	immigrant_attract = -0.45
-	life_rating = -4
+	life_rating = -0.4
 	farm_RGO_eff = -0.05
 	icon = 7
 }
 CHI_famine_3 = {
-	population_growth = -0.003
+	population_growth = -0.0017
 	immigrant_attract = -0.70
-	life_rating = -6
+	life_rating = -0.6
 	farm_RGO_eff = -0.10
 	icon = 7
 }
 CHI_famine_4 = {
-	population_growth = -0.004
+	population_growth = -0.002
 	immigrant_attract = -1.00
-	life_rating = -8
+	life_rating = -0.8
 	farm_RGO_eff = -0.15
 	icon = 7
 }
 CHI_water_1 = {
 	farm_RGO_eff = -0.08
-	population_growth = -0.001
 	immigrant_attract = -0.10
 	icon = 8
 }
 CHI_water_2 = {
 	farm_RGO_eff = -0.15
-	population_growth = -0.001
 	immigrant_attract = -0.20
 	local_factory_throughput = -0.05
 	icon = 8
 }
 CHI_water_3 = {
 	farm_RGO_eff = -0.22
-	population_growth = -0.002
 	immigrant_attract = -0.30
 	local_factory_throughput = -0.10
 	icon = 8
 }
 CHI_water_4 = {
 	farm_RGO_eff = -0.30
-	population_growth = -0.002
 	immigrant_attract = -0.40
 	local_factory_throughput = -0.15
 	icon = 8
@@ -215,7 +226,7 @@ CHI_water_yangtze_nav = {
 }
 CHI_water_yellow_dikes = {
 	farm_RGO_eff = -0.20
-	population_growth = -0.001
+	population_growth = -0.0006
 	immigrant_attract = -0.15
 	icon = 8
 }
@@ -488,10 +499,6 @@ def build_setup(regions):
 					duration = -1
 				}}
 				add_country_modifier = {{
-					name = CHI_inefficient_bureaucracy
-					duration = -1
-				}}
-				add_country_modifier = {{
 					name = CHI_separatism_peripheral
 					duration = -1
 				}}
@@ -519,7 +526,7 @@ def gen_set_act(rids):
         lines.append(
             f"""			random_owned = {{
 				limit = {{
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 {idb}
 				}}
 				owner = {{ set_country_flag = CHI_act_{rid} }}
@@ -1014,12 +1021,12 @@ def build_loc():
             "При коррупции цена решений x2.",
         )
     )
-    add(loc_line("CHI_sel_granary", "Построить великий амбар в регионе (2 000 000, при коррупции 2x2 000 000)"))
-    add(loc_line("CHI_sel_water_1", "Починить гидротехнику I (500, при коррупции 1 000)"))
-    add(loc_line("CHI_sel_water_2", "Починить гидротехнику II (80 000, при коррупции 160 000)"))
-    add(loc_line("CHI_sel_water_3", "Починить гидротехнику III (400 000, при коррупции 800 000)"))
-    add(loc_line("CHI_sel_water_4", "Починить гидротехнику IV (1 000 000, при коррупции 2 000 000)"))
-    add(loc_line("CHI_sel_unique_water", "Снять особую речную проблему (канал / Янцзы / дамбы Хуанхэ)"))
+    add(loc_line("CHI_sel_granary", "Великий амбар"))
+    add(loc_line("CHI_sel_water_1", "Ремонт ирригации I"))
+    add(loc_line("CHI_sel_water_2", "Ремонт ирригации II"))
+    add(loc_line("CHI_sel_water_3", "Ремонт ирригации III"))
+    add(loc_line("CHI_sel_water_4", "Ремонт ирригации IV"))
+    add(loc_line("CHI_sel_unique_water", "Особые речные работы"))
     add(loc_line("CHI_sel_infra", "Инфраструктура 2-го уровня частично снимает голод"))
     add(loc_line("CHI_sel_port_piracy", "Порт ослабляет пиратство в этой провинции"))
     add(loc_line("CHI_sel_fleet_piracy", "Флот в 200 кораблей подавляет пиратство по всей стране"))
@@ -1046,10 +1053,26 @@ def build_loc():
     add(
         loc_line(
             "CHI_inefficient_bureaucracy_desc",
-            "Два уровня слабой власти вне ядра идут от этого модификатора.\\n"
-            f"Слабая власть (бюрократия): {bar(2, 5)}",
+            "Старая карточка без штрафа. Живой эффект — уровни I–IV в списке модификаторов страны.",
         )
     )
+    bureau_txt = {
+        4: "Худший разлад канцелярии: война или бунт. Налог -11, управление -13.",
+        3: "Старт Цин. Канцелярия слабая, но не развалена. Налог -8, управление -10.",
+        2: "Первые сдвиги: грамотность, реформа школ, мысль или спад коррупции. Налог -5, управление -6.",
+        1: "Почти собрана: грамотность и современная мысль. Налог -2, управление -3.",
+    }
+    roman_b = {1: "I", 2: "II", 3: "III", 4: "IV"}
+    for i in range(1, 5):
+        add(loc_line(f"CHI_inefficient_bureaucracy_{i}", f"Неэффективная бюрократия {roman_b[i]}"))
+        add(
+            loc_mod_line(
+                f"CHI_inefficient_bureaucracy_{i}_desc",
+                f"{bureau_txt[i]}\n"
+                "Снимается сама: растёт грамотность, появляются школы, осваивается современная мысль, падает коррупция.\n"
+                f"Прогресс: {recog_bar(20 * (4 - i) / 4)}",
+            )
+        )
     add(loc_line("CHI_separatism_peripheral", "Сепаратизм: периферийный"))
     add(
         loc_line(
@@ -1102,10 +1125,10 @@ def build_loc():
             )
         )
     fam_txt = {
-        1: "Прирост населения снижен, начинается исход.",
-        2: "Сильный удар по приросту и привлекательности.",
-        3: "Тяжёлый голод.",
-        4: "Катастрофический голод, исход из региона.",
+        1: "Прирост -0.1%/мес, начинается исход.",
+        2: "Прирост -0.13%/мес, сильный исход.",
+        3: "Прирост -0.17%/мес, тяжёлый голод.",
+        4: "Прирост -0.2%/мес, исход из региона.",
     }
     for i in range(1, 5):
         add(loc_line(f"CHI_famine_{i}", f"Голод {roman[i]}"))
@@ -1117,7 +1140,7 @@ def build_loc():
             )
         )
     wat_txt = {
-        1: "Сельское хозяйство и прирост ослаблены.",
+        1: "Сельское хозяйство ослаблено.",
         2: "Плюс штраф промышленности.",
         3: "Тяжёлая гидротехническая разруха.",
         4: "Река не управляется, поля и фабрики страдают.",
@@ -1128,7 +1151,7 @@ def build_loc():
             loc_line(
                 f"CHI_water_{i}_desc",
                 f"Проблемы водоснабжения.\\nУровень: {bar(i, 4)}\\n{wat_txt[i]}\\n"
-                "Бьёт по RGO, приросту и миграции. Снимается через селектор.",
+                "Бьёт по RGO и миграции. Снимается через селектор.",
             )
         )
     for i in range(1, 6):
@@ -1225,6 +1248,14 @@ LOC_KEYS = {
     "CHI_patchwork_empire_desc",
     "CHI_inefficient_bureaucracy",
     "CHI_inefficient_bureaucracy_desc",
+    "CHI_inefficient_bureaucracy_1",
+    "CHI_inefficient_bureaucracy_1_desc",
+    "CHI_inefficient_bureaucracy_2",
+    "CHI_inefficient_bureaucracy_2_desc",
+    "CHI_inefficient_bureaucracy_3",
+    "CHI_inefficient_bureaucracy_3_desc",
+    "CHI_inefficient_bureaucracy_4",
+    "CHI_inefficient_bureaucracy_4_desc",
     "CHI_separatism_peripheral",
     "CHI_separatism_peripheral_desc",
     "CHI_separatism_medium",
@@ -1437,6 +1468,101 @@ CHI_fleet_anti_piracy_ready = {{
 		total_amount_of_ships = 200
 	}}
 	prestige = 0.01
+}}
+CHI_inefficient_bureaucracy_4 = {{
+	trigger = {{
+		tag = CHI
+		OR = {{
+			war_exhaustion = 20
+			average_militancy = 6
+		}}
+		NOT = {{ literacy = 0.20 }}
+		NOT = {{ ideological_thought = 1 }}
+		NOT = {{ state_n_government = 1 }}
+		NOT = {{ has_country_flag = CHI_high_corruption_lost }}
+		school_reforms = no_schools
+	}}
+	tax_efficiency = -0.11
+	administrative_efficiency_modifier = -0.13
+	icon = 52
+}}
+CHI_inefficient_bureaucracy_3 = {{
+	trigger = {{
+		tag = CHI
+		NOT = {{ war_exhaustion = 20 }}
+		NOT = {{ average_militancy = 6 }}
+		NOT = {{ literacy = 0.20 }}
+		NOT = {{ ideological_thought = 1 }}
+		NOT = {{ state_n_government = 1 }}
+		NOT = {{ has_country_flag = CHI_high_corruption_lost }}
+		school_reforms = no_schools
+	}}
+	tax_efficiency = -0.08
+	administrative_efficiency_modifier = -0.10
+	icon = 52
+}}
+CHI_inefficient_bureaucracy_2 = {{
+	trigger = {{
+		tag = CHI
+		OR = {{
+			literacy = 0.20
+			ideological_thought = 1
+			state_n_government = 1
+			has_country_flag = CHI_high_corruption_lost
+			NOT = {{ school_reforms = no_schools }}
+		}}
+		NOT = {{
+			AND = {{
+				literacy = 0.30
+				OR = {{
+					ideological_thought = 1
+					state_n_government = 1
+					empiricism = 1
+				}}
+			}}
+		}}
+		NOT = {{
+			AND = {{
+				literacy = 0.45
+				has_country_flag = CHI_corruption_lost
+				OR = {{
+					state_n_government = 1
+					empiricism = 1
+					functionalism = 1
+				}}
+				NOT = {{ school_reforms = no_schools }}
+			}}
+		}}
+	}}
+	tax_efficiency = -0.05
+	administrative_efficiency_modifier = -0.06
+	icon = 52
+}}
+CHI_inefficient_bureaucracy_1 = {{
+	trigger = {{
+		tag = CHI
+		literacy = 0.30
+		OR = {{
+			ideological_thought = 1
+			state_n_government = 1
+			empiricism = 1
+		}}
+		NOT = {{
+			AND = {{
+				literacy = 0.45
+				has_country_flag = CHI_corruption_lost
+				OR = {{
+					state_n_government = 1
+					empiricism = 1
+					functionalism = 1
+				}}
+				NOT = {{ school_reforms = no_schools }}
+			}}
+		}}
+	}}
+	tax_efficiency = -0.02
+	administrative_efficiency_modifier = -0.03
+	icon = 52
 }}
 {end}
 """

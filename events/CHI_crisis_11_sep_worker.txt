@@ -7,11 +7,10 @@ province_event = {
 	picture = "Administration"
 	is_triggered_only = yes
 	immediate = {
-		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		owner = {
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1465 province_id = 2608 province_id = 2679 province_id = 1468 province_id = 2678 province_id = 1466 province_id = 2207 province_id = 1467
 					}
@@ -20,7 +19,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1594 province_id = 1600 province_id = 1598 province_id = 2607 province_id = 1597 province_id = 1595 province_id = 1596 province_id = 1599
 					}
@@ -29,7 +28,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1578 province_id = 1580 province_id = 1582 province_id = 1585 province_id = 1586
 					}
@@ -38,7 +37,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1601 province_id = 1506 province_id = 1602 province_id = 1603 province_id = 1505 province_id = 1507
 					}
@@ -47,7 +46,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1494 province_id = 1497 province_id = 1500
 					}
@@ -56,42 +55,42 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					province_id = 1498
 				}
 				owner = { set_country_flag = CHI_act_1498 }
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					province_id = 1496
 				}
 				owner = { set_country_flag = CHI_act_1496 }
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					province_id = 1538
 				}
 				owner = { set_country_flag = CHI_act_1538 }
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					province_id = 1566
 				}
 				owner = { set_country_flag = CHI_act_1566 }
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					province_id = 1481
 				}
 				owner = { set_country_flag = CHI_act_1481 }
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1532 province_id = 1535 province_id = 1534
 					}
@@ -100,7 +99,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1502 province_id = 1503 province_id = 1504 province_id = 1527 province_id = 1530
 					}
@@ -109,7 +108,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1002 province_id = 1533 province_id = 1553 province_id = 1554 province_id = 1552 province_id = 1555 province_id = 1479 province_id = 1480
 					}
@@ -118,7 +117,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1565 province_id = 1569 province_id = 1567 province_id = 1571
 					}
@@ -127,7 +126,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1612 province_id = 1618 province_id = 1615
 					}
@@ -136,7 +135,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1613 province_id = 1616 province_id = 1617
 					}
@@ -145,7 +144,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1576 province_id = 1572 province_id = 1573 province_id = 1575 province_id = 1574
 					}
@@ -154,7 +153,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1559 province_id = 2062 province_id = 1561 province_id = 1562
 					}
@@ -163,7 +162,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1488 province_id = 1490 province_id = 1489 province_id = 1491 province_id = 1492
 					}
@@ -172,7 +171,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1557 province_id = 1558 province_id = 1556
 					}
@@ -181,7 +180,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1581 province_id = 1579 province_id = 1577 province_id = 1583 province_id = 1584
 					}
@@ -190,7 +189,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1493 province_id = 1495 province_id = 1499 province_id = 1501
 					}
@@ -199,7 +198,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1482 province_id = 1487 province_id = 1484 province_id = 1486 province_id = 1483
 					}
@@ -208,7 +207,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1608 province_id = 1604 province_id = 1611 province_id = 1607 province_id = 1610 province_id = 1609 province_id = 1605 province_id = 1606
 					}
@@ -217,7 +216,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1539 province_id = 1537 province_id = 1541 province_id = 1540 province_id = 1544
 					}
@@ -226,7 +225,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 2221 province_id = 1476 province_id = 1477 province_id = 1536 province_id = 1542 province_id = 1543
 					}
@@ -235,7 +234,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1513 province_id = 1510 province_id = 1508 province_id = 1511 province_id = 1515 province_id = 1514
 					}
@@ -244,7 +243,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1614 province_id = 1564 province_id = 1563 province_id = 1568 province_id = 1570
 					}
@@ -253,7 +252,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1550 province_id = 1547 province_id = 1548 province_id = 1545 province_id = 1549 province_id = 1551 province_id = 1546
 					}
@@ -262,7 +261,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1473 province_id = 1475 province_id = 1471 province_id = 1470 province_id = 1474
 					}
@@ -271,7 +270,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1472 province_id = 1478 province_id = 1512 province_id = 1509
 					}
@@ -280,7 +279,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1523 province_id = 1519 province_id = 1521 province_id = 1520
 					}
@@ -289,7 +288,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1522 province_id = 1516 province_id = 1518 province_id = 1517
 					}
@@ -298,7 +297,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1529 province_id = 1526 province_id = 1525 province_id = 1528 province_id = 1524
 					}
@@ -307,7 +306,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 2562 province_id = 1485
 					}
@@ -316,7 +315,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1082 province_id = 1083 province_id = 1084 province_id = 1085 province_id = 2617
 					}
@@ -1661,11 +1660,291 @@ province_event = {
 			clr_country_flag = CHI_act_1082
 			clr_country_flag = CHI_crisis_paid
 		}
-		remove_province_modifier = CHI_click_mark
 	}
 	option = {
 		name = "CHI_sel_ok"
-		province_event = { id = 144408 days = 0 }
+		owner = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_separatism_1
+						has_province_modifier = CHI_separatism_2
+						has_province_modifier = CHI_separatism_3
+						has_province_modifier = CHI_separatism_4
+					}
+					OR = {
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+					}
+					is_coastal = yes
+					OR = {
+						has_province_modifier = CHI_piracy_1
+						has_province_modifier = CHI_piracy_2
+						has_province_modifier = CHI_piracy_3
+						has_province_modifier = CHI_piracy_4
+					}
+				}
+				province_event = { id = 144408 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_separatism_1
+						has_province_modifier = CHI_separatism_2
+						has_province_modifier = CHI_separatism_3
+						has_province_modifier = CHI_separatism_4
+					}
+					OR = {
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+					}
+					NOT = {
+						is_coastal = yes
+						OR = {
+							has_province_modifier = CHI_piracy_1
+							has_province_modifier = CHI_piracy_2
+							has_province_modifier = CHI_piracy_3
+							has_province_modifier = CHI_piracy_4
+						}
+					}
+				}
+				province_event = { id = 144409 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_separatism_1
+						has_province_modifier = CHI_separatism_2
+						has_province_modifier = CHI_separatism_3
+						has_province_modifier = CHI_separatism_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+						}
+					}
+					is_coastal = yes
+					OR = {
+						has_province_modifier = CHI_piracy_1
+						has_province_modifier = CHI_piracy_2
+						has_province_modifier = CHI_piracy_3
+						has_province_modifier = CHI_piracy_4
+					}
+				}
+				province_event = { id = 144410 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_separatism_1
+							has_province_modifier = CHI_separatism_2
+							has_province_modifier = CHI_separatism_3
+							has_province_modifier = CHI_separatism_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+					}
+					is_coastal = yes
+					OR = {
+						has_province_modifier = CHI_piracy_1
+						has_province_modifier = CHI_piracy_2
+						has_province_modifier = CHI_piracy_3
+						has_province_modifier = CHI_piracy_4
+					}
+				}
+				province_event = { id = 144411 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_separatism_1
+						has_province_modifier = CHI_separatism_2
+						has_province_modifier = CHI_separatism_3
+						has_province_modifier = CHI_separatism_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+						}
+					}
+					NOT = {
+						is_coastal = yes
+						OR = {
+							has_province_modifier = CHI_piracy_1
+							has_province_modifier = CHI_piracy_2
+							has_province_modifier = CHI_piracy_3
+							has_province_modifier = CHI_piracy_4
+						}
+					}
+				}
+				province_event = { id = 144412 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_separatism_1
+							has_province_modifier = CHI_separatism_2
+							has_province_modifier = CHI_separatism_3
+							has_province_modifier = CHI_separatism_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+					}
+					NOT = {
+						is_coastal = yes
+						OR = {
+							has_province_modifier = CHI_piracy_1
+							has_province_modifier = CHI_piracy_2
+							has_province_modifier = CHI_piracy_3
+							has_province_modifier = CHI_piracy_4
+						}
+					}
+				}
+				province_event = { id = 144413 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_separatism_1
+							has_province_modifier = CHI_separatism_2
+							has_province_modifier = CHI_separatism_3
+							has_province_modifier = CHI_separatism_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+						}
+					}
+					is_coastal = yes
+					OR = {
+						has_province_modifier = CHI_piracy_1
+						has_province_modifier = CHI_piracy_2
+						has_province_modifier = CHI_piracy_3
+						has_province_modifier = CHI_piracy_4
+					}
+				}
+				province_event = { id = 144414 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_separatism_1
+							has_province_modifier = CHI_separatism_2
+							has_province_modifier = CHI_separatism_3
+							has_province_modifier = CHI_separatism_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+						}
+					}
+					NOT = {
+						is_coastal = yes
+						OR = {
+							has_province_modifier = CHI_piracy_1
+							has_province_modifier = CHI_piracy_2
+							has_province_modifier = CHI_piracy_3
+							has_province_modifier = CHI_piracy_4
+						}
+					}
+				}
+				province_event = { id = 144415 days = 0 }
+			}
+		}
 	}
 }
 
@@ -1681,7 +1960,7 @@ province_event = {
 			clr_country_flag = CHI_tax_stacked
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1465 province_id = 2608 province_id = 2679 province_id = 1468 province_id = 2678 province_id = 1466 province_id = 2207 province_id = 1467
 					}
@@ -1690,7 +1969,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1594 province_id = 1600 province_id = 1598 province_id = 2607 province_id = 1597 province_id = 1595 province_id = 1596 province_id = 1599
 					}
@@ -1699,7 +1978,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1578 province_id = 1580 province_id = 1582 province_id = 1585 province_id = 1586
 					}
@@ -1708,7 +1987,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1601 province_id = 1506 province_id = 1602 province_id = 1603 province_id = 1505 province_id = 1507
 					}
@@ -1717,7 +1996,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1494 province_id = 1497 province_id = 1500
 					}
@@ -1726,42 +2005,42 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					province_id = 1498
 				}
 				owner = { set_country_flag = CHI_act_1498 }
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					province_id = 1496
 				}
 				owner = { set_country_flag = CHI_act_1496 }
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					province_id = 1538
 				}
 				owner = { set_country_flag = CHI_act_1538 }
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					province_id = 1566
 				}
 				owner = { set_country_flag = CHI_act_1566 }
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					province_id = 1481
 				}
 				owner = { set_country_flag = CHI_act_1481 }
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1532 province_id = 1535 province_id = 1534
 					}
@@ -1770,7 +2049,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1502 province_id = 1503 province_id = 1504 province_id = 1527 province_id = 1530
 					}
@@ -1779,7 +2058,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1002 province_id = 1533 province_id = 1553 province_id = 1554 province_id = 1552 province_id = 1555 province_id = 1479 province_id = 1480
 					}
@@ -1788,7 +2067,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1565 province_id = 1569 province_id = 1567 province_id = 1571
 					}
@@ -1797,7 +2076,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1612 province_id = 1618 province_id = 1615
 					}
@@ -1806,7 +2085,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1613 province_id = 1616 province_id = 1617
 					}
@@ -1815,7 +2094,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1576 province_id = 1572 province_id = 1573 province_id = 1575 province_id = 1574
 					}
@@ -1824,7 +2103,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1559 province_id = 2062 province_id = 1561 province_id = 1562
 					}
@@ -1833,7 +2112,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1488 province_id = 1490 province_id = 1489 province_id = 1491 province_id = 1492
 					}
@@ -1842,7 +2121,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1557 province_id = 1558 province_id = 1556
 					}
@@ -1851,7 +2130,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1581 province_id = 1579 province_id = 1577 province_id = 1583 province_id = 1584
 					}
@@ -1860,7 +2139,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1493 province_id = 1495 province_id = 1499 province_id = 1501
 					}
@@ -1869,7 +2148,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1482 province_id = 1487 province_id = 1484 province_id = 1486 province_id = 1483
 					}
@@ -1878,7 +2157,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1608 province_id = 1604 province_id = 1611 province_id = 1607 province_id = 1610 province_id = 1609 province_id = 1605 province_id = 1606
 					}
@@ -1887,7 +2166,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1539 province_id = 1537 province_id = 1541 province_id = 1540 province_id = 1544
 					}
@@ -1896,7 +2175,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 2221 province_id = 1476 province_id = 1477 province_id = 1536 province_id = 1542 province_id = 1543
 					}
@@ -1905,7 +2184,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1513 province_id = 1510 province_id = 1508 province_id = 1511 province_id = 1515 province_id = 1514
 					}
@@ -1914,7 +2193,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1614 province_id = 1564 province_id = 1563 province_id = 1568 province_id = 1570
 					}
@@ -1923,7 +2202,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1550 province_id = 1547 province_id = 1548 province_id = 1545 province_id = 1549 province_id = 1551 province_id = 1546
 					}
@@ -1932,7 +2211,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1473 province_id = 1475 province_id = 1471 province_id = 1470 province_id = 1474
 					}
@@ -1941,7 +2220,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1472 province_id = 1478 province_id = 1512 province_id = 1509
 					}
@@ -1950,7 +2229,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1523 province_id = 1519 province_id = 1521 province_id = 1520
 					}
@@ -1959,7 +2238,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1522 province_id = 1516 province_id = 1518 province_id = 1517
 					}
@@ -1968,7 +2247,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1529 province_id = 1526 province_id = 1525 province_id = 1528 province_id = 1524
 					}
@@ -1977,7 +2256,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 2562 province_id = 1485
 					}
@@ -1986,7 +2265,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					OR = {
 						province_id = 1082 province_id = 1083 province_id = 1084 province_id = 1085 province_id = 2617
 					}
@@ -2208,7 +2487,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_1 } }
 				}
@@ -2219,7 +2498,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_2 } }
 				}
@@ -2230,7 +2509,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_3 } }
 				}
@@ -2241,7 +2520,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_4 } }
 				}
@@ -2252,7 +2531,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_5 } }
 				}
@@ -2263,7 +2542,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_6 } }
 				}
@@ -2274,7 +2553,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_7 } }
 				}
@@ -2285,7 +2564,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_8 } }
 				}
@@ -2296,7 +2575,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_9 } }
 				}
@@ -2307,7 +2586,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_10 } }
 				}
@@ -2318,7 +2597,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_11 } }
 				}
@@ -2329,7 +2608,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_12 } }
 				}
@@ -2340,7 +2619,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_13 } }
 				}
@@ -2351,7 +2630,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_14 } }
 				}
@@ -2362,7 +2641,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_15 } }
 				}
@@ -2373,7 +2652,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_16 } }
 				}
@@ -2384,7 +2663,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_17 } }
 				}
@@ -2395,7 +2674,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_18 } }
 				}
@@ -2406,7 +2685,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_19 } }
 				}
@@ -2417,7 +2696,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_tax_stacked } }
 					owner = { NOT = { has_country_modifier = CHI_sep_tax_stack_20 } }
 				}
@@ -2468,7 +2747,7 @@ province_event = {
 		name = "CHI_sel_ok"
 		owner = {
 			random_owned = {
-				limit = { has_province_modifier = CHI_click_mark }
+				limit = { has_building = province_selector }
 				province_event = { id = 144513 days = 1 }
 			}
 			clr_country_flag = CHI_tax_stacked

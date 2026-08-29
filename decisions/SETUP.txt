@@ -95,10 +95,6 @@ political_decisions = {
 					duration = -1
 				}
 				add_country_modifier = {
-					name = CHI_inefficient_bureaucracy
-					duration = -1
-				}
-				add_country_modifier = {
 					name = CHI_separatism_peripheral
 					duration = -1
 				}

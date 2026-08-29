@@ -2,35 +2,45 @@
 # scriptable and usable for event-system below.
 ##################################################################################################
 #-------------------------------------------------------КИТАЙСКАЯ ИМПЕРИЯ КНР РЕСПУБЛИКА КИТАЙ-----------------------------------------
+# CHI icons 21-60 appended to gfx/interface/modifiers (vanilla 1-20 untouched)
+# 21-24 money bag  25-28 torn flag  29-32 bowl  33-36 flooded house  37-41 cracked crown
+# 42-45 skull+bones  46 barn  47 bread  48 gunboat  49 rice terraces  50 broken aqueduct
+# 51 patchwork  52 papers  53 tax bills  54 lost port  55 captured  56 banner
+# 57 hourglass  58-59 torch  60 seal  61 river junk  62 cracked dike
 honkong_lost = {
 	global_population_growth = -0.001
 	max_tariff = -0.05
 	tax_efficiency = -0.02
 	prestige = -0.05
+	icon = 54
 }
 macao_lost = {
 	global_population_growth = -0.001
 	max_tariff = -0.05
 	tax_efficiency = -0.02
 	prestige = -0.05
+	icon = 54
 }
 shankhai_lost = {
 	global_population_growth = -0.001
 	max_tariff = -0.05
 	tax_efficiency = -0.02
 	prestige = -0.05
+	icon = 54
 }
 zindao_lost = {
 	global_population_growth = -0.001
 	max_tariff = -0.05
 	tax_efficiency = -0.02
 	prestige = -0.05
+	icon = 54
 }
 port_arthur_lost = {
 	global_population_growth = -0.001
 	max_tariff = -0.05
 	tax_efficiency = -0.02
 	prestige = -0.05
+	icon = 54
 }
 honkong_captured = {
 	prestige = 0.1
@@ -39,6 +49,7 @@ honkong_captured = {
 	farm_RGO_eff = 0.1
 	mine_RGO_eff = 0.1
 	factory_output = 0.05
+	icon = 55
 }
 macao_captured = {
 	prestige = 0.1
@@ -47,6 +58,7 @@ macao_captured = {
 	farm_RGO_eff = 0.1
 	mine_RGO_eff = 0.1
 	factory_output = 0.05
+	icon = 55
 }
 shankhai_captured = {
 	prestige = 0.1
@@ -55,6 +67,7 @@ shankhai_captured = {
 	farm_RGO_eff = 0.1
 	mine_RGO_eff = 0.1
 	factory_output = 0.05
+	icon = 55
 }
 zindao_captured = {
 	prestige = 0.1
@@ -63,6 +76,7 @@ zindao_captured = {
 	farm_RGO_eff = 0.1
 	mine_RGO_eff = 0.1
 	factory_output = 0.05
+	icon = 55
 }
 port_arthur_captured = {
 	prestige = 0.1
@@ -71,36 +85,40 @@ port_arthur_captured = {
 	farm_RGO_eff = 0.1
 	mine_RGO_eff = 0.1
 	factory_output = 0.05
+	icon = 55
 }
 CHI_corruption_high = {
 	administrative_efficiency_modifier = -0.25
-	icon = 9
+	icon = 23
 }
 CHI_corruption_medium = {
 	administrative_efficiency_modifier = -0.15
-	icon = 9
+	icon = 22
 }
 CHI_corruption_low = {
 	administrative_efficiency_modifier = -0.05
-	icon = 9
+	icon = 21
 }
 CHI_corruption_no = {
-	
+	icon = 24
 }
 
 CHI_MGL_separatism = {
 	prestige = -0.025
 	land_organisation = -0.05
+	icon = 56
 }
 
 CHI_TIB_separatism = {
 	prestige = -0.025
 	land_organisation = -0.05
+	icon = 56
 }
 
 CHI_MCK_separatism = {
 	prestige = -0.025
 	land_organisation = -0.05
+	icon = 56
 }
 # CHI_CRISIS_WRAPPER1_START
 # Linear crisis wrappers (province + country). Actions go through selector 144408.
@@ -108,311 +126,319 @@ CHI_patchwork_empire = {
 	land_organisation = -0.10
 	reinforce_speed = 0.10
 	mobilisation_size = -0.04
-	icon = 17
+	icon = 51
 }
 CHI_inefficient_bureaucracy = {
-	tax_efficiency = -0.08
-	administrative_efficiency_modifier = -0.10
-	icon = 9
+	icon = 52
 }
 CHI_separatism_peripheral = {
 	tax_efficiency = -0.05
 	land_organisation = -0.05
 	reinforce_speed = -0.05
-	icon = 16
+	icon = 25
 }
 CHI_separatism_medium = {
 	tax_efficiency = -0.10
 	land_organisation = -0.10
 	reinforce_speed = -0.10
-	icon = 16
+	icon = 26
 }
 CHI_separatism_large = {
 	tax_efficiency = -0.15
 	land_organisation = -0.15
 	reinforce_speed = -0.15
-	icon = 16
+	icon = 27
 }
 CHI_separatism_1 = {
 	pop_militancy_modifier = 0.02
 	immigrant_attract = -0.10
-	icon = 16
+	icon = 25
 }
 CHI_separatism_2 = {
 	pop_militancy_modifier = 0.04
 	immigrant_attract = -0.20
 	local_RGO_output = -0.05
-	icon = 16
+	icon = 26
 }
 CHI_separatism_3 = {
 	pop_militancy_modifier = 0.07
 	immigrant_attract = -0.35
 	local_RGO_output = -0.10
-	icon = 16
+	icon = 27
 }
 CHI_separatism_4 = {
 	pop_militancy_modifier = 0.10
 	immigrant_attract = -0.50
 	local_RGO_output = -0.15
-	icon = 16
+	icon = 28
 }
 CHI_famine_1 = {
 	population_growth = -0.001
 	immigrant_attract = -0.25
-	life_rating = -2
-	icon = 7
+	life_rating = -0.2
+	icon = 29
 }
 CHI_famine_2 = {
-	population_growth = -0.002
+	population_growth = -0.0013
 	immigrant_attract = -0.45
-	life_rating = -4
+	life_rating = -0.4
 	farm_RGO_eff = -0.05
-	icon = 7
+	icon = 30
 }
 CHI_famine_3 = {
-	population_growth = -0.003
+	population_growth = -0.0017
 	immigrant_attract = -0.70
-	life_rating = -6
+	life_rating = -0.6
 	farm_RGO_eff = -0.10
-	icon = 7
+	icon = 31
 }
 CHI_famine_4 = {
-	population_growth = -0.004
+	population_growth = -0.002
 	immigrant_attract = -1.00
-	life_rating = -8
+	life_rating = -0.8
 	farm_RGO_eff = -0.15
-	icon = 7
+	icon = 32
 }
 CHI_water_1 = {
 	farm_RGO_eff = -0.08
-	population_growth = -0.001
 	immigrant_attract = -0.10
-	icon = 8
+	icon = 33
 }
 CHI_water_2 = {
 	farm_RGO_eff = -0.15
-	population_growth = -0.001
 	immigrant_attract = -0.20
 	local_factory_throughput = -0.05
-	icon = 8
+	icon = 34
 }
 CHI_water_3 = {
 	farm_RGO_eff = -0.22
-	population_growth = -0.002
 	immigrant_attract = -0.30
 	local_factory_throughput = -0.10
-	icon = 8
+	icon = 35
 }
 CHI_water_4 = {
 	farm_RGO_eff = -0.30
-	population_growth = -0.002
 	immigrant_attract = -0.40
 	local_factory_throughput = -0.15
-	icon = 8
+	icon = 36
 }
 CHI_water_canal_silt = {
 	local_factory_throughput = -0.25
 	local_RGO_output = -0.15
 	farm_RGO_eff = -0.10
-	icon = 8
+	icon = 50
 }
 CHI_water_yangtze_nav = {
 	local_factory_throughput = -0.20
 	local_RGO_output = -0.10
-	icon = 8
+	icon = 61
 }
 CHI_water_yellow_dikes = {
 	farm_RGO_eff = -0.20
-	population_growth = -0.001
+	population_growth = -0.0006
 	immigrant_attract = -0.15
-	icon = 8
+	icon = 62
 }
 CHI_famine_tied_to_water = {
-	icon = 5
+	icon = 50
 }
 CHI_weak_rule_1 = {
 	local_RGO_output = -0.04
 	farm_RGO_eff = -0.04
 	pop_militancy_modifier = 0.01
-	icon = 10
+	icon = 37
 }
 CHI_weak_rule_2 = {
 	local_RGO_output = -0.08
 	farm_RGO_eff = -0.08
 	pop_militancy_modifier = 0.02
-	icon = 10
+	icon = 38
 }
 CHI_weak_rule_3 = {
 	local_RGO_output = -0.12
 	farm_RGO_eff = -0.12
 	pop_militancy_modifier = 0.03
 	local_factory_throughput = -0.05
-	icon = 10
+	icon = 39
 }
 CHI_weak_rule_4 = {
 	local_RGO_output = -0.18
 	farm_RGO_eff = -0.18
 	pop_militancy_modifier = 0.04
 	local_factory_throughput = -0.10
-	icon = 10
+	icon = 40
 }
 CHI_weak_rule_5 = {
 	local_RGO_output = -0.25
 	farm_RGO_eff = -0.25
 	pop_militancy_modifier = 0.05
 	local_factory_throughput = -0.15
-	icon = 10
+	icon = 41
 }
 CHI_piracy_1 = {
 	local_RGO_output = -0.04
 	immigrant_attract = -0.10
-	icon = 13
+	icon = 42
 }
 CHI_piracy_2 = {
 	local_RGO_output = -0.08
 	immigrant_attract = -0.20
 	local_factory_throughput = -0.05
-	icon = 13
+	icon = 43
 }
 CHI_piracy_3 = {
 	local_RGO_output = -0.14
 	immigrant_attract = -0.35
 	local_factory_throughput = -0.10
-	icon = 13
+	icon = 44
 }
 CHI_piracy_4 = {
 	local_RGO_output = -0.20
 	immigrant_attract = -0.50
 	local_factory_throughput = -0.15
-	icon = 13
+	icon = 45
 }
 CHI_great_granary = {
 	population_growth = 0.0015
 	farm_RGO_eff = 0.08
 	immigrant_attract = 0.15
-	icon = 11
+	icon = 46
 }
 CHI_famine_infra_relief = {
 	population_growth = 0.001
 	immigrant_attract = 0.10
 	farm_RGO_eff = 0.04
-	icon = 11
+	icon = 47
 }
 CHI_port_anti_piracy = {
 	local_RGO_output = 0.04
-	icon = 13
+	icon = 48
 }
 CHI_hydro_cd = {
-	icon = 8
+	icon = 49
 }
 CHI_sep_cd = {
-	icon = 16
+	icon = 57
 }
 
 CHI_sep_tax_cut = {
-	icon = 9
+	icon = 53
 }
 CHI_sep_revolt_cd = {
-	icon = 16
+	icon = 57
 }
 CHI_sep_uprising = {
 	pop_militancy_modifier = 0.20
-	icon = 16
+	icon = 28
 }
 CHI_food_cd = {
-	icon = 7
+	icon = 57
 }
 CHI_sep_tax_stack_1 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_2 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_3 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_4 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_5 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_6 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_7 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_8 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_9 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_10 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_11 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_12 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_13 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_14 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_15 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_16 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_17 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_18 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_19 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_sep_tax_stack_20 = {
 	tax_efficiency = -0.04
-	icon = 9
+	icon = 53
 }
 CHI_click_mark = {
-	icon = 9
+	icon = 60
 }
 CHI_lvl_dropped = {
-	icon = 9
+	icon = 60
 }
 CHI_sep_revolt_pending = {
-	icon = 16
+	icon = 58
 }
 CHI_sep_revolt_won = {
-	icon = 16
+	icon = 59
+}
+CHI_canal_cd = {
+	icon = 8
+}
+CHI_yangtze_cd = {
+	icon = 8
+}
+CHI_yellow_cd = {
+	icon = 8
+}
+CHI_yellow_new_course = {
+	farm_RGO_eff = 0.03
+	immigrant_attract = 0.05
+	icon = 11
 }
 # CHI_CRISIS_WRAPPER1_END
 #-------------------------------------------------------ВЕЛИКОБРИТАНИЯ АНГЛИЯ ВБ-------------------------------------------------------

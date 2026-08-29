@@ -9,10 +9,239 @@ province_event = {
 	option = {
 		name = "CHI_sel_ok"
 		owner = {
-			any_owned = { remove_province_modifier = CHI_click_mark }
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144441 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144416 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144417 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144423 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144424 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144425 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144500 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144501 days = 0 }
+			}
 		}
-		add_province_modifier = { name = CHI_click_mark duration = -1 }
-		province_event = { id = 144408 days = 0 }
 	}
 }
 
@@ -25,10 +254,239 @@ province_event = {
 	option = {
 		name = "CHI_sel_ok"
 		owner = {
-			any_owned = { remove_province_modifier = CHI_click_mark }
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144441 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144416 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144417 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144423 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144424 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144425 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144500 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144501 days = 0 }
+			}
 		}
-		add_province_modifier = { name = CHI_click_mark duration = -1 }
-		province_event = { id = 144408 days = 0 }
 	}
 }
 
@@ -40,60 +498,244 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_water_1"
-		trigger = {
-			has_province_modifier = CHI_water_1
-			NOT = { has_province_modifier = CHI_hydro_cd }
-		}
-		add_province_modifier = { name = CHI_click_mark duration = -1 }
 		province_event = { id = 144494 days = 0 }
-	}
-	option = {
-		name = "CHI_sel_water_2"
-		trigger = {
-			has_province_modifier = CHI_water_2
-			NOT = { has_province_modifier = CHI_hydro_cd }
-		}
-		add_province_modifier = { name = CHI_click_mark duration = -1 }
-		province_event = { id = 144494 days = 0 }
-	}
-	option = {
-		name = "CHI_sel_water_3"
-		trigger = {
-			has_province_modifier = CHI_water_3
-			NOT = { has_province_modifier = CHI_hydro_cd }
-		}
-		add_province_modifier = { name = CHI_click_mark duration = -1 }
-		province_event = { id = 144494 days = 0 }
-	}
-	option = {
-		name = "CHI_sel_water_4"
-		trigger = {
-			has_province_modifier = CHI_water_4
-			NOT = { has_province_modifier = CHI_hydro_cd }
-		}
-		add_province_modifier = { name = CHI_click_mark duration = -1 }
-		province_event = { id = 144494 days = 0 }
-	}
-	option = {
-		name = "CHI_sel_unique_water"
-		trigger = {
-			OR = {
-				has_province_modifier = CHI_water_canal_silt
-				has_province_modifier = CHI_water_yangtze_nav
-				has_province_modifier = CHI_water_yellow_dikes
-			}
-			NOT = { has_province_modifier = CHI_hydro_cd }
-		}
-		add_province_modifier = { name = CHI_click_mark duration = -1 }
-		province_event = { id = 144495 days = 0 }
 	}
 	option = {
 		name = "CHI_sel_back"
 		owner = {
-			any_owned = { remove_province_modifier = CHI_click_mark }
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144441 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144416 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144417 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144423 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144424 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144425 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144500 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144501 days = 0 }
+			}
 		}
-		add_province_modifier = { name = CHI_click_mark duration = -1 }
-		province_event = { id = 144408 days = 0 }
 	}
 }
 
@@ -103,10 +745,246 @@ province_event = {
 	desc = "CHI_water_choice_desc"
 	picture = "Administration"
 	is_triggered_only = yes
-	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
-		name = "CHI_sel_ok"
-		province_event = { id = 144470 days = 0 }
+		name = "CHI_sel_water_2"
+		province_event = { id = 144497 days = 0 }
+	}
+	option = {
+		name = "CHI_sel_back"
+		owner = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144441 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144416 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144417 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144423 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144424 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144425 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144500 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144501 days = 0 }
+			}
+		}
 	}
 }
 
@@ -116,10 +994,246 @@ province_event = {
 	desc = "CHI_water_choice_desc"
 	picture = "Administration"
 	is_triggered_only = yes
-	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
-		name = "CHI_sel_ok"
-		province_event = { id = 144470 days = 0 }
+		name = "CHI_sel_water_3"
+		province_event = { id = 144498 days = 0 }
+	}
+	option = {
+		name = "CHI_sel_back"
+		owner = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144441 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144416 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144417 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144423 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144424 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144425 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144500 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144501 days = 0 }
+			}
+		}
 	}
 }
 
@@ -129,22 +1243,245 @@ province_event = {
 	desc = "CHI_water_choice_desc"
 	picture = "Administration"
 	is_triggered_only = yes
-	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
-		name = "CHI_sel_ok"
-		province_event = { id = 144470 days = 0 }
+		name = "CHI_sel_water_4"
+		province_event = { id = 144499 days = 0 }
 	}
-}
-
-province_event = {
-	id = 144474
-	title = "CHI_water_choice_title"
-	desc = "CHI_water_choice_desc"
-	picture = "Administration"
-	is_triggered_only = yes
-	immediate = { add_province_modifier = { name = CHI_click_mark duration = -1 } }
 	option = {
-		name = "CHI_sel_ok"
-		province_event = { id = 144470 days = 0 }
+		name = "CHI_sel_back"
+		owner = {
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144441 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144416 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144417 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144423 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					OR = {
+						has_province_modifier = CHI_hydro_cd
+						has_province_modifier = CHI_water_1
+						has_province_modifier = CHI_water_2
+						has_province_modifier = CHI_water_3
+						has_province_modifier = CHI_water_4
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144424 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_famine_1
+						has_province_modifier = CHI_famine_2
+						has_province_modifier = CHI_famine_3
+						has_province_modifier = CHI_famine_4
+						has_province_modifier = CHI_food_cd
+						has_province_modifier = CHI_great_granary
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144425 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					OR = {
+						has_province_modifier = CHI_water_canal_silt
+						has_province_modifier = CHI_water_yangtze_nav
+						has_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+				province_event = { id = 144500 days = 0 }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_hydro_cd
+							has_province_modifier = CHI_water_1
+							has_province_modifier = CHI_water_2
+							has_province_modifier = CHI_water_3
+							has_province_modifier = CHI_water_4
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_famine_1
+							has_province_modifier = CHI_famine_2
+							has_province_modifier = CHI_famine_3
+							has_province_modifier = CHI_famine_4
+							has_province_modifier = CHI_food_cd
+							has_province_modifier = CHI_great_granary
+						}
+					}
+					NOT = {
+						OR = {
+							has_province_modifier = CHI_water_canal_silt
+							has_province_modifier = CHI_water_yangtze_nav
+							has_province_modifier = CHI_water_yellow_dikes
+						}
+					}
+				}
+				province_event = { id = 144501 days = 0 }
+			}
+		}
 	}
 }

@@ -10,6 +10,7 @@ country_event = {
 	option = {
 		name = "noloc"
 		CHI = {
+			remove_country_modifier = CHI_inefficient_bureaucracy
 			any_owned = {
 				limit = {
 					has_building = naval_base
