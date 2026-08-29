@@ -125,7 +125,7 @@ country_event = {
 						NOT = { has_country_modifier = CHI_yellow_problem_2 }
 						NOT = { has_country_modifier = CHI_yellow_problem_3 }
 						NOT = { has_country_modifier = CHI_yellow_problem_4 }
-						any_owned_province = { has_province_modifier = CHI_water_yellow_dikes }
+						any_owned = { has_province_modifier = CHI_water_yellow_dikes }
 					}
 				}
 				owner = {
@@ -209,26 +209,6 @@ country_event = {
 					}
 					set_country_flag = CHI_patchwork_soldiers_cut
 				}
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = CHI_patchwork_empire
-						NOT = { has_country_flag = CHI_patchwork_empire }
-					}
-				}
-				owner = { set_country_flag = CHI_patchwork_empire }
-			}
-			random_owned = {
-				limit = {
-					is_capital = yes
-					owner = {
-						has_country_modifier = CHI_yellow_old_course
-						NOT = { has_country_flag = CHI_yellow_old_course }
-					}
-				}
-				owner = { set_country_flag = CHI_yellow_old_course }
 			}
 		}
 	}

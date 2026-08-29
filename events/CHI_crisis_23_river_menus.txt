@@ -253,15 +253,15 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_canal_silt"
-		province_event = { id = 144495 days = 0 }
+		JAN = { country_event = { id = 144495 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_yangtze_nav"
-		province_event = { id = 144531 days = 0 }
+		JAN = { country_event = { id = 144531 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_yellow_dikes"
-		province_event = { id = 144532 days = 0 }
+		JAN = { country_event = { id = 144532 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_back"
@@ -510,11 +510,11 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_canal_silt"
-		province_event = { id = 144495 days = 0 }
+		JAN = { country_event = { id = 144495 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_yangtze_nav"
-		province_event = { id = 144531 days = 0 }
+		JAN = { country_event = { id = 144531 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_back"
@@ -763,11 +763,11 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_canal_silt"
-		province_event = { id = 144495 days = 0 }
+		JAN = { country_event = { id = 144495 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_yellow_dikes"
-		province_event = { id = 144532 days = 0 }
+		JAN = { country_event = { id = 144532 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_back"
@@ -1016,11 +1016,11 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_yangtze_nav"
-		province_event = { id = 144531 days = 0 }
+		JAN = { country_event = { id = 144531 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_yellow_dikes"
-		province_event = { id = 144532 days = 0 }
+		JAN = { country_event = { id = 144532 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_back"
@@ -1269,7 +1269,7 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_canal_silt"
-		province_event = { id = 144495 days = 0 }
+		JAN = { country_event = { id = 144495 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_back"
@@ -1518,7 +1518,7 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_yangtze_nav"
-		province_event = { id = 144531 days = 0 }
+		JAN = { country_event = { id = 144531 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_back"
@@ -1767,7 +1767,7 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_yellow_dikes"
-		province_event = { id = 144532 days = 0 }
+		JAN = { country_event = { id = 144532 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_back"

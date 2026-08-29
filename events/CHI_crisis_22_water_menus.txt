@@ -493,12 +493,12 @@ province_event = {
 province_event = {
 	id = 144470
 	title = "CHI_water_choice_title"
-	desc = "CHI_water_choice_desc"
+	desc = "CHI_water_choice_1_desc"
 	picture = "Administration"
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_water_1"
-		province_event = { id = 144494 days = 0 }
+		JAN = { country_event = { id = 144494 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_back"
@@ -742,12 +742,12 @@ province_event = {
 province_event = {
 	id = 144471
 	title = "CHI_water_choice_title"
-	desc = "CHI_water_choice_desc"
+	desc = "CHI_water_choice_2_desc"
 	picture = "Administration"
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_water_2"
-		province_event = { id = 144497 days = 0 }
+		JAN = { country_event = { id = 144497 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_back"
@@ -991,12 +991,12 @@ province_event = {
 province_event = {
 	id = 144472
 	title = "CHI_water_choice_title"
-	desc = "CHI_water_choice_desc"
+	desc = "CHI_water_choice_3_desc"
 	picture = "Administration"
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_water_3"
-		province_event = { id = 144498 days = 0 }
+		JAN = { country_event = { id = 144498 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_back"
@@ -1240,12 +1240,12 @@ province_event = {
 province_event = {
 	id = 144473
 	title = "CHI_water_choice_title"
-	desc = "CHI_water_choice_desc"
+	desc = "CHI_water_choice_4_desc"
 	picture = "Administration"
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_water_4"
-		province_event = { id = 144499 days = 0 }
+		JAN = { country_event = { id = 144499 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_back"

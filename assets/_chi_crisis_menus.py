@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-"""China crisis selector — direct province_event chain (no country router on CHI).
+"""China crisis selector — province menus on CHI, pay/work on JAN.
 
-Vic2 shows country_event windows to the receiving tag. Firing a "silent" router on CHI
-dumps every any_owned effect into a visible popup (the spam you saw). Navigation is
-therefore only province_event → province_event on the clicked province.
+Vic2 dumps immediate money/goods onto the parchment (overlapping giant text).
+Player windows must not contain those effects. Pay stages and workers are
+country_events on JAN (AI auto-clicks). Player only sees clean notices.
 """
 from pathlib import Path
 import importlib.util
@@ -353,13 +353,15 @@ def fire_paid(flag, eid):
 					owner = {{ has_country_flag = CHI_crisis_paid }}
 					owner = {{ NOT = {{ has_country_flag = CHI_pay_fired }} }}
 				}}
-				owner = {{ set_country_flag = CHI_pay_fired }}
-				province_event = {{ id = {eid} days = 1 }}
+				owner = {{
+					set_country_flag = CHI_pay_fired
+					JAN = {{ country_event = {{ id = {eid} days = 0 }} }}
+				}}
 			}}"""
 
 
 def wait_cd(flag, cd_mod):
-    """Immediate only: block pay if CD is up. Do not fire events from immediate (Vic2 CTD)."""
+    """Block pay if CD is up. Do not fire events from immediate (Vic2 CTD)."""
     return f"""			random_owned = {{
 				limit = {{
 					has_building = province_selector
@@ -428,27 +430,23 @@ def build_pay_dispatcher():
         4: fire_need("CHI_do_water_pay", "CHI_water_4", 144454),
     }
     def stage(eid, imm_body, opt_body, title, desc):
-        # Immediate: money/goods only. Option: follow-up events.
-        # Vic2 CTDs if province_event is fired from immediate.
+        # JAN country_event: AI auto-clicks, player never sees money/goods dump.
+        # Follow-ups (wait / not enough / goods) fire from this option, never
+        # from immediate (Vic2 CTDs on province_event from immediate).
         return f"""
-province_event = {{
+country_event = {{
 	id = {eid}
-	title = "{title}"
-	desc = "{desc}"
-	picture = "Administration"
+	title = "noloc"
+	desc = "noloc"
 	is_triggered_only = yes
-	immediate = {{
-		owner = {{
+	option = {{
+		name = "noloc"
+		CHI = {{
 			clr_country_flag = CHI_crisis_paid
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
 			clr_country_flag = CHI_pay_wait
 {imm_body}
-		}}
-	}}
-	option = {{
-		name = "CHI_sel_ok"
-		owner = {{
 {opt_body}
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
@@ -484,7 +482,7 @@ province_event = {{
             f"""{wait_cd("CHI_do_bribe", "CHI_sep_cd")}
 {bribe_pay}""",
             f"""{fire_wait(144456)}
-{fire_paid("CHI_do_bribe", 144437)}
+{fire_paid("CHI_do_bribe", 144556)}
 {bribe_fail}""",
             "CHI_pay_bribe",
             "CHI_pay_bribe_desc",
@@ -494,7 +492,7 @@ province_event = {{
             f"""{wait_cd("CHI_do_water_pay", "CHI_hydro_cd")}
 {water_level_pay(1, WATER_REPAIR[1])}""",
             f"""{fire_wait(144458)}
-{fire_paid("CHI_do_water_pay", 144431)}
+{fire_paid("CHI_do_water_pay", 144551)}
 {water_need[1]}
 {fire_goods_fallback("CHI_do_water_pay")}""",
             "CHI_pay_water_1",
@@ -505,7 +503,7 @@ province_event = {{
             f"""{wait_cd("CHI_do_water_pay", "CHI_hydro_cd")}
 {water_level_pay(2, WATER_REPAIR[2])}""",
             f"""{fire_wait(144458)}
-{fire_paid("CHI_do_water_pay", 144431)}
+{fire_paid("CHI_do_water_pay", 144551)}
 {water_need[2]}
 {fire_goods_fallback("CHI_do_water_pay")}""",
             "CHI_pay_water_2",
@@ -516,7 +514,7 @@ province_event = {{
             f"""{wait_cd("CHI_do_water_pay", "CHI_hydro_cd")}
 {water_level_pay(3, WATER_REPAIR[3])}""",
             f"""{fire_wait(144458)}
-{fire_paid("CHI_do_water_pay", 144431)}
+{fire_paid("CHI_do_water_pay", 144551)}
 {water_need[3]}
 {fire_goods_fallback("CHI_do_water_pay")}""",
             "CHI_pay_water_3",
@@ -527,7 +525,7 @@ province_event = {{
             f"""{wait_cd("CHI_do_water_pay", "CHI_hydro_cd")}
 {water_level_pay(4, WATER_REPAIR[4])}""",
             f"""{fire_wait(144458)}
-{fire_paid("CHI_do_water_pay", 144431)}
+{fire_paid("CHI_do_water_pay", 144551)}
 {water_need[4]}
 {fire_goods_fallback("CHI_do_water_pay")}""",
             "CHI_pay_water_4",
@@ -538,7 +536,7 @@ province_event = {{
             f"""{wait_cd("CHI_do_canal_pay", "CHI_canal_cd")}
 {canal_goods_pay()}""",
             f"""{fire_wait(144536)}
-{fire_paid("CHI_do_canal_pay", 144433)}
+{fire_paid("CHI_do_canal_pay", 144553)}
 {fire_need("CHI_do_canal_pay", "CHI_water_canal_silt", 144452)}
 {fire_goods_fallback("CHI_do_canal_pay")}""",
             "CHI_pay_canal",
@@ -549,7 +547,7 @@ province_event = {{
             f"""{wait_cd("CHI_do_yangtze_pay", "CHI_yangtze_cd")}
 {yangtze_goods_pay()}""",
             f"""{fire_wait(144536)}
-{fire_paid("CHI_do_yangtze_pay", 144534)}
+{fire_paid("CHI_do_yangtze_pay", 144554)}
 {fire_need("CHI_do_yangtze_pay", "CHI_water_yangtze_nav", 144452)}
 {fire_goods_fallback("CHI_do_yangtze_pay")}""",
             "CHI_pay_yangtze",
@@ -560,7 +558,7 @@ province_event = {{
             f"""{wait_cd("CHI_do_yellow_pay", "CHI_yellow_cd")}
 {yellow_goods_pay()}""",
             f"""{fire_wait(144536)}
-{fire_paid("CHI_do_yellow_pay", 144535)}
+{fire_paid("CHI_do_yellow_pay", 144555)}
 {fire_need("CHI_do_yellow_pay", "CHI_water_yellow_dikes", 144452)}
 {fire_goods_fallback("CHI_do_yellow_pay")}""",
             "CHI_pay_yellow",
@@ -569,7 +567,7 @@ province_event = {{
         "granary": stage(
             144496,
             granary_goods_pay(),
-            f"""{fire_paid("CHI_do_granary_pay", 144432)}
+            f"""{fire_paid("CHI_do_granary_pay", 144552)}
 			random_owned = {{
 				limit = {{
 					has_building = province_selector
@@ -636,7 +634,7 @@ def confirm(eid, title, desc, opt_name, opt_effect, back_id):
 
 
 def pay_click(flag, pay_id):
-    return f"		province_event = {{ id = {pay_id} days = 0 }}"
+    return f"		JAN = {{ country_event = {{ id = {pay_id} days = 0 }} }}"
 
 
 def bribe_sep_effect():
@@ -1019,7 +1017,7 @@ def _water_choice_menu(eid, level):
     return f"""province_event = {{
 	id = {eid}
 	title = "CHI_water_choice_title"
-	desc = "CHI_water_choice_desc"
+	desc = "CHI_water_choice_{level}_desc"
 	picture = "Administration"
 	is_triggered_only = yes
 {joined}
@@ -1048,24 +1046,24 @@ def _river_menu(eid, canal, yangtze, yellow):
     opts = []
     if canal:
         opts.append(
-            """	option = {
+            f"""	option = {{
 		name = "CHI_sel_canal_silt"
-		province_event = { id = 144495 days = 0 }
-	}"""
+{pay_click("CHI_do_canal_pay", 144495)}
+	}}"""
         )
     if yangtze:
         opts.append(
-            """	option = {
+            f"""	option = {{
 		name = "CHI_sel_yangtze_nav"
-		province_event = { id = 144531 days = 0 }
-	}"""
+{pay_click("CHI_do_yangtze_pay", 144531)}
+	}}"""
         )
     if yellow:
         opts.append(
-            """	option = {
+            f"""	option = {{
 		name = "CHI_sel_yellow_dikes"
-		province_event = { id = 144532 days = 0 }
-	}"""
+{pay_click("CHI_do_yellow_pay", 144532)}
+	}}"""
         )
     opts.append(
         f"""	option = {{
@@ -2561,7 +2559,7 @@ def patch_loc():
             "В этом регионе уже идёт ремонт ирригации. Следующий заказ здесь примерно через 2.5 года. Другие регионы можно чинить отдельно.",
         ),
         loc_line("CHI_famine_choice_title", "Голод региона"),
-        loc_line("CHI_famine_choice_desc", "Великий амбар снижает голод на 1 уровень. Стоимость из складов: дерево 250, цемент 150, железо 100, пиломатериалы 80. Если программа уже идёт, кнопки амбара нет — повтор 2 года. Если амбар уже стоит и голода нет, заказывать нечего."),
+        loc_line("CHI_famine_choice_desc", "Великий амбар снижает голод на 1 уровень и даёт +5% к сельскому хозяйству региона. Прирост населения не даёт. Стоимость из складов: дерево 250, цемент 150, железо 100, пиломатериалы 80. Если программа уже идёт, кнопки амбара нет - повтор 2 года. Если амбар уже стоит и голода нет, заказывать нечего."),
         loc_line("CHI_sel_no_famine_desc", "В этой провинции нет голода."),
         loc_line("CHI_sel_has_granary_desc", "Великий амбар в регионе уже стоит."),
         loc_line("CHI_sel_food_wait", "Продовольственная программа идёт"),
@@ -2575,7 +2573,7 @@ def patch_loc():
         ),
         loc_line("CHI_sel_hydro_wait", "Ремонт ирригации в регионе уже идёт (~2.5 года)"),
         loc_line("CHI_great_granary", "Великий амбар"),
-        loc_line("CHI_great_granary_desc", "Казённый амбар региона. Частично держит зерно и людей."),
+        loc_line("CHI_great_granary_desc", "Казённый амбар региона. Снимает ступень голода. Сам прирост населения не даёт. Сельское хозяйство региона +5%."),
         loc_line("CHI_famine_tied_to_water", "Голод связан с водой"),
         loc_line("CHI_famine_tied_to_water_desc", "Ремонт ирригации также снижает такой голод на 1 уровень."),
         loc_line("CHI_water_canal_silt", "Заиление Великого канала"),
@@ -2591,7 +2589,7 @@ def patch_loc():
         loc_line("CHI_water_yellow_dikes", "Дамбы Хуанхэ"),
         loc_line(
             "CHI_water_yellow_dikes_desc",
-            "Угроза прорыва Хуанхэ: поля и еда под ударом. Селектор чинит дамбы сразу во всём регионе. Старое русло: 5 регионов. Новое русло — решение двора.",
+            "Угроза прорыва Хуанхэ: поля и еда под ударом. Селектор чинит дамбы сразу во всём регионе. Пять регионов: Южный Чжили, Хэнань, Нанкин, Шаньдун, Циндао. Новое русло - решение двора.",
         ),
         loc_line("CHI_canal_cd", "Очистка канала"),
         loc_line("CHI_canal_cd_desc", "В регионе уже чистят канал от ила. Повтор примерно через 2.5 года."),

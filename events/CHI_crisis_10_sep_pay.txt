@@ -1,17 +1,14 @@
 # Separatism bribe pay stage
 
 
-province_event = {
+country_event = {
 	id = 144493
-	title = "CHI_pay_bribe"
-	desc = "CHI_pay_bribe_desc"
-	picture = "Administration"
+	title = "noloc"
+	desc = "noloc"
 	is_triggered_only = yes
-	trigger = {
-		NOT = { has_province_modifier = CHI_sep_cd }
-	}
-	immediate = {
-		owner = {
+	option = {
+		name = "noloc"
+		CHI = {
 			clr_country_flag = CHI_crisis_paid
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
@@ -49,11 +46,7 @@ province_event = {
 				set_country_flag = CHI_crisis_paid
 			}
 		}
-		}
-	}
-	option = {
-		name = "CHI_sel_ok"
-		owner = {
+		
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -68,8 +61,10 @@ province_event = {
 					owner = { has_country_flag = CHI_crisis_paid }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
-				owner = { set_country_flag = CHI_pay_fired }
-				province_event = { id = 144437 days = 1 }
+				owner = {
+					set_country_flag = CHI_pay_fired
+					JAN = { country_event = { id = 144556 days = 0 } }
+				}
 			}
 			random_owned = {
 				limit = {
@@ -93,6 +88,7 @@ province_event = {
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
 			clr_country_flag = CHI_pay_wait
+		
 		}
 	}
 }

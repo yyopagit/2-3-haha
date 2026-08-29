@@ -391,22 +391,13 @@ def fire_matching_river():
 
 
 def worker_immediate(rids, extra_after_act):
-    """Apply region effects in immediate (Vic2: option effects wait for the click).
-    Reopen hub only from option — nested days=0 from immediate can CTD."""
+    """CHI body for the silent JAN worker (no player tooltip dump)."""
     set_act = gen_set_act(rids)
     clr_act = gen_clr_act(rids)
-    return f"""	immediate = {{
-		owner = {{
-{set_act}
+    return f"""{set_act}
 {extra_after_act}
 {clr_act}
-			clr_country_flag = CHI_crisis_paid
-		}}
-	}}
-	option = {{
-		name = "CHI_sel_ok"
-{fire_matching_hub()}
-	}}"""
+			clr_country_flag = CHI_crisis_paid"""
 
 
 def build_workers(rids):
@@ -601,27 +592,51 @@ def build_workers(rids):
     )
     famine_full_extra = if_paid(famine_full_add)
 
-    def ev(eid, title, desc, extra):
-        return f"""province_event = {{
+    def ev(eid, work_id, title, desc, extra):
+        # JAN country_event does the work (AI auto-clicks, player never sees the dump).
+        # Player gets a clean province notice with no effects.
+        body = worker_immediate(rids, extra)
+        return f"""country_event = {{
+	id = {work_id}
+	title = "noloc"
+	desc = "noloc"
+	is_triggered_only = yes
+	option = {{
+		name = "noloc"
+		CHI = {{
+{body}
+			random_owned = {{
+				limit = {{ has_building = province_selector }}
+				province_event = {{ id = {eid} days = 0 }}
+				province_selector = -1
+			}}
+		}}
+	}}
+}}
+
+province_event = {{
 	id = {eid}
 	title = "{title}"
 	desc = "{desc}"
 	picture = "Administration"
 	is_triggered_only = yes
-{worker_immediate(rids, extra)}
+	option = {{
+		name = "CHI_sel_ok"
+		province_selector = -1
+	}}
 }}
 """
 
     return {
-        "water": ev(144431, "CHI_sel_water_done", "CHI_sel_water_done_desc", water_extra),
-        "granary": ev(144432, "CHI_sel_granary_done", "CHI_sel_granary_done_desc", granary_extra),
-        "unique": ev(144433, "CHI_sel_canal_done", "CHI_sel_canal_done_desc", river_add("CHI_water_canal_silt", "CHI_canal_cd")),
-        "yangtze": ev(144534, "CHI_sel_yangtze_done", "CHI_sel_yangtze_done_desc", river_add("CHI_water_yangtze_nav", "CHI_yangtze_cd")),
-        "yellow": ev(144535, "CHI_sel_yellow_done", "CHI_sel_yellow_done_desc", river_add("CHI_water_yellow_dikes", "CHI_yellow_cd")),
-        "sep": ev(144437, "CHI_sel_sep_done", "CHI_sel_sep_done_desc", sep_extra),
-        "sep_full": ev(144505, "CHI_sel_sep_full_done", "CHI_sel_sep_full_done_desc", sep_full_extra),
-        "water_full": ev(144508, "CHI_sel_water_full_done", "CHI_sel_water_full_done_desc", water_full_extra),
-        "famine_full": ev(144511, "CHI_sel_famine_full_done", "CHI_sel_famine_full_done_desc", famine_full_extra),
+        "water": ev(144431, 144551, "CHI_sel_water_done", "CHI_sel_water_done_desc", water_extra),
+        "granary": ev(144432, 144552, "CHI_sel_granary_done", "CHI_sel_granary_done_desc", granary_extra),
+        "unique": ev(144433, 144553, "CHI_sel_canal_done", "CHI_sel_canal_done_desc", river_add("CHI_water_canal_silt", "CHI_canal_cd")),
+        "yangtze": ev(144534, 144554, "CHI_sel_yangtze_done", "CHI_sel_yangtze_done_desc", river_add("CHI_water_yangtze_nav", "CHI_yangtze_cd")),
+        "yellow": ev(144535, 144555, "CHI_sel_yellow_done", "CHI_sel_yellow_done_desc", river_add("CHI_water_yellow_dikes", "CHI_yellow_cd")),
+        "sep": ev(144437, 144556, "CHI_sel_sep_done", "CHI_sel_sep_done_desc", sep_extra),
+        "sep_full": ev(144505, 144557, "CHI_sel_sep_full_done", "CHI_sel_sep_full_done_desc", sep_full_extra),
+        "water_full": ev(144508, 144558, "CHI_sel_water_full_done", "CHI_sel_water_full_done_desc", water_full_extra),
+        "famine_full": ev(144511, 144559, "CHI_sel_famine_full_done", "CHI_sel_famine_full_done_desc", famine_full_extra),
     }
 
 
@@ -806,7 +821,7 @@ def patch_loc():
     add.append(loc_line("CHI_sel_water_done", "Ирригация"))
     add.append(loc_line("CHI_sel_water_done_desc", "Работы в регионе закончены. Уровень проблемы с водой снижен на 1. В этом регионе следующий ремонт примерно через 2.5 года."))
     add.append(loc_line("CHI_sel_granary_done", "Великий амбар"))
-    add.append(loc_line("CHI_sel_granary_done_desc", "Амбар заложен по всему региону. Голод снижен на 1 уровень."))
+    add.append(loc_line("CHI_sel_granary_done_desc", "Амбар заложен по всему региону. Голод снижен на 1 уровень. Сельское хозяйство +5%. Прирост населения амбар не даёт."))
     add.append(loc_line("CHI_sel_unique_done", "Речные работы"))
     add.append(loc_line("CHI_sel_unique_done_desc", "Особая речная проблема региона снята. В этом регионе повтор примерно через 2.5 года."))
     add.append(loc_line("CHI_sel_infra_done", "Инфраструктура"))

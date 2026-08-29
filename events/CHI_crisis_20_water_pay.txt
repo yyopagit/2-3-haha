@@ -1,14 +1,14 @@
 # Water + river project pay stages
 
 
-province_event = {
+country_event = {
 	id = 144494
-	title = "CHI_pay_water_1"
-	desc = "CHI_pay_water_1_desc"
-	picture = "Administration"
+	title = "noloc"
+	desc = "noloc"
 	is_triggered_only = yes
-	immediate = {
-		owner = {
+	option = {
+		name = "noloc"
+		CHI = {
 			clr_country_flag = CHI_crisis_paid
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
@@ -70,11 +70,7 @@ province_event = {
 					set_country_flag = CHI_crisis_paid
 				}
 			}
-		}
-	}
-	option = {
-		name = "CHI_sel_ok"
-		owner = {
+		
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -89,8 +85,10 @@ province_event = {
 					owner = { has_country_flag = CHI_crisis_paid }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
-				owner = { set_country_flag = CHI_pay_fired }
-				province_event = { id = 144431 days = 1 }
+				owner = {
+					set_country_flag = CHI_pay_fired
+					JAN = { country_event = { id = 144551 days = 0 } }
+				}
 			}
 			random_owned = {
 				limit = {
@@ -114,19 +112,20 @@ province_event = {
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
 			clr_country_flag = CHI_pay_wait
+		
 		}
 	}
 }
 
 
-province_event = {
+country_event = {
 	id = 144497
-	title = "CHI_pay_water_2"
-	desc = "CHI_pay_water_2_desc"
-	picture = "Administration"
+	title = "noloc"
+	desc = "noloc"
 	is_triggered_only = yes
-	immediate = {
-		owner = {
+	option = {
+		name = "noloc"
+		CHI = {
 			clr_country_flag = CHI_crisis_paid
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
@@ -188,11 +187,7 @@ province_event = {
 					set_country_flag = CHI_crisis_paid
 				}
 			}
-		}
-	}
-	option = {
-		name = "CHI_sel_ok"
-		owner = {
+		
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -207,8 +202,10 @@ province_event = {
 					owner = { has_country_flag = CHI_crisis_paid }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
-				owner = { set_country_flag = CHI_pay_fired }
-				province_event = { id = 144431 days = 1 }
+				owner = {
+					set_country_flag = CHI_pay_fired
+					JAN = { country_event = { id = 144551 days = 0 } }
+				}
 			}
 			random_owned = {
 				limit = {
@@ -232,19 +229,20 @@ province_event = {
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
 			clr_country_flag = CHI_pay_wait
+		
 		}
 	}
 }
 
 
-province_event = {
+country_event = {
 	id = 144498
-	title = "CHI_pay_water_3"
-	desc = "CHI_pay_water_3_desc"
-	picture = "Administration"
+	title = "noloc"
+	desc = "noloc"
 	is_triggered_only = yes
-	immediate = {
-		owner = {
+	option = {
+		name = "noloc"
+		CHI = {
 			clr_country_flag = CHI_crisis_paid
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
@@ -306,11 +304,7 @@ province_event = {
 					set_country_flag = CHI_crisis_paid
 				}
 			}
-		}
-	}
-	option = {
-		name = "CHI_sel_ok"
-		owner = {
+		
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -325,8 +319,10 @@ province_event = {
 					owner = { has_country_flag = CHI_crisis_paid }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
-				owner = { set_country_flag = CHI_pay_fired }
-				province_event = { id = 144431 days = 1 }
+				owner = {
+					set_country_flag = CHI_pay_fired
+					JAN = { country_event = { id = 144551 days = 0 } }
+				}
 			}
 			random_owned = {
 				limit = {
@@ -350,19 +346,20 @@ province_event = {
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
 			clr_country_flag = CHI_pay_wait
+		
 		}
 	}
 }
 
 
-province_event = {
+country_event = {
 	id = 144499
-	title = "CHI_pay_water_4"
-	desc = "CHI_pay_water_4_desc"
-	picture = "Administration"
+	title = "noloc"
+	desc = "noloc"
 	is_triggered_only = yes
-	immediate = {
-		owner = {
+	option = {
+		name = "noloc"
+		CHI = {
 			clr_country_flag = CHI_crisis_paid
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
@@ -456,11 +453,7 @@ province_event = {
 					clr_country_flag = CHI_pay_part
 				}
 			}
-		}
-	}
-	option = {
-		name = "CHI_sel_ok"
-		owner = {
+		
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -475,8 +468,10 @@ province_event = {
 					owner = { has_country_flag = CHI_crisis_paid }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
-				owner = { set_country_flag = CHI_pay_fired }
-				province_event = { id = 144431 days = 1 }
+				owner = {
+					set_country_flag = CHI_pay_fired
+					JAN = { country_event = { id = 144551 days = 0 } }
+				}
 			}
 			random_owned = {
 				limit = {
@@ -500,19 +495,20 @@ province_event = {
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
 			clr_country_flag = CHI_pay_wait
+		
 		}
 	}
 }
 
 
-province_event = {
+country_event = {
 	id = 144495
-	title = "CHI_pay_canal"
-	desc = "CHI_pay_canal_desc"
-	picture = "Administration"
+	title = "noloc"
+	desc = "noloc"
 	is_triggered_only = yes
-	immediate = {
-		owner = {
+	option = {
+		name = "noloc"
+		CHI = {
 			clr_country_flag = CHI_crisis_paid
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
@@ -572,11 +568,7 @@ province_event = {
 					set_country_flag = CHI_crisis_paid
 				}
 			}
-		}
-	}
-	option = {
-		name = "CHI_sel_ok"
-		owner = {
+		
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -591,8 +583,10 @@ province_event = {
 					owner = { has_country_flag = CHI_crisis_paid }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
-				owner = { set_country_flag = CHI_pay_fired }
-				province_event = { id = 144433 days = 1 }
+				owner = {
+					set_country_flag = CHI_pay_fired
+					JAN = { country_event = { id = 144553 days = 0 } }
+				}
 			}
 			random_owned = {
 				limit = {
@@ -616,19 +610,20 @@ province_event = {
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
 			clr_country_flag = CHI_pay_wait
+		
 		}
 	}
 }
 
 
-province_event = {
+country_event = {
 	id = 144531
-	title = "CHI_pay_yangtze"
-	desc = "CHI_pay_yangtze_desc"
-	picture = "Administration"
+	title = "noloc"
+	desc = "noloc"
 	is_triggered_only = yes
-	immediate = {
-		owner = {
+	option = {
+		name = "noloc"
+		CHI = {
 			clr_country_flag = CHI_crisis_paid
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
@@ -688,11 +683,7 @@ province_event = {
 					set_country_flag = CHI_crisis_paid
 				}
 			}
-		}
-	}
-	option = {
-		name = "CHI_sel_ok"
-		owner = {
+		
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -707,8 +698,10 @@ province_event = {
 					owner = { has_country_flag = CHI_crisis_paid }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
-				owner = { set_country_flag = CHI_pay_fired }
-				province_event = { id = 144534 days = 1 }
+				owner = {
+					set_country_flag = CHI_pay_fired
+					JAN = { country_event = { id = 144554 days = 0 } }
+				}
 			}
 			random_owned = {
 				limit = {
@@ -732,19 +725,20 @@ province_event = {
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
 			clr_country_flag = CHI_pay_wait
+		
 		}
 	}
 }
 
 
-province_event = {
+country_event = {
 	id = 144532
-	title = "CHI_pay_yellow"
-	desc = "CHI_pay_yellow_desc"
-	picture = "Administration"
+	title = "noloc"
+	desc = "noloc"
 	is_triggered_only = yes
-	immediate = {
-		owner = {
+	option = {
+		name = "noloc"
+		CHI = {
 			clr_country_flag = CHI_crisis_paid
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
@@ -812,11 +806,7 @@ province_event = {
 					set_country_flag = CHI_crisis_paid
 				}
 			}
-		}
-	}
-	option = {
-		name = "CHI_sel_ok"
-		owner = {
+		
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -831,8 +821,10 @@ province_event = {
 					owner = { has_country_flag = CHI_crisis_paid }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
-				owner = { set_country_flag = CHI_pay_fired }
-				province_event = { id = 144535 days = 1 }
+				owner = {
+					set_country_flag = CHI_pay_fired
+					JAN = { country_event = { id = 144555 days = 0 } }
+				}
 			}
 			random_owned = {
 				limit = {
@@ -856,6 +848,7 @@ province_event = {
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
 			clr_country_flag = CHI_pay_wait
+		
 		}
 	}
 }

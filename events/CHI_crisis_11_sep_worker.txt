@@ -1,13 +1,13 @@
 # Separatism worker + tax stacks
 
-province_event = {
-	id = 144437
-	title = "CHI_sel_sep_done"
-	desc = "CHI_sel_sep_done_desc"
-	picture = "Administration"
+country_event = {
+	id = 144556
+	title = "noloc"
+	desc = "noloc"
 	is_triggered_only = yes
-	immediate = {
-		owner = {
+	option = {
+		name = "noloc"
+		CHI = {
 			random_owned = {
 				limit = {
 					has_building = province_selector
@@ -1659,292 +1659,24 @@ province_event = {
 			clr_country_flag = CHI_act_2562
 			clr_country_flag = CHI_act_1082
 			clr_country_flag = CHI_crisis_paid
+			random_owned = {
+				limit = { has_building = province_selector }
+				province_event = { id = 144437 days = 0 }
+				province_selector = -1
+			}
 		}
 	}
+}
+
+province_event = {
+	id = 144437
+	title = "CHI_sel_sep_done"
+	desc = "CHI_sel_sep_done_desc"
+	picture = "Administration"
+	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_ok"
-		owner = {
-			random_owned = {
-				limit = {
-					has_building = province_selector
-					OR = {
-						has_province_modifier = CHI_separatism_1
-						has_province_modifier = CHI_separatism_2
-						has_province_modifier = CHI_separatism_3
-						has_province_modifier = CHI_separatism_4
-					}
-					OR = {
-						has_province_modifier = CHI_water_1
-						has_province_modifier = CHI_water_2
-						has_province_modifier = CHI_water_3
-						has_province_modifier = CHI_water_4
-						has_province_modifier = CHI_water_canal_silt
-						has_province_modifier = CHI_water_yangtze_nav
-						has_province_modifier = CHI_water_yellow_dikes
-						has_province_modifier = CHI_famine_1
-						has_province_modifier = CHI_famine_2
-						has_province_modifier = CHI_famine_3
-						has_province_modifier = CHI_famine_4
-					}
-					is_coastal = yes
-					OR = {
-						has_province_modifier = CHI_piracy_1
-						has_province_modifier = CHI_piracy_2
-						has_province_modifier = CHI_piracy_3
-						has_province_modifier = CHI_piracy_4
-					}
-				}
-				province_event = { id = 144408 days = 0 }
-			}
-			random_owned = {
-				limit = {
-					has_building = province_selector
-					OR = {
-						has_province_modifier = CHI_separatism_1
-						has_province_modifier = CHI_separatism_2
-						has_province_modifier = CHI_separatism_3
-						has_province_modifier = CHI_separatism_4
-					}
-					OR = {
-						has_province_modifier = CHI_water_1
-						has_province_modifier = CHI_water_2
-						has_province_modifier = CHI_water_3
-						has_province_modifier = CHI_water_4
-						has_province_modifier = CHI_water_canal_silt
-						has_province_modifier = CHI_water_yangtze_nav
-						has_province_modifier = CHI_water_yellow_dikes
-						has_province_modifier = CHI_famine_1
-						has_province_modifier = CHI_famine_2
-						has_province_modifier = CHI_famine_3
-						has_province_modifier = CHI_famine_4
-					}
-					NOT = {
-						is_coastal = yes
-						OR = {
-							has_province_modifier = CHI_piracy_1
-							has_province_modifier = CHI_piracy_2
-							has_province_modifier = CHI_piracy_3
-							has_province_modifier = CHI_piracy_4
-						}
-					}
-				}
-				province_event = { id = 144409 days = 0 }
-			}
-			random_owned = {
-				limit = {
-					has_building = province_selector
-					OR = {
-						has_province_modifier = CHI_separatism_1
-						has_province_modifier = CHI_separatism_2
-						has_province_modifier = CHI_separatism_3
-						has_province_modifier = CHI_separatism_4
-					}
-					NOT = {
-						OR = {
-							has_province_modifier = CHI_water_1
-							has_province_modifier = CHI_water_2
-							has_province_modifier = CHI_water_3
-							has_province_modifier = CHI_water_4
-							has_province_modifier = CHI_water_canal_silt
-							has_province_modifier = CHI_water_yangtze_nav
-							has_province_modifier = CHI_water_yellow_dikes
-							has_province_modifier = CHI_famine_1
-							has_province_modifier = CHI_famine_2
-							has_province_modifier = CHI_famine_3
-							has_province_modifier = CHI_famine_4
-						}
-					}
-					is_coastal = yes
-					OR = {
-						has_province_modifier = CHI_piracy_1
-						has_province_modifier = CHI_piracy_2
-						has_province_modifier = CHI_piracy_3
-						has_province_modifier = CHI_piracy_4
-					}
-				}
-				province_event = { id = 144410 days = 0 }
-			}
-			random_owned = {
-				limit = {
-					has_building = province_selector
-					NOT = {
-						OR = {
-							has_province_modifier = CHI_separatism_1
-							has_province_modifier = CHI_separatism_2
-							has_province_modifier = CHI_separatism_3
-							has_province_modifier = CHI_separatism_4
-						}
-					}
-					OR = {
-						has_province_modifier = CHI_water_1
-						has_province_modifier = CHI_water_2
-						has_province_modifier = CHI_water_3
-						has_province_modifier = CHI_water_4
-						has_province_modifier = CHI_water_canal_silt
-						has_province_modifier = CHI_water_yangtze_nav
-						has_province_modifier = CHI_water_yellow_dikes
-						has_province_modifier = CHI_famine_1
-						has_province_modifier = CHI_famine_2
-						has_province_modifier = CHI_famine_3
-						has_province_modifier = CHI_famine_4
-					}
-					is_coastal = yes
-					OR = {
-						has_province_modifier = CHI_piracy_1
-						has_province_modifier = CHI_piracy_2
-						has_province_modifier = CHI_piracy_3
-						has_province_modifier = CHI_piracy_4
-					}
-				}
-				province_event = { id = 144411 days = 0 }
-			}
-			random_owned = {
-				limit = {
-					has_building = province_selector
-					OR = {
-						has_province_modifier = CHI_separatism_1
-						has_province_modifier = CHI_separatism_2
-						has_province_modifier = CHI_separatism_3
-						has_province_modifier = CHI_separatism_4
-					}
-					NOT = {
-						OR = {
-							has_province_modifier = CHI_water_1
-							has_province_modifier = CHI_water_2
-							has_province_modifier = CHI_water_3
-							has_province_modifier = CHI_water_4
-							has_province_modifier = CHI_water_canal_silt
-							has_province_modifier = CHI_water_yangtze_nav
-							has_province_modifier = CHI_water_yellow_dikes
-							has_province_modifier = CHI_famine_1
-							has_province_modifier = CHI_famine_2
-							has_province_modifier = CHI_famine_3
-							has_province_modifier = CHI_famine_4
-						}
-					}
-					NOT = {
-						is_coastal = yes
-						OR = {
-							has_province_modifier = CHI_piracy_1
-							has_province_modifier = CHI_piracy_2
-							has_province_modifier = CHI_piracy_3
-							has_province_modifier = CHI_piracy_4
-						}
-					}
-				}
-				province_event = { id = 144412 days = 0 }
-			}
-			random_owned = {
-				limit = {
-					has_building = province_selector
-					NOT = {
-						OR = {
-							has_province_modifier = CHI_separatism_1
-							has_province_modifier = CHI_separatism_2
-							has_province_modifier = CHI_separatism_3
-							has_province_modifier = CHI_separatism_4
-						}
-					}
-					OR = {
-						has_province_modifier = CHI_water_1
-						has_province_modifier = CHI_water_2
-						has_province_modifier = CHI_water_3
-						has_province_modifier = CHI_water_4
-						has_province_modifier = CHI_water_canal_silt
-						has_province_modifier = CHI_water_yangtze_nav
-						has_province_modifier = CHI_water_yellow_dikes
-						has_province_modifier = CHI_famine_1
-						has_province_modifier = CHI_famine_2
-						has_province_modifier = CHI_famine_3
-						has_province_modifier = CHI_famine_4
-					}
-					NOT = {
-						is_coastal = yes
-						OR = {
-							has_province_modifier = CHI_piracy_1
-							has_province_modifier = CHI_piracy_2
-							has_province_modifier = CHI_piracy_3
-							has_province_modifier = CHI_piracy_4
-						}
-					}
-				}
-				province_event = { id = 144413 days = 0 }
-			}
-			random_owned = {
-				limit = {
-					has_building = province_selector
-					NOT = {
-						OR = {
-							has_province_modifier = CHI_separatism_1
-							has_province_modifier = CHI_separatism_2
-							has_province_modifier = CHI_separatism_3
-							has_province_modifier = CHI_separatism_4
-						}
-					}
-					NOT = {
-						OR = {
-							has_province_modifier = CHI_water_1
-							has_province_modifier = CHI_water_2
-							has_province_modifier = CHI_water_3
-							has_province_modifier = CHI_water_4
-							has_province_modifier = CHI_water_canal_silt
-							has_province_modifier = CHI_water_yangtze_nav
-							has_province_modifier = CHI_water_yellow_dikes
-							has_province_modifier = CHI_famine_1
-							has_province_modifier = CHI_famine_2
-							has_province_modifier = CHI_famine_3
-							has_province_modifier = CHI_famine_4
-						}
-					}
-					is_coastal = yes
-					OR = {
-						has_province_modifier = CHI_piracy_1
-						has_province_modifier = CHI_piracy_2
-						has_province_modifier = CHI_piracy_3
-						has_province_modifier = CHI_piracy_4
-					}
-				}
-				province_event = { id = 144414 days = 0 }
-			}
-			random_owned = {
-				limit = {
-					has_building = province_selector
-					NOT = {
-						OR = {
-							has_province_modifier = CHI_separatism_1
-							has_province_modifier = CHI_separatism_2
-							has_province_modifier = CHI_separatism_3
-							has_province_modifier = CHI_separatism_4
-						}
-					}
-					NOT = {
-						OR = {
-							has_province_modifier = CHI_water_1
-							has_province_modifier = CHI_water_2
-							has_province_modifier = CHI_water_3
-							has_province_modifier = CHI_water_4
-							has_province_modifier = CHI_water_canal_silt
-							has_province_modifier = CHI_water_yangtze_nav
-							has_province_modifier = CHI_water_yellow_dikes
-							has_province_modifier = CHI_famine_1
-							has_province_modifier = CHI_famine_2
-							has_province_modifier = CHI_famine_3
-							has_province_modifier = CHI_famine_4
-						}
-					}
-					NOT = {
-						is_coastal = yes
-						OR = {
-							has_province_modifier = CHI_piracy_1
-							has_province_modifier = CHI_piracy_2
-							has_province_modifier = CHI_piracy_3
-							has_province_modifier = CHI_piracy_4
-						}
-					}
-				}
-				province_event = { id = 144415 days = 0 }
-			}
-		}
+		province_selector = -1
 	}
 }
 
@@ -1955,9 +1687,6 @@ province_event = {
 	desc = "CHI_sel_tax_done_desc"
 	picture = "Administration"
 	is_triggered_only = yes
-	trigger = {
-		NOT = { has_province_modifier = CHI_sep_tax_cut }
-	}
 	immediate = {
 		owner = {
 			clr_country_flag = CHI_tax_stacked
@@ -2755,5 +2484,6 @@ province_event = {
 			}
 			clr_country_flag = CHI_tax_stacked
 		}
+		province_selector = -1
 	}
 }

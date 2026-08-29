@@ -1,18 +1,36 @@
 Memory[main.cpp:375]: Not compiled with _DEBUG. Memory usage info will be limited.
-E0000 00:00:1788005984.665099    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788005984.665159    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788005984.671448    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788005984.671492    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-Memory[main.cpp:419]: Used RAM before Text.csv [26732 KB]
+Suspending
+Memory[main.cpp:419]: Used RAM before Text.csv [26692 KB]
 Text warnings[internationalizedtext.cpp:1149]: Text-log for language: ENGLISH
 Text warnings[internationalizedtext.cpp:1195]: 
 ***********************************************************
-Memory[main.cpp:511]: text.csv takes 9644KB memory.
-Memory[eu3application.cpp:300]: Used RAM before sound&music [38224 KB]
-Memory[eu3application.cpp:348]: Used RAM after sound init [42964 KB]
-Memory[eu3application.cpp:359]: Used RAM CEU3Graphics construction [65532 KB]
-Memory[eu3application.cpp:424]: Used RAM after .gfx files [125356 KB]
-Memory[eu3application.cpp:432]: Used RAM after InitGraphics [426324 KB]
+Memory[main.cpp:511]: text.csv takes 9692KB memory.
+Memory[eu3application.cpp:300]: Used RAM before sound&music [38748 KB]
+Memory[eu3application.cpp:348]: Used RAM after sound init [43748 KB]
+[TRACE] The DiagOutputDir folder is accessible 
+[TRACE] InitializeEtlLogging: Failed to enable tracing 
+Memory[eu3application.cpp:359]: Used RAM CEU3Graphics construction [66188 KB]
+[TRACE] The DiagOutputDir folder is accessible 
+Memory[eu3application.cpp:424]: Used RAM after .gfx files [126384 KB]
+AAA Initialize 1
+AAA Initialize 1
+AAA QueryContextMenu 1
+[2026-08-29 15:44:30] First: 113
+[2026-08-29 15:44:30] Last: 32762
+[2026-08-29 15:44:30] Count: 32649
+AAA Initialize 1
+AAA Initialize 1
+AAA QueryContextMenu 1
+[2026-08-29 15:44:30] First: 113
+[2026-08-29 15:44:30] Last: 32762
+[2026-08-29 15:44:30] Count: 32649
+AAA Initialize 1
+AAA Initialize 1
+AAA QueryContextMenu 1
+[2026-08-29 15:44:31] First: 113
+[2026-08-29 15:44:31] Last: 32762
+[2026-08-29 15:44:31] Count: 32649
+Memory[eu3application.cpp:432]: Used RAM after InitGraphics [427440 KB]
 Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key VALUE
 Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key VALUE
 Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key VAL
@@ -20,9 +38,9 @@ Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key VAL
 Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key VAL
 Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key VAL
 Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key VAL
-Memory[eu3application.cpp:488]: Used RAM after GUI loaded [431228 KB]
-Memory[eu3application.cpp:496]: Used RAM after GUI inited [431228 KB]
-Memory[eu3application.cpp:902]: Used RAM before databases loaded [431824 KB]
+Memory[eu3application.cpp:488]: Used RAM after GUI loaded [432076 KB]
+Memory[eu3application.cpp:496]: Used RAM after GUI inited [432076 KB]
+Memory[eu3application.cpp:902]: Used RAM before databases loaded [432076 KB]
 Clausewitz Error[lexer.cpp:549]: Error on dynamic token: grain_rgo_size, Check if not already used elsewhere.
 Clausewitz Error[lexer.cpp:549]: Error on dynamic token: grain_rgo_eff, Check if not already used elsewhere.
 Clausewitz Error[lexer.cpp:549]: Error on dynamic token: grain_rgo_size, Check if not already used elsewhere.
@@ -31,9 +49,7 @@ Clausewitz Error[lexer.cpp:549]: Error on dynamic token: tobacco_rgo_size, Check
 Clausewitz Error[lexer.cpp:549]: Error on dynamic token: tobacco_rgo_eff, Check if not already used elsewhere.
 Clausewitz Error[lexer.cpp:549]: Error on dynamic token: tobacco_rgo_size, Check if not already used elsewhere.
 Clausewitz Error[lexer.cpp:549]: Error on dynamic token: tobacco_rgo_eff, Check if not already used elsewhere.
-Memory[eu3application.cpp:1128]: Used RAM before Map Logics [438644 KB]
-E0000 00:00:1788005988.672305    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788005988.672355    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+Memory[eu3application.cpp:1128]: Used RAM before Map Logics [438512 KB]
 Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key REGION
 Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key REGION
 Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key REGION
@@ -84,11 +100,31 @@ Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key REGION
 Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key REGION
 Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key REGION
 Kernel Debug[internationalizedtext.cpp:1118]: Failed to find text key REGION
+E0000 00:00:1788007473.672082    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007473.672134    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007473.675535    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007473.675584    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
 Error[trigger.cpp:489]: Unknown trigger-type has_province_flag in events/TownCache.txt line : 17
 Error[trigger.cpp:489]: Unknown trigger-type has_province_flag in events/TownCache.txt line : 23
 Error[trigger.cpp:489]: Unknown trigger-type has_province_flag in events/TownCache.txt line : 27
+E0000 00:00:1788007474.669347    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007474.669412    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007474.676633    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007474.676687    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007474.684122    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007474.684163    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007474.691407    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007474.691446    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007474.699487    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007474.699536    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
 Kernel Debug[sound.cpp:87]: Loaded sound sound/GI_ValidClick.wav 1 100
+E0000 00:00:1788007474.708062    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007474.708103    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
 Kernel Debug[sound.cpp:87]: Loaded sound sound/GI_ValidClick.wav 2 100
+E0000 00:00:1788007474.715524    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007474.715581    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007474.723097    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007474.723148    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
 Kernel Debug[sound.cpp:87]: Loaded sound sound/GI_ValidClick.wav 3 100
 Kernel Debug[sound.cpp:87]: Loaded sound sound/GI_InfantryMove.wav 4 100
 Kernel Debug[sound.cpp:87]: Loaded sound sound/GI_InfantrySelected.wav 5 100
@@ -146,84 +182,716 @@ Error[state.cpp:969]: No workers for Сталелитейная мануфакт
 Error[state.cpp:969]: No workers for Сталелитейная мануфактура in Пьемонт (Г)
 Error[state.cpp:969]: No workers for Сталелитейная мануфактура in Фракия (Г)
 Memory[provincemanager.cpp:459]:      --------------------======================------------------
-Memory[provincemanager.cpp:460]: Used RAM before World is created [896376 KB]
+Memory[provincemanager.cpp:460]: Used RAM before World is created [897860 KB]
 Memory[provincemanager.cpp:480]: Used video memory before World is created: 
  Need to select debug runtime to be able to see used memory.
-Memory[provincemanager.cpp:496]: [RAM usage] CEU3MapCache. [11860 KB]
-Memory[provincemanager.cpp:497]: Used RAM  [908236 KB]
-Memory[provincemanager.cpp:642]: [RAM usage] loading .fx [312 KB]
-Memory[provincemanager.cpp:643]: Used RAM  [908548 KB]
-Memory[provincemanager.cpp:716]: [RAM usage] terrain textures. [58872 KB]
-Memory[provincemanager.cpp:717]: Used RAM  [967420 KB]
-Memory[provincemanager.cpp:727]: [RAM usage] Beach manager. [256 KB]
-Memory[provincemanager.cpp:728]: Used RAM  [967676 KB]
-Memory[provincemanager.cpp:739]: [RAM usage] Province collision meshes [2104 KB]
-Memory[provincemanager.cpp:740]: Used RAM  [969780 KB]
+Memory[provincemanager.cpp:496]: [RAM usage] CEU3MapCache. [11856 KB]
+Memory[provincemanager.cpp:497]: Used RAM  [909716 KB]
+Memory[provincemanager.cpp:642]: [RAM usage] loading .fx [388 KB]
+Memory[provincemanager.cpp:643]: Used RAM  [910104 KB]
+Memory[provincemanager.cpp:716]: [RAM usage] terrain textures. [58940 KB]
+Memory[provincemanager.cpp:717]: Used RAM  [969044 KB]
+Memory[provincemanager.cpp:727]: [RAM usage] Beach manager. [228 KB]
+Memory[provincemanager.cpp:728]: Used RAM  [969272 KB]
+Memory[provincemanager.cpp:739]: [RAM usage] Province collision meshes [2172 KB]
+Memory[provincemanager.cpp:740]: Used RAM  [971444 KB]
 Memory[provincemanager.cpp:743]: Used video memory before CreateBorders(): 
  Need to select debug runtime to be able to see used memory.
 Memory[provincemanager.cpp:752]: [RAM usage] CreateBorders() [48296 KB]
-Memory[provincemanager.cpp:753]: Used RAM  [1018080 KB]
+Memory[provincemanager.cpp:753]: Used RAM  [1019740 KB]
 Memory[provincemanager.cpp:758]: Used video memory before CreateProvinceTexts(): 
  Need to select debug runtime to be able to see used memory.
-Memory[provincemanager.cpp:768]: [RAM usage] CreateProvinceTexts() [14528 KB]
-Memory[provincemanager.cpp:769]: Used RAM  [1035068 KB]
+Memory[provincemanager.cpp:768]: [RAM usage] CreateProvinceTexts() [14936 KB]
+Memory[provincemanager.cpp:769]: Used RAM  [1037084 KB]
 Memory[provincemanager.cpp:791]: Used video memory before CreateRivers(): 
  Need to select debug runtime to be able to see used memory.
-Memory[provincemanager.cpp:800]: [RAM usage] CreateRivers() [32132 KB]
-Memory[provincemanager.cpp:801]: Used RAM  [1067200 KB]
+Memory[provincemanager.cpp:800]: [RAM usage] CreateRivers() [31936 KB]
+Memory[provincemanager.cpp:801]: Used RAM  [1069020 KB]
 Memory[provincemanager.cpp:804]: Used video memory before CreateMesh(): 
  Need to select debug runtime to be able to see used memory.
-E0000 00:00:1788005997.689353    5920 re2.cc:242] Error parsing '\/img\/(?!new).+\.gif': invalid perl operator: (?!
-E0000 00:00:1788005997.689417    5920 re2.cc:926] Invalid RE2: invalid perl operator: (?!
-E0000 00:00:1788005997.692137    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788005997.692188    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-Memory[provincemanager.cpp:1698]: Used RAM (Create terrain textures) [1085572 KB]
-Memory[provincemanager.cpp:1722]: Used RAM (QuadDefinitionFileCorrect) [1110476 KB]
-Memory[provincemanager.cpp:1725]: Used RAM (Load Quads) [1215452 KB]
-Memory[provincemanager.cpp:1737]: Used RAM (Write quad definition) [1215452 KB]
-Memory[provincemanager.cpp:1759]: Used RAM (Border adjacency) [1215452 KB]
-Memory[provincemanager.cpp:1772]: Used RAM (corner cache) [1168284 KB]
+Memory[provincemanager.cpp:1698]: Used RAM (Create terrain textures) [1087488 KB]
+Memory[provincemanager.cpp:1722]: Used RAM (QuadDefinitionFileCorrect) [1112568 KB]
+E0000 00:00:1788007482.662039    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007482.662101    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+Memory[provincemanager.cpp:1725]: Used RAM (Load Quads) [1217068 KB]
+Memory[provincemanager.cpp:1737]: Used RAM (Write quad definition) [1217068 KB]
+Memory[provincemanager.cpp:1759]: Used RAM (Border adjacency) [1217068 KB]
+Memory[provincemanager.cpp:1772]: Used RAM (corner cache) [1169900 KB]
 Memory[provincemanager.cpp:1781]: Used video memory before waves are created: 
  Need to select debug runtime to be able to see used memory.
-Memory[provincemanager.cpp:1784]: [RAM usage] Creating waves. [7392 KB]
-Memory[provincemanager.cpp:1785]: Used RAM  [1175676 KB]
-Memory[provincemanager.cpp:813]: [RAM usage] CreateMesh() [108476 KB]
-Memory[provincemanager.cpp:814]: Used RAM  [1175676 KB]
+Memory[provincemanager.cpp:1784]: [RAM usage] Creating waves. [7568 KB]
+Memory[provincemanager.cpp:1785]: Used RAM  [1177468 KB]
+Memory[provincemanager.cpp:813]: [RAM usage] CreateMesh() [108448 KB]
+Memory[provincemanager.cpp:814]: Used RAM  [1177468 KB]
 Memory[provincemanager.cpp:817]: Used video memory after World is created: 
  Need to select debug runtime to be able to see used memory.
 Memory[provincemanager.cpp:835]: [RAM usage] DeleteInitData() [0 KB]
-Memory[provincemanager.cpp:836]: [RAM usage] Eu3MapCache memory usage after cleanup [11860 KB]
-Memory[provincemanager.cpp:838]: Used RAM after World is created [1175688 KB]
-E0000 00:00:1788006006.669173    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006006.669237    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006009.668519    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006009.668576    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006010.663998    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006010.664069    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006010.671815    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006010.671861    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006010.678903    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006010.678955    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006010.686804    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006010.686848    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006010.693535    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006010.693591    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006010.700699    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006010.700756    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006010.709133    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006010.709192    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006010.717827    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006010.717881    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006015.664018    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006015.664074    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006022.664357    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006022.664414    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006022.671165    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006022.671205    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006022.679448    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006022.679505    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006023.661621    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006023.661681    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006024.663161    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
-E0000 00:00:1788006024.663222    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
-E0000 00:00:1788006033.669976    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+Memory[provincemanager.cpp:836]: [RAM usage] Eu3MapCache memory usage after cleanup [11856 KB]
+Memory[provincemanager.cpp:838]: Used RAM after World is created [1177468 KB]
+E0000 00:00:1788007486.675876    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007486.675936    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007486.679281    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007486.679321    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007486.686879    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007486.686933    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007487.663289    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007487.663347    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007491.672690    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007491.672743    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007494.669038    5920 re2.cc:242] Error parsing '\/img\/(?!new).+\.gif': invalid perl operator: (?!
+E0000 00:00:1788007494.669113    5920 re2.cc:926] Invalid RE2: invalid perl operator: (?!
+E0000 00:00:1788007500.667727    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007500.667783    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007503.668646    5920 re2.cc:242] Error parsing '\/img\/(?!new).+\.gif': invalid perl operator: (?!
+E0000 00:00:1788007503.668706    5920 re2.cc:926] Invalid RE2: invalid perl operator: (?!
+E0000 00:00:1788007509.673485    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007509.673536    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007510.674086    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007510.674154    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+E0000 00:00:1788007510.680825    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007510.680881    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+AI[controlcommands.cpp:100]: Local player will control Империя Цин
+AI[gamestate.cpp:2825]: Starting AI
+AI[gamestate.cpp:2846]: AI created for 
+AI[gamestate.cpp:2846]: AI created for Повстанцы
+AI[gamestate.cpp:2846]: AI created for Великобритания
+AI[gamestate.cpp:2846]: AI created for Российская Империя
+AI[gamestate.cpp:2846]: AI created for Франция
+AI[gamestate.cpp:2846]: AI created for Пруссия
+AI[gamestate.cpp:2846]: AI created for Германская Империя
+AI[gamestate.cpp:2846]: AI created for Австрия
+AI[gamestate.cpp:2846]: AI created for США
+AI[gamestate.cpp:2846]: AI created for Японская империя
+AI[gamestate.cpp:2846]: AI created for Италия
+AI[gamestate.cpp:2846]: AI created for Австро-Венгрия
+AI[gamestate.cpp:2846]: AI created for Сёгунат Токугава
+AI[gamestate.cpp:2846]: AI created for Ямато
+AI[gamestate.cpp:2846]: AI created for Симадзу
+AI[gamestate.cpp:2846]: AI created for Ава
+AI[gamestate.cpp:2846]: AI created for Асано
+AI[gamestate.cpp:2846]: AI created for Датэ
+AI[gamestate.cpp:2846]: AI created for Эдзо
+AI[gamestate.cpp:2846]: AI created for Рюкю
+AI[gamestate.cpp:2846]: AI created for Дания
+AI[gamestate.cpp:2846]: AI created for Финляндия
+AI[gamestate.cpp:2846]: AI created for Норвегия
+AI[gamestate.cpp:2846]: AI created for Скандинавия
+AI[gamestate.cpp:2846]: AI created for Швеция
+AI[gamestate.cpp:2846]: AI created for Бельгия
+AI[gamestate.cpp:2846]: AI created for Каталония
+AI[gamestate.cpp:2846]: AI created for Фландрия
+AI[gamestate.cpp:2846]: AI created for Ирландия
+AI[gamestate.cpp:2846]: AI created for Нидерланды
+AI[gamestate.cpp:2846]: AI created for Португалия
+AI[gamestate.cpp:2846]: AI created for Шотландия
+AI[gamestate.cpp:2846]: AI created for Испания
+AI[gamestate.cpp:2846]: AI created for Валлония
+AI[gamestate.cpp:2846]: AI created for Ангальт
+AI[gamestate.cpp:2846]: AI created for Баден
+AI[gamestate.cpp:2846]: AI created for Бавария
+AI[gamestate.cpp:2846]: AI created for Брауншвейг
+AI[gamestate.cpp:2846]: AI created for Бремен
+AI[gamestate.cpp:2846]: AI created for Саксен-Кобург-Гота
+AI[gamestate.cpp:2846]: AI created for Данциг
+AI[gamestate.cpp:2846]: AI created for Франкфурт-на-Майне
+AI[gamestate.cpp:2846]: AI created for Гамбург
+AI[gamestate.cpp:2846]: AI created for Ганновер
+AI[gamestate.cpp:2846]: AI created for Гессен-Дармштадт
+AI[gamestate.cpp:2846]: AI created for Гессен-Кассель
+AI[gamestate.cpp:2846]: AI created for Гольштейн
+AI[gamestate.cpp:2846]: AI created for Липпе-Детмольд
+AI[gamestate.cpp:2846]: AI created for Любек
+AI[gamestate.cpp:2846]: AI created for Люксембург
+AI[gamestate.cpp:2846]: AI created for Мекленбург
+AI[gamestate.cpp:2846]: AI created for Саксен-Майнинген
+AI[gamestate.cpp:2846]: AI created for Нассау
+AI[gamestate.cpp:2846]: AI created for Северогерманский союз
+AI[gamestate.cpp:2846]: AI created for Ольденбург
+AI[gamestate.cpp:2846]: AI created for Саксония
+AI[gamestate.cpp:2846]: AI created for Шлезвиг
+AI[gamestate.cpp:2846]: AI created for Гогенцоллерн-Зигмаринген
+AI[gamestate.cpp:2846]: AI created for Южногерманский союз
+AI[gamestate.cpp:2846]: AI created for Саксен-Веймар
+AI[gamestate.cpp:2846]: AI created for Вюртемберг
+AI[gamestate.cpp:2846]: AI created for Ломбардия
+AI[gamestate.cpp:2846]: AI created for Лукка
+AI[gamestate.cpp:2846]: AI created for Модена
+AI[gamestate.cpp:2846]: AI created for Папская область
+AI[gamestate.cpp:2846]: AI created for Парма
+AI[gamestate.cpp:2846]: AI created for Сардиния-Пьемонт
+AI[gamestate.cpp:2846]: AI created for Сицилия
+AI[gamestate.cpp:2846]: AI created for Триест
+AI[gamestate.cpp:2846]: AI created for Тоскана
+AI[gamestate.cpp:2846]: AI created for Венеция
+AI[gamestate.cpp:2846]: AI created for Богемия-Моравия
+AI[gamestate.cpp:2846]: AI created for Краков
+AI[gamestate.cpp:2846]: AI created for Крым
+AI[gamestate.cpp:2846]: AI created for Эстония
+AI[gamestate.cpp:2846]: AI created for Венгрия
+AI[gamestate.cpp:2846]: AI created for Литва
+AI[gamestate.cpp:2846]: AI created for Латвия
+AI[gamestate.cpp:2846]: AI created for Польша
+AI[gamestate.cpp:2846]: AI created for Словакия
+AI[gamestate.cpp:2846]: AI created for Швейцария
+AI[gamestate.cpp:2846]: AI created for Рутения
+AI[gamestate.cpp:2846]: AI created for Трансильвания
+AI[gamestate.cpp:2846]: AI created for Украина
+AI[gamestate.cpp:2846]: AI created for Чехословакия
+AI[gamestate.cpp:2846]: AI created for Албания
+AI[gamestate.cpp:2846]: AI created for Босния-Герцеговина
+AI[gamestate.cpp:2846]: AI created for Болгария
+AI[gamestate.cpp:2846]: AI created for Крит
+AI[gamestate.cpp:2846]: AI created for Хорватия
+AI[gamestate.cpp:2846]: AI created for Кипр
+AI[gamestate.cpp:2846]: AI created for Греция
+AI[gamestate.cpp:2846]: AI created for Ионическая республика
+AI[gamestate.cpp:2846]: AI created for Молдавия
+AI[gamestate.cpp:2846]: AI created for Черногория
+AI[gamestate.cpp:2846]: AI created for Румыния
+AI[gamestate.cpp:2846]: AI created for Сербия
+AI[gamestate.cpp:2846]: AI created for Словения
+AI[gamestate.cpp:2846]: AI created for Османская Империя
+AI[gamestate.cpp:2846]: AI created for Валахия
+AI[gamestate.cpp:2846]: AI created for Югославия
+AI[gamestate.cpp:2846]: AI created for Алжир
+AI[gamestate.cpp:2846]: AI created for Конго
+AI[gamestate.cpp:2846]: AI created for Египет
+AI[gamestate.cpp:2846]: AI created for Эфиопия
+AI[gamestate.cpp:2846]: AI created for Хауса
+AI[gamestate.cpp:2846]: AI created for Борну
+AI[gamestate.cpp:2846]: AI created for Катсина
+AI[gamestate.cpp:2846]: AI created for Мадагаскар
+AI[gamestate.cpp:2846]: AI created for Либерия
+AI[gamestate.cpp:2846]: AI created for Марокко
+AI[gamestate.cpp:2846]: AI created for Наталь
+AI[gamestate.cpp:2846]: AI created for Оранжевая республика
+AI[gamestate.cpp:2846]: AI created for Южная Африка
+AI[gamestate.cpp:2846]: AI created for Сокото
+AI[gamestate.cpp:2846]: AI created for Южная Родезия
+AI[gamestate.cpp:2846]: AI created for Триполи
+AI[gamestate.cpp:2846]: AI created for Трансвааль
+AI[gamestate.cpp:2846]: AI created for Тунис
+AI[gamestate.cpp:2846]: AI created for Яури
+AI[gamestate.cpp:2846]: AI created for Занзибар
+AI[gamestate.cpp:2846]: AI created for Зулу
+AI[gamestate.cpp:2846]: AI created for Львумбия
+AI[gamestate.cpp:2846]: AI created for Намибия
+AI[gamestate.cpp:2846]: AI created for Вадаи
+AI[gamestate.cpp:2846]: AI created for Багирми
+AI[gamestate.cpp:2846]: AI created for Дарфур
+AI[gamestate.cpp:2846]: AI created for Бенин
+AI[gamestate.cpp:2846]: AI created for Ойо
+AI[gamestate.cpp:2846]: AI created for Дачмен
+AI[gamestate.cpp:2846]: AI created for Ашанти
+AI[gamestate.cpp:2846]: AI created for Массина
+AI[gamestate.cpp:2846]: AI created for Каарта
+AI[gamestate.cpp:2846]: AI created for Фуго-Хуило
+AI[gamestate.cpp:2846]: AI created for Гобир
+AI[gamestate.cpp:2846]: AI created for Аусса
+AI[gamestate.cpp:2846]: AI created for Харэр
+AI[gamestate.cpp:2846]: AI created for Каффа
+AI[gamestate.cpp:2846]: AI created for Тыграй
+AI[gamestate.cpp:2846]: AI created for Годжэм
+AI[gamestate.cpp:2846]: AI created for Исаак
+AI[gamestate.cpp:2846]: AI created for Геледи
+AI[gamestate.cpp:2846]: AI created for Буганда
+AI[gamestate.cpp:2846]: AI created for Биноро
+AI[gamestate.cpp:2846]: AI created for Абу-Даби
+AI[gamestate.cpp:2846]: AI created for Афганистан
+AI[gamestate.cpp:2846]: AI created for Армения
+AI[gamestate.cpp:2846]: AI created for Азербайджан
+AI[gamestate.cpp:2846]: AI created for Казахия
+AI[gamestate.cpp:2846]: AI created for Грузия
+AI[gamestate.cpp:2846]: AI created for Хиджаз
+AI[gamestate.cpp:2846]: AI created for Ирак
+AI[gamestate.cpp:2846]: AI created for Узбекия
+AI[gamestate.cpp:2846]: AI created for Киргизия
+AI[gamestate.cpp:2846]: AI created for Могулистан
+AI[gamestate.cpp:2846]: AI created for Неджд
+AI[gamestate.cpp:2846]: AI created for Оман
+AI[gamestate.cpp:2846]: AI created for Персия
+AI[gamestate.cpp:2846]: AI created for Йемен
+AI[gamestate.cpp:2846]: AI created for Империя Великих Моголов
+AI[gamestate.cpp:2846]: AI created for Британская Ост-Индская компания
+AI[gamestate.cpp:2846]: AI created for Индия
+AI[gamestate.cpp:2846]: AI created for Авадх
+AI[gamestate.cpp:2846]: AI created for Бастар
+AI[gamestate.cpp:2846]: AI created for Барода
+AI[gamestate.cpp:2846]: AI created for Бхопал
+AI[gamestate.cpp:2846]: AI created for Биканер
+AI[gamestate.cpp:2846]: AI created for Бандельканд
+AI[gamestate.cpp:2846]: AI created for Гвалияр
+AI[gamestate.cpp:2846]: AI created for Хайдерабад
+AI[gamestate.cpp:2846]: AI created for Индаур
+AI[gamestate.cpp:2846]: AI created for Джайпур
+AI[gamestate.cpp:2846]: AI created for Джайсалмер
+AI[gamestate.cpp:2846]: AI created for Джодхпур
+AI[gamestate.cpp:2846]: AI created for Калат
+AI[gamestate.cpp:2846]: AI created for Кашмир
+AI[gamestate.cpp:2846]: AI created for Кач
+AI[gamestate.cpp:2846]: AI created for Ладакх
+AI[gamestate.cpp:2846]: AI created for Мекран
+AI[gamestate.cpp:2846]: AI created for Мевар
+AI[gamestate.cpp:2846]: AI created for Майсур
+AI[gamestate.cpp:2846]: AI created for Нагпур
+AI[gamestate.cpp:2846]: AI created for Непал
+AI[gamestate.cpp:2846]: AI created for Орисса
+AI[gamestate.cpp:2846]: AI created for Пенджаб
+AI[gamestate.cpp:2846]: AI created for Шимла
+AI[gamestate.cpp:2846]: AI created for Сикким
+AI[gamestate.cpp:2846]: AI created for Синд
+AI[gamestate.cpp:2846]: AI created for Траванкор
+AI[gamestate.cpp:2846]: AI created for Ачех
+AI[gamestate.cpp:2846]: AI created for Бали
+AI[gamestate.cpp:2846]: AI created for Бутан
+AI[gamestate.cpp:2846]: AI created for Бруней
+AI[gamestate.cpp:2846]: AI created for Бирма
+AI[gamestate.cpp:2846]: AI created for Камбоджа
+AI[gamestate.cpp:2846]: AI created for Дайнам
+AI[gamestate.cpp:2846]: AI created for Ява
+AI[gamestate.cpp:2846]: AI created for Корея
+AI[gamestate.cpp:2846]: AI created for Луанг-Прабанг
+AI[gamestate.cpp:2846]: AI created for Джохор
+AI[gamestate.cpp:2846]: AI created for Сиам
+AI[gamestate.cpp:2846]: AI created for Индокитай
+AI[gamestate.cpp:2846]: AI created for Тибет
+AI[gamestate.cpp:2846]: AI created for Монголия
+AI[gamestate.cpp:2846]: AI created for Вьентьян
+AI[gamestate.cpp:2846]: AI created for Филиппины
+AI[gamestate.cpp:2846]: AI created for Маньчжоу-го
+AI[gamestate.cpp:2846]: AI created for Клика Гуаньси
+AI[gamestate.cpp:2846]: AI created for Клика Шаньси
+AI[gamestate.cpp:2846]: AI created for Клика Юннань
+AI[gamestate.cpp:2846]: AI created for Сев.-зап.земли Ма
+AI[gamestate.cpp:2846]: AI created for Клика Синьцзян
+AI[gamestate.cpp:2846]: AI created for Калифорнийская респ.
+AI[gamestate.cpp:2846]: AI created for Канада
+AI[gamestate.cpp:2846]: AI created for Чероки
+AI[gamestate.cpp:2846]: AI created for Колумбия
+AI[gamestate.cpp:2846]: AI created for Коста-Рика
+AI[gamestate.cpp:2846]: AI created for КША
+AI[gamestate.cpp:2846]: AI created for Куба
+AI[gamestate.cpp:2846]: AI created for Дезерет
+AI[gamestate.cpp:2846]: AI created for Доминикана
+AI[gamestate.cpp:2846]: AI created for Сальвадор
+AI[gamestate.cpp:2846]: AI created for Гватемала
+AI[gamestate.cpp:2846]: AI created for Гаити
+AI[gamestate.cpp:2846]: AI created for Гавайи
+AI[gamestate.cpp:2846]: AI created for Коммуна Манхеттена
+AI[gamestate.cpp:2846]: AI created for Мексика
+AI[gamestate.cpp:2846]: AI created for Метисская конфедерация
+AI[gamestate.cpp:2846]: AI created for Гондурас
+AI[gamestate.cpp:2846]: AI created for Новая Англия
+AI[gamestate.cpp:2846]: AI created for Ньюфаундленд
+AI[gamestate.cpp:2846]: AI created for Никарагуа
+AI[gamestate.cpp:2846]: AI created for Панама
+AI[gamestate.cpp:2846]: AI created for Квебек
+AI[gamestate.cpp:2846]: AI created for Техас
+AI[gamestate.cpp:2846]: AI created for СПЦА
+AI[gamestate.cpp:2846]: AI created for Аргентина
+AI[gamestate.cpp:2846]: AI created for Боливия
+AI[gamestate.cpp:2846]: AI created for Бразилия
+AI[gamestate.cpp:2846]: AI created for Чили
+AI[gamestate.cpp:2846]: AI created for Колумбия
+AI[gamestate.cpp:2846]: AI created for Эквадор
+AI[gamestate.cpp:2846]: AI created for Перу
+AI[gamestate.cpp:2846]: AI created for Парагвай
+AI[gamestate.cpp:2846]: AI created for Уругвай
+AI[gamestate.cpp:2846]: AI created for Венесуэла
+AI[gamestate.cpp:2846]: AI created for Австралия
+AI[gamestate.cpp:2846]: AI created for Новая Зеландия
+AI[gamestate.cpp:2846]: AI created for Израиль
+AI[gamestate.cpp:2846]: AI created for Византийская Империя
+AI[gamestate.cpp:2846]: AI created for Исландия
+AI[gamestate.cpp:2846]: AI created for Вавилон
+AI[gamestate.cpp:2846]: AI created for Небесное Царство
+AI[gamestate.cpp:2846]: AI created for Арабия
+AI[gamestate.cpp:2846]: AI created for Татарстан
+AI[gamestate.cpp:2846]: AI created for Объединенная Балтия
+AI[gamestate.cpp:2846]: AI created for Беларусь
+AI[gamestate.cpp:2846]: AI created for Речь Посполитая
+AI[gamestate.cpp:2846]: AI created for Великая Колумбия
+AI[gamestate.cpp:2846]: AI created for Ян-Майен
+AI[gamestate.cpp:2846]: AI created for Королевство 
+AI[gamestate.cpp:2846]: AI created for Конфедерация 
+AI[gamestate.cpp:2846]: AI created for Содружество 
+AI[gamestate.cpp:2846]: AI created for Республика 
+AI[gamestate.cpp:2846]: AI created for Федеративная Республика 
+AI[gamestate.cpp:2846]: AI created for Народная Республика 
+AI[gamestate.cpp:2846]: AI created for Свободное Государство 
+AI[gamestate.cpp:2846]: AI created for Свободная Республика 
+AI[gamestate.cpp:2846]: AI created for Государство 
+AI[gamestate.cpp:2846]: AI created for Княжество 
+AI[gamestate.cpp:2846]: AI created for Демократическая Республика 
+AI[gamestate.cpp:2846]: AI created for Свободно ассоциированное государство 
+AI[gamestate.cpp:2846]: AI created for Федерация 
+AI[gamestate.cpp:2846]: AI created for Доминион 
+AI[gamestate.cpp:2846]: AI created for Великое Герцогство 
+AI[gamestate.cpp:2846]: AI created for Народная Демократическая Республика 
+AI[gamestate.cpp:2846]: AI created for Священый Союз 
+AI[gamestate.cpp:2846]: AI created for Народный Союз 
+AI[gamestate.cpp:2846]: AI created for Демократический союз 
+AI[gamestate.cpp:2846]: AI created for Земля 
+AI[gamestate.cpp:2846]: AI created for Светлейшая республика 
+AI[gamestate.cpp:2846]: AI created for Комунна 
+AI[gamestate.cpp:2846]: AI created for Рабочий Союз 
+AI[gamestate.cpp:2846]: AI created for Графство 
+AI[gamestate.cpp:2846]: AI created for Малое княжество 
+AI[gamestate.cpp:2846]: AI created for Территория 
+AI[gamestate.cpp:2846]: AI created for Область 
+AI[gamestate.cpp:2846]: AI created for Провинция 
+AI[gamestate.cpp:2846]: AI created for Земли 
+AI[gamestate.cpp:2846]: AI created for Владения 
+AI[gamestate.cpp:2846]: AI created for Владение 
+AI[gamestate.cpp:2846]: AI created for Надел 
+AI[gamestate.cpp:2846]: AI created for Удел 
+AI[gamestate.cpp:2846]: AI created for Округ 
+AI[gamestate.cpp:2846]: AI created for Район 
+AI[gamestate.cpp:2846]: AI created for Край 
+AI[gamestate.cpp:2846]: AI created for Предел 
+AI[gamestate.cpp:2846]: AI created for Поместье 
+AI[gamestate.cpp:2846]: AI created for Вотчина 
+AI[gamestate.cpp:2846]: AI created for Угодья 
+AI[gamestate.cpp:2846]: AI created for Владетельство 
+AI[gamestate.cpp:2846]: AI created for Губерния 
+AI[gamestate.cpp:2846]: AI created for Наместничество 
+AI[gamestate.cpp:2846]: AI created for Марк 
+AI[gamestate.cpp:2846]: AI created for Маркграфство 
+AI[gamestate.cpp:2846]: AI created for Палатинат 
+AI[gamestate.cpp:2846]: AI created for Банат 
+AI[gamestate.cpp:2846]: AI created for Эксклав 
+AI[gamestate.cpp:2846]: AI created for Анклав 
+AI[gamestate.cpp:2846]: AI created for Регион 
+AI[gamestate.cpp:2846]: AI created for Российско-Персидская компания
+AI[gamestate.cpp:2846]: AI created for Германско-Персидская компания
+AI[gamestate.cpp:2846]: AI created for Турецко-Персидская компания
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 35 and y: 84 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 5577 and y: 292 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 87 and y: 338 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 36 and y: 46 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 14 and y: 236 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 320 and y: -4 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 43 and y: 42 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 173 and y: 42 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 43 and y: 63 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 173 and y: 63 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 43 and y: 84 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 173 and y: 84 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 43 and y: 105 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 173 and y: 105 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 43 and y: 126 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 173 and y: 126 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 43 and y: 147 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 173 and y: 147 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 17 and y: 206 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 174 and y: 206 in a window with size x: 0 and y: 0
+Error[subunit.cpp:913]: Unit '20-я пехотная бригада' from Великобритания is assigned to be from 2087 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '7-й драгунский полк' from Великобритания is assigned to be from 300 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '7-й пехотный полк 1' from Великобритания is assigned to be from 300 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '7-й пехотный полк 2' from Великобритания is assigned to be from 300 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '7-й пехотный полк 3' from Великобритания is assigned to be from 300 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '7-й пехотный полк 4' from Великобритания is assigned to be from 300 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '7-й артиллерийский полк 1' from Великобритания is assigned to be from 300 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '7-й артиллерийский полк 2' from Великобритания is assigned to be from 300 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '7-й артиллерийский полк 3' from Великобритания is assigned to be from 300 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '7-й артиллерийский полк 4' from Великобритания is assigned to be from 300 which do not have enough soldiers to support it.
+Error[state.cpp:969]: No workers for Сталелитейный завод (Г) in Ингрия (Г)
+Error[state.cpp:969]: No workers for Сталелитейный завод (Г) in Пикардия (Г)
+Error[state.cpp:969]: No workers for Сталелитейная мануфактура in Французск. Нормандия (Г)
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 1' from Франция is assigned to be from 425 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 2' from Франция is assigned to be from 425 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 3' from Франция is assigned to be from 425 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 4' from Франция is assigned to be from 425 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 1' from Франция is assigned to be from 425 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 2' from Франция is assigned to be from 425 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 3' from Франция is assigned to be from 425 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 4' from Франция is assigned to be from 425 which do not have enough soldiers to support it.
+Error[state.cpp:969]: No workers for Машиностроительный завод (Г) in Бранденбург (Г)
+Error[state.cpp:969]: No workers for Сталелитейный завод (Г) in Рейнланд (Г)
+Error[subunit.cpp:913]: Unit '3-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 554 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '4-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 2561 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '5-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 582 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '6-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 582 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '1-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 584 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '9-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 682 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '10-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 684 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '11-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 684 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 685 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '14-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 696 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '15-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 693 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 693 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '18-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 698 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 698 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '21-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 679 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '4-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 680 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '26-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 580 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '30-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 578 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 687 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '8-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 699 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '9-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 700 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '10-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 692 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '5-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ' from Пруссия is assigned to be from 701 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '9-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 1' from Пруссия is assigned to be from 549 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '9-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 2' from Пруссия is assigned to be from 549 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '9-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 3' from Пруссия is assigned to be from 549 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '9-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 4' from Пруссия is assigned to be from 549 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '9-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 1' from Пруссия is assigned to be from 549 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '9-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 2' from Пруссия is assigned to be from 549 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '9-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 3' from Пруссия is assigned to be from 549 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '9-пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ 4' from Пруссия is assigned to be from 549 which do not have enough soldiers to support it.
+Error[state.cpp:969]: No workers for Сталелитейная мануфактура in Австрия (Г)
+Error[state.cpp:969]: No workers for Сталелитейная мануфактура in Богемия (Г)
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 2' from Австрия is assigned to be from 619 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 3' from Австрия is assigned to be from 619 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 4' from Австрия is assigned to be from 619 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 1' from Австрия is assigned to be from 619 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 2' from Австрия is assigned to be from 619 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 3' from Австрия is assigned to be from 619 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 4' from Австрия is assigned to be from 619 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '1-й кавалерийский полк' from США is assigned to be from 223 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '1-СЏ Р±СЂРёРіР°РґР° РќР°РіР°СЃР°РєРё' from Симадзу is assigned to be from 1661 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '1-СЏ Р±СЂРёРіР°РґР° РўРѕРєСѓСЃРёРјС‹' from Ава is assigned to be from 1667 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '1-СЏ Р±СЂРёРіР°РґР° РЇРјР°РіСѓС‚Рё' from Асано is assigned to be from 1640 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '1-СЏ Р±СЂРёРіР°РґР° Р¤СѓРєСѓСЃРёРјС‹' from Датэ is assigned to be from 1669 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '1-СЏ Р±СЂРёРіР°РґР° РҐР°РєРѕРґР°С‚Рµ' from Эдзо is assigned to be from 1642 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '1-СЏ Р±СЂРёРіР°РґР° РђРјР°СЂРё' from Рюкю is assigned to be from 1679 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й драгунский полк' from Дания is assigned to be from 372 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 1' from Дания is assigned to be from 372 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 2' from Дания is assigned to be from 372 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 3' from Дания is assigned to be from 372 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 4' from Дания is assigned to be from 372 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 1' from Дания is assigned to be from 372 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 2' from Дания is assigned to be from 372 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 3' from Дания is assigned to be from 372 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 4' from Дания is assigned to be from 372 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 2' from Швеция is assigned to be from 322 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 3' from Швеция is assigned to be from 322 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 4' from Швеция is assigned to be from 322 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 1' from Швеция is assigned to be from 322 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 2' from Швеция is assigned to be from 322 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 3' from Швеция is assigned to be from 322 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 4' from Швеция is assigned to be from 322 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й драгунский полк' from Бельгия is assigned to be from 387 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 1' from Бельгия is assigned to be from 387 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 2' from Бельгия is assigned to be from 387 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 3' from Бельгия is assigned to be from 387 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 4' from Бельгия is assigned to be from 387 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 1' from Бельгия is assigned to be from 387 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 2' from Бельгия is assigned to be from 387 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 3' from Бельгия is assigned to be from 387 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 4' from Бельгия is assigned to be from 387 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '1-я индийская бригада' from Нидерланды is assigned to be from 1413 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-я индийская бригада' from Нидерланды is assigned to be from 1421 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '5-й пехотный полк 2' from Нидерланды is assigned to be from 375 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '5-й пехотный полк 3' from Нидерланды is assigned to be from 375 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '5-й пехотный полк 4' from Нидерланды is assigned to be from 375 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '5-й артиллерийский полк 1' from Нидерланды is assigned to be from 375 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '5-й артиллерийский полк 2' from Нидерланды is assigned to be from 375 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '5-й артиллерийский полк 3' from Нидерланды is assigned to be from 375 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '5-й артиллерийский полк 4' from Нидерланды is assigned to be from 375 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 1' from Португалия is assigned to be from 521 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 2' from Португалия is assigned to be from 521 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 3' from Португалия is assigned to be from 521 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 4' from Португалия is assigned to be from 521 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 1' from Португалия is assigned to be from 521 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 2' from Португалия is assigned to be from 521 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 3' from Португалия is assigned to be from 521 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 4' from Португалия is assigned to be from 521 which do not have enough soldiers to support it.
+Error[state.cpp:969]: No workers for Сталелитейная мануфактура in Баскония-Арагон
+Error[state.cpp:969]: No workers for Сталелитейная мануфактура in Каталония (Г)
+Error[subunit.cpp:913]: Unit '3-й пехотный полк 1' from Испания is assigned to be from 487 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й пехотный полк 2' from Испания is assigned to be from 487 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й пехотный полк 3' from Испания is assigned to be from 487 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й пехотный полк 4' from Испания is assigned to be from 487 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й артиллерийский полк 1' from Испания is assigned to be from 487 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й артиллерийский полк 2' from Испания is assigned to be from 487 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й артиллерийский полк 3' from Испания is assigned to be from 487 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й артиллерийский полк 4' from Испания is assigned to be from 487 which do not have enough soldiers to support it.
+Error[state.cpp:969]: No workers for Сталелитейная мануфактура in Ломбардия (Г)
+Error[subunit.cpp:913]: Unit '3-й драгунский полк' from Папская область is assigned to be from 749 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й пехотный полк 1' from Папская область is assigned to be from 749 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й пехотный полк 2' from Папская область is assigned to be from 749 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й пехотный полк 3' from Папская область is assigned to be from 749 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й пехотный полк 4' from Папская область is assigned to be from 749 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й артиллерийский полк 1' from Папская область is assigned to be from 749 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й артиллерийский полк 2' from Папская область is assigned to be from 749 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й артиллерийский полк 3' from Папская область is assigned to be from 749 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й артиллерийский полк 4' from Папская область is assigned to be from 749 which do not have enough soldiers to support it.
+Error[state.cpp:969]: No workers for Сталелитейная мануфактура in Пьемонт (Г)
+Error[state.cpp:969]: No workers for Сталелитейная мануфактура in Пьемонт (Г)
+Error[subunit.cpp:913]: Unit '4-й пехотный полк 1' from Сардиния-Пьемонт is assigned to be from 720 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '4-й пехотный полк 2' from Сардиния-Пьемонт is assigned to be from 720 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '4-й пехотный полк 3' from Сардиния-Пьемонт is assigned to be from 720 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '4-й пехотный полк 4' from Сардиния-Пьемонт is assigned to be from 720 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '4-й артиллерийский полк 1' from Сардиния-Пьемонт is assigned to be from 720 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '4-й артиллерийский полк 2' from Сардиния-Пьемонт is assigned to be from 720 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '4-й артиллерийский полк 3' from Сардиния-Пьемонт is assigned to be from 720 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '4-й артиллерийский полк 4' from Сардиния-Пьемонт is assigned to be from 720 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 1' from Сицилия is assigned to be from 754 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 2' from Сицилия is assigned to be from 754 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 3' from Сицилия is assigned to be from 754 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й пехотный полк 4' from Сицилия is assigned to be from 754 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 1' from Сицилия is assigned to be from 754 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 2' from Сицилия is assigned to be from 754 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 3' from Сицилия is assigned to be from 754 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-й артиллерийский полк 4' from Сицилия is assigned to be from 754 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '1-я пехотная бригада' from Греция is assigned to be from 834 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-я пехотная бригада' from Греция is assigned to be from 835 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '5-я пехотная бригада' from Греция is assigned to be from 837 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й драгунский полк' from Греция is assigned to be from 834 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й пехотный полк 1' from Греция is assigned to be from 834 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й пехотный полк 2' from Греция is assigned to be from 834 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й пехотный полк 3' from Греция is assigned to be from 834 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й пехотный полк 4' from Греция is assigned to be from 834 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й артиллерийский полк 1' from Греция is assigned to be from 834 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й артиллерийский полк 2' from Греция is assigned to be from 834 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й артиллерийский полк 3' from Греция is assigned to be from 834 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-й артиллерийский полк 4' from Греция is assigned to be from 834 which do not have enough soldiers to support it.
+Error[state.cpp:969]: No workers for Сталелитейная мануфактура in Фракия (Г)
+Error[subunit.cpp:913]: Unit '1-я йомудская бригада' from Узбекия is assigned to be from 1191 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-я йомудская бригада' from Узбекия is assigned to be from 1192 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '12-я бригада' from Бирма is assigned to be from 1339 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-я бригада' from Камбоджа is assigned to be from 1364 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-я бригада' from Камбоджа is assigned to be from 1367 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '1-я татарская бригада' from Империя Цин is assigned to be from 1488 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '24-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1562 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '28-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1482 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '31-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1483 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '34-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1484 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '37-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1486 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '44-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1524 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '52-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1493 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '55-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1494 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '64-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1499 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '69-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1579 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '72-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1580 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '75-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1581 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '78-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1582 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '81-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1583 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '87-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1585 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '88-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1507 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '90-я бригада Зеленого Знамени' from Империя Цин is assigned to be from 1586 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-я бригада' from Сиам is assigned to be from 1347 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-я бригада' from Сиам is assigned to be from 1348 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '4-я бригада' from Сиам is assigned to be from 1349 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '5-я бригада' from Сиам is assigned to be from 1350 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '6-я бригада' from Сиам is assigned to be from 1351 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '7-я бригада' from Сиам is assigned to be from 1352 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '8-я бригада' from Сиам is assigned to be from 1353 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '9-я бригада' from Сиам is assigned to be from 1354 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit 'Отряд Бурлсона' from Техас is assigned to be from 137 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '1-я пехотная бригада' from Колумбия is assigned to be from 2247 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '2-я пехотная бригада' from Колумбия is assigned to be from 2247 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '1-я пехотная бригада' from Венесуэла is assigned to be from 2264 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-я пехотная бригада' from Венесуэла is assigned to be from 2267 which do not have enough soldiers to support it.
+Error[subunit.cpp:913]: Unit '3-я кавалерийская бригада' from Венесуэла is assigned to be from 2271 which do not have enough soldiers to support it.
+E0000 00:00:1788007518.671796    5920 re2.cc:242] Error parsing '^https?:\/\/[-a-z]{5,13}\.[a-z]{3,6}\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,22}=[%0-9a-zA-Z]{200,1300}': invalid repetition size: {200,1300}
+E0000 00:00:1788007518.671846    5920 re2.cc:926] Invalid RE2: invalid repetition size: {200,1300}
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 261 and y: 49 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 15 and y: 167 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 246 and y: 167 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 477 and y: 167 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 695 and y: -2 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 49 and y: 174 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 370 and y: -5 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 210 and y: 205 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 45 and y: 205 in a window with size x: 0 and y: 0
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 wage_reform
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 wage_reform
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 wage_reform
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 wage_reform
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 4 in window 2 wage_reform
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 work_hours
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 work_hours
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 work_hours
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 work_hours
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 4 in window 2 work_hours
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 safety_regulations
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 safety_regulations
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 safety_regulations
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 safety_regulations
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 4 in window 2 safety_regulations
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 unemployment_subsidies
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 unemployment_subsidies
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 unemployment_subsidies
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 unemployment_subsidies
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 4 in window 2 unemployment_subsidies
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 pensions
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 pensions
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 pensions
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 pensions
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 4 in window 2 pensions
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 health_care
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 health_care
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 health_care
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 health_care
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 school_reforms
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 school_reforms
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 school_reforms
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 school_reforms
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 medical_reforms
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 medical_reforms
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 medical_reforms
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 medical_reforms
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 slavery
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 slavery
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 vote_franschise
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 vote_franschise
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 vote_franschise
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 vote_franschise
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 4 in window 2 vote_franschise
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 5 in window 2 vote_franschise
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 upper_house_composition
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 upper_house_composition
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 upper_house_composition
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 upper_house_composition
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 voting_system
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 voting_system
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 voting_system
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 public_meetings
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 public_meetings
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 press_rights
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 press_rights
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 press_rights
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 trade_unions
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 trade_unions
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 trade_unions
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 trade_unions
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 political_parties
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 political_parties
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 political_parties
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 political_parties
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 4 in window 2 political_parties
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 fleet_doctrine
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 fleet_doctrine
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 fleet_doctrine
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 colonial_politics
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 colonial_politics
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 colonial_politics
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 citizenship_politics
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 citizenship_politics
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 citizenship_politics
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 army_recruitment
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 army_recruitment
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 army_recruitment
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 army_recruitment
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 4 in window 2 army_recruitment
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 0 in window 2 military_politics
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 1 in window 2 military_politics
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 2 in window 2 military_politics
+Kernel Debug[fixedwindow.cpp:1043]: Warning: Atempt to access nonexistant subwindow 3 in window 2 military_politics
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 261 and y: 49 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 15 and y: 167 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 246 and y: 167 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 477 and y: 167 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 695 and y: -2 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 19 and y: 64 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 319 and y: -4 in a window with size x: 0 and y: 0
+Clausewitz Error[spritetype.cpp:464]: Texture gfx\\interface\\button_speedup.dds have forbidden compression, have you tried DXT3?
+Clausewitz Error[spritetype.cpp:464]: Texture gfx\\interface\\button_speeddown.dds have forbidden compression, have you tried DXT3?
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 5 and y: 16 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 5 and y: 41 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 5 and y: 66 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 5 and y: 91 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 586 and y: -3 in a window with size x: 0 and y: 0
+System Interface[fixedwindow.cpp:584]:  Illegal object boundaries with x: 80 and y: 95 in a window with size x: 0 and y: 0

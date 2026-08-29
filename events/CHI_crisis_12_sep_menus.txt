@@ -618,14 +618,23 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_bribe"
-		province_event = { id = 144493 days = 0 }
+		trigger = {
+			NOT = { has_province_modifier = CHI_sep_cd }
+		}
+		JAN = { country_event = { id = 144493 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_tax_cut"
+		trigger = {
+			NOT = { has_province_modifier = CHI_sep_tax_cut }
+		}
 		province_event = { id = 144512 days = 0 }
 	}
 	option = {
 		name = "CHI_sel_revolt"
+		trigger = {
+			NOT = { has_province_modifier = CHI_sep_revolt_cd }
+		}
 		province_event = { id = 144525 days = 0 }
 	}
 	option = {
@@ -921,9 +930,6 @@ province_event = {
 	desc = "CHI_sel_revolt_desc"
 	picture = "Administration"
 	is_triggered_only = yes
-	trigger = {
-		NOT = { has_province_modifier = CHI_sep_revolt_cd }
-	}
 	option = {
 		name = "CHI_sel_ok"
 		any_pop = {

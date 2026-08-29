@@ -1,23 +1,14 @@
 # Granary pay stage
 
 
-province_event = {
+country_event = {
 	id = 144496
-	title = "CHI_pay_granary"
-	desc = "CHI_pay_granary_desc"
-	picture = "Administration"
+	title = "noloc"
+	desc = "noloc"
 	is_triggered_only = yes
-	trigger = {
-		OR = {
-			has_province_modifier = CHI_famine_1
-			has_province_modifier = CHI_famine_2
-			has_province_modifier = CHI_famine_3
-			has_province_modifier = CHI_famine_4
-		}
-		NOT = { has_province_modifier = CHI_food_cd }
-	}
-	immediate = {
-		owner = {
+	option = {
+		name = "noloc"
+		CHI = {
 			clr_country_flag = CHI_crisis_paid
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
@@ -41,19 +32,17 @@ province_event = {
 					set_country_flag = CHI_crisis_paid
 				}
 			}
-		}
-	}
-	option = {
-		name = "CHI_sel_ok"
-		owner = {
+		
 			random_owned = {
 				limit = {
 					has_building = province_selector
 					owner = { has_country_flag = CHI_crisis_paid }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
-				owner = { set_country_flag = CHI_pay_fired }
-				province_event = { id = 144432 days = 1 }
+				owner = {
+					set_country_flag = CHI_pay_fired
+					JAN = { country_event = { id = 144552 days = 0 } }
+				}
 			}
 			random_owned = {
 				limit = {
@@ -67,6 +56,7 @@ province_event = {
 			clr_country_flag = CHI_pay_fired
 			clr_country_flag = CHI_pay_part
 			clr_country_flag = CHI_pay_wait
+		
 		}
 	}
 }

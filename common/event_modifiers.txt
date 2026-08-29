@@ -343,9 +343,7 @@ CHI_piracy_4 = {
 	icon = 45
 }
 CHI_great_granary = {
-	population_growth = 0.0015
-	farm_RGO_eff = 0.08
-	immigrant_attract = 0.15
+	farm_RGO_eff = 0.05
 	icon = 46
 }
 CHI_famine_infra_relief = {

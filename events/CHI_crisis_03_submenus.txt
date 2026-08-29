@@ -5257,6 +5257,9 @@ province_event = {
 	is_triggered_only = yes
 	option = {
 		name = "CHI_sel_depot"
+		trigger = {
+			owner = { money = 500000 }
+		}
 		province_event = { id = 144467 days = 0 }
 	}
 	option = {
