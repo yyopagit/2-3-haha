@@ -1,0 +1,9 @@
+army = {
+	name = "Армия Рюкю"
+	location = 1679
+	regiment = {
+		name = "1-я бригада Амари"
+		type = irregular
+		home = 1679
+	}
+}

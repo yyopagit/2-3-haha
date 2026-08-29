@@ -1,0 +1,9 @@
+army = {
+	name = "Армия Ямато"
+	location = 1657
+	regiment = {
+		name = "1-я бригада Киото"
+		type = irregular
+		home = 1657
+	}
+}

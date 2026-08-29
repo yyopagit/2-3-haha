@@ -1,0 +1,9 @@
+army = {
+	name = "Армия Датэ"
+	location = 1669
+	regiment = {
+		name = "1-я бригада Фукусимы"
+		type = irregular
+		home = 1669
+	}
+}

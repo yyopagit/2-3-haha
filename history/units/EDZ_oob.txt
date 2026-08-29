@@ -1,0 +1,9 @@
+army = {
+	name = "Армия Эдзо"
+	location = 1642
+	regiment = {
+		name = "1-я бригада Хакодате"
+		type = irregular
+		home = 1642
+	}
+}
