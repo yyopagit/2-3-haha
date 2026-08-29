@@ -101,7 +101,9 @@ political_decisions = {
 			money = 5100000
 		}
 		effect = {
-			money = -5000000
+			money = -2000000
+			money = -2000000
+			money = -1000000
 			prestige = 5
 			set_global_flag = famine_ind_2_yes
 			remove_country_modifier = famine_war_first_step

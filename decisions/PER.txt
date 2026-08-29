@@ -276,7 +276,8 @@ political_decisions = {
 		}
 		effect = {
 			set_country_flag = rpc_railroads4
-			money = -3000000
+			money = -2000000
+			money = -1000000
 			RPC = {
 				all_core = { infrastructure = 1 }
 			}
