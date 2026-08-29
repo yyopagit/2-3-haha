@@ -258,14 +258,15 @@ political_decisions = {
 				CHI = { owns = 1082 }
 			}
 			NOT = {
-					OR = {
-						CHI = { owns = 1481 }
-						CHI = { owns = 1566 }
-						CHI = { owns = 1538 }
-						CHI = { owns = 1496 }
-						CHI = { owns = 1498 }
+				OR = {
+					CHI = { owns = 1481 }
+					CHI = { owns = 1566 }
+					CHI = { owns = 1538 }
+					CHI = { owns = 1496 }
+					CHI = { owns = 1498 }
 				}
 			}
+		}
 		effect = {
 			CHI_1082 = {
 				add_core = RUS
@@ -584,7 +585,7 @@ pribalts3 = {
 	}
 
 	russian_qing_central_asia = {
-
+		picture = russian_qing_central_asia
 		potential = {
 			tag = RUS
 			NOT = {
@@ -594,20 +595,21 @@ pribalts3 = {
 
 		allow = {
 			war = no
-				NOT = {
-					OR = {
-						CHI = { owns = 1481 }
-						CHI = { owns = 1566 }
-						CHI = { owns = 1538 }
-						CHI = { owns = 1496 }
-						CHI = { owns = 1498 }
+			NOT = {
+				OR = {
+					CHI = { owns = 1481 }
+					CHI = { owns = 1566 }
+					CHI = { owns = 1538 }
+					CHI = { owns = 1496 }
+					CHI = { owns = 1498 }
 				}
-				RUS = {
-					owns = 1206
-					owns = 1191
-					owns = 1181
-					owns = 1202
-				}
+			}
+			RUS = {
+				owns = 1206
+				owns = 1191
+				owns = 1181
+				owns = 1202
+			}
 		}
 
 		effect = {

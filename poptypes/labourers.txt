@@ -549,22 +549,16 @@ promote_to =
 		}
 		modifier = {
 			factor = 1.1
-			AND = {
-				has_building = town_infrastructure
-				country = { colonial_politics = non_colonial }
-
-				NOT = { soldiers = 0.10 }
-			}
+			has_building = town_infrastructure
+			country = { colonial_politics = non_colonial }
+			NOT = { soldiers = 0.10 }
 		}
 		modifier = {
 			factor = 1.1
-			AND = {
-				NOT = { has_building = town_infrastructure }
-				terrain = urban
-				country = { colonial_politics = non_colonial }
-
-				NOT = { soldiers = 0.06 }
-			}
+			NOT = { has_building = town_infrastructure }
+			terrain = urban
+			country = { colonial_politics = non_colonial }
+			NOT = { soldiers = 0.06 }
 		}
 	
 		group = {
@@ -958,12 +952,9 @@ promote_to =
 		}
 		modifier = {
 			factor = -20
-			AND = {
-				state_scope = { is_colonial = yes }
-				NOT = { country = { colonial_politics = external_colonisation } }
-
-				NOT = { soldiers = 0.042 }
-			}
+			state_scope = { is_colonial = yes }
+			NOT = { country = { colonial_politics = external_colonisation } }
+			NOT = { soldiers = 0.042 }
 		}
 	}
 
@@ -987,8 +978,7 @@ promote_to =
 		}
 #		modifier = {
 #			factor = 5
-#			AND = {
-#				state_scope = {
+#			#				state_scope = {
 #					any_owned_province = {
 #						has_building = town_infrastructure
 #					}
@@ -1057,7 +1047,7 @@ promote_to =
 			factor = 8
 			country = { has_country_flag = american_business }
 		}
-	}
+	
 
 
 

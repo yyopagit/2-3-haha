@@ -103,14 +103,14 @@ promotion_chance =
 	modifier = {
 		factor = 0.1
 		culture = this
-		citizenship_politics = accepted_culture_only
+		country = { citizenship_politics = accepted_culture_only }
 	}
 	modifier = {
 		factor = -0.3
 		not = { culture = this }
 		OR = {
-			citizenship_politics = accepted_culture_only
-			citizenship_politics = faster_assimilation
+			country = { citizenship_politics = accepted_culture_only }
+			country = { citizenship_politics = faster_assimilation }
 		}
 	}
 	modifier = {
@@ -199,14 +199,14 @@ demotion_chance =
 	modifier = {
 		factor = 0.1
 		culture = this
-		citizenship_politics = accepted_culture_only
+		country = { citizenship_politics = accepted_culture_only }
 	}
 	modifier = {
 		factor = -0.3
 		not = { culture = this }
 		OR = {
-			citizenship_politics = accepted_culture_only
-			citizenship_politics = faster_assimilation
+			country = { citizenship_politics = accepted_culture_only }
+			country = { citizenship_politics = faster_assimilation }
 		}
 	}
 		modifier = {

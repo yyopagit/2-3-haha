@@ -1,5 +1,6 @@
 political_decisions = {
 rise_of_siam_start = {
+	picture = rise_of_siam_start
 	potential = { 
 		OR = {
 			tag = SIA
@@ -24,6 +25,7 @@ rise_of_siam_start = {
 }
 
 fate_of_burma = {
+	picture = fate_of_burma
 	potential = { 
 		OR = {
 			tag = SIA
@@ -50,6 +52,7 @@ fate_of_burma = {
 }
 
 malakka_king = {
+	picture = malakka_king
 	potential = {
 		OR = {
 			tag = SIA
@@ -81,6 +84,7 @@ malakka_king = {
 }
 
 malakka_boost = {
+	picture = malakka_boost
 	potential = { 
 		OR = {
 			tag = SIA
@@ -111,6 +115,7 @@ malakka_boost = {
 }
 
 dainam_offensive = {
+	picture = dainam_offensive
 	potential = { 
 		OR = {
 			tag = SIA
@@ -148,6 +153,7 @@ dainam_offensive = {
 }
 
 annex_cambodia = {
+	picture = annex_cambodia
 	potential = {
 		OR = {
 			tag = SIA
@@ -180,6 +186,7 @@ annex_cambodia = {
 }
 
 request_help_sia = {
+	picture = request_help_sia
 	potential = { 
 		OR = {
 			tag = SIA

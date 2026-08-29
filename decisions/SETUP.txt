@@ -37,15 +37,8 @@ political_decisions = {
 			any_country = {
 
 				limit = {
-
-					AND = {
-
-						ai = no
-
-						exists = yes
-
-					}
-
+					ai = no
+					exists = yes
 				}
 
 				capital_scope = {
@@ -171,34 +164,26 @@ political_decisions = {
 			}
 			any_owned = {
 				limit = {
-					OR = {
 					province_id = 1498
-					}
 				}
 				add_province_modifier = { name = CHI_weak_rule_3 duration = -1 }
 			}
 			any_owned = {
 				limit = {
-					OR = {
 					province_id = 1496
-					}
 				}
 				add_province_modifier = { name = CHI_weak_rule_3 duration = -1 }
 			}
 			any_owned = {
 				limit = {
-					OR = {
 					province_id = 1538
-					}
 				}
 				add_province_modifier = { name = CHI_water_1 duration = -1 }
 				add_province_modifier = { name = CHI_weak_rule_2 duration = -1 }
 			}
 			any_owned = {
 				limit = {
-					OR = {
 					province_id = 1566
-					}
 				}
 				add_province_modifier = { name = CHI_famine_1 duration = -1 }
 				add_province_modifier = { name = CHI_water_2 duration = -1 }
@@ -207,9 +192,7 @@ political_decisions = {
 			}
 			any_owned = {
 				limit = {
-					OR = {
 					province_id = 1481
-					}
 				}
 				add_province_modifier = { name = CHI_separatism_1 duration = -1 }
 				add_province_modifier = { name = CHI_weak_rule_3 duration = -1 }

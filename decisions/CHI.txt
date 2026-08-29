@@ -1,6 +1,7 @@
 political_decisions = {
 	###Коррупция
 	CHI_cut_down_high_corruption = {
+		picture = CHI_cut_down_high_corruption
 		potential = {
 			tag = CHI
 			NOT = { has_country_flag = CHI_high_corruption_lost }
@@ -18,6 +19,7 @@ political_decisions = {
 		}
 	}
 	CHI_cut_down_medium_corruption = {
+		picture = CHI_cut_down_medium_corruption
 		potential = {
 			tag = CHI
 			NOT = { has_country_flag = CHI_medium_corruption_lost }
@@ -35,6 +37,7 @@ political_decisions = {
 		}
 	}
 	CHI_cut_down_low_corruption = {
+		picture = CHI_cut_down_low_corruption
 		potential = {
 			tag = CHI
 			NOT = { has_country_flag = CHI_low_corruption_lost }
@@ -81,7 +84,6 @@ political_decisions = {
 			NOT = { TIB = { vassal_of = CHI } }
 		}
 		allow = {
-			TIB = { vassal_of = CHI }
 			state_n_government = 1
 		}
 		effect = {

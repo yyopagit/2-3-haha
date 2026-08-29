@@ -114,14 +114,12 @@ country_event = {
 		NOT = { has_country_modifier = japan_economy_overheated }
 		has_global_flag = militarized_japan
 		NOT = { has_country_flag = japanese_economy_has_been_overheated }
-		NOT = { 
-			AND = {
-				1455 = { owned_by = JAP }
-				1461 = { owned_by = JAP }
-				1462 = { owned_by = JAP }
-				1485 = { owned_by = JAP }
-				658 = { owned_by = JAP }
-			}
+		NOT = {
+			1455 = { owned_by = JAP }
+			1461 = { owned_by = JAP }
+			1462 = { owned_by = JAP }
+			1485 = { owned_by = JAP }
+			658 = { owned_by = JAP }
 		}
 	}
 	
@@ -146,77 +144,55 @@ country_event = {
     id = 900100
     title = "EVTNAME900100"
     desc = "EVTDESC900100"
-    picture = "default"
+    picture = "japanese_power"
 	
     trigger = {
         tag = JAP
         NOT = { has_global_flag = philippines_taken }
         has_global_flag = filippines_occupied_by_japan
         1456 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
         1455 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
         1457 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
         1458 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
         1459 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
         1460 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
         1461 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
         2565 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
         1464 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
         1463 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
         1462 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
     }
     option = {
@@ -259,7 +235,7 @@ country_event = {
     id = 900111
     title = "EVTNAME900111"
     desc = "EVTDESC900111"
-    picture = "default"
+    picture = "japanese_power"
     
     trigger = {
         tag = JAP
@@ -267,16 +243,12 @@ country_event = {
 		has_global_flag = taiwan_occupied_by_japan
         
         2562 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
         1485 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
     }
     
@@ -310,7 +282,7 @@ country_event = {
     id = 900112
     title = "EVTNAME900112"
     desc = "EVTDESC900112"
-    picture = "default"
+    picture = "japanese_power"
     
     trigger = {
         tag = JAP
@@ -318,10 +290,8 @@ country_event = {
 		has_global_flag = hawaii_occupied_by_japan
         
         658 = {
-			AND = {
-				controlled_by = JAP
-				NOT = { has_province_modifier = japan_occupation }
-			}
+			controlled_by = JAP
+			NOT = { has_province_modifier = japan_occupation }
 		}
     }
     

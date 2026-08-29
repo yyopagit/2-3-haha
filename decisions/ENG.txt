@@ -218,11 +218,6 @@ political_decisions = {
 			}
 			CAN = { civilized = yes }
 			inherit = CAN
-			ENG_60 = {
-				secede_province = CAN
-			}
-			CAN = { civilized = yes }
-			inherit = CAN
 			ENG_68 = {
 				secede_province = CAN
 			}

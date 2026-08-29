@@ -588,12 +588,10 @@ conquest_africa_stage_two = {
 		# only one state or unciv
 		is_independant = yes
 		any_owned_province = {
-			AND = {
-				has_province_modifier = malaria_modifier
-				OR = {
-					is_coastal = yes
-					any_neighbor_province = { owner = { tag = THIS } }
-				}
+			has_province_modifier = malaria_modifier
+			OR = {
+				is_coastal = yes
+				any_neighbor_province = { owner = { tag = THIS } }
 			}
 		}
 	}
@@ -660,12 +658,10 @@ conquest_africa_stage_three = {
 		# only one state or unciv
 		is_independant = yes
 		any_owned_province = {
-			AND = {
-				has_province_modifier = harsh_malaria_modifier
-				OR = {
-					is_coastal = yes
-					any_neighbor_province = { owner = { tag = THIS } }
-				}
+			has_province_modifier = harsh_malaria_modifier
+			OR = {
+				is_coastal = yes
+				any_neighbor_province = { owner = { tag = THIS } }
 			}
 		}
 	}
@@ -2743,19 +2739,14 @@ install_communist_gov_cb = {
 			# If actor ruling party is communist
 			ruling_party_ideology = communist
 		}
-		
-		AND = {
-			# There are some amount of communist already in the country
-			communist = 0.1
-				
-			# If reciever current gov is not proletarian_dictatorship
-			NOT = {
-				government = proletarian_dictatorship
-			}
-			
-			# If reciever is not a great power
-			is_greater_power = no
+		# There are some amount of communist already in the country
+		communist = 0.1
+		# If reciever current gov is not proletarian_dictatorship
+		NOT = {
+			government = proletarian_dictatorship
 		}
+		# If reciever is not a great power
+		is_greater_power = no
 	}
 	
 	po_install_communist_gov_type = yes

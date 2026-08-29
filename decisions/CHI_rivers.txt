@@ -1,6 +1,6 @@
 political_decisions = {
 	CHI_yellow_river_works = {
-		picture = build_kiel_canal
+		picture = CHI_yellow_river_works
 		potential = {
 			tag = CHI
 			year = 1845

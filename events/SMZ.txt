@@ -26,9 +26,12 @@ duration = 3650
 }
 
 country_event = {
+title = "noloc"
+desc = "noloc"
 id = 1400059
 is_triggered_only = yes
 option = {
+name = "noloc"
 SMZ = {
 inherit = ASA
 inherit = AVA
@@ -148,6 +151,7 @@ NOT = { has_country_flag = meiji_restoration_done }
 NOT = { check_variable = { which = meiji_countdown value = 1 } }
 }
 set_country_flag = meiji_restoration_done
+country_event = { id = 999003 days = 0 }
 }
 ###Снятие модификатора прогресса при завершении
 any_country = {
