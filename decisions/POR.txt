@@ -1,6 +1,7 @@
 political_decisions = {
 
 	por_annex_brazil = {
+		picture = por_annex_brazil
 		alert = yes
 		potential = {
 			tag = POR
@@ -37,7 +38,7 @@ political_decisions = {
 	}
 	
 	por_integrate_amazonia = {
-		
+		picture = por_integrate_amazonia
 		alert = yes
 		potential = {
 			tag = POR
@@ -71,6 +72,7 @@ political_decisions = {
 	}
 	
 	por_integrate_colonies = {
+		picture = por_integrate_colonies
 		alert = yes
 		potential = {
 			tag = POR
@@ -78,38 +80,36 @@ political_decisions = {
 		}
 		allow = {
 			invention = colonial_negotiations
-			AND = {
-				owns = 2000
-				owns = 2001
-				owns = 1999
-				owns = 2003
-				owns = 2004
-				owns = 2005
-				owns = 2008
-				owns = 2006
-				owns = 2002
-				owns = 2009
-				owns = 2010
-				owns = 2011
-				owns = 2007
-				owns = 2049
-				owns = 2050
-				owns = 2051
-				owns = 2052
-				owns = 2057
-				owns = 2058
-				owns = 2053
-				owns = 2055
-				owns = 2056
-				owns = 2054
-				owns = 2065
-				owns = 2066
-				owns = 2581
-				owns = 2063
-				owns = 2064
-				owns = 2060
-				owns = 2061
-			}
+			owns = 2000
+			owns = 2001
+			owns = 1999
+			owns = 2003
+			owns = 2004
+			owns = 2005
+			owns = 2008
+			owns = 2006
+			owns = 2002
+			owns = 2009
+			owns = 2010
+			owns = 2011
+			owns = 2007
+			owns = 2049
+			owns = 2050
+			owns = 2051
+			owns = 2052
+			owns = 2057
+			owns = 2058
+			owns = 2053
+			owns = 2055
+			owns = 2056
+			owns = 2054
+			owns = 2065
+			owns = 2066
+			owns = 2581
+			owns = 2063
+			owns = 2064
+			owns = 2060
+			owns = 2061
 		}
 		effect = {
 			POR_2003 = {

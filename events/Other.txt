@@ -57,11 +57,8 @@ country_event = {
 
 
 	trigger = {
-		OR = {
-			capital_scope = {
-				NOT = { has_province_modifier = capital_supply_depot_pmodifier }
-			}
-			
+		capital_scope = {
+			NOT = { has_province_modifier = capital_supply_depot_pmodifier }
 		}
 	}
 
@@ -18551,10 +18548,8 @@ province_event = {
 		modifier = {
 			factor = 1.5
 			NOT = {
-				AND = {
-					average_consciousness = 5
-					average_militancy = 5
-				}
+				average_consciousness = 5
+				average_militancy = 5
 			}
 		}
 		modifier = {
@@ -18699,10 +18694,8 @@ province_event = {
 		modifier = {
 			factor = 1.5
 			NOT = {
-				AND = {
-					average_consciousness = 5
-					average_militancy = 5
-				}
+				average_consciousness = 5
+				average_militancy = 5
 			}
 		}
 		modifier = {

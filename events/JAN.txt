@@ -115,30 +115,24 @@ country_event = {
 		
 		any_country = {
 			limit = {
-				AND = {
-					NOT = { has_country_flag = malaria }
-					invention = prophylaxis_against_malaria
-				}
+				NOT = { has_country_flag = malaria }
+				invention = prophylaxis_against_malaria
 			}
 			set_country_flag = malaria
 		}
 		
 		any_country = {
 			limit = {
-				AND = {
-					NOT = { has_country_flag = mission_to_civilize }
-					invention = mission_to_civilize
-				}
+				NOT = { has_country_flag = mission_to_civilize }
+				invention = mission_to_civilize
 			}
 			set_country_flag = mission_to_civilize
 		}
 		
 		any_country = {
 			limit = {
-				AND = {
-					NOT = { has_country_flag = mission_to_civilize }
-					invention = colonial_negotiations
-				}
+				NOT = { has_country_flag = mission_to_civilize }
+				invention = colonial_negotiations
 			}
 			set_country_flag = colonial_negotiations
 		}
@@ -146,8 +140,9 @@ country_event = {
 		##### маркер африканских миноров для захвата
 		
 		any_country = {
+			limit = { civilized = no }
 			malaria_metarg = {
-				limit = { civilized = no NOT = { has_province_modifier = malaria_modifier } }
+				limit = { NOT = { has_province_modifier = malaria_modifier } }
 				add_province_modifier = {
 					name = malaria_modifier
 					duration = -1
@@ -156,8 +151,9 @@ country_event = {
 		}
 		
 		any_country = {
+			limit = { civilized = no }
 			harsh_malaria_metarg = {
-				limit = { civilized = no NOT = { has_province_modifier = harsh_malaria_modifier } }
+				limit = { NOT = { has_province_modifier = harsh_malaria_modifier } }
 				add_province_modifier = {
 					name = harsh_malaria_modifier
 					duration = -1
@@ -227,12 +223,8 @@ country_event = {
 		##### Модификатор на скорость постройки флота в метрополии вб
 		any_country = {
 			limit = {
-				AND = {
-					tag = ENG
-					NOT = {
-						has_country_modifier = uk_navy_tradition1
-					}
-				}
+				tag = ENG
+				NOT = { has_country_modifier = uk_navy_tradition1 }
 			}
 			any_owned = {
 				limit = {
@@ -250,20 +242,18 @@ country_event = {
 		#### Филиппины
 		any_country = {
 			limit = {
-				AND = {
-					NOT = { has_global_flag = filippines_occupied_by_japan }
-					1456 = { controlled_by = JAP }
-					1455 = { controlled_by = JAP }
-					1457 = { controlled_by = JAP }
-					1458 = { controlled_by = JAP }
-					1459 = { controlled_by = JAP }
-					1460 = { controlled_by = JAP }
-					1461 = { controlled_by = JAP }
-					2565 = { controlled_by = JAP }
-					1464 = { controlled_by = JAP }
-					1463 = { controlled_by = JAP }
-					1462 = { controlled_by = JAP }
-				}
+				NOT = { has_global_flag = filippines_occupied_by_japan }
+				1456 = { controlled_by = JAP }
+				1455 = { controlled_by = JAP }
+				1457 = { controlled_by = JAP }
+				1458 = { controlled_by = JAP }
+				1459 = { controlled_by = JAP }
+				1460 = { controlled_by = JAP }
+				1461 = { controlled_by = JAP }
+				2565 = { controlled_by = JAP }
+				1464 = { controlled_by = JAP }
+				1463 = { controlled_by = JAP }
+				1462 = { controlled_by = JAP }
 			}
 			1456 = {
 				add_province_modifier = {
@@ -368,11 +358,9 @@ country_event = {
 		#### Тайвань
 		any_country = {
 			limit = {
-				AND = {
-					NOT = { has_global_flag = taiwan_occupied_by_japan }
-					2562 = { controlled_by = JAP }
-					1485 = { controlled_by = JAP }
-				}
+				NOT = { has_global_flag = taiwan_occupied_by_japan }
+				2562 = { controlled_by = JAP }
+				1485 = { controlled_by = JAP }
 			}
 			
 			2562 = {
@@ -408,10 +396,8 @@ country_event = {
 		#######Гавайи
 		any_country = {
 			limit = {
-				AND = {
-					NOT = { has_global_flag = hawaii_occupied_by_japan }
-					658 = { controlled_by = JAP }
-				}
+				NOT = { has_global_flag = hawaii_occupied_by_japan }
+				658 = { controlled_by = JAP }
 			}
 			
 			658 = {
@@ -683,7 +669,10 @@ country_event = {
 		any_country = {
 			limit = {
 				NOT = { has_country_modifier = poor_life_needs_satisfaction }
-				poor_life_need = 0.8
+				any_pop = {
+					strata = poor
+					life_needs = 0.8
+				}
 			}
 			add_country_modifier = {
 				name = poor_life_needs_satisfaction
@@ -693,7 +682,12 @@ country_event = {
 		any_country = {
 			limit = {
 				has_country_modifier = poor_life_needs_satisfaction
-				NOT = { poor_life_need = 0.8 }
+				NOT = {
+					any_pop = {
+						strata = poor
+						life_needs = 0.8
+					}
+				}
 			}
 			remove_country_modifier = poor_life_needs_satisfaction
 		}
@@ -702,7 +696,10 @@ country_event = {
 		any_country = {
 			limit = {
 				NOT = { has_country_modifier = poor_everyday_needs_satisfaction }
-				poor_everyday_need = 0.35
+				any_pop = {
+					strata = poor
+					everyday_needs = 0.35
+				}
 			}
 			add_country_modifier = {
 				name = poor_everyday_needs_satisfaction
@@ -712,7 +709,12 @@ country_event = {
 		any_country = {
 			limit = {
 				has_country_modifier = poor_everyday_needs_satisfaction
-				NOT = { poor_everyday_need = 0.35 }
+				NOT = {
+					any_pop = {
+						strata = poor
+						everyday_needs = 0.35
+					}
+				}
 			}
 			remove_country_modifier = poor_everyday_needs_satisfaction
 		}
@@ -721,7 +723,10 @@ country_event = {
 		any_country = {
 			limit = {
 				NOT = { has_country_modifier = poor_luxury_needs_satisfaction }
-				poor_luxury_need = 0.15
+				any_pop = {
+					strata = poor
+					luxury_needs = 0.15
+				}
 			}
 			add_country_modifier = {
 				name = poor_luxury_needs_satisfaction
@@ -731,7 +736,12 @@ country_event = {
 		any_country = {
 			limit = {
 				has_country_modifier = poor_luxury_needs_satisfaction
-				NOT = { poor_luxury_need = 0.15 }
+				NOT = {
+					any_pop = {
+						strata = poor
+						luxury_needs = 0.15
+					}
+				}
 			}
 			remove_country_modifier = poor_luxury_needs_satisfaction
 		}

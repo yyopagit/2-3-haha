@@ -435,10 +435,8 @@ political_decisions = {
 		effect = {
 			any_country = {
 			limit = {
-				AND = {
-					NOT = { has_country_flag = assimilation_spread }
-					invention = family_planning
-				}
+				NOT = { has_country_flag = assimilation_spread }
+				invention = family_planning
 			}
 			set_country_flag = assimilation_spread
 			}

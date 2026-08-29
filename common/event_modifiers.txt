@@ -2410,6 +2410,7 @@ japan_economy_overheat_timer = {
 }
 japan_economy_overheated = {
 	RGO_output = -0.2
+	RGO_throughput = -0.2
 	tax_efficiency = -0.05
 	factory_output = -0.1
 	icon = 16
@@ -2527,9 +2528,9 @@ state_has_urban = {
 # Сакоку: закрытая страна, запрет CB на/от других стран (кроме японской унификации)
 sakoku_policy = {
 	icon = 11
-	national_unity = 0.1
-	plurality = -0.05
-	militancy = -0.1
+	ruling_party_support = 0.1
+	pop_consciousness_modifier = -0.05
+	core_pop_militancy_modifier = -0.1
 }
 
 # Кулдаун 180 дней между сносом уровня больницы при оккупации (140413).

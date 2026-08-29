@@ -1107,6 +1107,7 @@ CHI_1496;Гонконг;X;X;X;X;X;X
 CHI_1498;Макао;X;X;X;X;X;X
 CHI_1538;Шанхай (Г);X;X;X;X;X;X
 CHI_1566;Циндао;X;X;X;X;X;X
+CHI_1481;Порт-Артур;X;X;X;X;X;X
 ANY_STATE_STARTS;Любой регион;X;X;X;X;X;X
 indian_sepoys_title;Сипаи;X;X;X;X;X;X
 indian_sepoys_name;Индийские сипаи;X;X;X;X;X;X
@@ -25536,3 +25537,11 @@ CHI_yellow_deadline;Срок работ на Хуанхэ;X;X;X;X;X;X
 CHI_yellow_deadline_desc;Отсчёт до 1 января 1845 г. Когда карточка пропадёт, двор сможет бросить старое русло без награды.;X;X;X;X;X;X
 CHI_yellow_old_course;Старое русло удержано;X;X;X;X;X;X
 CHI_yellow_old_course_desc;Дамбы по всем пяти регионам Хуанхэ укреплены в срок.\nФерма +20%, добыча +20%, выпуск фабрик +15%. Крестьяне чаще идут в ремесленники.;X;X;X;X;X;X
+iwakura_mission_title;Миссия Ивакура;X;X;X;X;X;X
+iwakura_mission_desc;Отправить дипломатическую миссию на Запад, чтобы изучить государственное устройство, промышленность и армию цивилизованных держав.;X;X;X;X;X;X
+integrate_hokkaido_title;Интегрировать Хоккайдо;X;X;X;X;X;X
+integrate_hokkaido_desc;Колонизация севера закрепит Хоккайдо за Японией и поднимет жизненный уровень поселенцев на острове.;X;X;X;X;X;X
+sakhalin_negotiations_title;Переговоры по Сахалину;X;X;X;X;X;X
+sakhalin_negotiations_desc;Раздел Сахалина с Россией: юг острова отойдёт Японии, север останется за Россией.;X;X;X;X;X;X
+ryk_annexation_activation_title;Начать спор о Рюкю;X;X;X;X;X;X
+ryk_annexation_activation_desc;Запустить отсчёт соперничества Китая и Японии за архипелаг Рюкю.;X;X;X;X;X;X
