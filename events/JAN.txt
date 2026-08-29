@@ -164,56 +164,48 @@ country_event = {
 		##### Провинциальные модификаторы для проливов и торговых центров
 		
 		517 = {
-			limit = { NOT = { has_province_modifier = gibraltar } }
 			add_province_modifier = {
 				name = gibraltar
 				duration = -1
 			}
 		}
 		1412 = {
-			limit = { NOT = { has_province_modifier = aden } }
 			add_province_modifier = {
 				name = aden
 				duration = -1
 			}
 		}
 		1384 = {
-			limit = { NOT = { has_province_modifier = singopur } }
 			add_province_modifier = {
 				name = singopur
 				duration = -1
 			}
 		}
 		1725 = {
-			limit = { NOT = { has_province_modifier = tunisik } }
 			add_province_modifier = {
 				name = tunisik
 				duration = -1
 			}
 		}
 		354 = {
-			limit = { NOT = { has_province_modifier = pribaltika } }
 			add_province_modifier = {
 				name = pribaltika
 				duration = -1
 			}
 		}
 		343 = {
-			limit = { NOT = { has_province_modifier = finland } }
 			add_province_modifier = {
 				name = finland
 				duration = -1
 			}
 		}
 		1084 = {
-			limit = { NOT = { has_province_modifier = primorsk} }
 			add_province_modifier = {
 				name = primorsk
 				duration = -1
 			}
 		}
 		1480 = {
-			limit = { NOT = { has_province_modifier = primorsk2 } }
 			add_province_modifier = {
 				name = primorsk2
 				duration = -1

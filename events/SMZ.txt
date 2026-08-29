@@ -577,13 +577,20 @@ annex_to = CHI
 					NOT = { has_country_flag = ryk_annex_bonus_jap }
 				}
 				set_country_flag = ryk_annex_bonus_jap
-				1678 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
-				1679 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
-				1662 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
-				1663 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
-				1664 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
-				1661 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
-				1660 = { limit = { owned_by = JAP } add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 } }
+				any_owned = {
+					limit = {
+						OR = {
+							province_id = 1678
+							province_id = 1679
+							province_id = 1662
+							province_id = 1663
+							province_id = 1664
+							province_id = 1661
+							province_id = 1660
+						}
+					}
+					add_province_modifier = { name = ryk_annex_jap_pop duration = 1825 }
+				}
 			}
 			###Бонус Китая: прирост населения в провинциях востока Китая (5 лет, если провинции принадлежат Китаю)
 			any_country = {
@@ -593,11 +600,18 @@ annex_to = CHI
 					NOT = { has_country_flag = ryk_annex_bonus_chi }
 				}
 				set_country_flag = ryk_annex_bonus_chi
-				1608 = { limit = { owned_by = CHI } add_province_modifier = { name = ryk_annex_chi_pop duration = 1825 } }
-				1609 = { limit = { owned_by = CHI } add_province_modifier = { name = ryk_annex_chi_pop duration = 1825 } }
-				1604 = { limit = { owned_by = CHI } add_province_modifier = { name = ryk_annex_chi_pop duration = 1825 } }
-				1606 = { limit = { owned_by = CHI } add_province_modifier = { name = ryk_annex_chi_pop duration = 1825 } }
-				1538 = { limit = { owned_by = CHI } add_province_modifier = { name = ryk_annex_chi_pop duration = 1825 } }
+				any_owned = {
+					limit = {
+						OR = {
+							province_id = 1608
+							province_id = 1609
+							province_id = 1604
+							province_id = 1606
+							province_id = 1538
+						}
+					}
+					add_province_modifier = { name = ryk_annex_chi_pop duration = 1825 }
+				}
 			}
 ### Прогресс в сторону Японии (отсчёт уменьшается): 11→20
 any_country = {

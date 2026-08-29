@@ -1,0 +1,3250 @@
+# Provinces (PROV);x;X;X;X;X;X
+PROV3247;Западные Гавайи;X;X;X;X;X;X
+PROV3248;Запад мыса Магеллана;X;X;X;X;X;X
+PROV2049;Лоуренсу-Маркеш;X;X;X;X;X;X
+PROV1723;Бальбоа;X;X;X;X;X;X
+PROV353;Эзель;X;X;X;X;X;X
+PROV2918;Залив Бенин;X;X;X;X;X;X
+PROV2921;Побережье Гамбии;X;X;X;X;X;X
+PROV2922;Побережье Сенегамбии;X;X;X;X;X;X
+PROV3041;Аргентинское поднятие;X;X;X;X;X;X
+PROV1;Ситка;X;X;X;X;X;X
+PROV2;Якутат;X;X;X;X;X;X
+PROV3;Кенаи;X;X;X;X;X;X
+PROV4;Датч-Харбор;X;X;X;X;X;X
+PROV5;Бетель;X;X;X;X;X;X
+PROV6;Уайтхорс;X;X;X;X;X;X
+PROV7;Доусон;X;X;X;X;X;X
+PROV8;Росс-Ривер;X;X;X;X;X;X
+PROV9;Форт Симпсон;X;X;X;X;X;X
+PROV10;Инувик;X;X;X;X;X;X
+PROV11;Эко-Бей;X;X;X;X;X;X
+PROV12;Релианс;X;X;X;X;X;X
+PROV13;Ванкувер;X;X;X;X;X;X
+PROV14;Остров Ванкувер;X;X;X;X;X;X
+PROV15;Принс-Руперт;X;X;X;X;X;X
+PROV16;Гленора;X;X;X;X;X;X
+PROV17;Атлин;X;X;X;X;X;X
+PROV18;Форт Сент-Джон;X;X;X;X;X;X
+PROV19;Принс-Джордж;X;X;X;X;X;X
+PROV20;Келоуна;X;X;X;X;X;X
+PROV21;Вернон;X;X;X;X;X;X
+PROV22;Эдмонтон;X;X;X;X;X;X
+PROV23;Атабаска-Лэндингз;X;X;X;X;X;X
+PROV24;Джаспер;X;X;X;X;X;X
+PROV25;Банф;X;X;X;X;X;X
+PROV26;Калгари;X;X;X;X;X;X
+PROV27;Денвуд;X;X;X;X;X;X
+PROV28;Форт-Маклеод;X;X;X;X;X;X
+PROV29;Медисин-Хат;X;X;X;X;X;X
+PROV30;Риджайна;X;X;X;X;X;X
+PROV31;Стэнли;X;X;X;X;X;X
+PROV32;Принс-Альберт;X;X;X;X;X;X
+PROV33;Асквит;X;X;X;X;X;X
+PROV34;Саскатун;X;X;X;X;X;X
+PROV35;Мапл-Крик;X;X;X;X;X;X
+PROV36;Виннипег;X;X;X;X;X;X
+PROV37;Черчилл;X;X;X;X;X;X
+PROV38;Индиан-Лейкс;X;X;X;X;X;X
+PROV39;Норвей-Хаус;X;X;X;X;X;X
+PROV40;Дофин;X;X;X;X;X;X
+PROV41;Брэндон;X;X;X;X;X;X
+PROV42;Пембина;X;X;X;X;X;X
+PROV43;Эскимо-Пойнт;X;X;X;X;X;X
+PROV44;Эко-Бей;X;X;X;X;X;X
+PROV45;Баффинова земля;X;X;X;X;X;X
+PROV46;Торонто;X;X;X;X;X;X
+PROV47;Форт Северн;X;X;X;X;X;X
+PROV48;Форт-Олбани;X;X;X;X;X;X
+PROV49;Драйден;X;X;X;X;X;X
+PROV50;Тандер-Бей;X;X;X;X;X;X
+PROV51;Су-Сент-Мари;X;X;X;X;X;X
+PROV52;Садбери;X;X;X;X;X;X
+PROV53;Барри;X;X;X;X;X;X
+PROV54;Виндзор;X;X;X;X;X;X
+PROV55;Гамильтон;X;X;X;X;X;X
+PROV56;Кингстон;X;X;X;X;X;X
+PROV57;Оттава;X;X;X;X;X;X
+PROV58;Монреаль;X;X;X;X;X;X
+PROV59;Нитчикун;X;X;X;X;X;X
+PROV60;Форт Руперт;X;X;X;X;X;X
+PROV61;Чикутими;X;X;X;X;X;X
+PROV62;Септ-Ильс;X;X;X;X;X;X
+PROV63;Темискаминг;X;X;X;X;X;X
+PROV64;Труа-Ривьер;X;X;X;X;X;X
+PROV65;Квебек-Сити;X;X;X;X;X;X
+PROV66;Шербрук;X;X;X;X;X;X
+PROV67;Римуски;X;X;X;X;X;X
+PROV68;Фредериктон;X;X;X;X;X;X
+PROV69;Батерст;X;X;X;X;X;X
+PROV70;О-в Принца Эдварда;X;X;X;X;X;X
+PROV71;Галифакс;X;X;X;X;X;X
+PROV72;Труро;X;X;X;X;X;X
+PROV73;О-в Кейп-Бретон;X;X;X;X;X;X
+PROV74;Сент-Джонс;X;X;X;X;X;X
+PROV75;Миллертаун;X;X;X;X;X;X
+PROV76;Хопдейл;X;X;X;X;X;X
+PROV77;Сен-Пьер и Микелон;X;X;X;X;X;X
+PROV78;Сиэтл;X;X;X;X;X;X
+PROV79;Спокан;X;X;X;X;X;X
+PROV80;Валла-валла;X;X;X;X;X;X
+PROV81;Портленд;X;X;X;X;X;X
+PROV82;Бейкер-Сити;X;X;X;X;X;X
+PROV83;Кламат-Фолс;X;X;X;X;X;X
+PROV84;Сан-Франциско;X;X;X;X;X;X
+PROV85;Юрика;X;X;X;X;X;X
+PROV86;Сакраменто;X;X;X;X;X;X
+PROV87;Монтерей;X;X;X;X;X;X
+PROV88;Марипоса;X;X;X;X;X;X
+PROV89;Лос-Анджелес;X;X;X;X;X;X
+PROV90;Сан-Диего;X;X;X;X;X;X
+PROV91;Бойсе;X;X;X;X;X;X
+PROV92;Кер д'Ален;X;X;X;X;X;X
+PROV93;Покателло;X;X;X;X;X;X
+PROV94;Карсон-Сити;X;X;X;X;X;X
+PROV95;Элко;X;X;X;X;X;X
+PROV96;Лас-Вегас;X;X;X;X;X;X
+PROV97;Солт-Лейк-Сити;X;X;X;X;X;X
+PROV98;Лоа;X;X;X;X;X;X
+PROV99;Моаб;X;X;X;X;X;X
+PROV100;Финикс;X;X;X;X;X;X
+PROV101;Флагстафф;X;X;X;X;X;X
+PROV102;Тусон;X;X;X;X;X;X
+PROV103;Санта-Фе;X;X;X;X;X;X
+PROV104;Альбукерке;X;X;X;X;X;X
+PROV105;Лас-Крусес;X;X;X;X;X;X
+PROV106;Денвер;X;X;X;X;X;X
+PROV107;Гранд-Джанкшен;X;X;X;X;X;X
+PROV108;Аламоса;X;X;X;X;X;X
+PROV109;Пуэбло;X;X;X;X;X;X
+PROV110;Шайенн;X;X;X;X;X;X
+PROV111;Коди;X;X;X;X;X;X
+PROV112;Каспер;X;X;X;X;X;X
+PROV113;Боземан;X;X;X;X;X;X
+PROV114;Мизула;X;X;X;X;X;X
+PROV115;Грейт-Фолс;X;X;X;X;X;X
+PROV116;Биллингс;X;X;X;X;X;X
+PROV117;Бисмарк;X;X;X;X;X;X
+PROV118;Майнот;X;X;X;X;X;X
+PROV119;Дикинсон;X;X;X;X;X;X
+PROV120;Су-Фолс;X;X;X;X;X;X
+PROV121;Дюпре;X;X;X;X;X;X
+PROV122;Рапид-Сити;X;X;X;X;X;X
+PROV123;Омаха;X;X;X;X;X;X
+PROV124;Элайнс;X;X;X;X;X;X
+PROV125;Норт-Платт;X;X;X;X;X;X
+PROV126;Топека;X;X;X;X;X;X
+PROV127;Гудленд;X;X;X;X;X;X
+PROV128;Уичито;X;X;X;X;X;X
+PROV129;Оклахома-Сити;X;X;X;X;X;X
+PROV130;Талекуа;X;X;X;X;X;X
+PROV131;Окмалги;X;X;X;X;X;X
+PROV132;Хьюстон;X;X;X;X;X;X
+PROV133;Остин;X;X;X;X;X;X
+PROV134;Даллас;X;X;X;X;X;X
+PROV135;Лаббок;X;X;X;X;X;X
+PROV136;Эль-Пасо;X;X;X;X;X;X
+PROV137;Сан-Антонио;X;X;X;X;X;X
+PROV138;Ларедо;X;X;X;X;X;X
+PROV139;Новый Орлеан;X;X;X;X;X;X
+PROV140;Батон-Руж;X;X;X;X;X;X
+PROV141;Лейк-Чарльз;X;X;X;X;X;X
+PROV142;Шривпорт;X;X;X;X;X;X
+PROV143;Литл-Рок;X;X;X;X;X;X
+PROV144;Хот-Спрингс;X;X;X;X;X;X
+PROV145;Фейетвилл;X;X;X;X;X;X
+PROV146;Сент-Луис;X;X;X;X;X;X
+PROV147;Джоплин;X;X;X;X;X;X
+PROV148;Молден;X;X;X;X;X;X
+PROV149;Джефферсон-Сити;X;X;X;X;X;X
+PROV150;Канзас-Сити;X;X;X;X;X;X
+PROV151;Де-Мойн;X;X;X;X;X;X
+PROV152;Оскалуса;X;X;X;X;X;X
+PROV153;Сидар-Рапидс;X;X;X;X;X;X
+PROV154;Су-Сити;X;X;X;X;X;X
+PROV155;Миннеаполис;X;X;X;X;X;X
+PROV156;Грэнит-Фоллз;X;X;X;X;X;X
+PROV157;Мурхед;X;X;X;X;X;X
+PROV158;Дулут;X;X;X;X;X;X
+PROV159;Милуоки;X;X;X;X;X;X
+PROV160;О-Клэр;X;X;X;X;X;X
+PROV161;Грин-Бей;X;X;X;X;X;X
+PROV162;Мэдисон;X;X;X;X;X;X
+PROV163;Чикаго;X;X;X;X;X;X
+PROV164;Рокфорд;X;X;X;X;X;X
+PROV165;Шампэйн;X;X;X;X;X;X
+PROV166;Пеория;X;X;X;X;X;X
+PROV167;Спрингфилд;X;X;X;X;X;X
+PROV168;Карбондейл;X;X;X;X;X;X
+PROV169;Индианаполис;X;X;X;X;X;X
+PROV170;Эвансвилл;X;X;X;X;X;X
+PROV171;Саут-Бенд;X;X;X;X;X;X
+PROV172;Форт-Уэйн;X;X;X;X;X;X
+PROV173;Детройт;X;X;X;X;X;X
+PROV174;Гранд-Рапидс;X;X;X;X;X;X
+PROV175;Сагино;X;X;X;X;X;X
+PROV176;Траверс-Сити;X;X;X;X;X;X
+PROV177;Маркетт;X;X;X;X;X;X
+PROV178;Кливленд;X;X;X;X;X;X
+PROV179;Коламбус;X;X;X;X;X;X
+PROV180;Сандаски;X;X;X;X;X;X
+PROV181;Дейтон;X;X;X;X;X;X
+PROV182;Цинцинатти;X;X;X;X;X;X
+PROV183;Мариетта;X;X;X;X;X;X
+PROV184;Луисвиль;X;X;X;X;X;X
+PROV185;Лексингтон;X;X;X;X;X;X
+PROV186;Боулинг-Грин;X;X;X;X;X;X
+PROV187;Падьюка;X;X;X;X;X;X
+PROV188;Нэшвилл;X;X;X;X;X;X
+PROV189;Мемфис;X;X;X;X;X;X
+PROV190;Ноксвилл;X;X;X;X;X;X
+PROV191;Чаттануга;X;X;X;X;X;X
+PROV192;Джексон;X;X;X;X;X;X
+PROV193;Виксбург;X;X;X;X;X;X
+PROV194;Билокси;X;X;X;X;X;X
+PROV195;Монтгомери;X;X;X;X;X;X
+PROV196;Тускалуса;X;X;X;X;X;X
+PROV197;Мобил;X;X;X;X;X;X
+PROV198;Таллахасси;X;X;X;X;X;X
+PROV199;Сент-Огастин;X;X;X;X;X;X
+PROV200;Тампа;X;X;X;X;X;X
+PROV201;Атланта;X;X;X;X;X;X
+PROV202;Валдоста;X;X;X;X;X;X
+PROV203;Бермуды;X;X;X;X;X;X
+PROV204;Саванна;X;X;X;X;X;X
+PROV205;Чарлстон;X;X;X;X;X;X
+PROV206;Колумбия;X;X;X;X;X;X
+PROV207;Гринвилл;X;X;X;X;X;X
+PROV208;Роли;X;X;X;X;X;X
+PROV209;Шарлотт;X;X;X;X;X;X
+PROV210;Уилмингтон;X;X;X;X;X;X
+PROV211;Ричмонд;X;X;X;X;X;X
+PROV212;Манассас;X;X;X;X;X;X
+PROV213;Фредериксберг;X;X;X;X;X;X
+PROV214;Норфолк;X;X;X;X;X;X
+PROV215;Стаунтон;X;X;X;X;X;X
+PROV216;Роанок;X;X;X;X;X;X
+PROV217;Уилинг;X;X;X;X;X;X
+PROV218;Хантингтон;X;X;X;X;X;X
+PROV219;Балтимор;X;X;X;X;X;X
+PROV220;Вашингтон;X;X;X;X;X;X
+PROV221;Хейгерстаун;X;X;X;X;X;X
+PROV222;Дувр;X;X;X;X;X;X
+PROV223;Филадельфия;X;X;X;X;X;X
+PROV224;Скрантон;X;X;X;X;X;X
+PROV225;Уильямспорт;X;X;X;X;X;X
+PROV226;Гаррисберг;X;X;X;X;X;X
+PROV227;Питтсбург;X;X;X;X;X;X
+PROV228;Эри;X;X;X;X;X;X
+PROV229;Ньюарк;X;X;X;X;X;X
+PROV230;Трентон;X;X;X;X;X;X
+PROV231;Атлантик-Сити;X;X;X;X;X;X
+PROV232;Нью-Йорк;X;X;X;X;X;X
+PROV233;Лонг-Айленд;X;X;X;X;X;X
+PROV234;Олбани;X;X;X;X;X;X
+PROV235;Бингемтон;X;X;X;X;X;X
+PROV236;Баффало;X;X;X;X;X;X
+PROV237;Рочестер;X;X;X;X;X;X
+PROV238;Сиракузы;X;X;X;X;X;X
+PROV239;Уотертаун;X;X;X;X;X;X
+PROV240;Платтсберг;X;X;X;X;X;X
+PROV241;Хартфорд;X;X;X;X;X;X
+PROV242;Провиденс;X;X;X;X;X;X
+PROV243;Бостон;X;X;X;X;X;X
+PROV244;Нью-Бедфорд;X;X;X;X;X;X
+PROV245;Питтсфилд;X;X;X;X;X;X
+PROV246;Берлингтон;X;X;X;X;X;X
+PROV247;Конкорд;X;X;X;X;X;X
+PROV248;Льюистон;X;X;X;X;X;X
+PROV249;Бангор;X;X;X;X;X;X
+PROV250;Карибу;X;X;X;X;X;X
+PROV251;Годхоб;X;X;X;X;X;X
+PROV252;Исландия;X;X;X;X;X;X
+PROV253;Фарерские о-ва;X;X;X;X;X;X
+PROV254;Белфаст;X;X;X;X;X;X
+PROV255;Лондондерри;X;X;X;X;X;X
+PROV256;Арма;X;X;X;X;X;X
+PROV257;Донегол;X;X;X;X;X;X
+PROV258;Голуэй;X;X;X;X;X;X
+PROV259;Слайго;X;X;X;X;X;X
+PROV260;Корк;X;X;X;X;X;X
+PROV261;Лимерик;X;X;X;X;X;X
+PROV262;Уотерфорд;X;X;X;X;X;X
+PROV263;Дублин;X;X;X;X;X;X
+PROV264;Килдэр;X;X;X;X;X;X
+PROV265;Уэксфорд;X;X;X;X;X;X
+PROV266;Абердин;X;X;X;X;X;X
+PROV267;Инвернесс;X;X;X;X;X;X
+PROV268;Данди;X;X;X;X;X;X
+PROV269;Эдинбург;X;X;X;X;X;X
+PROV270;Стирлинг;X;X;X;X;X;X
+PROV271;Глазго;X;X;X;X;X;X
+PROV272;Дамфриз;X;X;X;X;X;X
+PROV273;Кардифф;X;X;X;X;X;X
+PROV274;Кардиган;X;X;X;X;X;X
+PROV275;Лландриндод;X;X;X;X;X;X
+PROV276;Холихед;X;X;X;X;X;X
+PROV277;Ливерпуль;X;X;X;X;X;X
+PROV278;Манчестер;X;X;X;X;X;X
+PROV279;Карлайл;X;X;X;X;X;X
+PROV280;Ньюкастл-Апон-Тайн;X;X;X;X;X;X
+PROV281;Халл;X;X;X;X;X;X
+PROV282;Лидс;X;X;X;X;X;X
+PROV283;Шеффилд;X;X;X;X;X;X
+PROV284;Бирмингем;X;X;X;X;X;X
+PROV285;Честер;X;X;X;X;X;X
+PROV286;Шрусбери;X;X;X;X;X;X
+PROV287;Ковентри;X;X;X;X;X;X
+PROV288;Ноттингем;X;X;X;X;X;X
+PROV289;Лестер;X;X;X;X;X;X
+PROV290;Линкольн;X;X;X;X;X;X
+PROV291;Кембридж;X;X;X;X;X;X
+PROV292;Ипсуич;X;X;X;X;X;X
+PROV293;Хелмсфорд;X;X;X;X;X;X
+PROV294;Оксфорд;X;X;X;X;X;X
+PROV295;Сент-Олбанз;X;X;X;X;X;X
+PROV296;Бристоль;X;X;X;X;X;X
+PROV297;Солсбери;X;X;X;X;X;X
+PROV298;Бат;X;X;X;X;X;X
+PROV299;Плимут;X;X;X;X;X;X
+PROV300;Лондон;X;X;X;X;X;X
+PROV301;Кентербери;X;X;X;X;X;X
+PROV302;Брайтон;X;X;X;X;X;X
+PROV303;Саутгемптон;X;X;X;X;X;X
+PROV304;О-в Мэн;X;X;X;X;X;X
+PROV305;Тронхейм;X;X;X;X;X;X
+PROV306;Бодо;X;X;X;X;X;X
+PROV307;Хаммерфест;X;X;X;X;X;X
+PROV308;Олесунн;X;X;X;X;X;X
+PROV309;Берген;X;X;X;X;X;X
+PROV310;Кристиансун;X;X;X;X;X;X
+PROV311;Скиен;X;X;X;X;X;X
+PROV312;Драммен;X;X;X;X;X;X
+PROV313;Христиания;X;X;X;X;X;X
+PROV314;Хамар;X;X;X;X;X;X
+PROV315;Лиллехаммер;X;X;X;X;X;X
+PROV316;Фредрикстад;X;X;X;X;X;X
+PROV317;Евле;X;X;X;X;X;X
+PROV318;Сундсвалль;X;X;X;X;X;X
+PROV319;Эстерсунд;X;X;X;X;X;X
+PROV320;Умео;X;X;X;X;X;X
+PROV321;Лулео;X;X;X;X;X;X
+PROV322;Стокгольм;X;X;X;X;X;X
+PROV323;Фалун;X;X;X;X;X;X
+PROV324;Уппсала;X;X;X;X;X;X
+PROV325;Норрчепинг;X;X;X;X;X;X
+PROV326;Вестерос;X;X;X;X;X;X
+PROV327;Эребру;X;X;X;X;X;X
+PROV328;Карлстад;X;X;X;X;X;X
+PROV329;Гетеборг;X;X;X;X;X;X
+PROV330;Борас;X;X;X;X;X;X
+PROV331;Готланд;X;X;X;X;X;X
+PROV332;Кальмар;X;X;X;X;X;X
+PROV333;Вексье;X;X;X;X;X;X
+PROV334;Мальме;X;X;X;X;X;X
+PROV335;Карлскрона;X;X;X;X;X;X
+PROV336;Оулу;X;X;X;X;X;X
+PROV337;Каяани;X;X;X;X;X;X
+PROV338;Торнио;X;X;X;X;X;X
+PROV339;Выборг;X;X;X;X;X;X
+PROV340;Котка;X;X;X;X;X;X
+PROV341;Миккели;X;X;X;X;X;X
+PROV342;Куопио;X;X;X;X;X;X
+PROV343;Хельсинки;X;X;X;X;X;X
+PROV344;Хямеенлинна;X;X;X;X;X;X
+PROV345;Турку;X;X;X;X;X;X
+PROV346;Вааса;X;X;X;X;X;X
+PROV347;Тампере;X;X;X;X;X;X
+PROV348;Аландские о-ва;X;X;X;X;X;X
+PROV349;Ревель;X;X;X;X;X;X
+PROV350;Нарва;X;X;X;X;X;X
+PROV351;Пярну;X;X;X;X;X;X
+PROV352;Дерпт;X;X;X;X;X;X
+PROV354;Рига;X;X;X;X;X;X
+PROV355;Валмиера;X;X;X;X;X;X
+PROV356;Даугавпилс;X;X;X;X;X;X
+PROV357;Елгава;X;X;X;X;X;X
+PROV358;Вентспилс;X;X;X;X;X;X
+PROV359;Лиепая;X;X;X;X;X;X
+PROV360;Вильнюс;X;X;X;X;X;X
+PROV361;Каунас;X;X;X;X;X;X
+PROV362;Мариямполе;X;X;X;X;X;X
+PROV363;Паневежис;X;X;X;X;X;X
+PROV364;Шяуляй;X;X;X;X;X;X
+PROV365;Паланга;X;X;X;X;X;X
+PROV366;Орхус;X;X;X;X;X;X
+PROV367;Ольборг;X;X;X;X;X;X
+PROV368;Рибе;X;X;X;X;X;X
+PROV369;Киль;X;X;X;X;X;X
+PROV370;Фленсбург;X;X;X;X;X;X
+PROV371;Обенро;X;X;X;X;X;X
+PROV372;Копенгаген;X;X;X;X;X;X
+PROV373;Оденсе;X;X;X;X;X;X
+PROV374;Борнхольм;X;X;X;X;X;X
+PROV375;Амстердам;X;X;X;X;X;X
+PROV376;Роттердам;X;X;X;X;X;X
+PROV377;Утрехт;X;X;X;X;X;X
+PROV378;Мидделбург;X;X;X;X;X;X
+PROV379;Эйндховен;X;X;X;X;X;X
+PROV380;Бреда;X;X;X;X;X;X
+PROV381;Маастрихт;X;X;X;X;X;X
+PROV382;Арнем;X;X;X;X;X;X
+PROV383;Гронинген;X;X;X;X;X;X
+PROV384;Зволле;X;X;X;X;X;X
+PROV385;Леуварден;X;X;X;X;X;X
+PROV386;Ассен;X;X;X;X;X;X
+PROV387;Брюссель;X;X;X;X;X;X
+PROV388;Брюгге;X;X;X;X;X;X
+PROV389;Гент;X;X;X;X;X;X
+PROV390;Антверпен;X;X;X;X;X;X
+PROV391;Хасселт;X;X;X;X;X;X
+PROV392;Намюр;X;X;X;X;X;X
+PROV393;Турне;X;X;X;X;X;X
+PROV394;Шарлеруа;X;X;X;X;X;X
+PROV395;Льеж;X;X;X;X;X;X
+PROV396;Спа;X;X;X;X;X;X
+PROV397;Люксембург;X;X;X;X;X;X
+PROV398;Арлон;X;X;X;X;X;X
+PROV399;Лилль;X;X;X;X;X;X
+PROV400;Дюнкерк;X;X;X;X;X;X
+PROV401;Аррас;X;X;X;X;X;X
+PROV402;Амьен;X;X;X;X;X;X
+PROV403;Лаон;X;X;X;X;X;X
+PROV404;Камбре;X;X;X;X;X;X
+PROV405;Шарлевиль;X;X;X;X;X;X
+PROV406;Труа;X;X;X;X;X;X
+PROV407;Шомон;X;X;X;X;X;X
+PROV408;Шалон;X;X;X;X;X;X
+PROV409;Страсбург;X;X;X;X;X;X
+PROV410;Кольмар;X;X;X;X;X;X
+PROV411;Нанси;X;X;X;X;X;X
+PROV412;Мец;X;X;X;X;X;X
+PROV413;Верден;X;X;X;X;X;X
+PROV414;Эпиналь;X;X;X;X;X;X
+PROV415;Руан;X;X;X;X;X;X
+PROV416;Эвре;X;X;X;X;X;X
+PROV417;Алансон;X;X;X;X;X;X
+PROV418;Кан;X;X;X;X;X;X
+PROV419;Нормандские о-ва;X;X;X;X;X;X
+PROV420;Брест;X;X;X;X;X;X
+PROV421;Сен-Брие;X;X;X;X;X;X
+PROV422;Ван;X;X;X;X;X;X
+PROV423;Нант;X;X;X;X;X;X
+PROV424;Рен;X;X;X;X;X;X
+PROV425;Париж;X;X;X;X;X;X
+PROV426;Шартр;X;X;X;X;X;X
+PROV427;Фонтенбло;X;X;X;X;X;X
+PROV428;Дижон;X;X;X;X;X;X
+PROV429;Осер;X;X;X;X;X;X
+PROV430;Мулен;X;X;X;X;X;X
+PROV431;Макон;X;X;X;X;X;X
+PROV432;Безансон;X;X;X;X;X;X
+PROV433;Лон;X;X;X;X;X;X
+PROV434;Анжер;X;X;X;X;X;X
+PROV435;Лаваль;X;X;X;X;X;X
+PROV436;Ле-Ман;X;X;X;X;X;X
+PROV437;Ла-Рош;X;X;X;X;X;X
+PROV438;Орлеан;X;X;X;X;X;X
+PROV439;Бурж;X;X;X;X;X;X
+PROV440;Блуа;X;X;X;X;X;X
+PROV441;Тур;X;X;X;X;X;X
+PROV442;Ла-Рошель;X;X;X;X;X;X
+PROV443;Пуатье;X;X;X;X;X;X
+PROV444;Ангулем;X;X;X;X;X;X
+PROV445;Лимож;X;X;X;X;X;X
+PROV446;Шаторуа;X;X;X;X;X;X
+PROV447;Тюль;X;X;X;X;X;X
+PROV448;Клермон-Ферран;X;X;X;X;X;X
+PROV449;Орийак;X;X;X;X;X;X
+PROV450;Каор;X;X;X;X;X;X
+PROV451;Лион;X;X;X;X;X;X
+PROV452;Сент-Этьен;X;X;X;X;X;X
+PROV453;Валанс;X;X;X;X;X;X
+PROV454;Гренобль;X;X;X;X;X;X
+PROV455;Тулуза;X;X;X;X;X;X
+PROV456;Монтобан;X;X;X;X;X;X
+PROV457;Фуа;X;X;X;X;X;X
+PROV458;Бордо;X;X;X;X;X;X
+PROV459;Мон-де-Марсан;X;X;X;X;X;X
+PROV460;По;X;X;X;X;X;X
+PROV461;Монпелье;X;X;X;X;X;X
+PROV462;Родез;X;X;X;X;X;X
+PROV463;Каркассон;X;X;X;X;X;X
+PROV464;Перпиньян;X;X;X;X;X;X
+PROV465;Анси;X;X;X;X;X;X
+PROV466;Шамбери;X;X;X;X;X;X
+PROV467;Марсель;X;X;X;X;X;X
+PROV468;Авиньон;X;X;X;X;X;X
+PROV469;Динь;X;X;X;X;X;X
+PROV470;Тулон;X;X;X;X;X;X
+PROV471;Фрежюс;X;X;X;X;X;X
+PROV472;Ницца;X;X;X;X;X;X
+PROV473;Корсика;X;X;X;X;X;X
+PROV474;Ла-Корунья;X;X;X;X;X;X
+PROV475;Овьедо;X;X;X;X;X;X
+PROV476;Виго;X;X;X;X;X;X
+PROV477;Леон;X;X;X;X;X;X
+PROV478;Сантандер;X;X;X;X;X;X
+PROV479;Бургос;X;X;X;X;X;X
+PROV480;Вальядолид;X;X;X;X;X;X
+PROV481;Сория;X;X;X;X;X;X
+PROV482;Саламанка;X;X;X;X;X;X
+PROV483;Авила;X;X;X;X;X;X
+PROV484;Бадахос;X;X;X;X;X;X
+PROV485;Альмендралехо;X;X;X;X;X;X
+PROV486;Касерес;X;X;X;X;X;X
+PROV487;Мадрид;X;X;X;X;X;X
+PROV488;Сигуэнса;X;X;X;X;X;X
+PROV489;Толедо;X;X;X;X;X;X
+PROV490;Куэнка;X;X;X;X;X;X
+PROV491;Сьюдад-Реал;X;X;X;X;X;X
+PROV492;Бильбао;X;X;X;X;X;X
+PROV493;Памплона;X;X;X;X;X;X
+PROV494;Логроньо;X;X;X;X;X;X
+PROV495;Сарагоса;X;X;X;X;X;X
+PROV496;Уэска;X;X;X;X;X;X
+PROV497;Теруэль;X;X;X;X;X;X
+PROV498;Барселона;X;X;X;X;X;X
+PROV499;Жерона;X;X;X;X;X;X
+PROV500;Лерида;X;X;X;X;X;X
+PROV501;Таррагона;X;X;X;X;X;X
+PROV502;Балеарские о-ва;X;X;X;X;X;X
+PROV503;Валенсия;X;X;X;X;X;X
+PROV504;Кастельон;X;X;X;X;X;X
+PROV505;Аликанте;X;X;X;X;X;X
+PROV506;Картахена;X;X;X;X;X;X
+PROV507;Мурсия;X;X;X;X;X;X
+PROV508;Альбасете;X;X;X;X;X;X
+PROV509;Севилья;X;X;X;X;X;X
+PROV510;Кордова;X;X;X;X;X;X
+PROV511;Уэльва;X;X;X;X;X;X
+PROV512;Кадис;X;X;X;X;X;X
+PROV513;Гранада;X;X;X;X;X;X
+PROV514;Малага;X;X;X;X;X;X
+PROV515;Альмерия;X;X;X;X;X;X
+PROV516;Хаэн;X;X;X;X;X;X
+PROV517;Гибралтар;X;X;X;X;X;X
+PROV518;Порто;X;X;X;X;X;X
+PROV519;Вила-Реал;X;X;X;X;X;X
+PROV520;Ковилья;X;X;X;X;X;X
+PROV521;Лиссабон;X;X;X;X;X;X
+PROV522;Коимбра;X;X;X;X;X;X
+PROV523;Абрантиш;X;X;X;X;X;X
+PROV524;Сетубал;X;X;X;X;X;X
+PROV525;Эвора;X;X;X;X;X;X
+PROV526;Бежа;X;X;X;X;X;X
+PROV527;Фару;X;X;X;X;X;X
+PROV528;Гамбург;X;X;X;X;X;X
+PROV529;Лауэнбург;X;X;X;X;X;X
+PROV530;Любек;X;X;X;X;X;X
+PROV531;Штаде;X;X;X;X;X;X
+PROV532;Люнебург;X;X;X;X;X;X
+PROV533;Гельголанд;X;X;X;X;X;X
+PROV534;Ганновер;X;X;X;X;X;X
+PROV535;Ниенбург;X;X;X;X;X;X
+PROV536;Брауншвейг;X;X;X;X;X;X
+PROV537;Геттинген;X;X;X;X;X;X
+PROV538;Оснабрюк;X;X;X;X;X;X
+PROV539;Бремен;X;X;X;X;X;X
+PROV540;Ольденбург;X;X;X;X;X;X
+PROV541;Клоппенбург;X;X;X;X;X;X
+PROV542;Линген;X;X;X;X;X;X
+PROV543;Эмден;X;X;X;X;X;X
+PROV544;Шверин;X;X;X;X;X;X
+PROV545;Нойштрелитц;X;X;X;X;X;X
+PROV546;Штеттин;X;X;X;X;X;X
+PROV547;Свинемюнде;X;X;X;X;X;X
+PROV548;Штральзунд;X;X;X;X;X;X
+PROV549;Берлин;X;X;X;X;X;X
+PROV550;Пренцлау;X;X;X;X;X;X
+PROV551;Притцвальк;X;X;X;X;X;X
+PROV552;Котбус;X;X;X;X;X;X
+PROV553;Магдебург;X;X;X;X;X;X
+PROV554;Эрфурт;X;X;X;X;X;X
+PROV555;Дессау;X;X;X;X;X;X
+PROV556;Галле;X;X;X;X;X;X
+PROV557;Штендаль;X;X;X;X;X;X
+PROV558;Дрезден;X;X;X;X;X;X
+PROV559;Лейпциг;X;X;X;X;X;X
+PROV560;Хемниц;X;X;X;X;X;X
+PROV561;Веймар;X;X;X;X;X;X
+PROV562;Гота;X;X;X;X;X;X
+PROV563;Майнинген;X;X;X;X;X;X
+PROV564;Франкфурт;X;X;X;X;X;X
+PROV565;Висбаден;X;X;X;X;X;X
+PROV566;Кассель;X;X;X;X;X;X
+PROV567;Гессен;X;X;X;X;X;X
+PROV568;Фульда;X;X;X;X;X;X
+PROV569;Мангейм;X;X;X;X;X;X
+PROV570;Майнц;X;X;X;X;X;X
+PROV571;Кайзерслаутерн;X;X;X;X;X;X
+PROV572;Трир;X;X;X;X;X;X
+PROV573;Саарбрюккен;X;X;X;X;X;X
+PROV574;Крейцнах;X;X;X;X;X;X
+PROV575;Кельн;X;X;X;X;X;X
+PROV576;Ахен;X;X;X;X;X;X
+PROV577;Клеве;X;X;X;X;X;X
+PROV578;Дюссельдорф;X;X;X;X;X;X
+PROV579;Кобленц;X;X;X;X;X;X
+PROV580;Дортмунд;X;X;X;X;X;X
+PROV581;Мюнстер;X;X;X;X;X;X
+PROV582;Минден;X;X;X;X;X;X
+PROV583;Зиген;X;X;X;X;X;X
+PROV584;Корбах;X;X;X;X;X;X
+PROV585;Детмольд;X;X;X;X;X;X
+PROV586;Карлсруэ;X;X;X;X;X;X
+PROV587;Фрайбург;X;X;X;X;X;X
+PROV588;Констанц;X;X;X;X;X;X
+PROV589;Штуттгарт;X;X;X;X;X;X
+PROV590;Хайльбронн;X;X;X;X;X;X
+PROV591;Тюбинген;X;X;X;X;X;X
+PROV592;Аугсбург;X;X;X;X;X;X
+PROV593;Ульм;X;X;X;X;X;X
+PROV594;Зигмаринген;X;X;X;X;X;X
+PROV595;Нюрнберг;X;X;X;X;X;X
+PROV596;Ашаффенбург;X;X;X;X;X;X
+PROV597;Вюрцбург;X;X;X;X;X;X
+PROV598;Байройт;X;X;X;X;X;X
+PROV599;Мюнхен;X;X;X;X;X;X
+PROV600;Ландсхут;X;X;X;X;X;X
+PROV601;Ингольштадт;X;X;X;X;X;X
+PROV602;Регенсбург;X;X;X;X;X;X
+PROV603;Цюрих;X;X;X;X;X;X
+PROV604;Базель;X;X;X;X;X;X
+PROV605;Берн;X;X;X;X;X;X
+PROV606;Люцерн;X;X;X;X;X;X
+PROV607;Женева;X;X;X;X;X;X
+PROV608;Невшатель;X;X;X;X;X;X
+PROV609;Сьон;X;X;X;X;X;X
+PROV610;Понапе;X;X;X;X;X;X
+PROV611;Кур;X;X;X;X;X;X
+PROV612;Инсбрук;X;X;X;X;X;X
+PROV613;Зальцбург;X;X;X;X;X;X
+PROV614;Брегенц;X;X;X;X;X;X
+PROV615;Лиенц;X;X;X;X;X;X
+PROV616;Грац;X;X;X;X;X;X
+PROV617;Юденбург;X;X;X;X;X;X
+PROV618;Клагенфурт;X;X;X;X;X;X
+PROV619;Вена;X;X;X;X;X;X
+PROV620;Санкт-Пельтен;X;X;X;X;X;X
+PROV621;Кремс;X;X;X;X;X;X
+PROV622;Линц;X;X;X;X;X;X
+PROV623;Шопрон;X;X;X;X;X;X
+PROV624;Айзенштадт;X;X;X;X;X;X
+PROV625;Прага;X;X;X;X;X;X
+PROV626;Градец-Кралове;X;X;X;X;X;X
+PROV627;Карлсбад;X;X;X;X;X;X
+PROV628;Аусиг;X;X;X;X;X;X
+PROV629;Пльзень;X;X;X;X;X;X
+PROV630;Будеевице;X;X;X;X;X;X
+PROV631;Брно;X;X;X;X;X;X
+PROV632;Оломоуц;X;X;X;X;X;X
+PROV633;Братислава;X;X;X;X;X;X
+PROV634;Тренчин;X;X;X;X;X;X
+PROV635;Нитра;X;X;X;X;X;X
+PROV636;Банска-Бистрица;X;X;X;X;X;X
+PROV637;Кошице;X;X;X;X;X;X
+PROV638;Рожнява;X;X;X;X;X;X
+PROV639;Залаэгерсег;X;X;X;X;X;X
+PROV640;Печ;X;X;X;X;X;X
+PROV641;Будапешт;X;X;X;X;X;X
+PROV642;Дьер;X;X;X;X;X;X
+PROV643;Секешфехевар;X;X;X;X;X;X
+PROV644;Капошвар;X;X;X;X;X;X
+PROV645;Кечкемет;X;X;X;X;X;X
+PROV646;Мишкольц;X;X;X;X;X;X
+PROV647;Орадя;X;X;X;X;X;X
+PROV648;Дебрецен;X;X;X;X;X;X
+PROV649;Сегед;X;X;X;X;X;X
+PROV650;Бекешчаба;X;X;X;X;X;X
+PROV651;Сату-Маре;X;X;X;X;X;X
+PROV652;Тимишоара;X;X;X;X;X;X
+PROV653;Резицабанья;X;X;X;X;X;X
+PROV654;Клуж;X;X;X;X;X;X
+PROV655;Алба-Юлия;X;X;X;X;X;X
+PROV656;Дева;X;X;X;X;X;X
+PROV657;Сибиу;X;X;X;X;X;X
+PROV658;Гавайи;X;X;X;X;X;X
+PROV659;Брашов;X;X;X;X;X;X
+PROV660;Удвархеш;X;X;X;X;X;X
+PROV661;Бештерце;X;X;X;X;X;X
+PROV662;Черновцы;X;X;X;X;X;X
+PROV663;Сучава;X;X;X;X;X;X
+PROV664;Бухарест;X;X;X;X;X;X
+PROV665;Тыргу-Жиу;X;X;X;X;X;X
+PROV666;Крайова;X;X;X;X;X;X
+PROV667;Тырговиште;X;X;X;X;X;X
+PROV668;Браилов;X;X;X;X;X;X
+PROV669;Кэлэраши;X;X;X;X;X;X
+PROV670;Яссы;X;X;X;X;X;X
+PROV671;Ботошани;X;X;X;X;X;X
+PROV672;Бакэу;X;X;X;X;X;X
+PROV673;Галац;X;X;X;X;X;X
+PROV674;Констанца;X;X;X;X;X;X
+PROV675;Тулча;X;X;X;X;X;X
+PROV676;Кишинев;X;X;X;X;X;X
+PROV677;Бельцы;X;X;X;X;X;X
+PROV678;Измаил;X;X;X;X;X;X
+PROV679;Кольберг;X;X;X;X;X;X
+PROV680;Кослин;X;X;X;X;X;X
+PROV681;Кюстрин;X;X;X;X;X;X
+PROV682;Бреслау;X;X;X;X;X;X
+PROV683;Лигниц;X;X;X;X;X;X
+PROV684;Оппель;X;X;X;X;X;X
+PROV685;Каттовиц;X;X;X;X;X;X
+PROV686;О-ва Лайн;X;X;X;X;X;X
+PROV687;Герлиц;X;X;X;X;X;X
+PROV688;Троппау;X;X;X;X;X;X
+PROV689;Тешин;X;X;X;X;X;X
+PROV690;Данциг;X;X;X;X;X;X
+PROV691;Тухель;X;X;X;X;X;X
+PROV692;Дойч-Крона;X;X;X;X;X;X
+PROV693;Эльбинг;X;X;X;X;X;X
+PROV694;Торунь;X;X;X;X;X;X
+PROV695;Кенигсберг;X;X;X;X;X;X
+PROV696;Алленштейн;X;X;X;X;X;X
+PROV697;Гумбиннен;X;X;X;X;X;X
+PROV698;Мемель;X;X;X;X;X;X
+PROV699;Познань;X;X;X;X;X;X
+PROV700;Бромберг;X;X;X;X;X;X
+PROV701;Гнезно;X;X;X;X;X;X
+PROV702;Львов;X;X;X;X;X;X
+PROV703;Краков;X;X;X;X;X;X
+PROV704;Новы-Сонч;X;X;X;X;X;X
+PROV705;Пшемысль;X;X;X;X;X;X
+PROV706;Варшава;X;X;X;X;X;X
+PROV707;Сувалки;X;X;X;X;X;X
+PROV708;Плоцк;X;X;X;X;X;X
+PROV709;Ломжа;X;X;X;X;X;X
+PROV710;Скерневице;X;X;X;X;X;X
+PROV711;Седлец;X;X;X;X;X;X
+PROV712;Лодзь;X;X;X;X;X;X
+PROV713;Радом;X;X;X;X;X;X
+PROV714;Тарнув;X;X;X;X;X;X
+PROV715;Люблин;X;X;X;X;X;X
+PROV716;Кельце;X;X;X;X;X;X
+PROV717;Калиш;X;X;X;X;X;X
+PROV718;Минск;X;X;X;X;X;X
+PROV719;Белосток;X;X;X;X;X;X
+PROV720;Турин;X;X;X;X;X;X
+PROV721;Аоста;X;X;X;X;X;X
+PROV722;Новара;X;X;X;X;X;X
+PROV723;Алессандрия;X;X;X;X;X;X
+PROV724;Генуя;X;X;X;X;X;X
+PROV725;Савона;X;X;X;X;X;X
+PROV726;Милан;X;X;X;X;X;X
+PROV727;Бергамо;X;X;X;X;X;X
+PROV728;Брешиа;X;X;X;X;X;X
+PROV729;Венеция;X;X;X;X;X;X
+PROV730;Верона;X;X;X;X;X;X
+PROV731;Падуя;X;X;X;X;X;X
+PROV732;Тревизо;X;X;X;X;X;X
+PROV733;Удине;X;X;X;X;X;X
+PROV734;Трент;X;X;X;X;X;X
+PROV735;Больцано;X;X;X;X;X;X
+PROV736;Триест;X;X;X;X;X;X
+PROV737;Горица;X;X;X;X;X;X
+PROV738;Парма;X;X;X;X;X;X
+PROV739;Модена;X;X;X;X;X;X
+PROV740;Масса;X;X;X;X;X;X
+PROV741;Болонья;X;X;X;X;X;X
+PROV742;Феррара;X;X;X;X;X;X
+PROV743;Равенна;X;X;X;X;X;X
+PROV744;Флоренция;X;X;X;X;X;X
+PROV745;Ливорно;X;X;X;X;X;X
+PROV746;Лукка;X;X;X;X;X;X
+PROV747;Сиена;X;X;X;X;X;X
+PROV748;Гросетто;X;X;X;X;X;X
+PROV749;Рим;X;X;X;X;X;X
+PROV750;Витербо;X;X;X;X;X;X
+PROV751;Перуджа;X;X;X;X;X;X
+PROV752;Анкона;X;X;X;X;X;X
+PROV753;Аквила;X;X;X;X;X;X
+PROV754;Неаполь;X;X;X;X;X;X
+PROV755;Салерно;X;X;X;X;X;X
+PROV756;Бари;X;X;X;X;X;X
+PROV757;Фоджа;X;X;X;X;X;X
+PROV758;Бриндизи;X;X;X;X;X;X
+PROV759;Реджо-ди-Калабрия;X;X;X;X;X;X
+PROV760;Катандзаро;X;X;X;X;X;X
+PROV761;Потенца;X;X;X;X;X;X
+PROV762;Палермо;X;X;X;X;X;X
+PROV763;Мессина;X;X;X;X;X;X
+PROV764;Катания;X;X;X;X;X;X
+PROV765;Кальяри;X;X;X;X;X;X
+PROV766;Сассари;X;X;X;X;X;X
+PROV767;Марибор;X;X;X;X;X;X
+PROV768;Любляна;X;X;X;X;X;X
+PROV769;Постойна;X;X;X;X;X;X
+PROV770;Пула;X;X;X;X;X;X
+PROV771;Загреб;X;X;X;X;X;X
+PROV772;Сисак;X;X;X;X;X;X
+PROV773;Карловац;X;X;X;X;X;X
+PROV774;Сенья;X;X;X;X;X;X
+PROV775;Вараздин;X;X;X;X;X;X
+PROV776;Беловар;X;X;X;X;X;X
+PROV777;Пожега;X;X;X;X;X;X
+PROV778;Фиуме;X;X;X;X;X;X
+PROV779;Осиек;X;X;X;X;X;X
+PROV780;Сплит;X;X;X;X;X;X
+PROV781;Задар;X;X;X;X;X;X
+PROV782;Дубровник;X;X;X;X;X;X
+PROV783;Сараево;X;X;X;X;X;X
+PROV784;Бихач;X;X;X;X;X;X
+PROV785;Баня-Лука;X;X;X;X;X;X
+PROV786;Тузла;X;X;X;X;X;X
+PROV787;Фоча;X;X;X;X;X;X
+PROV788;Мостар;X;X;X;X;X;X
+PROV789;Ливно;X;X;X;X;X;X
+PROV790;Китве;X;X;X;X;X;X
+PROV791;Митровица;X;X;X;X;X;X
+PROV792;Панчево;X;X;X;X;X;X
+PROV793;Вуковар;X;X;X;X;X;X
+PROV794;Белград;X;X;X;X;X;X
+PROV795;Бор;X;X;X;X;X;X
+PROV796;Крагуевац;X;X;X;X;X;X
+PROV797;Ужице;X;X;X;X;X;X
+PROV798;Ниш;X;X;X;X;X;X
+PROV799;Лесковац;X;X;X;X;X;X
+PROV800;Улцинь;X;X;X;X;X;X
+PROV801;Таити;X;X;X;X;X;X
+PROV802;Приштина;X;X;X;X;X;X
+PROV803;Призрен;X;X;X;X;X;X
+PROV804;Нови-Пазар;X;X;X;X;X;X
+PROV805;Салоники;X;X;X;X;X;X
+PROV806;Скопье;X;X;X;X;X;X
+PROV807;Битола;X;X;X;X;X;X
+PROV808;Петрич;X;X;X;X;X;X
+PROV809;София;X;X;X;X;X;X
+PROV810;Видин;X;X;X;X;X;X
+PROV811;Русе;X;X;X;X;X;X
+PROV812;Плевна;X;X;X;X;X;X
+PROV813;Шумен;X;X;X;X;X;X
+PROV814;Варна;X;X;X;X;X;X
+PROV815;Пловдив;X;X;X;X;X;X
+PROV816;Стара-Загора;X;X;X;X;X;X
+PROV817;Бургас;X;X;X;X;X;X
+PROV818;Силистре;X;X;X;X;X;X
+PROV819;Флорина;X;X;X;X;X;X
+PROV820;Гревена;X;X;X;X;X;X
+PROV821;Эдесса;X;X;X;X;X;X
+PROV822;Полигирос;X;X;X;X;X;X
+PROV823;Кавала;X;X;X;X;X;X
+PROV824;Янина;X;X;X;X;X;X
+PROV825;Арта;X;X;X;X;X;X
+PROV826;Корфу;X;X;X;X;X;X
+PROV827;Закинфа;X;X;X;X;X;X
+PROV828;Эдирне;X;X;X;X;X;X
+PROV829;Ксанте;X;X;X;X;X;X
+PROV830;Дедеагач;X;X;X;X;X;X
+PROV831;Лариса;X;X;X;X;X;X
+PROV832;Волос;X;X;X;X;X;X
+PROV833;Триккала;X;X;X;X;X;X
+PROV834;Афины;X;X;X;X;X;X
+PROV835;Амфиса;X;X;X;X;X;X
+PROV836;Ламия;X;X;X;X;X;X
+PROV837;Миссолонги;X;X;X;X;X;X
+PROV838;Халкис;X;X;X;X;X;X
+PROV839;Нафплион;X;X;X;X;X;X
+PROV840;Коринф;X;X;X;X;X;X
+PROV841;Каламата;X;X;X;X;X;X
+PROV842;Патры;X;X;X;X;X;X
+PROV843;Греческие о-ва;X;X;X;X;X;X
+PROV844;Мителин;X;X;X;X;X;X
+PROV845;Циклады;X;X;X;X;X;X
+PROV846;Додеканес;X;X;X;X;X;X
+PROV847;Ханья;X;X;X;X;X;X
+PROV848;Ираклион;X;X;X;X;X;X
+PROV849;Тирана;X;X;X;X;X;X
+PROV850;Шкодер;X;X;X;X;X;X
+PROV851;Дуррес;X;X;X;X;X;X
+PROV852;Влера;X;X;X;X;X;X
+PROV853;Гирокастра;X;X;X;X;X;X
+PROV854;Мальта;X;X;X;X;X;X
+PROV855;Никосия;X;X;X;X;X;X
+PROV856;Лимасол;X;X;X;X;X;X
+PROV857;Фамагуста;X;X;X;X;X;X
+PROV858;Кырыккале;X;X;X;X;X;X
+PROV859;Галлиполи;X;X;X;X;X;X
+PROV860;Стамбул;X;X;X;X;X;X
+PROV861;Ускюдар;X;X;X;X;X;X
+PROV862;Измит;X;X;X;X;X;X
+PROV863;Бурса;X;X;X;X;X;X
+PROV864;Балыкесир;X;X;X;X;X;X
+PROV865;Чанаккале;X;X;X;X;X;X
+PROV866;Афьон;X;X;X;X;X;X
+PROV867;Кютахья;X;X;X;X;X;X
+PROV868;Эскешехир;X;X;X;X;X;X
+PROV869;Измир;X;X;X;X;X;X
+PROV870;Маниса;X;X;X;X;X;X
+PROV871;Денизли;X;X;X;X;X;X
+PROV872;Мугла;X;X;X;X;X;X
+PROV873;Конья;X;X;X;X;X;X
+PROV874;Бурдур;X;X;X;X;X;X
+PROV875;Анталия;X;X;X;X;X;X
+PROV876;Анкара;X;X;X;X;X;X
+PROV877;Амасья;X;X;X;X;X;X
+PROV878;Кайсери;X;X;X;X;X;X
+PROV879;Сивас;X;X;X;X;X;X
+PROV880;Кастамону;X;X;X;X;X;X
+PROV881;Болу;X;X;X;X;X;X
+PROV882;Трапезунд;X;X;X;X;X;X
+PROV883;Синоп;X;X;X;X;X;X
+PROV884;Гиресун;X;X;X;X;X;X
+PROV885;Карс;X;X;X;X;X;X
+PROV886;Ардахан;X;X;X;X;X;X
+PROV887;Эрзерум;X;X;X;X;X;X
+PROV888;Эрзынджан;X;X;X;X;X;X
+PROV889;Малатья;X;X;X;X;X;X
+PROV890;Ван;X;X;X;X;X;X
+PROV891;Битлис;X;X;X;X;X;X
+PROV892;Хаккари;X;X;X;X;X;X
+PROV893;Диярбакыр;X;X;X;X;X;X
+PROV894;Адана;X;X;X;X;X;X
+PROV895;Мерсин;X;X;X;X;X;X
+PROV896;Мараш;X;X;X;X;X;X
+PROV897;Алеппо;X;X;X;X;X;X
+PROV898;Антеп;X;X;X;X;X;X
+PROV899;Урфа;X;X;X;X;X;X
+PROV900;Антиохия;X;X;X;X;X;X
+PROV901;Дайр-эз-Заур;X;X;X;X;X;X
+PROV902;Дамаск;X;X;X;X;X;X
+PROV903;Хомс;X;X;X;X;X;X
+PROV904;Хама;X;X;X;X;X;X
+PROV905;Латакия;X;X;X;X;X;X
+PROV906;Сувейда;X;X;X;X;X;X
+PROV907;Пальмира;X;X;X;X;X;X
+PROV908;Амман;X;X;X;X;X;X
+PROV909;Джераш;X;X;X;X;X;X
+PROV910;Рувейшид;X;X;X;X;X;X
+PROV911;Маан;X;X;X;X;X;X
+PROV912;Баальбек;X;X;X;X;X;X
+PROV913;Бейрут;X;X;X;X;X;X
+PROV914;Аскалех;X;X;X;X;X;X
+PROV915;Сидон;X;X;X;X;X;X
+PROV916;Акра;X;X;X;X;X;X
+PROV917;Иерусалим;X;X;X;X;X;X
+PROV918;Наблус;X;X;X;X;X;X
+PROV919;Яффа;X;X;X;X;X;X
+PROV920;Газа;X;X;X;X;X;X
+PROV921;Беер-Шева;X;X;X;X;X;X
+PROV922;Акаба;X;X;X;X;X;X
+PROV923;Мосул;X;X;X;X;X;X
+PROV924;Эрбиль;X;X;X;X;X;X
+PROV925;Киркук;X;X;X;X;X;X
+PROV926;Багдад;X;X;X;X;X;X
+PROV927;Самарра;X;X;X;X;X;X
+PROV928;Мендели;X;X;X;X;X;X
+PROV929;Кербела;X;X;X;X;X;X
+PROV930;Кут;X;X;X;X;X;X
+PROV931;Рутбах;X;X;X;X;X;X
+PROV932;Басра;X;X;X;X;X;X
+PROV933;Насирия;X;X;X;X;X;X
+PROV934;Наджаф;X;X;X;X;X;X
+PROV935;Кувейт;X;X;X;X;X;X
+PROV936;Гродно;X;X;X;X;X;X
+PROV937;Брест-Литовск;X;X;X;X;X;X
+PROV938;Лида;X;X;X;X;X;X
+PROV939;Слоним;X;X;X;X;X;X
+PROV940;Пинск;X;X;X;X;X;X
+PROV941;Слуцк;X;X;X;X;X;X
+PROV942;Мозырь;X;X;X;X;X;X
+PROV943;Смоленск;X;X;X;X;X;X
+PROV944;Орша;X;X;X;X;X;X
+PROV945;Витебск;X;X;X;X;X;X
+PROV946;Полоцк;X;X;X;X;X;X
+PROV947;Поставы;X;X;X;X;X;X
+PROV948;Могилев;X;X;X;X;X;X
+PROV949;Гомель;X;X;X;X;X;X
+PROV950;Ужгород;X;X;X;X;X;X
+PROV951;Стрый;X;X;X;X;X;X
+PROV952;Тернополь;X;X;X;X;X;X
+PROV953;Станиславов;X;X;X;X;X;X
+PROV954;Винница;X;X;X;X;X;X
+PROV955;Проскуров;X;X;X;X;X;X
+PROV956;Ровно;X;X;X;X;X;X
+PROV957;Ковель;X;X;X;X;X;X
+PROV958;Киев;X;X;X;X;X;X
+PROV959;Коростень;X;X;X;X;X;X
+PROV960;Житомир;X;X;X;X;X;X
+PROV961;Черкассы;X;X;X;X;X;X
+PROV962;Чернигов;X;X;X;X;X;X
+PROV963;Полтава;X;X;X;X;X;X
+PROV964;Симферополь;X;X;X;X;X;X
+PROV965;Херсон;X;X;X;X;X;X
+PROV966;Керчь;X;X;X;X;X;X
+PROV967;Севастополь;X;X;X;X;X;X
+PROV968;Одесса;X;X;X;X;X;X
+PROV969;Ольвиополь;X;X;X;X;X;X
+PROV970;Николаев;X;X;X;X;X;X
+PROV971;Кривой Рог;X;X;X;X;X;X
+PROV972;Екатеринослав;X;X;X;X;X;X
+PROV973;Мелитополь;X;X;X;X;X;X
+PROV974;Краматорск;X;X;X;X;X;X
+PROV975;Юзовка;X;X;X;X;X;X
+PROV976;Мариуполь;X;X;X;X;X;X
+PROV977;Курск;X;X;X;X;X;X
+PROV978;Харьков;X;X;X;X;X;X
+PROV979;Ростов;X;X;X;X;X;X
+PROV980;Луганск;X;X;X;X;X;X
+PROV981;Архангельск;X;X;X;X;X;X
+PROV982;Петсамо;X;X;X;X;X;X
+PROV983;Кандалакша;X;X;X;X;X;X
+PROV984;Костомукша;X;X;X;X;X;X
+PROV985;Мезень;X;X;X;X;X;X
+PROV986;Нарьян-Мар;X;X;X;X;X;X
+PROV987;Усть-Сысольск;X;X;X;X;X;X
+PROV988;Повенец;X;X;X;X;X;X
+PROV989;Вологда;X;X;X;X;X;X
+PROV990;Котлас;X;X;X;X;X;X
+PROV991;Углич;X;X;X;X;X;X
+PROV992;Белозерск;X;X;X;X;X;X
+PROV993;Вытегра;X;X;X;X;X;X
+PROV994;Санкт-Петербург;X;X;X;X;X;X
+PROV995;Петрозаводск;X;X;X;X;X;X
+PROV996;Луга;X;X;X;X;X;X
+PROV997;Гдов;X;X;X;X;X;X
+PROV998;Тверь;X;X;X;X;X;X
+PROV999;Ржев;X;X;X;X;X;X
+PROV1000;Старица;X;X;X;X;X;X
+PROV1001;Ярославль;X;X;X;X;X;X
+PROV1002;Маньчжоули;X;X;X;X;X;X
+PROV1003;Новгород;X;X;X;X;X;X
+PROV1004;Тихвин;X;X;X;X;X;X
+PROV1005;Боровичи;X;X;X;X;X;X
+PROV1006;Псков;X;X;X;X;X;X
+PROV1007;Великие Луки;X;X;X;X;X;X
+PROV1008;Москва;X;X;X;X;X;X
+PROV1009;Бородино;X;X;X;X;X;X
+PROV1010;Калуга;X;X;X;X;X;X
+PROV1011;Тула;X;X;X;X;X;X
+PROV1012;Рязань;X;X;X;X;X;X
+PROV1013;Владимир;X;X;X;X;X;X
+PROV1014;Вязьма;X;X;X;X;X;X
+PROV1015;Перемышль;X;X;X;X;X;X
+PROV1016;Брянск;X;X;X;X;X;X
+PROV1017;Орел;X;X;X;X;X;X
+PROV1018;Белгород;X;X;X;X;X;X
+PROV1019;Воронеж;X;X;X;X;X;X
+PROV1020;Нижний Новгород;X;X;X;X;X;X
+PROV1021;Пенза;X;X;X;X;X;X
+PROV1022;Иваново;X;X;X;X;X;X
+PROV1023;Кострома;X;X;X;X;X;X
+PROV1024;Галич;X;X;X;X;X;X
+PROV1025;Тамбов;X;X;X;X;X;X
+PROV1026;Пермь;X;X;X;X;X;X
+PROV1027;Ветлуга;X;X;X;X;X;X
+PROV1028;Вятка;X;X;X;X;X;X
+PROV1029;Глазов;X;X;X;X;X;X
+PROV1030;Казань;X;X;X;X;X;X
+PROV1031;Чайковский;X;X;X;X;X;X
+PROV1032;Чистополь;X;X;X;X;X;X
+PROV1033;Симбирск;X;X;X;X;X;X
+PROV1034;Самара;X;X;X;X;X;X
+PROV1035;Сызрань;X;X;X;X;X;X
+PROV1036;Астрахань;X;X;X;X;X;X
+PROV1037;Саратов;X;X;X;X;X;X
+PROV1038;Новоузенск;X;X;X;X;X;X
+PROV1039;Царицын;X;X;X;X;X;X
+PROV1040;Заревка;X;X;X;X;X;X
+PROV1041;Элиста;X;X;X;X;X;X
+PROV1042;Самара;X;X;X;X;X;X
+PROV1043;Бузулук;X;X;X;X;X;X
+PROV1044;Оренбург;X;X;X;X;X;X
+PROV1045;Мигулинская;X;X;X;X;X;X
+PROV1046;Чирская;X;X;X;X;X;X
+PROV1047;Азов;X;X;X;X;X;X
+PROV1048;Екатеринодар;X;X;X;X;X;X
+PROV1049;Новороссийск;X;X;X;X;X;X
+PROV1050;Ставрополь;X;X;X;X;X;X
+PROV1051;Адыгея;X;X;X;X;X;X
+PROV1052;Дербент;X;X;X;X;X;X
+PROV1053;Гуниб;X;X;X;X;X;X
+PROV1054;Владикавказ;X;X;X;X;X;X
+PROV1055;Грозный;X;X;X;X;X;X
+PROV1056;Пятигорск;X;X;X;X;X;X
+PROV1057;Кизляр;X;X;X;X;X;X
+PROV1058;Екатеринбург;X;X;X;X;X;X
+PROV1059;Челябинск;X;X;X;X;X;X
+PROV1060;Орск;X;X;X;X;X;X
+PROV1061;Тюмень;X;X;X;X;X;X
+PROV1062;Березов;X;X;X;X;X;X
+PROV1063;Томск;X;X;X;X;X;X
+PROV1064;Омск;X;X;X;X;X;X
+PROV1065;Нижневартовск;X;X;X;X;X;X
+PROV1066;Тобольск;X;X;X;X;X;X
+PROV1067;Барнаул;X;X;X;X;X;X
+PROV1068;Улала;X;X;X;X;X;X
+PROV1069;Вилюйск;X;X;X;X;X;X
+PROV1070;Брянка;X;X;X;X;X;X
+PROV1071;Батантайск;X;X;X;X;X;X
+PROV1072;Охотск;X;X;X;X;X;X
+PROV1073;Эвенск;X;X;X;X;X;X
+PROV1074;Петропавловск;X;X;X;X;X;X
+PROV1075;Иркутск;X;X;X;X;X;X
+PROV1076;Братск;X;X;X;X;X;X
+PROV1077;Красноярск;X;X;X;X;X;X
+PROV1078;Чита;X;X;X;X;X;X
+PROV1079;Нерчинск;X;X;X;X;X;X
+PROV1080;Черномин;X;X;X;X;X;X
+PROV1081;Якса;X;X;X;X;X;X
+PROV1082;Хайшенвей;X;X;X;X;X;X
+PROV1083;Боли;X;X;X;X;X;X
+PROV1084;Утчан;X;X;X;X;X;X
+PROV1085;Улусамудан;X;X;X;X;X;X
+PROV1086;Погоби;X;X;X;X;X;X
+PROV1087;Оотомари;X;X;X;X;X;X
+PROV1088;Шумшу;X;X;X;X;X;X
+PROV1089;Эторофу;X;X;X;X;X;X
+PROV1090;Тбилиси;X;X;X;X;X;X
+PROV1091;Пасанаури;X;X;X;X;X;X
+PROV1092;Кутаиси;X;X;X;X;X;X
+PROV1093;Ахалцихе;X;X;X;X;X;X
+PROV1094;Поти;X;X;X;X;X;X
+PROV1095;Сухум;X;X;X;X;X;X
+PROV1096;Батум;X;X;X;X;X;X
+PROV1097;Новая Каледония;X;X;X;X;X;X
+PROV1098;Эривань;X;X;X;X;X;X
+PROV1099;Гюмри;X;X;X;X;X;X
+PROV1100;Кафан;X;X;X;X;X;X
+PROV1101;Нахичевань;X;X;X;X;X;X
+PROV1102;Баку;X;X;X;X;X;X
+PROV1103;Сиазань;X;X;X;X;X;X
+PROV1104;Шеки;X;X;X;X;X;X
+PROV1105;Гянджа;X;X;X;X;X;X
+PROV1106;Агдам;X;X;X;X;X;X
+PROV1107;Ленкорань;X;X;X;X;X;X
+PROV1108;Тебриз;X;X;X;X;X;X
+PROV1109;Хой;X;X;X;X;X;X
+PROV1110;Урумия;X;X;X;X;X;X
+PROV1111;Махабад;X;X;X;X;X;X
+PROV1112;Ардебиль;X;X;X;X;X;X
+PROV1113;Рашт;X;X;X;X;X;X
+PROV1114;Ноушехр;X;X;X;X;X;X
+PROV1115;Сари;X;X;X;X;X;X
+PROV1116;Горган;X;X;X;X;X;X
+PROV1117;Керманшах;X;X;X;X;X;X
+PROV1118;Санандадж;X;X;X;X;X;X
+PROV1119;Илям;X;X;X;X;X;X
+PROV1120;Хорамабад;X;X;X;X;X;X
+PROV1121;Тегеран;X;X;X;X;X;X
+PROV1122;Хамадан;X;X;X;X;X;X
+PROV1123;Зенджан;X;X;X;X;X;X
+PROV1124;Казвин;X;X;X;X;X;X
+PROV1125;Кум;X;X;X;X;X;X
+PROV1126;Семнан;X;X;X;X;X;X
+PROV1127;Исфахан;X;X;X;X;X;X
+PROV1128;Арак;X;X;X;X;X;X
+PROV1129;Кашан;X;X;X;X;X;X
+PROV1130;Язд;X;X;X;X;X;X
+PROV1131;Ахваз;X;X;X;X;X;X
+PROV1132;Абадан;X;X;X;X;X;X
+PROV1133;Дезфуль;X;X;X;X;X;X
+PROV1134;Дехкорд;X;X;X;X;X;X
+PROV1135;Шираз;X;X;X;X;X;X
+PROV1136;Бушер;X;X;X;X;X;X
+PROV1137;Ясудж;X;X;X;X;X;X
+PROV1138;Канган;X;X;X;X;X;X
+PROV1139;Сирджан;X;X;X;X;X;X
+PROV1140;Керман;X;X;X;X;X;X
+PROV1141;Бендер-Ленгех;X;X;X;X;X;X
+PROV1142;Бендер-Аббас;X;X;X;X;X;X
+PROV1143;Бам;X;X;X;X;X;X
+PROV1144;Доздаб;X;X;X;X;X;X
+PROV1145;Джаск;X;X;X;X;X;X
+PROV1146;Чабахар;X;X;X;X;X;X
+PROV1147;Мешхед;X;X;X;X;X;X
+PROV1148;Бирдженд;X;X;X;X;X;X
+PROV1149;Себзевар;X;X;X;X;X;X
+PROV1150;Боджнурд;X;X;X;X;X;X
+PROV1151;Мекка;X;X;X;X;X;X
+PROV1152;Джидда;X;X;X;X;X;X
+PROV1153;Медина;X;X;X;X;X;X
+PROV1154;Табук;X;X;X;X;X;X
+PROV1155;Абха;X;X;X;X;X;X
+PROV1156;Каф;X;X;X;X;X;X
+PROV1157;Эр-Рияд;X;X;X;X;X;X
+PROV1158;Рафха;X;X;X;X;X;X
+PROV1159;Халабан;X;X;X;X;X;X
+PROV1160;Хаиль;X;X;X;X;X;X
+PROV1161;Шарурах;X;X;X;X;X;X
+PROV1162;Бахрейн;X;X;X;X;X;X
+PROV1163;Хатиф;X;X;X;X;X;X
+PROV1164;Хуфуф;X;X;X;X;X;X
+PROV1165;Доха;X;X;X;X;X;X
+PROV1166;Маскат;X;X;X;X;X;X
+PROV1167;Абу-Даби;X;X;X;X;X;X
+PROV1168;Дубаи;X;X;X;X;X;X
+PROV1169;Сухар;X;X;X;X;X;X
+PROV1170;Низва;X;X;X;X;X;X
+PROV1171;Сур;X;X;X;X;X;X
+PROV1172;Дукм;X;X;X;X;X;X
+PROV1173;Мукалла;X;X;X;X;X;X
+PROV1174;Салала;X;X;X;X;X;X
+PROV1175;Гайда;X;X;X;X;X;X
+PROV1176;Байда;X;X;X;X;X;X
+PROV1177;Сокотра;X;X;X;X;X;X
+PROV1178;Сана;X;X;X;X;X;X
+PROV1179;Ходейда;X;X;X;X;X;X
+PROV1180;Таиз;X;X;X;X;X;X
+PROV1181;Караганда;X;X;X;X;X;X
+PROV1182;Гурьев;X;X;X;X;X;X
+PROV1183;Актюбинск;X;X;X;X;X;X
+PROV1184;Кокшетау;X;X;X;X;X;X
+PROV1185;Яссы;X;X;X;X;X;X
+PROV1186;Алма-Ата;X;X;X;X;X;X
+PROV1187;Семипалатинск;X;X;X;X;X;X
+PROV1188;Каратал;X;X;X;X;X;X
+PROV1189;Бишкек;X;X;X;X;X;X
+PROV1190;Нарын;X;X;X;X;X;X
+PROV1191;Узбекистан;X;X;X;X;X;X
+PROV1192;Нукус;X;X;X;X;X;X
+PROV1193;Кзыл-Орда;X;X;X;X;X;X
+PROV1194;Актау;X;X;X;X;X;X
+PROV1195;Ташкент;X;X;X;X;X;X
+PROV1196;Дашогуз;X;X;X;X;X;X
+PROV1197;Чимкент;X;X;X;X;X;X
+PROV1198;Казахия;X;X;X;X;X;X
+PROV1199;Самарканд;X;X;X;X;X;X
+PROV1200;Карши;X;X;X;X;X;X
+PROV1201;Ходжент;X;X;X;X;X;X
+PROV1202;Коканд;X;X;X;X;X;X
+PROV1203;Ош;X;X;X;X;X;X
+PROV1204;Ашхабад;X;X;X;X;X;X
+PROV1205;Эрзинск;X;X;X;X;X;X
+PROV1206;Мерв;X;X;X;X;X;X
+PROV1207;Куляб;X;X;X;X;X;X
+PROV1208;Хорог;X;X;X;X;X;X
+PROV1209;Кабул;X;X;X;X;X;X
+PROV1210;Файзабад;X;X;X;X;X;X
+PROV1211;Балх;X;X;X;X;X;X
+PROV1212;Герат;X;X;X;X;X;X
+PROV1213;Бамиан;X;X;X;X;X;X
+PROV1214;Фарах;X;X;X;X;X;X
+PROV1215;Кандагар;X;X;X;X;X;X
+PROV1216;Джелалабад;X;X;X;X;X;X
+PROV1217;Газни;X;X;X;X;X;X
+PROV1218;Пешавар;X;X;X;X;X;X
+PROV1219;Кветта;X;X;X;X;X;X
+PROV1220;Долбандин;X;X;X;X;X;X
+PROV1221;Калат;X;X;X;X;X;X
+PROV1222;Бела;X;X;X;X;X;X
+PROV1223;Читрал;X;X;X;X;X;X
+PROV1224;Шринагар;X;X;X;X;X;X
+PROV1225;Гилгит;X;X;X;X;X;X
+PROV1226;Лех;X;X;X;X;X;X
+PROV1227;Лахор;X;X;X;X;X;X
+PROV1228;Мултан;X;X;X;X;X;X
+PROV1229;Сиялкот;X;X;X;X;X;X
+PROV1230;Атток;X;X;X;X;X;X
+PROV1231;Бахавалпур;X;X;X;X;X;X
+PROV1232;Шапур;X;X;X;X;X;X
+PROV1233;Амритсар;X;X;X;X;X;X
+PROV1234;Фирозпур;X;X;X;X;X;X
+PROV1235;Шимла;X;X;X;X;X;X
+PROV1236;Дели;X;X;X;X;X;X
+PROV1237;Панипат;X;X;X;X;X;X
+PROV1238;Дехра-Дун;X;X;X;X;X;X
+PROV1239;Меерут;X;X;X;X;X;X
+PROV1240;Агра;X;X;X;X;X;X
+PROV1241;Канпур;X;X;X;X;X;X
+PROV1242;Лакхнау;X;X;X;X;X;X
+PROV1243;Аллахабад;X;X;X;X;X;X
+PROV1244;Физабад;X;X;X;X;X;X
+PROV1245;Бенарес;X;X;X;X;X;X
+PROV1246;Горакхпур;X;X;X;X;X;X
+PROV1247;Патна;X;X;X;X;X;X
+PROV1248;Гая;X;X;X;X;X;X
+PROV1249;Карсвари;X;X;X;X;X;X
+PROV1250;Бхагалпур;X;X;X;X;X;X
+PROV1251;Калькутта;X;X;X;X;X;X
+PROV1252;Дарджилинг;X;X;X;X;X;X
+PROV1253;Бардван;X;X;X;X;X;X
+PROV1254;Дакка;X;X;X;X;X;X
+PROV1255;Раджшахи;X;X;X;X;X;X
+PROV1256;Джессур;X;X;X;X;X;X
+PROV1257;Читтагонг;X;X;X;X;X;X
+PROV1258;Гувахати;X;X;X;X;X;X
+PROV1259;Импхал;X;X;X;X;X;X
+PROV1260;Дибругарх;X;X;X;X;X;X
+PROV1261;Каттак;X;X;X;X;X;X
+PROV1262;Кенджахр;X;X;X;X;X;X
+PROV1263;Самбалпур;X;X;X;X;X;X
+PROV1264;Аджмер;X;X;X;X;X;X
+PROV1265;Джайсалмер;X;X;X;X;X;X
+PROV1266;Джодхпур;X;X;X;X;X;X
+PROV1267;Биканер;X;X;X;X;X;X
+PROV1268;Джайпур;X;X;X;X;X;X
+PROV1269;Удайпур;X;X;X;X;X;X
+PROV1270;Гвалиор;X;X;X;X;X;X
+PROV1271;Индаур;X;X;X;X;X;X
+PROV1272;Бхопал;X;X;X;X;X;X
+PROV1273;Чхатарпур;X;X;X;X;X;X
+PROV1274;Рева;X;X;X;X;X;X
+PROV1275;Джабалпур;X;X;X;X;X;X
+PROV1276;Хошангабад;X;X;X;X;X;X
+PROV1277;Нагпур;X;X;X;X;X;X
+PROV1278;Амарати;X;X;X;X;X;X
+PROV1279;Джагдалпур;X;X;X;X;X;X
+PROV1280;Райпур;X;X;X;X;X;X
+PROV1281;Биласпур;X;X;X;X;X;X
+PROV1282;Райгарх;X;X;X;X;X;X
+PROV1283;Хайдерабад;X;X;X;X;X;X
+PROV1284;Аурангабад;X;X;X;X;X;X
+PROV1285;Низамабад;X;X;X;X;X;X
+PROV1286;Гулбарга;X;X;X;X;X;X
+PROV1287;Варангал;X;X;X;X;X;X
+PROV1288;Карачи;X;X;X;X;X;X
+PROV1289;Суккур;X;X;X;X;X;X
+PROV1290;Умаркот;X;X;X;X;X;X
+PROV1291;Ахмедабад;X;X;X;X;X;X
+PROV1292;Раджкот;X;X;X;X;X;X
+PROV1293;Мандави;X;X;X;X;X;X
+PROV1294;Патан;X;X;X;X;X;X
+PROV1295;Барода;X;X;X;X;X;X
+PROV1296;Сурат;X;X;X;X;X;X
+PROV1297;Бомбей;X;X;X;X;X;X
+PROV1298;Насик;X;X;X;X;X;X
+PROV1299;Пуна;X;X;X;X;X;X
+PROV1300;Биджапур;X;X;X;X;X;X
+PROV1301;Колхапур;X;X;X;X;X;X
+PROV1302;Белгаум;X;X;X;X;X;X
+PROV1303;Гоа;X;X;X;X;X;X
+PROV1304;Мадрас;X;X;X;X;X;X
+PROV1305;Вишакхапатнам;X;X;X;X;X;X
+PROV1306;Масулипатнам;X;X;X;X;X;X
+PROV1307;Неллуру;X;X;X;X;X;X
+PROV1308;Карнул;X;X;X;X;X;X
+PROV1309;Танджавур;X;X;X;X;X;X
+PROV1310;Мадурай;X;X;X;X;X;X
+PROV1311;Коимбатур;X;X;X;X;X;X
+PROV1312;Пондичерри;X;X;X;X;X;X
+PROV1313;Бангалор;X;X;X;X;X;X
+PROV1314;Майсур;X;X;X;X;X;X
+PROV1315;Читрадурга;X;X;X;X;X;X
+PROV1316;Мангалор;X;X;X;X;X;X
+PROV1317;Каликут;X;X;X;X;X;X
+PROV1318;Кочин;X;X;X;X;X;X
+PROV1319;Тривандрам;X;X;X;X;X;X
+PROV1320;Андаманские о-ва;X;X;X;X;X;X
+PROV1321;Коломбо;X;X;X;X;X;X
+PROV1322;Джафна;X;X;X;X;X;X
+PROV1323;Канди;X;X;X;X;X;X
+PROV1324;Тринкомали;X;X;X;X;X;X
+PROV1325;Мальдивские о-ва;X;X;X;X;X;X
+PROV1326;Катманду;X;X;X;X;X;X
+PROV1327;Джумла;X;X;X;X;X;X
+PROV1328;Тумлонг;X;X;X;X;X;X
+PROV1329;Тимпу;X;X;X;X;X;X
+PROV1330;Рангун;X;X;X;X;X;X
+PROV1331;Бассеин;X;X;X;X;X;X
+PROV1332;Пегу;X;X;X;X;X;X
+PROV1333;Таунгу;X;X;X;X;X;X
+PROV1334;Ава;X;X;X;X;X;X
+PROV1335;Кьяуксе;X;X;X;X;X;X
+PROV1336;Магве;X;X;X;X;X;X
+PROV1337;Проме;X;X;X;X;X;X
+PROV1338;Таунггии;X;X;X;X;X;X
+PROV1339;Хака;X;X;X;X;X;X
+PROV1340;Лашио;X;X;X;X;X;X
+PROV1341;Путао;X;X;X;X;X;X
+PROV1342;Мииткиина;X;X;X;X;X;X
+PROV1343;Моулмейн;X;X;X;X;X;X
+PROV1344;Мергуи;X;X;X;X;X;X
+PROV1345;Ситуэ;X;X;X;X;X;X
+PROV1346;Бангкок;X;X;X;X;X;X
+PROV1347;Лопбури;X;X;X;X;X;X
+PROV1348;Накхон-Саван;X;X;X;X;X;X
+PROV1349;Сухотай;X;X;X;X;X;X
+PROV1350;Накхон-Ратчасима;X;X;X;X;X;X
+PROV1351;Прачинбури;X;X;X;X;X;X
+PROV1352;Пхукет;X;X;X;X;X;X
+PROV1353;Ратчабури;X;X;X;X;X;X
+PROV1354;Накхон-Си-Тхаммарат;X;X;X;X;X;X
+PROV1355;Чиангмай;X;X;X;X;X;X
+PROV1356;Луанг-Прабанг;X;X;X;X;X;X
+PROV1357;Вьентьян;X;X;X;X;X;X
+PROV1358;Удон-Тхани;X;X;X;X;X;X
+PROV1359;Сисакет;X;X;X;X;X;X
+PROV1360;Сянабули;X;X;X;X;X;X
+PROV1361;Саваннакхет;X;X;X;X;X;X
+PROV1362;Салаван;X;X;X;X;X;X
+PROV1363;Пакче;X;X;X;X;X;X
+PROV1364;Удонг;X;X;X;X;X;X
+PROV1365;Чантхабури;X;X;X;X;X;X
+PROV1366;Баттамбанг;X;X;X;X;X;X
+PROV1367;Кампот;X;X;X;X;X;X
+PROV1368;Стонгтренг;X;X;X;X;X;X
+PROV1369;Ханой;X;X;X;X;X;X
+PROV1370;Хайфон;X;X;X;X;X;X
+PROV1371;Цао-Бан;X;X;X;X;X;X
+PROV1372;Сон-Ла;X;X;X;X;X;X
+PROV1373;Ланг-Сон;X;X;X;X;X;X
+PROV1374;Тханх-Хоа;X;X;X;X;X;X
+PROV1375;Хюэ;X;X;X;X;X;X
+PROV1376;Винх;X;X;X;X;X;X
+PROV1377;Турон;X;X;X;X;X;X
+PROV1378;Плейку;X;X;X;X;X;X
+PROV1379;Куи-Нхон;X;X;X;X;X;X
+PROV1380;Сайгон;X;X;X;X;X;X
+PROV1381;Донг-Квай;X;X;X;X;X;X
+PROV1382;Ратьзя;X;X;X;X;X;X
+PROV1383;Биньлонг;X;X;X;X;X;X
+PROV1384;Сингапур;X;X;X;X;X;X
+PROV1385;Джохор-Бару;X;X;X;X;X;X
+PROV1386;Малакка;X;X;X;X;X;X
+PROV1387;Куала-Лумпур;X;X;X;X;X;X
+PROV1388;Пенанг;X;X;X;X;X;X
+PROV1389;Алор-Сетар;X;X;X;X;X;X
+PROV1390;Куантан;X;X;X;X;X;X
+PROV1391;Кота-Бару;X;X;X;X;X;X
+PROV1392;Паттани;X;X;X;X;X;X
+PROV1393;Бруней;X;X;X;X;X;X
+PROV1394;Кучинг;X;X;X;X;X;X
+PROV1395;Бинтулу;X;X;X;X;X;X
+PROV1396;Апи;X;X;X;X;X;X
+PROV1397;Сандакан;X;X;X;X;X;X
+PROV1398;Джамби;X;X;X;X;X;X
+PROV1399;Палембанг;X;X;X;X;X;X
+PROV1400;Индегарири;X;X;X;X;X;X
+PROV1401;Сиак;X;X;X;X;X;X
+PROV1402;Танджунгпинанг;X;X;X;X;X;X
+PROV1403;Лампунг;X;X;X;X;X;X
+PROV1404;Палакпинанг;X;X;X;X;X;X
+PROV1405;Банда-Ачех;X;X;X;X;X;X
+PROV1406;Медан;X;X;X;X;X;X
+PROV1407;Тапактуан;X;X;X;X;X;X
+PROV1408;Паданг;X;X;X;X;X;X
+PROV1409;Сиболга;X;X;X;X;X;X
+PROV1410;Бенкулу;X;X;X;X;X;X
+PROV1411;Гунунгситоли;X;X;X;X;X;X
+PROV1412;Аден;X;X;X;X;X;X
+PROV1413;Батавия;X;X;X;X;X;X
+PROV1414;Богор;X;X;X;X;X;X
+PROV1415;Чиребон;X;X;X;X;X;X
+PROV1416;Джокьякарта;X;X;X;X;X;X
+PROV1417;Семаранг;X;X;X;X;X;X
+PROV1418;Сурабая;X;X;X;X;X;X
+PROV1419;Суракатра;X;X;X;X;X;X
+PROV1420;Проболинго;X;X;X;X;X;X
+PROV1421;Мадура;X;X;X;X;X;X
+PROV1422;Муралеве;X;X;X;X;X;X
+PROV1423;Банджармасин;X;X;X;X;X;X
+PROV1424;Пасир;X;X;X;X;X;X
+PROV1425;Таракан;X;X;X;X;X;X
+PROV1426;Понтианак;X;X;X;X;X;X
+PROV1427;Кота-Варинджин;X;X;X;X;X;X
+PROV1428;Синтанг;X;X;X;X;X;X
+PROV1429;Самаринда;X;X;X;X;X;X
+PROV1430;Макассар;X;X;X;X;X;X
+PROV1431;Боне;X;X;X;X;X;X
+PROV1432;Мамуджу;X;X;X;X;X;X
+PROV1433;Менадо;X;X;X;X;X;X
+PROV1434;Лувук;X;X;X;X;X;X
+PROV1435;Палу;X;X;X;X;X;X
+PROV1436;Кендари;X;X;X;X;X;X
+PROV1437;Булон;X;X;X;X;X;X
+PROV1438;Бали;X;X;X;X;X;X
+PROV1439;Флорес;X;X;X;X;X;X
+PROV1440;Сумбава;X;X;X;X;X;X
+PROV1441;Сумба;X;X;X;X;X;X
+PROV1442;Ломбок;X;X;X;X;X;X
+PROV1443;Роти;X;X;X;X;X;X
+PROV1444;Алор;X;X;X;X;X;X
+PROV1445;Каупенг;X;X;X;X;X;X
+PROV1446;Дили;X;X;X;X;X;X
+PROV1447;Тернате;X;X;X;X;X;X
+PROV1448;Джайлоло;X;X;X;X;X;X
+PROV1449;Амбон;X;X;X;X;X;X
+PROV1450;Серам;X;X;X;X;X;X
+PROV1451;Ару;X;X;X;X;X;X
+PROV1452;Биак;X;X;X;X;X;X
+PROV1453;Соронг;X;X;X;X;X;X
+PROV1454;Мерах;X;X;X;X;X;X
+PROV1455;Манила;X;X;X;X;X;X
+PROV1456;Виган;X;X;X;X;X;X
+PROV1457;Легаспи;X;X;X;X;X;X
+PROV1458;Миндоро;X;X;X;X;X;X
+PROV1459;Палаван;X;X;X;X;X;X
+PROV1460;Илойло;X;X;X;X;X;X
+PROV1461;Таклобан;X;X;X;X;X;X
+PROV1462;Замбоанга;X;X;X;X;X;X
+PROV1463;Давао;X;X;X;X;X;X
+PROV1464;Сулу;X;X;X;X;X;X
+PROV1465;Урга;X;X;X;X;X;X
+PROV1466;Даландзагдад;X;X;X;X;X;X
+PROV1467;Баян-Тумен;X;X;X;X;X;X
+PROV1468;Улиастай;X;X;X;X;X;X
+PROV1469;Белоцарск;X;X;X;X;X;X
+PROV1470;Аньцин;X;X;X;X;X;X
+PROV1471;Чичжоу;X;X;X;X;X;X
+PROV1472;Фэнъян;X;X;X;X;X;X
+PROV1473;Хуэйчжоу;X;X;X;X;X;X
+PROV1474;Люйчжоу;X;X;X;X;X;X
+PROV1475;Нинго;X;X;X;X;X;X
+PROV1476;Сычжоу;X;X;X;X;X;X
+PROV1477;Тайпин;X;X;X;X;X;X
+PROV1478;Инчжоу;X;X;X;X;X;X
+PROV1479;Мукден;X;X;X;X;X;X
+PROV1480;Цзиньчжоу;X;X;X;X;X;X
+PROV1481;Порт-Артур;X;X;X;X;X;X
+PROV1482;Фучжоу;X;X;X;X;X;X
+PROV1483;Цзяньнин;X;X;X;X;X;X
+PROV1484;Цюаньчжоу;X;X;X;X;X;X
+PROV1485;Тайбэй;X;X;X;X;X;X
+PROV1486;Тинчжоу;X;X;X;X;X;X
+PROV1487;Чжанчжоу;X;X;X;X;X;X
+PROV1488;Ганьсу;X;X;X;X;X;X
+PROV1489;Гунчан;X;X;X;X;X;X
+PROV1490;Ланьчжоу;X;X;X;X;X;X
+PROV1491;Нинся;X;X;X;X;X;X
+PROV1492;Пинлян;X;X;X;X;X;X
+PROV1493;Кантон;X;X;X;X;X;X
+PROV1494;Бобруйчжань;X;X;X;X;X;X
+PROV1495;Гаочжоу;X;X;X;X;X;X
+PROV1496;Гонконг;X;X;X;X;X;X
+PROV1497;Вайцзао;X;X;X;X;X;X
+PROV1498;Макао;X;X;X;X;X;X
+PROV1499;Хайнань;X;X;X;X;X;X
+PROV1500;Чаочжоу;X;X;X;X;X;X
+PROV1501;Чжаоцин;X;X;X;X;X;X
+PROV1502;Наньнин;X;X;X;X;X;X
+PROV1503;Гуйлинь;X;X;X;X;X;X
+PROV1504;Пинлэ;X;X;X;X;X;X
+PROV1505;Гуйян;X;X;X;X;X;X
+PROV1506;Аньшунь;X;X;X;X;X;X
+PROV1507;Чжэньюань;X;X;X;X;X;X
+PROV1508;Кайфын;X;X;X;X;X;X
+PROV1509;Гуйдэ;X;X;X;X;X;X
+PROV1510;Хэнань;X;X;X;X;X;X
+PROV1511;Хуайцин;X;X;X;X;X;X
+PROV1512;Чэньчжоу;X;X;X;X;X;X
+PROV1513;Наньян;X;X;X;X;X;X
+PROV1514;Жуньнин;X;X;X;X;X;X
+PROV1515;Вэйхуэй;X;X;X;X;X;X
+PROV1516;Ханьян;X;X;X;X;X;X
+PROV1517;Дэань;X;X;X;X;X;X
+PROV1518;Хуаньчжоу;X;X;X;X;X;X
+PROV1519;Аньлу;X;X;X;X;X;X
+PROV1520;Цзинчжоу;X;X;X;X;X;X
+PROV1521;Шинань;X;X;X;X;X;X
+PROV1522;Ухань;X;X;X;X;X;X
+PROV1523;Сянъян;X;X;X;X;X;X
+PROV1524;Чанша;X;X;X;X;X;X
+PROV1525;Чандэ;X;X;X;X;X;X
+PROV1526;Шаоян;X;X;X;X;X;X
+PROV1527;Чэньчжоу;X;X;X;X;X;X
+PROV1528;Юэчжоу;X;X;X;X;X;X
+PROV1529;Юншунь;X;X;X;X;X;X
+PROV1530;Юнчжоу;X;X;X;X;X;X
+PROV1531;Новая Ирландия;X;X;X;X;X;X
+PROV1532;Гуйхуа-Тумед;X;X;X;X;X;X
+PROV1533;Жырым-Чуулган;X;X;X;X;X;X
+PROV1534;Улаанчаб-Чуулган;X;X;X;X;X;X
+PROV1535;Екежуу-Чуулган;X;X;X;X;X;X
+PROV1536;Хуайань;X;X;X;X;X;X
+PROV1537;Чанчжоу;X;X;X;X;X;X
+PROV1538;Шанхай;X;X;X;X;X;X
+PROV1539;Сучжоу;X;X;X;X;X;X
+PROV1540;Тайцанчжоу;X;X;X;X;X;X
+PROV1541;Тунчжоу;X;X;X;X;X;X
+PROV1542;Сюйчжоу;X;X;X;X;X;X
+PROV1543;Янчжоу;X;X;X;X;X;X
+PROV1544;Чжэньцзян;X;X;X;X;X;X
+PROV1545;Наньчан;X;X;X;X;X;X
+PROV1546;Гуаньсинь;X;X;X;X;X;X
+PROV1547;Цзянь;X;X;X;X;X;X
+PROV1548;Цзяньчан;X;X;X;X;X;X
+PROV1549;Цзюцзян;X;X;X;X;X;X
+PROV1550;Ганьчжоу;X;X;X;X;X;X
+PROV1551;Жаочжоу;X;X;X;X;X;X
+PROV1552;Цицикар;X;X;X;X;X;X
+PROV1553;Айгунь;X;X;X;X;X;X
+PROV1554;Нингута;X;X;X;X;X;X
+PROV1555;Гирин;X;X;X;X;X;X
+PROV1556;Махай;X;X;X;X;X;X
+PROV1557;Балекунгоми;X;X;X;X;X;X
+PROV1558;Кегудо;X;X;X;X;X;X
+PROV1559;Сянь;X;X;X;X;X;X
+PROV1560;Мерауке;X;X;X;X;X;X
+PROV1561;Енань;X;X;X;X;X;X
+PROV1562;Ханьчжун;X;X;X;X;X;X
+PROV1563;Цзинань;X;X;X;X;X;X
+PROV1564;Сюйчжоу;X;X;X;X;X;X
+PROV1565;Лайчжоу;X;X;X;X;X;X
+PROV1566;Циндао;X;X;X;X;X;X
+PROV1567;Цинджоу;X;X;X;X;X;X
+PROV1568;Тайан;X;X;X;X;X;X
+PROV1569;Вэй-хай-вэй;X;X;X;X;X;X
+PROV1570;Вудин;X;X;X;X;X;X
+PROV1571;Ичжоу;X;X;X;X;X;X
+PROV1572;Тайюань;X;X;X;X;X;X
+PROV1573;Фэньчжоу;X;X;X;X;X;X
+PROV1574;Луань;X;X;X;X;X;X
+PROV1575;Пинъян;X;X;X;X;X;X
+PROV1576;Датун;X;X;X;X;X;X
+PROV1577;Чунцин;X;X;X;X;X;X
+PROV1578;Чэнду;X;X;X;X;X;X
+PROV1579;Баотун;X;X;X;X;X;X
+PROV1580;Цзядин;X;X;X;X;X;X
+PROV1581;Куйчжоу;X;X;X;X;X;X
+PROV1582;Лунан;X;X;X;X;X;X
+PROV1583;Шуньцин;X;X;X;X;X;X
+PROV1584;Тунчуань;X;X;X;X;X;X
+PROV1585;Ибинь;X;X;X;X;X;X
+PROV1586;Ячжоу;X;X;X;X;X;X
+PROV1587;Лхаса;X;X;X;X;X;X
+PROV1588;Чамдо;X;X;X;X;X;X
+PROV1589;Шигадзе;X;X;X;X;X;X
+PROV1590;Лходрак;X;X;X;X;X;X
+PROV1591;Чантан;X;X;X;X;X;X
+PROV1592;Нгари;X;X;X;X;X;X
+PROV1593;Таванг;X;X;X;X;X;X
+PROV1594;Кашгар;X;X;X;X;X;X
+PROV1595;Или;X;X;X;X;X;X
+PROV1596;Тулта;X;X;X;X;X;X
+PROV1597;Аксу;X;X;X;X;X;X
+PROV1598;Хотан;X;X;X;X;X;X
+PROV1599;Кумул;X;X;X;X;X;X
+PROV1600;Урумчи;X;X;X;X;X;X
+PROV1601;Куньмин;X;X;X;X;X;X
+PROV1602;Дали;X;X;X;X;X;X
+PROV1603;Пуэр;X;X;X;X;X;X
+PROV1604;Ханчжоу;X;X;X;X;X;X
+PROV1605;Хучжоу;X;X;X;X;X;X
+PROV1606;Цзясин;X;X;X;X;X;X
+PROV1607;Цзиньхуа;X;X;X;X;X;X
+PROV1608;Нинбо;X;X;X;X;X;X
+PROV1609;Шаосин;X;X;X;X;X;X
+PROV1610;Тайчжоу;X;X;X;X;X;X
+PROV1611;Вэньчжоу;X;X;X;X;X;X
+PROV1612;Пекин;X;X;X;X;X;X
+PROV1613;Чэндэ;X;X;X;X;X;X
+PROV1614;Дамин;X;X;X;X;X;X
+PROV1615;Цзичжоу;X;X;X;X;X;X
+PROV1616;Шуньтянь;X;X;X;X;X;X
+PROV1617;Тяньцзинь;X;X;X;X;X;X
+PROV1618;Чжундин;X;X;X;X;X;X
+PROV1619;Пхеньян;X;X;X;X;X;X
+PROV1620;Чхунчхон;X;X;X;X;X;X
+PROV1621;Хамхын;X;X;X;X;X;X
+PROV1622;Чхонджин;X;X;X;X;X;X
+PROV1623;Кимчхэк;X;X;X;X;X;X
+PROV1624;Сеул;X;X;X;X;X;X
+PROV1625;Кэсон;X;X;X;X;X;X
+PROV1626;Хэджу;X;X;X;X;X;X
+PROV1627;Саривон;X;X;X;X;X;X
+PROV1628;Инчхон;X;X;X;X;X;X
+PROV1629;Вонсан;X;X;X;X;X;X
+PROV1630;Каннын;X;X;X;X;X;X
+PROV1631;Вонджу;X;X;X;X;X;X
+PROV1632;Пусан;X;X;X;X;X;X
+PROV1633;Тэгу;X;X;X;X;X;X
+PROV1634;Пхохан;X;X;X;X;X;X
+PROV1635;Кванджу;X;X;X;X;X;X
+PROV1636;Тэджон;X;X;X;X;X;X
+PROV1637;Чеджу;X;X;X;X;X;X
+PROV1638;Хиросима;X;X;X;X;X;X
+PROV1639;Окаяма;X;X;X;X;X;X
+PROV1640;Ямагути;X;X;X;X;X;X
+PROV1641;Мацуэ;X;X;X;X;X;X
+PROV1642;Хакодатэ;X;X;X;X;X;X
+PROV1643;Исикара;X;X;X;X;X;X
+PROV1644;Нэмуру;X;X;X;X;X;X
+PROV1645;Ниигата;X;X;X;X;X;X
+PROV1646;Канадзава;X;X;X;X;X;X
+PROV1647;Фукуи;X;X;X;X;X;X
+PROV1648;Тояма;X;X;X;X;X;X
+PROV1649;Токио;X;X;X;X;X;X
+PROV1650;Тиба;X;X;X;X;X;X
+PROV1651;Йокогама;X;X;X;X;X;X
+PROV1652;Урава;X;X;X;X;X;X
+PROV1653;Мито;X;X;X;X;X;X
+PROV1654;Бонин;X;X;X;X;X;X
+PROV1655;Осака;X;X;X;X;X;X
+PROV1656;Вакаяма;X;X;X;X;X;X
+PROV1657;Киото;X;X;X;X;X;X
+PROV1658;Нара;X;X;X;X;X;X
+PROV1659;Кобе;X;X;X;X;X;X
+PROV1660;Фукуока;X;X;X;X;X;X
+PROV1661;Нагасаки;X;X;X;X;X;X
+PROV1662;Кагосима;X;X;X;X;X;X
+PROV1663;Миядзаки;X;X;X;X;X;X
+PROV1664;Кумамото;X;X;X;X;X;X
+PROV1665;Коти;X;X;X;X;X;X
+PROV1666;Мацуяма;X;X;X;X;X;X
+PROV1667;Токусима;X;X;X;X;X;X
+PROV1668;Сэндай;X;X;X;X;X;X
+PROV1669;Фукусима;X;X;X;X;X;X
+PROV1670;Мориока;X;X;X;X;X;X
+PROV1671;Акита;X;X;X;X;X;X
+PROV1672;Аомори;X;X;X;X;X;X
+PROV1673;Ямагата;X;X;X;X;X;X
+PROV1674;Уцуномия;X;X;X;X;X;X
+PROV1675;Нагоя;X;X;X;X;X;X
+PROV1676;Сидзуока;X;X;X;X;X;X
+PROV1677;Нагано;X;X;X;X;X;X
+PROV1678;Окинава;X;X;X;X;X;X
+PROV1679;Амари;X;X;X;X;X;X
+PROV1680;Фес;X;X;X;X;X;X
+PROV1681;Уаззан;X;X;X;X;X;X
+PROV1682;Мекнес;X;X;X;X;X;X
+PROV1683;Таза;X;X;X;X;X;X
+PROV1684;Уджда;X;X;X;X;X;X
+PROV1685;Рабат;X;X;X;X;X;X
+PROV1686;Танжер;X;X;X;X;X;X
+PROV1687;Тетуан;X;X;X;X;X;X
+PROV1688;Адждир;X;X;X;X;X;X
+PROV1689;Мелилья;X;X;X;X;X;X
+PROV1690;Марракеш;X;X;X;X;X;X
+PROV1691;Касабланка;X;X;X;X;X;X
+PROV1692;Хурибга;X;X;X;X;X;X
+PROV1693;Сувейра;X;X;X;X;X;X
+PROV1694;Агадир;X;X;X;X;X;X
+PROV1695;Ифни;X;X;X;X;X;X
+PROV1696;Тарфая;X;X;X;X;X;X
+PROV1697;Фигиг;X;X;X;X;X;X
+PROV1698;Рашидия;X;X;X;X;X;X
+PROV1699;Уарзазат;X;X;X;X;X;X
+PROV1700;Алжир;X;X;X;X;X;X
+PROV1701;Бужи;X;X;X;X;X;X
+PROV1702;Сетиф;X;X;X;X;X;X
+PROV1703;Медеа;X;X;X;X;X;X
+PROV1704;Оран;X;X;X;X;X;X
+PROV1705;Тлемсен;X;X;X;X;X;X
+PROV1706;Мостаганем;X;X;X;X;X;X
+PROV1707;Маскара;X;X;X;X;X;X
+PROV1708;Константина;X;X;X;X;X;X
+PROV1709;Боне;X;X;X;X;X;X
+PROV1710;Бискра;X;X;X;X;X;X
+PROV1711;Уаргла;X;X;X;X;X;X
+PROV1712;Туггурт;X;X;X;X;X;X
+PROV1713;Лагуат;X;X;X;X;X;X
+PROV1714;Бешар;X;X;X;X;X;X
+PROV1715;Наама;X;X;X;X;X;X
+PROV1716;Тиндуф;X;X;X;X;X;X
+PROV1717;Шенашен;X;X;X;X;X;X
+PROV1718;Ин-Салах;X;X;X;X;X;X
+PROV1719;Иллизи;X;X;X;X;X;X
+PROV1720;Тимимун;X;X;X;X;X;X
+PROV1721;Ин-Геззам;X;X;X;X;X;X
+PROV1722;Тин-Зауатин;X;X;X;X;X;X
+PROV1724;Таманрассет;X;X;X;X;X;X
+PROV1725;Тунис;X;X;X;X;X;X
+PROV1726;Бизерта;X;X;X;X;X;X
+PROV1727;Гафса;X;X;X;X;X;X
+PROV1728;Кайроуан;X;X;X;X;X;X
+PROV1729;Тозер;X;X;X;X;X;X
+PROV1730;Габес;X;X;X;X;X;X
+PROV1731;Триполи;X;X;X;X;X;X
+PROV1732;Гарьян;X;X;X;X;X;X
+PROV1733;Мисрата;X;X;X;X;X;X
+PROV1734;Сирт;X;X;X;X;X;X
+PROV1735;Бенгази;X;X;X;X;X;X
+PROV1736;Дерна;X;X;X;X;X;X
+PROV1737;Тобрук;X;X;X;X;X;X
+PROV1738;Джагбуб;X;X;X;X;X;X
+PROV1739;Куфра;X;X;X;X;X;X
+PROV1740;Ваддан;X;X;X;X;X;X
+PROV1741;Мурзук;X;X;X;X;X;X
+PROV1742;Абха;X;X;X;X;X;X
+PROV1743;Гат;X;X;X;X;X;X
+PROV1744;Гадамес;X;X;X;X;X;X
+PROV1745;Каир;X;X;X;X;X;X
+PROV1746;Думьят;X;X;X;X;X;X
+PROV1747;Танта;X;X;X;X;X;X
+PROV1748;Мансура;X;X;X;X;X;X
+PROV1749;Загазиг;X;X;X;X;X;X
+PROV1750;Гиза;X;X;X;X;X;X
+PROV1751;Александрия;X;X;X;X;X;X
+PROV1752;Матрух;X;X;X;X;X;X
+PROV1753;Сиди-Баррани;X;X;X;X;X;X
+PROV1754;Сива;X;X;X;X;X;X
+PROV1755;Суэц;X;X;X;X;X;X
+PROV1756;Эль-Ариш;X;X;X;X;X;X
+PROV1757;Шарм-эш-Шейх;X;X;X;X;X;X
+PROV1758;Фарафра;X;X;X;X;X;X
+PROV1759;Бавити;X;X;X;X;X;X
+PROV1760;Мут;X;X;X;X;X;X
+PROV1761;Барис;X;X;X;X;X;X
+PROV1762;Асьют;X;X;X;X;X;X
+PROV1763;Бени-Суэф;X;X;X;X;X;X
+PROV1764;Минья;X;X;X;X;X;X
+PROV1765;Файюм;X;X;X;X;X;X
+PROV1766;Асуан;X;X;X;X;X;X
+PROV1767;Луксор;X;X;X;X;X;X
+PROV1768;Идфу;X;X;X;X;X;X
+PROV1769;Кина;X;X;X;X;X;X
+PROV1770;Кусейр;X;X;X;X;X;X
+PROV1771;Марса-Алам;X;X;X;X;X;X
+PROV1772;Рас-Гариб;X;X;X;X;X;X
+PROV1773;Эль-Аюн;X;X;X;X;X;X
+PROV1774;Дахла;X;X;X;X;X;X
+PROV1775;Нуакшот;X;X;X;X;X;X
+PROV1776;Россо;X;X;X;X;X;X
+PROV1777;Алег;X;X;X;X;X;X
+PROV1778;Магама;X;X;X;X;X;X
+PROV1779;Шингит;X;X;X;X;X;X
+PROV1780;Тичит;X;X;X;X;X;X
+PROV1781;Валата;X;X;X;X;X;X
+PROV1782;Бир-Мургаян;X;X;X;X;X;X
+PROV1783;Дакар;X;X;X;X;X;X
+PROV1784;Сен-Луи;X;X;X;X;X;X
+PROV1785;Банжул;X;X;X;X;X;X
+PROV1786;Линжер;X;X;X;X;X;X
+PROV1787;Диурбель;X;X;X;X;X;X
+PROV1788;Каолак;X;X;X;X;X;X
+PROV1789;Росо;X;X;X;X;X;X
+PROV1790;Матам;X;X;X;X;X;X
+PROV1791;Бакель;X;X;X;X;X;X
+PROV1792;Зигиншор;X;X;X;X;X;X
+PROV1793;Велингара;X;X;X;X;X;X
+PROV1794;Бамако;X;X;X;X;X;X
+PROV1795;Кайе;X;X;X;X;X;X
+PROV1796;Ниоро;X;X;X;X;X;X
+PROV1797;Кита;X;X;X;X;X;X
+PROV1798;Бугуни;X;X;X;X;X;X
+PROV1799;Сикасо;X;X;X;X;X;X
+PROV1800;Сегу;X;X;X;X;X;X
+PROV1801;Мурдиах;X;X;X;X;X;X
+PROV1802;Дженне;X;X;X;X;X;X
+PROV1803;Тимбукту;X;X;X;X;X;X
+PROV1804;Бандиагара;X;X;X;X;X;X
+PROV1805;Гао;X;X;X;X;X;X
+PROV1806;Таоденну;X;X;X;X;X;X
+PROV1807;Тессалит;X;X;X;X;X;X
+PROV1808;Ниамей;X;X;X;X;X;X
+PROV1809;Сэй;X;X;X;X;X;X
+PROV1810;Доссо;X;X;X;X;X;X
+PROV1811;Маради;X;X;X;X;X;X
+PROV1812;Агадес;X;X;X;X;X;X
+PROV1813;Арлит;X;X;X;X;X;X
+PROV1814;Мадама;X;X;X;X;X;X
+PROV1815;Зиндер;X;X;X;X;X;X
+PROV1816;Куфей;X;X;X;X;X;X
+PROV1817;Бильма;X;X;X;X;X;X
+PROV1818;Массеня;X;X;X;X;X;X
+PROV1819;Мунду;X;X;X;X;X;X
+PROV1820;Бонгор;X;X;X;X;X;X
+PROV1821;Абече;X;X;X;X;X;X
+PROV1822;Ам-Тиман;X;X;X;X;X;X
+PROV1823;Монго;X;X;X;X;X;X
+PROV1824;Мао;X;X;X;X;X;X
+PROV1825;Зуар;X;X;X;X;X;X
+PROV1826;Фая;X;X;X;X;X;X
+PROV1827;Хартум;X;X;X;X;X;X
+PROV1828;Вад-Мадани;X;X;X;X;X;X
+PROV1829;Кассала;X;X;X;X;X;X
+PROV1830;Сеннар;X;X;X;X;X;X
+PROV1831;Рабак;X;X;X;X;X;X
+PROV1832;Фашода;X;X;X;X;X;X
+PROV1833;Суакин;X;X;X;X;X;X
+PROV1834;Халайб;X;X;X;X;X;X
+PROV1835;Донгола;X;X;X;X;X;X
+PROV1836;Хайя;X;X;X;X;X;X
+PROV1837;Атбара;X;X;X;X;X;X
+PROV1838;Обейд;X;X;X;X;X;X
+PROV1839;Нухуд;X;X;X;X;X;X
+PROV1840;Кадукли;X;X;X;X;X;X
+PROV1841;Фашер;X;X;X;X;X;X
+PROV1842;Юнайнах;X;X;X;X;X;X
+PROV1843;Уау;X;X;X;X;X;X
+PROV1844;Бор;X;X;X;X;X;X
+PROV1845;Ямбио;X;X;X;X;X;X
+PROV1846;Ладу;X;X;X;X;X;X
+PROV1847;Капоэта;X;X;X;X;X;X
+PROV1848;Асмара;X;X;X;X;X;X
+PROV1849;Массава;X;X;X;X;X;X
+PROV1850;Акордат;X;X;X;X;X;X
+PROV1851;Ассаб;X;X;X;X;X;X
+PROV1852;Гондэр;X;X;X;X;X;X
+PROV1853;Дебрэ-Табор;X;X;X;X;X;X
+PROV1854;Матамма;X;X;X;X;X;X
+PROV1855;Дебрэ-Маркос;X;X;X;X;X;X
+PROV1856;Аксум;X;X;X;X;X;X
+PROV1857;Антало;X;X;X;X;X;X
+PROV1858;Авса;X;X;X;X;X;X
+PROV1859;Анкобер;X;X;X;X;X;X
+PROV1860;Аваса;X;X;X;X;X;X
+PROV1861;Аселья;X;X;X;X;X;X
+PROV1862;Бонга;X;X;X;X;X;X
+PROV1863;Асоса;X;X;X;X;X;X
+PROV1864;Негеле;X;X;X;X;X;X
+PROV1865;Харар;X;X;X;X;X;X
+PROV1866;Гоба;X;X;X;X;X;X
+PROV1867;Вердер;X;X;X;X;X;X
+PROV1868;Могадишо;X;X;X;X;X;X
+PROV1869;Байдоа;X;X;X;X;X;X
+PROV1870;Кисмайо;X;X;X;X;X;X
+PROV1871;Хобьо;X;X;X;X;X;X
+PROV1872;Босасо;X;X;X;X;X;X
+PROV1873;Бербера;X;X;X;X;X;X
+PROV1874;Сайла;X;X;X;X;X;X
+PROV1875;Джибути;X;X;X;X;X;X
+PROV1876;Кабо-Верде;X;X;X;X;X;X
+PROV1877;Биссау;X;X;X;X;X;X
+PROV1878;Габу;X;X;X;X;X;X
+PROV1879;Боффа;X;X;X;X;X;X
+PROV1880;Тимбо;X;X;X;X;X;X
+PROV1881;Дингирайе;X;X;X;X;X;X
+PROV1882;Канкан;X;X;X;X;X;X
+PROV1883;Бейла;X;X;X;X;X;X
+PROV1884;Фритаун;X;X;X;X;X;X
+PROV1885;Фалаба;X;X;X;X;X;X
+PROV1886;Бо;X;X;X;X;X;X
+PROV1887;Монровия;X;X;X;X;X;X
+PROV1888;Харпер;X;X;X;X;X;X
+PROV1889;Бополу;X;X;X;X;X;X
+PROV1890;Гбарнга;X;X;X;X;X;X
+PROV1891;Зуэдру;X;X;X;X;X;X
+PROV1892;Гран-Лаху;X;X;X;X;X;X
+PROV1893;Сассандра;X;X;X;X;X;X
+PROV1894;Гран-Бассам;X;X;X;X;X;X
+PROV1895;Буаке;X;X;X;X;X;X
+PROV1896;Ман;X;X;X;X;X;X
+PROV1897;Акупе;X;X;X;X;X;X
+PROV1898;Кунг;X;X;X;X;X;X
+PROV1899;Бондуку;X;X;X;X;X;X
+PROV1900;Одиенне;X;X;X;X;X;X
+PROV1901;Вагадугу;X;X;X;X;X;X
+PROV1902;Вахигуя;X;X;X;X;X;X
+PROV1903;Дори;X;X;X;X;X;X
+PROV1904;Фада-Нгурма;X;X;X;X;X;X
+PROV1905;Бобо-Диулассо;X;X;X;X;X;X
+PROV1906;Ородаро;X;X;X;X;X;X
+PROV1907;Аккра;X;X;X;X;X;X
+PROV1908;Кейп-Коаст;X;X;X;X;X;X
+PROV1909;Секонди;X;X;X;X;X;X
+PROV1910;Кумаси;X;X;X;X;X;X
+PROV1911;Кинтампо;X;X;X;X;X;X
+PROV1912;Ва;X;X;X;X;X;X
+PROV1913;Тамале;X;X;X;X;X;X
+PROV1914;Ломе;X;X;X;X;X;X
+PROV1915;Хо;X;X;X;X;X;X
+PROV1916;Йенди;X;X;X;X;X;X
+PROV1917;Атакпаме;X;X;X;X;X;X
+PROV1918;Сокоде;X;X;X;X;X;X
+PROV1919;Котону;X;X;X;X;X;X
+PROV1920;Абомей;X;X;X;X;X;X
+PROV1921;Никки;X;X;X;X;X;X
+PROV1922;Джугу;X;X;X;X;X;X
+PROV1923;Лагос;X;X;X;X;X;X
+PROV1924;Абеокута;X;X;X;X;X;X
+PROV1925;Ибадан;X;X;X;X;X;X
+PROV1926;Ифе;X;X;X;X;X;X
+PROV1927;Илорин;X;X;X;X;X;X
+PROV1928;Бенин;X;X;X;X;X;X
+PROV1929;Акуре;X;X;X;X;X;X
+PROV1930;Локоджа;X;X;X;X;X;X
+PROV1931;Уари;X;X;X;X;X;X
+PROV1932;Бонни;X;X;X;X;X;X
+PROV1933;Аука;X;X;X;X;X;X
+PROV1934;Калабар;X;X;X;X;X;X
+PROV1935;Аручукву;X;X;X;X;X;X
+PROV1936;Макурди;X;X;X;X;X;X
+PROV1937;Тукари;X;X;X;X;X;X
+PROV1938;Бусса;X;X;X;X;X;X
+PROV1939;Зария;X;X;X;X;X;X
+PROV1940;Бида;X;X;X;X;X;X
+PROV1941;Абуджа;X;X;X;X;X;X
+PROV1942;Баучи;X;X;X;X;X;X
+PROV1943;Джос;X;X;X;X;X;X
+PROV1944;Гомбе;X;X;X;X;X;X
+PROV1945;Кано;X;X;X;X;X;X
+PROV1946;Кебби;X;X;X;X;X;X
+PROV1947;Кацина;X;X;X;X;X;X
+PROV1948;Сокото;X;X;X;X;X;X
+PROV1949;Хадеджья;X;X;X;X;X;X
+PROV1950;Йола;X;X;X;X;X;X
+PROV1951;Кука;X;X;X;X;X;X
+PROV1952;Нгуру;X;X;X;X;X;X
+PROV1953;Дикоа;X;X;X;X;X;X
+PROV1954;Сан-Томе;X;X;X;X;X;X
+PROV1955;Фернандо-По;X;X;X;X;X;X
+PROV1956;Дуала;X;X;X;X;X;X
+PROV1957;Буэа;X;X;X;X;X;X
+PROV1958;Криби;X;X;X;X;X;X
+PROV1959;Яунде;X;X;X;X;X;X
+PROV1960;Бафуссам;X;X;X;X;X;X
+PROV1961;Баменда;X;X;X;X;X;X
+PROV1962;Бертуа;X;X;X;X;X;X
+PROV1963;Нгаундере;X;X;X;X;X;X
+PROV1964;Маруа;X;X;X;X;X;X
+PROV1965;Бангуй;X;X;X;X;X;X
+PROV1966;Нола;X;X;X;X;X;X
+PROV1967;Буар;X;X;X;X;X;X
+PROV1968;Босангоа;X;X;X;X;X;X
+PROV1969;Земио;X;X;X;X;X;X
+PROV1970;Бангасу;X;X;X;X;X;X
+PROV1971;Нделе;X;X;X;X;X;X
+PROV1972;Либревиль;X;X;X;X;X;X
+PROV1973;Бата;X;X;X;X;X;X
+PROV1974;Маюмбе;X;X;X;X;X;X
+PROV1975;Моанда;X;X;X;X;X;X
+PROV1976;Макоку;X;X;X;X;X;X
+PROV1977;Нкуна;X;X;X;X;X;X
+PROV1978;Мадингу;X;X;X;X;X;X
+PROV1979;Билока;X;X;X;X;X;X
+PROV1980;Джамбала;X;X;X;X;X;X
+PROV1981;Импфондо;X;X;X;X;X;X
+PROV1982;Киншаса;X;X;X;X;X;X
+PROV1983;Бома;X;X;X;X;X;X
+PROV1984;Кананга;X;X;X;X;X;X
+PROV1985;Кумбана;X;X;X;X;X;X
+PROV1986;Лусамбо;X;X;X;X;X;X
+PROV1987;Бункейя;X;X;X;X;X;X
+PROV1988;Мусумба;X;X;X;X;X;X
+PROV1989;Мунза;X;X;X;X;X;X
+PROV1990;Ньянгве;X;X;X;X;X;X
+PROV1991;Увира;X;X;X;X;X;X
+PROV1992;Басоко;X;X;X;X;X;X
+PROV1993;Иребу;X;X;X;X;X;X
+PROV1994;Ншенг;X;X;X;X;X;X
+PROV1995;Жемена;X;X;X;X;X;X
+PROV1996;Кисангани;X;X;X;X;X;X
+PROV1997;Мунгбане;X;X;X;X;X;X
+PROV1998;Барамо;X;X;X;X;X;X
+PROV1999;Луанда;X;X;X;X;X;X
+PROV2000;Кабинда;X;X;X;X;X;X
+PROV2001;Мбанса;X;X;X;X;X;X
+PROV2002;Кибала;X;X;X;X;X;X
+PROV2003;Бенгела;X;X;X;X;X;X
+PROV2004;Мокамедес;X;X;X;X;X;X
+PROV2005;Хуамбо;X;X;X;X;X;X
+PROV2006;Куито;X;X;X;X;X;X
+PROV2007;Мавинга;X;X;X;X;X;X
+PROV2008;Онджива;X;X;X;X;X;X
+PROV2009;Маландже;X;X;X;X;X;X
+PROV2010;Сауримо;X;X;X;X;X;X
+PROV2011;Кубанда;X;X;X;X;X;X
+PROV2012;Лусака;X;X;X;X;X;X
+PROV2013;Монгу;X;X;X;X;X;X
+PROV2014;Касемпа;X;X;X;X;X;X
+PROV2015;Монсо;X;X;X;X;X;X
+PROV2016;Казембе;X;X;X;X;X;X
+PROV2017;Касема;X;X;X;X;X;X
+PROV2018;Чипата;X;X;X;X;X;X
+PROV2019;Энтеббе;X;X;X;X;X;X
+PROV2020;Мбарара;X;X;X;X;X;X
+PROV2021;Масинди;X;X;X;X;X;X
+PROV2022;Китгум;X;X;X;X;X;X
+PROV2023;Джинджа;X;X;X;X;X;X
+PROV2024;Найроби;X;X;X;X;X;X
+PROV2025;Марсабит;X;X;X;X;X;X
+PROV2026;Лодвар;X;X;X;X;X;X
+PROV2027;Накуру;X;X;X;X;X;X
+PROV2028;Кисуму;X;X;X;X;X;X
+PROV2029;Момбаса;X;X;X;X;X;X
+PROV2030;Ламу;X;X;X;X;X;X
+PROV2031;Ваджир;X;X;X;X;X;X
+PROV2032;Гарисса;X;X;X;X;X;X
+PROV2033;Вой;X;X;X;X;X;X
+PROV2034;Кигали;X;X;X;X;X;X
+PROV2035;Усумбура;X;X;X;X;X;X
+PROV2036;Дар-эс-Салам;X;X;X;X;X;X
+PROV2037;Танга;X;X;X;X;X;X
+PROV2038;Килва;X;X;X;X;X;X
+PROV2039;Линди;X;X;X;X;X;X
+PROV2040;Сонгеа;X;X;X;X;X;X
+PROV2041;Масаси;X;X;X;X;X;X
+PROV2042;Иринга;X;X;X;X;X;X
+PROV2043;Табора;X;X;X;X;X;X
+PROV2044;Мванза;X;X;X;X;X;X
+PROV2045;Морогоро;X;X;X;X;X;X
+PROV2046;Уджиджи;X;X;X;X;X;X
+PROV2047;Аруша;X;X;X;X;X;X
+PROV2048;Занзибар;X;X;X;X;X;X
+PROV2050;Чаймате;X;X;X;X;X;X
+PROV2051;Иньямбане;X;X;X;X;X;X
+PROV2052;Масекисе;X;X;X;X;X;X
+PROV2053;Сену;X;X;X;X;X;X
+PROV2054;Тете;X;X;X;X;X;X
+PROV2055;Сонго;X;X;X;X;X;X
+PROV2056;Зумбо;X;X;X;X;X;X
+PROV2057;Софала;X;X;X;X;X;X
+PROV2058;Моссуризе;X;X;X;X;X;X
+PROV2059;Келимане;X;X;X;X;X;X
+PROV2060;Мозамбик;X;X;X;X;X;X
+PROV2061;Ангоше;X;X;X;X;X;X
+PROV2062;Шанчжоу;X;X;X;X;X;X
+PROV2063;Ибо;X;X;X;X;X;X
+PROV2064;Нампула;X;X;X;X;X;X
+PROV2065;Миланге;X;X;X;X;X;X
+PROV2066;Зомба;X;X;X;X;X;X
+PROV2067;Лилонгве;X;X;X;X;X;X
+PROV2068;Хараре;X;X;X;X;X;X
+PROV2069;Гверу;X;X;X;X;X;X
+PROV2070;Мутаре;X;X;X;X;X;X
+PROV2071;Булавайо;X;X;X;X;X;X
+PROV2072;Хванге;X;X;X;X;X;X
+PROV2073;Масвинго;X;X;X;X;X;X
+PROV2074;Габороне;X;X;X;X;X;X
+PROV2075;Серове;X;X;X;X;X;X
+PROV2076;Ноканенг;X;X;X;X;X;X
+PROV2077;Цабонг;X;X;X;X;X;X
+PROV2078;Виндхук;X;X;X;X;X;X
+PROV2079;Свакопмунд;X;X;X;X;X;X
+PROV2080;Цумеб;X;X;X;X;X;X
+PROV2081;Линьяти;X;X;X;X;X;X
+PROV2082;Отжинене;X;X;X;X;X;X
+PROV2083;Уолфиш-Бей;X;X;X;X;X;X
+PROV2084;Ангра-Пекена;X;X;X;X;X;X
+PROV2085;Ну-Гусес;X;X;X;X;X;X
+PROV2086;Карасбург;X;X;X;X;X;X
+PROV2087;Кейптаун;X;X;X;X;X;X
+PROV2088;Спрингбок;X;X;X;X;X;X
+PROV2089;Вустер;X;X;X;X;X;X
+PROV2090;Ворчестер;X;X;X;X;X;X
+PROV2091;Суэттенхэм;X;X;X;X;X;X
+PROV2092;Бофорт;X;X;X;X;X;X
+PROV2093;Кальвиния;X;X;X;X;X;X
+PROV2094;Кимберли;X;X;X;X;X;X
+PROV2095;Дикатонг;X;X;X;X;X;X
+PROV2096;Порт-Элизабет;X;X;X;X;X;X
+PROV2097;Грааф-Рейнет;X;X;X;X;X;X
+PROV2098;Бишо;X;X;X;X;X;X
+PROV2099;Мателе;X;X;X;X;X;X
+PROV2100;Умтата;X;X;X;X;X;X
+PROV2101;Блюмфонтейн;X;X;X;X;X;X
+PROV2102;Уинбург;X;X;X;X;X;X
+PROV2103;Филипполис;X;X;X;X;X;X
+PROV2104;Таба-Босю;X;X;X;X;X;X
+PROV2105;Претория;X;X;X;X;X;X
+PROV2106;Витватерсранд;X;X;X;X;X;X
+PROV2107;Клерксдорп;X;X;X;X;X;X
+PROV2108;Мосега;X;X;X;X;X;X
+PROV2109;Лиденбург;X;X;X;X;X;X
+PROV2110;Тохоянду;X;X;X;X;X;X
+PROV2111;Дурбан;X;X;X;X;X;X
+PROV2112;Ледисмит;X;X;X;X;X;X
+PROV2113;Улунди;X;X;X;X;X;X
+PROV2114;Мбабане;X;X;X;X;X;X
+PROV2115;Тананариву;X;X;X;X;X;X
+PROV2116;Фианарантсоа;X;X;X;X;X;X
+PROV2117;Амфанихи;X;X;X;X;X;X
+PROV2118;Толанаро;X;X;X;X;X;X
+PROV2119;Тоамасина;X;X;X;X;X;X
+PROV2120;Антсиранана;X;X;X;X;X;X
+PROV2121;Махаджанга;X;X;X;X;X;X
+PROV2122;Толиара;X;X;X;X;X;X
+PROV2123;Коморы;X;X;X;X;X;X
+PROV2124;Майотта;X;X;X;X;X;X
+PROV2125;Маврикий;X;X;X;X;X;X
+PROV2126;Бурбон;X;X;X;X;X;X
+PROV2127;Сейшельские о-ва;X;X;X;X;X;X
+PROV2128;Диего-Гарсия;X;X;X;X;X;X
+PROV2129;О-в св. Елены;X;X;X;X;X;X
+PROV2130;Асенсьон;X;X;X;X;X;X
+PROV2131;Фолклендские о-ва;X;X;X;X;X;X
+PROV2132;Тристан-да-Кунья;X;X;X;X;X;X
+PROV2133;Южная Георгия;X;X;X;X;X;X
+PROV2134;Азорские о-ва;X;X;X;X;X;X
+PROV2135;Мадейра;X;X;X;X;X;X
+PROV2136;Канарские о-ва;X;X;X;X;X;X
+PROV2137;Эрмосильо;X;X;X;X;X;X
+PROV2138;Лорето;X;X;X;X;X;X
+PROV2139;Росарито;X;X;X;X;X;X
+PROV2140;Ногалес;X;X;X;X;X;X
+PROV2141;Гуаймас;X;X;X;X;X;X
+PROV2142;Чиуауа;X;X;X;X;X;X
+PROV2143;Пасо-дель-Норте;X;X;X;X;X;X
+PROV2144;Делисиас;X;X;X;X;X;X
+PROV2145;Парраль;X;X;X;X;X;X
+PROV2146;Монтеррей;X;X;X;X;X;X
+PROV2147;Морелос;X;X;X;X;X;X
+PROV2148;Рейноса;X;X;X;X;X;X
+PROV2149;Матаморос;X;X;X;X;X;X
+PROV2150;Сьюдад-Виктория;X;X;X;X;X;X
+PROV2151;Сальтильо;X;X;X;X;X;X
+PROV2152;Монклова;X;X;X;X;X;X
+PROV2153;Дуранго;X;X;X;X;X;X
+PROV2154;Санта-Мария-дель-Оро;X;X;X;X;X;X
+PROV2155;Торреон;X;X;X;X;X;X
+PROV2156;Масатлан;X;X;X;X;X;X
+PROV2157;Кульякан;X;X;X;X;X;X
+PROV2158;Сакатекас;X;X;X;X;X;X
+PROV2159;Сан-Луис-Потоси;X;X;X;X;X;X
+PROV2160;Агуаскальентес;X;X;X;X;X;X
+PROV2161;Тепик;X;X;X;X;X;X
+PROV2162;Веракрус;X;X;X;X;X;X
+PROV2163;Тампико;X;X;X;X;X;X
+PROV2164;Минатитлан;X;X;X;X;X;X
+PROV2165;Вильяэрмоса;X;X;X;X;X;X
+PROV2166;Гвадалахара;X;X;X;X;X;X
+PROV2167;Гуанахуато;X;X;X;X;X;X
+PROV2168;Пуэрто-Вальярта;X;X;X;X;X;X
+PROV2169;Колима;X;X;X;X;X;X
+PROV2170;Морелиа;X;X;X;X;X;X
+PROV2171;Лос-Альбанилес;X;X;X;X;X;X
+PROV2172;Мехико-Сити;X;X;X;X;X;X
+PROV2173;Керетаро;X;X;X;X;X;X
+PROV2174;Толука;X;X;X;X;X;X
+PROV2175;Тулансинго;X;X;X;X;X;X
+PROV2176;Пуэбла;X;X;X;X;X;X
+PROV2177;Оаксака;X;X;X;X;X;X
+PROV2178;Кольятаро;X;X;X;X;X;X
+PROV2179;Акапулько;X;X;X;X;X;X
+PROV2180;Чильпансинго;X;X;X;X;X;X
+PROV2181;Тукстла;X;X;X;X;X;X
+PROV2182;Тапачула;X;X;X;X;X;X
+PROV2183;Мерида;X;X;X;X;X;X
+PROV2184;Кампече;X;X;X;X;X;X
+PROV2185;Бакалар;X;X;X;X;X;X
+PROV2186;Гватемала;X;X;X;X;X;X
+PROV2187;Кетцальтенанго;X;X;X;X;X;X
+PROV2188;Пуэрто-Барриос;X;X;X;X;X;X
+PROV2189;Сайаче;X;X;X;X;X;X
+PROV2190;Белиз;X;X;X;X;X;X
+PROV2191;Сан-Сальвадор;X;X;X;X;X;X
+PROV2192;Сан-Мигель;X;X;X;X;X;X
+PROV2193;Комаягуа;X;X;X;X;X;X
+PROV2194;Сан-Педро-Сула;X;X;X;X;X;X
+PROV2195;Ла-Сейба;X;X;X;X;X;X
+PROV2196;Пуэрто-Лемпира;X;X;X;X;X;X
+PROV2197;Манагуа;X;X;X;X;X;X
+PROV2198;Ривас;X;X;X;X;X;X
+PROV2199;Леон;X;X;X;X;X;X
+PROV2200;Блюфилдс;X;X;X;X;X;X
+PROV2201;Сан-Хосе;X;X;X;X;X;X
+PROV2202;Либерия;X;X;X;X;X;X
+PROV2203;Лимон;X;X;X;X;X;X
+PROV2204;Панама-Сити;X;X;X;X;X;X
+PROV2205;Давид;X;X;X;X;X;X
+PROV2206;Пенономе;X;X;X;X;X;X
+PROV2207;Сэйншанд;X;X;X;X;X;X
+PROV2208;Явиза;X;X;X;X;X;X
+PROV2209;Гавана;X;X;X;X;X;X
+PROV2210;Хагуа;X;X;X;X;X;X
+PROV2211;Камагуэй;X;X;X;X;X;X
+PROV2212;Сантьяго-де-Куба;X;X;X;X;X;X
+PROV2213;Порт-О-Пренс;X;X;X;X;X;X
+PROV2214;Санто-Доминго;X;X;X;X;X;X
+PROV2215;Кап-Гаитьен;X;X;X;X;X;X
+PROV2216;Ла-Вега;X;X;X;X;X;X
+PROV2217;Ямайка;X;X;X;X;X;X
+PROV2218;Каймановы о-ва;X;X;X;X;X;X
+PROV2219;Багамские о-ва;X;X;X;X;X;X
+PROV2220;Теркс-и-Кайкос;X;X;X;X;X;X
+PROV2221;Нанкин;X;X;X;X;X;X
+PROV2222;Пуэрто-Рико;X;X;X;X;X;X
+PROV2223;Сент-Томас;X;X;X;X;X;X
+PROV2224;Антигуа;X;X;X;X;X;X
+PROV2225;Монсеррат;X;X;X;X;X;X
+PROV2226;Тортола;X;X;X;X;X;X
+PROV2227;Сент-Киттс;X;X;X;X;X;X
+PROV2228;Мартиника;X;X;X;X;X;X
+PROV2229;Барбадос;X;X;X;X;X;X
+PROV2230;Гваделупа;X;X;X;X;X;X
+PROV2231;Сент-Люсия;X;X;X;X;X;X
+PROV2232;Доминика;X;X;X;X;X;X
+PROV2233;Гренада;X;X;X;X;X;X
+PROV2234;Кюрасао;X;X;X;X;X;X
+PROV2235;Аруба;X;X;X;X;X;X
+PROV2236;Сент-Мартин;X;X;X;X;X;X
+PROV2237;Тринидад;X;X;X;X;X;X
+PROV2238;Тобаго;X;X;X;X;X;X
+PROV2239;Джорджтаун;X;X;X;X;X;X
+PROV2240;Парамарибо;X;X;X;X;X;X
+PROV2241;Кайенна;X;X;X;X;X;X
+PROV2242;Махдия;X;X;X;X;X;X
+PROV2243;Эссекибо;X;X;X;X;X;X
+PROV2244;Остров Рождества;X;X;X;X;X;X
+PROV2245;Апетина;X;X;X;X;X;X
+PROV2246;Марипасула;X;X;X;X;X;X
+PROV2247;Богота;X;X;X;X;X;X
+PROV2248;Ибаге;X;X;X;X;X;X
+PROV2249;Тунха;X;X;X;X;X;X
+PROV2250;Манисалес;X;X;X;X;X;X
+PROV2251;Кукута;X;X;X;X;X;X
+PROV2252;Медельин;X;X;X;X;X;X
+PROV2253;Кибдо;X;X;X;X;X;X
+PROV2254;Картахена-де-Индиас;X;X;X;X;X;X
+PROV2255;Барранкилья;X;X;X;X;X;X
+PROV2256;Кали;X;X;X;X;X;X
+PROV2257;Попайян;X;X;X;X;X;X
+PROV2258;Буэнавентура;X;X;X;X;X;X
+PROV2259;Пасто;X;X;X;X;X;X
+PROV2260;Сан-Хосе-дель-Гуавьяре;X;X;X;X;X;X
+PROV2261;Обандо;X;X;X;X;X;X
+PROV2262;Касанаре;X;X;X;X;X;X
+PROV2263;Эль-Энканто;X;X;X;X;X;X
+PROV2264;Каракас;X;X;X;X;X;X
+PROV2265;Гуанаре;X;X;X;X;X;X
+PROV2266;Калабосо;X;X;X;X;X;X
+PROV2267;Кумана;X;X;X;X;X;X
+PROV2268;Сан-Фелипе;X;X;X;X;X;X
+PROV2269;Гирия;X;X;X;X;X;X
+PROV2270;Маракайбо;X;X;X;X;X;X
+PROV2271;Валера;X;X;X;X;X;X
+PROV2272;Коро;X;X;X;X;X;X
+PROV2273;Баркисимето;X;X;X;X;X;X
+PROV2274;Баринас;X;X;X;X;X;X
+PROV2275;Ангостура;X;X;X;X;X;X
+PROV2276;Куриапо;X;X;X;X;X;X
+PROV2277;Эль-Хобаль;X;X;X;X;X;X
+PROV2278;Сан-Фернандо-де-Атапабо;X;X;X;X;X;X
+PROV2279;Кито;X;X;X;X;X;X
+PROV2280;Гуаякиль;X;X;X;X;X;X
+PROV2281;Эсмерельдас;X;X;X;X;X;X
+PROV2282;Лоха;X;X;X;X;X;X
+PROV2283;Самора;X;X;X;X;X;X
+PROV2284;Тена;X;X;X;X;X;X
+PROV2285;Галапагос;X;X;X;X;X;X
+PROV2286;Икитос;X;X;X;X;X;X
+PROV2287;Юримагуас;X;X;X;X;X;X
+PROV2288;Юнкос;X;X;X;X;X;X
+PROV2289;Пука-Урко;X;X;X;X;X;X
+PROV2290;Кахамарка;X;X;X;X;X;X
+PROV2291;Пьюра;X;X;X;X;X;X
+PROV2292;Трухильо;X;X;X;X;X;X
+PROV2293;Уануко;X;X;X;X;X;X
+PROV2294;Мойобамба;X;X;X;X;X;X
+PROV2295;Лима;X;X;X;X;X;X
+PROV2296;Уанкавелика;X;X;X;X;X;X
+PROV2297;Ика;X;X;X;X;X;X
+PROV2298;Уарас;X;X;X;X;X;X
+PROV2299;Аякучо;X;X;X;X;X;X
+PROV2300;Пукальпа;X;X;X;X;X;X
+PROV2301;Пуэрто-Мальдонадо;X;X;X;X;X;X
+PROV2302;Куско;X;X;X;X;X;X
+PROV2303;Пуно;X;X;X;X;X;X
+PROV2304;Арекипа;X;X;X;X;X;X
+PROV2305;Антофагаста;X;X;X;X;X;X
+PROV2306;Сорокаба;X;X;X;X;X;X
+PROV2307;Икике;X;X;X;X;X;X
+PROV2308;Арика;X;X;X;X;X;X
+PROV2309;Калама;X;X;X;X;X;X
+PROV2310;Ла-Пас;X;X;X;X;X;X
+PROV2311;Кочабамба;X;X;X;X;X;X
+PROV2312;Оруро;X;X;X;X;X;X
+PROV2313;Чиквисака;X;X;X;X;X;X
+PROV2314;Потоси;X;X;X;X;X;X
+PROV2315;Тариха;X;X;X;X;X;X
+PROV2316;Санта-Крус;X;X;X;X;X;X
+PROV2317;Сан-Игнасио;X;X;X;X;X;X
+PROV2318;Роборе;X;X;X;X;X;X
+PROV2319;Санта-Ана;X;X;X;X;X;X
+PROV2320;Риберальта;X;X;X;X;X;X
+PROV2321;Кобиха;X;X;X;X;X;X
+PROV2322;Копьяпо;X;X;X;X;X;X
+PROV2323;Ла-Серена;X;X;X;X;X;X
+PROV2324;Сантьяго;X;X;X;X;X;X
+PROV2325;Вальпараисо;X;X;X;X;X;X
+PROV2326;Вина-дель-Мар;X;X;X;X;X;X
+PROV2327;Талька;X;X;X;X;X;X
+PROV2328;Вальдивия;X;X;X;X;X;X
+PROV2329;Темуко;X;X;X;X;X;X
+PROV2330;Каукенес;X;X;X;X;X;X
+PROV2331;Чильян;X;X;X;X;X;X
+PROV2332;Осорно;X;X;X;X;X;X
+PROV2333;Пуэрто-Айсен;X;X;X;X;X;X
+PROV2334;Пунта-Аренас;X;X;X;X;X;X
+PROV2335;Порвенир;X;X;X;X;X;X
+PROV2336;Остров Пасхи;X;X;X;X;X;X
+PROV2337;Фортин-Фалькон;X;X;X;X;X;X
+PROV2338;Пуэрто-Гуарани;X;X;X;X;X;X
+PROV2339;Асунсьон;X;X;X;X;X;X
+PROV2340;Пилар;X;X;X;X;X;X
+PROV2341;Энкарнасьон;X;X;X;X;X;X
+PROV2342;Сан-Педро;X;X;X;X;X;X
+PROV2343;Консепсьон;X;X;X;X;X;X
+PROV2344;Монтевидео;X;X;X;X;X;X
+PROV2345;Пайсанду;X;X;X;X;X;X
+PROV2346;Такуарембо;X;X;X;X;X;X
+PROV2347;Мело;X;X;X;X;X;X
+PROV2348;Буэнос-Айрес;X;X;X;X;X;X
+PROV2349;Хунин;X;X;X;X;X;X
+PROV2350;Асуль;X;X;X;X;X;X
+PROV2351;Ла-Плата;X;X;X;X;X;X
+PROV2352;Мар-дель-Плата;X;X;X;X;X;X
+PROV2353;Саладильо;X;X;X;X;X;X
+PROV2354;Байя-Бланка;X;X;X;X;X;X
+PROV2355;Кармен;X;X;X;X;X;X
+PROV2356;Корриентес;X;X;X;X;X;X
+PROV2357;Курузу-Куатиа;X;X;X;X;X;X
+PROV2358;Санто-Томас;X;X;X;X;X;X
+PROV2359;Парана;X;X;X;X;X;X
+PROV2360;Парана;X;X;X;X;X;X
+PROV2361;Санта-Еспириту;X;X;X;X;X;X
+PROV2362;Реконкиста;X;X;X;X;X;X
+PROV2363;Росарио;X;X;X;X;X;X
+PROV2364;Ресистенсия;X;X;X;X;X;X
+PROV2365;Вилья-Ангела;X;X;X;X;X;X
+PROV2366;Формоса;X;X;X;X;X;X
+PROV2367;Золотас;X;X;X;X;X;X
+PROV2368;Сальта;X;X;X;X;X;X
+PROV2369;Жужуй;X;X;X;X;X;X
+PROV2370;Кочинока;X;X;X;X;X;X
+PROV2371;Эквиа;X;X;X;X;X;X
+PROV2372;Ривадавия;X;X;X;X;X;X
+PROV2373;Тукуман;X;X;X;X;X;X
+PROV2374;Катамарка;X;X;X;X;X;X
+PROV2375;Винчина;X;X;X;X;X;X
+PROV2376;Сантьяго-дель-Эстеро;X;X;X;X;X;X
+PROV2377;Анатуйя;X;X;X;X;X;X
+PROV2378;Майлин;X;X;X;X;X;X
+PROV2379;Кордоба-де-Архентина;X;X;X;X;X;X
+PROV2380;Вилья-Нуэва;X;X;X;X;X;X
+PROV2381;Рио-Кварто;X;X;X;X;X;X
+PROV2382;Ренанко;X;X;X;X;X;X
+PROV2383;Сан-Луис;X;X;X;X;X;X
+PROV2384;Мерседес;X;X;X;X;X;X
+PROV2385;Ла-Риоха;X;X;X;X;X;X
+PROV2386;Санта-Рита;X;X;X;X;X;X
+PROV2387;Сан-Хуан;X;X;X;X;X;X
+PROV2388;Калингаста;X;X;X;X;X;X
+PROV2389;Мендоса;X;X;X;X;X;X
+PROV2390;Сан-Рафаэль;X;X;X;X;X;X
+PROV2391;Неукен;X;X;X;X;X;X
+PROV2392;Вьедма;X;X;X;X;X;X
+PROV2393;Телен;X;X;X;X;X;X
+PROV2394;Барилоче;X;X;X;X;X;X
+PROV2395;Курако;X;X;X;X;X;X
+PROV2396;Роусон;X;X;X;X;X;X
+PROV2397;Эскель;X;X;X;X;X;X
+PROV2398;Пуэрто-Десеадо;X;X;X;X;X;X
+PROV2399;Рио-Гальегас;X;X;X;X;X;X
+PROV2400;Рио-Гранде;X;X;X;X;X;X
+PROV2401;Марабитанас;X;X;X;X;X;X
+PROV2402;Манаус;X;X;X;X;X;X
+PROV2403;Качоэйра;X;X;X;X;X;X
+PROV2404;Тефе;X;X;X;X;X;X
+PROV2405;Борба;X;X;X;X;X;X
+PROV2406;Кокосовые острова;X;X;X;X;X;X
+PROV2407;Табатинга;X;X;X;X;X;X
+PROV2408;Ориксимина;X;X;X;X;X;X
+PROV2409;Сент-Винсент;X;X;X;X;X;X
+PROV2410;Белен;X;X;X;X;X;X
+PROV2411;Сантарен;X;X;X;X;X;X
+PROV2412;Обидос;X;X;X;X;X;X
+PROV2413;Мараба;X;X;X;X;X;X
+PROV2414;Амапа;X;X;X;X;X;X
+PROV2415;Макапа;X;X;X;X;X;X
+PROV2416;Дорадус;X;X;X;X;X;X
+PROV2417;Вила-Бела;X;X;X;X;X;X
+PROV2418;Куйаба;X;X;X;X;X;X
+PROV2419;Корумба;X;X;X;X;X;X
+PROV2420;Игуатеми;X;X;X;X;X;X
+PROV2421;Вида-Боа;X;X;X;X;X;X
+PROV2422;Аганжа;X;X;X;X;X;X
+PROV2423;Пальмас;X;X;X;X;X;X
+PROV2424;Сан-Луис;X;X;X;X;X;X
+PROV2425;Чапада;X;X;X;X;X;X
+PROV2426;Терезина;X;X;X;X;X;X
+PROV2427;Оэйраш;X;X;X;X;X;X
+PROV2428;Парнаиба;X;X;X;X;X;X
+PROV2429;Форталеза;X;X;X;X;X;X
+PROV2430;Крату;X;X;X;X;X;X
+PROV2431;Наталь;X;X;X;X;X;X
+PROV2432;Ресифи;X;X;X;X;X;X
+PROV2433;Кабробо;X;X;X;X;X;X
+PROV2434;Масейу;X;X;X;X;X;X
+PROV2435;Аракажу;X;X;X;X;X;X
+PROV2436;Сальвадор-де-Баия;X;X;X;X;X;X
+PROV2437;Жуазейру;X;X;X;X;X;X
+PROV2438;Вила-до-Барра;X;X;X;X;X;X
+PROV2439;Порту-Сегуру;X;X;X;X;X;X
+PROV2440;Витория-да-Конкиста;X;X;X;X;X;X
+PROV2441;Прету;X;X;X;X;X;X
+PROV2442;Сабара;X;X;X;X;X;X
+PROV2443;Жануария;X;X;X;X;X;X
+PROV2444;Паракату;X;X;X;X;X;X
+PROV2445;Убераба;X;X;X;X;X;X
+PROV2446;Сан-Жоан-дель-Рей;X;X;X;X;X;X
+PROV2447;Рио-де-Жанейро;X;X;X;X;X;X
+PROV2448;Кампос;X;X;X;X;X;X
+PROV2449;Витория;X;X;X;X;X;X
+PROV2450;Сан-Паулу;X;X;X;X;X;X
+PROV2451;Сантус;X;X;X;X;X;X
+PROV2452;Кампинас;X;X;X;X;X;X
+PROV2453;Ассис;X;X;X;X;X;X
+PROV2454;Фиджи;X;X;X;X;X;X
+PROV2455;Игуапе;X;X;X;X;X;X
+PROV2456;Араракуара;X;X;X;X;X;X
+PROV2457;Куритиба;X;X;X;X;X;X
+PROV2458;Гуарапуава;X;X;X;X;X;X
+PROV2459;Лахес;X;X;X;X;X;X
+PROV2460;Кастро;X;X;X;X;X;X
+PROV2461;Флорианополис;X;X;X;X;X;X
+PROV2462;Сан-Мигель;X;X;X;X;X;X
+PROV2463;Порту-Алегри;X;X;X;X;X;X
+PROV2464;Пелотас;X;X;X;X;X;X
+PROV2465;Пассо-Фундо;X;X;X;X;X;X
+PROV2466;Санта-Мария;X;X;X;X;X;X
+PROV2467;Алегрете;X;X;X;X;X;X
+PROV2468;Сидней;X;X;X;X;X;X
+PROV2469;Ньюкасл;X;X;X;X;X;X
+PROV2470;Порт-Маквари;X;X;X;X;X;X
+PROV2471;Офир;X;X;X;X;X;X
+PROV2472;Эден;X;X;X;X;X;X
+PROV2473;Вагга-Вагга;X;X;X;X;X;X
+PROV2474;Море;X;X;X;X;X;X
+PROV2475;Броукен-Хилл;X;X;X;X;X;X
+PROV2476;Мельбурн;X;X;X;X;X;X
+PROV2477;Вармамбул;X;X;X;X;X;X
+PROV2478;Балларат;X;X;X;X;X;X
+PROV2479;Сейл;X;X;X;X;X;X
+PROV2480;Бичворт;X;X;X;X;X;X
+PROV2481;Сван-Хилл;X;X;X;X;X;X
+PROV2482;Тасмания;X;X;X;X;X;X
+PROV2483;Брисбен;X;X;X;X;X;X
+PROV2484;Гладстон;X;X;X;X;X;X
+PROV2485;Клермон;X;X;X;X;X;X
+PROV2486;Тувумба;X;X;X;X;X;X
+PROV2487;Таунсвилл;X;X;X;X;X;X
+PROV2488;Куктаун;X;X;X;X;X;X
+PROV2489;Лонгрич;X;X;X;X;X;X
+PROV2490;Шарлевиль;X;X;X;X;X;X
+PROV2491;Аделаида;X;X;X;X;X;X
+PROV2492;Порт-Линкольн;X;X;X;X;X;X
+PROV2493;Роб;X;X;X;X;X;X
+PROV2494;Порт-Августа;X;X;X;X;X;X
+PROV2495;Ооднадатта;X;X;X;X;X;X
+PROV2496;Таркула;X;X;X;X;X;X
+PROV2497;Перт;X;X;X;X;X;X
+PROV2498;Коджонуп;X;X;X;X;X;X
+PROV2499;Джералдтон;X;X;X;X;X;X
+PROV2500;Калгурли;X;X;X;X;X;X
+PROV2501;Брум;X;X;X;X;X;X
+PROV2502;Дампьер;X;X;X;X;X;X
+PROV2503;Вилуна;X;X;X;X;X;X
+PROV2504;Эсперанс;X;X;X;X;X;X
+PROV2505;Палмерстон;X;X;X;X;X;X
+PROV2506;Теннант-Крик;X;X;X;X;X;X
+PROV2507;Элис-Спрингс;X;X;X;X;X;X
+PROV2508;О-в Норфолк;X;X;X;X;X;X
+PROV2509;Окленд;X;X;X;X;X;X
+PROV2510;Нью-Плимут;X;X;X;X;X;X
+PROV2511;Нейпир;X;X;X;X;X;X
+PROV2512;Веллингтон;X;X;X;X;X;X
+PROV2513;Данидин;X;X;X;X;X;X
+PROV2514;Гокитика;X;X;X;X;X;X
+PROV2515;Крайстчерч;X;X;X;X;X;X
+PROV2516;Нельсон;X;X;X;X;X;X
+PROV2517;Гуам;X;X;X;X;X;X
+PROV2518;Палау;X;X;X;X;X;X
+PROV2519;Яп;X;X;X;X;X;X
+PROV2520;Тавеуни;X;X;X;X;X;X
+PROV2521;Сайпан;X;X;X;X;X;X
+PROV2522;Маршалловы о-ва;X;X;X;X;X;X
+PROV2523;Науру;X;X;X;X;X;X
+PROV2524;Атолл Уэйк;X;X;X;X;X;X
+PROV2525;Атолл Маркус;X;X;X;X;X;X
+PROV2526;Пальмира;X;X;X;X;X;X
+PROV2527;Острова Гилберта;X;X;X;X;X;X
+PROV2528;Порт-Морсби;X;X;X;X;X;X
+PROV2529;Керема;X;X;X;X;X;X
+PROV2530;Лаэ;X;X;X;X;X;X
+PROV2531;Маданг;X;X;X;X;X;X
+PROV2532;Форте-Сан-Жоаким;X;X;X;X;X;X
+PROV2533;Таргу-Мурес;X;X;X;X;X;X
+PROV2534;Соломоновы о-ва;X;X;X;X;X;X
+PROV2535;Новые Гебриды;X;X;X;X;X;X
+PROV2536;О-ва Санта-Крус;X;X;X;X;X;X
+PROV2537;Новая Британия;X;X;X;X;X;X
+PROV2538;Нови-Сад;X;X;X;X;X;X
+PROV2539;Бугенвиль;X;X;X;X;X;X
+PROV2540;Тонга;X;X;X;X;X;X
+PROV2541;О-ва Эллис;X;X;X;X;X;X
+PROV2542;Уоллис-и-Футуна;X;X;X;X;X;X
+PROV2543;Апиа;X;X;X;X;X;X
+PROV2544;Паго-Паго;X;X;X;X;X;X
+PROV2545;Раротонга;X;X;X;X;X;X
+PROV2546;Тонгарева;X;X;X;X;X;X
+PROV2547;Токелау;X;X;X;X;X;X
+PROV2548;Ниуэ;X;X;X;X;X;X
+PROV2549;Таравака;X;X;X;X;X;X
+PROV2550;Форте-де-Принсипе;X;X;X;X;X;X
+PROV2551;Маркизские о-ва;X;X;X;X;X;X
+PROV2552;Питкэрн;X;X;X;X;X;X
+PROV2553;Туамоту;X;X;X;X;X;X
+PROV2554;Посадас;X;X;X;X;X;X
+PROV2555;Огаста;X;X;X;X;X;X
+PROV2556;Ашвилл;X;X;X;X;X;X
+PROV2557;Эсбьерг;X;X;X;X;X;X
+PROV2558;Де-Ар;X;X;X;X;X;X
+PROV2559;Сухадж;X;X;X;X;X;X
+PROV2560;Дармштад;X;X;X;X;X;X
+PROV2561;Зигбург;X;X;X;X;X;X
+PROV2562;Тайнань;X;X;X;X;X;X
+PROV2563;Сафи;X;X;X;X;X;X
+PROV2564;Салима;X;X;X;X;X;X
+PROV2565;Себу;X;X;X;X;X;X
+PROV2566;Агартала;X;X;X;X;X;X
+PROV2567;Гэта;X;X;X;X;X;X
+PROV2568;Лугано;X;X;X;X;X;X
+PROV2569;Никшич;X;X;X;X;X;X
+PROV2570;Бове;X;X;X;X;X;X
+PROV2571;Тауранга;X;X;X;X;X;X
+PROV2572;Нан;X;X;X;X;X;X
+PROV2573;Мбул;X;X;X;X;X;X
+PROV2574;Мочуди;X;X;X;X;X;X
+PROV2575;Ипох;X;X;X;X;X;X
+PROV2576;Натуна;X;X;X;X;X;X
+PROV2577;Плевля;X;X;X;X;X;X
+PROV2578;Такна;X;X;X;X;X;X
+PROV2579;Трук;X;X;X;X;X;X
+PROV2580;Старая Ладога;X;X;X;X;X;X
+PROV2581;Матака;X;X;X;X;X;X
+PROV2582;Котор;X;X;X;X;X;X
+PROV2583;Цетине;X;X;X;X;X;X
+PROV2584;Бельско;X;X;X;X;X;X
+PROV2585;Матан-ас-Сарах;X;X;X;X;X;X
+PROV2586;Аль-Ахса;X;X;X;X;X;X
+PROV2587;Кола;X;X;X;X;X;X
+PROV2588;Онега;X;X;X;X;X;X
+PROV2589;Шойна;X;X;X;X;X;X
+PROV2590;Угольное;X;X;X;X;X;X
+PROV2591;Гольштейнсборг;X;X;X;X;X;X
+PROV2592;Унгава;X;X;X;X;X;X
+PROV2593;Форт-Джордж;X;X;X;X;X;X
+PROV2594;Пикл;X;X;X;X;X;X
+PROV2595;Нунавут;X;X;X;X;X;X
+PROV2596;Форт-Резольюшн;X;X;X;X;X;X
+PROV2597;Форт-Вермильон;X;X;X;X;X;X
+PROV2598;Форт-Лайард;X;X;X;X;X;X
+PROV2599;Фэйрбэнкс;X;X;X;X;X;X
+PROV2600;Альтамира;X;X;X;X;X;X
+PROV2601;Сэнди-Дезерт;X;X;X;X;X;X
+PROV2602;Роубурн;X;X;X;X;X;X
+PROV2603;Танами;X;X;X;X;X;X
+PROV2604;Нормантон;X;X;X;X;X;X
+PROV2605;Гибсонз-Дезерт;X;X;X;X;X;X
+PROV2606;Джамбул;X;X;X;X;X;X
+PROV2607;Лоп-Нур;X;X;X;X;X;X
+PROV2608;Хатгал;X;X;X;X;X;X
+PROV2609;Арауане;X;X;X;X;X;X
+PROV2610;Уральск;X;X;X;X;X;X
+PROV2611;Тургай;X;X;X;X;X;X
+PROV2612;Акташ;X;X;X;X;X;X
+PROV2613;Нида;X;X;X;X;X;X
+PROV2614;Мордяха;X;X;X;X;X;X
+PROV2615;Красноселки;X;X;X;X;X;X
+PROV2616;Тилички;X;X;X;X;X;X
+PROV2617;Хабаровск;X;X;X;X;X;X
+PROV2618;Талая;X;X;X;X;X;X
+PROV2619;Абий;X;X;X;X;X;X
+PROV2620;Сиасир;X;X;X;X;X;X
+PROV2621;Среднеколымск;X;X;X;X;X;X
+PROV2622;Марково;X;X;X;X;X;X
+PROV2623;Остров Мидуэй;X;X;X;X;X;X
+PROV2624;Лоанго;X;X;X;X;X;X
+PROV2625;Порт-Хоуп-Симпсон;X;X;X;X;X;X
+PROV2626;Порт-Гаррисон;X;X;X;X;X;X
+PROV2627;Форт-Чимо;X;X;X;X;X;X
+PROV2628;Аттавапискат;X;X;X;X;X;X
+PROV2629;Биттон-Ривер;X;X;X;X;X;X
+PROV2630;Кордова;X;X;X;X;X;X
+PROV2631;Уналакит;X;X;X;X;X;X
+PROV2632;Аммассалик;X;X;X;X;X;X
+PROV2633;Оссора;X;X;X;X;X;X
+PROV2634;Рассвет;X;X;X;X;X;X
+PROV2635;Кариба;X;X;X;X;X;X
+PROV2636;Эгедесминде;X;X;X;X;X;X
+PROV2637;Новомарьинск;X;X;X;X;X;X
+PROV2638;Омсухан;X;X;X;X;X;X
+PROV2639;Сусуман;X;X;X;X;X;X
+PROV2640;Зырянка;X;X;X;X;X;X
+PROV2641;Аян;X;X;X;X;X;X
+PROV2642;Усть-Нера;X;X;X;X;X;X
+PROV2643;Хонуу;X;X;X;X;X;X
+PROV2644;Олекминск;X;X;X;X;X;X
+PROV2645;Чилчи;X;X;X;X;X;X
+PROV2646;Асес-Иган;X;X;X;X;X;X
+PROV2647;Янск;X;X;X;X;X;X
+PROV2648;Якутск;X;X;X;X;X;X
+PROV2649;Жиганск;X;X;X;X;X;X
+PROV2650;Нюрба;X;X;X;X;X;X
+PROV2651;Удачный;X;X;X;X;X;X
+PROV2652;Кулар;X;X;X;X;X;X
+PROV2653;Саскылах;X;X;X;X;X;X
+PROV2654;Хатанга;X;X;X;X;X;X
+PROV2655;Тура;X;X;X;X;X;X
+PROV2656;Таимба;X;X;X;X;X;X
+PROV2657;Светлогорск;X;X;X;X;X;X
+PROV2658;Хета;X;X;X;X;X;X
+PROV2659;Напалково;X;X;X;X;X;X
+PROV2660;Березовка;X;X;X;X;X;X
+PROV2661;Нижнеколымск;X;X;X;X;X;X
+PROV2662;Черский;X;X;X;X;X;X
+PROV2663;Каменское;X;X;X;X;X;X
+PROV2664;Ойотуни;X;X;X;X;X;X
+PROV2665;Чокурдах;X;X;X;X;X;X
+PROV2666;Певек;X;X;X;X;X;X
+PROV2667;Булун;X;X;X;X;X;X
+PROV2668;Верхоянск;X;X;X;X;X;X
+PROV2669;Амга;X;X;X;X;X;X
+PROV2670;Тикси;X;X;X;X;X;X
+PROV2671;Жилинда;X;X;X;X;X;X
+PROV2672;Покровск;X;X;X;X;X;X
+PROV2673;Оленек;X;X;X;X;X;X
+PROV2674;Ессей;X;X;X;X;X;X
+PROV2675;Йеконда;X;X;X;X;X;X
+PROV2676;Киренск;X;X;X;X;X;X
+PROV2677;Доткон;X;X;X;X;X;X
+PROV2678;Булган;X;X;X;X;X;X
+PROV2679;Ховд;X;X;X;X;X;X
+PROV2680;Дудинка;X;X;X;X;X;X
+PROV2681;Киккиакки;X;X;X;X;X;X
+PROV2682;Аксарка;X;X;X;X;X;X
+PROV2683;Бакчар;X;X;X;X;X;X
+PROV2684;Яр-Сале;X;X;X;X;X;X
+PROV2685;Мужи;X;X;X;X;X;X
+PROV2686;Ишим;X;X;X;X;X;X
+PROV2687;Амдерма;X;X;X;X;X;X
+PROV2688;Инта;X;X;X;X;X;X
+PROV2689;Мулда;X;X;X;X;X;X
+PROV2690;Верхний Уфалей;X;X;X;X;X;X
+PROV2691;Ворогово;X;X;X;X;X;X
+PROV2692;Костино;X;X;X;X;X;X
+PROV2693;Учами;X;X;X;X;X;X
+PROV2694;Ванавара;X;X;X;X;X;X
+PROV2695;Мухтуя;X;X;X;X;X;X
+PROV2696;Алдан;X;X;X;X;X;X
+PROV2697;Магдагачи;X;X;X;X;X;X
+PROV2698;Славгород;X;X;X;X;X;X
+PROV2699;Ижма;X;X;X;X;X;X
+PROV2700;Усогорск;X;X;X;X;X;X
+PROV2701;Суринда;X;X;X;X;X;X
+PROV2702;Аральск;X;X;X;X;X;X
+PROV2703;Озеро Венерн;X;X;X;X;X;X
+PROV2704;Озеро Веттерн;X;X;X;X;X;X
+PROV2705;Ботнический залив;X;X;X;X;X;X
+PROV2706;Аландские острова;X;X;X;X;X;X
+PROV2707;Финский залив;X;X;X;X;X;X
+PROV2708;Запад Балтийского моря;X;X;X;X;X;X
+PROV2709;Рижский залив;X;X;X;X;X;X
+PROV2710;Юг Балтийского моря;X;X;X;X;X;X
+PROV2711;Пролив Зунд;X;X;X;X;X;X
+PROV2712;Пролив Каттегат;X;X;X;X;X;X
+PROV2713;Чудское озеро;X;X;X;X;X;X
+PROV2714;Ладожское озеро;X;X;X;X;X;X
+PROV2715;Онежское озеро;X;X;X;X;X;X
+PROV2716;Белое море;X;X;X;X;X;X
+PROV2717;Лофотенские острова;X;X;X;X;X;X
+PROV2718;Север Норвежского моря;X;X;X;X;X;X
+PROV2719;Юг Норвежского моря;X;X;X;X;X;X
+PROV2720;Пролив Скагеррак;X;X;X;X;X;X
+PROV2721;Гельголандская бухта;X;X;X;X;X;X
+PROV2722;Побережье Голландии;X;X;X;X;X;X
+PROV2723;Доггер-банка;X;X;X;X;X;X
+PROV2724;Дуврский пролив;X;X;X;X;X;X
+PROV2725;Пролив Ла-Манш;X;X;X;X;X;X
+PROV2726;Лэндс-Энд;X;X;X;X;X;X
+PROV2727;Побережье Бретани;X;X;X;X;X;X
+PROV2728;Бухта Киброн;X;X;X;X;X;X
+PROV2729;Серебряный берег;X;X;X;X;X;X
+PROV2730;Бискайский залив;X;X;X;X;X;X
+PROV2731;Кантабрийское море;X;X;X;X;X;X
+PROV2732;Тайн;X;X;X;X;X;X
+PROV2733;Залив Ферт-оф-Форт;X;X;X;X;X;X
+PROV2734;Северное море;X;X;X;X;X;X
+PROV2735;Залив Мори-Ферт;X;X;X;X;X;X
+PROV2736;Северный пролив;X;X;X;X;X;X
+PROV2737;Ирландское море;X;X;X;X;X;X
+PROV2738;Пролив Святого Георга;X;X;X;X;X;X
+PROV2739;Залив Донегол;X;X;X;X;X;X
+PROV2740;Залив Дингл;X;X;X;X;X;X
+PROV2741;Кельтское море;X;X;X;X;X;X
+PROV2742;Западные подходы;X;X;X;X;X;X
+PROV2743;Мыс Финистерре;X;X;X;X;X;X
+PROV2744;Побережье Португалии;X;X;X;X;X;X
+PROV2745;Кадисский залив;X;X;X;X;X;X
+PROV2746;Гибралтарский пролив;X;X;X;X;X;X
+PROV2747;Альмейрский залив;X;X;X;X;X;X
+PROV2748;Валенсийский залив;X;X;X;X;X;X
+PROV2749;Лионский залив;X;X;X;X;X;X
+PROV2750;Лазурный берег;X;X;X;X;X;X
+PROV2751;Лигурийское море;X;X;X;X;X;X
+PROV2752;Мальоркский залив;X;X;X;X;X;X
+PROV2753;Запад Средиземноморья;X;X;X;X;X;X
+PROV2754;Варварский берег;X;X;X;X;X;X
+PROV2755;Мыс Бон;X;X;X;X;X;X
+PROV2756;Тирренское море;X;X;X;X;X;X
+PROV2757;Неаполитанский залив;X;X;X;X;X;X
+PROV2758;Залив Габес;X;X;X;X;X;X
+PROV2759;Мальтийский пролив;X;X;X;X;X;X
+PROV2760;Мессинский пролив;X;X;X;X;X;X
+PROV2761;Венецианский залив;X;X;X;X;X;X
+PROV2762;Адриатическое море;X;X;X;X;X;X
+PROV2763;Пролив Отранто;X;X;X;X;X;X
+PROV2764;Залив Таранто;X;X;X;X;X;X
+PROV2765;Ионическое море;X;X;X;X;X;X
+PROV2766;Залив Сидра;X;X;X;X;X;X
+PROV2767;Залив Тобрука;X;X;X;X;X;X
+PROV2768;Александрийский залив;X;X;X;X;X;X
+PROV2769;Побережье Палестины;X;X;X;X;X;X
+PROV2770;Левант;X;X;X;X;X;X
+PROV2771;Критское море;X;X;X;X;X;X
+PROV2772;Эгейское море;X;X;X;X;X;X
+PROV2773;Мраморное море;X;X;X;X;X;X
+PROV2774;Варненский залив;X;X;X;X;X;X
+PROV2775;Лиман;X;X;X;X;X;X
+PROV2776;Азовское море;X;X;X;X;X;X
+PROV2777;Восток Черного моря;X;X;X;X;X;X
+PROV2778;Озеро Балатон;X;X;X;X;X;X
+PROV2779;Каспийское море;X;X;X;X;X;X
+PROV2780;Аральское море;X;X;X;X;X;X
+PROV2781;Суэцкий залив;X;X;X;X;X;X
+PROV2782;Красное море;X;X;X;X;X;X
+PROV2783;Пролив Обокк;X;X;X;X;X;X
+PROV2784;Баб-эль-Мандеб;X;X;X;X;X;X
+PROV2785;Побережье у Маската;X;X;X;X;X;X
+PROV2786;Побережье Маската;X;X;X;X;X;X
+PROV2787;Ормузский пролив;X;X;X;X;X;X
+PROV2788;Персидский залив;X;X;X;X;X;X
+PROV2789;Залив Инда;X;X;X;X;X;X
+PROV2790;Побережье Гуджарата;X;X;X;X;X;X
+PROV2791;Лакедивские острова;X;X;X;X;X;X
+PROV2792;Малабарское побережье;X;X;X;X;X;X
+PROV2793;Мыс Коморин;X;X;X;X;X;X
+PROV2794;Побережье Карамандела;X;X;X;X;X;X
+PROV2795;Побережье Ориссы;X;X;X;X;X;X
+PROV2796;Дельта Ганга;X;X;X;X;X;X
+PROV2797;Залив Акьяба;X;X;X;X;X;X
+PROV2798;Дельта Иравади;X;X;X;X;X;X
+PROV2799;Андаманское море;X;X;X;X;X;X
+PROV2800;Архипелаг Мергуи;X;X;X;X;X;X
+PROV2801;Малаккский пролив;X;X;X;X;X;X
+PROV2802;Никобарские острова;X;X;X;X;X;X
+PROV2803;Побережье Ачеха;X;X;X;X;X;X
+PROV2804;Побережье Суматры;X;X;X;X;X;X
+PROV2805;Пролив Сунда;X;X;X;X;X;X
+PROV2806;Яванское побережье;X;X;X;X;X;X
+PROV2807;Сурабайское побережье;X;X;X;X;X;X
+PROV2808;Ломбокский пролив;X;X;X;X;X;X
+PROV2809;Тиморское море;X;X;X;X;X;X
+PROV2810;Молуккские острова;X;X;X;X;X;X
+PROV2811;Яванское море;X;X;X;X;X;X
+PROV2812;Макассарский пролив;X;X;X;X;X;X
+PROV2813;Пролив Каримата;X;X;X;X;X;X
+PROV2814;Пролив Джохор;X;X;X;X;X;X
+PROV2815;Малайское море;X;X;X;X;X;X
+PROV2816;Побережье Саравака;X;X;X;X;X;X
+PROV2817;Дельта Меконга;X;X;X;X;X;X
+PROV2818;Сиамский залив;X;X;X;X;X;X
+PROV2819;Бухта Камрань;X;X;X;X;X;X
+PROV2820;Южно-Китайское море;X;X;X;X;X;X
+PROV2821;Побережье Брунея;X;X;X;X;X;X
+PROV2822;Побережье Аннама;X;X;X;X;X;X
+PROV2823;Тонкинский залив;X;X;X;X;X;X
+PROV2824;Залив Гуаньчжоу;X;X;X;X;X;X
+PROV2825;Тайваньский пролив;X;X;X;X;X;X
+PROV2826;Дельта Янцзы;X;X;X;X;X;X
+PROV2827;Желтое море;X;X;X;X;X;X
+PROV2828;Корейский залив;X;X;X;X;X;X
+PROV2829;Юг Корейского моря;X;X;X;X;X;X
+PROV2830;Север Корейского моря;X;X;X;X;X;X
+PROV2831;Приморье;X;X;X;X;X;X
+PROV2832;Татарский пролив;X;X;X;X;X;X
+PROV2833;Дельта Амура;X;X;X;X;X;X
+PROV2834;Залив Айян;X;X;X;X;X;X
+PROV2835;Залив Шелихова;X;X;X;X;X;X
+PROV2836;Побережье Камчатки;X;X;X;X;X;X
+PROV2837;Охотское море;X;X;X;X;X;X
+PROV2838;Побережье Сахалина;X;X;X;X;X;X
+PROV2839;Пролив Лаперуза;X;X;X;X;X;X
+PROV2840;Сангарский пролив;X;X;X;X;X;X
+PROV2841;Японское море;X;X;X;X;X;X
+PROV2842;Цусимский пролив;X;X;X;X;X;X
+PROV2843;Побережье Японии;X;X;X;X;X;X
+PROV2844;Залив Йокогамы;X;X;X;X;X;X
+PROV2845;Острова Рюкю;X;X;X;X;X;X
+PROV2846;Пролив Лусон;X;X;X;X;X;X
+PROV2847;Парасельские острова;X;X;X;X;X;X
+PROV2848;Манильский залив;X;X;X;X;X;X
+PROV2849;Побережье Лусона;X;X;X;X;X;X
+PROV2850;Залив Лейте;X;X;X;X;X;X
+PROV2851;Море Сулу;X;X;X;X;X;X
+PROV2852;Море Сулавеси;X;X;X;X;X;X
+PROV2853;Море Хальмахера;X;X;X;X;X;X
+PROV2854;Море Банда;X;X;X;X;X;X
+PROV2855;Филиппинское море;X;X;X;X;X;X
+PROV2856;Остров Палау;X;X;X;X;X;X
+PROV2857;Море Бисмарка;X;X;X;X;X;X
+PROV2858;Пролив Витязь;X;X;X;X;X;X
+PROV2859;Острова Д'Антракасто;X;X;X;X;X;X
+PROV2860;Торресов пролив;X;X;X;X;X;X
+PROV2861;Арафурское море;X;X;X;X;X;X
+PROV2862;Остров Колепом;X;X;X;X;X;X
+PROV2863;Залив Карпентария;X;X;X;X;X;X
+PROV2864;Большой Барьерный риф;X;X;X;X;X;X
+PROV2865;Залив Скорпионов;X;X;X;X;X;X
+PROV2866;Мыс Хоу;X;X;X;X;X;X
+PROV2867;Бассов пролив;X;X;X;X;X;X
+PROV2868;Остров Кенгуру;X;X;X;X;X;X
+PROV2869;Большой Австралийский залив;X;X;X;X;X;X
+PROV2870;Мыс Луин;X;X;X;X;X;X
+PROV2871;Залив Акул;X;X;X;X;X;X
+PROV2872;Риф Нингалу;X;X;X;X;X;X
+PROV2873;Пролив Кинг;X;X;X;X;X;X
+PROV2874;Тасманово море;X;X;X;X;X;X
+PROV2875;Юг Тасманова моря;X;X;X;X;X;X
+PROV2876;Пролив Кука;X;X;X;X;X;X
+PROV2877;Север Тасманова моря;X;X;X;X;X;X
+PROV2878;Мыс Фарвелл;X;X;X;X;X;X
+PROV2879;Побережье Новой Зеландии;X;X;X;X;X;X
+PROV2880;Бухта Кентербери;X;X;X;X;X;X
+PROV2881;Антарктическое море;X;X;X;X;X;X
+PROV2882;Новая Каледония;X;X;X;X;X;X
+PROV2883;Коралловое море;X;X;X;X;X;X
+PROV2884;Море Гилберта;X;X;X;X;X;X
+PROV2885;Соломоново море;X;X;X;X;X;X
+PROV2886;Остров Науру;X;X;X;X;X;X
+PROV2887;Меланезия;X;X;X;X;X;X
+PROV2888;Микронезийское море;X;X;X;X;X;X
+PROV2889;Филиппинская впадина;X;X;X;X;X;X
+PROV2890;Филиппинская котловина;X;X;X;X;X;X
+PROV2891;Марианские острова;X;X;X;X;X;X
+PROV2892;Остров Иводзима;X;X;X;X;X;X
+PROV2893;Северо-запад Тихого океана;X;X;X;X;X;X
+PROV2894;Курилы;X;X;X;X;X;X
+PROV2895;Камчатский залив;X;X;X;X;X;X
+PROV2896;Карагинский залив;X;X;X;X;X;X
+PROV2897;Олюторский залив;X;X;X;X;X;X
+PROV2898;Пролив Екатерины;X;X;X;X;X;X
+PROV2899;Африканский рог;X;X;X;X;X;X
+PROV2900;Перцовый берег;X;X;X;X;X;X
+PROV2901;Занзибарский пролив;X;X;X;X;X;X
+PROV2902;Мозамбикский пролив;X;X;X;X;X;X
+PROV2903;Залив Диего-Суарес;X;X;X;X;X;X
+PROV2904;Запад Аравийского моря;X;X;X;X;X;X
+PROV2905;Восток Аравийского моря;X;X;X;X;X;X
+PROV2906;Сейшельские острова;X;X;X;X;X;X
+PROV2907;Побережье Таматаве;X;X;X;X;X;X
+PROV2908;Маскаренские острова;X;X;X;X;X;X
+PROV2909;Залив Замбези;X;X;X;X;X;X
+PROV2910;Побережье Софалы;X;X;X;X;X;X
+PROV2911;Побережье Наталя;X;X;X;X;X;X
+PROV2912;Побережье Транскея;X;X;X;X;X;X
+PROV2913;Мыс Доброй Надежды;X;X;X;X;X;X
+PROV2914;Побережье Намбии;X;X;X;X;X;X
+PROV2915;Побережье Анголы;X;X;X;X;X;X
+PROV2916;Залив Конго;X;X;X;X;X;X
+PROV2917;Побережье Камеруна;X;X;X;X;X;X
+PROV2919;Золотой Берег;X;X;X;X;X;X
+PROV2920;Берег Слоновой Кости;X;X;X;X;X;X
+PROV2923;Побережье Мавритании;X;X;X;X;X;X
+PROV2924;Канарское море;X;X;X;X;X;X
+PROV2925;Побережье Марокко;X;X;X;X;X;X
+PROV2926;Гренландское море;X;X;X;X;X;X
+PROV2927;Море Шпицберген;X;X;X;X;X;X
+PROV2928;Исландское море;X;X;X;X;X;X
+PROV2929;Шетландский пролив;X;X;X;X;X;X
+PROV2930;Побережье Исландии;X;X;X;X;X;X
+PROV2931;Северо-восток Атлантического океана;X;X;X;X;X;X
+PROV2932;Роколл;X;X;X;X;X;X
+PROV2933;Датский пролив;X;X;X;X;X;X
+PROV2934;Восточное побережье Гренландии;X;X;X;X;X;X
+PROV2935;Западное побережье Гренландии;X;X;X;X;X;X
+PROV2936;Лабрадорский пролив;X;X;X;X;X;X
+PROV2937;Море Баффина;X;X;X;X;X;X
+PROV2938;Гудзонов пролив;X;X;X;X;X;X
+PROV2939;Залив Джеймс;X;X;X;X;X;X
+PROV2940;Запад Гудзонова залива;X;X;X;X;X;X
+PROV2941;Восток Гудзонова залива;X;X;X;X;X;X
+PROV2942;Залив Фокс-Бассейн;X;X;X;X;X;X
+PROV2943;Залив Святого Лаврентия;X;X;X;X;X;X
+PROV2944;Пролив Кабота;X;X;X;X;X;X
+PROV2945;Залив Фанди;X;X;X;X;X;X
+PROV2946;Пролив Бель-Иль;X;X;X;X;X;X
+PROV2947;Бухта Фортуны;X;X;X;X;X;X
+PROV2948;Залив Нотр-Дам;X;X;X;X;X;X
+PROV2949;Море Лабрадор;X;X;X;X;X;X
+PROV2950;Гренладские море;X;X;X;X;X;X
+PROV2951;Пик Гекла;X;X;X;X;X;X
+PROV2952;Массачусетский залив;X;X;X;X;X;X
+PROV2953;Чесапикский залив;X;X;X;X;X;X
+PROV2954;Мыс Гаттерас;X;X;X;X;X;X
+PROV2955;Побережье Каролины;X;X;X;X;X;X
+PROV2956;Побережье Флориды;X;X;X;X;X;X
+PROV2957;Побережье Багам;X;X;X;X;X;X
+PROV2958;Флоридский пролив;X;X;X;X;X;X
+PROV2959;Залив Аппалачи;X;X;X;X;X;X
+PROV2960;Залив Мобил;X;X;X;X;X;X
+PROV2961;Галвестонская бухта;X;X;X;X;X;X
+PROV2962;Залив Тампико;X;X;X;X;X;X
+PROV2963;Залив Кампече;X;X;X;X;X;X
+PROV2964;Мексиканский залив;X;X;X;X;X;X
+PROV2965;Юкатанский пролив;X;X;X;X;X;X
+PROV2966;Побережье Белиза;X;X;X;X;X;X
+PROV2967;Москитовый берег;X;X;X;X;X;X
+PROV2968;Дарьенский залив;X;X;X;X;X;X
+PROV2969;Пролив Ямайка;X;X;X;X;X;X
+PROV2970;Центр Карибского моря;X;X;X;X;X;X
+PROV2971;Северо-запад Карибского моря;X;X;X;X;X;X
+PROV2972;Венесуэльский залив;X;X;X;X;X;X
+PROV2973;Венесуэльское море;X;X;X;X;X;X
+PROV2974;Восток Карибского моря;X;X;X;X;X;X
+PROV2975;Наветренные острова;X;X;X;X;X;X
+PROV2976;Малые Антильские острова;X;X;X;X;X;X
+PROV2977;Острова Теркс и Кайкос;X;X;X;X;X;X
+PROV2978;Побережье Кубы;X;X;X;X;X;X
+PROV2979;Побережье Гаити;X;X;X;X;X;X
+PROV2980;Побережье Гайаны;X;X;X;X;X;X
+PROV2981;Побережье Амапы;X;X;X;X;X;X
+PROV2982;Залив Амазонки;X;X;X;X;X;X
+PROV2983;Побережье Бразилии;X;X;X;X;X;X
+PROV2984;Побережье Ресифи;X;X;X;X;X;X
+PROV2985;Побережье Пернамбуку;X;X;X;X;X;X
+PROV2986;Бухта Тодуш-уш-Сантуш;X;X;X;X;X;X
+PROV2987;Рио-де-Жанейро;X;X;X;X;X;X
+PROV2988;Парагвайский залив;X;X;X;X;X;X
+PROV2989;Рио-де-ла-Плата;X;X;X;X;X;X
+PROV2990;Байя-Бланка;X;X;X;X;X;X
+PROV2991;Побережье Патагонии;X;X;X;X;X;X
+PROV2992;Магелланов пролив;X;X;X;X;X;X
+PROV2993;Юг Чилийского побережья;X;X;X;X;X;X
+PROV2994;Побережье Чили;X;X;X;X;X;X
+PROV2995;Побережье Атакамы;X;X;X;X;X;X
+PROV2996;Побережье Антофагасты;X;X;X;X;X;X
+PROV2997;Залив Арекипа;X;X;X;X;X;X
+PROV2998;Побережье Перу;X;X;X;X;X;X
+PROV2999;Гуаякильский залив;X;X;X;X;X;X
+PROV3000;Побережье Эквадора;X;X;X;X;X;X
+PROV3001;Панамский залив;X;X;X;X;X;X
+PROV3002;Залив Коста-Рики;X;X;X;X;X;X
+PROV3003;Залива Акапулько;X;X;X;X;X;X
+PROV3004;Залив Манзанилла;X;X;X;X;X;X
+PROV3005;Бухта Мазатлан;X;X;X;X;X;X
+PROV3006;Калифорнийский залив;X;X;X;X;X;X
+PROV3007;Юг побережья Калифорнии;X;X;X;X;X;X
+PROV3008;Побережье Калифорнии;X;X;X;X;X;X
+PROV3009;Остров Санта-Каталина;X;X;X;X;X;X
+PROV3010;Побережье Орегона;X;X;X;X;X;X
+PROV3011;Побережье Колумбии;X;X;X;X;X;X
+PROV3012;Пролив Хекате;X;X;X;X;X;X
+PROV3013;Залив Аляска;X;X;X;X;X;X
+PROV3014;Побережье Аляски;X;X;X;X;X;X
+PROV3015;Залив Кусковим;X;X;X;X;X;X
+PROV3016;Побережье Хаттон;X;X;X;X;X;X
+PROV3017;Восток разлома Чарли-Гиббса;X;X;X;X;X;X
+PROV3018;Запад разлома Чарли-Гиббса;X;X;X;X;X;X
+PROV3019;Иберийский шельф;X;X;X;X;X;X
+PROV3020;Азорское море;X;X;X;X;X;X
+PROV3021;Подводные горы Углового поднятия;X;X;X;X;X;X
+PROV3022;Подводные горы Новой Англии;X;X;X;X;X;X
+PROV3023;Соболиный остров;X;X;X;X;X;X
+PROV3024;Плато Блейк;X;X;X;X;X;X
+PROV3025;Запад Бермудского моря;X;X;X;X;X;X
+PROV3026;Восток Бермудского моря;X;X;X;X;X;X
+PROV3027;Канарское течение;X;X;X;X;X;X
+PROV3028;Север Гвианской котловины;X;X;X;X;X;X
+PROV3029;Гвианская котловина;X;X;X;X;X;X
+PROV3030;Юг Гвианской котловины;X;X;X;X;X;X
+PROV3031;Побережье Канарских островов;X;X;X;X;X;X
+PROV3032;Побережье Кабо-Верде;X;X;X;X;X;X
+PROV3033;Гайот Крейсер;X;X;X;X;X;X
+PROV3034;Разлом Барракуда;X;X;X;X;X;X
+PROV3035;Восток Саргассова моря;X;X;X;X;X;X
+PROV3036;Центр Саргассова моря;X;X;X;X;X;X
+PROV3037;Романш;X;X;X;X;X;X
+PROV3038;Восток Гвинейской впадины;X;X;X;X;X;X
+PROV3039;Запад Гвинейской впадины;X;X;X;X;X;X
+PROV3040;Фолклендские острова;X;X;X;X;X;X
+PROV3042;Банка Корнет;X;X;X;X;X;X
+PROV3043;Пролив Вема;X;X;X;X;X;X
+PROV3044;Южно-Бразильская котловина;X;X;X;X;X;X
+PROV3045;Плато Сапиола;X;X;X;X;X;X
+PROV3046;Аргентинский бассейн;X;X;X;X;X;X
+PROV3047;Фолклендское плато;X;X;X;X;X;X
+PROV3048;Восток Магелланова пролива;X;X;X;X;X;X
+PROV3049;О-ва Фернандо-де-Норонья;X;X;X;X;X;X
+PROV3050;Северо-Бразильская котловина;X;X;X;X;X;X
+PROV3051;Котловина Сьерра-Леоне;X;X;X;X;X;X
+PROV3052;Хребет Мартин Вас;X;X;X;X;X;X
+PROV3053;Западное побережье Асенсьона;X;X;X;X;X;X
+PROV3054;Восточное побережье Асенсьона;X;X;X;X;X;X
+PROV3055;Хребет Уолвис;X;X;X;X;X;X
+PROV3056;Плато Кейп;X;X;X;X;X;X
+PROV3057;Остров Гоф;X;X;X;X;X;X
+PROV3058;Побережье Тристан-да-Кунья;X;X;X;X;X;X
+PROV3059;Впадина Сан-Марин;X;X;X;X;X;X
+PROV3060;Южные Сандвичевы острова;X;X;X;X;X;X
+PROV3061;О-в Инаксессибл;X;X;X;X;X;X
+PROV3062;Остров Буве;X;X;X;X;X;X
+PROV3063;Мыс Штормовой;X;X;X;X;X;X
+PROV3064;Бенгальский залив;X;X;X;X;X;X
+PROV3065;Север Бенгальского залива;X;X;X;X;X;X
+PROV3066;Юг Бенгальского залива;X;X;X;X;X;X
+PROV3067;Побережье Цейлона;X;X;X;X;X;X
+PROV3068;Мальдивские острова;X;X;X;X;X;X
+PROV3069;Пролив Восьмого градуса;X;X;X;X;X;X
+PROV3070;Подъем Мэдингли;X;X;X;X;X;X
+PROV3071;Арабская котловина;X;X;X;X;X;X
+PROV3072;Пролив Полуторного градуса;X;X;X;X;X;X
+PROV3073;Архипелаг Чагос;X;X;X;X;X;X
+PROV3074;Кокосовая котловина;X;X;X;X;X;X
+PROV3075;Юг Суматранского желоба;X;X;X;X;X;X
+PROV3076;Побережье Кокосовых о-вов;X;X;X;X;X;X
+PROV3077;Яванская впадина;X;X;X;X;X;X
+PROV3078;О-ва Принца Эдуарда;X;X;X;X;X;X
+PROV3079;Подъем Дель Кано;X;X;X;X;X;X
+PROV3080;Мыс Св. Марии;X;X;X;X;X;X
+PROV3081;О-ва Крозе;X;X;X;X;X;X
+PROV3082;Маскаренское плато;X;X;X;X;X;X
+PROV3083;О-в Родригес;X;X;X;X;X;X
+PROV3084;Юго-восток Индийской котловины;X;X;X;X;X;X
+PROV3085;Архипелаг Кергелен;X;X;X;X;X;X
+PROV3086;Остров Сен-Поль;X;X;X;X;X;X
+PROV3087;Хребет Брокен;X;X;X;X;X;X
+PROV3088;Южно-австралийская котловина;X;X;X;X;X;X
+PROV3089;Разлом Эгерия;X;X;X;X;X;X
+PROV3090;Зона Арго;X;X;X;X;X;X
+PROV3091;Котловина Кювье;X;X;X;X;X;X
+PROV3092;Плато Валлаби;X;X;X;X;X;X
+PROV3093;Хребет Восточных Девяноста;X;X;X;X;X;X
+PROV3094;Подъем Роа;X;X;X;X;X;X
+PROV3095;Подводные горы Вениг-Майсенц;X;X;X;X;X;X
+PROV3096;Впадина Вартона;X;X;X;X;X;X
+PROV3097;Север Кокосового плато;X;X;X;X;X;X
+PROV3098;Юг Кокосового плато;X;X;X;X;X;X
+PROV3099;Остров Амстердам;X;X;X;X;X;X
+PROV3100;Разлом Марии Селесты;X;X;X;X;X;X
+PROV3101;Озеро Чад;X;X;X;X;X;X
+PROV3102;Озеро Виктория;X;X;X;X;X;X
+PROV3103;Озеро Танганьика;X;X;X;X;X;X
+PROV3104;Озеро Малави;X;X;X;X;X;X
+PROV3105;Пик Гулден-Дрейк;X;X;X;X;X;X
+PROV3106;Озеро Балхаш;X;X;X;X;X;X
+PROV3107;Озеро Байкал;X;X;X;X;X;X
+PROV3108;Озеро Дунтин;X;X;X;X;X;X
+PROV3109;Озеро Титикака;X;X;X;X;X;X
+PROV3110;Озеро Никарагуа;X;X;X;X;X;X
+PROV3111;Бассейн Седна;X;X;X;X;X;X
+PROV3112;Озеро Онтарио;X;X;X;X;X;X
+PROV3113;Озеро Эри;X;X;X;X;X;X
+PROV3114;Озеро Гурон;X;X;X;X;X;X
+PROV3115;Озеро Мичиган;X;X;X;X;X;X
+PROV3116;Озеро Верхнее;X;X;X;X;X;X
+PROV3117;Озеро Нипигон;X;X;X;X;X;X
+PROV3118;Озеро Виннипег;X;X;X;X;X;X
+PROV3119;Ущелье Корскиева;X;X;X;X;X;X
+PROV3120;Плато Орсова;X;X;X;X;X;X
+PROV3121;Плато Новарск;X;X;X;X;X;X
+PROV3122;Плато Сорвския;X;X;X;X;X;X
+PROV3123;Ущелье Ямара;X;X;X;X;X;X
+PROV3124;Северо-западная тихоокеанская впадина;X;X;X;X;X;X
+PROV3125;Отмель Северенс;X;X;X;X;X;X
+PROV3126;Побережье атолла Маркус;X;X;X;X;X;X
+PROV3127;Побережье Марианских о-вов;X;X;X;X;X;X
+PROV3128;Отмел Мэйсдейл;X;X;X;X;X;X
+PROV3129;Впадина Изамо;X;X;X;X;X;X
+PROV3130;Север Берингова моря;X;X;X;X;X;X
+PROV3131;Юг Берингова моря;X;X;X;X;X;X
+PROV3132;Западные Алеутские о-ва;X;X;X;X;X;X
+PROV3133;О-ва Прибылова;X;X;X;X;X;X
+PROV3134;Восточные Алеутские о-ва;X;X;X;X;X;X
+PROV3135;Проход Уминак;X;X;X;X;X;X
+PROV3136;Запад Алеутского моря;X;X;X;X;X;X
+PROV3137;Пик Бейкер;X;X;X;X;X;X
+PROV3138;Аляскинское плато;X;X;X;X;X;X
+PROV3139;Восток Алеутского моря;X;X;X;X;X;X
+PROV3140;Желоб Исследователя;X;X;X;X;X;X
+PROV3141;Безлунные Подводные горы;X;X;X;X;X;X
+PROV3142;Впадина Чинук;X;X;X;X;X;X
+PROV3143;Впадина Улчи;X;X;X;X;X;X
+PROV3144;Впадина Джингу;X;X;X;X;X;X
+PROV3145;Котловина Чинук;X;X;X;X;X;X
+PROV3146;Пик Стэнли;X;X;X;X;X;X
+PROV3147;Уступ Мендосино;X;X;X;X;X;X
+PROV3148;Пик Калифорнии;X;X;X;X;X;X
+PROV3149;Мюррейский разлом;X;X;X;X;X;X
+PROV3150;Гавайское побережье;X;X;X;X;X;X
+PROV3151;Пик Арго;X;X;X;X;X;X
+PROV3152;Пик Музыкантов;X;X;X;X;X;X
+PROV3153;Побережье Мидуэя;X;X;X;X;X;X
+PROV3154;Равнина Кеплера;X;X;X;X;X;X
+PROV3155;Равнина Галуа;X;X;X;X;X;X
+PROV3156;Поднятие О'Горман;X;X;X;X;X;X
+PROV3157;Побережье Галапагосских о-вов;X;X;X;X;X;X
+PROV3158;Плато Лапира;X;X;X;X;X;X
+PROV3159;Побережье о-вов Кука;X;X;X;X;X;X
+PROV3160;Остров Клиппертон;X;X;X;X;X;X
+PROV3161;Пик Хендерсона;X;X;X;X;X;X
+PROV3162;Хребет Мадихера;X;X;X;X;X;X
+PROV3163;Впадина Бауэра;X;X;X;X;X;X
+PROV3164;Северо-восточная тихоокеанская впадина;X;X;X;X;X;X
+PROV3165;Пик Первооткрывателя;X;X;X;X;X;X
+PROV3166;Равнина Тасавулу;X;X;X;X;X;X
+PROV3167;Гавайская дуга;X;X;X;X;X;X
+PROV3168;Бассейн Рэдфорд;X;X;X;X;X;X
+PROV3169;Северные о-ва Лайн;X;X;X;X;X;X
+PROV3170;Побережье о-вов Общества;X;X;X;X;X;X
+PROV3171;Перуанская впадина;X;X;X;X;X;X
+PROV3172;Впадина Юпанки;X;X;X;X;X;X
+PROV3173;Плато Северенс;X;X;X;X;X;X
+PROV3174;Плато Альтамира;X;X;X;X;X;X
+PROV3175;Южные о-ва Лайн;X;X;X;X;X;X
+PROV3176;Центральная котловина;X;X;X;X;X;X
+PROV3177;Побережье Самоа;X;X;X;X;X;X
+PROV3178;Атолл Джонстон;X;X;X;X;X;X
+PROV3179;Побережье Тонги;X;X;X;X;X;X
+PROV3180;Побережье Маркизских о-вов;X;X;X;X;X;X
+PROV3181;Равнина Резольюшн;X;X;X;X;X;X
+PROV3182;Побережье Туамоту;X;X;X;X;X;X
+PROV3183;Хребет Титуса;X;X;X;X;X;X
+PROV3184;О-ва Чатем;X;X;X;X;X;X
+PROV3185;Южная тихоокеанская впадина;X;X;X;X;X;X
+PROV3186;Ущелье Людовико;X;X;X;X;X;X
+PROV3187;Побережье о-ва Питкэрн;X;X;X;X;X;X
+PROV3188;Впадина Роггевена;X;X;X;X;X;X
+PROV3189;Разлом Менарда;X;X;X;X;X;X
+PROV3190;Побережье о-ва Пасхи;X;X;X;X;X;X
+PROV3191;Побережье о-вов Эллис;X;X;X;X;X;X
+PROV3192;Бассейн Новой Каледонии;X;X;X;X;X;X
+PROV3193;Острова Хуан-Фернандес;X;X;X;X;X;X
+PROV3194;Поднятие Селкерк;X;X;X;X;X;X
+PROV3195;Плато Карасева;X;X;X;X;X;X
+PROV3196;Равнина Тимкин;X;X;X;X;X;X
+PROV3197;Риф Сайрус;X;X;X;X;X;X
+PROV3198;Равнина Гумбольдта;X;X;X;X;X;X
+PROV3199;Плато Вальдивия;X;X;X;X;X;X
+PROV3200;Побережье Южной Георгии;X;X;X;X;X;X
+PROV3201;Аргентинское плато;X;X;X;X;X;X
+PROV3202;Пик Сапиола;X;X;X;X;X;X
+PROV3203;Западное побережье о-ва. Св. Елены;X;X;X;X;X;X
+PROV3204;Разлом Мура;X;X;X;X;X;X
+PROV3205;Западное плато Демерары;X;X;X;X;X;X
+PROV3206;Восточное плато Демерары;X;X;X;X;X;X
+PROV3207;Впадина Кабо-Верде;X;X;X;X;X;X
+PROV3208;Плато Нарес;X;X;X;X;X;X
+PROV3209;Багамская впадина;X;X;X;X;X;X
+PROV3210;Запад Саргассова моря;X;X;X;X;X;X
+PROV3211;Подходы к Бермудам;X;X;X;X;X;X
+PROV3212;Цейлонское плато;X;X;X;X;X;X
+PROV3213;Впадина Сунда;X;X;X;X;X;X
+PROV3214;Север Суматранского желоба;X;X;X;X;X;X
+PROV3215;Центральная индийская впадина;X;X;X;X;X;X
+PROV3216;Фиджийская котловина;X;X;X;X;X;X
+PROV3217;Плоскость Солас;X;X;X;X;X;X
+PROV3218;Поход Писарос;X;X;X;X;X;X
+PROV3219;Побережье Фиджи;X;X;X;X;X;X
+PROV3220;Побережье о-ва Норфолк;X;X;X;X;X;X
+PROV3221;Побережье о-вов Гилберта;X;X;X;X;X;X
+PROV3222;Риф Майну;X;X;X;X;X;X
+PROV3223;Тусей-банка;X;X;X;X;X;X
+PROV3224;Озеро Тано;X;X;X;X;X;X
+PROV3225;Большое Соленое озеро;X;X;X;X;X;X
+PROV3226;Южно-австралийская впадина;X;X;X;X;X;X
+PROV3227;Большое Невольничье озеро;X;X;X;X;X;X
+PROV3228;Озеро Атабаска;X;X;X;X;X;X
+PROV3229;Оленье озеро;X;X;X;X;X;X
+PROV3230;Залив Оби;X;X;X;X;X;X
+PROV3231;Озеро Ван;X;X;X;X;X;X
+PROV3232;Озеро Урмия;X;X;X;X;X;X
+PROV3233;Иссык-Куль;X;X;X;X;X;X
+PROV3234;Озеро Цинхай;X;X;X;X;X;X
+PROV3235;Озеро Поян;X;X;X;X;X;X
+PROV3236;Озеро Рудольф;X;X;X;X;X;X
+PROV3237;Плато Сом;X;X;X;X;X;X
+PROV3238;Озеро Мверу;X;X;X;X;X;X
+PROV3239;Озеро Шамплейн;X;X;X;X;X;X
+PROV3240;Озеро Пупо;X;X;X;X;X;X
+PROV3241;Северный Ледовитый океан;X;X;X;X;X;X
+PROV3242;Проход Маури;X;X;X;X;X;X
+PROV3243;Юго-западная тихоокеанская впадина;X;X;X;X;X;X
+PROV3244;Проход Ялуит;X;X;X;X;X;X
+PROV3245;Плато Маркова;X;X;X;X;X;X
+PROV3246;Ян Майен;X;X;X;X;X;X
+ZZZ_LOC_PAD_provinces;x;X;X;X;X;X

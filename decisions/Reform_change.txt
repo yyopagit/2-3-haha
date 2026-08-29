@@ -1,5 +1,6 @@
 political_decisions = {
 	reform_change = {
+		picture = enact_the_homestead_act
 		potential = {
 			NOT = { tag = JAN }
 			civilized = yes
