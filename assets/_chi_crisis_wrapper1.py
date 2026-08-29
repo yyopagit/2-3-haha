@@ -635,6 +635,7 @@ def yellow_progress_effect():
 					remove_country_modifier = CHI_yellow_problem_4
 					remove_country_modifier = CHI_yellow_deadline
 					add_country_modifier = { name = CHI_yellow_old_course duration = -1 }
+					set_country_flag = CHI_yellow_old_course
 					any_owned = {
 						limit = { has_province_modifier = CHI_water_yellow_dikes }
 						remove_province_modifier = CHI_water_yellow_dikes

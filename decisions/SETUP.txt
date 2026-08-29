@@ -95,6 +95,7 @@ political_decisions = {
 					name = CHI_patchwork_empire
 					duration = -1
 				}
+				set_country_flag = CHI_patchwork_empire
 				add_country_modifier = {
 					name = CHI_inefficient_bureaucracy_3
 					duration = -1

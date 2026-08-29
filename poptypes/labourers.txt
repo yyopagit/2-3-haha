@@ -231,7 +231,7 @@ promote_to =
 		factor = 0.01
 		modifier = {
 			factor = 1.05
-			country = { has_country_modifier = CHI_yellow_old_course }
+			country = { has_country_flag = CHI_yellow_old_course }
 		}
 			modifier = {
 				factor = 1
@@ -498,28 +498,8 @@ promote_to =
 
 		modifier = {
 			factor = 0
-			country = { has_country_modifier = CHI_patchwork_empire }
+			country = { has_country_flag = CHI_patchwork_empire }
 			soldiers = 0.02
-		}
-		modifier = {
-			factor = 0
-			location = { has_province_modifier = CHI_separatism_1 }
-			soldiers = 0.015
-		}
-		modifier = {
-			factor = 0
-			location = { has_province_modifier = CHI_separatism_2 }
-			soldiers = 0.01
-		}
-		modifier = {
-			factor = 0
-			location = { has_province_modifier = CHI_separatism_3 }
-			soldiers = 0.005
-		}
-		modifier = {
-			factor = 0
-			location = { has_province_modifier = CHI_separatism_4 }
-			soldiers = 0.005
 		}
 		group = {
 			modifier = {
