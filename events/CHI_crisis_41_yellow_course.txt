@@ -1,4 +1,4 @@
-# Nationwide Yellow River course / dikes (from decision CHI_yellow_river_works)
+# Abandon old Yellow River course after 1845 if dikes were not finished
 
 country_event = {
 	id = 144540
@@ -7,20 +7,9 @@ country_event = {
 	picture = "Administration"
 	is_triggered_only = yes
 	option = {
-		name = "CHI_yellow_course_north"
-		money = -2000000
-		timber = -4000
-		cement = -2000
-		iron = -1500
-		lumber = -1000
+		name = "CHI_yellow_course_fail"
 		set_country_flag = CHI_yellow_course_done
 		JAN = { country_event = { id = 144541 days = 0 } }
-	}
-	option = {
-		name = "CHI_yellow_course_dikes"
-		money = -2000000
-		set_country_flag = CHI_yellow_dikes_nation_done
-		JAN = { country_event = { id = 144542 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_back"
@@ -38,8 +27,12 @@ country_event = {
 				limit = { has_province_modifier = CHI_water_yellow_dikes }
 				remove_province_modifier = CHI_water_yellow_dikes
 			}
-			add_country_modifier = { name = CHI_yellow_new_course duration = -1 }
-			prestige = 10
+			remove_country_modifier = CHI_yellow_problem_0
+			remove_country_modifier = CHI_yellow_problem_1
+			remove_country_modifier = CHI_yellow_problem_2
+			remove_country_modifier = CHI_yellow_problem_3
+			remove_country_modifier = CHI_yellow_problem_4
+			remove_country_modifier = CHI_yellow_deadline
 		}
 	}
 	option = {
@@ -58,7 +51,6 @@ country_event = {
 				limit = { has_province_modifier = CHI_water_yellow_dikes }
 				remove_province_modifier = CHI_water_yellow_dikes
 			}
-			prestige = 5
 		}
 	}
 	option = {

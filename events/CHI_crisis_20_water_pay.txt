@@ -32,18 +32,18 @@ province_event = {
 						NOT = { has_country_modifier = CHI_corruption_high }
 						money = 200000
 						timber = 2400
+						lumber = 600
 						cement = 1200
 						iron = 600
-						lumber = 600
 					}
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 				}
 				owner = {
 					money = -200000
 					timber = -2400
+					lumber = -600
 					cement = -1200
 					iron = -600
-					lumber = -600
 					set_country_flag = CHI_crisis_paid
 				}
 			}
@@ -55,18 +55,18 @@ province_event = {
 						has_country_modifier = CHI_corruption_high
 						money = 400000
 						timber = 2400
+						lumber = 600
 						cement = 1200
 						iron = 600
-						lumber = 600
 					}
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 				}
 				owner = {
 					money = -400000
 					timber = -2400
+					lumber = -600
 					cement = -1200
 					iron = -600
-					lumber = -600
 					set_country_flag = CHI_crisis_paid
 				}
 			}
@@ -150,18 +150,18 @@ province_event = {
 						NOT = { has_country_modifier = CHI_corruption_high }
 						money = 500000
 						timber = 3600
+						lumber = 900
 						cement = 1800
 						iron = 1200
-						lumber = 900
 					}
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 				}
 				owner = {
 					money = -500000
 					timber = -3600
+					lumber = -900
 					cement = -1800
 					iron = -1200
-					lumber = -900
 					set_country_flag = CHI_crisis_paid
 				}
 			}
@@ -173,18 +173,18 @@ province_event = {
 						has_country_modifier = CHI_corruption_high
 						money = 1000000
 						timber = 3600
+						lumber = 900
 						cement = 1800
 						iron = 1200
-						lumber = 900
 					}
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 				}
 				owner = {
 					money = -1000000
 					timber = -3600
+					lumber = -900
 					cement = -1800
 					iron = -1200
-					lumber = -900
 					set_country_flag = CHI_crisis_paid
 				}
 			}
@@ -268,18 +268,18 @@ province_event = {
 						NOT = { has_country_modifier = CHI_corruption_high }
 						money = 1000000
 						timber = 5400
+						lumber = 1500
 						cement = 3000
 						iron = 1800
-						lumber = 1500
 					}
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 				}
 				owner = {
 					money = -1000000
 					timber = -5400
+					lumber = -1500
 					cement = -3000
 					iron = -1800
-					lumber = -1500
 					set_country_flag = CHI_crisis_paid
 				}
 			}
@@ -291,18 +291,18 @@ province_event = {
 						has_country_modifier = CHI_corruption_high
 						money = 2000000
 						timber = 5400
+						lumber = 1500
 						cement = 3000
 						iron = 1800
-						lumber = 1500
 					}
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 				}
 				owner = {
 					money = -2000000
 					timber = -5400
+					lumber = -1500
 					cement = -3000
 					iron = -1800
-					lumber = -1500
 					set_country_flag = CHI_crisis_paid
 				}
 			}
@@ -386,18 +386,18 @@ province_event = {
 						NOT = { has_country_modifier = CHI_corruption_high }
 						money = 2000000
 						timber = 7500
+						lumber = 2400
 						cement = 4500
 						iron = 3000
-						lumber = 2400
 					}
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 				}
 				owner = {
 					money = -2000000
 					timber = -7500
+					lumber = -2400
 					cement = -4500
 					iron = -3000
-					lumber = -2400
 					set_country_flag = CHI_crisis_paid
 				}
 			}
@@ -409,9 +409,9 @@ province_event = {
 						has_country_modifier = CHI_corruption_high
 						money = 2000000
 						timber = 7500
+						lumber = 2400
 						cement = 4500
 						iron = 3000
-						lumber = 2400
 					}
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 					owner = { NOT = { has_country_flag = CHI_pay_part } }
@@ -430,17 +430,17 @@ province_event = {
 						money = 2000000
 						has_country_flag = CHI_pay_part
 						timber = 7500
+						lumber = 2400
 						cement = 4500
 						iron = 3000
-						lumber = 2400
 					}
 				}
 				owner = {
 					money = -2000000
 					timber = -7500
+					lumber = -2400
 					cement = -4500
 					iron = -3000
-					lumber = -2400
 					set_country_flag = CHI_crisis_paid
 					clr_country_flag = CHI_pay_part
 				}
@@ -535,18 +535,18 @@ province_event = {
 						NOT = { has_country_modifier = CHI_corruption_high }
 						money = 1000000
 						timber = 3000
+						lumber = 800
 						cement = 1500
 						iron = 1000
-						lumber = 800
 					}
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 				}
 				owner = {
 					money = -1000000
 					timber = -3000
+					lumber = -800
 					cement = -1500
 					iron = -1000
-					lumber = -800
 					set_country_flag = CHI_crisis_paid
 				}
 			}
@@ -557,18 +557,18 @@ province_event = {
 						has_country_modifier = CHI_corruption_high
 						money = 2000000
 						timber = 3000
+						lumber = 800
 						cement = 1500
 						iron = 1000
-						lumber = 800
 					}
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 				}
 				owner = {
 					money = -2000000
 					timber = -3000
+					lumber = -800
 					cement = -1500
 					iron = -1000
-					lumber = -800
 					set_country_flag = CHI_crisis_paid
 				}
 			}
@@ -651,18 +651,18 @@ province_event = {
 						NOT = { has_country_modifier = CHI_corruption_high }
 						money = 1000000
 						timber = 2500
+						lumber = 700
 						cement = 1200
 						iron = 1500
-						lumber = 700
 					}
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 				}
 				owner = {
 					money = -1000000
 					timber = -2500
+					lumber = -700
 					cement = -1200
 					iron = -1500
-					lumber = -700
 					set_country_flag = CHI_crisis_paid
 				}
 			}
@@ -673,18 +673,18 @@ province_event = {
 						has_country_modifier = CHI_corruption_high
 						money = 2000000
 						timber = 2500
+						lumber = 700
 						cement = 1200
 						iron = 1500
-						lumber = 700
 					}
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 				}
 				owner = {
 					money = -2000000
 					timber = -2500
+					lumber = -700
 					cement = -1200
 					iron = -1500
-					lumber = -700
 					set_country_flag = CHI_crisis_paid
 				}
 			}
@@ -765,40 +765,25 @@ province_event = {
 					has_building = province_selector
 					owner = {
 						NOT = { has_country_modifier = CHI_corruption_high }
-						money = 1500000
-						timber = 4000
-						cement = 2500
-						iron = 1500
-						lumber = 1200
+						money = 1000000
+						timber = 12000
+						lumber = 6000
+						cement = 10000
+						iron = 8000
+						steel = 4000
+						coal = 5000
 					}
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 				}
 				owner = {
-					money = -1500000
-					timber = -4000
-					cement = -2500
-					iron = -1500
-					lumber = -1200
+					money = -1000000
+					timber = -12000
+					lumber = -6000
+					cement = -10000
+					iron = -8000
+					steel = -4000
+					coal = -5000
 					set_country_flag = CHI_crisis_paid
-				}
-			}
-			random_owned = {
-				limit = {
-					has_building = province_selector
-					owner = {
-						has_country_modifier = CHI_corruption_high
-						money = 2000000
-						timber = 4000
-						cement = 2500
-						iron = 1500
-						lumber = 1200
-					}
-					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
-					owner = { NOT = { has_country_flag = CHI_pay_part } }
-				}
-				owner = {
-					money = -2000000
-					set_country_flag = CHI_pay_part
 				}
 			}
 			random_owned = {
@@ -807,32 +792,24 @@ province_event = {
 					owner = {
 						has_country_modifier = CHI_corruption_high
 						money = 1000000
-						has_country_flag = CHI_pay_part
-						timber = 4000
-						cement = 2500
-						iron = 1500
-						lumber = 1200
+						timber = 12000
+						lumber = 6000
+						cement = 10000
+						iron = 8000
+						steel = 4000
+						coal = 5000
 					}
-				}
-				owner = {
-					money = -1000000
-					timber = -4000
-					cement = -2500
-					iron = -1500
-					lumber = -1200
-					set_country_flag = CHI_crisis_paid
-					clr_country_flag = CHI_pay_part
-				}
-			}
-			random_owned = {
-				limit = {
-					has_building = province_selector
-					owner = { has_country_flag = CHI_pay_part }
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 				}
 				owner = {
-					money = 2000000
-					clr_country_flag = CHI_pay_part
+					money = -1000000
+					timber = -12000
+					lumber = -6000
+					cement = -10000
+					iron = -8000
+					steel = -4000
+					coal = -5000
+					set_country_flag = CHI_crisis_paid
 				}
 			}
 		}
@@ -865,7 +842,7 @@ province_event = {
 					has_province_modifier = CHI_water_yellow_dikes
 				}
 				owner = { set_country_flag = CHI_pay_fired }
-				province_event = { id = 144453 days = 1 }
+				province_event = { id = 144452 days = 1 }
 			}
 			random_owned = {
 				limit = {

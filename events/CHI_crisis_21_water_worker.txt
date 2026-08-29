@@ -5502,6 +5502,83 @@ province_event = {
 				remove_province_modifier = CHI_water_yellow_dikes
 				add_province_modifier = { name = CHI_yellow_cd duration = 900 }
 			}
+			set_country_flag = CHI_yellow_bump
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_flag = CHI_yellow_bump
+						has_country_modifier = CHI_yellow_problem_0
+					}
+				}
+				owner = {
+					clr_country_flag = CHI_yellow_bump
+					remove_country_modifier = CHI_yellow_problem_0
+					add_country_modifier = { name = CHI_yellow_problem_1 duration = -1 }
+				}
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_flag = CHI_yellow_bump
+						has_country_modifier = CHI_yellow_problem_1
+					}
+				}
+				owner = {
+					clr_country_flag = CHI_yellow_bump
+					remove_country_modifier = CHI_yellow_problem_1
+					add_country_modifier = { name = CHI_yellow_problem_2 duration = -1 }
+				}
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_flag = CHI_yellow_bump
+						has_country_modifier = CHI_yellow_problem_2
+					}
+				}
+				owner = {
+					clr_country_flag = CHI_yellow_bump
+					remove_country_modifier = CHI_yellow_problem_2
+					add_country_modifier = { name = CHI_yellow_problem_3 duration = -1 }
+				}
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_flag = CHI_yellow_bump
+						has_country_modifier = CHI_yellow_problem_3
+					}
+				}
+				owner = {
+					clr_country_flag = CHI_yellow_bump
+					remove_country_modifier = CHI_yellow_problem_3
+					add_country_modifier = { name = CHI_yellow_problem_4 duration = -1 }
+				}
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_flag = CHI_yellow_bump
+						has_country_modifier = CHI_yellow_problem_4
+					}
+				}
+				owner = {
+					clr_country_flag = CHI_yellow_bump
+					remove_country_modifier = CHI_yellow_problem_4
+					remove_country_modifier = CHI_yellow_deadline
+					add_country_modifier = { name = CHI_yellow_old_course duration = -1 }
+					any_owned = {
+						limit = { has_province_modifier = CHI_water_yellow_dikes }
+						remove_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+			}
+			clr_country_flag = CHI_yellow_bump
 			clr_country_flag = CHI_act_2608
 			clr_country_flag = CHI_act_1600
 			clr_country_flag = CHI_act_1578

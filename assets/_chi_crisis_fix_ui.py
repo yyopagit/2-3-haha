@@ -23,9 +23,14 @@ LEVELS = ns["LEVELS"]
 SKIP = ns["SKIP"]
 extract_event = ns["extract_event"]
 loc_line = ns["loc_line"]
+loc_mod_line = ns["loc_mod_line"]
 LOC_KEYS = ns["LOC_KEYS"]
 bar = ns["bar"]
+level_bar = ns["level_bar"]
 build_loc = ns["build_loc"]
+bureaucracy_refresh_effect = ns["bureaucracy_refresh_effect"]
+yellow_progress_effect = ns["yellow_progress_effect"]
+yellow_migrate_effect = ns["yellow_migrate_effect"]
 patch_triggered = ns["patch_triggered"]
 
 
@@ -453,6 +458,9 @@ def build_workers(rids):
     granary_extra = if_paid(granary_add)
 
     def river_add(mod_name, cd_name):
+        bump = ""
+        if mod_name == "CHI_water_yellow_dikes":
+            bump = "\n" + ns["yellow_progress_effect"]()
         return f"""			any_owned = {{
 				limit = {{
 					OR = {{
@@ -461,7 +469,7 @@ def build_workers(rids):
 				}}
 				remove_province_modifier = {mod_name}
 				add_province_modifier = {{ name = {cd_name} duration = 900 }}
-			}}"""
+			}}{bump}"""
 
     infra_extra = f"""			any_owned = {{
 				limit = {{

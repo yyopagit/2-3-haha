@@ -561,7 +561,7 @@ province_event = {{
 {yellow_goods_pay()}""",
             f"""{fire_wait(144536)}
 {fire_paid("CHI_do_yellow_pay", 144535)}
-{fire_need("CHI_do_yellow_pay", "CHI_water_yellow_dikes", 144453)}
+{fire_need("CHI_do_yellow_pay", "CHI_water_yellow_dikes", 144452)}
 {fire_goods_fallback("CHI_do_yellow_pay")}""",
             "CHI_pay_yellow",
             "CHI_pay_yellow_desc",
@@ -781,12 +781,14 @@ YANGTZE_REPAIR = {
     "lumber": 700,
 }
 YELLOW_REPAIR = {
-    "money": 1500000,
-    "corrupt": 3000000,
-    "timber": 4000,
-    "cement": 2500,
-    "iron": 1500,
-    "lumber": 1200,
+    "money": 1000000,
+    "corrupt": 1000000,
+    "timber": 12000,
+    "lumber": 6000,
+    "cement": 10000,
+    "iron": 8000,
+    "steel": 4000,
+    "coal": 5000,
 }
 
 
@@ -801,22 +803,15 @@ def _money_pay_lines(amount, indent="\t\t\t"):
     return "\n".join(lines)
 
 
+_GOODS_KEYS = ("timber", "lumber", "cement", "iron", "steel", "coal")
+
+
 def _goods_trigger(c, indent="\t\t\t\t"):
-    return (
-        f"{indent}timber = {c['timber']}\n"
-        f"{indent}cement = {c['cement']}\n"
-        f"{indent}iron = {c['iron']}\n"
-        f"{indent}lumber = {c['lumber']}"
-    )
+    return "\n".join(f"{indent}{k} = {c[k]}" for k in _GOODS_KEYS if k in c)
 
 
 def _goods_pay(c, indent="\t\t\t"):
-    return (
-        f"{indent}timber = -{c['timber']}\n"
-        f"{indent}cement = -{c['cement']}\n"
-        f"{indent}iron = -{c['iron']}\n"
-        f"{indent}lumber = -{c['lumber']}"
-    )
+    return "\n".join(f"{indent}{k} = -{c[k]}" for k in _GOODS_KEYS if k in c)
 
 
 
@@ -1456,6 +1451,40 @@ def build_region_flag_event():
 					set_country_flag = CHI_crisis_setup_done
 				}
 			}"""
+    # Old 3% cap -> 2%: cut leftover soldier pops once; soldiers.txt demote keeps the lid.
+    soldier_cut = """			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_modifier = CHI_patchwork_empire
+						NOT = { has_country_flag = CHI_patchwork_soldiers_cut }
+					}
+				}
+				owner = {
+					any_owned = {
+						limit = { soldiers = 0.03 }
+						any_pop = {
+							limit = { type = soldiers }
+							reduce_pop = 0.67
+						}
+					}
+					any_owned = {
+						limit = { soldiers = 0.025 }
+						any_pop = {
+							limit = { type = soldiers }
+							reduce_pop = 0.80
+						}
+					}
+					any_owned = {
+						limit = { soldiers = 0.021 }
+						any_pop = {
+							limit = { type = soldiers }
+							reduce_pop = 0.95
+						}
+					}
+					set_country_flag = CHI_patchwork_soldiers_cut
+				}
+			}"""
     return f"""
 # CHI_REGION_FLAGS_START
 country_event = {{
@@ -1465,10 +1494,12 @@ country_event = {{
 	is_triggered_only = yes
 	option = {{
 		name = "noloc"
-		CHI = {{
-			remove_country_modifier = CHI_inefficient_bureaucracy
+        CHI = {{
+{mod.bureaucracy_refresh_effect()}
+{mod.yellow_migrate_effect()}
 {pirate_drop}
 {revolt_clr}
+{soldier_cut}
 		}}
 	}}
 }}
@@ -2111,7 +2142,7 @@ def patch_loc():
             "CHI_yellow_course_title",
             "CHI_yellow_course_desc",
             "CHI_yellow_course_north",
-            "CHI_yellow_course_dikes",
+            "CHI_yellow_course_fail",
             "CHI_pay_water_1",
             "CHI_pay_water_1_desc",
             "CHI_pay_water_2",
@@ -2259,7 +2290,7 @@ def patch_loc():
         loc_line("CHI_menu_river_title", "Речные проекты региона"),
         loc_line(
             "CHI_menu_river_desc",
-            "Кнопки только для проблем этой провинции. Очистка канала от ила, расчистка фарватера Янцзы и ремонт дамб Хуанхэ снимают свой модификатор во всём регионе. Перекопать русло Хуанхэ по всей империи нельзя отсюда — это решение двора.",
+            "Очистка канала и фарватер Янцзы — на весь регион. Дамбы Хуанхэ: 1 000 000 и большая стройка (дерево, цемент, железо, сталь, уголь), коррупция не множит цену. Пять регионов до 1845. Прогресс — карточка страны. С 1845 непройденное снимается решением без награды.",
         ),
         loc_line("CHI_menu_sep_title", "Борьба с сепаратизмом"),
         loc_line(
@@ -2269,7 +2300,7 @@ def patch_loc():
         loc_line("CHI_menu_food_title", "Голод и вода"),
         loc_line(
             "CHI_menu_food_desc",
-            "Ирригация: -1 уровень воды в регионе, повтор около 2.5 лет. Амбар: дерево 250, цемент 150, железо 100, пиломатериалы 80. Речные проекты отдельно: очистка канала от ила, фарватер Янцзы, ремонт дамб Хуанхэ. Перенос русла Хуанхэ — решение во вкладке политики.",
+            "Ирригация: -1 уровень воды в регионе, повтор около 2.5 лет. Амбар: дерево 250, цемент 150, железо 100, пиломатериалы 80. Дамбы Хуанхэ чинятся селектором по регионам (5 регионов, старое русло). Новое русло — решение двора, если ремонт не успели.",
         ),
         loc_line("CHI_menu_coast_title", "Побережье и пиратство"),
         loc_line(
@@ -2335,7 +2366,7 @@ def patch_loc():
         loc_line("CHI_sel_unique_water", "Речные проекты"),
         loc_line("CHI_sel_canal_silt", "Очистка канала от ила"),
         loc_line("CHI_sel_yangtze_nav", "Расчистка фарватера Янцзы"),
-        loc_line("CHI_sel_yellow_dikes", "Ремонт дамб Хуанхэ"),
+        loc_line("CHI_sel_yellow_dikes", "Ремонт дамб и инфраструктуры Хуанхэ"),
         loc_line("CHI_sel_water_done", "Ирригация"),
         loc_line(
             "CHI_sel_water_done_desc",
@@ -2361,7 +2392,7 @@ def patch_loc():
         loc_line("CHI_sel_yellow_done", "Дамбы Хуанхэ"),
         loc_line(
             "CHI_sel_yellow_done_desc",
-            "Дамбы Хуанхэ в этом регионе укреплены. Повтор ремонта здесь примерно через 2.5 года. Перенос русла по всей стране — решение двора.",
+            "Дамбы и инфраструктура Хуанхэ укреплены во всём этом регионе. На карточке страны «Проблема русла» растёт прогресс. Пять регионов до 1845 дают бонус. Решение двора — только если не успеть.",
         ),
         loc_line("CHI_sel_river_wait", "Речной проект уже идёт"),
         loc_line(
@@ -2405,11 +2436,11 @@ def patch_loc():
         ),
         loc_line(
             "CHI_pay_yellow",
-            "Обработка приказа: 1 500 000 + дерево 4000, цемент 2500, железо 1500, пиломатериалы 1200",
+            "Обработка приказа: 1 000 000 + дерево 12000, цемент 10000, железо 8000, пиломатериалы 6000, сталь 4000, уголь 5000",
         ),
         loc_line(
             "CHI_pay_yellow_desc",
-            "Ремонт дамб Хуанхэ в этом регионе: 1 500 000, дерево 4000, цемент 2500, железо 1500, пиломатериалы 1200. При коррупции 3 000 000. Перенос русла — решение двора.",
+            "Ремонт дамб Хуанхэ на весь регион: 1 000 000, дерево 12000, пиломатериалы 6000, цемент 10000, железо 8000, сталь 4000, уголь 5000. Коррупция цену не меняет. Таких регионов пять. Успех всех пяти до 1845 — бонус стране. С 1845 непройденное можно снять решением двора без награды.",
         ),
         loc_line(
             "CHI_pay_water_1",
@@ -2557,10 +2588,10 @@ def patch_loc():
             "CHI_water_yangtze_nav_desc",
             "Фарватер занесён, речная торговля парализована. Снимается расчисткой фарватера Янцзы в селекторе этого региона.",
         ),
-        loc_line("CHI_water_yellow_dikes", "Угроза дамб Хуанхэ"),
+        loc_line("CHI_water_yellow_dikes", "Дамбы Хуанхэ"),
         loc_line(
             "CHI_water_yellow_dikes_desc",
-            "Дамбы Хуанхэ в этом регионе могут прорваться. Локальный ремонт — селектор. Переложить русло по всей империи — решение «Работы на Хуанхэ».",
+            "Угроза прорыва Хуанхэ: поля и еда под ударом. Селектор чинит дамбы сразу во всём регионе. Старое русло: 5 регионов. Новое русло — решение двора.",
         ),
         loc_line("CHI_canal_cd", "Очистка канала"),
         loc_line("CHI_canal_cd_desc", "В регионе уже чистят канал от ила. Повтор примерно через 2.5 года."),
@@ -2573,24 +2604,17 @@ def patch_loc():
             "CHI_yellow_new_course_desc",
             "Двор переложил главное русло Хуанхэ. Старая угроза дамб по провинциям снята.",
         ),
-        loc_line("CHI_yellow_river_works", "Работы на Хуанхэ"),
+        loc_line("CHI_yellow_river_works", "Бросить старое русло Хуанхэ"),
         loc_line(
             "CHI_yellow_river_works_desc",
-            "Нужно: мир, 2 000 000 в казне, год 1846 или технология железных дорог. Варианты: переложить русло на север или укрепить дамбы по всей империи. Региональный ремонт дамб — селектор провинции.",
+            "С 1845 года, если пять регионов дамб не закрыты. Мир. Снимает штрафы дамб по империи без награды. Пока идёт ремонт селектором, это решение не нужно.",
         ),
-        loc_line("CHI_yellow_course_title", "Хуанхэ: русло или дамбы"),
+        loc_line("CHI_yellow_course_title", "Хуанхэ: отказ от старого русла"),
         loc_line(
             "CHI_yellow_course_desc",
-            "Локальный ремонт дамб делается селектором по регионам. Здесь — общеимперский выбор. Северное русло: 2 000 000, дерево 4000, цемент 2000, железо 1500, пиломатериалы 1000, снимает угрозу дамб везде. Укрепить дамбы по стране: 2 000 000, без переноса русла.",
+            "Срок работ истёк. Двор может снять угрозу дамб везде без бонуса за удержанное русло. Ремонт селектором после этого уже не даст награду 1845 года.",
         ),
-        loc_line("CHI_yellow_course_north", "Переложить русло на север"),
-        loc_line("CHI_yellow_course_dikes", "Укрепить дамбы по всей империи"),
-        loc_line("CHI_patchwork_empire", "Лоскутная феодальная империя"),
-        loc_line(
-            "CHI_patchwork_empire_desc",
-            "Неснимаемый порядок Цин: слабый центр, быстрый набор ополчения. "
-            "Лимит солдат (~3% населения провинции) задаётся типами POP, не этим модификатором.",
-        ),
+        loc_line("CHI_yellow_course_fail", "Снять штрафы без награды"),
         loc_line("CHI_inefficient_bureaucracy", "Неэффективная бюрократия"),
         loc_line("CHI_port_anti_piracy", "Портовый надзор"),
         loc_line("CHI_port_anti_piracy_desc", "Порт ослабляет приморский разбой в этой провинции. Штрафы пиратства смотрите в карточке пиратства, не здесь."),
@@ -2600,47 +2624,6 @@ def patch_loc():
             "Один раз: когда во всех провинциях региона железная дорога 2-го уровня, пульс Ян-Майена снижает голод на 1 и вешает этот модификатор. Это не кнопка селектора. Повторно голод сам не падает.",
         ),
     ]
-    bar = mod.bar
-    fam_txt = {
-        1: "Прирост -0.1%/мес, начинается исход.",
-        2: "Прирост -0.13%/мес, сильный исход.",
-        3: "Прирост -0.17%/мес, тяжёлый голод.",
-        4: "Прирост -0.2%/мес, исход из региона.",
-    }
-    roman = {1: "I", 2: "II", 3: "III", 4: "IV"}
-    for i in range(1, 5):
-        add.append(loc_line(f"CHI_famine_{i}", f"Голод {roman[i]}"))
-        add.append(
-            loc_line(
-                f"CHI_famine_{i}_desc",
-                f"Проблема с едой. {bar(i, 4)}. {fam_txt[i]} "
-                "Снимается великим амбаром (дерево 250, цемент 150, железо 100, пиломатериалы 80).",
-            )
-        )
-    for i in range(1, 5):
-        add.append(loc_line(f"CHI_separatism_{i}", f"Сепаратизм {roman[i]}"))
-        add.append(
-            loc_line(
-                f"CHI_separatism_{i}_desc",
-                f"Региональный сепаратизм. {bar(i, 4)}. "
-                "Снимается подкупом (500 000, при коррупции 1 000 000) или после подавления восстания. Порог солдат задаётся типами POP, не этой карточкой.",
-            )
-        )
-        add.append(loc_line(f"CHI_water_{i}", f"Ирригация {roman[i]}"))
-        add.append(
-            loc_line(
-                f"CHI_water_{i}_desc",
-                f"Проблемы ирригации и дамб. {bar(i, 4)}. Снимается поэтапным ремонтом (деньги и товары по уровню).",
-            )
-        )
-        add.append(loc_line(f"CHI_piracy_{i}", f"Пиратство {roman[i]}"))
-        add.append(
-            loc_line(
-                f"CHI_piracy_{i}_desc",
-                f"Приморская угроза. {bar(i, 4)}. "
-                "Порт снижает на 1 только в провинции с военно-морской базой. Флот в 200 кораблей снимает пиратство по всей стране.",
-            )
-        )
     for i in range(1, TAX_STACKS + 1):
         add.append(loc_line(f"CHI_sep_tax_stack_{i}", "Региональная налоговая льгота"))
         add.append(
@@ -2685,17 +2668,20 @@ def write_river_policy():
 		picture = build_kiel_canal
 		potential = {
 			tag = CHI
+			year = 1845
+			NOT = { has_country_modifier = CHI_yellow_old_course }
 			NOT = { has_country_flag = CHI_yellow_course_done }
-			NOT = { has_country_flag = CHI_yellow_dikes_nation_done }
-			any_owned_province = { has_province_modifier = CHI_water_yellow_dikes }
+			OR = {
+				has_country_modifier = CHI_yellow_problem_0
+				has_country_modifier = CHI_yellow_problem_1
+				has_country_modifier = CHI_yellow_problem_2
+				has_country_modifier = CHI_yellow_problem_3
+				has_country_modifier = CHI_yellow_problem_4
+				any_owned_province = { has_province_modifier = CHI_water_yellow_dikes }
+			}
 		}
 		allow = {
 			war = no
-			money = 2000000
-			OR = {
-				year = 1846
-				iron_railroad = 1
-			}
 		}
 		effect = {
 			country_event = { id = 144540 days = 0 }
@@ -2712,7 +2698,7 @@ def write_river_policy():
     print("CHI_rivers.txt", dec.stat().st_size)
     ev = ROOT / "events" / "CHI_crisis_41_yellow_course.txt"
     ev.write_bytes(
-        """# Nationwide Yellow River course / dikes (from decision CHI_yellow_river_works)
+        """# Abandon old Yellow River course after 1845 if dikes were not finished
 
 country_event = {
 	id = 144540
@@ -2721,20 +2707,9 @@ country_event = {
 	picture = "Administration"
 	is_triggered_only = yes
 	option = {
-		name = "CHI_yellow_course_north"
-		money = -2000000
-		timber = -4000
-		cement = -2000
-		iron = -1500
-		lumber = -1000
+		name = "CHI_yellow_course_fail"
 		set_country_flag = CHI_yellow_course_done
 		JAN = { country_event = { id = 144541 days = 0 } }
-	}
-	option = {
-		name = "CHI_yellow_course_dikes"
-		money = -2000000
-		set_country_flag = CHI_yellow_dikes_nation_done
-		JAN = { country_event = { id = 144542 days = 0 } }
 	}
 	option = {
 		name = "CHI_sel_back"
@@ -2752,8 +2727,12 @@ country_event = {
 				limit = { has_province_modifier = CHI_water_yellow_dikes }
 				remove_province_modifier = CHI_water_yellow_dikes
 			}
-			add_country_modifier = { name = CHI_yellow_new_course duration = -1 }
-			prestige = 10
+			remove_country_modifier = CHI_yellow_problem_0
+			remove_country_modifier = CHI_yellow_problem_1
+			remove_country_modifier = CHI_yellow_problem_2
+			remove_country_modifier = CHI_yellow_problem_3
+			remove_country_modifier = CHI_yellow_problem_4
+			remove_country_modifier = CHI_yellow_deadline
 		}
 	}
 	option = {
@@ -2772,7 +2751,6 @@ country_event = {
 				limit = { has_province_modifier = CHI_water_yellow_dikes }
 				remove_province_modifier = CHI_water_yellow_dikes
 			}
-			prestige = 5
 		}
 	}
 	option = {

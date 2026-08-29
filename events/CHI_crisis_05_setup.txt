@@ -9,8 +9,129 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "noloc"
-		CHI = {
+        CHI = {
 			remove_country_modifier = CHI_inefficient_bureaucracy
+			remove_country_modifier = CHI_inefficient_bureaucracy_1
+			remove_country_modifier = CHI_inefficient_bureaucracy_2
+			remove_country_modifier = CHI_inefficient_bureaucracy_3
+			remove_country_modifier = CHI_inefficient_bureaucracy_4
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						OR = {
+							war_exhaustion = 20
+							average_militancy = 6
+						}
+						NOT = { literacy = 0.20 }
+						NOT = { ideological_thought = 1 }
+						NOT = { state_n_government = 1 }
+						NOT = { has_country_flag = CHI_high_corruption_lost }
+						school_reforms = no_schools
+					}
+				}
+				owner = {
+					add_country_modifier = { name = CHI_inefficient_bureaucracy_4 duration = -1 }
+				}
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = CHI_inefficient_bureaucracy_4 }
+						NOT = { war_exhaustion = 20 }
+						NOT = { average_militancy = 6 }
+						NOT = { literacy = 0.20 }
+						NOT = { ideological_thought = 1 }
+						NOT = { state_n_government = 1 }
+						NOT = { has_country_flag = CHI_high_corruption_lost }
+						school_reforms = no_schools
+					}
+				}
+				owner = {
+					add_country_modifier = { name = CHI_inefficient_bureaucracy_3 duration = -1 }
+				}
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = CHI_inefficient_bureaucracy_4 }
+						NOT = { has_country_modifier = CHI_inefficient_bureaucracy_3 }
+						literacy = 0.30
+						OR = {
+							ideological_thought = 1
+							state_n_government = 1
+							empiricism = 1
+						}
+						NOT = {
+							AND = {
+								literacy = 0.45
+								has_country_flag = CHI_corruption_lost
+								OR = {
+									state_n_government = 1
+									empiricism = 1
+									functionalism = 1
+								}
+								NOT = { school_reforms = no_schools }
+							}
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = CHI_inefficient_bureaucracy_1 duration = -1 }
+				}
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = CHI_inefficient_bureaucracy_4 }
+						NOT = { has_country_modifier = CHI_inefficient_bureaucracy_3 }
+						NOT = { has_country_modifier = CHI_inefficient_bureaucracy_1 }
+						OR = {
+							literacy = 0.20
+							ideological_thought = 1
+							state_n_government = 1
+							has_country_flag = CHI_high_corruption_lost
+							NOT = { school_reforms = no_schools }
+						}
+						NOT = {
+							AND = {
+								literacy = 0.45
+								has_country_flag = CHI_corruption_lost
+								OR = {
+									state_n_government = 1
+									empiricism = 1
+									functionalism = 1
+								}
+								NOT = { school_reforms = no_schools }
+							}
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = CHI_inefficient_bureaucracy_2 duration = -1 }
+				}
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = CHI_yellow_old_course }
+						NOT = { has_country_flag = CHI_yellow_course_done }
+						NOT = { has_country_modifier = CHI_yellow_problem_0 }
+						NOT = { has_country_modifier = CHI_yellow_problem_1 }
+						NOT = { has_country_modifier = CHI_yellow_problem_2 }
+						NOT = { has_country_modifier = CHI_yellow_problem_3 }
+						NOT = { has_country_modifier = CHI_yellow_problem_4 }
+						any_owned = { has_province_modifier = CHI_water_yellow_dikes }
+					}
+				}
+				owner = {
+					add_country_modifier = { name = CHI_yellow_problem_0 duration = -1 }
+				}
+			}
 			any_owned = {
 				limit = {
 					has_building = naval_base
@@ -54,6 +175,39 @@ country_event = {
 						remove_province_modifier = CHI_sep_revolt_won
 					}
 					set_country_flag = CHI_crisis_setup_done
+				}
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_modifier = CHI_patchwork_empire
+						NOT = { has_country_flag = CHI_patchwork_soldiers_cut }
+					}
+				}
+				owner = {
+					any_owned = {
+						limit = { soldiers = 0.03 }
+						any_pop = {
+							limit = { type = soldiers }
+							reduce_pop = 0.67
+						}
+					}
+					any_owned = {
+						limit = { soldiers = 0.025 }
+						any_pop = {
+							limit = { type = soldiers }
+							reduce_pop = 0.80
+						}
+					}
+					any_owned = {
+						limit = { soldiers = 0.021 }
+						any_pop = {
+							limit = { type = soldiers }
+							reduce_pop = 0.95
+						}
+					}
+					set_country_flag = CHI_patchwork_soldiers_cut
 				}
 			}
 		}

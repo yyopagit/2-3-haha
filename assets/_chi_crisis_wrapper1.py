@@ -83,6 +83,13 @@ def recog_bar(filled, width=20):
     return "§G" + "|" * filled + "§R" + "|" * (width - filled) + "§W"
 
 
+def level_bar(level, maxl, width=20):
+    """Modifier card: green = already lifted, red = still in force. IV/max = full red."""
+    if maxl <= 0:
+        return recog_bar(0, width)
+    return recog_bar(width * max(0, int(maxl) - int(level)) / maxl, width)
+
+
 def loc_line(key, text):
     clean = re.sub(r"§.", "", text.replace("\\n", ". ").replace("\n", ". "))
     while "  " in clean:
@@ -120,6 +127,26 @@ CHI_patchwork_empire = {
 	icon = 17
 }
 CHI_inefficient_bureaucracy = {
+	icon = 9
+}
+CHI_inefficient_bureaucracy_4 = {
+	tax_efficiency = -0.11
+	administrative_efficiency_modifier = -0.13
+	icon = 9
+}
+CHI_inefficient_bureaucracy_3 = {
+	tax_efficiency = -0.08
+	administrative_efficiency_modifier = -0.10
+	icon = 9
+}
+CHI_inefficient_bureaucracy_2 = {
+	tax_efficiency = -0.05
+	administrative_efficiency_modifier = -0.06
+	icon = 9
+}
+CHI_inefficient_bureaucracy_1 = {
+	tax_efficiency = -0.02
+	administrative_efficiency_modifier = -0.03
 	icon = 9
 }
 CHI_separatism_peripheral = {
@@ -191,24 +218,24 @@ CHI_famine_4 = {
 	icon = 7
 }
 CHI_water_1 = {
-	farm_RGO_eff = -0.08
+	farm_RGO_eff = -0.24
 	immigrant_attract = -0.10
 	icon = 8
 }
 CHI_water_2 = {
-	farm_RGO_eff = -0.15
+	farm_RGO_eff = -0.45
 	immigrant_attract = -0.20
 	local_factory_throughput = -0.05
 	icon = 8
 }
 CHI_water_3 = {
-	farm_RGO_eff = -0.22
+	farm_RGO_eff = -0.66
 	immigrant_attract = -0.30
 	local_factory_throughput = -0.10
 	icon = 8
 }
 CHI_water_4 = {
-	farm_RGO_eff = -0.30
+	farm_RGO_eff = -0.90
 	immigrant_attract = -0.40
 	local_factory_throughput = -0.15
 	icon = 8
@@ -228,6 +255,30 @@ CHI_water_yellow_dikes = {
 	farm_RGO_eff = -0.20
 	population_growth = -0.0006
 	immigrant_attract = -0.15
+	icon = 8
+}
+CHI_yellow_problem_0 = {
+	icon = 8
+}
+CHI_yellow_problem_1 = {
+	icon = 8
+}
+CHI_yellow_problem_2 = {
+	icon = 8
+}
+CHI_yellow_problem_3 = {
+	icon = 8
+}
+CHI_yellow_problem_4 = {
+	icon = 8
+}
+CHI_yellow_deadline = {
+	icon = 8
+}
+CHI_yellow_old_course = {
+	farm_RGO_eff = 0.20
+	mine_RGO_eff = 0.20
+	factory_throughput = 0.15
 	icon = 8
 }
 CHI_famine_tied_to_water = {
@@ -441,6 +492,182 @@ def setup_province_block(rid, ids, sep, fam, wat, weak, extras, pirate):
 			}}"""
 
 
+def bureaucracy_refresh_effect():
+    """Country modifiers, not triggered_modifiers: this engine often ignores
+    triggered bureaucracy (flags / reforms / nested NOT). JAN 144405 reapplies."""
+    return """			remove_country_modifier = CHI_inefficient_bureaucracy
+			remove_country_modifier = CHI_inefficient_bureaucracy_1
+			remove_country_modifier = CHI_inefficient_bureaucracy_2
+			remove_country_modifier = CHI_inefficient_bureaucracy_3
+			remove_country_modifier = CHI_inefficient_bureaucracy_4
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						OR = {
+							war_exhaustion = 20
+							average_militancy = 6
+						}
+						NOT = { literacy = 0.20 }
+						NOT = { ideological_thought = 1 }
+						NOT = { state_n_government = 1 }
+						NOT = { has_country_flag = CHI_high_corruption_lost }
+						school_reforms = no_schools
+					}
+				}
+				owner = {
+					add_country_modifier = { name = CHI_inefficient_bureaucracy_4 duration = -1 }
+				}
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = CHI_inefficient_bureaucracy_4 }
+						NOT = { war_exhaustion = 20 }
+						NOT = { average_militancy = 6 }
+						NOT = { literacy = 0.20 }
+						NOT = { ideological_thought = 1 }
+						NOT = { state_n_government = 1 }
+						NOT = { has_country_flag = CHI_high_corruption_lost }
+						school_reforms = no_schools
+					}
+				}
+				owner = {
+					add_country_modifier = { name = CHI_inefficient_bureaucracy_3 duration = -1 }
+				}
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = CHI_inefficient_bureaucracy_4 }
+						NOT = { has_country_modifier = CHI_inefficient_bureaucracy_3 }
+						literacy = 0.30
+						OR = {
+							ideological_thought = 1
+							state_n_government = 1
+							empiricism = 1
+						}
+						NOT = {
+							AND = {
+								literacy = 0.45
+								has_country_flag = CHI_corruption_lost
+								OR = {
+									state_n_government = 1
+									empiricism = 1
+									functionalism = 1
+								}
+								NOT = { school_reforms = no_schools }
+							}
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = CHI_inefficient_bureaucracy_1 duration = -1 }
+				}
+			}
+			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						NOT = { has_country_modifier = CHI_inefficient_bureaucracy_4 }
+						NOT = { has_country_modifier = CHI_inefficient_bureaucracy_3 }
+						NOT = { has_country_modifier = CHI_inefficient_bureaucracy_1 }
+						OR = {
+							literacy = 0.20
+							ideological_thought = 1
+							state_n_government = 1
+							has_country_flag = CHI_high_corruption_lost
+							NOT = { school_reforms = no_schools }
+						}
+						NOT = {
+							AND = {
+								literacy = 0.45
+								has_country_flag = CHI_corruption_lost
+								OR = {
+									state_n_government = 1
+									empiricism = 1
+									functionalism = 1
+								}
+								NOT = { school_reforms = no_schools }
+							}
+						}
+					}
+				}
+				owner = {
+					add_country_modifier = { name = CHI_inefficient_bureaucracy_2 duration = -1 }
+				}
+			}"""
+
+
+def yellow_progress_effect():
+    """One region repaired: 0-4 country cards, 5th grants old-course bonus."""
+    lines = ["			set_country_flag = CHI_yellow_bump"]
+    for n in range(4):
+        lines.append(
+            f"""			random_owned = {{
+				limit = {{
+					is_capital = yes
+					owner = {{
+						has_country_flag = CHI_yellow_bump
+						has_country_modifier = CHI_yellow_problem_{n}
+					}}
+				}}
+				owner = {{
+					clr_country_flag = CHI_yellow_bump
+					remove_country_modifier = CHI_yellow_problem_{n}
+					add_country_modifier = {{ name = CHI_yellow_problem_{n + 1} duration = -1 }}
+				}}
+			}}"""
+        )
+    lines.append(
+        """			random_owned = {
+				limit = {
+					is_capital = yes
+					owner = {
+						has_country_flag = CHI_yellow_bump
+						has_country_modifier = CHI_yellow_problem_4
+					}
+				}
+				owner = {
+					clr_country_flag = CHI_yellow_bump
+					remove_country_modifier = CHI_yellow_problem_4
+					remove_country_modifier = CHI_yellow_deadline
+					add_country_modifier = { name = CHI_yellow_old_course duration = -1 }
+					any_owned = {
+						limit = { has_province_modifier = CHI_water_yellow_dikes }
+						remove_province_modifier = CHI_water_yellow_dikes
+					}
+				}
+			}
+			clr_country_flag = CHI_yellow_bump"""
+    )
+    return "\n".join(lines)
+
+
+def yellow_migrate_effect():
+    """Old saves: put the 0/5 card back if dikes still exist."""
+    not_prog = "\n".join(
+        f"						NOT = {{ has_country_modifier = CHI_yellow_problem_{n} }}"
+        for n in range(5)
+    )
+    return f"""			random_owned = {{
+				limit = {{
+					is_capital = yes
+					owner = {{
+						NOT = {{ has_country_modifier = CHI_yellow_old_course }}
+						NOT = {{ has_country_flag = CHI_yellow_course_done }}
+{not_prog}
+						any_owned = {{ has_province_modifier = CHI_water_yellow_dikes }}
+					}}
+				}}
+				owner = {{
+					add_country_modifier = {{ name = CHI_yellow_problem_0 duration = -1 }}
+				}}
+			}}"""
+
+
 def build_setup(regions):
     blocks = []
     for key, ids in regions.items():
@@ -505,6 +732,18 @@ def build_setup(regions):
 				add_country_modifier = {{
 					name = CHI_patchwork_empire
 					duration = -1
+				}}
+				add_country_modifier = {{
+					name = CHI_inefficient_bureaucracy_3
+					duration = -1
+				}}
+				add_country_modifier = {{
+					name = CHI_yellow_problem_0
+					duration = -1
+				}}
+				add_country_modifier = {{
+					name = CHI_yellow_deadline
+					duration = 3288
 				}}
 {inner}
 {pirate_block(pirate_high, 3)}
@@ -936,7 +1175,7 @@ POP_INSERT = """
 		modifier = {
 			factor = 0
 			country = { has_country_modifier = CHI_patchwork_empire }
-			soldiers = 0.03
+			soldiers = 0.02
 		}
 		modifier = {
 			factor = 0
@@ -981,6 +1220,33 @@ POP_ANCHOR_OFF = """		modifier = {
 		}"""
 
 
+PATCHWORK_SOLDIER_CAP = "0.02"
+_PATCHWORK_CAP_RE = re.compile(
+    r"(has_country_modifier = CHI_patchwork_empire\s*\}\s*\n\s*soldiers = )0\.\d+"
+)
+_SOLDIER_DEMOTE_OLD = """	farmers = { #and labourers
+		factor = 0.01
+		modifier = {
+			factor = 5.0
+			soldiers = 0.03
+		}"""
+_SOLDIER_DEMOTE_NEW = """	farmers = { #and labourers
+		factor = 0.01
+		modifier = {
+			factor = 5.0
+			country = { has_country_modifier = CHI_patchwork_empire }
+			soldiers = 0.02
+		}
+		modifier = {
+			factor = 5.0
+			soldiers = 0.03
+		}"""
+
+
+def _retarget_patchwork_cap(text):
+    return _PATCHWORK_CAP_RE.sub(r"\g<1>" + PATCHWORK_SOLDIER_CAP, text)
+
+
 def patch_poptypes():
     repl = (
         POP_ANCHOR[: POP_ANCHOR.index("		group = {")]
@@ -991,7 +1257,12 @@ def patch_poptypes():
         path = ROOT / "poptypes" / name
         text = path.read_text(encoding="utf-8")
         if "CHI_patchwork_empire" in text:
-            print(name, "already patched")
+            new = _retarget_patchwork_cap(text)
+            if new != text:
+                path.write_text(new, encoding="utf-8", newline="\n")
+                print(name, "patchwork cap", PATCHWORK_SOLDIER_CAP)
+            else:
+                print(name, "already patched")
             continue
         if POP_ANCHOR not in text:
             raise SystemExit(f"anchor missing in {name}")
@@ -1006,7 +1277,51 @@ def patch_poptypes():
         op.write_text(ot, encoding="utf-8", newline="\n")
         print("patched officers.txt")
     else:
-        print("officers already patched")
+        new = _retarget_patchwork_cap(ot)
+        if new != ot:
+            op.write_text(new, encoding="utf-8", newline="\n")
+            print("officers.txt patchwork cap", PATCHWORK_SOLDIER_CAP)
+        else:
+            print("officers already patched")
+    sp = ROOT / "poptypes" / "soldiers.txt"
+    st = sp.read_text(encoding="utf-8")
+    if "CHI_patchwork_empire" in st and "soldiers = 0.02" in st:
+        print("soldiers.txt patchwork demote ok")
+    elif _SOLDIER_DEMOTE_OLD in st:
+        sp.write_text(
+            st.replace(_SOLDIER_DEMOTE_OLD, _SOLDIER_DEMOTE_NEW, 1),
+            encoding="utf-8",
+            newline="\n",
+        )
+        print("patched soldiers.txt patchwork demote")
+    else:
+        print("WARN soldiers.txt demote anchor missing")
+    art = (
+        "		factor = 0.01\n"
+        "		modifier = {\n"
+        "			factor = 1.05\n"
+        "			country = { has_country_modifier = CHI_yellow_old_course }\n"
+        "		}"
+    )
+    old_art = "		factor = 0.01"
+    for name in ("farmers.txt", "labourers.txt"):
+        path = ROOT / "poptypes" / name
+        text = path.read_text(encoding="utf-8")
+        if "CHI_yellow_old_course" in text:
+            print(name, "yellow artisan already patched")
+            continue
+        # First artisans promote_to block starts with factor = 0.01 after artisans =
+        needle = "		artisans =\n	{\n		factor = 0.01"
+        alt = "			artisans =\n	{\n		factor = 0.01"
+        if needle in text:
+            text = text.replace(needle, needle.replace("		factor = 0.01", art), 1)
+        elif alt in text:
+            text = text.replace(alt, alt.replace("		factor = 0.01", art), 1)
+        else:
+            print("WARN no artisans factor in", name)
+            continue
+        path.write_text(text, encoding="utf-8", newline="\n")
+        print("patched artisans yellow", name)
 
 
 def build_loc():
@@ -1042,11 +1357,12 @@ def build_loc():
 
     add(loc_line("CHI_patchwork_empire", "Лоскутная феодальная империя"))
     add(
-        loc_line(
+        loc_mod_line(
             "CHI_patchwork_empire_desc",
-            "Неснимаемый порядок Цин: слабый центр, быстрый набор ополчения.\\n"
-            "Лимит солдат (~3% населения) задаётся типами POP, не этим модификатором. "
-            "В карточке модификатора видны только организация, набор и мобилизация.",
+            "Неснимаемый порядок Цин: слабый двор, уделы и знамёна вместо регулярной армии.\n"
+            "Организация армии -10%. Скорость пополнения +10%. Размер мобилизации -4%.\n"
+            "Потолок солдат: 2% населения провинции. Фермеры, рабочие, ремесленники и офицеры почти не идут в солдаты выше этой доли. Лишние солдаты расходятся в крестьяне. "
+            "Сепаратизм региона режет потолок ещё сильнее (I ~1.5%, II ~1.0%, III-IV ~0.5%).",
         )
     )
     add(loc_line("CHI_inefficient_bureaucracy", "Неэффективная бюрократия"))
@@ -1070,31 +1386,34 @@ def build_loc():
                 f"CHI_inefficient_bureaucracy_{i}_desc",
                 f"{bureau_txt[i]}\n"
                 "Снимается сама: растёт грамотность, появляются школы, осваивается современная мысль, падает коррупция.\n"
-                f"Прогресс: {recog_bar(20 * (4 - i) / 4)}",
+                f"Прогресс: {level_bar(i, 4)}",
             )
         )
     add(loc_line("CHI_separatism_peripheral", "Сепаратизм: периферийный"))
     add(
-        loc_line(
+        loc_mod_line(
             "CHI_separatism_peripheral_desc",
-            "Национальный сепаратизм на окраинах.\\n"
-            f"Масштаб: {bar(1, 3)}\\n-5 к налогу, организации и пополнению.",
+            "Национальный сепаратизм на окраинах.\n"
+            f"Масштаб: {level_bar(1, 3)}\n"
+            "-5 к налогу, организации и пополнению.",
         )
     )
     add(loc_line("CHI_separatism_medium", "Сепаратизм: средний"))
     add(
-        loc_line(
+        loc_mod_line(
             "CHI_separatism_medium_desc",
-            "Национальный сепаратизм среднего масштаба.\\n"
-            f"Масштаб: {bar(2, 3)}\\n-10 к налогу, организации и пополнению.",
+            "Национальный сепаратизм среднего масштаба.\n"
+            f"Масштаб: {level_bar(2, 3)}\n"
+            "-10 к налогу, организации и пополнению.",
         )
     )
     add(loc_line("CHI_separatism_large", "Сепаратизм: масштабный"))
     add(
-        loc_line(
+        loc_mod_line(
             "CHI_separatism_large_desc",
-            "Национальный сепаратизм охватил империю.\\n"
-            f"Масштаб: {bar(3, 3)}\\n-15 к налогу, организации и пополнению.",
+            "Национальный сепаратизм охватил империю.\n"
+            f"Масштаб: {level_bar(3, 3)}\n"
+            "-15 к налогу, организации и пополнению.",
         )
     )
     add(loc_line("CHI_corruption_high", "Коррупция"))
@@ -1119,9 +1438,9 @@ def build_loc():
     for i in range(1, 5):
         add(loc_line(f"CHI_separatism_{i}", f"Сепаратизм {roman[i]}"))
         add(
-            loc_line(
+            loc_mod_line(
                 f"CHI_separatism_{i}_desc",
-                f"Региональный сепаратизм.\\nУровень: {bar(i, 4)}\\n{sep_txt[i]}",
+                f"Региональный сепаратизм.\nУровень: {level_bar(i, 4)}\n{sep_txt[i]}",
             )
         )
     fam_txt = {
@@ -1133,42 +1452,42 @@ def build_loc():
     for i in range(1, 5):
         add(loc_line(f"CHI_famine_{i}", f"Голод {roman[i]}"))
         add(
-            loc_line(
+            loc_mod_line(
                 f"CHI_famine_{i}_desc",
-                f"Проблема с едой.\\nУровень: {bar(i, 4)}\\n{fam_txt[i]}\\n"
+                f"Проблема с едой.\nУровень: {level_bar(i, 4)}\n{fam_txt[i]}\n"
                 "Частично снимается амбаром. Уровень голода падает сам, если инфраструктура 2-го уровня построена во всех провинциях региона. Если голод связан с водой - ремонт воды тоже снижает его.",
             )
         )
     wat_txt = {
-        1: "Сельское хозяйство ослаблено.",
-        2: "Плюс штраф промышленности.",
-        3: "Тяжёлая гидротехническая разруха.",
-        4: "Река не управляется, поля и фабрики страдают.",
+        1: "Ферма -24%. Сельское хозяйство сильно просело.",
+        2: "Ферма -45%. Плюс штраф промышленности.",
+        3: "Ферма -66%. Тяжёлая гидротехническая разруха.",
+        4: "Ферма -90%. Река не управляется, поля и фабрики страдают.",
     }
     for i in range(1, 5):
         add(loc_line(f"CHI_water_{i}", f"Вода {roman[i]}"))
         add(
-            loc_line(
+            loc_mod_line(
                 f"CHI_water_{i}_desc",
-                f"Проблемы водоснабжения.\\nУровень: {bar(i, 4)}\\n{wat_txt[i]}\\n"
-                "Бьёт по RGO и миграции. Снимается через селектор.",
+                f"Проблемы водоснабжения.\nУровень: {level_bar(i, 4)}\n{wat_txt[i]}\n"
+                "Бьёт по ферме и миграции. Снимается через селектор.",
             )
         )
     for i in range(1, 6):
         add(loc_line(f"CHI_weak_rule_{i}", f"Слабая власть {roman[i]}"))
         add(
-            loc_line(
+            loc_mod_line(
                 f"CHI_weak_rule_{i}_desc",
-                f"Слабая власть над регионом.\\nУровень: {bar(i, 5)}\\n"
+                f"Слабая власть над регионом.\nУровень: {level_bar(i, 5)}\n"
                 "2 уровня от неэффективной бюрократии, до 3 — от бедствий провинции. Вне ядра империи.",
             )
         )
     for i in range(1, 5):
         add(loc_line(f"CHI_piracy_{i}", f"Пиратство {roman[i]}"))
         add(
-            loc_line(
+            loc_mod_line(
                 f"CHI_piracy_{i}_desc",
-                f"Приморская угроза.\\nУровень: {bar(i, 4)}\\n"
+                f"Приморская угроза.\nУровень: {level_bar(i, 4)}\n"
                 "Порт ослабляет на 1 уровень. Флот в 200 кораблей снимает полностью.",
             )
         )
@@ -1189,9 +1508,10 @@ def build_loc():
     )
     add(loc_line("CHI_water_yellow_dikes", "Дамбы Хуанхэ"))
     add(
-        loc_line(
+        loc_mod_line(
             "CHI_water_yellow_dikes_desc",
-            "Угроза прорыва Хуанхэ: поля и еда под ударом.\\nСнимается селектором.",
+            "Угроза прорыва Хуанхэ: поля и еда под ударом.\n"
+            "Селектор чинит дамбы сразу во всём регионе. Чтобы сохранить старое русло, нужно закрыть все 5 регионов. Решение двора — только новое русло, если дамбы не удержали.",
         )
     )
     add(loc_line("CHI_famine_tied_to_water", "Голод связан с водой"))
@@ -1229,6 +1549,34 @@ def build_loc():
     add(loc_line("CHI_corruption_no_desc", "Коррупция снята."))
     add(loc_line("CHI_fleet_anti_piracy_ready", "Флот против пиратства"))
     add(loc_line("CHI_fleet_anti_piracy_ready_desc", "В строю не меньше 200 кораблей: флот может подавить пиратство по всей стране."))
+    for n in range(5):
+        add(loc_line(f"CHI_yellow_problem_{n}", "Проблема русла Хуанхэ"))
+        add(
+            loc_mod_line(
+                f"CHI_yellow_problem_{n}_desc",
+                f"Старое русло нужно удержать дамбами до 1845 г.\n"
+                f"Отремонтировано регионов: {n} из 5\n"
+                f"{recog_bar(20 * n / 5)}\n"
+                "Селектор: заказ в одной провинции закрывает весь регион. Пять регионов. "
+                "Успех до срока: ферма и добыча +20%, фабрики +15%, ремесленники +5%. "
+                "С 1845, если не успеть — решение двора снимет штрафы без награды.",
+            )
+        )
+    add(loc_line("CHI_yellow_deadline", "Срок работ на Хуанхэ"))
+    add(
+        loc_mod_line(
+            "CHI_yellow_deadline_desc",
+            "Отсчёт до 1 января 1845 г. Когда карточка пропадёт, двор сможет бросить старое русло без награды.",
+        )
+    )
+    add(loc_line("CHI_yellow_old_course", "Старое русло удержано"))
+    add(
+        loc_mod_line(
+            "CHI_yellow_old_course_desc",
+            "Дамбы по всем пяти регионам Хуанхэ укреплены в срок.\n"
+            "Ферма +20%, добыча +20%, выпуск фабрик +15%. Крестьяне чаще идут в ремесленники.",
+        )
+    )
     return "".join(lines)
 
 
@@ -1274,6 +1622,20 @@ LOC_KEYS = {
     "CHI_water_yangtze_nav_desc",
     "CHI_water_yellow_dikes",
     "CHI_water_yellow_dikes_desc",
+    "CHI_yellow_problem_0",
+    "CHI_yellow_problem_0_desc",
+    "CHI_yellow_problem_1",
+    "CHI_yellow_problem_1_desc",
+    "CHI_yellow_problem_2",
+    "CHI_yellow_problem_2_desc",
+    "CHI_yellow_problem_3",
+    "CHI_yellow_problem_3_desc",
+    "CHI_yellow_problem_4",
+    "CHI_yellow_problem_4_desc",
+    "CHI_yellow_deadline",
+    "CHI_yellow_deadline_desc",
+    "CHI_yellow_old_course",
+    "CHI_yellow_old_course_desc",
     "CHI_famine_tied_to_water",
     "CHI_famine_tied_to_water_desc",
     "CHI_great_granary",
@@ -1468,101 +1830,6 @@ CHI_fleet_anti_piracy_ready = {{
 		total_amount_of_ships = 200
 	}}
 	prestige = 0.01
-}}
-CHI_inefficient_bureaucracy_4 = {{
-	trigger = {{
-		tag = CHI
-		OR = {{
-			war_exhaustion = 20
-			average_militancy = 6
-		}}
-		NOT = {{ literacy = 0.20 }}
-		NOT = {{ ideological_thought = 1 }}
-		NOT = {{ state_n_government = 1 }}
-		NOT = {{ has_country_flag = CHI_high_corruption_lost }}
-		school_reforms = no_schools
-	}}
-	tax_efficiency = -0.11
-	administrative_efficiency_modifier = -0.13
-	icon = 52
-}}
-CHI_inefficient_bureaucracy_3 = {{
-	trigger = {{
-		tag = CHI
-		NOT = {{ war_exhaustion = 20 }}
-		NOT = {{ average_militancy = 6 }}
-		NOT = {{ literacy = 0.20 }}
-		NOT = {{ ideological_thought = 1 }}
-		NOT = {{ state_n_government = 1 }}
-		NOT = {{ has_country_flag = CHI_high_corruption_lost }}
-		school_reforms = no_schools
-	}}
-	tax_efficiency = -0.08
-	administrative_efficiency_modifier = -0.10
-	icon = 52
-}}
-CHI_inefficient_bureaucracy_2 = {{
-	trigger = {{
-		tag = CHI
-		OR = {{
-			literacy = 0.20
-			ideological_thought = 1
-			state_n_government = 1
-			has_country_flag = CHI_high_corruption_lost
-			NOT = {{ school_reforms = no_schools }}
-		}}
-		NOT = {{
-			AND = {{
-				literacy = 0.30
-				OR = {{
-					ideological_thought = 1
-					state_n_government = 1
-					empiricism = 1
-				}}
-			}}
-		}}
-		NOT = {{
-			AND = {{
-				literacy = 0.45
-				has_country_flag = CHI_corruption_lost
-				OR = {{
-					state_n_government = 1
-					empiricism = 1
-					functionalism = 1
-				}}
-				NOT = {{ school_reforms = no_schools }}
-			}}
-		}}
-	}}
-	tax_efficiency = -0.05
-	administrative_efficiency_modifier = -0.06
-	icon = 52
-}}
-CHI_inefficient_bureaucracy_1 = {{
-	trigger = {{
-		tag = CHI
-		literacy = 0.30
-		OR = {{
-			ideological_thought = 1
-			state_n_government = 1
-			empiricism = 1
-		}}
-		NOT = {{
-			AND = {{
-				literacy = 0.45
-				has_country_flag = CHI_corruption_lost
-				OR = {{
-					state_n_government = 1
-					empiricism = 1
-					functionalism = 1
-				}}
-				NOT = {{ school_reforms = no_schools }}
-			}}
-		}}
-	}}
-	tax_efficiency = -0.02
-	administrative_efficiency_modifier = -0.03
-	icon = 52
 }}
 {end}
 """
