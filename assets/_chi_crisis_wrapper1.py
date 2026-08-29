@@ -69,15 +69,18 @@ def parse_chi_regions():
 
 
 def bar(level, maxl, width=20):
+    """Plain level text. Vic2 §W/§Y/§R is unreadable on event parchment."""
     if maxl <= 0 or level <= 0:
-        return "§Y" + "|" * width + "§W"
-    filled = int(round(width * level / maxl))
-    filled = max(0, min(width, filled))
-    return "§R" + "|" * filled + "§Y" + "|" * (width - filled) + "§W"
+        return "уровень 0"
+    return f"уровень {level} из {maxl}"
 
 
 def loc_line(key, text):
-    return f"{key};{text};X;X;X;X;X;X\r\n"
+    clean = re.sub(r"§.", "", text.replace("\\n", ". ").replace("\n", ". "))
+    while "  " in clean:
+        clean = clean.replace("  ", " ")
+    clean = clean.replace(" .", ".").strip()
+    return f"{key};{clean};X;X;X;X;X;X\r\n"
 
 
 def replace_marked(text, new_block, comment_prefix="#"):
@@ -519,7 +522,7 @@ def gen_set_act(rids):
         lines.append(
             f"""			random_owned = {{
 				limit = {{
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 {idb}
 				}}
 				owner = {{ set_country_flag = CHI_act_{rid} }}
@@ -1014,12 +1017,12 @@ def build_loc():
             "При коррупции цена решений x2.",
         )
     )
-    add(loc_line("CHI_sel_granary", "Построить великий амбар в регионе (2 000 000, при коррупции 2x2 000 000)"))
-    add(loc_line("CHI_sel_water_1", "Починить гидротехнику I (500, при коррупции 1 000)"))
-    add(loc_line("CHI_sel_water_2", "Починить гидротехнику II (80 000, при коррупции 160 000)"))
-    add(loc_line("CHI_sel_water_3", "Починить гидротехнику III (400 000, при коррупции 800 000)"))
-    add(loc_line("CHI_sel_water_4", "Починить гидротехнику IV (1 000 000, при коррупции 2 000 000)"))
-    add(loc_line("CHI_sel_unique_water", "Снять особую речную проблему (канал / Янцзы / дамбы Хуанхэ)"))
+    add(loc_line("CHI_sel_granary", "Великий амбар"))
+    add(loc_line("CHI_sel_water_1", "Ремонт ирригации I"))
+    add(loc_line("CHI_sel_water_2", "Ремонт ирригации II"))
+    add(loc_line("CHI_sel_water_3", "Ремонт ирригации III"))
+    add(loc_line("CHI_sel_water_4", "Ремонт ирригации IV"))
+    add(loc_line("CHI_sel_unique_water", "Особые речные работы"))
     add(loc_line("CHI_sel_infra", "Инфраструктура 2-го уровня частично снимает голод"))
     add(loc_line("CHI_sel_port_piracy", "Порт ослабляет пиратство в этой провинции"))
     add(loc_line("CHI_sel_fleet_piracy", "Флот в 200 кораблей подавляет пиратство по всей стране"))

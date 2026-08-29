@@ -3,8 +3,8 @@
 
 province_event = {
 	id = 144496
-	title = "CHI_pay_processing"
-	desc = "CHI_pay_processing_desc"
+	title = "CHI_pay_granary"
+	desc = "CHI_pay_granary_desc"
 	picture = "Administration"
 	is_triggered_only = yes
 	immediate = {
@@ -15,7 +15,7 @@ province_event = {
 			clr_country_flag = CHI_pay_wait
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = {
 						timber = 250
 						cement = 150
@@ -39,7 +39,7 @@ province_event = {
 		owner = {
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { has_country_flag = CHI_crisis_paid }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}
@@ -48,7 +48,7 @@ province_event = {
 			}
 			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = { NOT = { has_country_flag = CHI_crisis_paid } }
 					owner = { NOT = { has_country_flag = CHI_pay_fired } }
 				}

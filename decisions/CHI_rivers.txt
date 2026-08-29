@@ -1,0 +1,23 @@
+political_decisions = {
+	CHI_yellow_river_works = {
+		picture = CHI_yellow_river_works
+		potential = {
+			tag = CHI
+			NOT = { has_country_flag = CHI_yellow_course_done }
+			NOT = { has_country_flag = CHI_yellow_dikes_nation_done }
+			any_owned_province = { has_province_modifier = CHI_water_yellow_dikes }
+		}
+		allow = {
+			war = no
+			money = 2000000
+			OR = {
+				year = 1846
+				iron_railroad = 1
+			}
+		}
+		effect = {
+			country_event = { id = 144540 days = 0 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

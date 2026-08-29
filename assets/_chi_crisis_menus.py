@@ -43,17 +43,25 @@ def open_pe(eid):
     return f"		province_event = {{ id = {eid} days = 0 }}"
 
 
-def mark_click():
-    return """		owner = {
-			any_owned = { remove_province_modifier = CHI_click_mark }
-		}
-		add_province_modifier = { name = CHI_click_mark duration = -1 }"""
-
-
 def reopen_hub():
-    """Return to the single hub on this province — no country router."""
-    return f"""{mark_click()}
-{open_pe(HUB_ID)}"""
+    """Return to the hub that matches this province. Option triggers are ignored
+    by this engine, so we fire one of 144408-144415 via exclusive random_owned."""
+    return mod.fire_matching_hub()
+
+
+def reopen_food():
+    """One level up from irrigation / granary / river projects: food submenu."""
+    return mod.fire_matching_food()
+
+
+def reopen_coast():
+    """One level up from port/fleet info screens: coast submenu."""
+    return mod.fire_matching_coast()
+
+
+def reopen_sep():
+    """One level up from tax/revolt notices: separatism submenu."""
+    return open_pe(SEP_MENU_ID)
 
 
 HAS_SEP = """				OR = {
@@ -91,7 +99,6 @@ HAS_GRANARY_MENU = """				OR = {
 				}"""
 
 HAS_FOOD = """				OR = {
-					has_province_modifier = CHI_hydro_cd
 					has_province_modifier = CHI_water_1
 					has_province_modifier = CHI_water_2
 					has_province_modifier = CHI_water_3
@@ -103,8 +110,6 @@ HAS_FOOD = """				OR = {
 					has_province_modifier = CHI_famine_2
 					has_province_modifier = CHI_famine_3
 					has_province_modifier = CHI_famine_4
-					has_province_modifier = CHI_food_cd
-					has_province_modifier = CHI_great_granary
 				}"""
 
 HAS_COAST = """				is_coastal = yes
@@ -116,49 +121,51 @@ HAS_COAST = """				is_coastal = yes
 				}"""
 
 
-def hub_event(eid):
-    """Single hub: options appear only when the province has that crisis."""
+def hub_event(eid, sep, food, coast):
+    """Hub without option triggers: only the buttons that belong to this combo."""
+    opts = []
+    if sep:
+        opts.append(
+            f"""	option = {{
+		name = "CHI_menu_sep"
+{open_pe(SEP_MENU_ID)}
+	}}"""
+        )
+    if food:
+        opts.append(
+            f"""	option = {{
+		name = "CHI_menu_food"
+{mod.fire_matching_food()}
+	}}"""
+        )
+    if coast:
+        opts.append(
+            f"""	option = {{
+		name = "CHI_menu_coast"
+{mod.fire_matching_coast()}
+	}}"""
+        )
+    opts.append(
+        f"""	option = {{
+		name = "CHI_menu_misc"
+{open_pe(MISC_MENU_ID)}
+	}}"""
+    )
+    opts.append(
+        """	option = {
+		name = "Selector_EvtOptCancel"
+		province_selector = -1
+	}"""
+    )
+    desc = "CHI_Selector_EvtDesc_none" if not (sep or food or coast) else "CHI_Selector_EvtDesc"
+    joined = "\n".join(opts)
     return f"""province_event = {{
 	title = "CHI_Selector_EvtName"
-	desc = "CHI_Selector_EvtDesc"
+	desc = "{desc}"
 	id = {eid}
 	picture = "Administration"
 	is_triggered_only = yes
-	immediate = {{
-		owner = {{
-			any_owned = {{ remove_province_modifier = CHI_click_mark }}
-		}}
-		add_province_modifier = {{ name = CHI_click_mark duration = -1 }}
-	}}
-	option = {{
-		name = "CHI_menu_sep"
-		trigger = {{
-{HAS_SEP}
-		}}
-{open_pe(SEP_MENU_ID)}
-	}}
-	option = {{
-		name = "CHI_menu_food"
-		trigger = {{
-{HAS_FOOD}
-		}}
-{open_pe(FOOD_MENU_ID)}
-	}}
-	option = {{
-		name = "CHI_menu_coast"
-		trigger = {{
-{HAS_COAST}
-		}}
-{open_pe(COAST_MENU_ID)}
-	}}
-	option = {{
-		name = "CHI_menu_misc"
-{open_pe(MISC_MENU_ID)}
-	}}
-	option = {{
-		name = "Selector_EvtOptCancel"
-		province_selector = -1
-	}}
+{joined}
 }}
 """
 
@@ -171,7 +178,6 @@ def alias_event(eid, target, title="CHI_Selector_EvtName", desc="CHI_Selector_Ev
 	desc = "{desc}"
 	picture = "Administration"
 	is_triggered_only = yes
-	immediate = {{ add_province_modifier = {{ name = CHI_click_mark duration = -1 }} }}
 	option = {{
 		name = "CHI_sel_ok"
 		province_event = {{ id = {target} days = 0 }}
@@ -181,89 +187,114 @@ def alias_event(eid, target, title="CHI_Selector_EvtName", desc="CHI_Selector_Ev
 
 
 def build_hubs():
-    stubs = [hub_event(144409)]
-    for eid in range(144410, 144416):
-        stubs.append(alias_event(eid, HUB_ID))
-    return hub_event(HUB_ID) + "\n" + "\n".join(stubs)
+    return "\n".join(hub_event(eid, sep, food, coast) for eid, sep, food, coast in mod.HUB_COMBOS)
 
 
 def build_hub():
     return build_hubs()
 
 
-def build_food_submenu():
+def _food_menu(eid, water, granary, river):
     back = reopen_hub()
-    return f"""
-province_event = {{
-	title = "CHI_menu_food_title"
-	desc = "CHI_menu_food_desc"
-	id = {FOOD_MENU_ID}
-	picture = "Administration"
-	is_triggered_only = yes
-	option = {{
+    opts = []
+    if water:
+        opts.append(
+            f"""	option = {{
 		name = "CHI_menu_hydro"
-		trigger = {{
-{HAS_WATER}
-		}}
-{open_pe(WATER_MENU_ID)}
-	}}
-	option = {{
+{mod.fire_matching_water()}
+	}}"""
+        )
+    if granary:
+        opts.append(
+            f"""	option = {{
 		name = "CHI_menu_granary"
-		trigger = {{
-{HAS_GRANARY_MENU}
-		}}
 {open_pe(GRANARY_MENU_ID)}
-	}}
-	option = {{
+	}}"""
+        )
+    if river:
+        opts.append(
+            f"""	option = {{
+		name = "CHI_menu_river"
+{mod.fire_matching_river()}
+	}}"""
+        )
+    opts.append(
+        f"""	option = {{
 		name = "CHI_sel_back"
 {back}
-	}}
+	}}"""
+    )
+    joined = "\n".join(opts)
+    return f"""province_event = {{
+	title = "CHI_menu_food_title"
+	desc = "CHI_menu_food_desc"
+	id = {eid}
+	picture = "Administration"
+	is_triggered_only = yes
+{joined}
+}}
+"""
+
+
+def build_food_submenu():
+    return "\n".join(
+        _food_menu(eid, water, granary, river) for eid, water, granary, river in mod.FOOD_COMBOS
+    )
+
+
+def _coast_menu(eid, base, port_lv, ships):
+    back = reopen_hub()
+    opts = []
+    if port_lv and base:
+        opts.append(
+            """	option = {
+		name = "CHI_sel_port_piracy"
+		province_event = { id = 144465 days = 0 }
+	}"""
+        )
+    if port_lv and not base:
+        opts.append(
+            """	option = {
+		name = "CHI_need_port"
+		province_event = { id = 144463 days = 0 }
+	}"""
+        )
+    if ships:
+        opts.append(
+            """	option = {
+		name = "CHI_sel_fleet_piracy"
+		province_event = { id = 144466 days = 0 }
+	}"""
+        )
+    else:
+        opts.append(
+            """	option = {
+		name = "CHI_need_fleet"
+		province_event = { id = 144464 days = 0 }
+	}"""
+        )
+    opts.append(
+        f"""	option = {{
+		name = "CHI_sel_ok"
+{back}
+	}}"""
+    )
+    joined = "\n".join(opts)
+    return f"""province_event = {{
+	title = "CHI_menu_coast_title"
+	desc = "CHI_menu_coast_desc"
+	id = {eid}
+	picture = "Administration"
+	is_triggered_only = yes
+{joined}
 }}
 """
 
 
 def build_coast_submenu():
-    back = reopen_hub()
-    return f"""
-province_event = {{
-	title = "CHI_menu_coast_title"
-	desc = "CHI_menu_coast_desc"
-	id = {COAST_MENU_ID}
-	picture = "Administration"
-	is_triggered_only = yes
-	option = {{
-		name = "CHI_sel_port_piracy"
-		trigger = {{
-			is_coastal = yes
-			has_building = naval_base
-			OR = {{
-				has_province_modifier = CHI_piracy_2
-				has_province_modifier = CHI_piracy_3
-				has_province_modifier = CHI_piracy_4
-			}}
-		}}
-		province_event = {{ id = 144465 days = 0 }}
-	}}
-	option = {{
-		name = "CHI_sel_fleet_piracy"
-		trigger = {{
-			is_coastal = yes
-			owner = {{ total_amount_of_ships = 200 }}
-			OR = {{
-				has_province_modifier = CHI_piracy_1
-				has_province_modifier = CHI_piracy_2
-				has_province_modifier = CHI_piracy_3
-				has_province_modifier = CHI_piracy_4
-			}}
-		}}
-		province_event = {{ id = 144466 days = 0 }}
-	}}
-	option = {{
-		name = "CHI_sel_back"
-{back}
-	}}
-}}
-"""
+    return "\n".join(
+        _coast_menu(eid, base, port_lv, ships) for eid, base, port_lv, ships in mod.COAST_COMBOS
+    )
 
 
 def build_misc_submenu():
@@ -305,7 +336,7 @@ def build_dispatcher():
 def fire_need(flag, pmod, eid):
     return f"""			random_owned = {{
 				limit = {{
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = {{ NOT = {{ has_country_flag = CHI_crisis_paid }} }}
 					owner = {{ NOT = {{ has_country_flag = CHI_pay_fired }} }}
 					has_province_modifier = {pmod}
@@ -318,7 +349,7 @@ def fire_need(flag, pmod, eid):
 def fire_paid(flag, eid):
     return f"""			random_owned = {{
 				limit = {{
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = {{ has_country_flag = CHI_crisis_paid }}
 					owner = {{ NOT = {{ has_country_flag = CHI_pay_fired }} }}
 				}}
@@ -331,7 +362,7 @@ def wait_cd(flag, cd_mod):
     """Immediate only: block pay if CD is up. Do not fire events from immediate (Vic2 CTD)."""
     return f"""			random_owned = {{
 				limit = {{
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					has_province_modifier = {cd_mod}
 					owner = {{ NOT = {{ has_country_flag = CHI_pay_fired }} }}
 				}}
@@ -345,7 +376,7 @@ def wait_cd(flag, cd_mod):
 def fire_wait(wait_id):
     return f"""			random_owned = {{
 				limit = {{
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = {{ has_country_flag = CHI_pay_wait }}
 				}}
 				owner = {{ clr_country_flag = CHI_pay_wait }}
@@ -357,7 +388,7 @@ def granary_goods_pay():
     """Deduct stockpile goods if enough; set CHI_crisis_paid on success."""
     return """			random_owned = {
 				limit = {
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = {
 						timber = 250
 						cement = 150
@@ -379,7 +410,7 @@ def granary_goods_pay():
 def fire_goods_fallback(flag):
     return f"""			random_owned = {{
 				limit = {{
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = {{ NOT = {{ has_country_flag = CHI_crisis_paid }} }}
 					owner = {{ NOT = {{ has_country_flag = CHI_pay_fired }} }}
 				}}
@@ -390,38 +421,20 @@ def fire_goods_fallback(flag):
 
 def build_pay_dispatcher():
     bribe_pay = pay_flag("CHI_do_bribe", 500000, 1000000)
-    water_pay = "\n".join(
-        [
-            water_level_pay(1, WATER_REPAIR[1]),
-            water_level_pay(2, WATER_REPAIR[2]),
-            water_level_pay(3, WATER_REPAIR[3]),
-            water_level_pay(4, WATER_REPAIR[4]),
-        ]
-    )
-    uniq_pay = unique_goods_pay()
-    water_need = "\n".join(
-        [
-            fire_need("CHI_do_water_pay", "CHI_water_1", 144450),
-            fire_need("CHI_do_water_pay", "CHI_water_2", 144451),
-            fire_need("CHI_do_water_pay", "CHI_water_3", 144452),
-            fire_need("CHI_do_water_pay", "CHI_water_4", 144454),
-        ]
-    )
-    uniq_need = "\n".join(
-        [
-            fire_need("CHI_do_uniq_pay", "CHI_water_canal_silt", 144454),
-            fire_need("CHI_do_uniq_pay", "CHI_water_yangtze_nav", 144454),
-            fire_need("CHI_do_uniq_pay", "CHI_water_yellow_dikes", 144454),
-        ]
-    )
-    def stage(eid, imm_body, opt_body):
+    water_need = {
+        1: fire_need("CHI_do_water_pay", "CHI_water_1", 144450),
+        2: fire_need("CHI_do_water_pay", "CHI_water_2", 144451),
+        3: fire_need("CHI_do_water_pay", "CHI_water_3", 144452),
+        4: fire_need("CHI_do_water_pay", "CHI_water_4", 144454),
+    }
+    def stage(eid, imm_body, opt_body, title, desc):
         # Immediate: money/goods only. Option: follow-up events.
         # Vic2 CTDs if province_event is fired from immediate.
         return f"""
 province_event = {{
 	id = {eid}
-	title = "CHI_pay_processing"
-	desc = "CHI_pay_processing_desc"
+	title = "{title}"
+	desc = "{desc}"
 	picture = "Administration"
 	is_triggered_only = yes
 	immediate = {{
@@ -447,7 +460,7 @@ province_event = {{
 
     bribe_fail = f"""			random_owned = {{
 				limit = {{
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = {{ NOT = {{ has_country_flag = CHI_crisis_paid }} }}
 					owner = {{ NOT = {{ has_country_flag = CHI_pay_fired }} }}
 					owner = {{ has_country_modifier = CHI_corruption_high }}
@@ -457,7 +470,7 @@ province_event = {{
 			}}
 			random_owned = {{
 				limit = {{
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = {{ NOT = {{ has_country_flag = CHI_crisis_paid }} }}
 					owner = {{ NOT = {{ has_country_flag = CHI_pay_fired }} }}
 				}}
@@ -473,24 +486,85 @@ province_event = {{
             f"""{fire_wait(144456)}
 {fire_paid("CHI_do_bribe", 144437)}
 {bribe_fail}""",
+            "CHI_pay_bribe",
+            "CHI_pay_bribe_desc",
         ),
-        "water": stage(
+        "water_1": stage(
             144494,
             f"""{wait_cd("CHI_do_water_pay", "CHI_hydro_cd")}
-{water_pay}""",
+{water_level_pay(1, WATER_REPAIR[1])}""",
             f"""{fire_wait(144458)}
 {fire_paid("CHI_do_water_pay", 144431)}
-{water_need}
+{water_need[1]}
 {fire_goods_fallback("CHI_do_water_pay")}""",
+            "CHI_pay_water_1",
+            "CHI_pay_water_1_desc",
         ),
-        "unique": stage(
-            144495,
-            f"""{wait_cd("CHI_do_uniq_pay", "CHI_hydro_cd")}
-{uniq_pay}""",
+        "water_2": stage(
+            144497,
+            f"""{wait_cd("CHI_do_water_pay", "CHI_hydro_cd")}
+{water_level_pay(2, WATER_REPAIR[2])}""",
             f"""{fire_wait(144458)}
-{fire_paid("CHI_do_uniq_pay", 144433)}
-{uniq_need}
-{fire_goods_fallback("CHI_do_uniq_pay")}""",
+{fire_paid("CHI_do_water_pay", 144431)}
+{water_need[2]}
+{fire_goods_fallback("CHI_do_water_pay")}""",
+            "CHI_pay_water_2",
+            "CHI_pay_water_2_desc",
+        ),
+        "water_3": stage(
+            144498,
+            f"""{wait_cd("CHI_do_water_pay", "CHI_hydro_cd")}
+{water_level_pay(3, WATER_REPAIR[3])}""",
+            f"""{fire_wait(144458)}
+{fire_paid("CHI_do_water_pay", 144431)}
+{water_need[3]}
+{fire_goods_fallback("CHI_do_water_pay")}""",
+            "CHI_pay_water_3",
+            "CHI_pay_water_3_desc",
+        ),
+        "water_4": stage(
+            144499,
+            f"""{wait_cd("CHI_do_water_pay", "CHI_hydro_cd")}
+{water_level_pay(4, WATER_REPAIR[4])}""",
+            f"""{fire_wait(144458)}
+{fire_paid("CHI_do_water_pay", 144431)}
+{water_need[4]}
+{fire_goods_fallback("CHI_do_water_pay")}""",
+            "CHI_pay_water_4",
+            "CHI_pay_water_4_desc",
+        ),
+        "canal": stage(
+            144495,
+            f"""{wait_cd("CHI_do_canal_pay", "CHI_canal_cd")}
+{canal_goods_pay()}""",
+            f"""{fire_wait(144536)}
+{fire_paid("CHI_do_canal_pay", 144433)}
+{fire_need("CHI_do_canal_pay", "CHI_water_canal_silt", 144452)}
+{fire_goods_fallback("CHI_do_canal_pay")}""",
+            "CHI_pay_canal",
+            "CHI_pay_canal_desc",
+        ),
+        "yangtze": stage(
+            144531,
+            f"""{wait_cd("CHI_do_yangtze_pay", "CHI_yangtze_cd")}
+{yangtze_goods_pay()}""",
+            f"""{fire_wait(144536)}
+{fire_paid("CHI_do_yangtze_pay", 144534)}
+{fire_need("CHI_do_yangtze_pay", "CHI_water_yangtze_nav", 144452)}
+{fire_goods_fallback("CHI_do_yangtze_pay")}""",
+            "CHI_pay_yangtze",
+            "CHI_pay_yangtze_desc",
+        ),
+        "yellow": stage(
+            144532,
+            f"""{wait_cd("CHI_do_yellow_pay", "CHI_yellow_cd")}
+{yellow_goods_pay()}""",
+            f"""{fire_wait(144536)}
+{fire_paid("CHI_do_yellow_pay", 144535)}
+{fire_need("CHI_do_yellow_pay", "CHI_water_yellow_dikes", 144453)}
+{fire_goods_fallback("CHI_do_yellow_pay")}""",
+            "CHI_pay_yellow",
+            "CHI_pay_yellow_desc",
         ),
         "granary": stage(
             144496,
@@ -498,13 +572,15 @@ province_event = {{
             f"""{fire_paid("CHI_do_granary_pay", 144432)}
 			random_owned = {{
 				limit = {{
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = {{ NOT = {{ has_country_flag = CHI_crisis_paid }} }}
 					owner = {{ NOT = {{ has_country_flag = CHI_pay_fired }} }}
 				}}
 				owner = {{ set_country_flag = CHI_pay_fired }}
 				province_event = {{ id = 144524 days = 1 }}
 			}}""",
+            "CHI_pay_granary",
+            "CHI_pay_granary_desc",
         ),
     }
 
@@ -512,6 +588,14 @@ province_event = {{
 def back_effect(back_id):
     if back_id == "hub":
         return reopen_hub()
+    if back_id == "food":
+        return reopen_food()
+    if back_id == "coast":
+        return reopen_coast()
+    if back_id == "misc":
+        return open_pe(MISC_MENU_ID)
+    if back_id == "sep":
+        return reopen_sep()
     if back_id == "ok":
         return ""
     return f"		province_event = {{ id = {back_id} days = 0 }}"
@@ -552,8 +636,7 @@ def confirm(eid, title, desc, opt_name, opt_effect, back_id):
 
 
 def pay_click(flag, pay_id):
-    return f"""		add_province_modifier = {{ name = CHI_click_mark duration = -1 }}
-		province_event = {{ id = {pay_id} days = 0 }}"""
+    return f"		province_event = {{ id = {pay_id} days = 0 }}"
 
 
 def bribe_sep_effect():
@@ -566,10 +649,9 @@ def granary_build_effect():
     return pay_click("CHI_do_granary_pay", 144496)
 
 
-def sep_methods(eid=SEP_MENU_ID, lvl=1):
-    tax_prov = """		add_province_modifier = { name = CHI_click_mark duration = -1 }
-		province_event = { id = 144512 days = 0 }"""
-    revolt_fx = f"""		any_pop = {{
+def revolt_confirm_effect():
+    """Effects live on the confirm option, not on the menu button or in immediate."""
+    return f"""		any_pop = {{
 			limit = {{
 				OR = {{
 					type = farmers
@@ -588,6 +670,10 @@ def sep_methods(eid=SEP_MENU_ID, lvl=1):
 		remove_province_modifier = CHI_sep_revolt_won
 		owner = {{ set_country_flag = CHI_sep_revolt_active }}
 {reopen_hub()}"""
+
+
+def sep_methods(eid=SEP_MENU_ID, lvl=1):
+    tax_prov = "		province_event = { id = 144512 days = 0 }"
     return f"""province_event = {{
 	id = {SEP_MENU_ID}
 	title = "CHI_sep_menu_title"
@@ -613,7 +699,7 @@ def sep_methods(eid=SEP_MENU_ID, lvl=1):
 		trigger = {{
 			NOT = {{ has_province_modifier = CHI_sep_revolt_cd }}
 		}}
-{revolt_fx}
+		province_event = {{ id = 144525 days = 0 }}
 	}}
 	option = {{
 		name = "CHI_sel_back"
@@ -626,23 +712,36 @@ def sep_methods(eid=SEP_MENU_ID, lvl=1):
 def build_money_notices():
     return "\n".join(
         [
-            notice(144450, "CHI_need_200k", "CHI_need_money_desc", "hub"),
+            notice(144450, "CHI_need_200k", "CHI_need_money_desc", "food"),
             notice(144451, "CHI_need_500k", "CHI_need_money_desc", "hub"),
             notice(144452, "CHI_need_1m", "CHI_need_money_desc", "hub"),
-            notice(144453, "CHI_need_15m", "CHI_need_money_desc", "hub"),
-            notice(144454, "CHI_need_2m", "CHI_need_money_desc", "hub"),
-            notice(144524, "CHI_need_goods", "CHI_need_goods_desc", "hub"),
+            notice(144453, "CHI_need_15m", "CHI_need_money_desc", "food"),
+            notice(144454, "CHI_need_2m", "CHI_need_money_desc", "food"),
+            notice(144524, "CHI_need_goods", "CHI_need_goods_desc", "food"),
         ]
     )
 
 
 def build_sep_leaves():
+    revolt_ok = f"""province_event = {{
+	id = 144525
+	title = "CHI_sel_revolt"
+	desc = "CHI_sel_revolt_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {{
+		name = "CHI_sel_ok"
+{revolt_confirm_effect()}
+	}}
+}}
+"""
     parts = [
         notice(144455, "CHI_sel_sep_none", "CHI_sel_sep_none_desc", "hub"),
         notice(144456, "CHI_sel_sep_wait", "CHI_sel_sep_wait_desc", "hub"),
-        notice(144491, "CHI_sel_revolt_won", "CHI_sel_revolt_won_desc", "ok"),
-        notice(144513, "CHI_sel_tax_done", "CHI_sel_tax_done_desc", "hub"),
+        notice(144491, "CHI_sel_revolt_won", "CHI_sel_revolt_won_desc", "sep"),
+        notice(144513, "CHI_sel_tax_done", "CHI_sel_tax_done_desc", "sep"),
         sep_methods(),
+        revolt_ok,
     ]
     for eid in range(144481, 144490):
         parts.append(alias_event(eid, SEP_MENU_ID, "CHI_sep_menu_title", "CHI_menu_sep_desc"))
@@ -664,6 +763,30 @@ UNIQUE_REPAIR = {
     "cement": 3600,
     "iron": 2400,
     "lumber": 1800,
+}
+CANAL_REPAIR = {
+    "money": 1000000,
+    "corrupt": 2000000,
+    "timber": 3000,
+    "cement": 1500,
+    "iron": 1000,
+    "lumber": 800,
+}
+YANGTZE_REPAIR = {
+    "money": 1000000,
+    "corrupt": 2000000,
+    "timber": 2500,
+    "cement": 1200,
+    "iron": 1500,
+    "lumber": 700,
+}
+YELLOW_REPAIR = {
+    "money": 1500000,
+    "corrupt": 3000000,
+    "timber": 4000,
+    "cement": 2500,
+    "iron": 1500,
+    "lumber": 1200,
 }
 
 
@@ -782,7 +905,7 @@ def pay_goods_flag(flag, amount, corrupt_amount, costs, level_mod=None, indent="
             blocks.append(
                 f"""{indent}random_owned = {{
 {indent}\tlimit = {{
-{indent}		has_province_modifier = CHI_click_mark
+{indent}		has_building = province_selector
 {extra}{indent}\t}}
 {indent}\towner = {{
 {body}
@@ -793,7 +916,7 @@ def pay_goods_flag(flag, amount, corrupt_amount, costs, level_mod=None, indent="
             blocks.append(
                 f"""{indent}random_owned = {{
 {indent}\tlimit = {{
-{indent}		has_province_modifier = CHI_click_mark
+{indent}		has_building = province_selector
 {indent}\t\towner = {{ has_country_flag = CHI_pay_part }}
 {indent}\t\towner = {{ NOT = {{ has_country_flag = CHI_crisis_paid }} }}
 {indent}\t}}
@@ -828,6 +951,36 @@ def unique_goods_pay():
         indent="\t\t\t",
     )
 
+
+def canal_goods_pay():
+    return pay_goods_flag(
+        "CHI_do_canal_pay",
+        CANAL_REPAIR["money"],
+        CANAL_REPAIR["corrupt"],
+        CANAL_REPAIR,
+        indent="\t\t\t",
+    )
+
+
+def yangtze_goods_pay():
+    return pay_goods_flag(
+        "CHI_do_yangtze_pay",
+        YANGTZE_REPAIR["money"],
+        YANGTZE_REPAIR["corrupt"],
+        YANGTZE_REPAIR,
+        indent="\t\t\t",
+    )
+
+
+def yellow_goods_pay():
+    return pay_goods_flag(
+        "CHI_do_yellow_pay",
+        YELLOW_REPAIR["money"],
+        YELLOW_REPAIR["corrupt"],
+        YELLOW_REPAIR,
+        indent="\t\t\t",
+    )
+
 def water_choice(eid, desc_key, step_name, flag, pay_id):
     return f"""province_event = {{
 \tid = {eid}
@@ -844,47 +997,32 @@ def water_choice(eid, desc_key, step_name, flag, pay_id):
 \t}}
 \toption = {{
 \t\tname = "CHI_sel_back"
-{reopen_hub()}
+{reopen_food()}
 \t}}
 }}
 """
 
-def build_water_leaves():
+WATER_PAY_ID = {1: 144494, 2: 144497, 3: 144498, 4: 144499}
+
+
+def _water_choice_menu(eid, level):
     opts = []
-    for lvl in range(1, 5):
+    if level:
         opts.append(
             f"""	option = {{
-		name = "CHI_sel_water_{lvl}"
-		trigger = {{
-			has_province_modifier = CHI_water_{lvl}
-			NOT = {{ has_province_modifier = CHI_hydro_cd }}
-		}}
-{pay_click("CHI_do_water_pay", 144494)}
+		name = "CHI_sel_water_{level}"
+{pay_click("CHI_do_water_pay", WATER_PAY_ID[level])}
 	}}"""
         )
     opts.append(
         f"""	option = {{
-		name = "CHI_sel_unique_water"
-		trigger = {{
-			OR = {{
-				has_province_modifier = CHI_water_canal_silt
-				has_province_modifier = CHI_water_yangtze_nav
-				has_province_modifier = CHI_water_yellow_dikes
-			}}
-			NOT = {{ has_province_modifier = CHI_hydro_cd }}
-		}}
-{pay_click("CHI_do_uniq_pay", 144495)}
-	}}"""
-    )
-    opts.append(
-        f"""	option = {{
 		name = "CHI_sel_back"
-{reopen_hub()}
+{reopen_food()}
 	}}"""
-    )
+        )
     joined = "\n".join(opts)
-    menu = f"""province_event = {{
-	id = {WATER_MENU_ID}
+    return f"""province_event = {{
+	id = {eid}
 	title = "CHI_water_choice_title"
 	desc = "CHI_water_choice_desc"
 	picture = "Administration"
@@ -892,19 +1030,75 @@ def build_water_leaves():
 {joined}
 }}
 """
-    aliases = [alias_event(eid, WATER_MENU_ID, "CHI_water_choice_title", "CHI_water_choice_desc") for eid in (144471, 144472, 144473, 144474)]
+
+
+def build_water_leaves():
+    menus = [
+        _water_choice_menu(144470, 1),
+        _water_choice_menu(144471, 2),
+        _water_choice_menu(144472, 3),
+        _water_choice_menu(144473, 4),
+    ]
     return "\n".join(
         [
-            notice(144457, "CHI_sel_no_water", "CHI_sel_no_water_desc", "hub"),
-            notice(144458, "CHI_sel_hydro_wait", "CHI_sel_hydro_wait_desc", "hub"),
-            menu,
+            notice(144457, "CHI_sel_no_water", "CHI_sel_no_water_desc", "food"),
+            notice(144458, "CHI_sel_hydro_wait", "CHI_sel_hydro_wait_desc", "food"),
         ]
-        + aliases
+        + menus
+    )
+
+
+def _river_menu(eid, canal, yangtze, yellow):
+    back = reopen_food()
+    opts = []
+    if canal:
+        opts.append(
+            """	option = {
+		name = "CHI_sel_canal_silt"
+		province_event = { id = 144495 days = 0 }
+	}"""
+        )
+    if yangtze:
+        opts.append(
+            """	option = {
+		name = "CHI_sel_yangtze_nav"
+		province_event = { id = 144531 days = 0 }
+	}"""
+        )
+    if yellow:
+        opts.append(
+            """	option = {
+		name = "CHI_sel_yellow_dikes"
+		province_event = { id = 144532 days = 0 }
+	}"""
+        )
+    opts.append(
+        f"""	option = {{
+		name = "CHI_sel_back"
+{back}
+	}}"""
+    )
+    joined = "\n".join(opts)
+    return f"""province_event = {{
+	id = {eid}
+	title = "CHI_menu_river_title"
+	desc = "CHI_menu_river_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+{joined}
+}}
+"""
+
+
+def build_river_leaves():
+    menus = [_river_menu(eid, c, y, ye) for eid, c, y, ye in mod.RIVER_COMBOS]
+    return "\n".join(
+        [notice(144536, "CHI_sel_river_wait", "CHI_sel_river_wait_desc", "food")] + menus
     )
 
 
 def build_famine_leaves():
-    hub = reopen_hub()
+    food = reopen_food()
     granary_menu = f"""province_event = {{
 	id = 144475
 	title = "CHI_famine_choice_title"
@@ -926,84 +1120,108 @@ def build_famine_leaves():
 	}}
 	option = {{
 		name = "CHI_sel_back"
-{hub}
+{food}
 	}}
 }}
 """
     return "\n".join(
         [
-            notice(144459, "CHI_sel_no_famine", "CHI_sel_no_famine_desc", "hub"),
-            notice(144460, "CHI_sel_has_granary", "CHI_sel_has_granary_desc", "hub"),
-            notice(144523, "CHI_sel_food_wait", "CHI_sel_food_wait_desc", "hub"),
+            notice(144459, "CHI_sel_no_famine", "CHI_sel_no_famine_desc", "food"),
+            notice(144460, "CHI_sel_has_granary", "CHI_sel_has_granary_desc", "food"),
+            notice(144523, "CHI_sel_food_wait", "CHI_sel_food_wait_desc", "food"),
             granary_menu,
         ]
     )
 
 
 def build_piracy_leaves():
-    hub = reopen_hub()
-    # Click mark is already on THIS from the hub; do not add it again in the
-    # same option as reopen_hub() (validator: duplicate add_province_modifier).
-    port_fx = f"""		owner = {{
-			random_owned = {{
-				limit = {{
-					has_province_modifier = CHI_click_mark
+    coast = reopen_coast()
+    port_imm = """		owner = {
+			clr_country_flag = CHI_port_step
+			random_owned = {
+				limit = {
+					has_building = province_selector
 					has_province_modifier = CHI_piracy_4
-				}}
+				}
 				remove_province_modifier = CHI_piracy_4
-				add_province_modifier = {{ name = CHI_piracy_3 duration = -1 }}
-				add_province_modifier = {{ name = CHI_lvl_dropped duration = -1 }}
-			}}
-			random_owned = {{
-				limit = {{
-					has_province_modifier = CHI_click_mark
+				add_province_modifier = { name = CHI_piracy_3 duration = -1 }
+				owner = { set_country_flag = CHI_port_step }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
 					has_province_modifier = CHI_piracy_3
-					NOT = {{ has_province_modifier = CHI_lvl_dropped }}
-				}}
+					owner = { NOT = { has_country_flag = CHI_port_step } }
+				}
 				remove_province_modifier = CHI_piracy_3
-				add_province_modifier = {{ name = CHI_piracy_2 duration = -1 }}
-				add_province_modifier = {{ name = CHI_lvl_dropped duration = -1 }}
-			}}
-			random_owned = {{
-				limit = {{
-					has_province_modifier = CHI_click_mark
+				add_province_modifier = { name = CHI_piracy_2 duration = -1 }
+				owner = { set_country_flag = CHI_port_step }
+			}
+			random_owned = {
+				limit = {
+					has_building = province_selector
 					has_province_modifier = CHI_piracy_2
-					NOT = {{ has_province_modifier = CHI_lvl_dropped }}
-				}}
+					owner = { NOT = { has_country_flag = CHI_port_step } }
+				}
 				remove_province_modifier = CHI_piracy_2
-				add_province_modifier = {{ name = CHI_piracy_1 duration = -1 }}
-				add_province_modifier = {{ name = CHI_lvl_dropped duration = -1 }}
-			}}
-			any_owned = {{
-				limit = {{ has_province_modifier = CHI_click_mark }}
-				add_province_modifier = {{ name = CHI_port_anti_piracy duration = -1 }}
-				remove_province_modifier = CHI_lvl_dropped
-			}}
-		}}
-{hub}"""
-    fleet_fx = f"""		owner = {{
-			any_owned = {{
+				add_province_modifier = { name = CHI_piracy_1 duration = -1 }
+			}
+			any_owned = {
+				limit = { has_building = province_selector }
+				add_province_modifier = { name = CHI_port_anti_piracy duration = -1 }
+			}
+			clr_country_flag = CHI_port_step
+		}"""
+    fleet_imm = """		owner = {
+			any_owned = {
+				limit = {
+					OR = {
+						has_province_modifier = CHI_piracy_1
+						has_province_modifier = CHI_piracy_2
+						has_province_modifier = CHI_piracy_3
+						has_province_modifier = CHI_piracy_4
+					}
+				}
 				remove_province_modifier = CHI_piracy_1
 				remove_province_modifier = CHI_piracy_2
 				remove_province_modifier = CHI_piracy_3
 				remove_province_modifier = CHI_piracy_4
-			}}
-		}}
-{hub}"""
+			}
+		}"""
+    def info_then_ok(eid, title, desc, effect="", back=None):
+        # Effects on the option, never in immediate: Vic2 dumps add/remove
+        # onto the parchment as white/yellow text if they sit in immediate.
+        # Fleet wipe removes piracy, so coast matching would find nothing — hub.
+        opt_fx = f"{effect}\n" if effect else ""
+        back_fx = back if back is not None else coast
+        return f"""province_event = {{
+	id = {eid}
+	title = "{title}"
+	desc = "{desc}"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {{
+		name = "CHI_sel_ok"
+{opt_fx}{back_fx}
+	}}
+}}
+"""
     return "\n".join(
         [
             notice(144461, "CHI_sel_not_coast", "CHI_sel_not_coast_desc", "hub"),
             notice(144462, "CHI_sel_no_piracy", "CHI_sel_no_piracy_desc", "hub"),
-            notice(144463, "CHI_need_port", "CHI_need_port_desc", "hub"),
-            notice(144464, "CHI_need_fleet", "CHI_need_fleet_desc", "hub"),
-            confirm(144465, "CHI_sel_port_piracy", "CHI_sel_port_piracy_desc", "CHI_sel_port_piracy", port_fx, "hub"),
-            confirm(144466, "CHI_sel_fleet_piracy", "CHI_sel_fleet_piracy_desc", "CHI_sel_fleet_piracy", fleet_fx, "hub"),
+            info_then_ok(144463, "CHI_need_port", "CHI_need_port_desc"),
+            info_then_ok(144464, "CHI_need_fleet", "CHI_need_fleet_desc"),
+            info_then_ok(144465, "CHI_sel_port_piracy", "CHI_sel_port_piracy_desc", port_imm),
+            info_then_ok(
+                144466, "CHI_sel_fleet_piracy", "CHI_sel_fleet_piracy_desc", fleet_imm, reopen_hub()
+            ),
         ]
     )
 
 
 def build_depot_leaf():
-    hub = reopen_hub()
+    misc = open_pe(MISC_MENU_ID)
     return f"""province_event = {{
 	id = 144467
 	title = "CHI_depot_title"
@@ -1029,7 +1247,7 @@ def build_depot_leaf():
 	}}
 	option = {{
 		name = "CHI_sel_back"
-{hub}
+{misc}
 	}}
 }}
 """
@@ -1278,8 +1496,8 @@ def dec_hub_route(extra, eid):
 
 
 def build_selector_decision():
-    """Hub is a province_event on the clicked selector province (144408)."""
-    return """political_decisions = {
+    """Pick 144408-144415 from the selector province modifiers (no option triggers)."""
+    text = """political_decisions = {
 	select_prov = {
 		picture = build_kiel_canal
 			potential = {
@@ -1349,15 +1567,7 @@ def build_selector_decision():
 					clr_country_flag = CHI_pay_fired
 					clr_country_flag = CHI_crisis_paid
 					set_country_flag = CHI_mode_hub
-					random_owned = {
-						limit = {
-							has_building = province_selector
-						}
-						province_event = {
-							id = 144408
-							days = 0
-						}
-					}
+HUB_FIRE_PLACEHOLDER
 				}
 			}
 			
@@ -1365,6 +1575,7 @@ def build_selector_decision():
 		}
 }
 """
+    return text.replace("HUB_FIRE_PLACEHOLDER", mod.matching_hub_randoms("\t\t\t\t\t"))
 
 
 def write_selector():
@@ -1509,7 +1720,7 @@ def build_tax_event(rids):
     stacks = "\n".join(
         f"""			random_owned = {{
 				limit = {{
-					has_province_modifier = CHI_click_mark
+					has_building = province_selector
 					owner = {{ NOT = {{ has_country_flag = CHI_tax_stacked }} }}
 					owner = {{ NOT = {{ has_country_modifier = CHI_sep_tax_stack_{i} }} }}
 				}}
@@ -1548,7 +1759,7 @@ province_event = {{
 		name = "CHI_sel_ok"
 		owner = {{
 			random_owned = {{
-				limit = {{ has_province_modifier = CHI_click_mark }}
+				limit = {{ has_building = province_selector }}
 				province_event = {{ id = 144513 days = 1 }}
 			}}
 			clr_country_flag = CHI_tax_stacked
@@ -1633,16 +1844,28 @@ def write_crises():
             [build_revolt_pulse(rids)],
         ),
         "CHI_crisis_20_water_pay.txt": (
-            "# Water + unique river pay stages\n",
-            [pays["water"], pays["unique"]],
+            "# Water + river project pay stages\n",
+            [
+                pays["water_1"],
+                pays["water_2"],
+                pays["water_3"],
+                pays["water_4"],
+                pays["canal"],
+                pays["yangtze"],
+                pays["yellow"],
+            ],
         ),
         "CHI_crisis_21_water_worker.txt": (
-            "# Water workers\n",
-            [workers["water"], workers["unique"]],
+            "# Water + river workers\n",
+            [workers["water"], workers["unique"], workers["yangtze"], workers["yellow"]],
         ),
         "CHI_crisis_22_water_menus.txt": (
             "# Water choice menus\n",
             [build_water_leaves()],
+        ),
+        "CHI_crisis_23_river_menus.txt": (
+            "# Canal / Yangtze / Yellow dike projects\n",
+            [build_river_leaves()],
         ),
         "CHI_crisis_30_famine_pay.txt": (
             "# Granary pay stage\n",
@@ -1698,8 +1921,13 @@ def patch_modifiers():
         changed = True
         print("CHI_sep_tax_cut is province marker only")
     extra_bits = []
-    if "CHI_food_cd =" not in text:
-        extra_bits.append("CHI_food_cd = {\n\ticon = 7\n}")
+    if "CHI_canal_cd =" not in text:
+        extra_bits.append(
+            "CHI_canal_cd = {\n\ticon = 8\n}\n"
+            "CHI_yangtze_cd = {\n\ticon = 8\n}\n"
+            "CHI_yellow_cd = {\n\ticon = 8\n}\n"
+            "CHI_yellow_new_course = {\n\tfarm_RGO_eff = 0.03\n\timmigrant_attract = 0.05\n\ticon = 11\n}"
+        )
     if "CHI_sep_revolt_cd =" not in text:
         extra_bits.append(NEW_MODS.strip())
     if "CHI_sep_tax_stack_1 =" not in text:
@@ -1760,6 +1988,7 @@ CHI_fleet_anti_piracy_ready = {
 def patch_loc():
     keys = {
         "CHI_Selector_EvtDesc",
+        "CHI_Selector_EvtDesc_none",
         "CHI_Selector_EvtName",
         "Selector_EvtName",
         "Selector_EvtDesc",
@@ -1848,7 +2077,7 @@ def patch_loc():
             "CHI_sel_revolt_wait",
             "CHI_sel_revolt_wait_desc",
             "CHI_sel_revolt_won",
-        "CHI_sel_revolt_won_desc",
+            "CHI_sel_revolt_won_desc",
         "CHI_sep_tax_cut",
         "CHI_sep_tax_cut_desc",
         "CHI_sep_revolt_cd",
@@ -1866,6 +2095,54 @@ def patch_loc():
             "CHI_sel_bribe_desc",
             "CHI_pay_processing",
             "CHI_pay_processing_desc",
+            "CHI_pay_granary",
+            "CHI_pay_granary_desc",
+            "CHI_pay_bribe",
+            "CHI_pay_bribe_desc",
+            "CHI_pay_unique",
+            "CHI_pay_unique_desc",
+            "CHI_pay_canal",
+            "CHI_pay_canal_desc",
+            "CHI_pay_yangtze",
+            "CHI_pay_yangtze_desc",
+            "CHI_pay_yellow",
+            "CHI_pay_yellow_desc",
+            "CHI_menu_river",
+            "CHI_menu_river_title",
+            "CHI_menu_river_desc",
+            "CHI_sel_canal_silt",
+            "CHI_sel_yangtze_nav",
+            "CHI_sel_yellow_dikes",
+            "CHI_sel_canal_done",
+            "CHI_sel_canal_done_desc",
+            "CHI_sel_yangtze_done",
+            "CHI_sel_yangtze_done_desc",
+            "CHI_sel_yellow_done",
+            "CHI_sel_yellow_done_desc",
+            "CHI_sel_river_wait",
+            "CHI_sel_river_wait_desc",
+            "CHI_canal_cd",
+            "CHI_canal_cd_desc",
+            "CHI_yangtze_cd",
+            "CHI_yangtze_cd_desc",
+            "CHI_yellow_cd",
+            "CHI_yellow_cd_desc",
+            "CHI_yellow_new_course",
+            "CHI_yellow_new_course_desc",
+            "CHI_yellow_river_works",
+            "CHI_yellow_river_works_desc",
+            "CHI_yellow_course_title",
+            "CHI_yellow_course_desc",
+            "CHI_yellow_course_north",
+            "CHI_yellow_course_dikes",
+            "CHI_pay_water_1",
+            "CHI_pay_water_1_desc",
+            "CHI_pay_water_2",
+            "CHI_pay_water_2_desc",
+            "CHI_pay_water_3",
+            "CHI_pay_water_3_desc",
+            "CHI_pay_water_4",
+            "CHI_pay_water_4_desc",
             "CHI_menu_sep_desc",
             "CHI_sel_sep_none_desc",
             "CHI_sel_sep_wait_desc",
@@ -1970,7 +2247,11 @@ def patch_loc():
         loc_line("CHI_Selector_EvtName", "Управление провинцией"),
         loc_line(
             "CHI_Selector_EvtDesc",
-            "Действие применяется ко всему региону (сепаратизм, вода, голод) или только к этой провинции (порт). При высокой коррупции денежная цена удваивается. Числа эффектов модификаторов смотрите в их карточках; здесь — только то, чего в модификаторе нет: цены, повторы, порог солдат в типах POP, лимит 2 000 000 на одну строку казны.",
+            "Только бедствия этой провинции. Сепаратизм, вода и голод — на весь регион. Порт — только сюда. При высокой коррупции деньги вдвое.",
+        ),
+        loc_line(
+            "CHI_Selector_EvtDesc_none",
+            "В этой провинции нет сепаратизма, проблем с водой, голода и пиратства. Можно поставить склад или закрыть окно.",
         ),
         loc_line("Selector_EvtName", "Селектор провинции"),
         loc_line(
@@ -1986,22 +2267,28 @@ def patch_loc():
             "CHI_menu_misc_desc",
             "Склад снабжения стоит 500 000 и ставится только в этой провинции. Старый склад в других провинциях снимается. Если в казне меньше 500 000, кнопки склада не будет.",
         ),
-        loc_line("CHI_sel_depot", "Провинциальный склад (500 000)"),
-        loc_line("CHI_menu_hydro", "Ирригация и дамбы"),
+        loc_line("CHI_sel_depot", "Провинциальный склад"),
+        loc_line("CHI_menu_hydro", "Ирригация"),
+        loc_line("CHI_menu_river", "Речные проекты"),
+        loc_line("CHI_menu_river_title", "Речные проекты региона"),
+        loc_line(
+            "CHI_menu_river_desc",
+            "Кнопки только для проблем этой провинции. Очистка канала от ила, расчистка фарватера Янцзы и ремонт дамб Хуанхэ снимают свой модификатор во всём регионе. Перекопать русло Хуанхэ по всей империи нельзя отсюда — это решение двора.",
+        ),
         loc_line("CHI_menu_sep_title", "Борьба с сепаратизмом"),
         loc_line(
             "CHI_menu_sep_desc",
-            "Подкуп: 500 000 (при коррупции 1 000 000) снижает сепаратизм всего региона на 1 уровень. Если подавление уже идёт, кнопки подкупа нет — повтор через год. Налоговая льгота на 2 года ставит маркер на регион и каждый раз отдельно режет эффективность налогов страны на 4% (складывается до 20 регионов). Провокация: милитантность в этой провинции, через полгода если провинция снова под контролем — сепаратизм региона падает на 1. Повтор провокации 2 года. Лимит солдат задаётся типами POP, не модификатором сепаратизма.",
+            "Подкуп: 500 000 (при коррупции 1 000 000), сепаратизм региона -1, повтор год. Налог: маркер на регион на 2 года, казна -4% за каждый такой регион. Провокация: только эта провинция, через полгода при контроле Китая сепаратизм региона -1.",
         ),
         loc_line("CHI_menu_food_title", "Голод и вода"),
         loc_line(
             "CHI_menu_food_desc",
-            "Ирригация поэтапно на 1 уровень в регионе. Повтор здесь ~2.5 года. Амбар из складов: дерево 250, цемент 150, железо 100, пиломатериалы 80; голод -1, повтор 2 года. Если голод связан с водой, ремонт ирригации тоже снижает голод. Когда железная дорога 2-го уровня стоит во всех провинциях региона, пульс Ян-Майена один раз снижает голод на 1 и вешает «Инфраструктура против голода». При коррупции деньги x2; больше 2 000 000 игра берёт двумя платежами по 2 000 000.",
+            "Ирригация: -1 уровень воды в регионе, повтор около 2.5 лет. Амбар: дерево 250, цемент 150, железо 100, пиломатериалы 80. Речные проекты отдельно: очистка канала от ила, фарватер Янцзы, ремонт дамб Хуанхэ. Перенос русла Хуанхэ — решение во вкладке политики.",
         ),
         loc_line("CHI_menu_coast_title", "Побережье и пиратство"),
         loc_line(
             "CHI_menu_coast_desc",
-            "Порт снижает пиратство на 1 уровень только в этой провинции: кнопка есть, если здесь уже стоит военно-морская база и пиратство 2–4. Без базы кнопки порта нет — сначала постройте базу. Флот в 200 кораблей снимает пиратство со всех провинций страны: кнопка есть только при 200+ кораблях. Пиратство 1 портом не снимается, только флотом.",
+            "Кнопки ниже только по факту этой провинции. Порт: нужна уже построенная военно-морская база именно здесь (окно не умеет показать число баз — есть или нет). Флот: не меньше 200 кораблей у страны (текущее число кораблей окно тоже не показывает). Пиратство 1 портом не снимается.",
         ),
         loc_line("CHI_sel_back", "Назад"),
         loc_line("CHI_sel_sep_1", "Подавить сепаратизм I"),
@@ -2021,15 +2308,27 @@ def patch_loc():
             "CHI_need_goods_desc",
             "На складе не хватает дерева, цемента, железа или пиломатериалов. Для амбара: 250 / 150 / 100 / 80. Для ирригации объёмы больше и зависят от уровня — они указаны в описании заказа.",
         ),
-        loc_line("CHI_need_port", "Нужен порт в этой провинции"),
-        loc_line("CHI_need_port_desc", "В этой провинции нет военно-морской базы. Портовый надзор снижает пиратство только там, где база уже стоит."),
-        loc_line("CHI_need_fleet", "Нужен флот в 200 кораблей"),
-        loc_line("CHI_need_fleet_desc", "Нужно не меньше 200 кораблей. Тогда пиратство снимается со всех провинций страны."),
+        loc_line("CHI_need_port", "Нет военно-морской базы в этой провинции"),
+        loc_line(
+            "CHI_need_port_desc",
+            "В этой провинции нет военно-морской базы. Постройте базу здесь, затем снова откройте селектор: порт снижает пиратство 2-4 на 1 уровень только в провинции с базой. Число баз окно показать не может.",
+        ),
+        loc_line("CHI_need_fleet", "Флота меньше 200 кораблей"),
+        loc_line(
+            "CHI_need_fleet_desc",
+            "Нужно не меньше 200 кораблей у страны. Тогда флот снимет пиратство со всех провинций. Текущее число кораблей это окно показать не может — смотрите флот в интерфейсе страны.",
+        ),
+        loc_line(
+            "CHI_sel_port_piracy_desc",
+            "В этой провинции уже есть военно-морская база. Нажмите Понятно: пиратство здесь снизится на 1 уровень, появится портовый надзор. Другие провинции не затронет.",
+        ),
+        loc_line(
+            "CHI_sel_fleet_piracy_desc",
+            "В строю не меньше 200 кораблей. Нажмите Понятно: пиратство снимется со всех провинций страны. Откатить нельзя. Точное число кораблей окно показать не может.",
+        ),
         loc_line("CHI_sel_not_coast_desc", "Эта провинция не стоит на море, пиратство здесь не лечится портом."),
         loc_line("CHI_sel_no_piracy_desc", "В этой провинции нет пиратства."),
-        loc_line("CHI_sel_port_piracy_desc", "Порт снижает пиратство на 1 уровень только в этой провинции и ставит надзор. Не трогает соседние провинции региона."),
-        loc_line("CHI_sel_fleet_piracy_desc", "Флот в 200 кораблей снимает пиратство 1–4 со всех провинций страны. Откатить это решение нельзя."),
-        loc_line("CHI_depot_title", "Провинциальный склад"),
+        loc_line("CHI_depot_title", "Обработка приказа: склад 500 000"),
         loc_line("CHI_depot_desc", "Склад снабжения стоит 500 000 и ставится только в этой провинции. Старый склад в других провинциях снимается."),
         loc_line("CHI_sel_sep_none", "В этой провинции нет сепаратизма"),
         loc_line("CHI_sel_sep_wait", "Подавление уже идёт (повтор через год)"),
@@ -2039,18 +2338,18 @@ def patch_loc():
         loc_line("CHI_sel_no_piracy", "В этой провинции нет пиратства"),
         loc_line("CHI_sel_has_granary", "Великий амбар уже построен"),
         loc_line("CHI_sel_hydro_wait", "Ремонт ирригации уже идёт (повтор ~2.5 года)"),
-        loc_line("CHI_sel_granary", "Великий амбар (дерево 250, цемент 150, железо 100, пиломатериалы 80)"),
+        loc_line("CHI_sel_granary", "Великий амбар"),
         loc_line("CHI_menu_granary", "Великий амбар"),
-        loc_line("CHI_sel_port_piracy", "Порт против пиратства"),
-        loc_line("CHI_sel_fleet_piracy", "Флот против пиратства"),
-        loc_line("CHI_sel_water_1", "Ремонт ирригации I (200 000 + дерево 2400, цемент 1200, железо 600, пиломатериалы 600)"),
-        loc_line("CHI_sel_water_2", "Ремонт ирригации II (500 000 + дерево 3600, цемент 1800, железо 1200, пиломатериалы 900)"),
-        loc_line("CHI_sel_water_3", "Ремонт ирригации III (1 000 000 + дерево 5400, цемент 3000, железо 1800, пиломатериалы 1500)"),
-        loc_line("CHI_sel_water_4", "Ремонт ирригации IV (2 000 000 + дерево 7500, цемент 4500, железо 3000, пиломатериалы 2400)"),
-        loc_line(
-            "CHI_sel_unique_water",
-            "Особые речные работы (2 000 000 + дерево 6000, цемент 3600, железо 2400, пиломатериалы 1800)",
-        ),
+        loc_line("CHI_sel_port_piracy", "База есть: снизить пиратство на 1"),
+        loc_line("CHI_sel_fleet_piracy", "Флот 200+: снять пиратство в стране"),
+        loc_line("CHI_sel_water_1", "Ремонт ирригации I"),
+        loc_line("CHI_sel_water_2", "Ремонт ирригации II"),
+        loc_line("CHI_sel_water_3", "Ремонт ирригации III"),
+        loc_line("CHI_sel_water_4", "Ремонт ирригации IV"),
+        loc_line("CHI_sel_unique_water", "Речные проекты"),
+        loc_line("CHI_sel_canal_silt", "Очистка канала от ила"),
+        loc_line("CHI_sel_yangtze_nav", "Расчистка фарватера Янцзы"),
+        loc_line("CHI_sel_yellow_dikes", "Ремонт дамб Хуанхэ"),
         loc_line("CHI_sel_water_done", "Ирригация"),
         loc_line(
             "CHI_sel_water_done_desc",
@@ -2062,17 +2361,103 @@ def patch_loc():
             "Амбар заложен по всему региону из казённых запасов. Голод снижен на 1 уровень. Повтор продовольственной программы в этом регионе через 2 года.",
         ),
         loc_line("CHI_sel_unique_done", "Речные работы"),
+        loc_line("CHI_sel_unique_done_desc", "Речной проект региона выполнен."),
+        loc_line("CHI_sel_canal_done", "Канал расчищен"),
         loc_line(
-            "CHI_sel_unique_done_desc",
-            "Особая речная проблема региона снята. В этом регионе повтор примерно через 2.5 года.",
+            "CHI_sel_canal_done_desc",
+            "Ил снят с Великого канала в этом регионе. Повтор очистки здесь примерно через 2.5 года.",
+        ),
+        loc_line("CHI_sel_yangtze_done", "Фарватер Янцзы"),
+        loc_line(
+            "CHI_sel_yangtze_done_desc",
+            "Судоходство Янцзы в этом регионе восстановлено. Повтор расчистки здесь примерно через 2.5 года.",
+        ),
+        loc_line("CHI_sel_yellow_done", "Дамбы Хуанхэ"),
+        loc_line(
+            "CHI_sel_yellow_done_desc",
+            "Дамбы Хуанхэ в этом регионе укреплены. Повтор ремонта здесь примерно через 2.5 года. Перенос русла по всей стране — решение двора.",
+        ),
+        loc_line("CHI_sel_river_wait", "Речной проект уже идёт"),
+        loc_line(
+            "CHI_sel_river_wait_desc",
+            "Этот речной проект в регионе уже заказан. Повтор примерно через 2.5 года.",
         ),
         loc_line("CHI_sep_cd", "Подавление сепаратизма"),
         loc_line("CHI_sep_cd_desc", "В регионе уже идёт кампания. Следующий заказ через год."),
-        loc_line("CHI_sel_ok", "Принято"),
+        loc_line("CHI_sel_ok", "Понятно"),
         loc_line("noloc", " "),
         loc_line("CHI_pay_processing", "Обработка приказа"),
-        loc_line("CHI_pay_processing_desc", "Казна и склады проверяют приказ. Если денег или товаров не хватает, списывать не будут (для цены выше 2 000 000 первый кусок вернут)."),
-        loc_line("CHI_sel_bribe", "Подкупить лидеров сепаратистов (500 000)"),
+        loc_line(
+            "CHI_pay_processing_desc",
+            "Казна и склады проверяют приказ. Если денег или товаров не хватает, списывать не будут.",
+        ),
+        loc_line("CHI_pay_granary", "Обработка приказа: дерево 250, цемент 150, железо 100, пиломатериалы 80"),
+        loc_line(
+            "CHI_pay_granary_desc",
+            "Стоимость великого амбара: дерево 250, цемент 150, железо 100, пиломатериалы 80. Если товаров не хватает, списывать не будут.",
+        ),
+        loc_line("CHI_pay_bribe", "Обработка приказа: 500 000, при коррупции 1 000 000"),
+        loc_line(
+            "CHI_pay_bribe_desc",
+            "Подкуп: 500 000. При высокой коррупции 1 000 000. Если денег не хватает, списывать не будут.",
+        ),
+        loc_line(
+            "CHI_pay_canal",
+            "Обработка приказа: 1 000 000 + дерево 3000, цемент 1500, железо 1000, пиломатериалы 800",
+        ),
+        loc_line(
+            "CHI_pay_canal_desc",
+            "Очистка Великого канала от ила в этом регионе: 1 000 000, дерево 3000, цемент 1500, железо 1000, пиломатериалы 800. При коррупции 2 000 000.",
+        ),
+        loc_line(
+            "CHI_pay_yangtze",
+            "Обработка приказа: 1 000 000 + дерево 2500, цемент 1200, железо 1500, пиломатериалы 700",
+        ),
+        loc_line(
+            "CHI_pay_yangtze_desc",
+            "Расчистка фарватера Янцзы в этом регионе: 1 000 000, дерево 2500, цемент 1200, железо 1500, пиломатериалы 700. При коррупции 2 000 000.",
+        ),
+        loc_line(
+            "CHI_pay_yellow",
+            "Обработка приказа: 1 500 000 + дерево 4000, цемент 2500, железо 1500, пиломатериалы 1200",
+        ),
+        loc_line(
+            "CHI_pay_yellow_desc",
+            "Ремонт дамб Хуанхэ в этом регионе: 1 500 000, дерево 4000, цемент 2500, железо 1500, пиломатериалы 1200. При коррупции 3 000 000. Перенос русла — решение двора.",
+        ),
+        loc_line(
+            "CHI_pay_water_1",
+            "Обработка приказа: 200 000 + дерево 2400, цемент 1200, железо 600, пиломатериалы 600",
+        ),
+        loc_line(
+            "CHI_pay_water_1_desc",
+            "Ирригация I: 200 000, дерево 2400, цемент 1200, железо 600, пиломатериалы 600. При коррупции 400 000. Если не хватает, списывать не будут.",
+        ),
+        loc_line(
+            "CHI_pay_water_2",
+            "Обработка приказа: 500 000 + дерево 3600, цемент 1800, железо 1200, пиломатериалы 900",
+        ),
+        loc_line(
+            "CHI_pay_water_2_desc",
+            "Ирригация II: 500 000, дерево 3600, цемент 1800, железо 1200, пиломатериалы 900. При коррупции 1 000 000. Если не хватает, списывать не будут.",
+        ),
+        loc_line(
+            "CHI_pay_water_3",
+            "Обработка приказа: 1 000 000 + дерево 5400, цемент 3000, железо 1800, пиломатериалы 1500",
+        ),
+        loc_line(
+            "CHI_pay_water_3_desc",
+            "Ирригация III: 1 000 000, дерево 5400, цемент 3000, железо 1800, пиломатериалы 1500. При коррупции 2 000 000. Если не хватает, списывать не будут.",
+        ),
+        loc_line(
+            "CHI_pay_water_4",
+            "Обработка приказа: 2 000 000 + дерево 7500, цемент 4500, железо 3000, пиломатериалы 2400",
+        ),
+        loc_line(
+            "CHI_pay_water_4_desc",
+            "Ирригация IV: 2 000 000, дерево 7500, цемент 4500, железо 3000, пиломатериалы 2400. При коррупции 4 000 000. Если не хватает, списывать не будут.",
+        ),
+        loc_line("CHI_sel_bribe", "Подкупить лидеров сепаратистов"),
         loc_line("CHI_sel_bribe_desc", "Взятки местным вожакам. Сепаратизм региона падает на 1 уровень. Стоимость 500 000. Повтор через год."),
         loc_line("CHI_sel_tax_cut", "Снизить налоги в этом регионе на 2 года"),
         loc_line(
@@ -2131,7 +2516,7 @@ def patch_loc():
         loc_line("CHI_water_choice_title", "Ирригация региона"),
         loc_line(
             "CHI_water_choice_desc",
-            "Ремонт снижает воду на 1 уровень только в этом регионе. Если ремонт уже идёт, кнопок заказа нет — повтор ~2.5 года. I: 200 000 + дерево 2400, цемент 1200, железо 600, пиломатериалы 600. II: 500 000 + 3600/1800/1200/900. III: 1 000 000 + 5400/3000/1800/1500. IV: 2 000 000 + 7500/4500/3000/2400. Особые реки: 2 000 000 + 6000/3600/2400/1800. При коррупции деньги x2 (4 000 000 — двумя платежами по 2 000 000).",
+            "Ремонт снижает воду на 1 уровень в этом регионе. Если ремонт уже идёт, кнопок нет. I: 200 000. II: 500 000. III: 1 000 000. IV: 2 000 000 плюс товары. При коррупции деньги вдвое.",
         ),
         loc_line(
             "CHI_water_choice_1_desc",
@@ -2151,7 +2536,7 @@ def patch_loc():
         ),
         loc_line(
             "CHI_water_choice_unique_desc",
-            "Особые речные работы снимают уникальную проблему воды в этом регионе. Стоимость: 2 000 000, дерево 6000, цемент 3600, железо 2400, пиломатериалы 1800. При коррупции: 4 000 000. Повтор в этом регионе примерно через 2.5 года.",
+            "Речные проекты: очистка канала, фарватер Янцзы, дамбы Хуанхэ. Каждая кнопка только если этот модификатор есть в провинции. Перенос русла Хуанхэ — решение двора.",
         ),
         loc_line("CHI_sel_no_water_desc", "В этой провинции нет проблем с водой."),
         loc_line(
@@ -2176,16 +2561,49 @@ def patch_loc():
         loc_line("CHI_great_granary_desc", "Казённый амбар региона. Частично держит зерно и людей."),
         loc_line("CHI_famine_tied_to_water", "Голод связан с водой"),
         loc_line("CHI_famine_tied_to_water_desc", "Ремонт ирригации также снижает такой голод на 1 уровень."),
-        loc_line("CHI_water_canal_silt", "Заиление канала"),
-        loc_line("CHI_water_canal_silt_desc", "Судоходство Великого канала подорвано. Снимается особыми речными работами (2 000 000, повтор ~2.5 года)."),
+        loc_line("CHI_water_canal_silt", "Заиление Великого канала"),
+        loc_line(
+            "CHI_water_canal_silt_desc",
+            "Ил душит судоходство канала. Снимается проектом «Очистка канала от ила» в селекторе этого региона.",
+        ),
         loc_line("CHI_water_yangtze_nav", "Срыв судоходства Янцзы"),
-        loc_line("CHI_water_yangtze_nav_desc", "Речная торговля Янцзы парализована. Снимается особыми речными работами."),
-        loc_line("CHI_water_yellow_dikes", "Дамбы Хуанхэ"),
-        loc_line("CHI_water_yellow_dikes_desc", "Угроза прорыва Хуанхэ. Снимается особыми речными работами."),
+        loc_line(
+            "CHI_water_yangtze_nav_desc",
+            "Фарватер занесён, речная торговля парализована. Снимается расчисткой фарватера Янцзы в селекторе этого региона.",
+        ),
+        loc_line("CHI_water_yellow_dikes", "Угроза дамб Хуанхэ"),
+        loc_line(
+            "CHI_water_yellow_dikes_desc",
+            "Дамбы Хуанхэ в этом регионе могут прорваться. Локальный ремонт — селектор. Переложить русло по всей империи — решение «Работы на Хуанхэ».",
+        ),
+        loc_line("CHI_canal_cd", "Очистка канала"),
+        loc_line("CHI_canal_cd_desc", "В регионе уже чистят канал от ила. Повтор примерно через 2.5 года."),
+        loc_line("CHI_yangtze_cd", "Расчистка Янцзы"),
+        loc_line("CHI_yangtze_cd_desc", "В регионе уже чистят фарватер Янцзы. Повтор примерно через 2.5 года."),
+        loc_line("CHI_yellow_cd", "Ремонт дамб Хуанхэ"),
+        loc_line("CHI_yellow_cd_desc", "В регионе уже чинят дамбы Хуанхэ. Повтор примерно через 2.5 года."),
+        loc_line("CHI_yellow_new_course", "Новое русло Хуанхэ"),
+        loc_line(
+            "CHI_yellow_new_course_desc",
+            "Двор переложил главное русло Хуанхэ. Старая угроза дамб по провинциям снята.",
+        ),
+        loc_line("CHI_yellow_river_works", "Работы на Хуанхэ"),
+        loc_line(
+            "CHI_yellow_river_works_desc",
+            "Нужно: мир, 2 000 000 в казне, год 1846 или технология железных дорог. Варианты: переложить русло на север или укрепить дамбы по всей империи. Региональный ремонт дамб — селектор провинции.",
+        ),
+        loc_line("CHI_yellow_course_title", "Хуанхэ: русло или дамбы"),
+        loc_line(
+            "CHI_yellow_course_desc",
+            "Локальный ремонт дамб делается селектором по регионам. Здесь — общеимперский выбор. Северное русло: 2 000 000, дерево 4000, цемент 2000, железо 1500, пиломатериалы 1000, снимает угрозу дамб везде. Укрепить дамбы по стране: 2 000 000, без переноса русла.",
+        ),
+        loc_line("CHI_yellow_course_north", "Переложить русло на север"),
+        loc_line("CHI_yellow_course_dikes", "Укрепить дамбы по всей империи"),
         loc_line("CHI_patchwork_empire", "Лоскутная феодальная империя"),
         loc_line(
             "CHI_patchwork_empire_desc",
-            "Неснимаемый порядок Цин: слабый центр, быстрый набор ополчения. Лимит солдат (~3% населения провинции) задаётся типами POP, не этим модификатором. В карточке видны только организация, набор и мобилизация.",
+            "Неснимаемый порядок Цин: слабый центр, быстрый набор ополчения. "
+            "Лимит солдат (~3% населения провинции) задаётся типами POP, не этим модификатором.",
         ),
         loc_line("CHI_inefficient_bureaucracy", "Неэффективная бюрократия"),
         loc_line("CHI_port_anti_piracy", "Портовый надзор"),
@@ -2209,8 +2627,8 @@ def patch_loc():
         add.append(
             loc_line(
                 f"CHI_famine_{i}_desc",
-                f"Проблема с едой.\\nУровень: {bar(i, 4)}\\n{fam_txt[i]}\\n"
-                "Снимается великим амбаром (дерево 250, цемент 150, железо 100, пиломатериалы 80; повтор 2 года). Один раз голод падает сам, если во всех провинциях региона железная дорога 2-го уровня. Если голод связан с водой — ремонт ирригации тоже снижает его.",
+                f"Проблема с едой. {bar(i, 4)}. {fam_txt[i]} "
+                "Снимается великим амбаром (дерево 250, цемент 150, железо 100, пиломатериалы 80).",
             )
         )
     for i in range(1, 5):
@@ -2218,24 +2636,23 @@ def patch_loc():
         add.append(
             loc_line(
                 f"CHI_separatism_{i}_desc",
-                f"Региональный сепаратизм.\\nУровень: {bar(i, 4)}\\n"
-                "Снимается подкупом (500 000, при коррупции 1 000 000, повтор год) или после подавления спровоцированного восстания. "
-                "Лимита солдат в этом модификаторе нет: порог в типах POP (фермеры/рабочие почти не идут в солдаты выше доли: I ~1.5%, II ~1.0%, III–IV ~0.5%; лоскутная империя ~3%).",
+                f"Региональный сепаратизм. {bar(i, 4)}. "
+                "Снимается подкупом (500 000, при коррупции 1 000 000) или после подавления восстания. Порог солдат задаётся типами POP, не этой карточкой.",
             )
         )
         add.append(loc_line(f"CHI_water_{i}", f"Ирригация {roman[i]}"))
         add.append(
             loc_line(
                 f"CHI_water_{i}_desc",
-                f"Проблемы ирригации и дамб.\\nУровень: {bar(i, 4)}\\nСнимается поэтапным ремонтом (деньги и товары по уровню, повтор ~2.5 года). Числа штрафов — в карточке модификатора.",
+                f"Проблемы ирригации и дамб. {bar(i, 4)}. Снимается поэтапным ремонтом (деньги и товары по уровню).",
             )
         )
         add.append(loc_line(f"CHI_piracy_{i}", f"Пиратство {roman[i]}"))
         add.append(
             loc_line(
                 f"CHI_piracy_{i}_desc",
-                f"Приморская угроза.\\nУровень: {bar(i, 4)}\\n"
-                "Порт (нужна военно-морская база) снижает на 1 уровень только в этой провинции. Флот в 200 кораблей снимает пиратство со всех провинций страны.",
+                f"Приморская угроза. {bar(i, 4)}. "
+                "Порт снижает на 1 только в провинции с военно-морской базой. Флот в 200 кораблей снимает пиратство по всей стране.",
             )
         )
     for i in range(1, TAX_STACKS + 1):
@@ -2274,10 +2691,122 @@ def patch_loc():
     print("loc ok, fffd", out.count(b"\xef\xbf\xbd"))
 
 
+def write_river_policy():
+    dec = ROOT / "decisions" / "CHI_rivers.txt"
+    dec.write_bytes(
+        """political_decisions = {
+	CHI_yellow_river_works = {
+		picture = build_kiel_canal
+		potential = {
+			tag = CHI
+			NOT = { has_country_flag = CHI_yellow_course_done }
+			NOT = { has_country_flag = CHI_yellow_dikes_nation_done }
+			any_owned_province = { has_province_modifier = CHI_water_yellow_dikes }
+		}
+		allow = {
+			war = no
+			money = 2000000
+			OR = {
+				year = 1846
+				iron_railroad = 1
+			}
+		}
+		effect = {
+			country_event = { id = 144540 days = 0 }
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
+""".replace(
+            "\r\n", "\n"
+        )
+        .replace("\n", "\r\n")
+        .encode("utf-8")
+    )
+    print("CHI_rivers.txt", dec.stat().st_size)
+    ev = ROOT / "events" / "CHI_crisis_41_yellow_course.txt"
+    ev.write_bytes(
+        """# Nationwide Yellow River course / dikes (from decision CHI_yellow_river_works)
+
+country_event = {
+	id = 144540
+	title = "CHI_yellow_course_title"
+	desc = "CHI_yellow_course_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_yellow_course_north"
+		money = -2000000
+		timber = -4000
+		cement = -2000
+		iron = -1500
+		lumber = -1000
+		set_country_flag = CHI_yellow_course_done
+		JAN = { country_event = { id = 144541 days = 0 } }
+	}
+	option = {
+		name = "CHI_yellow_course_dikes"
+		money = -2000000
+		set_country_flag = CHI_yellow_dikes_nation_done
+		JAN = { country_event = { id = 144542 days = 0 } }
+	}
+	option = {
+		name = "CHI_sel_back"
+	}
+}
+
+country_event = {
+	id = 144541
+	title = "noloc"
+	desc = "noloc"
+	is_triggered_only = yes
+	immediate = {
+		CHI = {
+			any_owned = {
+				limit = { has_province_modifier = CHI_water_yellow_dikes }
+				remove_province_modifier = CHI_water_yellow_dikes
+			}
+			add_country_modifier = { name = CHI_yellow_new_course duration = -1 }
+			prestige = 10
+		}
+	}
+	option = {
+		name = "noloc"
+	}
+}
+
+country_event = {
+	id = 144542
+	title = "noloc"
+	desc = "noloc"
+	is_triggered_only = yes
+	immediate = {
+		CHI = {
+			any_owned = {
+				limit = { has_province_modifier = CHI_water_yellow_dikes }
+				remove_province_modifier = CHI_water_yellow_dikes
+			}
+			prestige = 5
+		}
+	}
+	option = {
+		name = "noloc"
+	}
+}
+""".replace(
+            "\r\n", "\n"
+        )
+        .replace("\n", "\r\n")
+        .encode("utf-8")
+    )
+    print(ev.name, ev.stat().st_size)
+
+
 def main():
     patch_jan()
     write_crises()
     write_selector()
+    write_river_policy()
     patch_modifiers()
     patch_triggered()
     patch_loc()

@@ -1,0 +1,67 @@
+# Nationwide Yellow River course / dikes (from decision CHI_yellow_river_works)
+
+country_event = {
+	id = 144540
+	title = "CHI_yellow_course_title"
+	desc = "CHI_yellow_course_desc"
+	picture = "Administration"
+	is_triggered_only = yes
+	option = {
+		name = "CHI_yellow_course_north"
+		money = -2000000
+		timber = -4000
+		cement = -2000
+		iron = -1500
+		lumber = -1000
+		set_country_flag = CHI_yellow_course_done
+		JAN = { country_event = { id = 144541 days = 0 } }
+	}
+	option = {
+		name = "CHI_yellow_course_dikes"
+		money = -2000000
+		set_country_flag = CHI_yellow_dikes_nation_done
+		JAN = { country_event = { id = 144542 days = 0 } }
+	}
+	option = {
+		name = "CHI_sel_back"
+	}
+}
+
+country_event = {
+	id = 144541
+	title = "noloc"
+	desc = "noloc"
+	is_triggered_only = yes
+	immediate = {
+		CHI = {
+			any_owned = {
+				limit = { has_province_modifier = CHI_water_yellow_dikes }
+				remove_province_modifier = CHI_water_yellow_dikes
+			}
+			add_country_modifier = { name = CHI_yellow_new_course duration = -1 }
+			prestige = 10
+		}
+	}
+	option = {
+		name = "noloc"
+	}
+}
+
+country_event = {
+	id = 144542
+	title = "noloc"
+	desc = "noloc"
+	is_triggered_only = yes
+	immediate = {
+		CHI = {
+			any_owned = {
+				limit = { has_province_modifier = CHI_water_yellow_dikes }
+				remove_province_modifier = CHI_water_yellow_dikes
+			}
+			prestige = 5
+		}
+	}
+	option = {
+		name = "noloc"
+	}
+}

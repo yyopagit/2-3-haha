@@ -87,7 +87,7 @@ def pay_flag(flag, amount, corrupt_amount, level_mod=None, indent="\t\t"):
             blocks.append(
                 f"""{indent}random_owned = {{
 {indent}	limit = {{
-{indent}		has_province_modifier = CHI_click_mark
+{indent}		has_building = province_selector
 {extra}{indent}	}}
 {indent}	owner = {{
 {body}
@@ -98,7 +98,7 @@ def pay_flag(flag, amount, corrupt_amount, level_mod=None, indent="\t\t"):
             blocks.append(
                 f"""{indent}random_owned = {{
 {indent}	limit = {{
-{indent}		has_province_modifier = CHI_click_mark
+{indent}		has_building = province_selector
 {indent}		owner = {{ has_country_flag = CHI_pay_part }}
 {indent}		owner = {{ NOT = {{ has_country_flag = CHI_crisis_paid }} }}
 {indent}	}}
@@ -142,24 +142,264 @@ def if_paid(inner):
 			}}"""
 
 
+SEP_CRISIS = (
+    "CHI_separatism_1",
+    "CHI_separatism_2",
+    "CHI_separatism_3",
+    "CHI_separatism_4",
+)
+FOOD_CRISIS = (
+    "CHI_water_1",
+    "CHI_water_2",
+    "CHI_water_3",
+    "CHI_water_4",
+    "CHI_water_canal_silt",
+    "CHI_water_yangtze_nav",
+    "CHI_water_yellow_dikes",
+    "CHI_famine_1",
+    "CHI_famine_2",
+    "CHI_famine_3",
+    "CHI_famine_4",
+)
+WATER_MENU_CRISIS = (
+    "CHI_hydro_cd",
+    "CHI_water_1",
+    "CHI_water_2",
+    "CHI_water_3",
+    "CHI_water_4",
+)
+RIVER_CRISIS = (
+    "CHI_water_canal_silt",
+    "CHI_water_yangtze_nav",
+    "CHI_water_yellow_dikes",
+)
+GRANARY_MENU_CRISIS = (
+    "CHI_famine_1",
+    "CHI_famine_2",
+    "CHI_famine_3",
+    "CHI_famine_4",
+    "CHI_food_cd",
+    "CHI_great_granary",
+)
+PIRACY_ALL = ("CHI_piracy_1", "CHI_piracy_2", "CHI_piracy_3", "CHI_piracy_4")
+PIRACY_PORT = ("CHI_piracy_2", "CHI_piracy_3", "CHI_piracy_4")
+UNIQUE_WATER = (
+    "CHI_water_canal_silt",
+    "CHI_water_yangtze_nav",
+    "CHI_water_yellow_dikes",
+)
+WATER_LEVELS = ("CHI_water_1", "CHI_water_2", "CHI_water_3", "CHI_water_4")
+
+# Option triggers on province_event are ignored here, so each combo is its own event.
+HUB_COMBOS = (
+    (144408, True, True, True),
+    (144409, True, True, False),
+    (144410, True, False, True),
+    (144411, False, True, True),
+    (144412, True, False, False),
+    (144413, False, True, False),
+    (144414, False, False, True),
+    (144415, False, False, False),
+)
+FOOD_COMBOS = (
+    (144441, True, True, True),
+    (144416, True, True, False),
+    (144417, True, False, True),
+    (144423, False, True, True),
+    (144424, True, False, False),
+    (144425, False, True, False),
+    (144500, False, False, True),
+    (144501, False, False, False),
+)
+RIVER_COMBOS = (
+    (144418, True, True, True),
+    (144419, True, True, False),
+    (144420, True, False, True),
+    (144421, False, True, True),
+    (144422, True, False, False),
+    (144428, False, True, False),
+    (144429, False, False, True),
+)
+# base, piracy_2_4, ships200
+COAST_COMBOS = (
+    (144442, True, True, True),
+    (144444, True, True, False),
+    (144445, False, True, True),
+    (144446, False, True, False),
+    (144447, True, False, True),
+    (144448, True, False, False),
+    (144426, False, False, True),
+    (144427, False, False, False),
+)
+
+
+def _or_mods(mods, pad):
+    inner = "\n".join(f"{pad}\thas_province_modifier = {m}" for m in mods)
+    return f"{pad}OR = {{\n{inner}\n{pad}}}"
+
+
+def _not_or_mods(mods, pad):
+    return f"{pad}NOT = {{\n{_or_mods(mods, pad + chr(9))}\n{pad}}}"
+
+
+def _coast_yes(pad):
+    return f"{pad}is_coastal = yes\n{_or_mods(PIRACY_ALL, pad)}"
+
+
+def _coast_no(pad):
+    return (
+        f"{pad}NOT = {{\n"
+        f"{pad}\tis_coastal = yes\n"
+        f"{_or_mods(PIRACY_ALL, pad + chr(9))}\n"
+        f"{pad}}}"
+    )
+
+
+def _rand_pe(eid, limit_lines, rand_pad):
+    lp = rand_pad + "\t"
+    body = "\n".join(limit_lines)
+    return (
+        f"{rand_pad}random_owned = {{\n"
+        f"{lp}limit = {{\n"
+        f"{body}\n"
+        f"{lp}}}\n"
+        f"{lp}province_event = {{ id = {eid} days = 0 }}\n"
+        f"{rand_pad}}}"
+    )
+
+
+def matching_hub_randoms(rand_pad):
+    """Exclusive limits: exactly one hub event fires for the selector province."""
+    lp = rand_pad + "\t\t"
+    chunks = []
+    for eid, sep, food, coast in HUB_COMBOS:
+        bits = [f"{lp}has_building = province_selector"]
+        bits.append(_or_mods(SEP_CRISIS, lp) if sep else _not_or_mods(SEP_CRISIS, lp))
+        bits.append(_or_mods(FOOD_CRISIS, lp) if food else _not_or_mods(FOOD_CRISIS, lp))
+        bits.append(_coast_yes(lp) if coast else _coast_no(lp))
+        chunks.append(_rand_pe(eid, bits, rand_pad))
+    return "\n".join(chunks)
+
+
+def fire_matching_hub():
+    """From a province_event option: pick the hub that matches THIS selector province."""
+    inner = matching_hub_randoms("\t\t\t")
+    return f"		owner = {{\n{inner}\n		}}"
+
+
+def fire_matching_food():
+    rp = "\t\t\t"
+    lp = rp + "\t\t"
+    chunks = []
+    for eid, water, granary, river in FOOD_COMBOS:
+        bits = [f"{lp}has_building = province_selector"]
+        bits.append(_or_mods(WATER_MENU_CRISIS, lp) if water else _not_or_mods(WATER_MENU_CRISIS, lp))
+        bits.append(
+            _or_mods(GRANARY_MENU_CRISIS, lp) if granary else _not_or_mods(GRANARY_MENU_CRISIS, lp)
+        )
+        bits.append(_or_mods(RIVER_CRISIS, lp) if river else _not_or_mods(RIVER_CRISIS, lp))
+        chunks.append(_rand_pe(eid, bits, rp))
+    inner = "\n".join(chunks)
+    return f"		owner = {{\n{inner}\n		}}"
+
+
+def fire_matching_coast():
+    rp = "\t\t\t"
+    lp = rp + "\t\t"
+    chunks = []
+    for eid, base, port_lv, ships in COAST_COMBOS:
+        bits = [
+            f"{lp}has_building = province_selector",
+            f"{lp}is_coastal = yes",
+            _or_mods(PIRACY_ALL, lp),
+        ]
+        if base:
+            bits.append(f"{lp}has_building = naval_base")
+        else:
+            bits.append(f"{lp}NOT = {{ has_building = naval_base }}")
+        if port_lv:
+            bits.append(_or_mods(PIRACY_PORT, lp))
+        else:
+            bits.append(_not_or_mods(PIRACY_PORT, lp))
+        if ships:
+            bits.append(f"{lp}owner = {{ total_amount_of_ships = 200 }}")
+        else:
+            bits.append(f"{lp}NOT = {{ owner = {{ total_amount_of_ships = 200 }} }}")
+        chunks.append(_rand_pe(eid, bits, rp))
+    inner = "\n".join(chunks)
+    return f"		owner = {{\n{inner}\n		}}"
+
+
+def fire_matching_water():
+    rp = "\t\t\t"
+    lp = rp + "\t\t"
+    chunks = [
+        _rand_pe(
+            144458,
+            [
+                f"{lp}has_building = province_selector",
+                f"{lp}has_province_modifier = CHI_hydro_cd",
+            ],
+            rp,
+        )
+    ]
+    water_ids = {1: 144470, 2: 144471, 3: 144472, 4: 144473}
+    for lvl in range(1, 5):
+        others = [
+            f"{lp}NOT = {{ has_province_modifier = CHI_water_{o} }}" for o in range(1, 5) if o != lvl
+        ]
+        common = [
+            f"{lp}has_building = province_selector",
+            f"{lp}NOT = {{ has_province_modifier = CHI_hydro_cd }}",
+            f"{lp}has_province_modifier = CHI_water_{lvl}",
+        ] + others
+        chunks.append(_rand_pe(water_ids[lvl], common, rp))
+    inner = "\n".join(chunks)
+    return f"		owner = {{\n{inner}\n		}}"
+
+
+def fire_matching_river():
+    rp = "\t\t\t"
+    lp = rp + "\t\t"
+    chunks = []
+    for eid, canal, yangtze, yellow in RIVER_COMBOS:
+        bits = [f"{lp}has_building = province_selector"]
+        bits.append(
+            f"{lp}has_province_modifier = CHI_water_canal_silt"
+            if canal
+            else f"{lp}NOT = {{ has_province_modifier = CHI_water_canal_silt }}"
+        )
+        bits.append(
+            f"{lp}has_province_modifier = CHI_water_yangtze_nav"
+            if yangtze
+            else f"{lp}NOT = {{ has_province_modifier = CHI_water_yangtze_nav }}"
+        )
+        bits.append(
+            f"{lp}has_province_modifier = CHI_water_yellow_dikes"
+            if yellow
+            else f"{lp}NOT = {{ has_province_modifier = CHI_water_yellow_dikes }}"
+        )
+        chunks.append(_rand_pe(eid, bits, rp))
+    inner = "\n".join(chunks)
+    return f"		owner = {{\n{inner}\n		}}"
+
+
 def worker_immediate(rids, extra_after_act):
     """Apply region effects in immediate (Vic2: option effects wait for the click).
     Reopen hub only from option — nested days=0 from immediate can CTD."""
     set_act = gen_set_act(rids)
     clr_act = gen_clr_act(rids)
     return f"""	immediate = {{
-		add_province_modifier = {{ name = CHI_click_mark duration = -1 }}
 		owner = {{
 {set_act}
 {extra_after_act}
 {clr_act}
 			clr_country_flag = CHI_crisis_paid
 		}}
-		remove_province_modifier = CHI_click_mark
 	}}
 	option = {{
 		name = "CHI_sel_ok"
-		province_event = {{ id = 144408 days = 0 }}
+{fire_matching_hub()}
 	}}"""
 
 
@@ -211,18 +451,16 @@ def build_workers(rids):
 {fam_drop}"""
     granary_extra = if_paid(granary_add)
 
-    uniq_add = f"""			any_owned = {{
+    def river_add(mod_name, cd_name):
+        return f"""			any_owned = {{
 				limit = {{
 					OR = {{
 {orlim}
 					}}
 				}}
-				remove_province_modifier = CHI_water_canal_silt
-				remove_province_modifier = CHI_water_yangtze_nav
-				remove_province_modifier = CHI_water_yellow_dikes
-				add_province_modifier = {{ name = CHI_hydro_cd duration = 900 }}
+				remove_province_modifier = {mod_name}
+				add_province_modifier = {{ name = {cd_name} duration = 900 }}
 			}}"""
-    uniq_extra = uniq_add
 
     infra_extra = f"""			any_owned = {{
 				limit = {{
@@ -368,7 +606,9 @@ def build_workers(rids):
     return {
         "water": ev(144431, "CHI_sel_water_done", "CHI_sel_water_done_desc", water_extra),
         "granary": ev(144432, "CHI_sel_granary_done", "CHI_sel_granary_done_desc", granary_extra),
-        "unique": ev(144433, "CHI_sel_unique_done", "CHI_sel_unique_done_desc", uniq_extra),
+        "unique": ev(144433, "CHI_sel_canal_done", "CHI_sel_canal_done_desc", river_add("CHI_water_canal_silt", "CHI_canal_cd")),
+        "yangtze": ev(144534, "CHI_sel_yangtze_done", "CHI_sel_yangtze_done_desc", river_add("CHI_water_yangtze_nav", "CHI_yangtze_cd")),
+        "yellow": ev(144535, "CHI_sel_yellow_done", "CHI_sel_yellow_done_desc", river_add("CHI_water_yellow_dikes", "CHI_yellow_cd")),
         "sep": ev(144437, "CHI_sel_sep_done", "CHI_sel_sep_done_desc", sep_extra),
         "sep_full": ev(144505, "CHI_sel_sep_full_done", "CHI_sel_sep_full_done_desc", sep_full_extra),
         "water_full": ev(144508, "CHI_sel_water_full_done", "CHI_sel_water_full_done_desc", water_full_extra),
@@ -564,7 +804,7 @@ def patch_loc():
     add.append(loc_line("CHI_sel_infra_done_desc", "Провинции с инфраструктурой 2 получили облегчение голода. Если она везде в регионе - голод снижен на 1."))
     add.append(loc_line("CHI_hydro_cd", "Ремонт ирригации региона"))
     add.append(loc_line("CHI_hydro_cd_desc", "В этом регионе уже идут работы по ирригации и дамбам. Следующий заказ здесь примерно через 2.5 года."))
-    add.append(loc_line("CHI_sel_granary", "Построить великий амбар в регионе (дерево 250, цемент 150, железо 100, пиломатериалы 80)"))
+    add.append(loc_line("CHI_sel_granary", "Великий амбар"))
     body = "".join(kept)
     if not body.endswith("\n"):
         body += "\r\n"
