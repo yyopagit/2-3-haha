@@ -1466,6 +1466,7 @@ country_event = {{
 	option = {{
 		name = "noloc"
 		CHI = {{
+			remove_country_modifier = CHI_inefficient_bureaucracy
 {pirate_drop}
 {revolt_clr}
 		}}
@@ -1958,31 +1959,7 @@ def patch_modifiers():
 
 
 def patch_triggered():
-    path = ROOT / "common" / "triggered_modifiers.txt"
-    text = path.read_bytes().decode("utf-8")
-    block = """# CHI_CRISIS_WRAPPER1_START
-CHI_fleet_anti_piracy_ready = {
-	trigger = {
-		tag = CHI
-		total_amount_of_ships = 200
-	}
-	prestige = 0.01
-}
-# CHI_CRISIS_WRAPPER1_END"""
-    start = "# CHI_CRISIS_WRAPPER1_START"
-    end = "# CHI_CRISIS_WRAPPER1_END"
-    if start in text and end in text:
-        text = re.sub(
-            re.escape(start) + r".*?" + re.escape(end),
-            block,
-            text,
-            count=1,
-            flags=re.S,
-        )
-    else:
-        text = text.rstrip() + "\n" + block + "\n"
-    path.write_bytes(text.replace("\r\n", "\n").replace("\n", "\r\n").encode("utf-8"))
-    print("triggered_modifiers ok")
+    mod.patch_triggered()
 
 
 def patch_loc():
@@ -2186,6 +2163,15 @@ def patch_loc():
             "CHI_patchwork_empire",
             "CHI_patchwork_empire_desc",
             "CHI_inefficient_bureaucracy",
+            "CHI_inefficient_bureaucracy_desc",
+            "CHI_inefficient_bureaucracy_1",
+            "CHI_inefficient_bureaucracy_1_desc",
+            "CHI_inefficient_bureaucracy_2",
+            "CHI_inefficient_bureaucracy_2_desc",
+            "CHI_inefficient_bureaucracy_3",
+            "CHI_inefficient_bureaucracy_3_desc",
+            "CHI_inefficient_bureaucracy_4",
+            "CHI_inefficient_bureaucracy_4_desc",
             "CHI_port_anti_piracy",
             "CHI_port_anti_piracy_desc",
             "CHI_famine_infra_relief",
@@ -2616,10 +2602,10 @@ def patch_loc():
     ]
     bar = mod.bar
     fam_txt = {
-        1: "Прирост населения снижен, начинается исход.",
-        2: "Сильный удар по приросту и привлекательности.",
-        3: "Тяжёлый голод.",
-        4: "Катастрофический голод, исход из региона.",
+        1: "Прирост -0.1%/мес, начинается исход.",
+        2: "Прирост -0.13%/мес, сильный исход.",
+        3: "Прирост -0.17%/мес, тяжёлый голод.",
+        4: "Прирост -0.2%/мес, исход из региона.",
     }
     roman = {1: "I", 2: "II", 3: "III", 4: "IV"}
     for i in range(1, 5):

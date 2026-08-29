@@ -129,8 +129,6 @@ CHI_patchwork_empire = {
 	icon = 51
 }
 CHI_inefficient_bureaucracy = {
-	tax_efficiency = -0.08
-	administrative_efficiency_modifier = -0.10
 	icon = 52
 }
 CHI_separatism_peripheral = {
@@ -177,53 +175,49 @@ CHI_separatism_4 = {
 CHI_famine_1 = {
 	population_growth = -0.001
 	immigrant_attract = -0.25
-	life_rating = -2
+	life_rating = -0.2
 	icon = 29
 }
 CHI_famine_2 = {
-	population_growth = -0.002
+	population_growth = -0.0013
 	immigrant_attract = -0.45
-	life_rating = -4
+	life_rating = -0.4
 	farm_RGO_eff = -0.05
 	icon = 30
 }
 CHI_famine_3 = {
-	population_growth = -0.003
+	population_growth = -0.0017
 	immigrant_attract = -0.70
-	life_rating = -6
+	life_rating = -0.6
 	farm_RGO_eff = -0.10
 	icon = 31
 }
 CHI_famine_4 = {
-	population_growth = -0.004
+	population_growth = -0.002
 	immigrant_attract = -1.00
-	life_rating = -8
+	life_rating = -0.8
 	farm_RGO_eff = -0.15
 	icon = 32
 }
 CHI_water_1 = {
 	farm_RGO_eff = -0.08
-	population_growth = -0.001
 	immigrant_attract = -0.10
 	icon = 33
 }
 CHI_water_2 = {
 	farm_RGO_eff = -0.15
-	population_growth = -0.001
 	immigrant_attract = -0.20
 	local_factory_throughput = -0.05
 	icon = 34
 }
 CHI_water_3 = {
 	farm_RGO_eff = -0.22
-	population_growth = -0.002
 	immigrant_attract = -0.30
 	local_factory_throughput = -0.10
 	icon = 35
 }
 CHI_water_4 = {
 	farm_RGO_eff = -0.30
-	population_growth = -0.002
 	immigrant_attract = -0.40
 	local_factory_throughput = -0.15
 	icon = 36
@@ -241,7 +235,7 @@ CHI_water_yangtze_nav = {
 }
 CHI_water_yellow_dikes = {
 	farm_RGO_eff = -0.20
-	population_growth = -0.001
+	population_growth = -0.0006
 	immigrant_attract = -0.15
 	icon = 62
 }

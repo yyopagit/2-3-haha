@@ -1,6 +1,6 @@
 political_decisions = {
 	CHI_yellow_river_works = {
-		picture = CHI_yellow_river_works
+		picture = build_kiel_canal
 		potential = {
 			tag = CHI
 			NOT = { has_country_flag = CHI_yellow_course_done }

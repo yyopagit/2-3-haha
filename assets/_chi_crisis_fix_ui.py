@@ -26,6 +26,7 @@ loc_line = ns["loc_line"]
 LOC_KEYS = ns["LOC_KEYS"]
 bar = ns["bar"]
 build_loc = ns["build_loc"]
+patch_triggered = ns["patch_triggered"]
 
 
 def rids_used():
