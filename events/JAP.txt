@@ -212,17 +212,6 @@ country_event = {
             1462 = { secede_province = JAP add_core = JAP }
 			
 			
-			remove_country_modifier = japan_economy_overheat_timer
-			add_country_modifier = {
-				name = japan_economy_overheat_timer
-				duration = 3650
-			}
-			any_country = {
-				limit = {
-					has_country_modifier = japan_economy_overheated
-				}
-				remove_country_modifier = japan_economy_overheated
-			}
 			
             
 			set_global_flag = philippines_taken
@@ -259,17 +248,7 @@ country_event = {
             2562 = { secede_province = JAP add_core = JAP }
             1485 = { secede_province = JAP add_core = JAP }
 			
-			remove_country_modifier = japan_economy_overheat_timer
-			add_country_modifier = {
-				name = japan_economy_overheat_timer
-				duration = 3650
-			}
-			any_country = {
-				limit = {
-					has_country_modifier = japan_economy_overheated
-				}
-				remove_country_modifier = japan_economy_overheated
-			}
+			
             			
 			set_global_flag = taiwan_taken
     }
@@ -301,44 +280,8 @@ country_event = {
             
             658 = { secede_province = JAP add_core = JAP }
 			
-			remove_country_modifier = japan_economy_overheat_timer
-			add_country_modifier = {
-				name = japan_economy_overheat_timer
-				duration = 3650
-			}
-			any_country = {
-				limit = {
-					has_country_modifier = japan_economy_overheated
-				}
-				remove_country_modifier = japan_economy_overheated
-			}
             			
 			set_global_flag = hawaii_taken
     }
 }
 
-country_event = {
-	id = 999003
-	title = "EVTNAME999003"
-    desc = "EVTDESC999003"
-	picture = "japanese_power"
-	
-	is_triggered_only = yes
-
-	option = {
-		name = "EVTOPTA999003"
-		years_of_research = 1
-        prestige = 10
-        badboy = 22
-        add_country_modifier = {
-            name = meiji_restoration_boost
-            duration = 7200
-		}
-        casus_belli = {
-			target = KOR
-			type = make_puppet
-			months = 60
-		}
-        set_country_flag = meiji_restoration_boost2
-	}
-}
