@@ -227,6 +227,8 @@ political_decisions = {
 			KOR = {
 				is_vassal = yes
 				civilized = no
+			}
+			JAP = {
 				has_country_flag = iwakura_mission_finished
 			}
 		}
@@ -280,7 +282,6 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = JAP
-				tag = RUS
 			}
 		}
 		allow = {
@@ -297,7 +298,10 @@ political_decisions = {
 			}
 		}
 		effect = {
-			country_event = { id = 106200 days = 0 }
+			1089 = { secede_province = JAP }
+			1087 = { secede_province = JAP }
+			1086 = { secede_province = RUS }
+			1088 = { secede_province = RUS }
 		}
 	}
 }

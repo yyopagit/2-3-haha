@@ -719,7 +719,7 @@ guiTypes = {
 			windowType = {
 				name = "military_politics"
 				backGround =""
-				position = { x = 691 y = 512 }
+				position = { x = 691 y = 451 }
 				size = { x=310 y=100 }
 				moveable = 0
 				dontRender = ""

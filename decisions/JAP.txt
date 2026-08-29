@@ -1,73 +1,4 @@
 political_decisions = {
-    korea_invasion = {
-        picture = reichsland_elsass
-        potential = {
-            tag = JAP
-            NOT = { has_global_flag = korea_conquered }
-        }
-        allow = {
-            owns = 1624
-            owns = 1619
-            owns = 1626
-            owns = 1632
-        }
-        effect = {
-            prestige = 5
-            add_country_modifier = {
-                name = korea_yes
-                duration = -1
-            }
-            set_global_flag = korea_conquered
-        }
-    }
-    manchu_invasion_fast = {
-        picture = reichsland_elsass
-        potential = {
-            tag = JAP
-            NOT = { has_global_flag = manchu_conquered }
-        }
-        allow = {
-            owns = 1555
-            owns = 1619
-            owns = 1624
-            NOT = { year = 1845 }
-        }
-        effect = {
-            prestige = 20
-            add_country_modifier = {
-                name = fast_manchu
-                duration = -1
-            }
-            CHI_1553 = { 
-                any_pop = {
-                    limit = {
-                        type = bureaucrats
-                        is_accepted_culture = no
-                    }
-                    pop_type = farmers
-                }
-            }
-            set_global_flag = manchu_conquered
-        }
-    }
-    taiwan_invasion = {
-        picture = reichsland_elsass
-        potential = {
-            tag = JAP
-            NOT = { has_global_flag = taiwan_conquered }
-        }
-        allow = {
-            owns = 1485
-            owns = 2562
-            year = 1850
-        }
-        effect = {
-            prestige = 20
-            set_global_flag = taiwan_conquered
-            2521 = { add_core = JAP }
-            658 = { add_core = JAP }
-        }
-    }
     hawaii_invasion = {
         picture = reichsland_elsass
         potential = {
@@ -87,22 +18,6 @@ political_decisions = {
                     duration = -1
                 }
             }
-        }
-    }
-    phillipines_invasion = {
-        picture = reichsland_elsass
-        potential = {
-            tag = JAP
-            NOT = { has_global_flag = phillipines_conquered }
-        }
-        allow = {
-            SPA_1463 = { owned_by = JAP }
-            SPA_1455 = { owned_by = JAP }
-            SPA_1459 = { owned_by = JAP }
-        }
-        effect = {
-            prestige = 20
-            set_global_flag = phillipines_conquered
         }
     }
     toyota_corp = {

@@ -253,14 +253,19 @@ political_decisions = {
 		allow = {
 			is_greater_power = yes
 			money = 150000
-			MCK = {
-					owns = 1082 }
+			OR = {
+				MCK = { owns = 1082 }
+				CHI = { owns = 1082 }
+			}
 			NOT = {
-				CHI = {
-					owns = 	1481
+					OR = {
+						CHI = { owns = 1481 }
+						CHI = { owns = 1566 }
+						CHI = { owns = 1538 }
+						CHI = { owns = 1496 }
+						CHI = { owns = 1498 }
 				}
 			}
-		}
 		effect = {
 			CHI_1082 = {
 				add_core = RUS
@@ -580,53 +585,54 @@ pribalts3 = {
 
 	russian_qing_central_asia = {
 
-	potential = {
-		tag = RUS
-		NOT = {
-			has_country_flag = russian_qing_central_asia
-		}
-	}
-
-	allow = {
-		war = no
+		potential = {
+			tag = RUS
 			NOT = {
-			CHI = {
-				owns = 1481
+				has_country_flag = russian_qing_central_asia
 			}
+		}
+
+		allow = {
+			war = no
+				NOT = {
+					OR = {
+						CHI = { owns = 1481 }
+						CHI = { owns = 1566 }
+						CHI = { owns = 1538 }
+						CHI = { owns = 1496 }
+						CHI = { owns = 1498 }
+				}
+				RUS = {
+					owns = 1206
+					owns = 1191
+					owns = 1181
+					owns = 1202
+				}
+		}
+
+		effect = {
+			set_country_flag = russian_qing_central_asia
+
+			1190 = {
+				secede_province = RUS
 			}
-	}
-
-	effect = {
-		set_country_flag = russian_qing_central_asia
-
-		KOK_1190 = {
-			add_core = RUS
+			1186 = {
+				secede_province = RUS
+			}
+			1188 = {
+				secede_province = RUS
+			}
+			1068 = {
+				secede_province = RUS
+			}
+			1469 = {
+				secede_province = RUS
+			}
 		}
 
-		RUS_1182 = {
-			add_core = RUS
+		ai_will_do = {
+			factor = 1
 		}
-
-		1190 = {
-			secede_province = RUS
-		}
-		1186 = {
-			secede_province = RUS
-		}
-		1188 = {
-			secede_province = RUS
-		}
-		1068 = {
-			secede_province = RUS
-		}
-		1469 = {
-			secede_province = RUS
-		}
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
 }
 }
 
