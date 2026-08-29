@@ -167,55 +167,5 @@ political_decisions = {
 			set_country_flag = MCK_removed
 		}
 	}
-	####Снятие дебаффов с регионов
-	###Экономическая зона желтого моря
-	CHI_yellowSea_zone_reduce_high = {
-		picture = CHI_yellowSea_zone
-		potential = {
-			tag = CHI
-			has_country_flag = yellowSea_zone_high
-			NOT = { has_country_flag = CHI_yellowSea_zone_reduce_high_done }
-		}
-		allow = {
-			
-		}
-		effect = {
-			prestige = 25
-			set_country_flag = CHI_yellowSea_zone_reduce_high_done
-			clr_country_flag = yellowSea_zone_high
-			set_country_flag = yellowSea_zone_medium
-		}
-	}
-	CHI_yellowSea_zone_reduce_medium = {
-		picture = CHI_yellowSea_zone
-		potential = {
-			tag = CHI
-			has_country_flag = yellowSea_zone_medium
-			NOT = { has_country_flag = CHI_yellowSea_zone_reduce_medium_done }
-		}
-		allow = {
-			
-		}
-		effect = {
-			set_country_flag = CHI_yellowSea_zone_reduce_medium_done
-			clr_country_flag = yellowSea_zone_medium
-			set_country_flag = yellowSea_zone_low
-		}
-	}
-	CHI_yellowSea_zone_reduce_low = {
-		picture = CHI_yellowSea_zone
-		potential = {
-			tag = CHI
-			has_country_flag = yellowSea_zone_low
-			NOT = { has_country_flag = CHI_yellowSea_zone_reduce_low_done }
-		}
-		allow = {
-			
-		}
-		effect = {
-			set_country_flag = CHI_yellowSea_zone_reduce_low_done
-			clr_country_flag = yellowSea_zone_low
-		}
-	}
 }
 
