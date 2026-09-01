@@ -250,17 +250,6 @@ form_indochina = {
 			}
 		}
 
-		JOH = {
-			all_core = {
-				OR = {
-					owned_by = THIS
-					owner = {
-						in_sphere = THIS
-					}
-				}
-			}
-		}
-
 		CAM = {
 			all_core = {
 				OR = {
