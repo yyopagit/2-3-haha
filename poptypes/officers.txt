@@ -270,6 +270,14 @@ soldiers =
 				recruited_percentage = 0.60
 			}
 		}
+		
+		modifier = {
+			factor =  -100
+			continent = china
+			soldiers = 0.012
+		}
+		
+		
 
 		modifier = {
 			factor = 0

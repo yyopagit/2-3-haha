@@ -655,6 +655,12 @@ clerks = {
 			factor = 1.05
 			country = { military_politics = regular_army }
 		}
+		
+		modifier = {
+			factor =  -100
+			continent = china
+			soldiers = 0.012
+		}
 
 		modifier = {
 			factor = 0

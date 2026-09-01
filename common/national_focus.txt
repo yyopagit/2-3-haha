@@ -137,6 +137,9 @@ promotion_focus =
 		outliner_show_as_percent = yes
 		limit = { 
 			civilized = yes
+			NOT = { 
+				continent = china
+			}
 		}
 	}
 #	promote_craftsmen2 =
@@ -187,6 +190,9 @@ promotion_focus =
 		icon = 15
 		outliner_show_as_percent = yes
 		limit = {
+			NOT = { 
+				continent = china
+			}
 		}
 	}
 	promote_clerks =

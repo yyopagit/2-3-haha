@@ -501,6 +501,13 @@ promote_to =
 			country = { has_country_flag = CHI_patchwork_empire }
 			soldiers = 0.02
 		}
+		
+		modifier = {
+			factor =  -100
+			continent = china
+			soldiers = 0.012
+		}
+		
 		group = {
 			modifier = {
 				factor = -4
